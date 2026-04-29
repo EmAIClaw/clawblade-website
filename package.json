@@ -1,0 +1,30 @@
+{
+  "name": "albumvault",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "prepare:catalog": "node scripts/prepare-catalog.mjs",
+    "prepare:catalog:offline": "node scripts/prepare-catalog.mjs --offline",
+    "fill:covers": "node scripts/fill-missing-covers.mjs",
+    "generate:encyclopedia": "node scripts/generate-encyclopedia.mjs",
+    "prepare:data": "npm run prepare:catalog && npm run generate:encyclopedia"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^8.0.10"
+  }
+}

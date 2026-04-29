@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Album cover placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3b342a"/>
+      <stop offset="0.55" stop-color="#191715"/>
+      <stop offset="1" stop-color="#0f1514"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g)"/>
+  <circle cx="300" cy="300" r="188" fill="none" stroke="#c6a15b" stroke-width="18" opacity=".72"/>
+  <circle cx="300" cy="300" r="62" fill="none" stroke="#eee2ca" stroke-width="14" opacity=".8"/>
+  <path d="M150 420c62-39 115-55 160-47 39 7 79 4 120-10 28-10 53-24 75-42" fill="none" stroke="#2b8f83" stroke-width="16" stroke-linecap="round" opacity=".65"/>
+  <text x="300" y="536" fill="#eee2ca" font-family="Georgia, serif" font-size="38" text-anchor="middle" letter-spacing="4">ALBUMVAULT</text>
+</svg>
