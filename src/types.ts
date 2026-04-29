@@ -83,4 +83,6 @@ export type VaultState = {
   updatedAt: string;
 };
 
+export type Sort = "rank" | "title" | "artist" | "year" | "genre" | "rating";
+export type ViewMode = "list" | "grid";
 export type View = "dashboard" | "collection" | "album" | "session" | "insights";

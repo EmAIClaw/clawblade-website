@@ -399,6 +399,16 @@ main {
   min-height: 2.5rem;
 }
 
+.stripItem.readonly {
+  cursor: default;
+  border: 1px solid var(--line);
+}
+
+.stripItem.readonly:hover {
+  border-color: var(--line);
+  background: #171512;
+}
+
 .compactList {
   margin: 0;
   padding: 0;
@@ -689,6 +699,233 @@ main {
   height: 100%;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--teal), var(--brass));
+}
+
+/* Star Rating */
+.starRating {
+  display: flex;
+  gap: 0.15rem;
+  margin: 0.7rem 0;
+}
+
+.starBtn {
+  padding: 0.2rem;
+  border: 0;
+  background: transparent;
+  color: var(--brass);
+  cursor: pointer;
+  min-height: auto;
+}
+
+.starBtn:hover {
+  transform: scale(1.15);
+  background: transparent;
+  border: 0;
+}
+
+/* Audio Preview */
+.previewBtn {
+  width: 2rem;
+  min-height: 2rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #24211d;
+  color: var(--teal);
+  flex-shrink: 0;
+}
+
+.previewBtn:hover {
+  color: var(--ivory);
+  border-color: var(--brass);
+  background: #2f2a23;
+}
+
+/* Grid View */
+.albumGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.8rem;
+}
+
+.albumCard {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #151310;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.albumCard:hover {
+  border-color: rgba(199, 164, 91, 0.6);
+  transform: translateY(-2px);
+}
+
+.albumCard .cover {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cardInfo {
+  padding: 0.7rem 0.8rem 0.8rem;
+}
+
+.cardInfo strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardBadges {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.ownedBadge {
+  background: rgba(47, 157, 143, 0.18);
+  color: var(--teal);
+}
+
+.doneBadge {
+  background: rgba(189, 81, 72, 0.16);
+  color: var(--crimson);
+}
+
+.ratedBadge {
+  background: rgba(199, 164, 91, 0.18);
+  color: var(--brass);
+}
+
+/* Row badges / mini rating */
+.rowBadges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.miniRating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: rgba(199, 164, 91, 0.14);
+  color: var(--brass);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* Sort box & view toggle */
+.sortBox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 8.5rem;
+  min-height: 2.8rem;
+  padding-left: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #11100e;
+}
+
+.sortBox select {
+  border: 0;
+  background: transparent;
+}
+
+.viewToggle {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.viewToggle button {
+  border: 0;
+  border-radius: 0;
+  min-height: 2.8rem;
+  width: 2.8rem;
+  background: transparent;
+}
+
+.viewToggle button.active {
+  background: rgba(199, 164, 91, 0.18);
+  color: var(--brass);
+}
+
+.viewToggle button:first-child {
+  border-right: 1px solid var(--line);
+}
+
+/* Clear search */
+.clearSearch {
+  min-height: 1.8rem;
+  width: 1.8rem;
+  padding: 0;
+  margin-right: 0.4rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.clearSearch:hover {
+  color: var(--text);
+  background: transparent;
+}
+
+/* Result count */
+.resultCount {
+  margin-top: 1rem;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+/* Avg rating highlight */
+.avgRating {
+  color: var(--brass);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Mini stars in strip */
+.miniStars {
+  display: flex;
+  gap: 0.12rem;
+  margin-top: 0.3rem;
+  color: var(--brass);
+}
+
+/* Keyboard shortcut hint */
+.kbdHint {
+  margin-left: 0.5rem;
+  padding: 0.12rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(36, 33, 29, 0.7);
+  font-size: 0.65rem;
+  font-family: ui-monospace, monospace;
+  color: var(--muted);
 }
 
 @media (max-width: 980px) {
