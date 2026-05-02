@@ -448,7 +448,29 @@ function App() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  function handlePreviewToggle(previewUrl: string) {
+  function playNextTrack(albumId: string, fromIndex: number) {
+    const album = albums.find((a) => a.id === albumId);
+    if (!album) return;
+    for (let i = fromIndex + 1; i < album.tracks.length; i++) {
+      if (album.tracks[i].previewUrl) {
+        const audio = new Audio(album.tracks[i].previewUrl!);
+        audioRef.current = audio;
+        audio.addEventListener("ended", () => {
+          setPlayingPreview(null);
+          playNextTrack(albumId, i);
+        });
+        audio.play();
+        setPlayingPreview(album.tracks[i].previewUrl!);
+        return;
+      }
+    }
+  }
+
+  function handlePreviewToggle(
+    previewUrl: string,
+    albumId: string,
+    trackIndex: number
+  ) {
     if (playingPreview === previewUrl) {
       audioRef.current?.pause();
       setPlayingPreview(null);
@@ -459,7 +481,10 @@ function App() {
     }
     const audio = new Audio(previewUrl);
     audioRef.current = audio;
-    audio.addEventListener("ended", () => setPlayingPreview(null));
+    audio.addEventListener("ended", () => {
+      setPlayingPreview(null);
+      playNextTrack(albumId, trackIndex);
+    });
     audio.play();
     setPlayingPreview(previewUrl);
   }
@@ -589,8 +614,6 @@ function App() {
             openAlbum={openAlbum}
             updateAlbum={updateAlbum}
             searchInputRef={searchInputRef}
-            playingPreview={playingPreview}
-            handlePreviewToggle={handlePreviewToggle}
           />
         )}
 
@@ -755,8 +778,6 @@ function CollectionView({
   openAlbum,
   updateAlbum,
   searchInputRef,
-  playingPreview,
-  handlePreviewToggle
 }: {
   filteredAlbums: Album[];
   query: string;
@@ -773,8 +794,6 @@ function CollectionView({
   openAlbum: (id: string) => void;
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
   searchInputRef: React.RefObject<HTMLInputElement>;
-  playingPreview: string | null;
-  handlePreviewToggle: (url: string) => void;
 }) {
   return (
     <section className="panel full">
@@ -986,7 +1005,11 @@ function AlbumDetail({
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
   startSession: () => void;
   playingPreview: string | null;
-  handlePreviewToggle: (url: string) => void;
+  handlePreviewToggle: (
+    previewUrl: string,
+    albumId: string,
+    trackIndex: number
+  ) => void;
 }) {
   const guideByTitle = new Map(
     (entry?.trackGuide ?? []).map((guide) => [
@@ -1119,7 +1142,7 @@ function AlbumDetail({
         </div>
         {album.tracks.length ? (
           <div className="trackList">
-            {album.tracks.map((track) => {
+            {album.tracks.map((track, idx) => {
               const guide = guideByTitle.get(track.title);
               return (
                 <article
@@ -1137,7 +1160,11 @@ function AlbumDetail({
                         playingPreview === track.previewUrl
                       }
                       onToggle={() =>
-                        handlePreviewToggle(track.previewUrl!)
+                        handlePreviewToggle(
+                          track.previewUrl!,
+                          album.id,
+                          idx
+                        )
                       }
                     />
                   )}
