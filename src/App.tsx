@@ -443,14 +443,21 @@ function App() {
   }, [filter, query, state, sortBy]);
 
   const topQueue = useMemo(() => {
-    // Prioritize owned AND unlistened, then fill remainder with unowned unlistened
-    const ownedUnheard = albums.filter(
-      (album) => state.albums[album.id]?.owned && !state.albums[album.id]?.listened
-    );
-    const unownedUnheard = albums.filter(
-      (album) => !state.albums[album.id]?.owned && !state.albums[album.id]?.listened
-    );
-    return [...ownedUnheard, ...unownedUnheard].slice(0, 6);
+    // Only owned albums, sorted by: unlistened first, then longest-gap-since-listened
+    const owned = albums.filter((album) => state.albums[album.id]?.owned);
+    const now = Date.now();
+    owned.sort((a, b) => {
+      const aState = state.albums[a.id] ?? {};
+      const bState = state.albums[b.id] ?? {};
+      // Unlistened first
+      if (!aState.listened && bState.listened) return -1;
+      if (aState.listened && !bState.listened) return 1;
+      // Then longest gap since last listened (null lastListened = never = longest gap)
+      const aLast = aState.lastListened ? new Date(aState.lastListened).getTime() : 0;
+      const bLast = bState.lastListened ? new Date(bState.lastListened).getTime() : 0;
+      return aLast - bLast;
+    });
+    return owned.slice(0, 6);
   }, [state]);
 
   const randomAlbum = useMemo(() => {
