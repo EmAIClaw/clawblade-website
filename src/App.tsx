@@ -233,14 +233,16 @@ function Stat({
 }
 
 function AlbumCover({ album }: { album: Album }) {
+  const base = import.meta.env.BASE_URL;
+  const resolvePath = (p: string) => p.startsWith('/') ? `${base}${p.slice(1)}` : p;
   return (
     <img
       className="cover"
-      src={album.coverPath || "/covers/placeholder.svg"}
+      src={resolvePath(album.coverPath || "/covers/placeholder.svg")}
       alt={`${album.title} cover`}
       loading="lazy"
       onError={(e) => {
-        (e.target as HTMLImageElement).src = "/covers/placeholder.svg";
+        (e.target as HTMLImageElement).src = resolvePath("/covers/placeholder.svg");
       }}
     />
   );
