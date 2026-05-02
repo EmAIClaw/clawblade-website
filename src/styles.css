@@ -1134,3 +1134,61 @@ main {
 .spotifyLink:active {
   transform: translateY(0);
 }
+
+/* --- Spotify play buttons --- */
+
+.spotifyBtn {
+  background: #1DB954;
+  color: #000;
+  border-color: #1DB954;
+  font-weight: 600;
+}
+
+.spotifyBtn:hover {
+  background: #1ed760;
+  border-color: #1ed760;
+  color: #000;
+}
+
+.spotifyStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+}
+
+.spotifyDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.spotifyDot.connected {
+  background: #1DB954;
+  box-shadow: 0 0 6px rgba(29, 185, 84, 0.5);
+}
+
+.spotifyDot.disconnected {
+  background: var(--muted);
+}
+
+.trackSpotifyBtn {
+  width: 2rem;
+  min-height: 2rem;
+  padding: 0;
+  border: 1px solid #1DB954;
+  border-radius: 50%;
+  background: #1DB954;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.trackSpotifyBtn:hover {
+  background: #1ed760;
+  border-color: #1ed760;
+  color: #000;
+}

@@ -77,6 +77,24 @@ function todayIso() {
   return new Date().toISOString();
 }
 
+// --- Spotify PKCE OAuth helpers ---
+
+const SPOTIFY_CLIENT_ID = "your-client-id"; // Public for PKCE — replace with your Spotify Developer app Client ID
+const SPOTIFY_REDIRECT_URI = "https://clawblade.ai/";
+
+function generateCodeVerifier(): string {
+  const array = new Uint8Array(64);
+  crypto.getRandomValues(array);
+  return btoa(String.fromCharCode(...array))
+    .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+async function generateCodeChallenge(verifier: string): Promise<string> {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verifier));
+  return btoa(String.fromCharCode(...new Uint8Array(digest)))
+    .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
 function useVaultState() {
   const [state, setState] = useState<VaultState>(() => {
     const stored = localStorage.getItem("albumvault-state");
@@ -334,7 +352,135 @@ function App() {
   const searchInputRef = useRef<HTMLInputElement>(null!);
   const importInputRef = useRef<HTMLInputElement>(null);
 
-  // Spotify integration state
+  // Spotify OAuth token state
+  const [spotifyToken, setSpotifyToken] = useState<{
+    accessToken: string | null;
+    refreshToken: string | null;
+    expiresAt: number;
+    connected: boolean;
+  }>(() => {
+    try {
+      const stored = localStorage.getItem('albumvault-spotify');
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed.expiresAt > Date.now()) return { ...parsed, connected: true };
+        // Token expired — will refresh when needed
+        return { accessToken: null, refreshToken: parsed.refreshToken, expiresAt: 0, connected: false };
+      }
+    } catch { /* ignore corrupt data */ }
+    return { accessToken: null, refreshToken: null, expiresAt: 0, connected: false };
+  });
+
+  // Spotify Web Playback SDK refs
+  const spotifyPlayerRef = useRef<any>(null);
+  const spotifyDeviceIdRef = useRef<string | null>(null);
+  const spotifyCurrentTrackIndex = useRef<number>(-1);
+  const spotifyCurrentAlbumId = useRef<string | null>(null);
+
+  // Persist Spotify token changes
+  useEffect(() => {
+    if (spotifyToken.accessToken && spotifyToken.refreshToken && spotifyToken.expiresAt) {
+      localStorage.setItem('albumvault-spotify', JSON.stringify({
+        accessToken: spotifyToken.accessToken,
+        refreshToken: spotifyToken.refreshToken,
+        expiresAt: spotifyToken.expiresAt
+      }));
+    } else if (!spotifyToken.refreshToken) {
+      localStorage.removeItem('albumvault-spotify');
+    }
+  }, [spotifyToken]);
+
+  // Handle OAuth callback on page load
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    if (!code) return;
+
+    const codeVerifier = sessionStorage.getItem('albumvault-code-verifier');
+    sessionStorage.removeItem('albumvault-code-verifier');
+
+    // Clean URL
+    window.history.replaceState({}, '', window.location.pathname);
+
+    if (!codeVerifier) return;
+
+    (async () => {
+      try {
+        const response = await fetch('/.netlify/functions/spotify-auth', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'token', code, code_verifier: codeVerifier })
+        });
+        if (!response.ok) throw new Error('Token exchange failed');
+        const data = await response.json();
+        setSpotifyToken({
+          accessToken: data.access_token,
+          refreshToken: data.refresh_token,
+          expiresAt: Date.now() + (data.expires_in - 60) * 1000,
+          connected: true
+        });
+      } catch {
+        console.warn('AlbumVault: Spotify OAuth token exchange failed');
+      }
+    })();
+  }, []);
+
+  // --- Spotify connect / disconnect ---
+
+  async function connectSpotify() {
+    const verifier = generateCodeVerifier();
+    const challenge = await generateCodeChallenge(verifier);
+    sessionStorage.setItem('albumvault-code-verifier', verifier);
+    const params = new URLSearchParams({
+      client_id: SPOTIFY_CLIENT_ID,
+      response_type: 'code',
+      redirect_uri: SPOTIFY_REDIRECT_URI,
+      scope: 'streaming user-read-email user-read-private',
+      code_challenge_method: 'S256',
+      code_challenge: challenge
+    });
+    window.location.href = `https://accounts.spotify.com/authorize?${params}`;
+  }
+
+  function disconnectSpotify() {
+    if (spotifyPlayerRef.current) {
+      try { spotifyPlayerRef.current.disconnect(); } catch { /* ignore */ }
+      spotifyPlayerRef.current = null;
+    }
+    spotifyDeviceIdRef.current = null;
+    localStorage.removeItem('albumvault-spotify');
+    setSpotifyToken({ accessToken: null, refreshToken: null, expiresAt: 0, connected: false });
+  }
+
+  async function getValidAccessToken(): Promise<string | null> {
+    if (!spotifyToken.refreshToken) return null;
+
+    if (spotifyToken.accessToken && spotifyToken.expiresAt > Date.now()) {
+      return spotifyToken.accessToken;
+    }
+
+    // Token expired — refresh
+    try {
+      const response = await fetch('/.netlify/functions/spotify-auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'refresh', refresh_token: spotifyToken.refreshToken })
+      });
+      if (!response.ok) throw new Error('Refresh failed');
+      const data = await response.json();
+      const expiresAt = Date.now() + (data.expires_in - 60) * 1000;
+      const accessToken = data.access_token;
+      const refreshToken = data.refresh_token ?? spotifyToken.refreshToken;
+      setSpotifyToken({ accessToken, refreshToken, expiresAt, connected: true });
+      return accessToken;
+    } catch {
+      // Refresh failed — disconnect
+      disconnectSpotify();
+      return null;
+    }
+  }
+
+  // Spotify search state
   const [spotifyResult, setSpotifyResult] = useState<{
     spotifyTrackUrl: string | null;
     spotifyAlbumUrl: string | null;
@@ -385,6 +531,144 @@ function App() {
       lookupSpotify(selectedAlbumId);
     }
   }, [selectedAlbumId]);
+
+  // --- Spotify Web Playback SDK initialization ---
+
+  function playNextTrackOnSpotify(albumId: string, fromIndex: number) {
+    const album = albums.find(a => a.id === albumId);
+    if (!album || !spotifyToken.connected) return;
+
+    spotifyCurrentAlbumId.current = albumId;
+
+    (async () => {
+      for (let i = fromIndex + 1; i < album.tracks.length; i++) {
+        const track = album.tracks[i];
+        if (!track.title) continue;
+
+        const token = await getValidAccessToken();
+        if (!token) break;
+
+        try {
+          const q = encodeURIComponent(`${album.artist} ${track.title}`);
+          const response = await fetch(`/.netlify/functions/spotify?q=${q}`);
+          const data = await response.json();
+          const uri = data.spotifyTrackUri;
+          if (!uri) continue;
+
+          spotifyCurrentTrackIndex.current = i;
+          const deviceId = spotifyDeviceIdRef.current;
+          if (!deviceId) continue;
+
+          // Transfer playback to our device
+          await fetch('https://api.spotify.com/v1/me/player', {
+            method: 'PUT',
+            headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ device_ids: [deviceId], play: false })
+          });
+          // Play the track
+          await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+            method: 'PUT',
+            headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ uris: [uri] })
+          });
+          return;
+        } catch {
+          // Try next track
+          continue;
+        }
+      }
+    })();
+  }
+
+  async function playOnSpotify(artist: string, trackTitle: string, albumId: string, trackIndex: number) {
+    const token = await getValidAccessToken();
+    if (!token) return;
+
+    spotifyCurrentAlbumId.current = albumId;
+    spotifyCurrentTrackIndex.current = trackIndex;
+
+    try {
+      const q = encodeURIComponent(`${artist} ${trackTitle}`);
+      const response = await fetch(`/.netlify/functions/spotify?q=${q}`);
+      const data = await response.json();
+      const uri = data.spotifyTrackUri;
+      if (!uri) return;
+
+      const deviceId = spotifyDeviceIdRef.current;
+      if (!deviceId) return;
+
+      // Transfer + play
+      await fetch('https://api.spotify.com/v1/me/player', {
+        method: 'PUT',
+        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ device_ids: [deviceId], play: false })
+      });
+      await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+        method: 'PUT',
+        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ uris: [uri] })
+      });
+    } catch {
+      // Graceful degradation — fail silently
+    }
+  }
+
+  // Initialize Spotify Web Playback SDK when connected
+  useEffect(() => {
+    if (!spotifyToken.connected || !spotifyToken.accessToken) return;
+
+    let cancelled = false;
+    let player: any = null;
+
+    function initPlayer() {
+      const Spotify = (window as any).Spotify;
+      if (!Spotify) return;
+
+      player = new Spotify.Player({
+        name: 'AlbumVault',
+        getOAuthToken: (cb: (token: string) => void) => {
+          getValidAccessToken().then(token => { if (token) cb(token); });
+        }
+      });
+
+      player.addListener('ready', ({ device_id }: { device_id: string }) => {
+        if (cancelled) return;
+        spotifyDeviceIdRef.current = device_id;
+      });
+
+      player.addListener('not_ready', () => {
+        spotifyDeviceIdRef.current = null;
+      });
+
+      player.addListener('player_state_changed', (state: any) => {
+        if (cancelled || !state) return;
+        // Auto-continue: when track ends, play next
+        if (state.paused && state.position > 0 && state.duration > 0) {
+          const nearEnd = state.position > state.duration - 2000;
+          if (nearEnd && spotifyCurrentAlbumId.current && spotifyCurrentTrackIndex.current >= 0) {
+            playNextTrackOnSpotify(spotifyCurrentAlbumId.current, spotifyCurrentTrackIndex.current);
+          }
+        }
+      });
+
+      player.connect();
+    }
+
+    // Wait for SDK to be available
+    if ((window as any).Spotify) {
+      initPlayer();
+    } else {
+      const onReady = () => initPlayer();
+      (window as any).onSpotifyWebPlaybackSDKReady = onReady;
+    }
+
+    return () => {
+      cancelled = true;
+      if (player) {
+        try { player.disconnect(); } catch { /* ignore */ }
+      }
+    };
+  }, [spotifyToken.connected, spotifyToken.accessToken]);
 
   const selectedAlbum =
     albums.find((album) => album.id === selectedAlbumId) ?? albums[0];
@@ -616,6 +900,21 @@ function App() {
             </button>
           </div>
           <p className={`cloudStatus ${cloudStatus}`}>{cloudMessage}</p>
+          <div className="spotifyStatus">
+            <span className={`spotifyDot ${spotifyToken.connected ? 'connected' : 'disconnected'}`} />
+            {spotifyToken.connected ? (
+              <>
+                <span>Spotify connected</span>
+                <button onClick={disconnectSpotify} style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+                  Disconnect
+                </button>
+              </>
+            ) : (
+              <button onClick={connectSpotify} className="spotifyBtn" style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+                Connect Spotify
+              </button>
+            )}
+          </div>
         </section>
       </aside>
 
@@ -693,6 +992,8 @@ function App() {
             spotifyUri={spotifyResult.spotifyAlbumUri}
             spotifyConfigured={spotifyResult.configured}
             spotifyLoading={spotifyResult.loading}
+            spotifyConnected={spotifyToken.connected}
+            playOnSpotify={playOnSpotify}
           />
         )}
 
@@ -1057,7 +1358,9 @@ function AlbumDetail({
   spotifyUrl,
   spotifyUri,
   spotifyConfigured,
-  spotifyLoading
+  spotifyLoading,
+  spotifyConnected,
+  playOnSpotify
 }: {
   album: Album;
   entry?: EncyclopediaEntry;
@@ -1074,6 +1377,8 @@ function AlbumDetail({
   spotifyUri: string | null;
   spotifyConfigured: boolean;
   spotifyLoading: boolean;
+  spotifyConnected: boolean;
+  playOnSpotify: (artist: string, trackTitle: string, albumId: string, trackIndex: number) => void;
 }) {
   const [sessionActive, setSessionActive] = useState(false);
   const [sessionNotes, setSessionNotes] = useState("");
@@ -1188,7 +1493,7 @@ function AlbumDetail({
               <ListMusic size={17} /> Start listening session
             </button>
           ) : null}
-          {spotifyUrl && (
+          {spotifyConnected && spotifyUrl && (
             <a
               href={spotifyUrl}
               target="_blank"
@@ -1196,16 +1501,31 @@ function AlbumDetail({
               className="button spotifyLink"
               style={{ marginTop: '0.5rem' }}
             >
-              <Headphones size={17} /> Listen on Spotify
+              <Headphones size={17} /> Open on Spotify
               <ExternalLink size={12} />
             </a>
           )}
-          {!spotifyConfigured && spotifyLoading && (
+          {spotifyConnected && !spotifyConfigured && (
+            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
+              <Music size={14} /> Album not found on Spotify
+            </span>
+          )}
+          {!spotifyConnected && spotifyConfigured && spotifyUrl && (
+            <button
+              className="spotifyBtn"
+              onClick={() => window.open(spotifyUrl!, '_blank', 'noreferrer')}
+              style={{ marginTop: '0.5rem' }}
+            >
+              <Headphones size={16} /> Listen on Spotify
+              <ExternalLink size={11} />
+            </button>
+          )}
+          {!spotifyConnected && !spotifyConfigured && spotifyLoading && (
             <span className="chip muted" style={{ marginTop: '0.5rem' }}>
               <Music size={14} /> Searching Spotify…
             </span>
           )}
-          {!spotifyConfigured && !spotifyLoading && (
+          {!spotifyConnected && !spotifyConfigured && !spotifyLoading && (
             <span className="chip muted" style={{ marginTop: '0.5rem' }}>
               <Music size={14} /> Add SPOTIFY_CLIENT_ID + SPOTIFY_CLIENT_SECRET env vars for Spotify links
             </span>
@@ -1338,21 +1658,32 @@ function AlbumDetail({
                   <span>
                     {track.trackNumber || <CircleDot size={12} />}
                   </span>
-                  {track.previewUrl && (
-                    <AudioPreview
-                      previewUrl={track.previewUrl}
-                      trackTitle={track.title}
-                      isPlaying={
-                        playingPreview === track.previewUrl
-                      }
-                      onToggle={() =>
-                        handlePreviewToggle(
-                          track.previewUrl!,
-                          album.id,
-                          idx
-                        )
-                      }
-                    />
+                  {spotifyConnected ? (
+                    <button
+                      className="trackSpotifyBtn"
+                      onClick={() => playOnSpotify(album.artist, track.title, album.id, idx)}
+                      aria-label={`Play ${track.title} on Spotify`}
+                      title={`Play on Spotify: ${track.title}`}
+                    >
+                      <Play size={14} />
+                    </button>
+                  ) : (
+                    track.previewUrl && (
+                      <AudioPreview
+                        previewUrl={track.previewUrl}
+                        trackTitle={track.title}
+                        isPlaying={
+                          playingPreview === track.previewUrl
+                        }
+                        onToggle={() =>
+                          handlePreviewToggle(
+                            track.previewUrl!,
+                            album.id,
+                            idx
+                          )
+                        }
+                      />
+                    )
                   )}
                   <div>
                     <strong>{track.title}</strong>
