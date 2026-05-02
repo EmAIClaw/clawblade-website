@@ -221,25 +221,25 @@
         },
         {
           "trackTitle": "What's Happening Brother",
-          "guide": "A deeply personal song about Marvin's brother Frankie returning from Vietnam, featuring sparse instrumentation that highlights the emotional lyrics.",
+          "guide": "Marvin Gaye wrote this deeply personal tribute to his brother Frankie, who served three years in Vietnam. Listen for the mournful flute doubling the vocal melody, the understated congas, and how the arrangement leaves space around Marvin's voice \u2014 the sparseness mirrors the emotional weight of a soldier's return.",
           "focus": "Personal narrative and Vietnam War impact",
           "source": null
         },
         {
           "trackTitle": "Flyin' High (In the Friendly Sky)",
-          "guide": "Addresses drug addiction with surprisingly upbeat music contrasting serious lyrics, featuring prominent string arrangements.",
+          "guide": "Gaye's meditation on heroin addiction uses deceptively gentle bossa nova rhythms and lush strings to mask its darkness. The contrast between the soaring orchestral arrangement and lyrics about 'the friendly sky' \u2014 a euphemism for the high \u2014 creates one of soul music's most unsettling juxtapositions.",
           "focus": "Addiction and contrast",
           "source": null
         },
         {
           "trackTitle": "Save the Children",
-          "guide": "A hopeful plea for future generations, notable for its ascending melody and optimistic message amidst the album's darker themes.",
+          "guide": "A brief but powerful interlude built around a repeating four-note ascending motif. Gaye's layered backing vocals create a gospel choir effect, while the lyrical plea for future generations anchors the album's moral vision \u2014 this is the hinge point between the album's social critique and its spiritual redemption arc.",
           "focus": "Hope and future generations",
           "source": null
         },
         {
           "trackTitle": "God Is Love",
-          "guide": "Features some of the album's most sophisticated vocal arrangements, with Marvin's voice creating a gospel-like choir effect.",
+          "guide": "At under two minutes, this is the album's shortest track but its most intricate vocal arrangement. Gaye triple-tracked his voice into a self-harmonizing gospel quartet, with the Funky Brothers providing a slow, church-like groove underneath. The lyric reflects Gaye's renewed faith after years of personal turmoil.",
           "focus": "Spirituality and vocal arrangement",
           "source": null
         },
@@ -257,7 +257,7 @@
         },
         {
           "trackTitle": "Wholy Holy",
-          "guide": "A beautiful, spiritual closing track that brings the album full circle with its gospel-inspired sound and message of unity.",
+          "guide": "The penultimate track brings the album's spiritual thread to a climax. Gaye recorded multiple vocal takes and layered them into a virtual choir, while the arrangement swells from a whisper to a full orchestral crescendo. The song's message of universal unity prefigures the conscious soul movement of the early 1970s.",
           "focus": "Spirituality and closure",
           "source": null
         },
@@ -321,7 +321,7 @@
       "trackGuide": [
         {
           "trackTitle": "Wouldn't It Be Nice",
-          "guide": "The album's opening track features an innovative key change and sophisticated chord progression that was highly unusual for pop music in 1966.",
+          "guide": "Brian Wilson collaborated with Tony Asher on this deceptively complex opener \u2014 listen for the startling key change on the word 'nice,' the syncopated drum fills by Hal Blaine, and the twelve-string guitar shimmer that creates the track's sun-drenched euphoria while masking lyrics of pure teenage frustration.",
           "focus": "Musical sophistication and innovation",
           "source": null
         },
@@ -333,7 +333,7 @@
         },
         {
           "trackTitle": "That's Not Me",
-          "guide": "Shows Brian's maturing lyrical perspective, moving away from simple surf themes to more introspective content about authenticity and self-acceptance.",
+          "guide": "Mike Love's lead vocal anchors this introspective track, but the real innovation is in the arrangement: the distinctive tack piano (thumbtacks in the hammers for a percussive twang), the gradual build of backing vocals, and the use of silence between phrases that creates a confessional, almost awkward intimacy.",
           "focus": "Lyrical maturity",
           "source": null
         },
@@ -381,7 +381,7 @@
         },
         {
           "trackTitle": "I Just Wasn't Made for These Times",
-          "guide": "One of the album's most autobiographical tracks, reflecting Brian's feelings of alienation and not fitting in with contemporary music trends.",
+          "guide": "The album's emotional core finds Brian Wilson singing his most autobiographical lyrics through a theremin's ethereal wail. Hal Blaine's tympani rolls punctuate each verse like thunder, while the complex key changes \u2014 shifting mood with each modulation \u2014 mirror the instability Wilson describes in the lyric.",
           "focus": "Autobiographical content and alienation",
           "source": null
         },
@@ -451,7 +451,7 @@
       "trackGuide": [
         {
           "trackTitle": "All I Want",
-          "guide": "The album's opening track establishes its intimate tone with sparse guitar accompaniment and lyrics that blend romantic longing with spiritual seeking.",
+          "guide": "The album closer features Mitchell's distinctive open-tuned guitar work creating a drone-like bed for her vocal. The lyric cycles back to the album's opening themes of searching and restlessness, creating a circular structure that mirrors the journey's incompleteness \u2014 the seeking never resolves, it only deepens.",
           "focus": "Intimate tone and lyrical themes",
           "source": null
         },
@@ -487,7 +487,7 @@
         },
         {
           "trackTitle": "This Flight Tonight",
-          "guide": "An emotionally charged track believed to be about Mitchell's relationship with James Taylor, featuring urgent guitar playing and passionate vocals.",
+          "guide": "Mitchell's account of leaving a lover (believed to be James Taylor) is propelled by her urgent fingerpicking and a sudden electric guitar burst that simulates a plane's turbulence. The lyric's stream-of-consciousness quality \u2014 stars, engines, departure lounges \u2014 captures the dislocation of mid-flight heartbreak.",
           "focus": "Emotional intensity and relationship themes",
           "source": null
         },
@@ -499,7 +499,7 @@
         },
         {
           "trackTitle": "The Last Time I Saw Richard",
-          "guide": "References Mitchell's encounter with Richard Manuel of The Band, featuring her characteristic poetic lyrics and melodic sophistication.",
+          "guide": "Mitchell recounts a barroom conversation with The Band's Richard Manuel, tracing his descent from idealistic youth to bitter cynicism. The piano-driven arrangement is unusually dark for Mitchell \u2014 the descending chord progression mirrors Richard's fall, while her vocal shifts from observational detachment to raw empathy.",
           "focus": "Poetic lyrics and melodic sophistication",
           "source": null
         },
@@ -577,7 +577,7 @@
       "trackGuide": [
         {
           "trackTitle": "Isn't She Lovely",
-          "guide": "The opening track sets the album's spiritual tone with a slow, sermon-like build. Wonder's voice is dry and upfront, and the first two minutes are almost a cappella, accompanied only by a gentle Fender Rhodes. The message is a direct plea for love as a force against hatred.",
+          "guide": "Celebrating the birth of Wonder's daughter Aisha, the track opens with a harmonica solo and includes actual audio of baby Aisha crying at the end. The syncopated rhythm and Wonder's euphoric vocal \u2014 shifting from tender verses to a soaring, wordless bridge \u2014 capture the pure joy of new fatherhood in one of pop music's most life-affirming moments.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -609,6 +609,18 @@
           "trackTitle": "Track 16",
           "guide": "A philosophical love song that compares enduring affection to the constancy of natural cycles. The harmonic structure cycles through G, E-flat, and B-flat, with a pre-chorus that rises chromatically. The outro fades on a repeated 'always' as the backing vocals stack into a dense, shimmering wall.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "Sir Duke",
+          "guide": "A joyous tribute to Duke Ellington that opens with a four-bar horn fanfare arranged by Wonder himself. The track's infectious syncopated melody, built around a ii-V-I jazz progression, and the shoutout to jazz pioneers in the lyric \u2014 Basie, Miller, Satchmo \u2014 demonstrates Wonder's deep roots in the jazz tradition alongside his pop sensibility.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Pastime Paradise",
+          "guide": "Built on a brooding minor-key synthesizer drone and a synthesized string section, this track critiques materialism while borrowing its melody from a 17th-century hymn. Coolio's 1995 hit 'Gangsta's Paradise' famously looped the track's haunting chord progression for one of hip-hop's most commercially successful cross-generational samples.",
+          "focus": "",
           "source": null
         }
       ],
@@ -967,7 +979,32 @@
         "Read the album summary from Nevermind, then identify one audible detail that connects to the sourced context.",
         "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
       ],
-      "trackGuide": [],
+      "trackGuide": [
+        {
+          "trackTitle": "Smells Like Teen Spirit",
+          "guide": "Cobain's four-chord opening riff \u2014 the 'Teen Spirit' riff \u2014 borrowed its quiet-loud-quiet dynamic from the Pixies' 'Gigantic.' Producer Butch Vig recorded over 70 vocal takes for the chorus alone, while Dave Grohl's thunderous drum entrance at 0:36 announces the arrival of grunge to the mainstream. The song's structure (verse-chorus-verse-solo-chorus) is deliberately simple \u2014 the power is in the delivery.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Come as You Are",
+          "guide": "Built around a watery guitar riff processed through an Electro-Harmonix Small Clone chorus pedal, this track features Cobain's most melodic vocal. The lyric's invitation \u2014 'come as you are, as you were' \u2014 is undercut by the gun imagery ('and I swear that I don't have a gun') in the bridge, a duality Vig captured by keeping the mix dreamy rather than aggressive.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Lithium",
+          "guide": "Cobain alternates between murmured verses and screamed choruses in a song about a man finding religion after his girlfriend's death. The dynamic shift at the chorus \u2014 from clean arpeggios to full-band distortion \u2014 and Krist Novoselic's ascending two-note bass run before each refrain create the album's most dramatic emotional arc.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "In Bloom",
+          "guide": "Written about the jocks who'd eventually become Nirvana fans without understanding the band's irony, set to a pop melody built for arenas. Grohl's disco-influenced hi-hat pattern and the Beach Boys-inspired backing vocals epitomize Cobain's pop instincts hidden in punk clothing \u2014 the joke was on everyone who made it a hit.",
+          "focus": "",
+          "source": null
+        }
+      ],
       "themes": [
         "Static reference",
         "Source-backed facts",
@@ -1194,7 +1231,7 @@
       "trackGuide": [
         {
           "trackTitle": "Let's Go Crazy",
-          "guide": "The spoken sermon intro, delivered with mock-evangelical fervor, sets up the album\u2019s central tension between sacred and profane. The guitar solo at 2:47 is a compressed, melodic burst that cuts through the dense synth layers, and the final 30 seconds dissolve into a tape-speed manipulation effect that warps the entire mix.",
+          "guide": "The album opens with Prince's mock-sermon \u2014 'Dearly beloved, we are gathered here today to get through this thing called life' \u2014 before exploding into a synth-driven rock rave. The Oberheim OB-Xa riff and call-and-response guitar duel between Prince and Wendy Melvoin in the outro established him as both a pop star and a guitar virtuoso.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -1212,14 +1249,20 @@
         },
         {
           "trackTitle": "When Doves Cry",
-          "guide": "The bass-less arrangement leaves a cavernous space filled only by a syncopated drum pattern, stabbing keyboards, and a choir of Prince\u2019s own voice. The guitar break at 2:40 is a compressed, phased arpeggio that functions as the song\u2019s rhythmic anchor instead of a traditional solo.",
+          "guide": "Prince eliminated the bass guitar entirely from the mix \u2014 an unprecedented choice for a dance-pop single \u2014 leaving only a Linn LM-1 drum machine, synthesizer stabs, and his multi-tracked voice. The resulting claustrophobic sound perfectly mirrors the lyric's depiction of parental conflict and inherited dysfunction, and the song held the #1 spot for five weeks.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Purple Rain",
-          "guide": "Recorded live with a string section overdubbed later, the eight-and-a-half-minute track builds from a churchy organ intro to a guitar solo that quotes both blues and Hendrix. The final three minutes ride a repeating I-vi-IV-V progression while Prince ad-libs over the crowd, culminating in a held high note that segues into a gospel piano coda.",
+          "guide": "Recorded live at First Avenue in Minneapolis on August 3, 1983, this was Prince's first performance with guitarist Wendy Melvoin. The 8:41 track features one of rock's most cathartic solos \u2014 Prince heard Bob Seger's live album and wanted to capture that energy. Clare Fischer's string arrangement adds cinematic grandeur to the raw live foundation.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "I Would Die 4 U",
+          "guide": "A relentless synth-pop pulse built around a single chord progression that never resolves, creating a sense of forward motion without arrival. Prince's lyric deliberately blurs messianic imagery with romantic devotion \u2014 'I'm not a woman, I'm not a man' \u2014 while the minimal arrangement keeps the focus squarely on his most direct vocal performance.",
+          "focus": "",
           "source": null
         }
       ],
@@ -1579,13 +1622,13 @@
         },
         {
           "trackTitle": "To Zion (feat. Carlos Santana)",
-          "guide": "A declaration of Hill\u2019s decision to keep her first child despite industry pressure to terminate. Santana\u2019s guitar enters as a wordless voice of affirmation, and the choir that joins at 4:10 was recorded with members of a Jamaican church congregation, giving the climax a spontaneous, testimonial feel.",
+          "guide": "Hill's tribute to her first child, written against industry advice to terminate the pregnancy during her career peak. Santana's weeping guitar solo and the gospel choir elevate the track from personal confession to spiritual testimony, while the lyric's defiance \u2014 'look at your career, they said' \u2014 became a rallying cry for women in music.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Doo Wop (That Thing)",
-          "guide": "A two-part single that warns women and men separately about the pitfalls of superficial relationships, set to a throwback doo-wop piano sample replayed live. The song\u2019s structure splits cleanly at 1:40, with the second half pitched lower and delivered with a more urgent, sermonizing tone.",
+          "guide": "Split into two halves addressing men and women separately, Hill's cautionary tale about self-respect debuted at #1 \u2014 making her the first female rapper to achieve this with a debut solo single. The split-screen video and layered vocal arrangements (Hill sings all harmonies) became one of the defining moments of 1990s R&B.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -5582,7 +5625,32 @@
         "No confident album source was matched; treat this as a metadata-only entry until a source is added.",
         "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
       ],
-      "trackGuide": [],
+      "trackGuide": [
+        {
+          "trackTitle": "Nikes",
+          "guide": "Ocean's pitched-up vocal \u2014 a recurring technique on Blonde \u2014 opens the album over an ambient drone before the beat drops at 1:30 with a distorted bass pulse. The lyric juxtaposes materialism, mortality, and lost innocence, with the repeated refrain 'we'll let you guys prophesy' pushing back against the expectations placed on Ocean after Channel Orange.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Ivy",
+          "guide": "A guitar-driven recollection of youthful love built around a single four-chord loop that never changes \u2014 the stasis mirrors the impossibility of returning. Rostam Batmanglij's production captures the violence beneath nostalgia, with a distorted guitar climax at 3:00 that shatters the song's dreamy surface.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Pink + White",
+          "guide": "Beyonc\u00e9 provides uncredited backing vocals on this Pharrell-produced track, which samples a thunderstorm recorded on Ocean's phone. The lyric moves from a specific memory into a cosmic meditation on mortality, with Tyler, the Creator's spoken word outro grounding the track back in the tangible.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Self Control",
+          "guide": "The album's emotional centerpiece, structured as a conversation with a former lover now in another relationship. Austin Feinstein's pitched-up guest vocal provides the counterpoint, while Ocean's untreated 'real' voice delivers the devastating outro: 'keep a place for me, I'll sleep between you.'",
+          "focus": "",
+          "source": null
+        }
+      ],
       "themes": [
         "Static reference",
         "Source-backed facts",
@@ -6565,19 +6633,19 @@
       "trackGuide": [
         {
           "trackTitle": "Blitzkrieg Bop",
-          "guide": "The opening track's chant 'Hey ho, let's go!' became a punk rallying cry. Tommy Ramone's drumbeat is a simple, driving four-on-the-floor pattern, and the song's three-chord structure epitomizes the band's minimalist ethos.",
+          "guide": "The opening 'Hey! Ho! Let's go!' \u2014 three chords, zero solos, 2:12 runtime \u2014 is punk's year zero. Johnny Ramone's downstroke-only barre chords and Tommy's relentless 4/4 kick drum pattern stripped rock to its skeleton. Recorded for $6,400 at Plaza Sound Studio, the track influenced virtually every punk and alternative band that followed.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Beat On the Brat",
-          "guide": "Built on a two-note bassline and a sing-song melody, the lyric threatens a 'brat with a baseball bat.' The contrast between the violent content and the bubblegum delivery is quintessential Ramones.",
+          "guide": "Dee Dee Ramone's lyric about a wealthy kid on the Upper East Side \u2014 'Beat on the brat with a baseball bat' \u2014 became one of punk's most quoted refrains. The track's 2:32 runtime and single-riff structure epitomize the Ramones' approach: say it, play it, get out.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Judy Is a Punk",
-          "guide": "At 92 seconds, the album's shortest track. The lyric name-checks real-life locations (Berlin, San Francisco) and ends with a nonchalant 'They died.' The brevity and deadpan tone became a punk template.",
+          "guide": "At 92 seconds, the album's shortest track name-checks Berlin and San Francisco before ending with the nonchalant 'They died.' Joey's deadpan delivery of Dee Dee's absurdist lyric \u2014 about two juvenile delinquents who join the SLA \u2014 captures the cartoon violence-meets-reality aesthetic that made the Ramones revolutionary.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -6786,6 +6854,30 @@
           "trackTitle": "Punky Reggae Party (feat. Lee \"Scratch\" Perry) [Z-Trip Remix] [Dub Mix]",
           "guide": "The Z-Trip remix of \"Punky Reggae Party\" explodes with a frenetic energy, layering a dizzying carousel of dub echoes and shimmering percussion over the original's infectious groove. Lee \"Scratch\" Perry's signature sonic chaos \u2013 warped vocals, stuttering samples, and unpredictable effects \u2013 intertwines seamlessly with Marley's iconic vocals, creating a vibrant and disorienting dancefloor experience. It\u2019s a masterful collision of reggae royalty and innovative production, proving the song\u2019s timeless appeal through a fresh, exhilarating lens.",
           "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Redemption Song",
+          "guide": "Stripped to just voice and guitar \u2014 a deliberate contrast with Legend's full-band arrangements \u2014 this is Marley's most powerful political statement. The lyric quotes Marcus Garvey: 'emancipate yourselves from mental slavery.' Recorded in 1979 as Marley battled cancer; the vulnerability of his vocal reflects a man confronting mortality.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Get Up, Stand Up",
+          "guide": "Co-written with Peter Tosh, this two-chord vamp functions as reggae's protest anthem. Tosh and Marley's alternating verses reject passive religiosity in favor of active resistance, while the Wailers' locked-in rhythm section creates an almost trance-like foundation that intensifies the message with each repetition.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Three Little Birds",
+          "guide": "Built around a sun-drenched organ riff and a nursery-rhyme chorus \u2014 'every little thing is gonna be alright' \u2014 this track distills Marley's philosophy to its essence. Aston Barrett's melodic bass line propels the song forward while the I-Threes' backing vocals provide a gentle, reassuring cushion.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "No Woman, No Cry",
+          "guide": "The live Lyceum recording (1975) is definitive: the crowd's recognition at the opening piano, Marley's improvised asides, the gradual build from whisper to communal singalong. Written by Vincent Ford, Marley's Trenchtown friend, though he credited Ford so royalties could fund a community soup kitchen.",
+          "focus": "",
           "source": null
         }
       ],
@@ -7594,7 +7686,7 @@
       "trackGuide": [
         {
           "trackTitle": "Shine On You Crazy Diamond, Pts. 1-7",
-          "guide": "The opener cross-fades the heartbeat into a ticking clock and looping helicopter, then into Gilmour's slide-guitar wail \u2014 essentially an overture quoting each song's motif.",
+          "guide": "This 26-minute epic was Gilmour's tribute to Syd Barrett, recorded at Abbey Road with Brian Humphries engineering. The opening four-note guitar phrase \u2014 B\u266d, F, G, E \u2014 is played on a Fender Stratocaster through a phaser and delay, creating an elegiac atmosphere before the band enters at 3:54 with Wright's ARP String Ensemble synthesizer and Mason's deliberate, funeral-paced drumming.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -7606,19 +7698,19 @@
         },
         {
           "trackTitle": "Comfortably Numb",
-          "guide": "Wright's electric piano and Gilmour's muted guitar create a lullaby-like opening; the track shifts at 1:30 when Dick Parry's tenor sax enters with a slow, mournful solo.",
+          "guide": "Gilmour and Waters split the songwriting: Waters wrote the verses about childhood fever, Gilmour the chorus about disconnection. The twin guitar solos \u2014 the first at 2:18 (recorded in one take, Gilmour's favorite work) and the cathedral-sized finale at 4:32 \u2014 are among the most celebrated in rock, built from simple pentatonic ideas through a Colorsound Power Boost pedal.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "When the Tigers Broke Free",
-          "guide": "The bass riff in 7/4, the cash-register loop, and Gilmour's heavily-compressed guitar solo \u2014 double-tracked, one take clean and one through a Leslie speaker.",
+          "guide": "Originally cut from The Wall, Waters' memorial to his father (killed at Anzio in 1944) was added to later editions. The track features a military snare, trumpet solo, and Waters' rare lead vocal \u2014 a stripped-bare tribute that connects the band's psychedelic origins to the personal trauma underpinning their most ambitious work.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "One of These Days",
-          "guide": "The lyrics are a verbatim transcript of Gerry O'Driscoll, the Abbey Road doorman, interviewed by Waters; the line 'I am not frightened of dying' was his actual voice unprocessed.",
+          "guide": "The album opener begins with Nick Mason's iconic double-tracked bass line and a spoken threat \u2014 'One of these days I'm going to cut you into little pieces' \u2014 delivered through a ring modulator by Mason himself. The track builds through a relentless Binson Echorec delay pattern and Gilmour's slide guitar freakout.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -9109,13 +9201,13 @@
         },
         {
           "trackTitle": "Hello In There",
-          "guide": "'Hello In There' is a waltz-time portrait of an elderly couple whose children have grown and gone, sung with a tenderness that makes the line 'old people just grow lonesome' land like a gut punch. The brushed snare and gentle organ swells create a living-room intimacy.",
+          "guide": "John Prine was 24 when he wrote this waltz-time portrait of an elderly couple, inspired by his newspaper delivery route where he'd see older residents alone in their homes. The line 'old people just grow lonesome, waiting for someone to say hello in there' is one of American songwriting's most empathetic observations.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Sam Stone",
-          "guide": "'Sam Stone' tells the story of a Vietnam veteran returning home with a heroin addiction, the chorus famously rhyming 'home' with 'hole in daddy's arm where all the money goes.' The stark arrangement\u2014piano, bass, and a mournful pedal steel\u2014frames the narrative without melodrama, letting the details do the work.",
+          "guide": "Prine's devastating portrait of a Vietnam veteran addicted to heroin \u2014 'there's a hole in daddy's arm where all the money goes' \u2014 was written when he was still a mailman in Chicago. The song's waltz-time melody contrasts brutally with the lyric, a technique Prine used throughout his career to make unbearable subjects approachable.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -9127,8 +9219,14 @@
         },
         {
           "trackTitle": "Angel From Montgomery",
-          "guide": "'Angel From Montgomery' is sung from the perspective of a middle-aged woman dreaming of escape, with the indelible opening line 'I am an old woman, named after my mother.' The song's slow, soulful groove and Prine's weathered vocal convey a lifetime of disappointment in under four minutes.",
+          "guide": "Written in Prine's early twenties from the perspective of a middle-aged woman, this track's empathy is staggering \u2014 'make me an angel that flies from Montgomery' is one of American songwriting's most beautiful expressions of longing. Bonnie Raitt's 1974 cover helped establish the song as a standard.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "Paradise",
+          "guide": "Prine's lament for the strip-mined Kentucky town where his parents grew up \u2014 'Mr. Peabody's coal train has hauled it away' \u2014 became an environmental anthem. The simple three-chord folk structure and Prine's plainspoken delivery transform a specific place into a universal elegy for what industrialization destroys.",
+          "focus": "",
           "source": null
         }
       ],
@@ -9429,6 +9527,24 @@
           "trackTitle": "Little Drummer Boy",
           "guide": "Alanis Morissette's rendition of \"Little Drummer Boy\" is a stark and arresting reimagining, anchored by a subtly insistent, almost tribal drumbeat that pulses beneath her raw, vulnerable vocals. The sparse arrangement, featuring mournful strings and a distant, echoing piano, amplifies the song's inherent melancholy, creating a spacious and haunting atmosphere. It's a production choice that strips away the traditional festive feel, transforming the carol into a deeply personal and quietly powerful lament.",
           "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "You Oughta Know",
+          "guide": "Dave Navarro and Flea (both of the Red Hot Chili Peppers) contributed guitar and bass to this blistering breakup track, produced by Glen Ballard. Morissette's unhinged vocal \u2014 switching from whispered verses to full-throated rage \u2014 and the line 'are you thinking of me when you fuck her?' shattered expectations for female rock vocalists in 1995.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Ironic",
+          "guide": "The song's famous list of non-ironic situations \u2014 rain on a wedding day, a free ride when you've already paid \u2014 became a cultural punchline, but the melodic construction (modulating up a half-step for the final chorus) and Morissette's playful delivery made it the album's biggest hit and a defining single of the 1990s.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Hand in My Pocket",
+          "guide": "Built around a single acoustic guitar riff and a harmonica solo, this track balances Morissette's newfound rage with self-acceptance \u2014 'I'm broke but I'm happy, I'm poor but I'm kind.' Ballard's production keeps the arrangement simple, proving that Morissette's voice and perspective could carry a song without the pyrotechnics of 'You Oughta Know.'",
+          "focus": "",
           "source": null
         }
       ],
@@ -11720,7 +11836,32 @@
         "Read the album summary from Yoko Ono/Plastic Ono Band, then identify one audible detail that connects to the sourced context.",
         "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
       ],
-      "trackGuide": [],
+      "trackGuide": [
+        {
+          "trackTitle": "Mother",
+          "guide": "Lennon's primal scream therapy with Arthur Janov produced this devastating opener \u2014 the funeral bell tolling, the accelerating tempo, and the raw vocal that cracks on 'momma' were captured in a single take. Producer Phil Spector's typically ornate style is completely absent; only the starkest arrangements could contain this grief.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Working Class Hero",
+          "guide": "Just Lennon's voice and acoustic guitar, recorded with heavy tape compression making every string scrape audible. The lyric's unflinching critique of class \u2014 'they hurt you at home and they hit you at school' \u2014 and the use of 'fucking' established a new threshold for political candor in pop music.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "God",
+          "guide": "Lennon systematically renounces every idol \u2014 Jesus, Elvis, the Beatles \u2014 building to 'I don't believe in Beatles' with each name struck by a single piano note from Billy Preston. The three-chord structure and Ringo's restrained drumming keep the focus squarely on possibly Lennon's most emotionally exposed vocal.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Love",
+          "guide": "After the album's emotional purge, this closer offers what survived: simple, unadorned devotion. Spector, of all producers, plays the sparse piano \u2014 his Wall of Sound held back completely \u2014 while brushed drums and Lennon's gentlest vocal create an island of peace in the wreckage.",
+          "focus": "",
+          "source": null
+        }
+      ],
       "themes": [
         "Static reference",
         "Source-backed facts",
@@ -11785,7 +11926,7 @@
       "trackGuide": [
         {
           "trackTitle": "Break On Through (To The Other Side)",
-          "guide": "A manifesto of psychedelic hedonism driven by a bossa nova beat and a repetitive organ riff. The bridge at 1:10 shifts to a darker minor key before the final chaotic push, with Morrison's 'she gets high' repeated like a mantra.",
+          "guide": "The album opener features Densmore's bossa nova-influenced drum pattern and Manzarek's circling Fender Rhodes riff. Morrison's lyric \u2014 a manifesto of psychedelic exploration \u2014 was intended as a call to transcendence, but the line 'she get high' was censored on the original release, creating an ironic gatekeeping of the very liberation the song advocated.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -11803,7 +11944,7 @@
         },
         {
           "trackTitle": "Light My Fire",
-          "guide": "The extended album version begins with a famous circular organ riff and a sinuous guitar line. The organ solo from 2:30 to 4:10 is a high point of baroque psychedelia, followed by Krieger's flamenco-tinged guitar break.",
+          "guide": "The track that broke the Doors, extending to 7:06 on the album with Manzarek's baroque organ solo and Krieger's jazz-influenced guitar break. Written by Krieger (his first composition for the band), the extended instrumental section \u2014 unprecedented for a pop single \u2014 became a radio staple when edited down to 2:52.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -11815,7 +11956,7 @@
         },
         {
           "trackTitle": "The End",
-          "guide": "An 11-minute descent into the subconscious, structured as a ritual. The famous Oedipal sequence begins around 5:10, with Morrison's incantatory delivery over a droning raga-like backdrop, culminating in a shattering scream at 9:45.",
+          "guide": "An 11-minute descent into the subconscious, structured as a ritual. The famous Oedipal sequence begins around 5:10, with Morrison's incantatory delivery and Krieger's droning raga guitar creating a trance state. The track was conceived as a simple breakup song and evolved through months of Whisky a Go Go performances into the band's most ambitious work.",
           "focus": "Curated listening guide",
           "source": null
         }
@@ -12194,13 +12335,13 @@
       "trackGuide": [
         {
           "trackTitle": "Next Lifetime (Radio Version)",
-          "guide": "The Radio Version trims the intro to a few seconds and emphasizes the hook; Badu's layered harmonies on the chorus are mixed forward, and the beat is crisp and radio-friendly.",
+          "guide": "The radio edit trims the atmospheric intro in favor of an immediate hook, but preserves Badu's layered harmonies on the chorus \u2014 each pass adds a new vocal line, building from a whisper to a full gospel-inflected refrain. The edit's efficiency actually highlights the song's core tension between earthly desire and cosmic patience.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Next Lifetime",
-          "guide": "The full album version opens with a spacious Rhodes riff and a slow-building groove. Badu's vocal is more relaxed, with jazz-inflected phrasing, and the bridge at 2:50 introduces a subtle key change.",
+          "guide": "Badu confronts the pain of meeting a soulmate at the wrong time, with a production that borrows from Roy Ayers' jazz-funk palette. The descending chord progression underscores the lyric's impossibility \u2014 'I guess I'll see you next lifetime' \u2014 while the vibraphone solo at 4:10 provides the track's emotional release.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -12212,7 +12353,7 @@
         },
         {
           "trackTitle": "Next Lifetime (Instrumental)",
-          "guide": "The instrumental version isolates the track's warm Rhodes, steady kick drum, and swirling background textures, offering a glimpse of the song's production skeleton.",
+          "guide": "Stripped of Badu's vocals, the instrumental reveals the track's jazz-funk skeleton: the warm Rhodes chords, Questlove's signature behind-the-beat snare, and a swirling synth pad that creates the track's dreamy, suspended-in-time quality. The space usually occupied by the vocal narrative becomes a meditative canvas.",
           "focus": "Curated listening guide",
           "source": null
         }
@@ -13763,7 +13904,7 @@
         },
         {
           "trackTitle": "Communication Breakdown",
-          "guide": "Clocking in at just 2:30, 'Communication Breakdown' is a proto-punk sprint driven by a relentless downstroke guitar riff and Plant\u2019s staccato vocal delivery. The song\u2019s raw, unpolished energy and lack of a traditional solo pointed toward a more aggressive, streamlined future for rock.",
+          "guide": "A proto-punk eruption at 2:30, built around Page's relentless downstroke riff and Bonham's machine-gun snare. Plant's rapid-fire vocal and the call-and-response between guitar and voice created a template for hard rock that bands from the Ramones to Metallica have credited as foundational.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -14064,7 +14205,7 @@
       "trackGuide": [
         {
           "trackTitle": "10:15 Saturday Night",
-          "guide": "The opener '10:15 Saturday Night' was written about Smith waiting for a tap to stop dripping in a state of bored despair. The song builds tension through a single repeating guitar figure and Tolhurst's hi-hat, never resolving, just fading out after 2:42.",
+          "guide": "The Cure's debut single opens with a single dripping faucet sound before Smith's angular guitar riff enters. The kitchen-sink realism of the lyric \u2014 waiting by the phone, watching condensation drip \u2014 and the track's stark minimalism set the template for the band's early post-punk aesthetic.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -14090,6 +14231,18 @@
           "trackTitle": "Three Imaginary Boys",
           "guide": "The instrumental title track 'Three Imaginary Boys' was named after Smith's childhood imaginary friends. It shifts from a gentle, chiming guitar line to a brief, waltz-like middle section, then fades on the toy piano, ending the album on a note of fragile nostalgia.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "Boys Don't Cry",
+          "guide": "The track that established the Cure's pop instincts, built around an uptempo jangling guitar riff that belies the lyric's depiction of masculine emotional repression. Originally released as a standalone single, it was retroactively added to the album and became one of the band's most enduring songs.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Killing an Arab",
+          "guide": "Based on Albert Camus' The Stranger, the track's matter-of-fact depiction of the novel's famous beach scene created decades of controversy over the title. The propulsive bass line and Smith's deadpan vocal \u2014 deliberately mirroring Meursault's emotional detachment \u2014 made it one of post-punk's most provocative debuts.",
+          "focus": "",
           "source": null
         }
       ],
@@ -14945,7 +15098,7 @@
         },
         {
           "trackTitle": "Fake Plastic Trees",
-          "guide": "'Fake Plastic Trees' is a critique of consumer culture and artificiality, inspired by a can of fake plants Yorke saw in a club. The band recorded it live in three takes; after the final one, Yorke broke down in tears, and that take is the one on the album.",
+          "guide": "Yorke's vocal was recorded in a single take after he broke down at the end, feeling the track was beyond his range. Producer John Leckie then dimmed the lights and recorded a second take that became the album version. The lyric's critique of consumer culture and inauthenticity \u2014 'she looks like the real thing, she tastes like the real thing' \u2014 set the template for OK Computer's deeper alienation.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -14963,8 +15116,14 @@
         },
         {
           "trackTitle": "Street Spirit (Fade Out)",
-          "guide": "'Street Spirit (Fade Out)' was inspired by Ben Okri's novel 'The Famished Road' and is built on a fingerpicked arpeggio that repeats hypnotically. Yorke has said the song is about 'the devil in all of us', and its relentless, descending melody creates a sense of inevitable collapse.",
+          "guide": "Inspired by Ben Okri's novel The Famished Road, this track is built on a fingerpicked arpeggio that cycles through four minor chords. Yorke has called it 'the darkest song we've ever written' \u2014 the relentlessly descending figure and the final lyric, 'immerse your soul in love,' create a sense of inevitability that borders on the sacred.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "High and Dry",
+          "guide": "Yorke initially considered this track too straightforward for the album, but the band insisted. The simple acoustic strumming and ascending chord progression, combined with Yorke's falsetto on the chorus, made it Radiohead's most accessible early single and a bridge between Pablo Honey's grunge and the experimental ambitions to come.",
+          "focus": "",
           "source": null
         }
       ],
@@ -15072,7 +15231,7 @@
         },
         {
           "trackTitle": "Goodbye Yellow Brick Road",
-          "guide": "Originally written as a tribute to Marilyn Monroe, this ballad is anchored by Elton's delicate piano and a restrained string arrangement by Del Newman. Notice how the vocal stays conversational in the verses, then opens into a fragile upper register on the line 'Your candle burned out long before your legend ever did'.",
+          "guide": "Elton John and Bernie Taupin's rejection of fame's excess, built around a descending chord progression that feels like a sigh of relief. The arrangement \u2014 pedal steel, strings, and Elton's falsetto on 'going back to my plough' \u2014 creates a pastoral longing for simplicity that resonates deeper with each passing decade of celebrity culture.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -15629,7 +15788,32 @@
         "No confident album source was matched; treat this as a metadata-only entry until a source is added.",
         "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
       ],
-      "trackGuide": [],
+      "trackGuide": [
+        {
+          "trackTitle": "Pictures of You",
+          "guide": "The 7-minute opener builds from a single chiming guitar through layers of synthesizer, bass, and Smith's voice \u2014 barely above a whisper. The lyric captures memory's obsessive replay through photographs, while Boris Williams' insistent tom pattern and Simon Gallup's melodic bass create a propulsive undertow beneath the surface calm.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Lovesong",
+          "guide": "Written as a wedding gift for Smith's fianc\u00e9e Mary Poole, this is the album's most direct track \u2014 a straightforward devotion set to a descending chord progression. Gallup's bass doubles the keyboard melody, while Williams' steady four-on-the-floor makes it the Cure's most commercially successful single, ironically hidden inside their darkest album.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Fascination Street",
+          "guide": "Gallup's slinky descending bass line opens the track \u2014 recorded faster than the album's other songs \u2014 before Porl Thompson's wah-wah guitar and Smith's tale of urban alienation enter. Nearly two minutes pass before the vocal arrives, establishing the Cure's mastery of immersive, slow-building atmosphere.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Disintegration",
+          "guide": "The album's 8-minute title track catalogues a relationship's collapse with clinical precision \u2014 'I never said I would stay to the end.' The band builds from near-silence to a towering crescendo of layered guitars and synthesizers, then spends the final three minutes in purely instrumental dissolution.",
+          "focus": "",
+          "source": null
+        }
+      ],
       "themes": [
         "Static reference",
         "Source-backed facts",
@@ -17921,7 +18105,7 @@
         },
         {
           "trackTitle": "Ready or Not",
-          "guide": "\u201cReady or Not\u201d was a top-40 hit in multiple countries. The Enya sample, used without initial clearance, created a legal dispute that ultimately resulted in a settlement and a credit, while the song\u2019s melody and Hill\u2019s defiant chorus made it an anthem of resilience.",
+          "guide": "Built around a sample of Enya's 'Boadicea,' this track features Lauryn Hill's most commanding vocal \u2014 her verse shifts from melodic singing to rapid-fire rapping mid-bar. The Enya sample and the apocalyptic lyric ('I'll be there, ready or not') created a template for moody, sample-driven hip-hop that dominated the next decade.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -20591,7 +20775,7 @@
       "trackGuide": [
         {
           "trackTitle": "I Will Dare",
-          "guide": "The album\u2019s pop centerpiece, driven by a jangling R.E.M.-style riff. Peter Buck\u2019s guest 12-string solo at 1:38 adds a bright, melodic counterpoint to Westerberg\u2019s raspy vocal.",
+          "guide": "The album's pop centerpiece features Peter Buck's guest 12-string guitar solo at 1:38. Westerberg's lyric \u2014 'How young are you, how old am I?' \u2014 captures the band's pivot from hardcore to melody, while the mandolin outro adds unexpected folk warmth. The interplay between punk urgency and pop craft became the Replacements' signature.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -20881,7 +21065,26 @@
         "Read the album summary from Mama's Gun, then identify one audible detail that connects to the sourced context.",
         "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
       ],
-      "trackGuide": [],
+      "trackGuide": [
+        {
+          "trackTitle": "Didn't Cha Know?",
+          "guide": "Built around a sample of Tarika Blue's 'Dreamflower,' produced by J Dilla with his signature slouched beat. Badu's lyric traces a spiritual journey \u2014 'time to travel, time to be free' \u2014 while the filtered bass line and Questlove's live drum overdubs create the album's most hypnotic groove.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Bag Lady",
+          "guide": "Badu's metaphor for emotional baggage began as a joke at a show and became one of her biggest hits. The track's layered background vocals (all Badu), the Dilla-produced beat's off-kilter swing, and the lyric's advice \u2014 'pack light' \u2014 transformed a simple conceit into a universal anthem of self-care.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Green Eyes",
+          "guide": "A 10-minute suite in three movements, moving from jazz ballad to bossa nova to raw soul. Recorded live in the studio with trumpeter Roy Hargrove, the track traces the arc of a relationship from jealousy through reconciliation to liberation, with Badu's vocal growing increasingly unadorned as the arrangement strips away.",
+          "focus": "",
+          "source": null
+        }
+      ],
       "themes": [
         "Static reference",
         "Source-backed facts",
@@ -21148,6 +21351,30 @@
           "trackTitle": "Yellow Ledbetter (Live)",
           "guide": "The raw, live energy of \"Yellow Ledbetter\" pulses with Eddie Vedder\u2019s guttural vocals layered over a deceptively simple, yet driving, bassline that anchors the song's unsettling groove. Stone Gossard's guitar weaves a hypnotic, almost serpentine melody around Jeff Ament\u2019s steadfast rhythm, creating a dense sonic tapestry that feels both claustrophobic and expansive. The deliberately unpolished production captures the band's ferocious intensity, letting the ragged edges of their performance amplify the song's primal power.",
           "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Alive",
+          "guide": "Gossard wrote the riff while his band Mother Love Bone dissolved after singer Andrew Wood's death. Vedder's lyric transforms autobiographical details into an Oedipal narrative, but he later revealed the song is about the burden of being told you should feel grateful to be alive after trauma. McCready's pentatonic solo at 3:42 channels Hendrix through a Seattle filter.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Even Flow",
+          "guide": "McCready's opening pentatonic run and Gossard's wah-wah funk riff drive a track about homelessness that somehow became an arena staple. Ament's fretless bass adds a smooth undertow, while Vedder's vocal, recorded in multiple improvisational takes, captures the restless quality of the lyric's subject.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Jeremy",
+          "guide": "Based on a Texas teenager who shot himself in front of classmates, Vedder builds from a whispered verse to a screamed chorus. The stop-start dynamics and the moment of silence before the final 'spoke in class today' make it one of the most unsettling depictions of adolescent isolation in the alt-rock canon.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Black",
+          "guide": "Vedder's most emotionally exposed vocal, recorded in a single take with studio lights dimmed. No real chorus \u2014 just mounting intensity that peaks at the bridge: 'I know someday you'll have a beautiful life.' Producer Rick Parashar wisely kept the arrangement sparse, letting the vocal's vulnerability speak for itself.",
+          "focus": "",
           "source": null
         }
       ],
@@ -24499,7 +24726,7 @@
         },
         {
           "trackTitle": "Pinball Wizard",
-          "guide": "Added late in the recording process after a critic suggested Townshend didn\u2019t know enough about pinball. The acoustic guitar strumming pattern is a flamenco-inspired flourish, and the lyric \u201cthat deaf, dumb and blind kid sure plays a mean pinball\u201d became instantly iconic.",
+          "guide": "Townshend's acoustic-driven opener was written after a favorable review from rock critic Nik Cohn, who was a pinball enthusiast. The rapid strumming pattern, Keith Moon's explosive fills, and the deaf, dumb, and blind boy who 'plays by sense of smell' created one of rock's most unlikely anthems \u2014 and a critique of celebrity worship.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -25440,31 +25667,31 @@
       "trackGuide": [
         {
           "trackTitle": "No Reply",
-          "guide": "The opener explodes with McCartney's count-in and a rockabilly bass line; Harrison's guitar solo mimics the vocal melody at 0:55 \u2014 unusually, the solo comes before the bridge.",
+          "guide": "Lennon's lyric about a jealous narrator watching his girlfriend lie about being home introduced new emotional complexity. McCartney's count-in launches a rockabilly walking bass line, while Harrison's guitar solo mimics the vocal melody in a tight 12-bar burst before the abrupt ending \u2014 more drama than resolution.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "I'm a Loser",
-          "guide": "The chorus was built around a descending chromatic line Lennon borrowed from a Bing Crosby track; the 'Yeah' response shouts were double-tracked to sound like a crowd.",
+          "guide": "Lennon's first overtly confessional Beatles song, directly influenced by Dylan. The descending chromatic bass line came from Bing Crosby, but the 'Yeah' backing vocals and country-inflected guitar fills make it unmistakably early Beatles \u2014 a bridge between teenage pop and the more self-revealing writing to come.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Baby's In Black",
-          "guide": "McCartney's vocal is the star \u2014 listen for the quick, intricate phrasing in the verses set against a simple, open-chord chorus with high harmonies.",
+          "guide": "A waltz-time lament about a girl in perpetual mourning, led by McCartney's quick, intricate phrasing against simple open-chord choruses with high harmonies. The unexpected shift from melancholy verse to rockabilly outro is one of their finest early deep cuts \u2014 complexity hidden in pop packaging.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Kansas City / Hey-Hey-Hey-Hey!",
-          "guide": "Harrison's lead vocal debut on a US album \u2014 a cover of the Marvelettes hit, with Ringo's Latin-tinged drum pattern on the chorus giving it a distinct swing.",
+          "guide": "Harrison's first lead vocal on an American Beatles album, covering the Marvelettes' R&B hit mashed with Little Richard. Ringo's Latin-flavored drum pattern propels the medley, while McCartney's walking bass and Lennon's bluesy rhythm guitar capture the rawest early Beatles studio recording.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "I Don't Want to Spoil the Party",
-          "guide": "The album closer and the song that broke America. Lennon and McCartney sang the entire vocal in unison, with no harmony, creating a wall of unified sound on the chorus.",
+          "guide": "The album closer that broke the Beatles in America. Lennon and McCartney sang every word in perfect unison \u2014 no harmonies, two voices locked together \u2014 creating a stark intimacy. The country-tinged guitar fill after each chorus and the unresolved fade-out echo the melancholy beneath the party.",
           "focus": "Curated listening guide",
           "source": null
         }
@@ -28465,13 +28692,13 @@
       "trackGuide": [
         {
           "trackTitle": "Drowned World / Substitute for Love",
-          "guide": "'Drowned World / Substitute for Love' opens with a spoken-word sample about the emptiness of fame, then unfolds into a trip-hop ballad. The chorus swells with guitar and strings, and Madonna's vocal moves from a whisper to a full-throated confession of trading celebrity for genuine connection.",
+          "guide": "The album opens with ambient drones and a sample of a San Sebastian street recording before Madonna's vocal enters quietly. Producer William Orbit builds layers of synth pads and trip-hop beats, while the lyric \u2014 a meditation on fame's emptiness and the grounding power of love \u2014 sets the album's spiritual tone.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Ray of Light",
-          "guide": "The title track 'Ray of Light' is a rush of electronic euphoria. William Orbit's production layers a driving four-on-the-floor beat with a guitar riff and cascading synths, while Madonna's vocal, recorded at a breakneck pace, captures the sensation of spiritual awakening.",
+          "guide": "Built on a sample of Curtiss Maldoon's 'Sepheryn,' Orbit transforms folk into euphoric techno. Madonna's rapid-fire delivery \u2014 influenced by her study of Kabbalah \u2014 riffs on the speed of modern life, while the relentless kick drum and swirling synths create one of the most exhilarating pop singles of the 1990s.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -28483,13 +28710,13 @@
         },
         {
           "trackTitle": "Frozen",
-          "guide": "'Frozen' is a dramatic ballad built around a cold, minimal electro beat and a string arrangement that evokes Middle Eastern scales. The lyrics are a stark ultimatum about emotional distance, and the song's atmosphere of icy grandeur made it a worldwide hit.",
+          "guide": "An orchestral trip-hop ballad driven by a descending Middle Eastern string phrase. The lyric \u2014 'you're frozen when your heart's not open' \u2014 and the stark music video shot in the Mojave Desert marked Madonna's most dramatic artistic reinvention, trading provocation for introspection.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "The Power of Good-Bye",
-          "guide": "'The Power of Good-Bye' pairs a trip-hop drum loop with sweeping orchestral strings. Madonna's vocal is restrained and clear, delivering a meditation on the necessity of letting go, and the song's structure builds to a cathartic, string-saturated climax.",
+          "guide": "Orbit's string arrangement, recorded with a 24-piece orchestra, provides the lush backdrop for one of Madonna's most vulnerable vocals. The lyric explores the liberation found in letting go, with a chord progression that rises unexpectedly on the chorus \u2014 a musical embodiment of release.",
           "focus": "Curated listening guide",
           "source": null
         },
@@ -30274,38 +30501,50 @@
       "trackGuide": [
         {
           "trackTitle": "One More Time",
-          "guide": "Romanthony's gospel-tinged vocal rides a filtered disco loop and a four-on-the-floor kick; the track's celebratory repetition and the key change at 2:50 create a sense of timeless elation.",
+          "guide": "The album's opener, built around a sample of Eddie Johns' 'More Spell on You,' filters 1970s disco through French house compression. Romanthony's Auto-Tuned vocal \u2014 equal parts gospel preacher and robot \u2014 delivers the track's hedonistic manifesto while the sidechained bass pumps like a heartbeat beneath the celebration.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Aerodynamic",
-          "guide": "The first half is a sleek synth-funk instrumental; at 1:30 the beat drops out completely, and a flurry of arpeggiated synths introduces a virtuosic rock guitar solo that transforms the track into an arena anthem.",
+          "guide": "The track opens with a funk guitar riff before exploding into a two-minute arpeggiated synth solo at 1:15 \u2014 a virtuosic burst of baroque electronic music played entirely on sequencers. The fusion of metal guitar harmonics with French house production became one of Discovery's most technically impressive moments.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Harder Better Faster Stronger",
-          "guide": "A relentless vocoder workout built from a four-bar loop, the track's lyrical mantra of self-improvement becomes hypnotic; the breakdown at 2:00 isolates the processed voice, making it sound both human and alien.",
+          "guide": "A relentless vocoder workout built from a four-bar loop, the track's lyrical mantra becomes a meditation on technological perfectionism. The breakdown at 2:00 isolates each chopped syllable \u2014 'work it harder, make it better' \u2014 before the beat crashes back in, creating one of the most imitated production flourishes in 21st-century electronic music.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Something About Us",
-          "guide": "A tender, slow-burn love song with a live bassline and soft Rhodes chords; the vocoder-free vocal is one of the album's most intimate moments, conveying longing with understated simplicity.",
+          "guide": "A slow-burning departure from the album's dancefloor focus, this track features a live bass performance, Rhodes chords, and a vocoder-delivered lyric of romantic regret. The jazzy harmony and the intimate vulnerability \u2014 'it might not be the right time, I might not be the right one' \u2014 reveal the humans behind the helmets.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Face to Face",
-          "guide": "A collaboration with Todd Edwards, the track constructs its chorus from micro-samples of dozens of classic records, creating a pointillist patchwork of voices that mirrors the theme of faceless connection.",
+          "guide": "A collaboration with Todd Edwards, whose signature chopped-vocal micro-sampling technique creates a stuttering, ecstatic texture. The lyric \u2014 about the moment of recognition when fantasy meets reality \u2014 is delivered through Edwards' fragmented production style, where each syllable is cut and re-pitched into new melodic shapes.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Too Long",
-          "guide": "The ten-minute closer is a slow-building disco odyssey; the first five minutes introduce the groove, while the back half stretches into a stripped-down, percussive jam that feels like a sunrise after a long night.",
+          "guide": "The 10-minute closer builds from a filtered disco loop through multiple sections, with Romanthony's vocal delivering the album's parting thesis: 'Can't get enough of that funky stuff.' The track's extended runtime serves as both a tribute to the marathon structure of classic disco 12-inches and a final declaration of house music's endurance.",
           "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "Digital Love",
+          "guide": "A sugar-rush of nostalgia built around a sample of George Duke's 'I Love You More.' The Wurlitzer-style solo at 3:48, played by Daft Punk themselves, transforms the track from house banger to yacht-rock daydream \u2014 an analog love letter wrapped in digital precision.",
+          "focus": "",
+          "source": null
+        },
+        {
+          "trackTitle": "Veridis Quo",
+          "guide": "A baroque synth instrumental whose title plays on 'Very Disco' and the Latin 'Quo Vadis' (where are you going?), reflecting the album's central tension between dancefloor escapism and existential search. The looping chord progression nods to Pachelbel's Canon while transitioning seamlessly into darker territory.",
+          "focus": "",
           "source": null
         }
       ],
