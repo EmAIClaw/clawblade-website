@@ -387,11 +387,16 @@ function App() {
     return result;
   }, [filter, query, state, sortBy]);
 
-  const topQueue = useMemo(
-    () =>
-      albums.filter((album) => !state.albums[album.id]?.listened).slice(0, 6),
-    [state]
-  );
+  const topQueue = useMemo(() => {
+    // Prioritize owned AND unlistened, then fill remainder with unowned unlistened
+    const ownedUnheard = albums.filter(
+      (album) => state.albums[album.id]?.owned && !state.albums[album.id]?.listened
+    );
+    const unownedUnheard = albums.filter(
+      (album) => !state.albums[album.id]?.owned && !state.albums[album.id]?.listened
+    );
+    return [...ownedUnheard, ...unownedUnheard].slice(0, 6);
+  }, [state]);
 
   const randomAlbum = useMemo(() => {
     const candidates = albums.filter(
@@ -522,12 +527,6 @@ function App() {
             <Library size={18} /> Collection
           </button>
           <button
-            className={view === "session" ? "active" : ""}
-            onClick={() => setView("session")}
-          >
-            <ListMusic size={18} /> Session
-          </button>
-          <button
             className={view === "insights" ? "active" : ""}
             onClick={() => setView("insights")}
           >
@@ -625,20 +624,9 @@ function App() {
             entry={selectedEntry}
             albumState={state.albums[selectedAlbum.id] ?? {}}
             updateAlbum={updateAlbum}
-            startSession={() => setView("session")}
+            addSession={addSession}
             playingPreview={playingPreview}
             handlePreviewToggle={handlePreviewToggle}
-          />
-        )}
-
-        {view === "session" && selectedAlbum && (
-          <SessionView
-            album={selectedAlbum}
-            entry={selectedEntry}
-            albums={albums}
-            selectedAlbumId={selectedAlbumId}
-            setSelectedAlbumId={setSelectedAlbumId}
-            addSession={addSession}
           />
         )}
 
@@ -997,7 +985,7 @@ function AlbumDetail({
   entry,
   albumState,
   updateAlbum,
-  startSession,
+  addSession,
   playingPreview,
   handlePreviewToggle
 }: {
@@ -1005,7 +993,7 @@ function AlbumDetail({
   entry?: EncyclopediaEntry;
   albumState: AlbumState;
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
-  startSession: () => void;
+  addSession: (session: ListeningSession) => void;
   playingPreview: string | null;
   handlePreviewToggle: (
     previewUrl: string,
@@ -1013,6 +1001,44 @@ function AlbumDetail({
     trackIndex: number
   ) => void;
 }) {
+  const [sessionActive, setSessionActive] = useState(false);
+  const [sessionNotes, setSessionNotes] = useState("");
+  const [checkedTracks, setCheckedTracks] = useState<string[]>([]);
+
+  function startSession() {
+    setSessionActive(true);
+    setSessionNotes("");
+    setCheckedTracks([]);
+  }
+
+  function toggleTrack(title: string) {
+    setCheckedTracks((current) =>
+      current.includes(title)
+        ? current.filter((item) => item !== title)
+        : [...current, title]
+    );
+  }
+
+  function finishSession() {
+    addSession({
+      id: crypto.randomUUID(),
+      albumId: album.id,
+      startedAt: todayIso(),
+      completedAt: todayIso(),
+      notes: sessionNotes,
+      checkedTracks
+    });
+    setSessionActive(false);
+    setSessionNotes("");
+    setCheckedTracks([]);
+  }
+
+  function cancelSession() {
+    setSessionActive(false);
+    setSessionNotes("");
+    setCheckedTracks([]);
+  }
+
   const guideByTitle = new Map(
     (entry?.trackGuide ?? []).map((guide) => [
       guide.trackTitle,
@@ -1073,11 +1099,73 @@ function AlbumDetail({
               <Check size={16} /> Listened
             </button>
           </div>
-          <button className="primary" onClick={startSession}>
-            <ListMusic size={17} /> Start listening session
-          </button>
+          <div className="chipRow sessionChipRow">
+            {albumState.listenCount ? (
+              <span className="chip muted">
+                <ListMusic size={14} /> Listened {albumState.listenCount}x
+                {albumState.lastListened
+                  ? ` · Last: ${new Date(albumState.lastListened).toLocaleDateString()}`
+                  : ""}
+              </span>
+            ) : null}
+          </div>
+          {!sessionActive ? (
+            <button className="primary" onClick={startSession}>
+              <ListMusic size={17} /> Start listening session
+            </button>
+          ) : null}
         </div>
       </section>
+
+      {sessionActive && (
+        <section className="panel full sessionInline">
+          <div className="sectionHeader">
+            <div>
+              <p className="eyebrow">Active session</p>
+              <h3>Track checklist</h3>
+            </div>
+            <ListMusic size={20} />
+          </div>
+          {album.tracks.length ? (
+            <div className="sessionTracks">
+              {album.tracks.map((track) => (
+                <label
+                  key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
+                  className={
+                    checkedTracks.includes(track.title) ? "checked" : ""
+                  }
+                >
+                  <input
+                    type="checkbox"
+                    checked={checkedTracks.includes(track.title)}
+                    onChange={() => toggleTrack(track.title)}
+                  />
+                  <span>{track.trackNumber}. {track.title}</span>
+                  <small>{formatDuration(track.durationMs)}</small>
+                </label>
+              ))}
+            </div>
+          ) : (
+            <p>Tracks will appear after Apple enrichment.</p>
+          )}
+          <label className="notesField">
+            Session reflection
+            <textarea
+              value={sessionNotes}
+              onChange={(event) => setSessionNotes(event.target.value)}
+              placeholder="What stood out during this listen? How does it hold up?"
+            />
+          </label>
+          <div className="sessionActions">
+            <button className="primary" onClick={finishSession}>
+              <Check size={17} /> Complete session
+            </button>
+            <button onClick={cancelSession}>
+              Cancel
+            </button>
+          </div>
+        </section>
+      )}
 
       <section className="panel full">
         <div className="sectionHeader">
@@ -1199,115 +1287,6 @@ function AlbumDetail({
             fetch Apple track listings and cover art.
           </p>
         )}
-      </section>
-    </div>
-  );
-}
-
-function SessionView({
-  album,
-  entry,
-  albums: allAlbums,
-  selectedAlbumId,
-  setSelectedAlbumId,
-  addSession
-}: {
-  album: Album;
-  entry?: EncyclopediaEntry;
-  albums: Album[];
-  selectedAlbumId: string;
-  setSelectedAlbumId: (id: string) => void;
-  addSession: (session: ListeningSession) => void;
-}) {
-  const [notes, setNotes] = useState("");
-  const [checkedTracks, setCheckedTracks] = useState<string[]>([]);
-
-  useEffect(() => {
-    setCheckedTracks([]);
-    setNotes("");
-  }, [selectedAlbumId]);
-
-  function toggleTrack(title: string) {
-    setCheckedTracks((current) =>
-      current.includes(title)
-        ? current.filter((item) => item !== title)
-        : [...current, title]
-    );
-  }
-
-  function finishSession() {
-    addSession({
-      id: crypto.randomUUID(),
-      albumId: album.id,
-      startedAt: todayIso(),
-      completedAt: todayIso(),
-      notes,
-      checkedTracks
-    });
-    setNotes("");
-    setCheckedTracks([]);
-  }
-
-  return (
-    <div className="sessionLayout">
-      <section className="sessionNow">
-        <AlbumCover album={album} />
-        <div>
-          <p className="eyebrow">Guided listen</p>
-          <h2>{album.title}</h2>
-          <p>
-            {album.artist} • #{album.rank}
-          </p>
-          <select
-            value={selectedAlbumId}
-            onChange={(event) =>
-              setSelectedAlbumId(event.target.value)
-            }
-          >
-            {allAlbums.map((item) => (
-              <option value={item.id} key={item.id}>
-                #{item.rank} {item.title} — {item.artist}
-              </option>
-            ))}
-          </select>
-        </div>
-      </section>
-      <section className="panel">
-        <h3>Track checklist</h3>
-        {album.tracks.length ? (
-          <div className="sessionTracks">
-            {album.tracks.map((track) => (
-              <label
-                key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-              >
-                <input
-                  type="checkbox"
-                  checked={checkedTracks.includes(track.title)}
-                  onChange={() => toggleTrack(track.title)}
-                />
-                <span>{track.title}</span>
-              </label>
-            ))}
-          </div>
-        ) : (
-          <p>
-            Tracks will appear after Apple enrichment. You can still
-            finish the album-level session.
-          </p>
-        )}
-      </section>
-      <section className="panel full">
-        <label className="notesField">
-          Session reflection
-          <textarea
-            value={notes}
-            onChange={(event) => setNotes(event.target.value)}
-            placeholder="What changed after an attentive listen?"
-          />
-        </label>
-        <button className="primary" onClick={finishSession}>
-          <Check size={17} /> Finish session
-        </button>
       </section>
     </div>
   );
