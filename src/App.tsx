@@ -1354,6 +1354,50 @@ function Insights({ state }: { state: VaultState }) {
     );
   }, [state]);
 
+  // Most-listened albums by listenCount
+  const mostListened = useMemo(() => {
+    return albums
+      .filter((album) => (state.albums[album.id]?.listenCount ?? 0) > 0)
+      .sort(
+        (a, b) =>
+          (state.albums[b.id]?.listenCount ?? 0) -
+          (state.albums[a.id]?.listenCount ?? 0)
+      )
+      .slice(0, 8);
+  }, [state]);
+
+  // Recent sessions with album info
+  const recentSessions = useMemo(() => {
+    return state.sessions.slice(0, 10).map((session) => {
+      const album = albums.find((a) => a.id === session.albumId);
+      return { session, album };
+    });
+  }, [state]);
+
+  // Sessions per month (last 12 months)
+  const sessionsByMonth = useMemo(() => {
+    const counts = new Map<string, number>();
+    const now = new Date();
+    for (let i = 11; i >= 0; i--) {
+      const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+      counts.set(key, 0);
+    }
+    state.sessions.forEach((s) => {
+      const d = new Date(s.completedAt ?? s.startedAt);
+      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+      if (counts.has(key)) counts.set(key, (counts.get(key) ?? 0) + 1);
+    });
+    const maxCount = Math.max(...counts.values(), 1);
+    return { counts, maxCount };
+  }, [state]);
+
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const sessionMonths = Array.from(sessionsByMonth.counts.entries()).map(([key, count]) => {
+    const [y, m] = key.split("-").map(Number);
+    return { label: `${monthNames[m - 1]} ${String(y).slice(2)}`, count };
+  });
+
   return (
     <div className="insightsGrid">
       <section className="heroPanel">
@@ -1390,6 +1434,97 @@ function Insights({ state }: { state: VaultState }) {
           </span>
         </div>
       </section>
+
+      {/* Listening History */}
+      <section className="panel full">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Listening history</p>
+            <h3>Recent sessions</h3>
+          </div>
+          <BookOpen size={20} />
+        </div>
+        {recentSessions.length ? (
+          <ul className="compactList">
+            {recentSessions.map(({ session, album }) => (
+              <li key={session.id}>
+                <div className="sessionListItem">
+                  <span>{album?.title ?? "Unknown album"}</span>
+                  {album && <small>{album.artist}</small>}
+                </div>
+                <div className="sessionListMeta">
+                  <strong>
+                    {new Date(
+                      session.completedAt ?? session.startedAt
+                    ).toLocaleDateString()}
+                  </strong>
+                  {session.notes && (
+                    <small className="sessionNote">"{session.notes.slice(0, 60)}"</small>
+                  )}
+                  {session.checkedTracks.length > 0 && (
+                    <small>{session.checkedTracks.length} tracks checked</small>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>Complete your first listening session to build history.</p>
+        )}
+      </section>
+
+      {/* Listening frequency */}
+      <section className="panel full">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Listening rhythm</p>
+            <h3>Sessions per month</h3>
+          </div>
+          <TrendingUp size={20} />
+        </div>
+        <div className="barList">
+          {sessionMonths.map(({ label, count }) => (
+            <div key={label} className="barRow">
+              <span>{label}</span>
+              <div>
+                <i
+                  style={{
+                    width: `${(count / sessionsByMonth.maxCount) * 100}%`
+                  }}
+                />
+              </div>
+              <strong>{count}</strong>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Most listened */}
+      {mostListened.length > 0 && (
+        <section className="panel full">
+          <div className="sectionHeader">
+            <div>
+              <p className="eyebrow">Top listens</p>
+              <h3>Most-listened albums</h3>
+            </div>
+            <ListMusic size={20} />
+          </div>
+          <div className="albumStrip">
+            {mostListened.map((album) => (
+              <div
+                key={album.id}
+                className="stripItem readonly"
+              >
+                <AlbumCover album={album} />
+                <span className="listenCountBadge">
+                  {state.albums[album.id]!.listenCount}x
+                </span>
+                <span>{album.title}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="panel full">
         <div className="sectionHeader">
@@ -1492,23 +1627,27 @@ function Insights({ state }: { state: VaultState }) {
       )}
 
       <section className="panel">
-        <h3>Most recent activity</h3>
+        <h3>All sessions</h3>
         <ul className="compactList">
-          {state.sessions.slice(0, 8).map((session) => {
-            const album = albums.find(
-              (item) => item.id === session.albumId
-            );
-            return (
-              <li key={session.id}>
-                <span>{album?.title ?? "Unknown album"}</span>
-                <strong>
-                  {new Date(
-                    session.completedAt ?? session.startedAt
-                  ).toLocaleDateString()}
-                </strong>
-              </li>
-            );
-          })}
+          {state.sessions.length ? (
+            state.sessions.map((session) => {
+              const album = albums.find(
+                (item) => item.id === session.albumId
+              );
+              return (
+                <li key={session.id}>
+                  <span>{album?.title ?? "Unknown album"}</span>
+                  <strong>
+                    {new Date(
+                      session.completedAt ?? session.startedAt
+                    ).toLocaleDateString()}
+                  </strong>
+                </li>
+              );
+            })
+          ) : (
+            <p>No sessions recorded yet.</p>
+          )}
         </ul>
       </section>
     </div>

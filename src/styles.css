@@ -996,3 +996,114 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* --- Inline session --- */
+
+.sessionInline .sessionTracks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sessionInline .sessionTracks label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 8px;
+  background: var(--panel-2);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.sessionInline .sessionTracks label:hover {
+  background: #2b2823;
+}
+
+.sessionInline .sessionTracks label.checked {
+  background: rgba(47, 157, 143, 0.12);
+  border: 1px solid rgba(47, 157, 143, 0.3);
+}
+
+.sessionInline .sessionTracks input[type="checkbox"] {
+  accent-color: var(--teal);
+  width: 1.2rem;
+  height: 1.2rem;
+  flex-shrink: 0;
+}
+
+.sessionInline .sessionTracks span {
+  flex: 1;
+  font-weight: 500;
+}
+
+.sessionInline .sessionTracks small {
+  color: var(--muted);
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.sessionActions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+/* --- Session chip row --- */
+
+.sessionChipRow {
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.chip.muted {
+  opacity: 0.75;
+  cursor: default;
+  pointer-events: none;
+  font-size: 0.82rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* --- Enhanced session list items --- */
+
+.sessionListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.sessionListItem small {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.sessionListMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+}
+
+.sessionNote {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-style: italic;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --- Listen count badge --- */
+
+.listenCountBadge {
+  background: var(--brass);
+  color: #11100e;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  line-height: 1;
+}
