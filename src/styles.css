@@ -1107,3 +1107,30 @@ main {
   border-radius: 6px;
   line-height: 1;
 }
+
+/* --- Spotify link --- */
+
+.spotifyLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  background: #1db954;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.1s;
+  cursor: pointer;
+}
+
+.spotifyLink:hover {
+  background: #1ed760;
+  transform: translateY(-1px);
+}
+
+.spotifyLink:active {
+  transform: translateY(0);
+}

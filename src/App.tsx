@@ -7,15 +7,18 @@ import {
   Cloud,
   Disc3,
   Download,
+  ExternalLink,
   Filter,
   Gauge,
   Grid3X3,
+  Headphones,
   Heart,
   Import,
   LayoutList,
   Library,
   ListMusic,
   Lock,
+  Music,
   Pause,
   Play,
   Search,
@@ -331,6 +334,58 @@ function App() {
   const searchInputRef = useRef<HTMLInputElement>(null!);
   const importInputRef = useRef<HTMLInputElement>(null);
 
+  // Spotify integration state
+  const [spotifyResult, setSpotifyResult] = useState<{
+    spotifyTrackUrl: string | null;
+    spotifyAlbumUrl: string | null;
+    spotifyAlbumUri: string | null;
+    configured: boolean;
+    loading: boolean;
+  }>({ spotifyTrackUrl: null, spotifyAlbumUrl: null, spotifyAlbumUri: null, configured: false, loading: false });
+  const spotifyCache = useRef<Map<string, { url: string; uri: string }>>(new Map());
+
+  async function lookupSpotify(albumId: string) {
+    const album = albums.find(a => a.id === albumId);
+    if (!album) return;
+
+    // Check cache first
+    const cachedKey = `${album.artist} - ${album.title}`;
+    if (spotifyCache.current.has(cachedKey)) {
+      return;
+    }
+
+    setSpotifyResult(prev => ({ ...prev, loading: true }));
+    try {
+      const q = encodeURIComponent(`${album.artist} ${album.title}`);
+      const response = await fetch(`/.netlify/functions/spotify?q=${q}`);
+      const data = await response.json();
+      if (data.configured) {
+        spotifyCache.current.set(cachedKey, {
+          url: data.spotifyAlbumUrl || data.spotifyTrackUrl || "",
+          uri: data.spotifyAlbumUri || ""
+        });
+        setSpotifyResult({
+          spotifyTrackUrl: data.spotifyTrackUrl,
+          spotifyAlbumUrl: data.spotifyAlbumUrl,
+          spotifyAlbumUri: data.spotifyAlbumUri,
+          configured: true,
+          loading: false
+        });
+      } else {
+        setSpotifyResult({ spotifyTrackUrl: null, spotifyAlbumUrl: null, spotifyAlbumUri: null, configured: false, loading: false });
+      }
+    } catch {
+      setSpotifyResult(prev => ({ ...prev, loading: false }));
+    }
+  }
+
+  // Look up Spotify when album changes
+  useEffect(() => {
+    if (selectedAlbumId) {
+      lookupSpotify(selectedAlbumId);
+    }
+  }, [selectedAlbumId]);
+
   const selectedAlbum =
     albums.find((album) => album.id === selectedAlbumId) ?? albums[0];
   const selectedEntry = selectedAlbum
@@ -627,6 +682,10 @@ function App() {
             addSession={addSession}
             playingPreview={playingPreview}
             handlePreviewToggle={handlePreviewToggle}
+            spotifyUrl={spotifyResult.spotifyAlbumUrl || spotifyResult.spotifyTrackUrl}
+            spotifyUri={spotifyResult.spotifyAlbumUri}
+            spotifyConfigured={spotifyResult.configured}
+            spotifyLoading={spotifyResult.loading}
           />
         )}
 
@@ -987,7 +1046,11 @@ function AlbumDetail({
   updateAlbum,
   addSession,
   playingPreview,
-  handlePreviewToggle
+  handlePreviewToggle,
+  spotifyUrl,
+  spotifyUri,
+  spotifyConfigured,
+  spotifyLoading
 }: {
   album: Album;
   entry?: EncyclopediaEntry;
@@ -1000,6 +1063,10 @@ function AlbumDetail({
     albumId: string,
     trackIndex: number
   ) => void;
+  spotifyUrl: string | null;
+  spotifyUri: string | null;
+  spotifyConfigured: boolean;
+  spotifyLoading: boolean;
 }) {
   const [sessionActive, setSessionActive] = useState(false);
   const [sessionNotes, setSessionNotes] = useState("");
@@ -1114,6 +1181,28 @@ function AlbumDetail({
               <ListMusic size={17} /> Start listening session
             </button>
           ) : null}
+          {spotifyUrl && (
+            <a
+              href={spotifyUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="button spotifyLink"
+              style={{ marginTop: '0.5rem' }}
+            >
+              <Headphones size={17} /> Listen on Spotify
+              <ExternalLink size={12} />
+            </a>
+          )}
+          {!spotifyConfigured && spotifyLoading && (
+            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
+              <Music size={14} /> Searching Spotify…
+            </span>
+          )}
+          {!spotifyConfigured && !spotifyLoading && (
+            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
+              <Music size={14} /> Add SPOTIFY_CLIENT_ID + SPOTIFY_CLIENT_SECRET env vars for Spotify links
+            </span>
+          )}
         </div>
       </section>
 
