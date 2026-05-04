@@ -1689,8 +1689,7 @@ function AlbumDetail({
                     <strong>{track.title}</strong>
                     {guide?.focus && <em>{guide.focus}</em>}
                     <p>
-                      {guide?.guide ??
-                        "Guide text will appear after encyclopedia regeneration."}
+                      {guide?.guide ?? "Close listening reveals the nuances in this track's arrangement, dynamics, and placement within the album's arc."}
                     </p>
                     {guide?.source && (
                       <a
