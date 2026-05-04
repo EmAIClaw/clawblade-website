@@ -250,8 +250,9 @@ def generate_guide(track_title, track_info, album_title, album_artist, genre, ye
             avg_length = sum(lengths) // len(lengths)
     
     # Build context-aware guide based on track characteristics
-    is_short = track_info.get('duration_ms', 0) < 120000  # < 2 min
-    is_long = track_info.get('duration_ms', 0) > 360000   # > 6 min
+    duration_ms = track_info.get('duration_ms') or 0
+    is_short = duration_ms < 120000  # < 2 min
+    is_long = duration_ms > 360000   # > 6 min
     is_opener = track_num == 1
     is_closer = track_num == len(existing_guides) + 1 or 'closer' in track_title.lower()
     

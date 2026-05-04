@@ -878,6 +878,12 @@ function App() {
           >
             <BarChart3 size={18} /> Insights
           </button>
+          <button
+            className={view === "log" ? "active" : ""}
+            onClick={() => setView("log")}
+          >
+            <BookOpen size={18} /> Log
+          </button>
         </nav>
         <section className="syncPanel">
           <div className="syncTitle">
@@ -997,7 +1003,8 @@ function App() {
           />
         )}
 
-        {view === "insights" && <Insights state={state} />}
+        {view === "insights" && <Insights state={state} openAlbum={openAlbum} />}
+        {view === "log" && <ListeningLog state={state} openAlbum={openAlbum} />}
       </main>
     </div>
   );
@@ -1718,7 +1725,13 @@ function AlbumDetail({
   );
 }
 
-function Insights({ state }: { state: VaultState }) {
+function Insights({
+  state,
+  openAlbum
+}: {
+  state: VaultState;
+  openAlbum: (albumId: string) => void;
+}) {
   const ownedByDecade = useMemo(() => {
     const counts = new Map<string, number>();
     albums.forEach((album) => {
@@ -2075,6 +2088,132 @@ function Insights({ state }: { state: VaultState }) {
             <p>No sessions recorded yet.</p>
           )}
         </ul>
+      </section>
+    </div>
+  );
+}
+
+function ListeningLog({
+  state,
+  openAlbum
+}: {
+  state: VaultState;
+  openAlbum: (id: string) => void;
+}) {
+  const [expandedNotes, setExpandedNotes] = useState<Set<string>>(new Set());
+
+  const toggleNote = (sessionId: string) => {
+    setExpandedNotes((prev) => {
+      const next = new Set(prev);
+      if (next.has(sessionId)) next.delete(sessionId);
+      else next.add(sessionId);
+      return next;
+    });
+  };
+
+  const sessionsWithAlbums = useMemo(() => {
+    return state.sessions.map((session) => {
+      const album = albums.find((a) => a.id === session.albumId);
+      const rating = state.albums[session.albumId]?.rating ?? null;
+      return { session, album, rating };
+    });
+  }, [state]);
+
+  return (
+    <div className="insightsGrid">
+      <section className="heroPanel">
+        <div>
+          <p className="eyebrow">Listening log</p>
+          <h2>{state.sessions.length} sessions</h2>
+          <p>
+            Complete history of every guided listening session. Click any entry to revisit the album.
+          </p>
+        </div>
+        <div className="progressDial" style={{ "--progress": "100%" } as React.CSSProperties}>
+          <BookOpen size={28} />
+        </div>
+      </section>
+
+      <section className="panel full">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Complete history</p>
+            <h3>All listening sessions</h3>
+          </div>
+          <ListMusic size={20} />
+        </div>
+        {sessionsWithAlbums.length ? (
+          <ul className="compactList logList">
+            {sessionsWithAlbums.map(({ session, album, rating }) => (
+              <li key={session.id} className="logEntry">
+                <button
+                  className="logAlbumBtn"
+                  onClick={() => openAlbum(session.albumId)}
+                  title="Open album"
+                >
+                  {album && <AlbumCover album={album} />}
+                </button>
+                <div className="logDetails">
+                  <div className="logTitleRow">
+                    <strong>{album?.title ?? "Unknown album"}</strong>
+                    <span className="logArtist">{album?.artist ?? ""}</span>
+                  </div>
+                  <div className="logMeta">
+                    <span>
+                      {new Date(
+                        session.completedAt ?? session.startedAt
+                      ).toLocaleDateString(undefined, {
+                        weekday: "short",
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric"
+                      })}
+                    </span>
+                    {session.checkedTracks.length > 0 && (
+                      <span>{session.checkedTracks.length} tracks checked</span>
+                    )}
+                    {rating && (
+                      <span className="logRating">
+                        {Array.from({ length: rating }).map((_, i) => (
+                          <Star key={i} size={10} fill="currentColor" />
+                        ))}
+                      </span>
+                    )}
+                  </div>
+                  {session.notes && (
+                    <div className="logNotes">
+                      {expandedNotes.has(session.id) ? (
+                        <>
+                          <p>"{session.notes}"</p>
+                          <button
+                            className="logExpandBtn"
+                            onClick={() => toggleNote(session.id)}
+                          >
+                            Show less
+                          </button>
+                        </>
+                      ) : (
+                        <>
+                          <p>"{session.notes.slice(0, 80)}{session.notes.length > 80 ? "…" : ""}"</p>
+                          {session.notes.length > 80 && (
+                            <button
+                              className="logExpandBtn"
+                              onClick={() => toggleNote(session.id)}
+                            >
+                              Read more
+                            </button>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>Complete your first listening session to build history.</p>
+        )}
       </section>
     </div>
   );
