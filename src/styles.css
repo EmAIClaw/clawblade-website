@@ -644,6 +644,28 @@ main {
   text-align: right;
 }
 
+.trackRow.sessionActive {
+  grid-template-columns: 1.5rem 2rem 2rem 1fr 3rem;
+}
+
+.trackRow.sessionActive.checked {
+  border-color: rgba(47, 157, 143, 0.35);
+  background: rgba(47, 157, 143, 0.06);
+}
+
+.trackRow .trackCheck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trackRow .trackCheck input {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--teal);
+  cursor: pointer;
+}
+
 .sessionNow {
   grid-column: span 12;
   display: grid;

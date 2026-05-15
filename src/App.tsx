@@ -1540,55 +1540,6 @@ function AlbumDetail({
         </div>
       </section>
 
-      {sessionActive && (
-        <section className="panel full sessionInline">
-          <div className="sectionHeader">
-            <div>
-              <p className="eyebrow">Active session</p>
-              <h3>Track checklist</h3>
-            </div>
-            <ListMusic size={20} />
-          </div>
-          {album.tracks.length ? (
-            <div className="sessionTracks">
-              {album.tracks.map((track) => (
-                <label
-                  key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-                  className={
-                    checkedTracks.includes(track.title) ? "checked" : ""
-                  }
-                >
-                  <input
-                    type="checkbox"
-                    checked={checkedTracks.includes(track.title)}
-                    onChange={() => toggleTrack(track.title)}
-                  />
-                  <span>{track.trackNumber}. {track.title}</span>
-                  <small>{formatDuration(track.durationMs)}</small>
-                </label>
-              ))}
-            </div>
-          ) : (
-            <p>Tracks will appear after Apple enrichment.</p>
-          )}
-          <label className="notesField">
-            Session reflection
-            <textarea
-              value={sessionNotes}
-              onChange={(event) => setSessionNotes(event.target.value)}
-              placeholder="What stood out during this listen? How does it hold up?"
-            />
-          </label>
-          <div className="sessionActions">
-            <button className="primary" onClick={finishSession}>
-              <Check size={17} /> Complete session
-            </button>
-            <button onClick={cancelSession}>
-              Cancel
-            </button>
-          </div>
-        </section>
-      )}
 
       <section className="panel full">
         <div className="sectionHeader">
@@ -1644,14 +1595,14 @@ function AlbumDetail({
       <section className="panel full">
         <div className="sectionHeader">
           <div>
-            <p className="eyebrow">Track guide</p>
+            <p className="eyebrow">{sessionActive ? "Active session" : "Track guide"}</p>
             <h3>
               {album.tracks.length
                 ? `${album.tracks.length} tracks`
                 : "Awaiting Apple track enrichment"}
             </h3>
           </div>
-          <ListMusic size={20} />
+          {sessionActive ? <ListMusic size={20} /> : <ListMusic size={20} />}
         </div>
         {album.tracks.length ? (
           <div className="trackList">
@@ -1660,8 +1611,17 @@ function AlbumDetail({
               return (
                 <article
                   key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-                  className="trackRow"
+                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(track.title) ? " checked" : ""}`}
                 >
+                  {sessionActive && (
+                    <label className="trackCheck">
+                      <input
+                        type="checkbox"
+                        checked={checkedTracks.includes(track.title)}
+                        onChange={() => toggleTrack(track.title)}
+                      />
+                    </label>
+                  )}
                   <span>
                     {track.trackNumber || <CircleDot size={12} />}
                   </span>
@@ -1719,6 +1679,26 @@ function AlbumDetail({
             Run `npm run prepare:catalog` with network access to
             fetch Apple track listings and cover art.
           </p>
+        )}
+        {sessionActive && (
+          <>
+            <label className="notesField">
+              Session reflection
+              <textarea
+                value={sessionNotes}
+                onChange={(event) => setSessionNotes(event.target.value)}
+                placeholder="What stood out during this listen? How does it hold up?"
+              />
+            </label>
+            <div className="sessionActions">
+              <button className="primary" onClick={finishSession}>
+                <Check size={17} /> Complete session
+              </button>
+              <button onClick={cancelSession}>
+                Cancel
+              </button>
+            </div>
+          </>
         )}
       </section>
     </div>
