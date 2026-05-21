@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && bash scripts/merge-gym-tracker.sh"
   publish = "dist"
   functions = "netlify/functions"
 
