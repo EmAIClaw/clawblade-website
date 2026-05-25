@@ -1,5 +1,8 @@
 node_modules
 dist
+!dist/gym
+!dist/gym/
+!dist/gym/**
 .netlify
 .env
 .env.local

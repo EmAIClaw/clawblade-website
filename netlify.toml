@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && bash scripts/merge-gym-tracker.sh"
+  command = "npm run build"
   publish = "dist"
   functions = "netlify/functions"
 
@@ -8,6 +8,13 @@
   targetPort = 5173
   port = 8888
   publish = "dist"
+
+# Cross-Origin Isolation required for expo-sqlite (WASM + SharedArrayBuffer)
+[[headers]]
+  for = "/gym/*"
+  [headers.values]
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
   from = "/gym/*"
