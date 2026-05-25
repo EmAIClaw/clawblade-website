@@ -33,6 +33,11 @@
   status = 200
 
 [[redirects]]
+  from = "/assets/node_modules/expo-sqlite/*"
+  to = "/gym/assets/node_modules/expo-sqlite/:splat"
+  status = 200
+
+[[redirects]]
   from = "/gym/*"
   to = "/gym/index.html"
   status = 200
