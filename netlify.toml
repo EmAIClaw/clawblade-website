@@ -16,6 +16,22 @@
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Embedder-Policy = "require-corp"
 
+[[headers]]
+  for = "/gym/assets/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+
+# Passthrough for static assets under /gym/ — must come BEFORE SPA catch-all
+[[redirects]]
+  from = "/gym/_expo/*"
+  to = "/gym/_expo/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/gym/assets/*"
+  to = "/gym/assets/:splat"
+  status = 200
+
 [[redirects]]
   from = "/gym/*"
   to = "/gym/index.html"
