@@ -665,7 +665,12 @@ function App() {
     return () => {
       cancelled = true;
       if (player) {
-        try { player.disconnect(); } catch { /* ignore */ }
+        try {
+          player.removeListener('ready');
+          player.removeListener('not_ready');
+          player.removeListener('player_state_changed');
+          player.disconnect();
+        } catch { /* ignore */ }
       }
     };
   }, [spotifyToken.connected, spotifyToken.accessToken]);
@@ -898,10 +903,10 @@ function App() {
             aria-label="Netlify passcode"
           />
           <div className="buttonRow">
-            <button onClick={loadCloud}>
+            <button type="button" onClick={loadCloud}>
               <Cloud size={16} /> Load
             </button>
-            <button onClick={() => saveCloud()}>
+            <button type="button" onClick={() => saveCloud()}>
               <Upload size={16} /> Save
             </button>
           </div>
@@ -911,12 +916,12 @@ function App() {
             {spotifyToken.connected ? (
               <>
                 <span>Spotify connected</span>
-                <button onClick={disconnectSpotify} style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+                <button type="button" onClick={disconnectSpotify} style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
                   Disconnect
                 </button>
               </>
             ) : (
-              <button onClick={connectSpotify} className="spotifyBtn" style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+              <button type="button" onClick={connectSpotify} className="spotifyBtn" style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
                 Connect Spotify
               </button>
             )}
@@ -935,10 +940,10 @@ function App() {
             </h1>
           </div>
           <div className="actions">
-            <button onClick={pickRandom} title="Pick a random unlistened album">
+            <button type="button" onClick={pickRandom} title="Pick a random unlistened album">
               <Shuffle size={16} /> Random
             </button>
-            <button onClick={exportState}>
+            <button type="button" onClick={exportState}>
               <Download size={16} /> Export
             </button>
             <button
@@ -1044,7 +1049,7 @@ function Dashboard({
             {stats.listened} of {catalogTotal} albums completed. {stats.owned}{" "}
             CDs owned and {stats.wantlist} on the wantlist.
           </p>
-          <button onClick={() => setView("collection")}>
+          <button type="button" onClick={() => setView("collection")}>
             <Library size={17} /> Manage collection
           </button>
         </div>
@@ -1496,7 +1501,7 @@ function AlbumDetail({
             ) : null}
           </div>
           {!sessionActive ? (
-            <button className="primary" onClick={startSession}>
+            <button type="button" className="primary" onClick={startSession}>
               <ListMusic size={17} /> Start listening session
             </button>
           ) : null}
@@ -1691,10 +1696,10 @@ function AlbumDetail({
               />
             </label>
             <div className="sessionActions">
-              <button className="primary" onClick={finishSession}>
+              <button type="button" className="primary" onClick={finishSession}>
                 <Check size={17} /> Complete session
               </button>
-              <button onClick={cancelSession}>
+              <button type="button" onClick={cancelSession}>
                 Cancel
               </button>
             </div>

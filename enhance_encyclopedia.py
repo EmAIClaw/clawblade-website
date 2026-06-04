@@ -370,11 +370,11 @@ def get_rank(album_id):
 
 def main():
     # Load the current encyclopedia
-    with open('/Users/ai/.openclaw/workspace/projects/albumvault-brief/src/data/encyclopedia.generated.json', 'r') as f:
+    with open('/Users/ai/.hermes/workspace/projects/albumvault/src/data/encyclopedia.generated.json', 'r') as f:
         data = json.load(f)
     
     # Load the catalog to get all albums
-    with open('/Users/ai/.openclaw/workspace/projects/albumvault-brief/src/data/catalog.generated.json', 'r') as f:
+    with open('/Users/ai/.hermes/workspace/projects/albumvault/src/data/catalog.generated.json', 'r') as f:
         catalog = json.load(f)
     
     # Update entries for the first three albums with enhanced content
@@ -402,7 +402,7 @@ def main():
     data['metadata']['mode'] = "enhanced-with-manual-content"
     
     # Write back the updated encyclopedia
-    with open('/Users/ai/.openclaw/workspace/projects/albumvault-brief/src/data/encyclopedia.generated.json', 'w') as f:
+    with open('/Users/ai/.hermes/workspace/projects/albumvault/src/data/encyclopedia.generated.json', 'w') as f:
         json.dump(data, f, indent=2)
     
     print(f"\nUpdated {updated_count} albums with enhanced content")
