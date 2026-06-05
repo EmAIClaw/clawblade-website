@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "test:security": "node scripts/test-security.mjs",
     "preview": "vite preview",
     "prepare:catalog": "node scripts/prepare-catalog.mjs",
     "prepare:catalog:offline": "node scripts/prepare-catalog.mjs --offline",

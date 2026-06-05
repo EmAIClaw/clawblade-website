@@ -47,6 +47,7 @@ import type {
   View,
   ViewMode
 } from "./types";
+import { normalizeVaultState, safeParseVaultState } from "./vaultState";
 
 const albums = catalogData.albums as Album[];
 const encyclopedia = encyclopediaData.entries as Record<
@@ -79,8 +80,26 @@ function todayIso() {
 
 // --- Spotify PKCE OAuth helpers ---
 
-const SPOTIFY_CLIENT_ID = "your-client-id"; // Public for PKCE — replace with your Spotify Developer app Client ID
-const SPOTIFY_REDIRECT_URI = "https://clawblade.ai/";
+const SPOTIFY_CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID ?? "";
+const SPOTIFY_REDIRECT_URI =
+  import.meta.env.VITE_SPOTIFY_REDIRECT_URI ?? `${window.location.origin}/`;
+
+async function getSpotifyOAuthConfig() {
+  if (SPOTIFY_CLIENT_ID) {
+    return { clientId: SPOTIFY_CLIENT_ID, redirectUri: SPOTIFY_REDIRECT_URI };
+  }
+
+  const response = await fetch('/.netlify/functions/spotify-auth', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'include',
+    body: JSON.stringify({ action: 'config' })
+  });
+  if (!response.ok) throw new Error('Spotify is not configured');
+  const config = await response.json();
+  if (!config.client_id || !config.redirect_uri) throw new Error('Spotify is not configured');
+  return { clientId: config.client_id as string, redirectUri: config.redirect_uri as string };
+}
 
 function generateCodeVerifier(): string {
   const array = new Uint8Array(64);
@@ -95,10 +114,18 @@ async function generateCodeChallenge(verifier: string): Promise<string> {
     .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
+function persistVaultState(next: VaultState) {
+  try {
+    localStorage.setItem("albumvault-state", JSON.stringify(next));
+  } catch {
+    console.warn("AlbumVault: local vault persistence failed");
+  }
+}
+
 function useVaultState() {
   const [state, setState] = useState<VaultState>(() => {
     const stored = localStorage.getItem("albumvault-state");
-    return stored ? JSON.parse(stored) : blankState();
+    return stored ? safeParseVaultState(stored) ?? blankState() : blankState();
   });
   const [passcode, setPasscode] = useState(
     () => sessionStorage.getItem("albumvault-passcode") ?? ""
@@ -111,7 +138,7 @@ function useVaultState() {
   );
 
   useEffect(() => {
-    localStorage.setItem("albumvault-state", JSON.stringify(state));
+    persistVaultState(state);
   }, [state]);
 
   useEffect(() => {
@@ -132,7 +159,7 @@ function useVaultState() {
         headers: { "x-albumvault-passcode": passcode }
       });
       if (!response.ok) throw new Error(await response.text());
-      const remote = (await response.json()) as VaultState;
+      const remote = normalizeVaultState(await response.json());
       setState(remote);
       setCloudStatus("saved");
       setCloudMessage("Loaded from Netlify cloud.");
@@ -194,7 +221,7 @@ function useVaultState() {
         },
         updatedAt: todayIso()
       };
-      localStorage.setItem("albumvault-state", JSON.stringify(next));
+      persistVaultState(next);
       return next;
     });
   }
@@ -216,7 +243,7 @@ function useVaultState() {
         sessions: [session, ...current.sessions].slice(0, 100),
         updatedAt: todayIso()
       };
-      localStorage.setItem("albumvault-state", JSON.stringify(next));
+      persistVaultState(next);
       return next;
     });
   }
@@ -352,23 +379,22 @@ function App() {
   const searchInputRef = useRef<HTMLInputElement>(null!);
   const importInputRef = useRef<HTMLInputElement>(null);
 
-  // Spotify OAuth token state
+  // Spotify OAuth token state. Refresh tokens are held in an httpOnly cookie by the Netlify auth function.
   const [spotifyToken, setSpotifyToken] = useState<{
     accessToken: string | null;
-    refreshToken: string | null;
     expiresAt: number;
     connected: boolean;
   }>(() => {
     try {
-      const stored = localStorage.getItem('albumvault-spotify');
+      const stored = sessionStorage.getItem('albumvault-spotify-access');
       if (stored) {
         const parsed = JSON.parse(stored);
-        if (parsed.expiresAt > Date.now()) return { ...parsed, connected: true };
-        // Token expired — will refresh when needed
-        return { accessToken: null, refreshToken: parsed.refreshToken, expiresAt: 0, connected: false };
+        if (typeof parsed.accessToken === 'string' && parsed.expiresAt > Date.now()) {
+          return { accessToken: parsed.accessToken, expiresAt: parsed.expiresAt, connected: true };
+        }
       }
     } catch { /* ignore corrupt data */ }
-    return { accessToken: null, refreshToken: null, expiresAt: 0, connected: false };
+    return { accessToken: null, expiresAt: 0, connected: false };
   });
 
   // Spotify Web Playback SDK refs
@@ -377,16 +403,19 @@ function App() {
   const spotifyCurrentTrackIndex = useRef<number>(-1);
   const spotifyCurrentAlbumId = useRef<string | null>(null);
 
-  // Persist Spotify token changes
+  // Persist only the short-lived access token in tab-scoped storage.
   useEffect(() => {
-    if (spotifyToken.accessToken && spotifyToken.refreshToken && spotifyToken.expiresAt) {
-      localStorage.setItem('albumvault-spotify', JSON.stringify({
-        accessToken: spotifyToken.accessToken,
-        refreshToken: spotifyToken.refreshToken,
-        expiresAt: spotifyToken.expiresAt
-      }));
-    } else if (!spotifyToken.refreshToken) {
-      localStorage.removeItem('albumvault-spotify');
+    try {
+      if (spotifyToken.accessToken && spotifyToken.expiresAt) {
+        sessionStorage.setItem('albumvault-spotify-access', JSON.stringify({
+          accessToken: spotifyToken.accessToken,
+          expiresAt: spotifyToken.expiresAt
+        }));
+      } else {
+        sessionStorage.removeItem('albumvault-spotify-access');
+      }
+    } catch {
+      console.warn('AlbumVault: Spotify token persistence failed');
     }
   }, [spotifyToken]);
 
@@ -409,13 +438,13 @@ function App() {
         const response = await fetch('/.netlify/functions/spotify-auth', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
           body: JSON.stringify({ action: 'token', code, code_verifier: codeVerifier })
         });
         if (!response.ok) throw new Error('Token exchange failed');
         const data = await response.json();
         setSpotifyToken({
           accessToken: data.access_token,
-          refreshToken: data.refresh_token,
           expiresAt: Date.now() + (data.expires_in - 60) * 1000,
           connected: true
         });
@@ -428,13 +457,20 @@ function App() {
   // --- Spotify connect / disconnect ---
 
   async function connectSpotify() {
+    let oauthConfig: { clientId: string; redirectUri: string };
+    try {
+      oauthConfig = await getSpotifyOAuthConfig();
+    } catch {
+      console.warn('AlbumVault: Spotify OAuth is not configured');
+      return;
+    }
     const verifier = generateCodeVerifier();
     const challenge = await generateCodeChallenge(verifier);
     sessionStorage.setItem('albumvault-code-verifier', verifier);
     const params = new URLSearchParams({
-      client_id: SPOTIFY_CLIENT_ID,
+      client_id: oauthConfig.clientId,
       response_type: 'code',
-      redirect_uri: SPOTIFY_REDIRECT_URI,
+      redirect_uri: oauthConfig.redirectUri,
       scope: 'streaming user-read-email user-read-private',
       code_challenge_method: 'S256',
       code_challenge: challenge
@@ -448,30 +484,34 @@ function App() {
       spotifyPlayerRef.current = null;
     }
     spotifyDeviceIdRef.current = null;
-    localStorage.removeItem('albumvault-spotify');
-    setSpotifyToken({ accessToken: null, refreshToken: null, expiresAt: 0, connected: false });
+    sessionStorage.removeItem('albumvault-spotify-access');
+    void fetch('/.netlify/functions/spotify-auth', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ action: 'logout' })
+    }).catch(() => undefined);
+    setSpotifyToken({ accessToken: null, expiresAt: 0, connected: false });
   }
 
   async function getValidAccessToken(): Promise<string | null> {
-    if (!spotifyToken.refreshToken) return null;
-
     if (spotifyToken.accessToken && spotifyToken.expiresAt > Date.now()) {
       return spotifyToken.accessToken;
     }
 
-    // Token expired — refresh
+    // Token expired — refresh via httpOnly cookie.
     try {
       const response = await fetch('/.netlify/functions/spotify-auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'refresh', refresh_token: spotifyToken.refreshToken })
+        credentials: 'include',
+        body: JSON.stringify({ action: 'refresh' })
       });
       if (!response.ok) throw new Error('Refresh failed');
       const data = await response.json();
       const expiresAt = Date.now() + (data.expires_in - 60) * 1000;
       const accessToken = data.access_token;
-      const refreshToken = data.refresh_token ?? spotifyToken.refreshToken;
-      setSpotifyToken({ accessToken, refreshToken, expiresAt, connected: true });
+      setSpotifyToken({ accessToken, expiresAt, connected: true });
       return accessToken;
     } catch {
       // Refresh failed — disconnect
@@ -783,7 +823,12 @@ function App() {
   async function importState(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
     if (!file) return;
-    const next = JSON.parse(await file.text()) as VaultState;
+    const next = safeParseVaultState(await file.text());
+    if (!next) {
+      alert("That file is not a valid AlbumVault backup.");
+      event.target.value = "";
+      return;
+    }
     setState({ ...next, updatedAt: todayIso() });
     event.target.value = "";
   }

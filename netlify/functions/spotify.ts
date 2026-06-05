@@ -13,6 +13,8 @@
  *   Returns track URI, album URI, and external Spotify URL (or error).
  */
 
+import { allowedCorsOrigin } from "./security";
+
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
 const SPOTIFY_SEARCH_URL = "https://api.spotify.com/v1/search";
 
@@ -153,21 +155,21 @@ const corsHeaders = {
 };
 
 export default async function handler(request: Request) {
+  const baseHeaders: Record<string, string> = {
+    ...corsHeaders,
+    "access-control-allow-origin": allowedCorsOrigin(
+      request.headers.get("origin"),
+      process.env.ALBUMVAULT_ALLOWED_ORIGIN
+    ),
+    vary: "Origin"
+  };
+
   if (request.method === "OPTIONS") {
     return new Response(null, {
       status: 204,
-      headers: {
-        ...corsHeaders,
-        "access-control-allow-origin": "*"
-      }
+      headers: baseHeaders
     });
   }
-
-  // Add CORS
-  const baseHeaders: Record<string, string> = {
-    ...corsHeaders,
-    "access-control-allow-origin": request.headers.get("origin") ?? "*"
-  };
 
   if (request.method !== "GET") {
     return new Response(JSON.stringify({ error: "Method not allowed", ...notConfigured() }), {
