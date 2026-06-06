@@ -8,21 +8,14 @@ echo "=== Building Gym Tracker for /gym/ subfolder ==="
 GYM_DIR=""
 BUILT=false
 
-# Try local path first
-if [ -f "$HOME/.openclaw/workspace/projects/gym-tracker/package.json" ]; then
-  GYM_DIR="$HOME/.openclaw/workspace/projects/gym-tracker"
-  echo "Using local gym-tracker at $GYM_DIR"
+# Try Hermes workspace first
+if [ -f "$HOME/.hermes/workspace/projects/gym-tracker/package.json" ]; then
+  GYM_DIR="$HOME/.hermes/workspace/projects/gym-tracker"
+  echo "Using Hermes workspace gym-tracker at $GYM_DIR"
   BUILT=true
 fi
 
-# Try sibling directory
-if [ -z "$GYM_DIR" ] && [ -f "../gym-tracker/package.json" ]; then
-  GYM_DIR="../gym-tracker"
-  echo "Using sibling gym-tracker at $GYM_DIR"
-  BUILT=true
-fi
-
-# Try cloning from GitHub (works on Netlify build servers if repo is accessible)
+# Fallback: clone from GitHub (works on Netlify build servers if repo is accessible)
 if [ -z "$GYM_DIR" ]; then
   GYM_DIR=$(mktemp -d)
   echo "Cloning gym-tracker from GitHub..."
