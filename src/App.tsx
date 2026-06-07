@@ -329,22 +329,22 @@ function StarRating({
 }
 
 function AudioPreview({
-  previewUrl,
   trackTitle,
   isPlaying,
-  onToggle
+  onToggle,
+  sourceLabel = "preview"
 }: {
-  previewUrl: string;
   trackTitle: string;
   isPlaying: boolean;
   onToggle: () => void;
+  sourceLabel?: string;
 }) {
   return (
     <button
       className="previewBtn"
       onClick={onToggle}
-      aria-label={`${isPlaying ? "Pause" : "Play"} preview of ${trackTitle}`}
-      title={`Preview: ${trackTitle}`}
+      aria-label={`${isPlaying ? "Pause" : "Play"} ${sourceLabel} of ${trackTitle}`}
+      title={`${sourceLabel}: ${trackTitle}`}
     >
       {isPlaying ? <Pause size={14} /> : <Play size={14} />}
     </button>
@@ -471,7 +471,7 @@ function App() {
       client_id: oauthConfig.clientId,
       response_type: 'code',
       redirect_uri: oauthConfig.redirectUri,
-      scope: 'streaming user-read-email user-read-private',
+      scope: 'streaming user-read-email user-read-private user-modify-playback-state',
       code_challenge_method: 'S256',
       code_challenge: challenge
     });
@@ -622,7 +622,7 @@ function App() {
 
   async function playOnSpotify(artist: string, trackTitle: string, albumId: string, trackIndex: number) {
     const token = await getValidAccessToken();
-    if (!token) return;
+    if (!token) return false;
 
     spotifyCurrentAlbumId.current = albumId;
     spotifyCurrentTrackIndex.current = trackIndex;
@@ -630,26 +630,35 @@ function App() {
     try {
       const q = encodeURIComponent(`${artist} ${trackTitle}`);
       const response = await fetch(`/.netlify/functions/spotify?q=${q}`);
+      if (!response.ok) return false;
       const data = await response.json();
       const uri = data.spotifyTrackUri;
-      if (!uri) return;
+      if (!uri) return false;
 
       const deviceId = spotifyDeviceIdRef.current;
-      if (!deviceId) return;
+      if (!deviceId) return false;
 
-      // Transfer + play
-      await fetch('https://api.spotify.com/v1/me/player', {
+      // Stop any iTunes/Apple preview before handing playback to Spotify.
+      audioRef.current?.pause();
+      audioRef.current = null;
+      setPlayingPreview(null);
+
+      // Transfer + play. These calls require Spotify Premium and user-modify-playback-state.
+      const transferResponse = await fetch('https://api.spotify.com/v1/me/player', {
         method: 'PUT',
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
         body: JSON.stringify({ device_ids: [deviceId], play: false })
       });
-      await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+      if (!transferResponse.ok) return false;
+
+      const playResponse = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
         method: 'PUT',
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
         body: JSON.stringify({ uris: [uri] })
       });
+      return playResponse.ok;
     } catch {
-      // Graceful degradation — fail silently
+      return false;
     }
   }
 
@@ -892,6 +901,23 @@ function App() {
     setPlayingPreview(previewUrl);
   }
 
+  async function handleTrackPlay(
+    previewUrl: string | null | undefined,
+    artist: string,
+    trackTitle: string,
+    albumId: string,
+    trackIndex: number
+  ) {
+    if (spotifyToken.connected) {
+      const playedOnSpotify = await playOnSpotify(artist, trackTitle, albumId, trackIndex);
+      if (playedOnSpotify) return;
+    }
+
+    if (previewUrl) {
+      handlePreviewToggle(previewUrl, albumId, trackIndex);
+    }
+  }
+
   useEffect(() => {
     return () => {
       audioRef.current?.pause();
@@ -1043,13 +1069,12 @@ function App() {
             updateAlbum={updateAlbum}
             addSession={addSession}
             playingPreview={playingPreview}
-            handlePreviewToggle={handlePreviewToggle}
+            handlePreviewToggle={handleTrackPlay}
             spotifyUrl={spotifyResult.spotifyAlbumUrl || spotifyResult.spotifyTrackUrl}
             spotifyUri={spotifyResult.spotifyAlbumUri}
             spotifyConfigured={spotifyResult.configured}
             spotifyLoading={spotifyResult.loading}
             spotifyConnected={spotifyToken.connected}
-            playOnSpotify={playOnSpotify}
           />
         )}
 
@@ -1416,8 +1441,7 @@ function AlbumDetail({
   spotifyUri,
   spotifyConfigured,
   spotifyLoading,
-  spotifyConnected,
-  playOnSpotify
+  spotifyConnected
 }: {
   album: Album;
   entry?: EncyclopediaEntry;
@@ -1426,7 +1450,9 @@ function AlbumDetail({
   addSession: (session: ListeningSession) => void;
   playingPreview: string | null;
   handlePreviewToggle: (
-    previewUrl: string,
+    previewUrl: string | null | undefined,
+    artist: string,
+    trackTitle: string,
     albumId: string,
     trackIndex: number
   ) => void;
@@ -1435,7 +1461,6 @@ function AlbumDetail({
   spotifyConfigured: boolean;
   spotifyLoading: boolean;
   spotifyConnected: boolean;
-  playOnSpotify: (artist: string, trackTitle: string, albumId: string, trackIndex: number) => void;
 }) {
   const [sessionActive, setSessionActive] = useState(false);
   const [sessionNotes, setSessionNotes] = useState("");
@@ -1675,32 +1700,21 @@ function AlbumDetail({
                   <span>
                     {track.trackNumber || <CircleDot size={12} />}
                   </span>
-                  {spotifyConnected ? (
-                    <button
-                      className="trackSpotifyBtn"
-                      onClick={() => playOnSpotify(album.artist, track.title, album.id, idx)}
-                      aria-label={`Play ${track.title} on Spotify`}
-                      title={`Play on Spotify: ${track.title}`}
-                    >
-                      <Play size={14} />
-                    </button>
-                  ) : (
-                    track.previewUrl && (
-                      <AudioPreview
-                        previewUrl={track.previewUrl}
-                        trackTitle={track.title}
-                        isPlaying={
-                          playingPreview === track.previewUrl
-                        }
-                        onToggle={() =>
-                          handlePreviewToggle(
-                            track.previewUrl!,
-                            album.id,
-                            idx
-                          )
-                        }
-                      />
-                    )
+                  {(spotifyConnected || track.previewUrl) && (
+                    <AudioPreview
+                      trackTitle={track.title}
+                      isPlaying={!spotifyConnected && playingPreview === track.previewUrl}
+                      sourceLabel={spotifyConnected ? "Spotify or preview" : "preview"}
+                      onToggle={() =>
+                        handlePreviewToggle(
+                          track.previewUrl,
+                          album.artist,
+                          track.title,
+                          album.id,
+                          idx
+                        )
+                      }
+                    />
                   )}
                   <div>
                     <strong>{track.title}</strong>
