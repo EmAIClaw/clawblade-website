@@ -5,6 +5,8 @@ set -e
 
 echo "=== Building Gym Tracker for /gym/ subfolder ==="
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 GYM_DIR=""
 BUILT=false
 
@@ -51,10 +53,7 @@ mv dist/assets dist/gym/ 2>/dev/null || true
 mv dist/metadata.json dist/gym/ 2>/dev/null || true
 
 # Merge into albumvault dist/
-TARGET_DIST="${NETLIFY_OUTPUT_DIR:-dist}"
-if [ ! -d "$TARGET_DIST" ]; then
-  TARGET_DIST="$(dirname "$(dirname "$0")")/dist"
-fi
+TARGET_DIST="${NETLIFY_OUTPUT_DIR:-$PROJECT_DIR/dist}"
 
 echo "=== Merging gym tracker into $TARGET_DIST ==="
 rm -rf "$TARGET_DIST/gym"
