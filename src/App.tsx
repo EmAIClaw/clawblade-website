@@ -1697,27 +1697,32 @@ function AlbumDetail({
                       />
                     </label>
                   )}
-                  <span>
-                    {track.trackNumber || <CircleDot size={12} />}
-                  </span>
-                  {(spotifyConnected || track.previewUrl) && (
-                    <AudioPreview
-                      trackTitle={track.title}
-                      isPlaying={!spotifyConnected && playingPreview === track.previewUrl}
-                      sourceLabel={spotifyConnected ? "Spotify or preview" : "preview"}
-                      onToggle={() =>
-                        handlePreviewToggle(
-                          track.previewUrl,
-                          album.artist,
-                          track.title,
-                          album.id,
-                          idx
-                        )
-                      }
-                    />
-                  )}
-                  <div>
-                    <strong>{track.title}</strong>
+                  <div className="trackControls">
+                    <span className="trackNumber">
+                      {track.trackNumber || <CircleDot size={12} />}
+                    </span>
+                    {(spotifyConnected || track.previewUrl) && (
+                      <AudioPreview
+                        trackTitle={track.title}
+                        isPlaying={!spotifyConnected && playingPreview === track.previewUrl}
+                        sourceLabel={spotifyConnected ? "Spotify or preview" : "preview"}
+                        onToggle={() =>
+                          handlePreviewToggle(
+                            track.previewUrl,
+                            album.artist,
+                            track.title,
+                            album.id,
+                            idx
+                          )
+                        }
+                      />
+                    )}
+                  </div>
+                  <div className="trackBody">
+                    <div className="trackTitleLine">
+                      <strong>{track.title}</strong>
+                      <small>{formatDuration(track.durationMs)}</small>
+                    </div>
                     {guide?.focus && <em>{guide.focus}</em>}
                     <p>
                       {guide?.guide ?? "Close listening reveals the nuances in this track's arrangement, dynamics, and placement within the album's arc."}
@@ -1733,7 +1738,6 @@ function AlbumDetail({
                       </a>
                     )}
                   </div>
-                  <small>{formatDuration(track.durationMs)}</small>
                 </article>
               );
             })}
