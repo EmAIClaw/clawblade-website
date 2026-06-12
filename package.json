@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "deploy:gym": "bash scripts/deploy-gym-via-github.sh",
     "test:security": "node scripts/test-security.mjs",
     "preview": "vite preview",
     "prepare:catalog": "node scripts/prepare-catalog.mjs",
