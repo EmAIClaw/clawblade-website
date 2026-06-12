@@ -526,6 +526,7 @@ main {
   border: 1px solid rgba(199, 164, 91, 0.32);
   border-radius: 8px;
   background: linear-gradient(135deg, rgba(36, 33, 29, 0.98), rgba(17, 28, 26, 0.94));
+  overflow: hidden;
 }
 
 .albumHero .cover {
@@ -1058,6 +1059,10 @@ main {
     grid-template-columns: auto minmax(0, 1fr);
     gap: 0.45rem;
     padding: 0.5rem 0.55rem;
+  }
+
+  .trackRow.sessionActive {
+    grid-template-columns: auto auto minmax(0, 1fr);
   }
 
   .trackControls {
