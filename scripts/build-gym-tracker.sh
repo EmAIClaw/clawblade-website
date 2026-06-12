@@ -38,16 +38,16 @@ echo "Building with expo export..."
 npx expo export --platform web 2>&1 | tail -5
 
 echo "Patching asset paths for /gym/ subfolder..."
-# Expo emits absolute paths for the JS bundle and expo-sqlite WASM asset.
+# Expo emits absolute paths for the JS bundle and package assets.
 # Both must be rooted under /gym/ when AlbumVault serves this app as a subfolder.
 if [[ "$OSTYPE" == "darwin"* ]]; then
   find dist -type f \( -name '*.js' -o -name '*.html' \) -exec sed -i '' \
     -e 's|/_expo/|/gym/_expo/|g' \
-    -e 's|/assets/node_modules/expo-sqlite/|/gym/assets/node_modules/expo-sqlite/|g' {} +
+    -e 's|/assets/node_modules/|/gym/assets/node_modules/|g' {} +
 else
   find dist -type f \( -name '*.js' -o -name '*.html' \) -exec sed -i \
     -e 's|/_expo/|/gym/_expo/|g' \
-    -e 's|/assets/node_modules/expo-sqlite/|/gym/assets/node_modules/expo-sqlite/|g' {} +
+    -e 's|/assets/node_modules/|/gym/assets/node_modules/|g' {} +
 fi
 
 # Restructure into /gym/ subfolder
