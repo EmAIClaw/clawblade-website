@@ -10755,7 +10755,7 @@
         }
       },
       "context": "Released in March 1973, Pink Floyd's eighth studio album was recorded at Abbey Road Studios over two sessions in 1972 and 1973, produced by the band with engineer Alan Parsons. It marked the band's break from psychedelic experimentation toward a tightly-structured concept album about pressure, time, money, mental illness, and death — themes driven partly by founding member Syd Barrett's mental decline. Parsons' use of multi-track tape loops, synth sequences, and a cast of spoken-word interviews with Abbey Road staff and road crew created a soundscape of interlocking sonic motifs. The album spent 741 consecutive weeks on the Billboard 200, a record unlikely to ever be broken, and has sold over 45 million copies worldwide.",
-      "relevance": "Curated entry via curated-correction. Curated entry via deepseek-v4-pro:cloud. AlbumVault ranks it #53. Rock; 26 Apple-derived tracks; listed year 1973. Artist source: Pink Floyd. Album source: The Dark Side of the Moon. Track-specific source summaries: 11.",
+      "relevance": "Curated entry via corrected Dark Side of the Moon track audit. AlbumVault ranks it #53. Rock; 10 canonical album tracks; listed year 1973. Artist source: Pink Floyd. Album source: The Dark Side of the Moon. Track-specific source summaries: 10.",
       "listeningNotes": [
         "The heartbeat that opens 'Speak to Me' and closes 'Eclipse' is a kick drum modified with a soft beater — listen for how it accelerates subtly in the intro.",
         "'On the Run' uses an EMS Synthi AKS synthesizer sequencer played by David Gilmour walking a 16-step pattern; the footsteps were recorded in Abbey Road's echo chamber.",
@@ -10764,180 +10764,64 @@
       ],
       "trackGuide": [
         {
-          "trackTitle": "Shine On You Crazy Diamond, Pts. 1-7",
-          "guide": "This 26-minute epic was Gilmour's tribute to Syd Barrett, recorded at Abbey Road with Brian Humphries engineering. The opening four-note guitar phrase — B♭, F, G, E — is played on a Fender Stratocaster through a phaser and delay, creating an elegiac atmosphere before the band enters at 3:54 with Wright's ARP String Ensemble synthesizer and Mason's deliberate, funeral-paced drumming.",
+          "trackTitle": "Speak to Me",
+          "guide": "The opening collage introduces the album as a continuous psychological journey: heartbeat, clocks, cash registers, screams, and spoken fragments all foreshadow themes that return later. It is less a conventional song than an overture, setting up the record’s cycle of anxiety, pressure, mortality, and madness.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
-          "trackTitle": "The Fletcher Memorial Home",
-          "guide": "An instrumental built around a synth sequencer and panning footsteps; listen for the backwards guitar that surfaces at 1:45 and the sound of a man running through an airport terminal.",
+          "trackTitle": "Breathe (In the Air)",
+          "guide": "David Gilmour’s slide guitar and Richard Wright’s suspended chords turn Roger Waters’ lyric into a calm warning about conformity. After the panic of the intro, the track feels weightless, but the words already point toward the trap of “run, rabbit, run.”",
           "focus": "Curated listening guide",
           "source": null
         },
         {
-          "trackTitle": "Comfortably Numb",
-          "guide": "Gilmour and Waters split the songwriting: Waters wrote the verses about childhood fever, Gilmour the chorus about disconnection. The twin guitar solos — the first at 2:18 (recorded in one take, Gilmour's favorite work) and the cathedral-sized finale at 4:32 — are among the most celebrated in rock, built from simple pentatonic ideas through a Colorsound Power Boost pedal.",
+          "trackTitle": "On the Run",
+          "guide": "Built from an EMS Synthi AKS sequencer, footsteps, airport announcements, and a rising sense of chase, this instrumental captures modern travel as paranoia. Listen for how the piece accelerates without a drummer, using electronics and tape effects to create panic.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
-          "trackTitle": "When the Tigers Broke Free",
-          "guide": "Originally cut from The Wall, Waters' memorial to his father (killed at Anzio in 1944) was added to later editions. The track features a military snare, trumpet solo, and Waters' rare lead vocal — a stripped-bare tribute that connects the band's psychedelic origins to the personal trauma underpinning their most ambitious work.",
+          "trackTitle": "Time",
+          "guide": "The alarm-clock explosion gives way to Nick Mason’s rototoms and one of the album’s clearest statements of regret: time passes before you notice it. Gilmour’s guitar solo is fierce and vocal-like, while the “Breathe (Reprise)” section briefly returns home before the album moves toward death.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
-          "trackTitle": "One of These Days",
-          "guide": "The album opener begins with Nick Mason's iconic double-tracked bass line and a spoken threat — 'One of these days I'm going to cut you into little pieces' — delivered through a ring modulator by Mason himself. The track builds through a relentless Binson Echorec delay pattern and Gilmour's slide guitar freakout.",
+          "trackTitle": "The Great Gig in the Sky",
+          "guide": "Clare Torry’s improvised wordless vocal turns Richard Wright’s chord progression into a confrontation with mortality. Her performance moves from tenderness to terror to release, making the track one of rock’s most powerful pieces without conventional lyrics.",
+          "focus": "Curated listening guide",
+          "source": null
+        },
+        {
+          "trackTitle": "Money",
+          "guide": "Roger Waters’ cash-register tape loop establishes the famous 7/4 groove before the band shifts into 4/4 for Gilmour’s guitar solo. Dick Parry’s saxophone adds a greasy, urban edge, underlining the song’s satire of greed and material success.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
           "trackTitle": "Us and Them",
-          "guide": "Wright's descending four-chord piano motif anchors the track while Waters delivers his most vulnerable vocal; Gilmour's slide solo at 2:00 was recorded through a Uni-Vibe pedal.",
+          "guide": "Originally written by Wright for the film Zabriskie Point, this slow, spacious track contrasts intimate verses with huge chorus swells. Waters’ lyric frames war and class division as failures of empathy, while Parry’s saxophone gives the piece its mournful human voice.",
           "focus": "Curated listening guide",
           "source": null
         },
         {
-          "trackTitle": "Astronomy Domine",
-          "guide": "An early Syd Barrett-era track appearing on this collection as part of the extended Pink Floyd story. Barrett's cosmic imagery and the dueling guitars established Pink Floyd's psychedelic credentials from their very first single.",
-          "focus": "",
-          "source": null,
-          "_generated": true
+          "trackTitle": "Any Colour You Like",
+          "guide": "A largely instrumental bridge built on Wright’s synthesizers and Gilmour’s phased guitar lines. The title nods to the illusion of choice — “any colour you like” when the options are already controlled — and musically it releases the tension before the final sequence.",
+          "focus": "Curated listening guide",
+          "source": null
         },
         {
-          "trackTitle": "See Emily Play",
-          "guide": "Syd Barrett's whimsical, kaleidoscopic single — the band's commercial breakthrough before Barrett's mental health deteriorated. The backward guitar effects and fairytale lyrics captured London's psychedelic underground at its most innocent.",
-          "focus": "",
-          "source": null,
-          "_generated": true
+          "trackTitle": "Brain Damage",
+          "guide": "Waters brings the album’s mental-health theme to the surface, partly shadowed by Syd Barrett’s decline. The gentle melody makes the lyric more unsettling: the “lunatic” is not outside society, but inside the listener, the band, and the system itself.",
+          "focus": "Curated listening guide",
+          "source": null
         },
         {
-          "trackTitle": "The Happiest Days of Our Lives",
-          "guide": "Roger Waters' chilling childhood memory of abusive teachers, building tension with its whispered menace before the cathartic explosion into 'Another Brick in the Wall, Pt. 2.' Listen for the helicopter sound effect — Waters' recurring sonic motif for authoritarian oppression.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Another Brick In the Wall, Pt. 2",
-          "guide": "Pink Floyd's only US #1 single, with its unforgettable disco-influenced beat and the children's choir chanting anti-education slogans. Producer Bob Ezrin brought in the kids from a nearby school, and the driving bassline from David Gilmour makes this the funkiest moment in Floyd's catalog.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Echoes (Edit)",
-          "guide": "The abridged version of Floyd's 23-minute epic from Meddle, where the full band achieved a telepathic level of interplay. The ping-sonar piano note — accidentally discovered by Rick Wright — became the seed around which the entire piece grew.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Hey You",
-          "guide": "A desperate plea from isolation, positioned at the start of the album's second half with no preceding buildup — just Gilmour's solitary acoustic guitar. The unanswered call for connection ('Hey you, out there in the cold') captures The Wall's central theme of self-imposed isolation.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Marooned (Excerpt)",
-          "guide": "An instrumental featuring Gilmour's signature whale-song guitar, played through a DigiTech Whammy pedal to bend notes into impossible shapes. Won a Grammy for Best Rock Instrumental — the only Pink Floyd track to do so.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "The Great Gig In the Sky",
-          "guide": "Clare Torry's improvised wordless vocal — she was a session singer brought in for a single take, paid £30, and created one of rock's most transcendent moments. The vocal moves from sensual to anguished to ecstatic, mapping a soul's journey that words could never capture.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Set the Controls for the Heart of the Sun",
-          "guide": "Roger Waters' Eastern-influenced meditation, the only Floyd song to feature all five members (including Syd Barrett in spirit). Nick Mason's mallet percussion and the hypnotic bass drone create a trance-like atmosphere that made this a staple of their early psychedelic light shows.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Money",
-          "guide": "The instantly recognizable cash-register loop — created by splicing actual sounds from Roger Waters' coin collection — opens Floyd's funkiest track. The 7/4 time signature (unusual for rock) gives the groove a lurching, off-kilter feeling, while Dick Parry's saxophone solo channels urban sleaze.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Keep Talking",
-          "guide": "Features spoken word samples of Stephen Hawking from a British Telecom commercial. Gilmour's talk-box guitar — literally speaking through his instrument — responds to Hawking's voice, creating a dialogue about the fundamental human need to communicate.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Sheep",
-          "guide": "Waters' reworking of Psalm 23 into a furious anti-fascist anthem, with its bleating sheep-baa guitar effects created by Gilmour running his bass through an effects pedal. The slow build from pastoral acoustic to punk fury mirrors the lyrical journey from complacency to uprising.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Sorrow",
-          "guide": "The closing track of A Momentary Lapse of Reason, with its galloping drum intro recorded in a Los Angeles sports arena for maximum reverb. Gilmour's soaring, multi-layered guitar finale — built from dozens of overdubs — is arena-rock guitar at its most cinematic.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Time",
-          "guide": "Nick Mason's rototom intro — recorded in an antique clock shop — gives way to one of rock's most devastating meditations on mortality. Gilmour's searing guitar solo and Wright's soulful vocals on the reprise section ('Home, home again') were recorded in just a few takes.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Learning to Fly",
-          "guide": "David Gilmour's first Floyd single after Waters' departure, co-written with new members and featuring Jon Carin's pulsing keyboard sequence. The song's theme of mastering flight — literal and metaphorical — addressed the band's uncertainty about surviving without Waters.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Arnold Layne",
-          "guide": "Syd Barrett's debut single, a witty, empathetic portrait of a cross-dressing clothes thief — shocking enough for 1967 that the BBC banned it. The catchy, almost nursery-rhyme melody belied the subversive subject matter, establishing Floyd as intellectual provocateurs.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Wish You Were Here",
-          "guide": "The album's emotional core, with its acoustic intro — originally played on a radio through Gilmour's car speakers while recording — and direct, unadorned lyrics about absence and loss. Written about Syd Barrett's mental decline, it has become a universal song of missing someone.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Jugband Blues",
-          "guide": "Syd Barrett's final official Pink Floyd recording, a chaotic Salvation Army band arrangement that captures his deteriorating mental state in real time. The manic energy and disjointed structure feel like a mind coming apart — a haunting farewell to the band's founding visionary.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "High Hopes (Edit)",
-          "guide": "The album-closing epic from The Division Bell, featuring Gilmour's lap steel guitar and a full orchestra. The backward-masked final sound is a voice saying 'hello Charlie' — a playful nod to Barrett — before a distant bell tolls, closing the Pink Floyd story.",
-          "focus": "",
-          "source": null,
-          "_generated": true
-        },
-        {
-          "trackTitle": "Bike (Edit)",
-          "guide": "Syd Barrett's whimsical closing track from Piper at the Gates of Dawn, with its surreal list of gifts offered to a girl — a mouse named Gerald, a cloak of 'sights and sounds,' a gingerbread man. The song's childlike logic and Barrett's distinctive London accent capture the innocent psychedelia of 1967.",
-          "focus": "",
-          "source": null,
-          "_generated": true
+          "trackTitle": "Eclipse",
+          "guide": "The finale gathers the album’s opposites — life and death, love and hate, sun and moon — into a single rising cadence. The heartbeat returns at the end, closing the cycle and making the whole album feel like one completed breath.",
+          "focus": "Curated listening guide",
+          "source": null
         }
       ],
       "themes": [
@@ -11081,6 +10965,14 @@
           "extract": "curated-correction",
           "summary": "Curated at 2026-05-01T21:30:00.000Z",
           "score": 8
+        },
+        {
+          "label": "MusicBrainz",
+          "title": "The Dark Side of the Moon — Release Group",
+          "url": "https://musicbrainz.org/release-group/f5093c06-23e3-404f-aeaa-40f72885ee3a",
+          "extract": "Canonical release group used to correct Album 53 metadata and track listing.",
+          "summary": "The Dark Side of the Moon, Pink Floyd, first released 1973.",
+          "score": 10
         }
       ]
     },
