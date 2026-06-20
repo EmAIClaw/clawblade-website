@@ -1055,8 +1055,102 @@ main {
   display: grid;
   place-items: center;
   padding: clamp(1rem, 4vw, 3rem);
-  background: radial-gradient(circle at center, rgba(199, 164, 91, 0.22), rgba(17, 16, 14, 0.95) 45%, #080706 100%);
+  --mood-a: #c7a45b;
+  --mood-b: #2f9d8f;
+  --mood-c: #5d6cff;
+  background:
+    radial-gradient(circle at 22% 18%, color-mix(in srgb, var(--mood-a) 28%, transparent), transparent 34%),
+    radial-gradient(circle at 74% 28%, color-mix(in srgb, var(--mood-c) 24%, transparent), transparent 36%),
+    radial-gradient(circle at center, rgba(199, 164, 91, 0.14), rgba(17, 16, 14, 0.95) 48%, #080706 100%);
   overflow: hidden;
+}
+
+.mood-cosmic-prism { --mood-a: #f7f1d2; --mood-b: #ff5c8a; --mood-c: #55d8ff; }
+.mood-soul-sunrise { --mood-a: #ffb45b; --mood-b: #bf3f2f; --mood-c: #ffd36e; }
+.mood-electric-unrest { --mood-a: #f4e04d; --mood-b: #ef3e36; --mood-c: #2aa7ff; }
+.mood-midnight-blue { --mood-a: #6fb7ff; --mood-b: #253a7a; --mood-c: #d7c7ff; }
+.mood-analog-glow { --mood-a: #f0c07a; --mood-b: #8a5b38; --mood-c: #f4ead8; }
+.mood-deep-vinyl { --mood-a: #c7a45b; --mood-b: #2f9d8f; --mood-c: #8e6cff; }
+
+.albumVisuals {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.visualHalo,
+.visualPulse,
+.visualOrbit,
+.visualMotif {
+  position: absolute;
+  border-radius: 999px;
+}
+
+.visualHalo {
+  left: 50%;
+  top: 50%;
+  width: min(88vmin, 54rem);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  background: conic-gradient(from 210deg, var(--mood-a), var(--mood-b), var(--mood-c), var(--mood-a));
+  opacity: 0.14;
+  filter: blur(2px);
+  animation: slowSpin 42s linear infinite;
+}
+
+.visualPulse {
+  left: 50%;
+  top: 50%;
+  width: min(58vmin, 34rem);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 1px solid color-mix(in srgb, var(--mood-a) 54%, transparent);
+  box-shadow: 0 0 80px color-mix(in srgb, var(--mood-b) 22%, transparent);
+  animation: breathePulse 6s ease-in-out infinite;
+}
+
+.visualOrbit {
+  left: 50%;
+  top: 50%;
+  border: 1px solid color-mix(in srgb, var(--mood-c) 38%, transparent);
+  transform: translate(-50%, -50%) rotate(-12deg);
+}
+
+.orbitOne {
+  width: min(76vmin, 48rem);
+  height: min(32vmin, 18rem);
+}
+
+.orbitTwo {
+  width: min(58vmin, 35rem);
+  height: min(84vmin, 50rem);
+  transform: translate(-50%, -50%) rotate(58deg);
+}
+
+.visualMotif {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--mood-a) 42%, transparent);
+  color: color-mix(in srgb, var(--mood-a) 84%, white);
+  background: rgba(17, 16, 14, 0.36);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
+.motif1 { left: 12%; top: 18%; }
+.motif2 { right: 13%; top: 16%; }
+.motif3 { left: 16%; bottom: 20%; }
+.motif4 { right: 18%; bottom: 24%; }
+.motif5 { left: 50%; bottom: 10%; transform: translateX(-50%); }
+
+@keyframes slowSpin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes breathePulse {
+  0%, 100% { opacity: 0.42; transform: translate(-50%, -50%) scale(0.96); }
+  50% { opacity: 0.86; transform: translate(-50%, -50%) scale(1.04); }
 }
 
 .listeningMode > .cover {
@@ -1081,6 +1175,36 @@ main {
 
 .listeningModeContent h2 {
   font-size: clamp(2rem, 6vw, 4.6rem);
+}
+
+.visualMoodBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.visualMoodBadge span,
+.visualMoodBadge small {
+  display: inline-flex;
+  min-height: 1.8rem;
+  align-items: center;
+  padding: 0 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--mood-a) 48%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--mood-a) 12%, rgba(17, 16, 14, 0.72));
+  color: var(--ivory);
+}
+
+.visualMoodBadge span {
+  font-weight: 800;
+}
+
+.youtubeLink {
+  gap: 0.35rem;
+  text-decoration: none;
 }
 
 .listeningModeActions {

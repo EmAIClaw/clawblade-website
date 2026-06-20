@@ -47,6 +47,7 @@ import type {
   View,
   ViewMode
 } from "./types";
+import { albumVisualMood, youtubeAlbumSearchUrl } from "./listeningEnhancements";
 import { normalizeVaultState, safeParseVaultState } from "./vaultState";
 
 const albums = catalogData.albums as Album[];
@@ -1708,17 +1709,43 @@ function AlbumDetail({
   const sessionElapsed = sessionStartedAt
     ? Math.max(0, Math.round((Date.now() - new Date(sessionStartedAt).getTime()) / 60000))
     : 0;
+  const visualMood = albumVisualMood({
+    title: album.title,
+    artist: album.artist,
+    year: album.year,
+    genre: album.genre,
+    themes: entry?.themes ?? []
+  });
+  const youtubeSearchUrl = youtubeAlbumSearchUrl(album);
 
   return (
     <>
       {sessionActive && listeningMode && focusTrack && (
-        <section className="listeningMode" aria-label="Focused listening mode">
+        <section className={`listeningMode ${visualMood.className}`} aria-label="Focused listening mode">
+          <div className="albumVisuals" aria-hidden="true">
+            <div className="visualHalo" />
+            <div className="visualOrbit orbitOne" />
+            <div className="visualOrbit orbitTwo" />
+            <div className="visualPulse" />
+            {visualMood.motifs.map((motif, index) => (
+              <span
+                key={`${motif}-${index}`}
+                className={`visualMotif motif${index + 1}`}
+              >
+                {motif}
+              </span>
+            ))}
+          </div>
           <AlbumCover album={album} />
           <button type="button" className="listeningClose" onClick={() => setListeningMode(false)}>
             Exit focus
           </button>
           <div className="listeningModeContent">
             <p className="eyebrow">Focused listening • {sessionElapsed} min</p>
+            <div className="visualMoodBadge">
+              <span>{visualMood.paletteName}</span>
+              {visualMood.accentWords.map((word) => <small key={word}>{word}</small>)}
+            </div>
             <h2>{focusTrack.trackNumber}. {focusTrack.title}</h2>
             <p>{focusGuide?.guide ?? "Listen for the arrangement, dynamics, and placement of this track inside the album arc."}</p>
             {focusGuide?.focus && <span className="pill">{focusGuide.focus}</span>}
@@ -1739,6 +1766,16 @@ function AlbumDetail({
               <button type="button" onClick={finishSession}>
                 Complete session
               </button>
+              <a
+                className="button youtubeLink"
+                href={youtubeSearchUrl}
+                target="_blank"
+                rel="noreferrer"
+                title="Open a YouTube search for official full-album or visualizer options"
+              >
+                <Play size={17} /> YouTube options
+                <ExternalLink size={12} />
+              </a>
             </div>
           </div>
         </section>
