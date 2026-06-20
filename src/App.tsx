@@ -56,6 +56,34 @@ const encyclopedia = encyclopediaData.entries as Record<
 >;
 const catalogTotal = catalogData.metadata.recordCount;
 
+type PlaybackState = {
+  albumId: string;
+  trackIndex: number;
+  title: string;
+  artist: string;
+  albumTitle: string;
+  source: "preview" | "spotify";
+  paused: boolean;
+} | null;
+
+const listeningJourneys = [
+  {
+    title: "Studio-as-instrument",
+    description: "Production breakthroughs, sonic architecture, and records that reward headphones.",
+    themes: ["Studio-as-instrument", "Production Innovation", "Experimental"]
+  },
+  {
+    title: "Pressure, politics, and protest",
+    description: "Albums that turn social conflict into musical force.",
+    themes: ["Social Consciousness", "War and conflict", "Political", "Civil Rights"]
+  },
+  {
+    title: "After-dark introspection",
+    description: "Quiet, strange, emotionally precise records for uninterrupted night listening.",
+    themes: ["Time and mortality", "Mental illness and madness", "Introspection", "Melancholy"]
+  }
+];
+
 const blankState = (): VaultState => ({
   albums: {},
   sessions: [],
@@ -375,6 +403,7 @@ function App() {
   const [sortBy, setSortBy] = useState<Sort>("rank");
   const [viewMode, setViewMode] = useState<ViewMode>("list");
   const [playingPreview, setPlayingPreview] = useState<string | null>(null);
+  const [nowPlaying, setNowPlaying] = useState<PlaybackState>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null!);
   const importInputRef = useRef<HTMLInputElement>(null);
@@ -656,6 +685,18 @@ function App() {
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
         body: JSON.stringify({ uris: [uri] })
       });
+      if (playResponse.ok) {
+        const album = albums.find((item) => item.id === albumId);
+        setNowPlaying({
+          albumId,
+          trackIndex,
+          title: trackTitle,
+          artist,
+          albumTitle: album?.title ?? "Spotify playback",
+          source: "spotify",
+          paused: false
+        });
+      }
       return playResponse.ok;
     } catch {
       return false;
@@ -691,6 +732,7 @@ function App() {
 
       player.addListener('player_state_changed', (state: any) => {
         if (cancelled || !state) return;
+        setNowPlaying((current) => current?.source === "spotify" ? { ...current, paused: Boolean(state.paused) } : current);
         // Auto-continue: when track ends, play next
         if (state.paused && state.position > 0 && state.duration > 0) {
           const nearEnd = state.position > state.duration - 2000;
@@ -864,15 +906,26 @@ function App() {
     const album = albums.find((a) => a.id === albumId);
     if (!album) return;
     for (let i = fromIndex + 1; i < album.tracks.length; i++) {
-      if (album.tracks[i].previewUrl) {
-        const audio = new Audio(album.tracks[i].previewUrl!);
+      const track = album.tracks[i];
+      if (track.previewUrl) {
+        const audio = new Audio(track.previewUrl);
         audioRef.current = audio;
         audio.addEventListener("ended", () => {
           setPlayingPreview(null);
+          setNowPlaying(null);
           playNextTrack(albumId, i);
         });
         audio.play();
-        setPlayingPreview(album.tracks[i].previewUrl!);
+        setPlayingPreview(track.previewUrl);
+        setNowPlaying({
+          albumId,
+          trackIndex: i,
+          title: track.title,
+          artist: album.artist,
+          albumTitle: album.title,
+          source: "preview",
+          paused: false
+        });
         return;
       }
     }
@@ -886,6 +939,7 @@ function App() {
     if (playingPreview === previewUrl) {
       audioRef.current?.pause();
       setPlayingPreview(null);
+      setNowPlaying((current) => current?.source === "preview" ? { ...current, paused: true } : current);
       return;
     }
     if (audioRef.current) {
@@ -895,10 +949,21 @@ function App() {
     audioRef.current = audio;
     audio.addEventListener("ended", () => {
       setPlayingPreview(null);
+      setNowPlaying(null);
       playNextTrack(albumId, trackIndex);
     });
     audio.play();
     setPlayingPreview(previewUrl);
+    const album = albums.find((item) => item.id === albumId);
+    setNowPlaying({
+      albumId,
+      trackIndex,
+      title: album?.tracks[trackIndex]?.title ?? "Preview",
+      artist: album?.artist ?? "Unknown artist",
+      albumTitle: album?.title ?? "Unknown album",
+      source: "preview",
+      paused: false
+    });
   }
 
   async function handleTrackPlay(
@@ -916,6 +981,31 @@ function App() {
     if (previewUrl) {
       handlePreviewToggle(previewUrl, albumId, trackIndex);
     }
+  }
+
+  async function toggleNowPlaying() {
+    if (!nowPlaying) return;
+    if (nowPlaying.source === "preview") {
+      if (nowPlaying.paused) {
+        await audioRef.current?.play();
+        setPlayingPreview(audioRef.current?.src ?? playingPreview);
+        setNowPlaying({ ...nowPlaying, paused: false });
+      } else {
+        audioRef.current?.pause();
+        setPlayingPreview(null);
+        setNowPlaying({ ...nowPlaying, paused: true });
+      }
+      return;
+    }
+
+    const token = await getValidAccessToken();
+    if (!token) return;
+    const endpoint = nowPlaying.paused ? "play" : "pause";
+    await fetch(`https://api.spotify.com/v1/me/player/${endpoint}`, {
+      method: "PUT",
+      headers: { Authorization: `Bearer ${token}` }
+    });
+    setNowPlaying({ ...nowPlaying, paused: !nowPlaying.paused });
   }
 
   useEffect(() => {
@@ -1069,6 +1159,7 @@ function App() {
             updateAlbum={updateAlbum}
             addSession={addSession}
             playingPreview={playingPreview}
+            nowPlaying={nowPlaying}
             handlePreviewToggle={handleTrackPlay}
             spotifyUrl={spotifyResult.spotifyAlbumUrl || spotifyResult.spotifyTrackUrl}
             spotifyUri={spotifyResult.spotifyAlbumUri}
@@ -1081,7 +1172,43 @@ function App() {
         {view === "insights" && <Insights state={state} openAlbum={openAlbum} />}
         {view === "log" && <ListeningLog state={state} openAlbum={openAlbum} />}
       </main>
+      <MiniPlayer
+        nowPlaying={nowPlaying}
+        onToggle={toggleNowPlaying}
+        onOpenAlbum={(albumId) => openAlbum(albumId)}
+      />
     </div>
+  );
+}
+
+function MiniPlayer({
+  nowPlaying,
+  onToggle,
+  onOpenAlbum
+}: {
+  nowPlaying: PlaybackState;
+  onToggle: () => void;
+  onOpenAlbum: (albumId: string) => void;
+}) {
+  if (!nowPlaying) return null;
+
+  return (
+    <aside className="miniPlayer" aria-live="polite">
+      <div>
+        <span className="eyebrow">{nowPlaying.source === "spotify" ? "Spotify" : "Preview"} now playing</span>
+        <strong>{nowPlaying.title}</strong>
+        <small>{nowPlaying.artist} • {nowPlaying.albumTitle}</small>
+      </div>
+      <div className="miniPlayerActions">
+        <button type="button" onClick={onToggle}>
+          {nowPlaying.paused ? <Play size={15} /> : <Pause size={15} />}
+          {nowPlaying.paused ? "Resume" : "Pause"}
+        </button>
+        <button type="button" onClick={() => onOpenAlbum(nowPlaying.albumId)}>
+          Open album
+        </button>
+      </div>
+    </aside>
   );
 }
 
@@ -1108,6 +1235,21 @@ function Dashboard({
   const listenedPct = Math.round((stats.listened / catalogTotal) * 100);
   const ownedPct = Math.round((stats.owned / catalogTotal) * 100);
   const recent = state.sessions.slice(0, 4);
+  const tonightPick = useMemo(() => {
+    const ownedUnheard = albums.find((album) => state.albums[album.id]?.owned && !state.albums[album.id]?.listened);
+    if (ownedUnheard) return ownedUnheard;
+    const unheard = albums.find((album) => !state.albums[album.id]?.listened);
+    return unheard ?? albums[0];
+  }, [state]);
+  const journeyCards = useMemo(() => listeningJourneys.map((journey) => {
+    const picks = albums
+      .filter((album) => {
+        const themes = encyclopedia[album.id]?.themes ?? [];
+        return themes.some((theme) => journey.themes.includes(theme));
+      })
+      .slice(0, 4);
+    return { ...journey, picks };
+  }).filter((journey) => journey.picks.length), []);
 
   return (
     <div className="grid dashboardGrid">
@@ -1143,6 +1285,48 @@ function Dashboard({
         <Stat label="Wantlist" value={stats.wantlist} icon={Heart} />
         <Stat label="Rated" value={stats.rated} icon={Star} />
       </div>
+
+      <section className="panel tonightPick">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Tonight's pick</p>
+            <h3>{tonightPick.title}</h3>
+          </div>
+          <Headphones size={20} />
+        </div>
+        <button type="button" className="tonightCard" onClick={() => openAlbum(tonightPick.id)}>
+          <AlbumCover album={tonightPick} />
+          <span>
+            <strong>{tonightPick.artist}</strong>
+            <small>#{tonightPick.rank} • {tonightPick.year} • best heard uninterrupted</small>
+          </span>
+        </button>
+      </section>
+
+      <section className="panel wide journeysPanel">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Listening journeys</p>
+            <h3>Curated paths through the canon</h3>
+          </div>
+          <Wand2 size={20} />
+        </div>
+        <div className="journeyGrid">
+          {journeyCards.map((journey) => (
+            <article key={journey.title} className="journeyCard">
+              <h4>{journey.title}</h4>
+              <p>{journey.description}</p>
+              <div className="journeyPicks">
+                {journey.picks.map((album) => (
+                  <button key={album.id} type="button" onClick={() => openAlbum(album.id)}>
+                    #{album.rank} {album.title}
+                  </button>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
 
       <section className="panel wide">
         <div className="sectionHeader">
@@ -1436,6 +1620,7 @@ function AlbumDetail({
   updateAlbum,
   addSession,
   playingPreview,
+  nowPlaying,
   handlePreviewToggle,
   spotifyUrl,
   spotifyUri,
@@ -1449,6 +1634,7 @@ function AlbumDetail({
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
   addSession: (session: ListeningSession) => void;
   playingPreview: string | null;
+  nowPlaying: PlaybackState;
   handlePreviewToggle: (
     previewUrl: string | null | undefined,
     artist: string,
@@ -1463,11 +1649,15 @@ function AlbumDetail({
   spotifyConnected: boolean;
 }) {
   const [sessionActive, setSessionActive] = useState(false);
+  const [listeningMode, setListeningMode] = useState(false);
+  const [sessionStartedAt, setSessionStartedAt] = useState<string | null>(null);
   const [sessionNotes, setSessionNotes] = useState("");
   const [checkedTracks, setCheckedTracks] = useState<string[]>([]);
 
   function startSession() {
     setSessionActive(true);
+    setListeningMode(true);
+    setSessionStartedAt(todayIso());
     setSessionNotes("");
     setCheckedTracks([]);
   }
@@ -1481,21 +1671,26 @@ function AlbumDetail({
   }
 
   function finishSession() {
+    const completedAt = todayIso();
     addSession({
       id: crypto.randomUUID(),
       albumId: album.id,
-      startedAt: todayIso(),
-      completedAt: todayIso(),
+      startedAt: sessionStartedAt ?? completedAt,
+      completedAt,
       notes: sessionNotes,
       checkedTracks
     });
     setSessionActive(false);
+    setListeningMode(false);
+    setSessionStartedAt(null);
     setSessionNotes("");
     setCheckedTracks([]);
   }
 
   function cancelSession() {
     setSessionActive(false);
+    setListeningMode(false);
+    setSessionStartedAt(null);
     setSessionNotes("");
     setCheckedTracks([]);
   }
@@ -1506,9 +1701,49 @@ function AlbumDetail({
       guide
     ])
   );
+  const nextUncheckedIndex = album.tracks.findIndex((track) => !checkedTracks.includes(track.title));
+  const focusIndex = nextUncheckedIndex >= 0 ? nextUncheckedIndex : Math.max(album.tracks.length - 1, 0);
+  const focusTrack = album.tracks[focusIndex];
+  const focusGuide = focusTrack ? guideByTitle.get(focusTrack.title) : undefined;
+  const sessionElapsed = sessionStartedAt
+    ? Math.max(0, Math.round((Date.now() - new Date(sessionStartedAt).getTime()) / 60000))
+    : 0;
 
   return (
-    <div className="albumDetail">
+    <>
+      {sessionActive && listeningMode && focusTrack && (
+        <section className="listeningMode" aria-label="Focused listening mode">
+          <AlbumCover album={album} />
+          <button type="button" className="listeningClose" onClick={() => setListeningMode(false)}>
+            Exit focus
+          </button>
+          <div className="listeningModeContent">
+            <p className="eyebrow">Focused listening • {sessionElapsed} min</p>
+            <h2>{focusTrack.trackNumber}. {focusTrack.title}</h2>
+            <p>{focusGuide?.guide ?? "Listen for the arrangement, dynamics, and placement of this track inside the album arc."}</p>
+            {focusGuide?.focus && <span className="pill">{focusGuide.focus}</span>}
+            <div className="listeningModeActions">
+              <button
+                type="button"
+                className="primary"
+                onClick={() => toggleTrack(focusTrack.title)}
+              >
+                <Check size={17} /> Mark heard
+              </button>
+              <button
+                type="button"
+                onClick={() => handlePreviewToggle(focusTrack.previewUrl, album.artist, focusTrack.title, album.id, focusIndex)}
+              >
+                <Headphones size={17} /> Play this track
+              </button>
+              <button type="button" onClick={finishSession}>
+                Complete session
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
+      <div className="albumDetail">
       <section className="albumHero">
         <AlbumCover album={album} />
         <div>
@@ -1631,7 +1866,7 @@ function AlbumDetail({
               {entry?.artistInfo?.summary ??
                 "No confident artist source was matched for this entry."}
             </p>
-            {entry?.artistInfo?.source && (
+            {entry?.artistInfo?.source?.url && (
               <a
                 className="sourceLink"
                 href={entry.artistInfo.source.url}
@@ -1647,7 +1882,7 @@ function AlbumDetail({
             <p>
               {entry?.albumInfo?.summary ?? entry?.context}
             </p>
-            {entry?.albumInfo?.source && (
+            {entry?.albumInfo?.source?.url && (
               <a
                 className="sourceLink"
                 href={entry.albumInfo.source.url}
@@ -1686,7 +1921,7 @@ function AlbumDetail({
               return (
                 <article
                   key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(track.title) ? " checked" : ""}`}
+                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(track.title) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
                 >
                   {sessionActive && (
                     <label className="trackCheck">
@@ -1727,7 +1962,7 @@ function AlbumDetail({
                     <p>
                       {guide?.guide ?? "Close listening reveals the nuances in this track's arrangement, dynamics, and placement within the album's arc."}
                     </p>
-                    {guide?.source && (
+                    {guide?.source?.url && (
                       <a
                         className="sourceLink compact"
                         href={guide.source.url}
@@ -1762,6 +1997,9 @@ function AlbumDetail({
               <button type="button" className="primary" onClick={finishSession}>
                 <Check size={17} /> Complete session
               </button>
+              <button type="button" onClick={() => setListeningMode(true)}>
+                Focus mode
+              </button>
               <button type="button" onClick={cancelSession}>
                 Cancel
               </button>
@@ -1769,7 +2007,8 @@ function AlbumDetail({
           </>
         )}
       </section>
-    </div>
+      </div>
+    </>
   );
 }
 
