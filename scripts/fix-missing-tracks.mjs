@@ -144,7 +144,7 @@ async function main() {
           console.log(`  ✅ Got ${album.tracks.length} tracks + collectionId=${album.appleCollectionId}`);
           fixed++;
         } else {
-          console.log(`  ❌ No good match found (${ranked.length} candidates checked)`);
+          console.log("  ❌ No good match found");
           failed++;
         }
       } catch (e) {

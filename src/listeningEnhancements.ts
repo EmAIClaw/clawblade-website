@@ -7,6 +7,12 @@ export type AlbumVisualMood = {
   motifs: string[];
 };
 
+export type VisualReferenceOption = {
+  label: string;
+  description: string;
+  url: string;
+};
+
 type MoodInput = Pick<Album, 'title' | 'artist' | 'year' | 'genre'> & {
   themes?: string[];
 };
@@ -69,4 +75,43 @@ export function albumVisualMood(album: MoodInput): AlbumVisualMood {
 export function youtubeAlbumSearchUrl(album: Pick<Album, 'artist' | 'title'>) {
   const query = `${album.artist} ${album.title} official full album visualizer`;
   return `https://www.youtube.com/results?${new URLSearchParams({ search_query: query }).toString()}`;
+}
+
+export function wikipediaArtistUrl(artist: string) {
+  return `https://en.wikipedia.org/wiki/${artist.trim().replace(/\s+/g, '_')}`;
+}
+
+export function wikimediaCommonsSearchUrl(query: string) {
+  return `https://commons.wikimedia.org/w/index.php?${new URLSearchParams({
+    search: query.trim(),
+    title: 'Special:MediaSearch',
+    type: 'image'
+  }).toString()}`;
+}
+
+export function albumVisualReferenceOptions(
+  album: Pick<Album, 'artist' | 'title'>,
+  owned: boolean
+): VisualReferenceOption[] {
+  const youtubeOption = {
+    label: 'Visualizer search',
+    description: 'Find official full-album videos, live footage, or visualizers without storing third-party images.',
+    url: youtubeAlbumSearchUrl(album)
+  };
+
+  if (!owned) return [youtubeOption];
+
+  return [
+    {
+      label: 'Artist page',
+      description: 'Open the Wikipedia artist page first; use images only when license and attribution are clear.',
+      url: wikipediaArtistUrl(album.artist)
+    },
+    {
+      label: 'Commons images',
+      description: 'Search Wikimedia Commons for reusable artist/band photos with source and license metadata.',
+      url: wikimediaCommonsSearchUrl(`${album.artist} band`)
+    },
+    youtubeOption
+  ];
 }

@@ -41,13 +41,18 @@ import type {
   Album,
   AlbumState,
   EncyclopediaEntry,
+  EncyclopediaSource,
   ListeningSession,
   Sort,
   VaultState,
   View,
   ViewMode
 } from "./types";
-import { albumVisualMood, youtubeAlbumSearchUrl } from "./listeningEnhancements";
+import {
+  albumVisualMood,
+  albumVisualReferenceOptions,
+  youtubeAlbumSearchUrl
+} from "./listeningEnhancements";
 import { normalizeVaultState, safeParseVaultState } from "./vaultState";
 
 const albums = catalogData.albums as Album[];
@@ -558,7 +563,11 @@ function App() {
     configured: boolean;
     loading: boolean;
   }>({ spotifyTrackUrl: null, spotifyAlbumUrl: null, spotifyAlbumUri: null, configured: false, loading: false });
-  const spotifyCache = useRef<Map<string, { url: string; uri: string }>>(new Map());
+  const spotifyCache = useRef<Map<string, {
+    spotifyTrackUrl: string | null;
+    spotifyAlbumUrl: string | null;
+    spotifyAlbumUri: string | null;
+  }>>(new Map());
 
   async function lookupSpotify(albumId: string) {
     const album = albums.find(a => a.id === albumId);
@@ -567,6 +576,14 @@ function App() {
     // Check cache first
     const cachedKey = `${album.artist} - ${album.title}`;
     if (spotifyCache.current.has(cachedKey)) {
+      const cached = spotifyCache.current.get(cachedKey)!;
+      setSpotifyResult({
+        spotifyTrackUrl: cached.spotifyTrackUrl,
+        spotifyAlbumUrl: cached.spotifyAlbumUrl,
+        spotifyAlbumUri: cached.spotifyAlbumUri,
+        configured: true,
+        loading: false
+      });
       return;
     }
 
@@ -577,8 +594,9 @@ function App() {
       const data = await response.json();
       if (data.configured) {
         spotifyCache.current.set(cachedKey, {
-          url: data.spotifyAlbumUrl || data.spotifyTrackUrl || "",
-          uri: data.spotifyAlbumUri || ""
+          spotifyTrackUrl: data.spotifyTrackUrl,
+          spotifyAlbumUrl: data.spotifyAlbumUrl,
+          spotifyAlbumUri: data.spotifyAlbumUri
         });
         setSpotifyResult({
           spotifyTrackUrl: data.spotifyTrackUrl,
@@ -1519,30 +1537,20 @@ function CollectionView({
                 </div>
                 <div className="rowToggles">
                   <button
-                    className={
-                      albumState.owned ? "toggle on" : "toggle"
-                    }
-                    onClick={() =>
-                      updateAlbum(album.id, {
-                        owned: !albumState.owned
-                      })
-                    }
+                    className={albumState.owned ? "toggle on" : albumState.wantlist ? "toggle on want" : "toggle"}
+                    onClick={() => {
+                      if (albumState.owned) {
+                        updateAlbum(album.id, { owned: false, wantlist: true });
+                      } else if (albumState.wantlist) {
+                        updateAlbum(album.id, { owned: false, wantlist: false });
+                      } else {
+                        updateAlbum(album.id, { owned: true, wantlist: false });
+                      }
+                    }}
+                    title="Click to cycle: Mark owned → Owned → Want → Clear"
                   >
-                    <Disc3 size={16} /> Owned
-                  </button>
-                  <button
-                    className={
-                      albumState.wantlist
-                        ? "toggle on want"
-                        : "toggle"
-                    }
-                    onClick={() =>
-                      updateAlbum(album.id, {
-                        wantlist: !albumState.wantlist
-                      })
-                    }
-                  >
-                    <Heart size={16} /> Want
+                    {albumState.owned ? <Disc3 size={16} /> : <Heart size={16} />}
+                    {albumState.owned ? "Owned" : albumState.wantlist ? "Want" : "Mark owned"}
                   </button>
                   <button
                     className={
@@ -1611,6 +1619,38 @@ function CollectionView({
         {query ? ` matching "${query}"` : ""}
       </p>
     </section>
+  );
+}
+
+function sourceFallbackUrl(source: EncyclopediaSource | null | undefined) {
+  const title = source?.title?.trim();
+  if (!title) return null;
+  if (/curated|enhanced|analysis/i.test(source?.label ?? '') || /curated encyclopedia|analysis/i.test(title)) {
+    return null;
+  }
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/\s+/g, '_'))}`;
+}
+
+function SourceAttribution({
+  source,
+  fallbackLabel
+}: {
+  source: EncyclopediaSource | null | undefined;
+  fallbackLabel: string;
+}) {
+  if (!source?.title) {
+    return <span className="sourceNote muted">{fallbackLabel}</span>;
+  }
+
+  const href = source.url || sourceFallbackUrl(source);
+  if (!href) {
+    return <span className="sourceNote">Curated source note: {source.title}</span>;
+  }
+
+  return (
+    <a className="sourceLink" href={href} target="_blank" rel="noreferrer">
+      Source: {source.title}
+    </a>
   );
 }
 
@@ -1717,11 +1757,33 @@ function AlbumDetail({
     themes: entry?.themes ?? []
   });
   const youtubeSearchUrl = youtubeAlbumSearchUrl(album);
+  const visualReferences = albumVisualReferenceOptions(album, Boolean(albumState.owned));
+  const collectionStatusLabel = albumState.owned
+    ? "CD owned"
+    : albumState.wantlist
+      ? "Wanted"
+      : "Mark owned";
+  const cycleCollectionStatus = () => {
+    if (albumState.owned) {
+      updateAlbum(album.id, { owned: false, wantlist: true });
+      return;
+    }
+    if (albumState.wantlist) {
+      updateAlbum(album.id, { owned: false, wantlist: false });
+      return;
+    }
+    updateAlbum(album.id, { owned: true, wantlist: false });
+  };
 
   return (
     <>
       {sessionActive && listeningMode && focusTrack && (
         <section className={`listeningMode ${visualMood.className}`} aria-label="Focused listening mode">
+          <div
+            className="coverBackdrop"
+            style={{ backgroundImage: `url(${album.coverPath})` }}
+            aria-hidden="true"
+          />
           <div className="albumVisuals" aria-hidden="true">
             <div className="visualHalo" />
             <div className="visualOrbit orbitOne" />
@@ -1777,6 +1839,14 @@ function AlbumDetail({
                 <ExternalLink size={12} />
               </a>
             </div>
+            <div className="visualReferenceRail" aria-label="Visual reference options">
+              {visualReferences.map((option) => (
+                <a key={option.label} href={option.url} target="_blank" rel="noreferrer">
+                  <span>{option.label}</span>
+                  <small>{option.description}</small>
+                </a>
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -1798,26 +1868,12 @@ function AlbumDetail({
           />
           <div className="chipRow">
             <button
-              className={
-                albumState.owned ? "chip active" : "chip"
-              }
-              onClick={() =>
-                updateAlbum(album.id, { owned: !albumState.owned })
-              }
+              className={albumState.owned || albumState.wantlist ? "chip active" : "chip"}
+              onClick={cycleCollectionStatus}
+              title="Click to cycle: Mark owned → CD owned → Wanted → Clear"
             >
-              <Disc3 size={16} /> CD owned
-            </button>
-            <button
-              className={
-                albumState.wantlist ? "chip active" : "chip"
-              }
-              onClick={() =>
-                updateAlbum(album.id, {
-                  wantlist: !albumState.wantlist
-                })
-              }
-            >
-              <Heart size={16} /> Wantlist
+              {albumState.owned ? <Disc3 size={16} /> : <Heart size={16} />}
+              {collectionStatusLabel}
             </button>
             <button
               className={
@@ -1887,6 +1943,28 @@ function AlbumDetail({
         </div>
       </section>
 
+      <section className="panel full visualCompanions">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Visual companions</p>
+            <h3>{albumState.owned ? "Owned-album reference options" : "Mark owned for richer visual references"}</h3>
+          </div>
+          <ExternalLink size={20} />
+        </div>
+        <p>
+          Focus mode now uses the local album cover as a blurred backdrop. For band imagery, the safest path is linking to
+          Wikipedia/Wikimedia Commons pages with visible license metadata rather than silently downloading third-party images.
+        </p>
+        <div className="visualReferenceRail inline">
+          {visualReferences.map((option) => (
+            <a key={option.label} href={option.url} target="_blank" rel="noreferrer">
+              <span>{option.label}</span>
+              <small>{option.description}</small>
+            </a>
+          ))}
+        </div>
+      </section>
+
 
       <section className="panel full">
         <div className="sectionHeader">
@@ -1903,32 +1981,20 @@ function AlbumDetail({
               {entry?.artistInfo?.summary ??
                 "No confident artist source was matched for this entry."}
             </p>
-            {entry?.artistInfo?.source?.url && (
-              <a
-                className="sourceLink"
-                href={entry.artistInfo.source.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source: {entry.artistInfo.source.title}
-              </a>
-            )}
+            <SourceAttribution
+              source={entry?.artistInfo?.source}
+              fallbackLabel="Artist source not confidently matched yet."
+            />
           </article>
           <article>
             <h4>Album</h4>
             <p>
               {entry?.albumInfo?.summary ?? entry?.context}
             </p>
-            {entry?.albumInfo?.source?.url && (
-              <a
-                className="sourceLink"
-                href={entry.albumInfo.source.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source: {entry.albumInfo.source.title}
-              </a>
-            )}
+            <SourceAttribution
+              source={entry?.albumInfo?.source}
+              fallbackLabel="Album source not confidently matched yet."
+            />
           </article>
         </div>
         <p>{entry?.relevance}</p>

@@ -9593,9 +9593,9 @@
       "appleCollectionId": 1440858209,
       "appleCollectionUrl": "https://music.apple.com/album/1440858209",
       "appleArtworkUrl": null,
-      "coverSource": null,
-      "coverSourceUrl": null,
-      "coverPath": "/covers/placeholder.svg",
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/8be83468-4917-390d-82b6-d890f058cd22",
+      "coverPath": "/covers/083-john-lennon-plastic-ono-band-3b6435aa.jpg",
       "tracks": [
         {
           "discNumber": 1,
@@ -9674,7 +9674,8 @@
           "durationMs": 50122,
           "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/6f/1a/3e6f1a72-48c2-31ea-fad4-90c8a9d8f39a/mzaf_16744950085791304560.plus.aac.p.m4a"
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "8be83468-4917-390d-82b6-d890f058cd22"
     },
     {
       "id": "084-the-doors-the-doors-ce1109d2",
@@ -19740,7 +19741,7 @@
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Tomorrow Is a Long Time",
+          "title": "Tomorrow Is Such a Long Time",
           "durationMs": 224095,
           "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/25/83/cf25830a-f74f-8466-a635-546a47da2934/mzaf_13310695348778718133.plus.aac.p.m4a"
         },
@@ -19768,7 +19769,7 @@
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "(Find A) Reason To Believe",
+          "title": "Reason to Believe",
           "durationMs": 245983,
           "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/ed/ca/d3edca35-95f4-9bac-8353-64b7a9f6a73b/mzaf_7849411734903751848.plus.aac.p.m4a"
         }

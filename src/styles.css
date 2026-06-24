@@ -601,6 +601,21 @@ main {
   text-decoration: underline;
 }
 
+.sourceNote {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  margin: 0 0 0.8rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.sourceNote.muted {
+  color: #8f826e;
+  font-weight: 600;
+}
+
 .trackList,
 .sessionTracks,
 .barList {
@@ -1072,6 +1087,25 @@ main {
 .mood-analog-glow { --mood-a: #f0c07a; --mood-b: #8a5b38; --mood-c: #f4ead8; }
 .mood-deep-vinyl { --mood-a: #c7a45b; --mood-b: #2f9d8f; --mood-c: #8e6cff; }
 
+.coverBackdrop {
+  position: absolute;
+  inset: -8vmax;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.22;
+  filter: blur(36px) saturate(1.25) contrast(1.05);
+  transform: scale(1.08);
+}
+
+.coverBackdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at center, transparent 0 22%, rgba(8, 7, 6, 0.62) 58%, #080706 100%),
+    linear-gradient(135deg, color-mix(in srgb, var(--mood-a) 24%, transparent), color-mix(in srgb, var(--mood-c) 18%, transparent));
+}
+
 .albumVisuals {
   position: absolute;
   inset: 0;
@@ -1205,6 +1239,48 @@ main {
 .youtubeLink {
   gap: 0.35rem;
   text-decoration: none;
+}
+
+.visualReferenceRail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.65rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.visualReferenceRail a {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--mood-a, #c7a45b) 32%, transparent);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ivory);
+  text-decoration: none;
+}
+
+.visualReferenceRail a:hover {
+  border-color: color-mix(in srgb, var(--mood-a, #c7a45b) 62%, white);
+  transform: translateY(-1px);
+}
+
+.visualReferenceRail span {
+  font-weight: 800;
+}
+
+.visualReferenceRail small {
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.visualReferenceRail.inline {
+  --mood-a: #c7a45b;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.visualCompanions p {
+  max-width: 72ch;
 }
 
 .listeningModeActions {

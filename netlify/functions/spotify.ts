@@ -22,6 +22,8 @@ const SPOTIFY_SEARCH_URL = "https://api.spotify.com/v1/search";
 let cachedToken: string | null = null;
 let tokenExpiresAt = 0;
 
+class SpotifyNotConfiguredError extends Error {}
+
 async function getAccessToken(): Promise<string> {
   if (cachedToken && Date.now() < tokenExpiresAt) {
     return cachedToken;
@@ -31,7 +33,7 @@ async function getAccessToken(): Promise<string> {
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
   if (!clientId || !clientSecret) {
-    throw new Error("Spotify client credentials not configured. Set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET environment variables.");
+    throw new SpotifyNotConfiguredError("Spotify client credentials not configured. Set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET environment variables.");
   }
 
   const response = await fetch(SPOTIFY_TOKEN_URL, {
@@ -65,6 +67,7 @@ interface SpotifySearchResult {
   albumName: string | null;
   trackName: string | null;
   configured: boolean; // whether Spotify is configured
+  error?: string;
 }
 
 function notConfigured(): SpotifySearchResult {
@@ -142,17 +145,33 @@ async function searchSpotify(query: string): Promise<SpotifySearchResult> {
       trackName: track?.name ?? null,
       configured: true
     };
-  } catch {
-    return notConfigured();
+  } catch (error) {
+    if (error instanceof SpotifyNotConfiguredError) {
+      return notConfigured();
+    }
+    return {
+      ...notConfigured(),
+      configured: true,
+      error: error instanceof Error ? error.message : "Spotify search failed"
+    };
   }
 }
 
 const corsHeaders = {
   "access-control-allow-methods": "GET,OPTIONS",
   "access-control-allow-headers": "content-type,authorization",
-  "content-type": "application/json",
-  "cache-control": "max-age=3600"
+  "content-type": "application/json"
 };
+
+function responseHeaders(
+  baseHeaders: Record<string, string>,
+  cacheControl: "success" | "no-store"
+) {
+  return {
+    ...baseHeaders,
+    "cache-control": cacheControl === "success" ? "max-age=3600" : "no-store"
+  };
+}
 
 export default async function handler(request: Request) {
   const baseHeaders: Record<string, string> = {
@@ -174,7 +193,7 @@ export default async function handler(request: Request) {
   if (request.method !== "GET") {
     return new Response(JSON.stringify({ error: "Method not allowed", ...notConfigured() }), {
       status: 405,
-      headers: baseHeaders
+      headers: responseHeaders(baseHeaders, "no-store")
     });
   }
 
@@ -183,10 +202,13 @@ export default async function handler(request: Request) {
   if (!query) {
     return new Response(JSON.stringify({ error: "Missing 'q' parameter", ...notConfigured() }), {
       status: 400,
-      headers: baseHeaders
+      headers: responseHeaders(baseHeaders, "no-store")
     });
   }
 
   const result = await searchSpotify(query);
-  return new Response(JSON.stringify(result), { headers: baseHeaders });
+  return new Response(JSON.stringify(result), {
+    status: result.error ? 502 : 200,
+    headers: responseHeaders(baseHeaders, result.configured && !result.error ? "success" : "no-store")
+  });
 }
