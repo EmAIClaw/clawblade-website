@@ -62,6 +62,10 @@ const encyclopedia = encyclopediaData.entries as Record<
 >;
 const catalogTotal = catalogData.metadata.recordCount;
 
+function trackKey(track: { discNumber: number; trackNumber: number; title: string }) {
+  return `${track.discNumber}:${track.trackNumber}:${track.title}`;
+}
+
 type PlaybackState = {
   albumId: string;
   trackIndex: number;
@@ -1703,11 +1707,12 @@ function AlbumDetail({
     setCheckedTracks([]);
   }
 
-  function toggleTrack(title: string) {
+  function toggleTrack(track: { discNumber: number; trackNumber: number; title: string }) {
+    const key = trackKey(track);
     setCheckedTracks((current) =>
-      current.includes(title)
-        ? current.filter((item) => item !== title)
-        : [...current, title]
+      current.includes(key)
+        ? current.filter((item) => item !== key)
+        : [...current, key]
     );
   }
 
@@ -1742,7 +1747,7 @@ function AlbumDetail({
       guide
     ])
   );
-  const nextUncheckedIndex = album.tracks.findIndex((track) => !checkedTracks.includes(track.title));
+  const nextUncheckedIndex = album.tracks.findIndex((track) => !checkedTracks.includes(trackKey(track)));
   const focusIndex = nextUncheckedIndex >= 0 ? nextUncheckedIndex : Math.max(album.tracks.length - 1, 0);
   const focusTrack = album.tracks[focusIndex];
   const focusGuide = focusTrack ? guideByTitle.get(focusTrack.title) : undefined;
@@ -1815,7 +1820,7 @@ function AlbumDetail({
               <button
                 type="button"
                 className="primary"
-                onClick={() => toggleTrack(focusTrack.title)}
+                onClick={() => toggleTrack(focusTrack)}
               >
                 <Check size={17} /> Mark heard
               </button>
@@ -2024,14 +2029,14 @@ function AlbumDetail({
               return (
                 <article
                   key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(track.title) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
+                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(trackKey(track)) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
                 >
                   {sessionActive && (
                     <label className="trackCheck">
                       <input
                         type="checkbox"
-                        checked={checkedTracks.includes(track.title)}
-                        onChange={() => toggleTrack(track.title)}
+                        checked={checkedTracks.includes(trackKey(track))}
+                        onChange={() => toggleTrack(track)}
                       />
                     </label>
                   )}
