@@ -6,6 +6,37 @@ const albums = catalogData.albums ?? [];
 const entries = encyclopediaData.entries ?? {};
 const failures = [];
 
+const velvetUndergroundAndNico = albums.find(
+  (album) => album.id === '023-the-velvet-underground-the-velvet-underground-and-nico-0913adef'
+);
+
+try {
+  assert.ok(velvetUndergroundAndNico, 'The Velvet Underground & Nico must exist in the catalog');
+  assert.equal(velvetUndergroundAndNico.artist, 'The Velvet Underground & Nico', 'The Velvet Underground & Nico must credit Nico in the album artist');
+  assert.equal(velvetUndergroundAndNico.appleCollectionId, 1440851613, 'The Velvet Underground & Nico must use its matching Apple collection');
+  assert.match(velvetUndergroundAndNico.appleArtworkUrl, /9293397f-a707-237e-ec7e-0ca613a67e3c/, 'The Velvet Underground & Nico must use its matching Apple cover art');
+  assert.match(velvetUndergroundAndNico.coverSourceUrl, /1440851613/, 'The Velvet Underground & Nico cover must link to its matching Apple release');
+  assert.deepEqual(
+    velvetUndergroundAndNico.tracks.map((track) => track.title),
+    [
+      'Sunday Morning',
+      "I'm Waiting for the Man",
+      'Femme Fatale',
+      'Venus In Furs',
+      'Run Run Run',
+      "All Tomorrow's Parties",
+      'Heroin',
+      'There She Goes Again',
+      "I'll Be Your Mirror",
+      "The Black Angel's Death Song",
+      'European Son'
+    ],
+    'The Velvet Underground & Nico must use its original 11-track sequence'
+  );
+} catch (error) {
+  failures.push(error.message);
+}
+
 for (const album of albums) {
   const entry = entries[album.id];
   if (!entry) {
