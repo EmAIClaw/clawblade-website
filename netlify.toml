@@ -19,12 +19,14 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Cross-Origin Isolation required for expo-sqlite (WASM + SharedArrayBuffer)
+# Cross-Origin Isolation required for expo-sqlite (WASM + SharedArrayBuffer).
+# `require-corp` is supported by Safari as well as Chromium; `credentialless`
+# leaves Safari pages non-isolated and causes expo-sqlite to fail at startup.
 [[headers]]
   for = "/gym/*"
   [headers.values]
     Cross-Origin-Opener-Policy = "same-origin"
-    Cross-Origin-Embedder-Policy = "credentialless"
+    Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
   for = "/gym/*.wasm"
