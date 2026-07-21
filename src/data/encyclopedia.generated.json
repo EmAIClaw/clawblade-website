@@ -9101,120 +9101,151 @@
           "score": 0.78
         }
       },
-      "albumInfo": null,
-      "context": "Legend by Bob Marley and the Wailers (1984) is album #47 in this AlbumVault catalog. No confident album article was matched, so AlbumVault stores only catalog metadata for this album context.",
-      "relevance": "AlbumVault ranks it #47. Reggae; 16 Apple-derived tracks; listed year 1984. Artist source: Bob Marley and the Wailers. Album source: not confidently matched. Track-specific source summaries: 0.",
+      "albumInfo": {
+        "summary": "Released by Island on 7 May 1984, three years after Bob Marley’s death, Legend is a deliberately concise greatest-hits sequence rather than a studio album. The original vinyl ran to 14 songs, moving from love songs and communal anthems to the political and spiritual weight of Exodus and Redemption Song. AlbumVault uses Apple’s 16-track digital edition: it keeps the original sequence and adds Easy Skanking from Kaya and the extended Punky Reggae Party.",
+        "source": {
+          "label": "Bob Marley Official",
+          "title": "Legend (1984)",
+          "url": "https://www.bobmarley.com/music/legend/",
+          "extract": "Official album page listing the original 14-track vinyl configuration and release context.",
+          "summary": "Legend is the 1984 Island Records greatest-hits collection. Its original vinyl configuration contains 14 tracks; the Apple edition in AlbumVault adds Easy Skanking and Punky Reggae Party.",
+          "description": "Official album page",
+          "score": 1
+        }
+      },
+      "context": "Legend is a map of Marley’s Island Records years: the early international breakthrough of Catch a Fire and Burnin’, the mature warmth of Natty Dread and Kaya, the London-made Exodus, and the final statements on Uprising. The compilation’s apparent ease is structural: romantic songs, resistance songs, and Rastafarian language are placed beside each other, so the record plays as both an introduction and a compressed artistic biography.",
+      "relevance": "AlbumVault ranks it #47. This is the 1984 Island compilation in Apple’s 16-track digital configuration, not Legend Remixed. The original vinyl sequence had 14 tracks; Easy Skanking and Punky Reggae Party are digital-edition additions. Album source: Bob Marley Official; release facts cross-checked against Wikipedia.",
       "listeningNotes": [
-        "Start with the artist context from Bob Marley and the Wailers; listen for how this album fits or breaks from that wider story.",
-        "No confident album source was matched; treat this as a metadata-only entry until a source is added.",
-        "No track-specific source summaries were found; use the track guide for sequence, duration, and close-listening structure only."
+        "Hear Legend as a sequence assembled after the fact, not as a single studio session. It travels from the intimate Is This Love into the public, collective voice of Get Up, Stand Up and One Love, then lands on Exodus and Jamming.",
+        "The collection draws heavily from Exodus (1977), Kaya (1978), and Uprising (1980), but its earlier Burnin’ material is crucial: Get Up, Stand Up and I Shot the Sheriff supply the sharper political edge.",
+        "The Apple edition differs from the original 14-track vinyl. Easy Skanking and the extended Punky Reggae Party are additions, so the app’s 16-track sequence should not be mistaken for the 1984 LP running order.",
+        "The Lyceum performance of No Woman, No Cry is intentionally a live pivot near the beginning: the crowd response and organ-led build turn a private address into a communal sing-along."
       ],
       "trackGuide": [
         {
           "trackTitle": "Is This Love",
-          "guide": "Is This Love sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "From Kaya (1978), this is the softest possible opening: a compact love song built around the off-beat guitar pulse, warm keyboard colour, and a melody that keeps returning to its promise of shelter. Notice how the I-Threes’ responses widen the song without disturbing its unhurried sway.",
+          "focus": "Kaya (1978); romantic reggae groove",
           "source": null
         },
         {
           "trackTitle": "No Woman, No Cry (Live At The Lyceum, London/1975)",
-          "guide": "No Woman, No Cry (Live At The Lyceum, London/1975) sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "This is the Lyceum, London performance recorded in 1975 and issued on Live! The familiar studio song becomes a slow-build concert piece: the organ figure, Marley’s patient phrasing, and the audience singing the refrain are the arrangement. Let the final minutes demonstrate why this version became the canonical one.",
+          "focus": "Live! (1975); organ-led live crescendo",
           "source": null
         },
         {
           "trackTitle": "Could You Be Loved",
-          "guide": "Could You Be Loved sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "A late-period single from Uprising (1980), it couples a clipped, dance-floor-ready rhythm with a lyric that asks whether love can survive social pressure and judgment. The guitar skank, bass movement, and crisp hi-hat keep it in reggae while the pulse reaches toward disco-era pop radio.",
+          "focus": "Uprising (1980); reggae-disco crossover pulse",
           "source": null
         },
         {
           "trackTitle": "Three Little Birds",
-          "guide": "Three Little Birds sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "From Exodus (1977), its reassurance is carried by a small repeating guitar figure and the easy lift of the backing vocals. The strength is restraint: rather than a dramatic chorus, Marley repeats the same promise until it feels like a morning ritual.",
+          "focus": "Exodus (1977); I-Threes backing vocals",
           "source": null
         },
         {
           "trackTitle": "Buffalo Soldier",
-          "guide": "Buffalo Soldier sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "Released posthumously on Confrontation (1983), the song turns the history of Black cavalry regiments into a marching reggae narrative. Follow the military cadence in the rhythm section against the bright vocal hook; its historical subject is delivered with deliberately accessible momentum.",
+          "focus": "Confrontation (1983); Black cavalry history",
           "source": null
         },
         {
           "trackTitle": "Get Up, Stand Up",
-          "guide": "Get Up, Stand Up sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "Written with Peter Tosh and first released on Burnin’ (1973), this is the most direct call-and-response record here. The repeated title line is not decoration: it is the song’s organising device, with each verse returning the listener to collective action.",
+          "focus": "Burnin’ (1973); co-written with Peter Tosh",
           "source": null
         },
         {
           "trackTitle": "Stir It Up",
-          "guide": "Stir It Up sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "One of the early Island-era recordings, from Catch a Fire (1973), Stir It Up lets the rhythm breathe rather than drive hard. Listen to the elastic bass, the guitar’s quiet off-beat punctuation, and how Marley leaves space around the vocal instead of filling every bar.",
+          "focus": "Catch a Fire (1973); spacious rhythm section",
           "source": null
         },
         {
           "trackTitle": "Easy Skanking",
-          "guide": "Easy Skanking sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "This relaxed Kaya (1978) cut is an addition to the 16-track Apple edition, not part of the original Legend vinyl. Its title describes the feel: the rhythm guitar supplies the skank while the bass and drums keep the song light on its feet rather than pushing toward an anthem.",
+          "focus": "Kaya (1978); Apple-edition addition",
           "source": null
         },
         {
           "trackTitle": "One Love / People Get Ready",
-          "guide": "One Love / People Get Ready sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "The Natty Dread (1974) recording joins Marley’s One Love with Curtis Mayfield’s People Get Ready. Listen for the way the song turns a simple communal chorus into its argument: the melody makes unity feel participatory, while the rhythm stays loose and buoyant.",
+          "focus": "Natty Dread (1974); incorporates Curtis Mayfield composition",
           "source": null
         },
         {
           "trackTitle": "I Shot The Sheriff",
-          "guide": "I Shot The Sheriff sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "From Burnin’ (1973), this is a first-person narrative built on deliberate ambiguity: the singer admits one killing while denying another accusation. The controlled groove is part of the tension; the music never rushes the story, even as the lyric grows more confrontational.",
+          "focus": "Burnin’ (1973); narrative tension",
           "source": null
         },
         {
           "trackTitle": "Waiting In Vain",
-          "guide": "Waiting In Vain sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "From Exodus (1977), Waiting In Vain is a love song whose urgency comes from the bass and the lingering gaps around Marley’s vocal. The hook sounds relaxed, but the repeated plea not to wait in vain gives the performance its ache.",
+          "focus": "Exodus (1977); romantic tension",
           "source": null
         },
         {
           "trackTitle": "Redemption Song",
-          "guide": "Redemption Song sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "The acoustic performance from Uprising (1980) strips away the band, making every pause and guitar stroke part of the message. Its “emancipate yourselves” line draws on a Marcus Garvey speech; hear the recording as a final, intimate statement rather than a conventional reggae groove.",
+          "focus": "Uprising (1980); solo acoustic performance",
           "source": null
         },
         {
           "trackTitle": "Satisfy My Soul",
-          "guide": "Satisfy My Soul sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "Kaya (1978) supplies another love-song counterweight after Redemption Song. The arrangement works by release rather than climax: gentle vocal harmonies, an unhurried pocket, and a refrain that settles into the rhythm instead of trying to overpower it.",
+          "focus": "Kaya (1978); ease and release",
           "source": null
         },
         {
           "trackTitle": "Exodus",
-          "guide": "Exodus sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "The title track of Exodus (1977) turns departure into a long, processional groove. Recorded in London after the 1976 assassination attempt on Marley, the album’s displaced setting gives the song’s movement and liberation imagery extra force. Stay with the bass-led repetition; the song gains scale through duration.",
+          "focus": "Exodus (1977); processional title track",
           "source": null
         },
         {
           "trackTitle": "Jamming",
-          "guide": "Jamming sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "Also from Exodus, Jamming answers the gravity of the title track with collective celebration. The rhythm is tight but never stiff: handclap-like accents, a bubbling bass line, and the repeated chorus make participation the point.",
+          "focus": "Exodus (1977); collective celebration",
           "source": null
         },
         {
           "trackTitle": "Punky Reggae Party (12\" Version)",
-          "guide": "Punky Reggae Party (12\" Version) sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
-          "focus": "Generated alignment note — needs curated review",
+          "guide": "This extended 1977 track is another Apple-edition addition. Marley’s lyric recognises the connection between Jamaican reggae and the British punk audience of the period; the longer version gives the rhythm section and dub-style space more room than a standard single edit.",
+          "focus": "1977 single; Apple-edition addition",
           "source": null
         }
       ],
       "themes": [
-        "Static reference",
-        "Source-backed facts",
-        "Track sequence",
-        "Reggae",
-        "Jamaican reggae band (1963–1981)"
+        "1984 compilation",
+        "Island Records years",
+        "roots reggae",
+        "love and unity",
+        "resistance and liberation",
+        "specific listening notes"
       ],
       "sources": [
+        {
+          "label": "Bob Marley Official",
+          "title": "Legend (1984)",
+          "url": "https://www.bobmarley.com/music/legend/",
+          "extract": "Official album page listing the original 14-track vinyl configuration and release context.",
+          "summary": "Legend is the 1984 Island Records greatest-hits collection. Its original vinyl configuration contains 14 tracks; the Apple edition in AlbumVault adds Easy Skanking and Punky Reggae Party.",
+          "description": "Official album page",
+          "score": 1
+        },
+        {
+          "label": "Wikipedia",
+          "title": "Legend (Bob Marley and the Wailers album)",
+          "url": "https://en.wikipedia.org/wiki/Legend_(Bob_Marley_and_the_Wailers_album)",
+          "extract": "Legend is a compilation album by Bob Marley and the Wailers, released on 7 May 1984 by Island Records. It is a greatest-hits collection of singles in its original vinyl format.",
+          "summary": "Released after Marley’s death, Legend became the best-selling reggae album and gathered singles from the Island-era catalogue into a single entry point.",
+          "description": "1984 greatest-hits album",
+          "score": 0.96
+        },
         {
           "label": "Wikipedia",
           "title": "Bob Marley and the Wailers",
