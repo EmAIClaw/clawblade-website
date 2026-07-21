@@ -4984,131 +4984,124 @@
       "artist": "Bob Marley and the Wailers",
       "year": 1984,
       "genre": "Reggae",
-      "appleCollectionId": 1442830055,
-      "appleCollectionUrl": "https://music.apple.com/us/album/legend-remixed/1442830055?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/19/5d/b9/195db9cc-fec8-e022-f573-66b0e36cec2f/00600753442159.rgb.jpg/600x600bb.jpg",
+      "appleCollectionId": 1469575763,
+      "appleCollectionUrl": "https://music.apple.com/us/album/legend-the-best-of-bob-marley-the-wailers/1469575763?uo=4",
+      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/c2/0d/3cc20dcc-8f4e-f060-36dd-7de52a7ec8fe/12UMGIM14712.rgb.jpg/600x600bb.jpg",
       "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/legend-remixed/1442830055?uo=4",
+      "coverSourceUrl": "https://music.apple.com/us/album/legend-the-best-of-bob-marley-the-wailers/1469575763?uo=4",
       "coverPath": "/covers/047-bob-marley-and-the-wailers-legend-e2c8278d.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Waiting In Vain (Jim James Remix)",
-          "durationMs": 304013,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/77/92/737792fc-3873-5b94-aa39-627c64aac0c4/mzaf_6940468363321233656.plus.aac.p.m4a"
+          "title": "Is This Love",
+          "durationMs": 232374,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/b4/86/57b48651-318d-4e27-e486-33f4e5faaa75/mzaf_5322223461518697391.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Stir It Up (Ziggy Marley Remix)",
-          "durationMs": 214547,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0b/43/a8/0b43a844-5689-a3a8-5d2d-b5a2305feb7a/mzaf_12177895392382525114.plus.aac.p.m4a"
+          "title": "No Woman, No Cry (Live At The Lyceum, London/1975)",
+          "durationMs": 429557,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/c8/ef30c87b-6107-6b0a-2389-6f54c634a4e3/mzaf_11112499637946838929.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Three Little Birds (Stephen Marley & Jason Bentley Remix)",
-          "durationMs": 180307,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/a3/b7/16a3b7bc-9b10-7d3c-d52a-c74b4ea372ea/mzaf_17217247046432249094.plus.aac.p.m4a"
+          "title": "Could You Be Loved",
+          "durationMs": 236758,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/96/b4/0896b437-f975-f94d-52d5-06c5b0c4c937/mzaf_16842992457304565935.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Could You Be Loved (RAC Remix)",
-          "durationMs": 244493,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/bc/ad/0cbcada8-9533-f4da-e046-45c11b79a953/mzaf_1656628554761651005.plus.aac.p.m4a"
+          "title": "Three Little Birds",
+          "durationMs": 181046,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/fc/90/affc9056-e658-fe90-0f07-a8790d1d7265/mzaf_9608562567489878696.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "No Woman, No Cry (Stephen Marley Remix)",
-          "durationMs": 281120,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/cf/f8/cfcff884-2f58-b1b4-09bc-6fb46511f7da/mzaf_2749045996260441619.plus.aac.p.m4a"
+          "title": "Buffalo Soldier",
+          "durationMs": 257546,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/c5/e5/48c5e5e9-9655-790a-f342-b5c7bc37f18b/mzaf_4715892456266446601.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Get Up, Stand Up (Thievery Corporation Remix)",
-          "durationMs": 261693,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/47/22/19472242-4a4b-d25e-7395-0088b2228f95/mzaf_13096701289786748410.plus.aac.p.m4a"
+          "title": "Get Up, Stand Up",
+          "durationMs": 198433,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/15/ac/6215acd4-601c-71a3-fe48-cdc1625fad15/mzaf_6370476435791035922.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Satisfy My Soul (Beats Antique Remix)",
-          "durationMs": 371160,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/80/89/db8089f6-b3c1-7d9f-323d-293317939da5/mzaf_7497365222837793362.plus.aac.p.m4a"
+          "title": "Stir It Up",
+          "durationMs": 331427,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/0c/ea/680cea2a-4abb-5d0d-15aa-ef7f7b837e52/mzaf_12327912077440848517.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "I Shot the Sheriff (Roni Size Remix)",
-          "durationMs": 355067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/87/89/41878973-e14b-4c22-4a47-98b8115421f6/mzaf_7543933721734837535.plus.aac.p.m4a"
+          "title": "Easy Skanking",
+          "durationMs": 174836,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/3d/b6/e63db6fc-ddb8-dd72-a99c-f9dba875332d/mzaf_4118889664215972500.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Exodus (Pretty Lights Remix)",
-          "durationMs": 256853,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/36/2f/02/362f02d2-a600-ead9-e715-476f4fe082b4/mzaf_7608628248465911198.plus.aac.p.m4a"
+          "title": "One Love / People Get Ready",
+          "durationMs": 172176,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/56/57/6b5657e2-9009-1246-6666-0ffdcf407507/mzaf_1900912317911292621.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Easy Skanking (Stephen Marley Remix)",
-          "durationMs": 296960,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/3e/09/c13e092a-9ff0-2164-7436-31f0e25310ed/mzaf_5510331298826505757.plus.aac.p.m4a"
+          "title": "I Shot The Sheriff",
+          "durationMs": 281649,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/6a/05/6e6a05aa-370c-ad7d-6707-919e82faee65/mzaf_13477469811497434514.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "One Love / People Get Ready (Photek Remix)",
-          "durationMs": 296320,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/b1/9c/a1b19ce3-9afc-d9ab-8f9e-41d224ce1ef9/mzaf_331803598201254185.plus.aac.p.m4a"
+          "title": "Waiting In Vain",
+          "durationMs": 251957,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/ae/b9/5baeb95a-0cf2-e3c7-0ea1-8489b5c24323/mzaf_7768007102488386710.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Redemption Song (Ziggy Marley Remix)",
-          "durationMs": 234373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/a9/39/eca9394d-9590-fb38-7737-fa6b6a0eb0a6/mzaf_6776456805819632238.plus.aac.p.m4a"
+          "title": "Redemption Song",
+          "durationMs": 227385,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/b8/08/eeb8085a-89ab-21e2-0a2a-2699706cca25/mzaf_17798312681077359081.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Is This Love (Jason Bentley Remix)",
-          "durationMs": 370120,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5b/ad/8c/5bad8ca1-4b71-11af-eb39-ddbfaf1d141b/mzaf_2724617327078797863.plus.aac.p.m4a"
+          "title": "Satisfy My Soul",
+          "durationMs": 271684,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/0a/03/a00a03e8-47a8-a6b4-eb01-bf4d6980d4d5/mzaf_1258525457990512541.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Jamming (Nickodemus and Zeb Remix)",
-          "durationMs": 293720,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/fd/7f/d1fd7fda-2575-ad01-0f9e-dd8af5a6db7f/mzaf_8457078909422897840.plus.aac.p.m4a"
+          "title": "Exodus",
+          "durationMs": 460562,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/0b/01/6a0b0154-44e8-7e86-f0e9-c7808b281bc9/mzaf_17004008878666782933.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "Punky Reggae Party (feat. Lee \"Scratch\" Perry) [Z-Trip Remix]",
-          "durationMs": 334347,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/22/b2/37/22b23734-2dd3-51ea-0431-5178f2cfe1ae/mzaf_5747708502509713504.plus.aac.p.m4a"
+          "title": "Jamming",
+          "durationMs": 212118,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/40/b7/0440b7f1-93b1-aa8d-1839-a3b721f3c71b/mzaf_11874546029668576349.plus.aac.p.m4a"
         },
         {
           "discNumber": 1,
           "trackNumber": 16,
-          "title": "Buffalo Soldier (Stephen Marley Remix)",
-          "durationMs": 315427,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/83/93/a1839388-653f-de46-d30c-2226f84250dd/mzaf_8321217409834202802.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Punky Reggae Party (feat. Lee \"Scratch\" Perry) [Z-Trip Remix] [Dub Mix]",
-          "durationMs": 334587,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/84/27/1e/84271e70-a2d6-118d-c749-131c47de5f3b/mzaf_14825234526053443048.plus.aac.p.m4a"
+          "title": "Punky Reggae Party (12\" Version)",
+          "durationMs": 412542,
+          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/4e/80/394e8056-c92a-3996-e8b4-4fa6b8179a70/mzaf_6448226578622164250.plus.aac.p.m4a"
         }
       ]
     },

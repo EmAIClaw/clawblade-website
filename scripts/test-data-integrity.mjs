@@ -37,6 +37,39 @@ try {
   failures.push(error.message);
 }
 
+const bobMarleyLegend = albums.find(
+  (album) => album.id === '047-bob-marley-and-the-wailers-legend-e2c8278d'
+);
+
+try {
+  assert.ok(bobMarleyLegend, 'Bob Marley and the Wailers — Legend must exist in the catalog');
+  assert.equal(bobMarleyLegend.appleCollectionId, 1469575763, 'Legend must use Apple’s original compilation release, not Legend Remixed');
+  assert.deepEqual(
+    bobMarleyLegend.tracks.map((track) => track.title),
+    [
+      'Is This Love',
+      'No Woman, No Cry (Live At The Lyceum, London/1975)',
+      'Could You Be Loved',
+      'Three Little Birds',
+      'Buffalo Soldier',
+      'Get Up, Stand Up',
+      'Stir It Up',
+      'Easy Skanking',
+      'One Love / People Get Ready',
+      'I Shot The Sheriff',
+      'Waiting In Vain',
+      'Redemption Song',
+      'Satisfy My Soul',
+      'Exodus',
+      'Jamming',
+      'Punky Reggae Party (12\" Version)'
+    ],
+    'Legend must use the original 16-track compilation sequence'
+  );
+} catch (error) {
+  failures.push(error.message);
+}
+
 for (const album of albums) {
   const entry = entries[album.id];
   if (!entry) {

@@ -9103,7 +9103,7 @@
       },
       "albumInfo": null,
       "context": "Legend by Bob Marley and the Wailers (1984) is album #47 in this AlbumVault catalog. No confident album article was matched, so AlbumVault stores only catalog metadata for this album context.",
-      "relevance": "AlbumVault ranks it #47. Reggae; 17 Apple-derived tracks; listed year 1984. Artist source: Bob Marley and the Wailers. Album source: not confidently matched. Track-specific source summaries: 17.",
+      "relevance": "AlbumVault ranks it #47. Reggae; 16 Apple-derived tracks; listed year 1984. Artist source: Bob Marley and the Wailers. Album source: not confidently matched. Track-specific source summaries: 0.",
       "listeningNotes": [
         "Start with the artist context from Bob Marley and the Wailers; listen for how this album fits or breaks from that wider story.",
         "No confident album source was matched; treat this as a metadata-only entry until a source is added.",
@@ -9111,105 +9111,99 @@
       ],
       "trackGuide": [
         {
-          "trackTitle": "Waiting In Vain (Jim James Remix)",
-          "guide": "The Jim James remix of \"Waiting In Vain\" breathes a hazy, dreamlike quality into the original, layering shimmering synths and subtle electronic textures over the iconic reggae rhythm section. A mournful, echoing piano melody weaves through the instrumentation, creating a sense of vast, lonely space that amplifies the song's themes of unrequited love. The production maintains the core warmth of Marley's vocals while subtly modernizing the soundscape, proving a surprisingly seamless and evocative fusion of classic and contemporary.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Is This Love",
+          "guide": "Is This Love sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Stir It Up (Ziggy Marley Remix)",
-          "guide": "The Ziggy Marley remix injects a vibrant, modern energy into the classic reggae groove, layering shimmering synthesizers and crisp, driving percussion over the foundational bassline and Bob Marley’s iconic vocals. A playful, almost dancehall-tinged arrangement breathes new life into the familiar melody, while the production maintains a warm, organic feel that honors the original’s roots. It's a masterful blend of past and present, demonstrating how a fresh perspective can amplify the timeless power of Marley's music.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "No Woman, No Cry (Live At The Lyceum, London/1975)",
+          "guide": "No Woman, No Cry (Live At The Lyceum, London/1975) sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Three Little Birds (Stephen Marley & Jason Bentley Remix)",
-          "guide": "The Stephen Marley & Jason Bentley remix breathes a breezy, contemporary energy into \"Three Little Birds,\" layering shimmering synths and subtle electronic percussion beneath the iconic acoustic guitar and Bob Marley's reassuring vocals. A pulsing, understated bassline anchors the track, creating a hypnotic groove that subtly modernizes the original's gentle sway. The production maintains the song’s inherent optimism while adding a polished sheen, transforming a comforting folk tune into a vibrant, globally-appealing anthem.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Could You Be Loved",
+          "guide": "Could You Be Loved sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Could You Be Loved (RAC Remix)",
-          "guide": "The RAC Remix of \"Could You Be Loved\" breathes new life into the classic, layering shimmering synths and a subtly driving electronic pulse beneath the familiar reggae groove. Marley's iconic vocals remain front and center, but are now cradled within a spacious, modern soundscape where the original’s horns playfully interact with crisp, processed percussion. This masterful production retains the song’s joyous energy while injecting a contemporary dancefloor feel, proving the enduring power of both Marley’s music and innovative remixing.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Three Little Birds",
+          "guide": "Three Little Birds sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "No Woman, No Cry (Stephen Marley Remix)",
-          "guide": "The Stephen Marley remix of \"No Woman, No Cry\" elevates the original's gentle sorrow with a lush, layered production, introducing a vibrant keyboard melody and subtly amplified percussion that dances beneath the familiar acoustic guitar. A warm, enveloping bassline pulses with a newfound energy, grounding the heartfelt vocals while allowing the harmonies to shimmer with a polished clarity. This reimagining retains the song’s comforting intimacy but expands its sonic landscape, creating a richer, more expansive emotional experience.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Buffalo Soldier",
+          "guide": "Buffalo Soldier sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Get Up, Stand Up (Thievery Corporation Remix)",
-          "guide": "The Thievery Corporation remix breathes a hypnotic, dub-infused life into \"Get Up, Stand Up,\" layering shimmering synths and a pulsing, understated bassline beneath Marley’s powerful vocals. Distorted echoes and subtly manipulated percussion create a spacious, almost underwater feel, while the original’s iconic horns are treated with a ghostly reverb, lending a dreamlike quality to the defiant message. This production transforms the familiar anthem into a deeply atmospheric and subtly unsettling sonic landscape.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Get Up, Stand Up",
+          "guide": "Get Up, Stand Up sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Satisfy My Soul (Beats Antique Remix)",
-          "guide": "The Beats Antique remix of \"Satisfy My Soul\" breathes new life into the classic with a driving pulse of layered percussion – earthy hand drums intertwine with shimmering electronic textures, creating a hypnotic, danceable foundation. Traditional reggae instrumentation like the skanking guitar remains present, but is subtly woven into the vibrant tapestry of synthesized strings and atmospheric samples, amplifying the song’s spiritual yearning. This masterful production transforms a familiar plea into a captivating sonic journey, seamlessly blending Marley's iconic vocals with a modern, globally-infused soundscape.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Stir It Up",
+          "guide": "Stir It Up sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "I Shot the Sheriff (Roni Size Remix)",
-          "guide": "The Roni Size remix of \"I Shot the Sheriff\" explodes with a frantic, breakbeat energy, transforming Marley's laid-back reggae into a pulsing jungle landscape. Deep sub-bass throbs relentlessly beneath the iconic vocals, while shimmering synth pads and frantic percussion weave a dizzying, almost chaotic, sonic tapestry. It's a remarkable collision of genres, proving the timelessness of Marley’s songwriting through a completely unexpected and electrifying production style.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Easy Skanking",
+          "guide": "Easy Skanking sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Exodus (Pretty Lights Remix)",
-          "guide": "The familiar reggae groove of \"Exodus\" is reborn under Pretty Lights' shimmering touch, layered with swirling synth pads and a subtly driving, electronic beat that pulses beneath the iconic bassline.  Sparkling glimmers of marimba and delayed guitar echoes weave through the arrangement, creating a euphoric, almost dreamlike atmosphere while retaining the song's powerful message of liberation. This remix masterfully blends Marley's soulful vocals and the original instrumentation with a modern, dance-friendly production, forging a timeless connection between reggae and electronic music.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "One Love / People Get Ready",
+          "guide": "One Love / People Get Ready sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Easy Skanking (Stephen Marley Remix)",
-          "guide": "The Stephen Marley remix of \"Easy Skanking\" pulses with a modernized, crisp energy, layering shimmering keyboard pads over the original's iconic reggae rhythm section. A driving, subtly distorted bassline anchors the track, while bright, echoing horns weave playful melodies around Bob Marley's vocals, creating a vibrant and danceable sonic tapestry. This production breathes fresh life into the classic, amplifying the inherent joy and laid-back vibe of the original while solidifying its place as a timeless party starter.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "I Shot The Sheriff",
+          "guide": "I Shot The Sheriff sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "One Love / People Get Ready (Photek Remix)",
-          "guide": "Photek’s remix of \"One Love / People Get Ready\" strips away the original’s sun-drenched reggae warmth, replacing it with a pulsing, fractured drum machine rhythm and shimmering, delayed piano chords that create a hypnotic, almost melancholic atmosphere. The iconic vocals are skillfully woven into this new sonic tapestry, appearing and receding like echoes in a cavernous space, amplified by subtle, granular effects. It's a remarkable reimagining, transforming a message of unity into a deeply introspective and subtly unsettling electronic journey.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Waiting In Vain",
+          "guide": "Waiting In Vain sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Redemption Song (Ziggy Marley Remix)",
-          "guide": "The familiar acoustic guitar of Bob Marley's original is subtly layered beneath a pulsing, modern reggae beat in Ziggy Marley's remix, creating a hypnotic tension between timelessness and contemporary energy. Synthesizers shimmer and swirl around the iconic vocals, adding a spaciousness and depth previously unheard in the stark original. This production choice elevates the song's inherent yearning for freedom, transforming it into a vibrant, almost anthemic call for liberation.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Redemption Song",
+          "guide": "Redemption Song sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Is This Love (Jason Bentley Remix)",
-          "guide": "The Jason Bentley remix of \"Is This Love\" elevates the original's reggae groove with shimmering, synthesized pads that subtly underscore the iconic steel drums and bubbling bassline. Production choices emphasize a spaciousness, allowing each instrument—from the crisp percussion to the soulful horns—to breathe within a modern, dance-friendly framework. This reimagining retains the song’s inherent warmth and romanticism while injecting a contemporary sheen that broadened its appeal across genres.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Satisfy My Soul",
+          "guide": "Satisfy My Soul sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Jamming (Nickodemus and Zeb Remix)",
-          "guide": "The Nickodemus and Zeb remix of \"Jamming\" injects a vibrant, pulsing energy into the classic reggae groove, layering shimmering percussion and subtle electronic textures over the iconic bassline and Marley's vocals. Crisp, clean production allows the original instrumentation – the steel drums, horns, and driving rhythm guitar – to breathe alongside the new sonic elements, creating a seamless blend of vintage warmth and modern dancefloor appeal. It's a masterful reimagining that retains the song’s celebratory spirit while expanding its rhythmic possibilities.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Exodus",
+          "guide": "Exodus sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Punky Reggae Party (feat. Lee \"Scratch\" Perry) [Z-Trip Remix]",
-          "guide": "The Z-Trip remix injects a frenetic energy into \"Punky Reggae Party,\" layering a driving, syncopated drum machine over the original's laid-back reggae groove, creating an irresistible dancefloor pulse. Lee \"Scratch\" Perry’s signature dub effects – echoing vocals and swirling delays – are expertly woven into the fabric of the track, adding a psychedelic, almost disorienting depth. It’s a brilliant collision of eras, preserving the song’s joyful spirit while propelling it into a new, vibrant sonic landscape.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Jamming",
+          "guide": "Jamming sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         },
         {
-          "trackTitle": "Buffalo Soldier (Stephen Marley Remix)",
-          "guide": "The Stephen Marley remix of \"Buffalo Soldier\" amplifies the original's power with a driving, almost militaristic drum machine underpinning the iconic reggae rhythm, creating a subtly unsettling yet irresistible pulse. Layers of shimmering keyboard textures and crisp, modern production techniques weave around the familiar steel drums and bassline, giving the song a renewed urgency while honoring its historical roots. It's a masterful blend of classic Marley soul and contemporary dancehall energy, making the song feel both timeless and strikingly fresh.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
-        },
-        {
-          "trackTitle": "Punky Reggae Party (feat. Lee \"Scratch\" Perry) [Z-Trip Remix] [Dub Mix]",
-          "guide": "The Z-Trip remix of \"Punky Reggae Party\" explodes with a frenetic energy, layering a dizzying carousel of dub echoes and shimmering percussion over the original's infectious groove. Lee \"Scratch\" Perry's signature sonic chaos – warped vocals, stuttering samples, and unpredictable effects – intertwines seamlessly with Marley's iconic vocals, creating a vibrant and disorienting dancefloor experience. It’s a masterful collision of reggae royalty and innovative production, proving the song’s timeless appeal through a fresh, exhilarating lens.",
-          "focus": "Track metadata and album sequence context only",
+          "trackTitle": "Punky Reggae Party (12\" Version)",
+          "guide": "Punky Reggae Party (12\" Version) sits within Legend's album arc. Listen for how the arrangement, dynamics, vocal or instrumental choices, and placement in the sequence shape the record's overall emotional momentum.",
+          "focus": "Generated alignment note — needs curated review",
           "source": null
         }
       ],
