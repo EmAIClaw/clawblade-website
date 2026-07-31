@@ -17,6 +17,7 @@
     "prepare:catalog:offline": "node scripts/prepare-catalog.mjs --offline",
     "fill:covers": "node scripts/fill-missing-covers.mjs",
     "generate:encyclopedia": "node scripts/generate-encyclopedia.mjs",
+    "repair:encyclopedia": "node scripts/repair-encyclopedia-facts.mjs",
     "enrich:albums": "node scripts/enrich-albums.mjs",
     "merge:enriched": "node scripts/merge-enriched.mjs",
     "enrich:full": "npm run enrich:albums && npm run merge:enriched",

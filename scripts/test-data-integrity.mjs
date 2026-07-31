@@ -77,6 +77,20 @@ for (const album of albums) {
     continue;
   }
 
+  if (!entry.artistInfo?.summary) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: missing artist reference`);
+  } else if (!entry.artistInfo.source?.url) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: artist reference is not source-backed`);
+  }
+  if (!entry.albumInfo?.summary) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: missing album reference`);
+  } else if (!entry.albumInfo.source?.url) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: album reference is not source-backed`);
+  }
+  if ((entry.sources ?? []).some((source) => !source?.url)) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: contains a source without a verifiable URL`);
+  }
+
   const trackTitles = (album.tracks ?? []).map((track) => track.title);
   const guideTitles = (entry.trackGuide ?? []).map((guide) => guide.trackTitle);
 
@@ -94,6 +108,93 @@ for (const album of albums) {
         (missingGuides.length ? `; missing guides: ${missingGuides.slice(0, 8).join(', ')}` : '') +
         (extraGuides.length ? `; extra guides: ${extraGuides.slice(0, 8).join(', ')}` : '')
     );
+  }
+}
+
+const hotelCalifornia = albums.find((album) => album.id === '116-eagles-hotel-california-9e650795');
+const hotelCaliforniaEntry = hotelCalifornia ? entries[hotelCalifornia.id] : null;
+try {
+  assert.ok(hotelCaliforniaEntry, 'Hotel California encyclopedia entry must exist');
+  assert.equal(
+    hotelCaliforniaEntry.artistInfo?.source?.url,
+    'https://en.wikipedia.org/wiki/Eagles_(band)',
+    'Hotel California must use the Eagles artist article'
+  );
+  assert.equal(
+    hotelCaliforniaEntry.albumInfo?.source?.url,
+    'https://en.wikipedia.org/wiki/Hotel_California_(album)',
+    'Hotel California must use its matching album article'
+  );
+  assert.ok(
+    hotelCaliforniaEntry.trackGuide.every((guide) => guide.source?.url || /static track metadata only/.test(guide.guide)),
+    'Hotel California guides must be source-backed or explicitly metadata-only'
+  );
+} catch (error) {
+  failures.push(error.message);
+}
+
+const pearlJamTen = albums.find((album) => album.id === '157-pearl-jam-ten-4e010abd');
+try {
+  assert.equal(
+    entries[pearlJamTen?.id]?.albumInfo?.source?.url,
+    'https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)',
+    'Pearl Jam — Ten must not resolve to a different Pearl Jam album'
+  );
+  assert.equal(pearlJamTen.appleCollectionId, null, 'Ten must not use the Live on Ten Legs Apple collection');
+  assert.equal(pearlJamTen.musicBrainzReleaseGroupId, 'cea5d18a-1924-3cda-bebc-38933834b25d');
+  assert.deepEqual(
+    pearlJamTen.tracks.map((track) => track.title),
+    ['Once', 'Even Flow', 'Alive', 'Why Go', 'Black', 'Jeremy', 'Oceans', 'Porch', 'Garden', 'Deep', 'Release / Master/Slave'],
+    'Ten must use its original studio-album sequence'
+  );
+} catch (error) {
+  failures.push(error.message);
+}
+
+const slimShady = albums.find((album) => album.id === '220-eminem-the-slim-shady-lp-e8c4b177');
+try {
+  assert.ok(slimShady, 'The Slim Shady LP must exist');
+  assert.equal(slimShady.appleCollectionId, null, 'The Slim Shady LP must not use The Marshall Mathers LP Apple collection');
+  assert.equal(slimShady.musicBrainzReleaseGroupId, 'be725de4-4633-3c8a-9a03-f2c4392b6e0d');
+  assert.equal(slimShady.tracks[0]?.title, 'Public Service Announcement');
+  assert.equal(slimShady.tracks[1]?.title, 'My Name Is');
+  assert.equal(slimShady.tracks.at(-1)?.title, 'Still Don’t Give a Fuck');
+  assert.equal(entries[slimShady.id]?.albumInfo?.source?.url, 'https://en.wikipedia.org/wiki/The_Slim_Shady_LP');
+} catch (error) {
+  failures.push(error.message);
+}
+
+const samCookeLive = albums.find((album) => album.id === '233-sam-cooke-live-at-the-harlem-square-club-f021bcc8');
+try {
+  assert.equal(samCookeLive?.year, 1985, 'Live at the Harlem Square Club must use its 1985 release year');
+} catch (error) {
+  failures.push(error.message);
+}
+
+const forbiddenSources = [
+  ['053-pink-floyd-the-dark-side-of-the-moon-c8bed536', 'Comfortably Numb'],
+  ['069-bob-marley-and-the-wailers-exodus-2395620b', 'Kaya (album)'],
+  ['152-jay-z-the-black-album-9747cc3a', 'The Grey Album'],
+  ['166-sonic-youth-daydream-nation-babbcc05', "Touch Me I'm Sick"]
+];
+for (const [albumId, sourceTitle] of forbiddenSources) {
+  if ((entries[albumId]?.sources ?? []).some((source) => source.title === sourceTitle)) {
+    failures.push(`${albumId}: unrelated source ${sourceTitle} must be removed`);
+  }
+}
+
+const repairedGuideChecks = [
+  ['017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087', 'See Me Now (feat. Beyoncé, Charlie Wilson & Big Sean) [Bonus Track]'],
+  ['029-the-beatles-the-beatles-white-album-29eb84d8', 'Long, Long, Long'],
+  ['052-james-brown-star-time-1d7aca32', 'Mother Popcorn (Pts.1 & 2)'],
+  ['107-new-order-substance-6d4ec0bb', '1963'],
+  ['127-pink-floyd-the-wall-504e3a21', 'Comfortably Numb'],
+  ['217-dixie-chicks-fly-b6577223', 'Sin Wagon']
+];
+for (const [albumId, trackTitle] of repairedGuideChecks) {
+  const guide = entries[albumId]?.trackGuide?.find((item) => item.trackTitle === trackTitle);
+  if (!guide || !/static track metadata only/.test(guide.guide)) {
+    failures.push(`${albumId}: ${trackTitle} must use the repaired metadata-only guide`);
   }
 }
 

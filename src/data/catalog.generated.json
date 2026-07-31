@@ -17983,140 +17983,92 @@
       "artist": "Pearl Jam",
       "year": 1991,
       "genre": "Rock",
-      "appleCollectionId": 412991821,
-      "appleCollectionUrl": "https://music.apple.com/us/album/live-on-ten-legs/412991821?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/79/20/11/mzi.njtszwnb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/live-on-ten-legs/412991821?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/cea5d18a-1924-3cda-bebc-38933834b25d",
       "coverPath": "/covers/157-pearl-jam-ten-4e010abd.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Arms Aloft (Live)",
-          "durationMs": 207693,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/47/85/f84785ea-5ded-63d1-9b6d-d8b8236b6385/mzaf_11229365885596786012.plus.aac.p.m4a"
+          "title": "Once",
+          "durationMs": 231893,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "World Wide Suicide (Live)",
-          "durationMs": 196173,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/e4/94/5ee494e7-d8b2-d72e-82b1-d49357af5ff5/mzaf_10563141889903494494.plus.aac.p.m4a"
+          "title": "Even Flow",
+          "durationMs": 293600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Animal (Live)",
-          "durationMs": 161840,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/87/2a/76872ad1-43fa-56bb-541c-553a64e8f3ad/mzaf_11313663973472308746.plus.aac.p.m4a"
+          "title": "Alive",
+          "durationMs": 341200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Got Some (Live)",
-          "durationMs": 177053,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a0/8e/6d/a08e6dae-492b-a09e-99c1-5a953379a1b1/mzaf_12165991807663976730.plus.aac.p.m4a"
+          "title": "Why Go",
+          "durationMs": 199906,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "State of Love and Trust (Live)",
-          "durationMs": 198067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/39/f9/9239f98e-f582-4126-7422-d728dac4b092/mzaf_16968549254442910484.plus.aac.p.m4a"
+          "title": "Black",
+          "durationMs": 343666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "I Am Mine (Live)",
-          "durationMs": 203387,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/06/8e/fa068ed2-a9f9-d8f5-866a-ca57a6a0015d/mzaf_13850890593859620946.plus.aac.p.m4a"
+          "title": "Jeremy",
+          "durationMs": 319360,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Unthought Known (Live)",
-          "durationMs": 235813,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/28/6a/c1286a6a-1a3d-2325-09d8-280604eea397/mzaf_16004268870618044148.plus.aac.p.m4a"
+          "title": "Oceans",
+          "durationMs": 161666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Rearview Mirror (Live)",
-          "durationMs": 420627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8d/82/41/8d8241cc-5b18-c0fc-70a4-296879b462e8/mzaf_3274192403053429808.plus.aac.p.m4a"
+          "title": "Porch",
+          "durationMs": 210533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "The Fixer (Live)",
-          "durationMs": 207747,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/79/3e/11/793e116a-7edf-04db-de26-9da9d8138b62/mzaf_16720233124790210767.plus.aac.p.m4a"
+          "title": "Garden",
+          "durationMs": 298973,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Nothing As It Seems (Live)",
-          "durationMs": 313547,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/c2/c9/cac2c905-f42e-0fee-9f5b-95fbd3bbcf5f/mzaf_720725184114082641.plus.aac.p.m4a"
+          "title": "Deep",
+          "durationMs": 258266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "In Hiding (Live)",
-          "durationMs": 292773,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/a6/f1/2ba6f19b-72c6-1baa-c7fa-53e0b5cb4a5c/mzaf_9267998334634354425.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Just Breathe (Live)",
-          "durationMs": 233360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/9f/07/679f070a-fb75-4803-d9d9-c83ea215edf5/mzaf_16882555671575753061.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Jeremy (Live)",
-          "durationMs": 319520,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/ed/b1/d0edb11a-a19b-b627-a231-dabf7e640f71/mzaf_12346153470940769583.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Public Image (Live)",
-          "durationMs": 172307,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/4a/24/fd4a2415-3181-be29-7535-fb21a61ce37f/mzaf_6525469111356817675.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Spin the Black Circle (Live)",
-          "durationMs": 185027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/0a/12/b60a12c6-0ad5-adb1-7d54-f78e0a293d71/mzaf_15116655683277753533.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Porch (Live)",
-          "durationMs": 420333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fc/1c/9a/fc1c9a49-77ce-e28a-5f1d-ec5b0c1c9b4f/mzaf_4067219770286634061.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Alive (Live)",
-          "durationMs": 381027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c4/b6/b6/c4b6b66e-f27b-7f67-9e35-58fd915aae1d/mzaf_13703740052475794758.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 18,
-          "title": "Yellow Ledbetter (Live)",
-          "durationMs": 320027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6e/43/9f/6e439fba-672a-362c-e371-01a768271903/mzaf_14162604267493124085.plus.aac.p.m4a"
+          "title": "Release / Master/Slave",
+          "durationMs": 546026,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "cea5d18a-1924-3cda-bebc-38933834b25d"
     },
     {
       "id": "158-crosby-stills-nash-and-young-deja-vu-2033c437",
@@ -25258,140 +25210,155 @@
       "artist": "Eminem",
       "year": 1999,
       "genre": "Hip-Hop/Rap",
-      "appleCollectionId": 1440906504,
-      "appleCollectionUrl": "https://music.apple.com/us/album/the-marshall-mathers-lp/1440906504?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ea/ac/03/eaac03e5-8e9d-847e-d5b9-af7dee6a970b/00606949063221.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/the-marshall-mathers-lp/1440906504?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/be725de4-4633-3c8a-9a03-f2c4392b6e0d",
       "coverPath": "/covers/220-eminem-the-slim-shady-lp-e8c4b177.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Public Service Announcement 2000",
-          "durationMs": 2000,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/15/d6/10/15d61059-217e-826d-07ae-2f43f40a0bff/mzaf_8634301395643586332.plus.aac.p.m4a"
+          "title": "Public Service Announcement",
+          "durationMs": 33240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Kill You",
-          "durationMs": 264360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/ba/04/6fba043c-079e-5ba2-1e21-fc0ae158fe71/mzaf_15636784183505676356.plus.aac.p.m4a"
+          "title": "My Name Is",
+          "durationMs": 268400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Stan (feat. Dido)",
-          "durationMs": 403360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/aa/ae/c2aaaea2-c5ef-a0ec-c30b-130874b7ff69/mzaf_15454681330126452032.plus.aac.p.m4a"
+          "title": "Guilty Conscience",
+          "durationMs": 199333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Paul (Skit)",
-          "durationMs": 10667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/51/f1/51/51f151a6-d628-281a-9164-2586d862f5ee/mzaf_8024447739508743486.plus.aac.p.m4a"
+          "title": "Brain Damage",
+          "durationMs": 226733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Who Knew",
-          "durationMs": 227667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f4/11/c3/f411c3e7-a072-b10b-59c4-be5a55ac7cea/mzaf_13016154226151006353.plus.aac.p.m4a"
+          "title": "Paul",
+          "durationMs": 15826,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Steve Berman",
-          "durationMs": 54427,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/78/23/59/78235997-6576-457f-caeb-a811843280f8/mzaf_8273008390908379196.plus.aac.p.m4a"
+          "title": "If I Had",
+          "durationMs": 245506,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "The Way I Am",
-          "durationMs": 290907,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/08/7a/a9087ab9-05d1-cf47-891d-f7f072097804/mzaf_6967737878656617854.plus.aac.p.m4a"
+          "title": "97’ Bonnie & Clyde",
+          "durationMs": 316400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "The Real Slim Shady",
-          "durationMs": 284480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/c1/96/8ac196b1-4625-687d-128a-65def786d913/mzaf_16661344742842651767.plus.aac.p.m4a"
+          "title": "Bitch",
+          "durationMs": 19693,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Remember Me? (feat. RBX & Sticky Fingaz)",
-          "durationMs": 218640,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d6/c4/39/d6c43944-e08c-4863-346c-767c34b873d7/mzaf_13551668985184154745.plus.aac.p.m4a"
+          "title": "Role Model",
+          "durationMs": 205400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "I'm Back",
-          "durationMs": 310053,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/16/38/c81638ed-4064-b021-9b47-633f83f07834/mzaf_12133865205145189771.plus.aac.p.m4a"
+          "title": "Lounge",
+          "durationMs": 46533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Marshall Mathers",
-          "durationMs": 320280,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/15/21/3e15210e-a536-dade-8969-7b1640e18a82/mzaf_2019628126954193758.plus.aac.p.m4a"
+          "title": "My Fault",
+          "durationMs": 241600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Ken Kaniff (Skit)",
-          "durationMs": 61813,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/d3/60/41d3602d-fc07-0e49-0325-bd49b960ffaf/mzaf_3093784017559236754.plus.aac.p.m4a"
+          "title": "Ken Kaniff",
+          "durationMs": 76306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Ballad",
-          "durationMs": 302853,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/08/93/a8/0893a863-7fa7-ff55-48ba-2578adf4ba5f/mzaf_6775554986854220089.plus.aac.p.m4a"
+          "title": "Cum on Everybody",
+          "durationMs": 219226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Amityville (feat. Bizarre)",
-          "durationMs": 241613,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1d/b3/58/1db358c0-a32b-21bd-c2f8-85e860e35742/mzaf_4797653847827387328.plus.aac.p.m4a"
+          "title": "Rock Bottom",
+          "durationMs": 214106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "Bitch Please II (feat. Dr. Dre, Snoop Dogg, Nate Dogg & Alvin Joiner)",
-          "durationMs": 290747,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/2b/fe/be2bfe5f-b97e-3bbd-566b-85cd1007a88f/mzaf_8600517905060946106.plus.aac.p.m4a"
+          "title": "Just Don’t Give a Fuck",
+          "durationMs": 242560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 16,
-          "title": "The Kids",
-          "durationMs": 303187,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/8d/10/df8d105d-549c-ba5c-4480-9c22a53fb105/mzaf_15602871103828598384.plus.aac.p.m4a"
+          "title": "Soap",
+          "durationMs": 34600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 17,
-          "title": "Under the Influence (feat. D12)",
-          "durationMs": 322267,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/66/f1/17/66f117ad-0dd1-cde7-0b82-edcb59a70945/mzaf_12449933164390358975.plus.aac.p.m4a"
+          "title": "As the World Turns",
+          "durationMs": 265333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 18,
-          "title": "Criminal",
-          "durationMs": 320547,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/3e/f5/553ef5e0-16c3-4f2c-80e2-ead0d7d5fd5c/mzaf_13810858623466498806.plus.aac.p.m4a"
+          "title": "I’m Shady",
+          "durationMs": 211973,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 19,
+          "title": "Bad Meets Evil",
+          "durationMs": 253066,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 20,
+          "title": "Still Don’t Give a Fuck",
+          "durationMs": 252693,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "be725de4-4633-3c8a-9a03-f2c4392b6e0d"
     },
     {
       "id": "221-de-la-soul-de-la-soul-is-dead-2c823ba2",
@@ -26690,7 +26657,7 @@
       "rank": 233,
       "title": "Live at the Harlem Square Club",
       "artist": "Sam Cooke",
-      "year": 1963,
+      "year": 1985,
       "genre": "R&B/Soul",
       "appleCollectionId": 304822401,
       "appleCollectionUrl": "https://music.apple.com/us/album/one-night-stand-live-at-the-harlem-square-club-1963/304822401?uo=4",

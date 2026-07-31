@@ -63,6 +63,10 @@ function scoreMatch(album, candidate) {
   return titleScore * 0.48 + artistScore * 0.42 + yearScore * 0.1;
 }
 
+const catalogYearOverrides = new Map([
+  ["Sam Cooke|Live at the Harlem Square Club", 1985]
+]);
+
 async function fetchJson(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
@@ -96,7 +100,11 @@ async function searchApple(album) {
     await sleep(Math.round(appleDelayMs / 3));
   }
   ranked.sort((a, b) => b.score - a.score);
-  return ranked[0]?.score >= 0.52 ? ranked[0] : null;
+  const best = ranked[0];
+  if (!best) return null;
+  // Prevent artist-only overlap from attaching a similarly named but
+  // different album, such as Ten -> Live on Ten Legs.
+  return best.score >= 0.52 && similarity(album.album, best.candidate.collectionName) >= 0.6 ? best : null;
 }
 
 async function lookupTracks(collectionId) {
@@ -217,7 +225,7 @@ async function main() {
       rank: sourceAlbum.number,
       title: sourceAlbum.album,
       artist: sourceAlbum.artist,
-      year: sourceAlbum.year,
+      year: catalogYearOverrides.get(`${sourceAlbum.artist}|${sourceAlbum.album}`) ?? sourceAlbum.year,
       genre: previous?.genre ?? null,
       appleCollectionId: previous?.appleCollectionId ?? null,
       appleCollectionUrl: previous?.appleCollectionUrl ?? null,

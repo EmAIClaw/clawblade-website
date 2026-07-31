@@ -10,10 +10,73 @@ const wikipediaDelayMs = Number(process.env.WIKIPEDIA_DELAY_MS ?? 90);
 const trackLookupLimit = Number(process.env.TRACK_LOOKUP_LIMIT ?? 99999);
 const albumLimit = Number(process.env.ENCYCLOPEDIA_ALBUM_LIMIT ?? 99999);
 const force = process.argv.includes("--force");
+const repairMissing = process.argv.includes("--repair-missing");
 const offline = process.argv.includes("--offline") || process.env.ALBUMVAULT_OFFLINE === "1";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const sourceCache = new Map();
+
+// Exact article titles for catalog names that Wikipedia search routinely
+// disambiguates to a non-music page. Keep this list narrow and verified.
+const artistArticleAliases = {
+  "Marvin Gaye": "Marvin Gaye",
+  "The Beach Boys": "The Beach Boys",
+  "Joni Mitchell": "Joni Mitchell",
+  "Prince and the Revolution": "The Revolution (band)",
+  Drake: "Drake (musician)",
+  "New Order": "New Order (band)",
+  Eagles: "Eagles (band)",
+  Queen: "Queen (band)",
+  Portishead: "Portishead (band)",
+  Pixies: "Pixies (band)",
+  Blondie: "Blondie (band)",
+  Pulp: "Pulp (band)",
+  Pavement: "Pavement (band)",
+  Sade: "Sade (band)",
+  TLC: "TLC (group)",
+  "Dixie Chicks": "The Chicks"
+};
+
+const albumArticleAliases = {
+  "001-marvin-gaye-what-s-going-on-fd00dde9": "What's Going On (Marvin Gaye album)",
+  "002-the-beach-boys-pet-sounds-eabcc325": "Pet Sounds",
+  "003-joni-mitchell-blue-9c3a8b85": "Blue (Joni Mitchell album)",
+  "025-carole-king-tapestry-b29b056b": "Tapestry (Carole King album)",
+  "028-d-angelo-voodoo-b6406009": "Voodoo (D'Angelo album)",
+  "038-frank-ocean-blonde-ef1630f4": "Blonde (Frank Ocean album)",
+  "069-bob-marley-and-the-wailers-exodus-2395620b": "Exodus (Bob Marley and the Wailers album)",
+  "070-neil-young-harvest-93a984b7": "Harvest (Neil Young album)",
+  "074-curtis-mayfield-superfly-510928e7": "Super Fly (soundtrack)",
+  "092-the-stooges-fun-house-9896fe5c": "Fun House (The Stooges album)",
+  "097-taylor-swift-red-6f0a0ed0": "Red (Taylor Swift album)",
+  "107-new-order-substance-6d4ec0bb": "Substance 1987",
+  "114-the-cure-disintegration-6776240e": "Disintegration (The Cure album)",
+  "124-mary-j-blige-my-life-da7feba0": "My Life (Mary J. Blige album)",
+  "126-queen-a-night-at-the-opera-2045d295": "A Night at the Opera (Queen album)",
+  "130-hank-williams-40-greatest-hits-89cb7a38": "40 Greatest Hits (Hank Williams album)",
+  "135-adele-21-c2972a58": "21 (Adele album)",
+  "144-jeff-buckley-grace-40adc563": "Grace (Jeff Buckley album)",
+  "148-george-michael-faith-e774a01a": "Faith (George Michael album)",
+  "152-jay-z-the-black-album-9747cc3a": "The Black Album (Jay-Z album)",
+  "153-the-replacements-let-it-be-6ba5cb14": "Let It Be (The Replacements album)",
+  "156-the-police-synchronicity-e8507abf": "Synchronicity (The Police album)",
+  "157-pearl-jam-ten-4e010abd": "Ten (Pearl Jam album)",
+  "158-crosby-stills-nash-and-young-deja-vu-2033c437": "Déjà Vu (Crosby, Stills, Nash & Young album)",
+  "161-buddy-holly-20-golden-greats-83b1a203": "20 Golden Greats (Buddy Holly & The Crickets album)",
+  "169-jimmy-cliff-the-harder-they-come-14dcb1c3": "The Harder They Come (soundtrack)",
+  "173-otis-redding-otis-blue-26f8fa66": "Otis Blue/Otis Redding Sings Soul",
+  "176-bob-dylan-bring-it-all-back-home-aa529df8": "Bringing It All Back Home",
+  "178-d-angelo-brown-sugar-494ed407": "Brown Sugar (D'Angelo album)",
+  "184-the-who-tommy-b4a199d7": "Tommy (The Who album)",
+  "190-robyn-body-talk-7b7f26d0": "Body Talk (Robyn album)",
+  "208-tom-petty-wildflowers-8b43694b": "Wildflowers (Tom Petty album)",
+  "216-john-lennon-imagine-4759bad6": "Imagine (John Lennon album)",
+  "217-dixie-chicks-fly-b6577223": "Fly (Dixie Chicks album)",
+  "222-patsy-cline-showcase-830924eb": "Showcase (Patsy Cline album)",
+  "229-daft-punk-discovery-c80db397": "Discovery (Daft Punk album)",
+  "230-willie-nelson-stardust-aa298a2b": "Stardust (Willie Nelson album)",
+  "235-the-velvet-underground-loaded-c69903c2": "Loaded (The Velvet Underground album)"
+};
 
 function normalizeText(value) {
   return String(value ?? "")
@@ -155,6 +218,8 @@ function scoreTrackResult(album, track, page) {
 }
 
 async function albumSource(album) {
+  const exactArticle = albumArticleAliases[album.id];
+  if (exactArticle) return wikipediaSummary(exactArticle, 1);
   const pages = await wikipediaSearch(`${album.title} ${album.artist} album`, `album:${album.id}`);
   const ranked = pages.map((page) => ({ page, score: scoreAlbumResult(album, page) })).sort((a, b) => b.score - a.score);
   const best = ranked[0];
@@ -163,6 +228,8 @@ async function albumSource(album) {
 }
 
 async function artistSource(artist) {
+  const exactArticle = artistArticleAliases[artist];
+  if (exactArticle) return wikipediaSummary(exactArticle, 1);
   const pages = await wikipediaSearch(`${artist}`, `artist:${normalizeText(artist)}`);
   const ranked = pages.map((page) => ({ page, score: scoreArtistResult(artist, page) })).sort((a, b) => b.score - a.score);
   const best = ranked[0];
@@ -281,23 +348,74 @@ async function main() {
 
   let processedThisRun = 0;
   for (const album of catalog.albums) {
-    if (!force && entries[album.id]?.artistInfo !== undefined && entries[album.id]?.albumInfo !== undefined) {
+    const currentEntry = existing.entries?.[album.id];
+    const hasCompleteReference = Boolean(currentEntry?.artistInfo && currentEntry?.albumInfo);
+    if (!force && currentEntry && (!repairMissing || hasCompleteReference)) {
       continue;
     }
     if (processedThisRun >= albumLimit) break;
 
     try {
-      let artistSourceValue = artistSources[album.artist];
-      if (artistSourceValue === undefined) {
+      let artistSourceValue = currentEntry?.artistInfo?.source ?? artistSources[album.artist];
+      if (!currentEntry?.artistInfo && artistSourceValue === undefined) {
         artistSourceValue = await artistSource(album.artist);
         artistSources[album.artist] = artistSourceValue;
         if (artistSourceValue) report.artistSourceMatches += 1;
         else report.unmatchedArtistSources.push(album.artist);
       }
 
-      const albumSourceValue = await albumSource(album);
-      if (albumSourceValue) report.albumSourceMatches += 1;
-      else report.unmatchedAlbumSources.push({ albumId: album.id, title: album.title, artist: album.artist });
+      let albumSourceValue = currentEntry?.albumInfo?.source ?? null;
+      if (!currentEntry?.albumInfo) {
+        albumSourceValue = await albumSource(album);
+        if (albumSourceValue) report.albumSourceMatches += 1;
+        else report.unmatchedAlbumSources.push({ albumId: album.id, title: album.title, artist: album.artist });
+      }
+
+      if (repairMissing) {
+        const nextArtistInfo = currentEntry?.artistInfo ?? (artistSourceValue
+          ? { summary: artistSourceValue.summary, source: artistSourceValue }
+          : null);
+        const nextAlbumInfo = currentEntry?.albumInfo ?? (albumSourceValue
+          ? { summary: albumSourceValue.summary, source: albumSourceValue }
+          : null);
+        const sources = [
+          ...(currentEntry?.sources ?? []),
+          artistSourceValue,
+          albumSourceValue
+        ].filter(Boolean);
+        const dedupedSources = Array.from(
+          new Map(sources.map((source) => [source.url || `${source.label}:${source.title}`, source])).values()
+        );
+        const nextListeningNotes = (currentEntry?.listeningNotes ?? listeningNotes(album, albumSourceValue, artistSourceValue, 0))
+          .map((note) => !currentEntry?.artistInfo && /^No confident artist source was matched/.test(note)
+            ? `Start with the artist context from ${artistSourceValue.title}; listen for how this album fits or breaks from that wider story.`
+            : note)
+          .map((note) => !currentEntry?.albumInfo && /^No confident album source was matched/.test(note)
+            ? `Read the album summary from ${albumSourceValue.title}, then identify one audible detail that connects to the sourced context.`
+            : note);
+        entries[album.id] = {
+          ...currentEntry,
+          albumId: album.id,
+          artistInfo: nextArtistInfo,
+          albumInfo: nextAlbumInfo,
+          context: currentEntry?.albumInfo ? currentEntry.context : context(album, albumSourceValue),
+          relevance: relevance(
+            album,
+            nextArtistInfo?.source ?? null,
+            nextAlbumInfo?.source ?? null,
+            (currentEntry?.trackGuide ?? []).filter((guide) => guide.source).length
+          ),
+          listeningNotes: nextListeningNotes,
+          trackGuide: currentEntry?.trackGuide ?? (album.tracks.length ? trackGuide(album, {}) : []),
+          themes: currentEntry?.themes ?? themes(album, artistSourceValue, albumSourceValue, 0),
+          sources: dedupedSources
+        };
+        report.generated += 1;
+        processedThisRun += 1;
+        await writeFile(outputPath, `${JSON.stringify({ metadata: report, entries }, null, 2)}\n`);
+        await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
+        continue;
+      }
 
       const trackSources = {};
       for (const guide of existing.entries?.[album.id]?.trackGuide ?? []) {
@@ -353,17 +471,19 @@ async function main() {
       report.generated += 1;
       processedThisRun += 1;
     } catch (error) {
-      entries[album.id] = {
-        albumId: album.id,
-        artistInfo: null,
-        albumInfo: null,
-        context: context(album, null),
-        relevance: relevance(album, null, null, 0),
-        listeningNotes: listeningNotes(album, null, null, 0),
-        trackGuide: album.tracks.length ? trackGuide(album, {}) : [],
-        themes: themes(album, null, null, 0),
-        sources: []
-      };
+      entries[album.id] = repairMissing && currentEntry
+        ? currentEntry
+        : {
+            albumId: album.id,
+            artistInfo: null,
+            albumInfo: null,
+            context: context(album, null),
+            relevance: relevance(album, null, null, 0),
+            listeningNotes: listeningNotes(album, null, null, 0),
+            trackGuide: album.tracks.length ? trackGuide(album, {}) : [],
+            themes: themes(album, null, null, 0),
+            sources: []
+          };
       report.errors.push({
         albumId: album.id,
         title: album.title,
