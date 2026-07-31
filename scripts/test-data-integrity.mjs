@@ -88,10 +88,13 @@ for (const album of albums) {
     failures.push(`#${album.rank} ${album.artist} — ${album.title}: album reference is not source-backed`);
   }
   if ((entry.sources ?? []).some((source) => !source?.url)) {
-    failures.push(`#${album.rank} ${album.artist} — ${album.title}: contains a source without a verifiable URL`);
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: contains a source record without a URL`);
+  }
+  if (!entry.relevance?.includes(`${album.tracks.length} catalog tracks`)) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: stale catalogue track count in relevance summary`);
   }
 
-  const trackTitles = (album.tracks ?? []).map((track) => track.title);
+  const trackTitles = album.tracks.map((track) => track.title);
   const guideTitles = (entry.trackGuide ?? []).map((guide) => guide.trackTitle);
 
   try {

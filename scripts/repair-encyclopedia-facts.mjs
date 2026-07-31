@@ -98,11 +98,16 @@ for (const album of catalog.albums) {
   if (!entry) continue;
   const deniedSources = unrelatedSourceTitles.get(album.id) ?? new Set();
   entry.sources = (entry.sources ?? []).filter((source) => source?.url && !deniedSources.has(source.title));
-  if (entry.relevance) {
-    entry.relevance = entry.relevance.replace(/listed year \d{4}/i, `listed year ${album.year}`);
-  }
-  const currentAlbumSource = entry.albumInfo?.source;
-  if (entry.albumInfo && !currentAlbumSource?.url) {
+  const sourceBackedGuideCount = (entry.trackGuide ?? []).filter((guide) => guide.source?.url).length;
+  entry.relevance = [
+    `AlbumVault ranks it #${album.rank}.`,
+    `${album.genre ?? 'Genre not cataloged'}; ${album.tracks.length} catalog tracks; listed year ${album.year}.`,
+    `Artist source: ${entry.artistInfo?.source?.title ?? 'not available'}.`,
+    `Album source: ${entry.albumInfo?.source?.title ?? 'not available'}.`,
+    `Track-specific source summaries: ${sourceBackedGuideCount}.`,
+  ].join(' ');
+  const currentAlbumSourceUrl = entry.albumInfo?.source?.url;
+  if (entry.albumInfo && !currentAlbumSourceUrl) {
     const exactAlbumSource = (entry.sources ?? []).find((source) => {
       const description = String(source?.description ?? '').toLowerCase();
       return source?.label === 'Wikipedia'
@@ -158,7 +163,7 @@ hotelEntry.albumInfo = {
   source: hotelAlbumSource
 };
 hotelEntry.context = hotelAlbumSource.summary;
-hotelEntry.relevance = `AlbumVault ranks it #${hotel.rank}. ${hotel.genre}; ${hotel.tracks.length} Apple-derived tracks; listed year ${hotel.year}. Artist source: ${hotelEntry.artistInfo.source.title}. Album source: ${hotelAlbumSource.title}. Track-specific source summaries: ${hotelTrackSources.size}.`;
+hotelEntry.relevance = `AlbumVault ranks it #${hotel.rank}. ${hotel.genre}; ${hotel.tracks.length} catalog tracks; listed year ${hotel.year}. Artist source: ${hotelEntry.artistInfo.source.title}. Album source: ${hotelAlbumSource.title}. Track-specific source summaries: ${hotelTrackSources.size}.`;
 hotelEntry.listeningNotes = [
   `Start with the artist context from ${hotelEntry.artistInfo.source.title}; listen for how this album fits or breaks from that wider story.`,
   `Read the album summary from ${hotelAlbumSource.title}, then identify one audible detail that connects to the sourced context.`,
