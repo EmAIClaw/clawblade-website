@@ -52,6 +52,7 @@ assert.equal(limiter('5.6.7.8'), true, 'different IP has independent bucket');
 
 const appSource = readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8');
 const spotifyFunctionSource = readFileSync(new URL('../netlify/functions/spotify.ts', import.meta.url), 'utf8');
+const gymStateFunctionSource = readFileSync(new URL('../netlify/functions/gym-state.ts', import.meta.url), 'utf8');
 const fixMissingTracksSource = readFileSync(new URL('../scripts/fix-missing-tracks.mjs', import.meta.url), 'utf8');
 assert.doesNotMatch(appSource, /localStorage\.setItem\(['"]albumvault-spotify['"]/, 'Spotify tokens must not be persisted to localStorage');
 assert.doesNotMatch(appSource, /refreshToken:\s*spotifyToken\.refreshToken/, 'client must not persist refresh tokens');
@@ -60,5 +61,9 @@ assert.doesNotMatch(fixMissingTracksSource, /ranked\.length/, 'fix-missing-track
 assert.match(appSource, /spotifyCache\.current\.get\(cachedKey\)[\s\S]{0,400}setSpotifyResult/, 'Spotify album cache hits must restore spotifyResult state');
 assert.doesNotMatch(appSource, /<Heart size=\{16\} \/> Want/, 'Collection rows must combine owned and want into one status button');
 assert.doesNotMatch(spotifyFunctionSource, /const corsHeaders =[\s\S]*cache-control['"]:\s*['"]max-age=3600['"]/m, 'Spotify search must not share success cache-control with error responses');
+assert.match(gymStateFunctionSource, /process\.env\.GYM_TRACKER_PASSCODE/, 'Gym cloud state must require a server-side passcode');
+assert.match(gymStateFunctionSource, /allowAuthAttempt\(getClientIp\(request\)\)/, 'Gym cloud state must rate-limit failed passcode attempts');
+assert.match(gymStateFunctionSource, /maxBodyBytes = 2_000_000/, 'Gym cloud state must bound backup payload size');
+assert.doesNotMatch(gymStateFunctionSource, /access-control-allow-origin['"]:\s*['"]\*/, 'Gym cloud state must not allow wildcard CORS');
 
 console.log('security tests passed');

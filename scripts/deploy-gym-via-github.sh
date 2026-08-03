@@ -78,8 +78,8 @@ print('bundle invariants passed')
 PY
 
 # Do not accidentally sweep unrelated edits into the deployment commit.
-require_clean_except "$HOST_REPO" '^(dist-gym/|netlify\.toml|scripts/build-gym-tracker\.sh|scripts/deploy-gym-via-github\.sh|package\.json)$'
-commit_if_needed "$HOST_REPO" "$HOST_MESSAGE" dist-gym netlify.toml scripts/build-gym-tracker.sh scripts/deploy-gym-via-github.sh package.json
+require_clean_except "$HOST_REPO" '^(dist-gym/.*|netlify\.toml|netlify/functions/gym-state\.ts|scripts/(build-gym-tracker\.sh|deploy-gym-via-github\.sh|test-security\.mjs)|package\.json)$'
+commit_if_needed "$HOST_REPO" "$HOST_MESSAGE" dist-gym netlify.toml netlify/functions/gym-state.ts scripts/build-gym-tracker.sh scripts/deploy-gym-via-github.sh scripts/test-security.mjs package.json
 
 git -C "$HOST_REPO" push origin "$(git -C "$HOST_REPO" branch --show-current)"
 

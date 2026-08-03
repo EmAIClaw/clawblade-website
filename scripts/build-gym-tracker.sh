@@ -32,7 +32,7 @@ fi
 
 cd "$GYM_DIR"
 echo "Installing dependencies..."
-npm install --prefer-offline 2>&1 | tail -3
+npm ci --prefer-offline 2>&1 | tail -3
 
 echo "Building with expo export..."
 npx expo export --platform web 2>&1 | tail -5
