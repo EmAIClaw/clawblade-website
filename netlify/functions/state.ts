@@ -1,7 +1,13 @@
 import { getStore } from "@netlify/blobs";
 import type { VaultState } from "../../src/types";
 import { normalizeVaultState } from "../../src/vaultState";
-import { allowedCorsOrigin, createRateLimiter, getClientIp } from "./security";
+import {
+  allowedCorsOrigin,
+  createRateLimiter,
+  getClientIp,
+  PayloadTooLargeError,
+  readLimitedText
+} from "./security";
 
 const baseHeaders = {
   "access-control-allow-methods": "GET,PUT,OPTIONS",
@@ -14,12 +20,13 @@ const maxBodyBytes = 1_000_000;
 const allowAuthAttempt = createRateLimiter({ maxAttempts: 10, windowMs: 60_000 });
 
 function headersFor(request: Request) {
+  const allowedOrigin = allowedCorsOrigin(
+    request.headers.get("origin"),
+    process.env.ALBUMVAULT_ALLOWED_ORIGIN
+  );
   return {
     ...baseHeaders,
-    "access-control-allow-origin": allowedCorsOrigin(
-      request.headers.get("origin"),
-      process.env.ALBUMVAULT_ALLOWED_ORIGIN
-    ),
+    ...(allowedOrigin ? { "access-control-allow-origin": allowedOrigin } : {}),
     vary: "Origin"
   };
 }
@@ -51,11 +58,7 @@ function json(request: Request, body: unknown, init: ResponseInit = {}) {
 }
 
 async function readLimitedJson(request: Request) {
-  const text = await request.text();
-  if (new TextEncoder().encode(text).byteLength > maxBodyBytes) {
-    throw new Error("payload-too-large");
-  }
-  return JSON.parse(text);
+  return JSON.parse(await readLimitedText(request, maxBodyBytes));
 }
 
 export default async function handler(request: Request) {
@@ -85,7 +88,7 @@ export default async function handler(request: Request) {
       next = normalizeVaultState(await readLimitedJson(request));
       next.updatedAt = new Date().toISOString();
     } catch (error) {
-      if (error instanceof Error && error.message === "payload-too-large") {
+      if (error instanceof PayloadTooLargeError) {
         return json(request, { error: "Payload too large" }, { status: 413 });
       }
       return json(request, { error: "Invalid vault state payload" }, { status: 400 });

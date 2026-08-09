@@ -13,7 +13,11 @@
  *   Returns track URI, album URI, and external Spotify URL (or error).
  */
 
-import { allowedCorsOrigin } from "./security";
+import {
+  allowedCorsOrigin,
+  createRateLimiter,
+  getClientIp
+} from "./security";
 
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
 const SPOTIFY_SEARCH_URL = "https://api.spotify.com/v1/search";
@@ -21,6 +25,8 @@ const SPOTIFY_SEARCH_URL = "https://api.spotify.com/v1/search";
 // Cache token across warm invocations
 let cachedToken: string | null = null;
 let tokenExpiresAt = 0;
+const allowSearch = createRateLimiter({ maxAttempts: 120, windowMs: 60_000 });
+const maxQueryLength = 300;
 
 class SpotifyNotConfiguredError extends Error {}
 
@@ -42,7 +48,8 @@ async function getAccessToken(): Promise<string> {
       "Content-Type": "application/x-www-form-urlencoded",
       Authorization: `Basic ${btoa(`${clientId}:${clientSecret}`)}`
     },
-    body: "grant_type=client_credentials"
+    body: "grant_type=client_credentials",
+    signal: AbortSignal.timeout(10_000)
   });
 
   if (!response.ok) {
@@ -96,7 +103,8 @@ async function searchSpotify(query: string): Promise<SpotifySearchResult> {
     });
 
     const response = await fetch(`${SPOTIFY_SEARCH_URL}?${params}`, {
-      headers: { Authorization: `Bearer ${token}` }
+      headers: { Authorization: `Bearer ${token}` },
+      signal: AbortSignal.timeout(10_000)
     });
 
     if (!response.ok) {
@@ -152,7 +160,7 @@ async function searchSpotify(query: string): Promise<SpotifySearchResult> {
     return {
       ...notConfigured(),
       configured: true,
-      error: error instanceof Error ? error.message : "Spotify search failed"
+      error: "Spotify search temporarily unavailable"
     };
   }
 }
@@ -174,12 +182,13 @@ function responseHeaders(
 }
 
 export default async function handler(request: Request) {
+  const allowedOrigin = allowedCorsOrigin(
+    request.headers.get("origin"),
+    process.env.ALBUMVAULT_ALLOWED_ORIGIN
+  );
   const baseHeaders: Record<string, string> = {
     ...corsHeaders,
-    "access-control-allow-origin": allowedCorsOrigin(
-      request.headers.get("origin"),
-      process.env.ALBUMVAULT_ALLOWED_ORIGIN
-    ),
+    ...(allowedOrigin ? { "access-control-allow-origin": allowedOrigin } : {}),
     vary: "Origin"
   };
 
@@ -198,11 +207,28 @@ export default async function handler(request: Request) {
   }
 
   const url = new URL(request.url);
-  const query = url.searchParams.get("q");
+  const query = url.searchParams.get("q")?.trim();
   if (!query) {
     return new Response(JSON.stringify({ error: "Missing 'q' parameter", ...notConfigured() }), {
       status: 400,
       headers: responseHeaders(baseHeaders, "no-store")
+    });
+  }
+
+  if (query.length > maxQueryLength) {
+    return new Response(JSON.stringify({ error: "Query is too long", ...notConfigured() }), {
+      status: 400,
+      headers: responseHeaders(baseHeaders, "no-store")
+    });
+  }
+
+  if (!allowSearch(getClientIp(request))) {
+    return new Response(JSON.stringify({ error: "Too many Spotify searches", ...notConfigured() }), {
+      status: 429,
+      headers: {
+        ...responseHeaders(baseHeaders, "no-store"),
+        "retry-after": "60"
+      }
     });
   }
 

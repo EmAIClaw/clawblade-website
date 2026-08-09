@@ -1,6 +1,12 @@
 import { getStore } from '@netlify/blobs';
 
-import { allowedCorsOrigin, createRateLimiter, getClientIp } from './security';
+import {
+  allowedCorsOrigin,
+  createRateLimiter,
+  getClientIp,
+  PayloadTooLargeError,
+  readLimitedText,
+} from './security';
 
 const maxBodyBytes = 2_000_000;
 const allowAuthAttempt = createRateLimiter({ maxAttempts: 10, windowMs: 60_000 });
@@ -11,13 +17,14 @@ type StoredBackup = {
 };
 
 function headersFor(request: Request) {
+  const allowedOrigin = allowedCorsOrigin(
+    request.headers.get('origin'),
+    process.env.ALBUMVAULT_ALLOWED_ORIGIN,
+  );
   return {
     'access-control-allow-methods': 'GET,PUT,OPTIONS',
     'access-control-allow-headers': 'content-type,x-gym-tracker-passcode',
-    'access-control-allow-origin': allowedCorsOrigin(
-      request.headers.get('origin'),
-      process.env.ALBUMVAULT_ALLOWED_ORIGIN,
-    ),
+    ...(allowedOrigin ? { 'access-control-allow-origin': allowedOrigin } : {}),
     'cache-control': 'no-store',
     'content-type': 'application/json',
     vary: 'Origin',
@@ -67,8 +74,11 @@ export default async function handler(request: Request) {
   }
 
   if (request.method === 'PUT') {
-    const text = await request.text();
-    if (new TextEncoder().encode(text).byteLength > maxBodyBytes) {
+    let text: string;
+    try {
+      text = await readLimitedText(request, maxBodyBytes);
+    } catch (error) {
+      if (!(error instanceof PayloadTooLargeError)) throw error;
       return json(request, { error: 'Backup payload is too large.' }, { status: 413 });
     }
 
