@@ -63,7 +63,9 @@ export type AlbumState = {
   rating?: number;
   condition?: "Mint" | "Near Mint" | "Very Good" | "Good" | "Fair" | "";
   shelfLocation?: string;
+  editionNote?: string;
   notes?: string;
+  whyItMatters?: string;
   listenCount?: number;
   lastListened?: string;
 };
@@ -84,5 +86,5 @@ export type VaultState = {
 };
 
 export type Sort = "rank" | "title" | "artist" | "year" | "genre" | "rating";
-export type ViewMode = "list" | "grid";
+export type ViewMode = "list" | "grid" | "shelf";
 export type View = "dashboard" | "collection" | "album" | "insights" | "log";

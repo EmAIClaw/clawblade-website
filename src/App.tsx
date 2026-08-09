@@ -18,15 +18,18 @@ import {
   Library,
   ListMusic,
   Lock,
+  Maximize2,
   Music,
   Pause,
   Play,
+  RotateCcw,
   Search,
   Shuffle,
   Star,
   TrendingUp,
   Upload,
-  Wand2
+  Wand2,
+  X
 } from "lucide-react";
 import {
   ChangeEvent,
@@ -36,7 +39,6 @@ import {
   useState
 } from "react";
 import catalogData from "./data/catalog.generated.json";
-import encyclopediaData from "./data/encyclopedia.generated.json";
 import type {
   Album,
   AlbumState,
@@ -53,14 +55,35 @@ import {
   albumVisualReferenceOptions,
   youtubeAlbumSearchUrl
 } from "./listeningEnhancements";
+import { buildCollectionStory } from "./tasteIntelligence";
 import { normalizeVaultState, safeParseVaultState } from "./vaultState";
 
 const albums = catalogData.albums as Album[];
-const encyclopedia = encyclopediaData.entries as Record<
-  string,
-  EncyclopediaEntry
->;
 const catalogTotal = catalogData.metadata.recordCount;
+const maxBackupBytes = 1_000_000;
+let spotifySdkPromise: Promise<void> | null = null;
+let encyclopediaEntriesCache: Record<string, EncyclopediaEntry> | null = null;
+let encyclopediaEntriesPromise: Promise<Record<string, EncyclopediaEntry>> | null = null;
+
+function loadEncyclopediaEntries() {
+  if (encyclopediaEntriesCache) return Promise.resolve(encyclopediaEntriesCache);
+  if (encyclopediaEntriesPromise) return encyclopediaEntriesPromise;
+
+  encyclopediaEntriesPromise = import("./data/encyclopedia.generated.json")
+    .then((module) => {
+      encyclopediaEntriesCache = module.default.entries as Record<
+        string,
+        EncyclopediaEntry
+      >;
+      return encyclopediaEntriesCache;
+    })
+    .catch((error) => {
+      encyclopediaEntriesPromise = null;
+      throw error;
+    });
+
+  return encyclopediaEntriesPromise;
+}
 
 function trackKey(track: { discNumber: number; trackNumber: number; title: string }) {
   return `${track.discNumber}:${track.trackNumber}:${track.title}`;
@@ -76,21 +99,32 @@ type PlaybackState = {
   paused: boolean;
 } | null;
 
+type CloudOperation = "load" | "save";
+type EncyclopediaLoadStatus = "loading" | "ready" | "error";
+type EncyclopediaLoadState = {
+  albumId: string | null;
+  status: EncyclopediaLoadStatus;
+  entry?: EncyclopediaEntry;
+};
+
 const listeningJourneys = [
   {
     title: "Studio-as-instrument",
     description: "Production breakthroughs, sonic architecture, and records that reward headphones.",
-    themes: ["Studio-as-instrument", "Production Innovation", "Experimental"]
+    albumIds: ["053-pink-floyd-the-dark-side-of-the-moon-c8bed536"]
   },
   {
     title: "Pressure, politics, and protest",
     description: "Albums that turn social conflict into musical force.",
-    themes: ["Social Consciousness", "War and conflict", "Political", "Civil Rights"]
+    albumIds: [
+      "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "053-pink-floyd-the-dark-side-of-the-moon-c8bed536"
+    ]
   },
   {
     title: "After-dark introspection",
     description: "Quiet, strange, emotionally precise records for uninterrupted night listening.",
-    themes: ["Time and mortality", "Mental illness and madness", "Introspection", "Melancholy"]
+    albumIds: ["053-pink-floyd-the-dark-side-of-the-moon-c8bed536"]
   }
 ];
 
@@ -116,6 +150,37 @@ function todayIso() {
   return new Date().toISOString();
 }
 
+type BrowserStorageName = "localStorage" | "sessionStorage";
+
+function readBrowserStorage(storageName: BrowserStorageName, key: string) {
+  try {
+    return window[storageName].getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function writeBrowserStorage(
+  storageName: BrowserStorageName,
+  key: string,
+  value: string
+) {
+  try {
+    window[storageName].setItem(key, value);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function removeBrowserStorage(storageName: BrowserStorageName, key: string) {
+  try {
+    window[storageName].removeItem(key);
+  } catch {
+    // Storage can be unavailable in privacy-restricted browser contexts.
+  }
+}
+
 // --- Spotify PKCE OAuth helpers ---
 
 const SPOTIFY_CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID ?? "";
@@ -139,11 +204,15 @@ async function getSpotifyOAuthConfig() {
   return { clientId: config.client_id as string, redirectUri: config.redirect_uri as string };
 }
 
-function generateCodeVerifier(): string {
-  const array = new Uint8Array(64);
+function randomUrlSafeValue(byteLength: number) {
+  const array = new Uint8Array(byteLength);
   crypto.getRandomValues(array);
   return btoa(String.fromCharCode(...array))
     .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function generateCodeVerifier(): string {
+  return randomUrlSafeValue(64);
 }
 
 async function generateCodeChallenge(verifier: string): Promise<string> {
@@ -153,20 +222,37 @@ async function generateCodeChallenge(verifier: string): Promise<string> {
 }
 
 function persistVaultState(next: VaultState) {
-  try {
-    localStorage.setItem("albumvault-state", JSON.stringify(next));
-  } catch {
+  if (!writeBrowserStorage("localStorage", "albumvault-state", JSON.stringify(next))) {
     console.warn("AlbumVault: local vault persistence failed");
   }
 }
 
+function loadSpotifySdk() {
+  if ((window as any).Spotify) return Promise.resolve();
+  if (spotifySdkPromise) return spotifySdkPromise;
+
+  spotifySdkPromise = new Promise<void>((resolve, reject) => {
+    (window as any).onSpotifyWebPlaybackSDKReady = resolve;
+    const script = document.createElement("script");
+    script.src = "https://sdk.scdn.co/spotify-player.js";
+    script.async = true;
+    script.addEventListener("error", () => {
+      spotifySdkPromise = null;
+      reject(new Error("Spotify SDK failed to load"));
+    }, { once: true });
+    document.head.appendChild(script);
+  });
+
+  return spotifySdkPromise;
+}
+
 function useVaultState() {
   const [state, setState] = useState<VaultState>(() => {
-    const stored = localStorage.getItem("albumvault-state");
+    const stored = readBrowserStorage("localStorage", "albumvault-state");
     return stored ? safeParseVaultState(stored) ?? blankState() : blankState();
   });
   const [passcode, setPasscode] = useState(
-    () => sessionStorage.getItem("albumvault-passcode") ?? ""
+    () => readBrowserStorage("sessionStorage", "albumvault-passcode") ?? ""
   );
   const [cloudStatus, setCloudStatus] = useState<
     "idle" | "loading" | "saved" | "error"
@@ -174,16 +260,38 @@ function useVaultState() {
   const [cloudMessage, setCloudMessage] = useState(
     "Local browser backup active."
   );
+  const [cloudOperation, setCloudOperation] = useState<CloudOperation | null>(null);
+  const [lastFailedCloudOperation, setLastFailedCloudOperation] =
+    useState<CloudOperation | null>(null);
+  const cloudOperationRef = useRef<CloudOperation | null>(null);
 
   useEffect(() => {
     persistVaultState(state);
   }, [state]);
 
   useEffect(() => {
-    localStorage.removeItem("albumvault-passcode");
-    if (passcode) sessionStorage.setItem("albumvault-passcode", passcode);
-    else sessionStorage.removeItem("albumvault-passcode");
+    removeBrowserStorage("localStorage", "albumvault-passcode");
+    if (passcode) {
+      writeBrowserStorage("sessionStorage", "albumvault-passcode", passcode);
+    } else {
+      removeBrowserStorage("sessionStorage", "albumvault-passcode");
+    }
   }, [passcode]);
+
+  function beginCloudOperation(operation: CloudOperation) {
+    if (cloudOperationRef.current) return false;
+    cloudOperationRef.current = operation;
+    setCloudOperation(operation);
+    setLastFailedCloudOperation(null);
+    setCloudStatus("loading");
+    setCloudMessage(operation === "load" ? "Loading cloud vault…" : "Saving vault to cloud…");
+    return true;
+  }
+
+  function finishCloudOperation() {
+    cloudOperationRef.current = null;
+    setCloudOperation(null);
+  }
 
   async function loadCloud() {
     if (!passcode) {
@@ -191,7 +299,7 @@ function useVaultState() {
       setCloudMessage("Enter your passcode before syncing.");
       return;
     }
-    setCloudStatus("loading");
+    if (!beginCloudOperation("load")) return;
     try {
       const response = await fetch("/.netlify/functions/state", {
         headers: { "x-albumvault-passcode": passcode }
@@ -200,12 +308,16 @@ function useVaultState() {
       const remote = normalizeVaultState(await response.json());
       setState(remote);
       setCloudStatus("saved");
-      setCloudMessage("Loaded from Netlify cloud.");
+      setCloudMessage("Cloud vault loaded.");
     } catch (error) {
+      const detail = error instanceof Error && error.message.trim()
+        ? `: ${error.message.trim()}`
+        : "";
       setCloudStatus("error");
-      setCloudMessage(
-        error instanceof Error ? error.message : "Cloud load failed."
-      );
+      setLastFailedCloudOperation("load");
+      setCloudMessage(`Cloud load failed${detail}. Your local vault is unchanged.`);
+    } finally {
+      finishCloudOperation();
     }
   }
 
@@ -215,7 +327,7 @@ function useVaultState() {
       setCloudMessage("Enter your passcode before syncing.");
       return;
     }
-    setCloudStatus("loading");
+    if (!beginCloudOperation("save")) return;
     try {
       const response = await fetch("/.netlify/functions/state", {
         method: "PUT",
@@ -227,15 +339,27 @@ function useVaultState() {
       });
       if (!response.ok) throw new Error(await response.text());
       setCloudStatus("saved");
-      setCloudMessage("Saved to Netlify cloud.");
+      setCloudMessage("Vault saved to cloud.");
     } catch (error) {
+      const detail = error instanceof Error && error.message.trim()
+        ? `: ${error.message.trim()}`
+        : "";
       setCloudStatus("error");
+      setLastFailedCloudOperation("save");
       setCloudMessage(
-        error instanceof Error
-          ? error.message
-          : "Cloud save failed; local backup remains current."
+        `Cloud save failed${detail}. Your local vault remains safely stored on this device.`
       );
+    } finally {
+      finishCloudOperation();
     }
+  }
+
+  function retryCloudOperation() {
+    if (lastFailedCloudOperation === "load") {
+      void loadCloud();
+      return;
+    }
+    if (lastFailedCloudOperation === "save") void saveCloud();
   }
 
   function updateAlbum(albumId: string, patch: Partial<AlbumState>) {
@@ -293,8 +417,11 @@ function useVaultState() {
     setPasscode,
     cloudStatus,
     cloudMessage,
+    cloudOperation,
+    lastFailedCloudOperation,
     loadCloud,
     saveCloud,
+    retryCloudOperation,
     updateAlbum,
     addSession
   };
@@ -318,17 +445,21 @@ function Stat({
   );
 }
 
-function AlbumCover({ album }: { album: Album }) {
+function albumCoverPath(album: Album) {
   const base = import.meta.env.BASE_URL;
-  const resolvePath = (p: string) => p.startsWith('/') ? `${base}${p.slice(1)}` : p;
+  const path = album.coverPath || "/covers/placeholder.svg";
+  return path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+}
+
+function AlbumCover({ album }: { album: Album }) {
   return (
     <img
       className="cover"
-      src={resolvePath(album.coverPath || "/covers/placeholder.svg")}
+      src={albumCoverPath(album)}
       alt={`${album.title} cover`}
       loading="lazy"
       onError={(e) => {
-        (e.target as HTMLImageElement).src = resolvePath("/covers/placeholder.svg");
+        (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}covers/placeholder.svg`;
       }}
     />
   );
@@ -397,8 +528,11 @@ function App() {
     setPasscode,
     cloudStatus,
     cloudMessage,
+    cloudOperation,
+    lastFailedCloudOperation,
     loadCloud,
     saveCloud,
+    retryCloudOperation,
     updateAlbum,
     addSession
   } = useVaultState();
@@ -406,6 +540,9 @@ function App() {
   const [selectedAlbumId, setSelectedAlbumId] = useState(
     albums[0]?.id ?? ""
   );
+  const [encyclopediaState, setEncyclopediaState] =
+    useState<EncyclopediaLoadState>({ albumId: null, status: "loading" });
+  const [encyclopediaLoadAttempt, setEncyclopediaLoadAttempt] = useState(0);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<
     "all" | "owned" | "wantlist" | "listened" | "missing"
@@ -425,7 +562,7 @@ function App() {
     connected: boolean;
   }>(() => {
     try {
-      const stored = sessionStorage.getItem('albumvault-spotify-access');
+      const stored = readBrowserStorage('sessionStorage', 'albumvault-spotify-access');
       if (stored) {
         const parsed = JSON.parse(stored);
         if (typeof parsed.accessToken === 'string' && parsed.expiresAt > Date.now()) {
@@ -446,12 +583,12 @@ function App() {
   useEffect(() => {
     try {
       if (spotifyToken.accessToken && spotifyToken.expiresAt) {
-        sessionStorage.setItem('albumvault-spotify-access', JSON.stringify({
+        writeBrowserStorage('sessionStorage', 'albumvault-spotify-access', JSON.stringify({
           accessToken: spotifyToken.accessToken,
           expiresAt: spotifyToken.expiresAt
         }));
       } else {
-        sessionStorage.removeItem('albumvault-spotify-access');
+        removeBrowserStorage('sessionStorage', 'albumvault-spotify-access');
       }
     } catch {
       console.warn('AlbumVault: Spotify token persistence failed');
@@ -462,15 +599,31 @@ function App() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const code = params.get('code');
-    if (!code) return;
+    const oauthError = params.get('error');
+    if (!code && !oauthError) return;
 
-    const codeVerifier = sessionStorage.getItem('albumvault-code-verifier');
-    sessionStorage.removeItem('albumvault-code-verifier');
+    const codeVerifier = readBrowserStorage('sessionStorage', 'albumvault-code-verifier');
+    const expectedState = readBrowserStorage('sessionStorage', 'albumvault-oauth-state');
+    const returnedState = params.get('state');
+    removeBrowserStorage('sessionStorage', 'albumvault-code-verifier');
+    removeBrowserStorage('sessionStorage', 'albumvault-oauth-state');
 
-    // Clean URL
-    window.history.replaceState({}, '', window.location.pathname);
+    params.delete('code');
+    params.delete('state');
+    params.delete('error');
+    const remainingQuery = params.toString();
+    window.history.replaceState(
+      {},
+      '',
+      `${window.location.pathname}${remainingQuery ? `?${remainingQuery}` : ''}${window.location.hash}`
+    );
 
-    if (!codeVerifier) return;
+    if (oauthError || !code || !codeVerifier || !expectedState || returnedState !== expectedState) {
+      if (code && returnedState !== expectedState) {
+        console.warn('AlbumVault: rejected an uncorrelated Spotify OAuth callback');
+      }
+      return;
+    }
 
     (async () => {
       try {
@@ -505,11 +658,20 @@ function App() {
     }
     const verifier = generateCodeVerifier();
     const challenge = await generateCodeChallenge(verifier);
-    sessionStorage.setItem('albumvault-code-verifier', verifier);
+    const oauthState = randomUrlSafeValue(32);
+    const storedVerifier = writeBrowserStorage('sessionStorage', 'albumvault-code-verifier', verifier);
+    const storedState = writeBrowserStorage('sessionStorage', 'albumvault-oauth-state', oauthState);
+    if (!storedVerifier || !storedState) {
+      removeBrowserStorage('sessionStorage', 'albumvault-code-verifier');
+      removeBrowserStorage('sessionStorage', 'albumvault-oauth-state');
+      console.warn('AlbumVault: Spotify connection requires tab storage');
+      return;
+    }
     const params = new URLSearchParams({
       client_id: oauthConfig.clientId,
       response_type: 'code',
       redirect_uri: oauthConfig.redirectUri,
+      state: oauthState,
       scope: 'streaming user-read-email user-read-private user-modify-playback-state',
       code_challenge_method: 'S256',
       code_challenge: challenge
@@ -523,7 +685,7 @@ function App() {
       spotifyPlayerRef.current = null;
     }
     spotifyDeviceIdRef.current = null;
-    sessionStorage.removeItem('albumvault-spotify-access');
+    removeBrowserStorage('sessionStorage', 'albumvault-spotify-access');
     void fetch('/.netlify/functions/spotify-auth', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -572,8 +734,10 @@ function App() {
     spotifyAlbumUrl: string | null;
     spotifyAlbumUri: string | null;
   }>>(new Map());
+  const spotifyLookupSequence = useRef(0);
 
   async function lookupSpotify(albumId: string) {
+    const lookupSequence = ++spotifyLookupSequence.current;
     const album = albums.find(a => a.id === albumId);
     if (!album) return;
 
@@ -581,6 +745,7 @@ function App() {
     const cachedKey = `${album.artist} - ${album.title}`;
     if (spotifyCache.current.has(cachedKey)) {
       const cached = spotifyCache.current.get(cachedKey)!;
+      if (lookupSequence !== spotifyLookupSequence.current) return;
       setSpotifyResult({
         spotifyTrackUrl: cached.spotifyTrackUrl,
         spotifyAlbumUrl: cached.spotifyAlbumUrl,
@@ -591,7 +756,13 @@ function App() {
       return;
     }
 
-    setSpotifyResult(prev => ({ ...prev, loading: true }));
+    setSpotifyResult({
+      spotifyTrackUrl: null,
+      spotifyAlbumUrl: null,
+      spotifyAlbumUri: null,
+      configured: false,
+      loading: true
+    });
     try {
       const q = encodeURIComponent(`${album.artist} ${album.title}`);
       const response = await fetch(`/.netlify/functions/spotify?q=${q}`);
@@ -602,6 +773,7 @@ function App() {
           spotifyAlbumUrl: data.spotifyAlbumUrl,
           spotifyAlbumUri: data.spotifyAlbumUri
         });
+        if (lookupSequence !== spotifyLookupSequence.current) return;
         setSpotifyResult({
           spotifyTrackUrl: data.spotifyTrackUrl,
           spotifyAlbumUrl: data.spotifyAlbumUrl,
@@ -610,9 +782,11 @@ function App() {
           loading: false
         });
       } else {
+        if (lookupSequence !== spotifyLookupSequence.current) return;
         setSpotifyResult({ spotifyTrackUrl: null, spotifyAlbumUrl: null, spotifyAlbumUri: null, configured: false, loading: false });
       }
     } catch {
+      if (lookupSequence !== spotifyLookupSequence.current) return;
       setSpotifyResult(prev => ({ ...prev, loading: false }));
     }
   }
@@ -733,7 +907,14 @@ function App() {
     let cancelled = false;
     let player: any = null;
 
-    function initPlayer() {
+    async function initPlayer() {
+      try {
+        await loadSpotifySdk();
+      } catch {
+        console.warn('AlbumVault: Spotify playback SDK failed to load');
+        return;
+      }
+      if (cancelled) return;
       const Spotify = (window as any).Spotify;
       if (!Spotify) return;
 
@@ -768,13 +949,7 @@ function App() {
       player.connect();
     }
 
-    // Wait for SDK to be available
-    if ((window as any).Spotify) {
-      initPlayer();
-    } else {
-      const onReady = () => initPlayer();
-      (window as any).onSpotifyWebPlaybackSDKReady = onReady;
-    }
+    void initPlayer();
 
     return () => {
       cancelled = true;
@@ -791,9 +966,51 @@ function App() {
 
   const selectedAlbum =
     albums.find((album) => album.id === selectedAlbumId) ?? albums[0];
-  const selectedEntry = selectedAlbum
-    ? encyclopedia[selectedAlbum.id]
+  const selectedEntry = encyclopediaState.albumId === selectedAlbum.id
+    ? encyclopediaState.entry
     : undefined;
+  const encyclopediaStatus = encyclopediaState.albumId === selectedAlbum.id
+    ? encyclopediaState.status
+    : "loading";
+
+  useEffect(() => {
+    if (view !== "album") return;
+
+    const albumId = selectedAlbum.id;
+    if (encyclopediaEntriesCache) {
+      setEncyclopediaState({
+        albumId,
+        status: "ready",
+        entry: encyclopediaEntriesCache[albumId]
+      });
+      return;
+    }
+
+    let encyclopediaRequestCancelled = false;
+    setEncyclopediaState({ albumId, status: "loading" });
+
+    void loadEncyclopediaEntries()
+      .then((entries) => {
+        if (encyclopediaRequestCancelled) return;
+        setEncyclopediaState({
+          albumId,
+          status: "ready",
+          entry: entries[albumId]
+        });
+      })
+      .catch(() => {
+        if (encyclopediaRequestCancelled) return;
+        setEncyclopediaState({ albumId, status: "error" });
+      });
+
+    return () => {
+      encyclopediaRequestCancelled = true;
+    };
+  }, [encyclopediaLoadAttempt, selectedAlbum.id, view]);
+
+  function retryEncyclopediaLoad() {
+    setEncyclopediaLoadAttempt((current) => current + 1);
+  }
 
   const stats = useMemo(() => {
     const values = albums.map((album) => state.albums[album.id] ?? {});
@@ -897,7 +1114,17 @@ function App() {
   async function importState(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
     if (!file) return;
-    const next = safeParseVaultState(await file.text());
+    if (file.size > maxBackupBytes) {
+      alert("That backup is too large to import safely.");
+      event.target.value = "";
+      return;
+    }
+    let next: VaultState | null = null;
+    try {
+      next = safeParseVaultState(await file.text());
+    } catch {
+      // Treat unreadable files the same as malformed backups.
+    }
     if (!next) {
       alert("That file is not a valid AlbumVault backup.");
       event.target.value = "";
@@ -1087,14 +1314,40 @@ function App() {
             aria-label="Netlify passcode"
           />
           <div className="buttonRow">
-            <button type="button" onClick={loadCloud}>
+            <button
+              type="button"
+              onClick={loadCloud}
+              disabled={cloudOperation !== null}
+              aria-busy={cloudOperation === "load"}
+            >
               <Cloud size={16} /> Load
             </button>
-            <button type="button" onClick={() => saveCloud()}>
+            <button
+              type="button"
+              onClick={() => saveCloud()}
+              disabled={cloudOperation !== null}
+              aria-busy={cloudOperation === "save"}
+            >
               <Upload size={16} /> Save
             </button>
           </div>
-          <p className={`cloudStatus ${cloudStatus}`}>{cloudMessage}</p>
+          <p
+            className={`cloudStatus ${cloudStatus}`}
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            {cloudMessage}
+          </p>
+          {cloudStatus === "error" && lastFailedCloudOperation && (
+            <button
+              type="button"
+              className="cloudRetry"
+              onClick={retryCloudOperation}
+              disabled={cloudOperation !== null}
+            >
+              <RotateCcw size={14} /> Retry cloud {lastFailedCloudOperation}
+            </button>
+          )}
           <div className="spotifyStatus">
             <span className={`spotifyDot ${spotifyToken.connected ? 'connected' : 'disconnected'}`} />
             {spotifyToken.connected ? (
@@ -1178,6 +1431,8 @@ function App() {
           <AlbumDetail
             album={selectedAlbum}
             entry={selectedEntry}
+            encyclopediaStatus={encyclopediaStatus}
+            retryEncyclopediaLoad={retryEncyclopediaLoad}
             albumState={state.albums[selectedAlbum.id] ?? {}}
             updateAlbum={updateAlbum}
             addSession={addSession}
@@ -1213,25 +1468,168 @@ function MiniPlayer({
   onToggle: () => void;
   onOpenAlbum: (albumId: string) => void;
 }) {
+  const [expanded, setExpanded] = useState(false);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const overlayRef = useRef<HTMLElement>(null);
+  const restoreFocusRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    if (!expanded || !nowPlaying) return;
+
+    restoreFocusRef.current = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    closeButtonRef.current?.focus();
+
+    function handleOverlayKeyDown(event: globalThis.KeyboardEvent) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setExpanded(false);
+        return;
+      }
+
+      if (event.key === "Tab") {
+        const focusableElements = overlayRef.current?.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (!focusableElements?.length) return;
+        const firstElement = focusableElements[0];
+        const lastElement = focusableElements[focusableElements.length - 1];
+        if (event.shiftKey && document.activeElement === firstElement) {
+          event.preventDefault();
+          lastElement.focus();
+        } else if (!event.shiftKey && document.activeElement === lastElement) {
+          event.preventDefault();
+          firstElement.focus();
+        }
+      }
+    }
+
+    window.addEventListener("keydown", handleOverlayKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleOverlayKeyDown);
+      document.body.style.overflow = previousOverflow;
+      restoreFocusRef.current?.focus();
+    };
+  }, [expanded]);
+
+  useEffect(() => {
+    if (!nowPlaying) setExpanded(false);
+  }, [nowPlaying]);
+
   if (!nowPlaying) return null;
+  const activeAlbum = albums.find((album) => album.id === nowPlaying.albumId);
+  const sourceLabel = nowPlaying.source === "spotify" ? "Spotify" : "Apple Music preview";
 
   return (
-    <aside className="miniPlayer" aria-live="polite">
-      <div>
-        <span className="eyebrow">{nowPlaying.source === "spotify" ? "Spotify" : "Preview"} now playing</span>
-        <strong>{nowPlaying.title}</strong>
-        <small>{nowPlaying.artist} • {nowPlaying.albumTitle}</small>
-      </div>
-      <div className="miniPlayerActions">
-        <button type="button" onClick={onToggle}>
-          {nowPlaying.paused ? <Play size={15} /> : <Pause size={15} />}
-          {nowPlaying.paused ? "Resume" : "Pause"}
-        </button>
-        <button type="button" onClick={() => onOpenAlbum(nowPlaying.albumId)}>
-          Open album
-        </button>
-      </div>
-    </aside>
+    <>
+      <aside className="miniPlayer" aria-live="polite">
+        <div className="miniPlayerDetails">
+          <span className="eyebrow">{sourceLabel} now playing</span>
+          <strong>{nowPlaying.title}</strong>
+          <small>{nowPlaying.artist} • {nowPlaying.albumTitle}</small>
+        </div>
+        <div className="miniPlayerActions">
+          <button type="button" onClick={onToggle}>
+            {nowPlaying.paused ? <Play size={15} /> : <Pause size={15} />}
+            {nowPlaying.paused ? "Resume" : "Pause"}
+          </button>
+          <button type="button" onClick={() => onOpenAlbum(nowPlaying.albumId)}>
+            Open album
+          </button>
+          <button
+            type="button"
+            className="miniPlayerExpand"
+            onClick={() => setExpanded(true)}
+            aria-label="Open Now Playing"
+            title="Open Now Playing"
+          >
+            <Maximize2 size={16} aria-hidden="true" />
+          </button>
+        </div>
+      </aside>
+
+      {expanded && (
+        <section
+          ref={overlayRef}
+          className="nowPlayingOverlay"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="now-playing-title"
+          aria-describedby="now-playing-meta"
+        >
+          {activeAlbum && (
+            <div
+              className="nowPlayingBackdrop"
+              style={{
+                backgroundImage: `url(${JSON.stringify(albumCoverPath(activeAlbum))})`
+              }}
+              aria-hidden="true"
+            />
+          )}
+          <div className="nowPlayingShade" aria-hidden="true" />
+
+          <header className="nowPlayingHeader">
+            <div className="nowPlayingBrand">
+              <Disc3 size={22} aria-hidden="true" />
+              <span>AlbumVault</span>
+            </div>
+            <button
+              ref={closeButtonRef}
+              type="button"
+              className="nowPlayingClose"
+              onClick={() => setExpanded(false)}
+              aria-label="Close Now Playing"
+            >
+              <X size={20} aria-hidden="true" />
+            </button>
+          </header>
+
+          <div className="nowPlayingContent">
+            <div className="nowPlayingArtwork">
+              {activeAlbum ? (
+                <AlbumCover album={activeAlbum} />
+              ) : (
+                <div className="nowPlayingCoverFallback" aria-hidden="true">
+                  <Disc3 size={72} />
+                </div>
+              )}
+            </div>
+
+            <div className="nowPlayingDetails">
+              <p className="nowPlayingSource">
+                <span aria-hidden="true" />
+                {sourceLabel}
+              </p>
+              <p className="eyebrow">Now playing</p>
+              <h2 id="now-playing-title">{nowPlaying.title}</h2>
+              <p className="nowPlayingArtist">{nowPlaying.artist}</p>
+              <dl id="now-playing-meta" className="nowPlayingMeta">
+                <div>
+                  <dt>Album</dt>
+                  <dd>{nowPlaying.albumTitle}</dd>
+                </div>
+                <div>
+                  <dt>Source</dt>
+                  <dd>{sourceLabel}</dd>
+                </div>
+              </dl>
+              <button
+                type="button"
+                className="nowPlayingPrimaryAction"
+                onClick={onToggle}
+                aria-label={`${nowPlaying.paused ? "Play" : "Pause"} ${nowPlaying.title}`}
+              >
+                {nowPlaying.paused ? <Play size={26} fill="currentColor" /> : <Pause size={26} fill="currentColor" />}
+                {nowPlaying.paused ? "Play" : "Pause"}
+              </button>
+            </div>
+          </div>
+
+          <p className="nowPlayingHint">Press Esc to return to your collection</p>
+        </section>
+      )}
+    </>
   );
 }
 
@@ -1265,12 +1663,9 @@ function Dashboard({
     return unheard ?? albums[0];
   }, [state]);
   const journeyCards = useMemo(() => listeningJourneys.map((journey) => {
-    const picks = albums
-      .filter((album) => {
-        const themes = encyclopedia[album.id]?.themes ?? [];
-        return themes.some((theme) => journey.themes.includes(theme));
-      })
-      .slice(0, 4);
+    const picks = journey.albumIds
+      .map((albumId) => albums.find((album) => album.id === albumId))
+      .filter((album): album is Album => Boolean(album));
     return { ...journey, picks };
   }).filter((journey) => journey.picks.length), []);
 
@@ -1359,19 +1754,25 @@ function Dashboard({
           </div>
           <span className="pill">{ownedPct}% owned</span>
         </div>
-        <div className="albumStrip">
-          {queue.map((album) => (
-            <button
-              key={album.id}
-              className="stripItem"
-              onClick={() => openAlbum(album.id)}
-            >
-              <AlbumCover album={album} />
-              <strong>#{album.rank}</strong>
-              <span>{album.title}</span>
-            </button>
-          ))}
-        </div>
+        {queue.length > 0 ? (
+          <div className="albumStrip">
+            {queue.map((album) => (
+              <button
+                key={album.id}
+                className="stripItem"
+                onClick={() => openAlbum(album.id)}
+              >
+                <AlbumCover album={album} />
+                <strong>#{album.rank}</strong>
+                <span>{album.title}</span>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <p className="queueEmptyState">
+            Mark albums as owned to build your listening queue.
+          </p>
+        )}
       </section>
 
       <section className="panel">
@@ -1441,6 +1842,42 @@ function CollectionView({
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
   searchInputRef: React.RefObject<HTMLInputElement>;
 }) {
+  function handleShelfKeyDown(
+    event: React.KeyboardEvent<HTMLButtonElement>,
+    albumId: string
+  ) {
+    const target = event.target;
+    if (
+      target instanceof HTMLInputElement ||
+      target instanceof HTMLTextAreaElement ||
+      target instanceof HTMLSelectElement
+    ) {
+      return;
+    }
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      openAlbum(albumId);
+      return;
+    }
+
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      const shelf = event.currentTarget.closest(".albumShelf");
+      const shelfButtons = Array.from(
+        shelf?.querySelectorAll<HTMLButtonElement>(".shelfAlbumButton") ?? []
+      );
+      const currentIndex = shelfButtons.indexOf(event.currentTarget);
+      if (currentIndex < 0 || shelfButtons.length < 2) return;
+
+      event.preventDefault();
+      const direction = event.key === "ArrowLeft" ? -1 : 1;
+      const nextIndex = (currentIndex + direction + shelfButtons.length) % shelfButtons.length;
+      const nextButton = shelfButtons[nextIndex];
+      nextButton.focus();
+      nextButton.scrollIntoView({ block: "nearest", inline: "center" });
+    }
+  }
+
   return (
     <section className="panel full">
       <div className="toolbar">
@@ -1494,20 +1931,33 @@ function CollectionView({
             <option value="rating">Rating</option>
           </select>
         </label>
-        <div className="viewToggle">
+        <div className="viewToggle" role="group" aria-label="Collection view">
           <button
+            type="button"
             className={viewMode === "list" ? "active" : ""}
             onClick={() => setViewMode("list")}
             aria-label="List view"
+            aria-pressed={viewMode === "list"}
           >
-            <LayoutList size={18} />
+            <LayoutList size={18} aria-hidden="true" />
           </button>
           <button
+            type="button"
             className={viewMode === "grid" ? "active" : ""}
             onClick={() => setViewMode("grid")}
             aria-label="Grid view"
+            aria-pressed={viewMode === "grid"}
           >
-            <Grid3X3 size={18} />
+            <Grid3X3 size={18} aria-hidden="true" />
+          </button>
+          <button
+            type="button"
+            className={viewMode === "shelf" ? "active" : ""}
+            onClick={() => setViewMode("shelf")}
+            aria-label="Shelf view"
+            aria-pressed={viewMode === "shelf"}
+          >
+            <Library size={18} aria-hidden="true" />
           </button>
         </div>
       </div>
@@ -1578,7 +2028,7 @@ function CollectionView({
             );
           })}
         </div>
-      ) : (
+      ) : viewMode === "grid" ? (
         <div className="albumGrid">
           {filteredAlbums.map((album) => {
             const albumState = state.albums[album.id] ?? {};
@@ -1612,6 +2062,50 @@ function CollectionView({
                     ) : null}
                   </div>
                 </div>
+              </article>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="albumShelf" role="list" aria-label="Album shelf">
+          {filteredAlbums.map((album) => {
+            const albumState = state.albums[album.id] ?? {};
+            const collectionStatus = albumState.owned
+              ? "Owned"
+              : albumState.wantlist
+                ? "Wanted"
+                : "Not in library";
+            const statusClass = albumState.owned
+              ? "owned"
+              : albumState.wantlist
+                ? "wanted"
+                : "uncollected";
+            return (
+              <article key={album.id} className="shelfAlbum" role="listitem">
+                <button
+                  type="button"
+                  className="shelfAlbumButton"
+                  onClick={() => openAlbum(album.id)}
+                  onKeyDown={(event) => handleShelfKeyDown(event, album.id)}
+                  aria-label={`#${album.rank} ${album.title} by ${album.artist}. ${collectionStatus}. Open album`}
+                >
+                  <span className="shelfCoverFrame">
+                    <AlbumCover album={album} />
+                    <span className="shelfRank">#{album.rank}</span>
+                    <span className={`shelfStatus ${statusClass}`}>
+                      {albumState.owned ? (
+                        <Disc3 size={12} aria-hidden="true" />
+                      ) : (
+                        <Heart size={12} aria-hidden="true" />
+                      )}
+                      {collectionStatus}
+                    </span>
+                  </span>
+                  <span className="shelfMetadata">
+                    <strong>{album.title}</strong>
+                    <small>{album.artist}</small>
+                  </span>
+                </button>
               </article>
             );
           })}
@@ -1661,6 +2155,8 @@ function SourceAttribution({
 function AlbumDetail({
   album,
   entry,
+  encyclopediaStatus,
+  retryEncyclopediaLoad,
   albumState,
   updateAlbum,
   addSession,
@@ -1675,6 +2171,8 @@ function AlbumDetail({
 }: {
   album: Album;
   entry?: EncyclopediaEntry;
+  encyclopediaStatus: EncyclopediaLoadStatus;
+  retryEncyclopediaLoad: () => void;
   albumState: AlbumState;
   updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
   addSession: (session: ListeningSession) => void;
@@ -1908,70 +2406,160 @@ function AlbumDetail({
               <ListMusic size={17} /> Start listening session
             </button>
           ) : null}
-          {spotifyConnected && spotifyUrl && (
-            <a
-              href={spotifyUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="button spotifyLink"
-              style={{ marginTop: '0.5rem' }}
-            >
-              <Headphones size={17} /> Open on Spotify
-              <ExternalLink size={12} />
-            </a>
-          )}
-          {spotifyConnected && !spotifyConfigured && (
-            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
-              <Music size={14} /> Album not found on Spotify
-            </span>
-          )}
-          {!spotifyConnected && spotifyConfigured && spotifyUrl && (
-            <button
-              className="spotifyBtn"
-              onClick={() => window.open(spotifyUrl!, '_blank', 'noreferrer')}
-              style={{ marginTop: '0.5rem' }}
-            >
-              <Headphones size={16} /> Listen on Spotify
-              <ExternalLink size={11} />
-            </button>
-          )}
-          {!spotifyConnected && !spotifyConfigured && spotifyLoading && (
-            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
-              <Music size={14} /> Searching Spotify…
-            </span>
-          )}
-          {!spotifyConnected && !spotifyConfigured && !spotifyLoading && (
-            <span className="chip muted" style={{ marginTop: '0.5rem' }}>
-              <Music size={14} /> Add SPOTIFY_CLIENT_ID + SPOTIFY_CLIENT_SECRET env vars for Spotify links
-            </span>
-          )}
-        </div>
-      </section>
-
-      <section className="panel full visualCompanions">
-        <div className="sectionHeader">
-          <div>
-            <p className="eyebrow">Visual companions</p>
-            <h3>{albumState.owned ? "Owned-album reference options" : "Mark owned for richer visual references"}</h3>
+          <div
+            className="spotifyLookupSlot"
+            aria-live="polite"
+            aria-busy={spotifyLoading}
+          >
+            {spotifyLoading ? (
+              <>
+                <span className="srOnly">Checking Spotify availability.</span>
+                <span className="spotifyLookupSkeleton" aria-hidden="true">
+                  <span className="spotifySkeletonMark" />
+                  <span className="spotifySkeletonLine" />
+                </span>
+              </>
+            ) : (
+              <>
+                {spotifyConnected && spotifyUrl && (
+                  <a
+                    href={spotifyUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button spotifyLink"
+                  >
+                    <Headphones size={17} /> Open on Spotify
+                    <ExternalLink size={12} />
+                  </a>
+                )}
+                {spotifyConnected && !spotifyConfigured && (
+                  <span className="chip muted">
+                    <Music size={14} /> Album not found on Spotify
+                  </span>
+                )}
+                {!spotifyConnected && spotifyConfigured && spotifyUrl && (
+                  <button
+                    className="spotifyBtn"
+                    onClick={() => window.open(spotifyUrl!, '_blank', 'noreferrer')}
+                  >
+                    <Headphones size={16} /> Listen on Spotify
+                    <ExternalLink size={11} />
+                  </button>
+                )}
+                {!spotifyConnected && !spotifyConfigured && (
+                  <span className="chip muted">
+                    <Music size={14} /> Add SPOTIFY_CLIENT_ID + SPOTIFY_CLIENT_SECRET env vars for Spotify links
+                  </span>
+                )}
+              </>
+            )}
           </div>
-          <ExternalLink size={20} />
-        </div>
-        <p>
-          Focus mode now uses the local album cover as a blurred backdrop. For band imagery, the safest path is linking to
-          Wikipedia/Wikimedia Commons pages with visible license metadata rather than silently downloading third-party images.
-        </p>
-        <div className="visualReferenceRail inline">
-          {visualReferences.map((option) => (
-            <a key={option.label} href={option.url} target="_blank" rel="noreferrer">
-              <span>{option.label}</span>
-              <small>{option.description}</small>
-            </a>
-          ))}
         </div>
       </section>
 
+      {albumState.owned ? (
+        <details className="collectorInspector">
+          <summary>
+            <span className="collectorSummaryCopy">
+              <span className="eyebrow">Private collection record</span>
+              <strong>Collector’s details</strong>
+              <small>Condition, pressing, shelf, and the story behind your copy.</small>
+            </span>
+            <span className="collectorPrivacy" aria-label="Private to your vault">
+              <Lock size={14} aria-hidden="true" /> Private
+            </span>
+          </summary>
+          <div className="collectorFields">
+            <label className="collectorField">
+              <span>Condition</span>
+              <select
+                value={albumState.condition ?? ""}
+                onChange={(event) => updateAlbum(album.id, {
+                  condition: event.target.value as AlbumState["condition"]
+                })}
+              >
+                <option value="">Not noted</option>
+                <option value="Mint">Mint</option>
+                <option value="Near Mint">Near Mint</option>
+                <option value="Very Good">Very Good</option>
+                <option value="Good">Good</option>
+                <option value="Fair">Fair</option>
+              </select>
+            </label>
+            <label className="collectorField">
+              <span>Shelf location</span>
+              <input
+                type="text"
+                value={albumState.shelfLocation ?? ""}
+                maxLength={200}
+                autoComplete="off"
+                placeholder="Listening room · shelf 2"
+                onChange={(event) => updateAlbum(album.id, {
+                  shelfLocation: event.target.value
+                })}
+              />
+            </label>
+            <label className="collectorField wide">
+              <span>Edition / pressing</span>
+              <textarea
+                value={albumState.editionNote ?? ""}
+                maxLength={1000}
+                rows={2}
+                placeholder="Label, country, year, matrix, reissue, or distinguishing details"
+                onChange={(event) => updateAlbum(album.id, {
+                  editionNote: event.target.value
+                })}
+              />
+            </label>
+            <label className="collectorField wide">
+              <span>Acquisition / story</span>
+              <textarea
+                value={albumState.notes ?? ""}
+                maxLength={5000}
+                rows={3}
+                placeholder="Where you found it, who gave it to you, or the story of this copy"
+                onChange={(event) => updateAlbum(album.id, {
+                  notes: event.target.value
+                })}
+              />
+            </label>
+            <label className="collectorField privateField wide">
+              <span className="privateFieldLabel">
+                Why it matters to me
+                <span className="privateBadge">
+                  <Lock size={12} aria-hidden="true" /> Private
+                </span>
+              </span>
+              <textarea
+                value={albumState.whyItMatters ?? ""}
+                maxLength={2000}
+                rows={3}
+                aria-describedby={`why-it-matters-help-${album.id}`}
+                placeholder="A memory, a person, a season, or the reason this album stays with you"
+                onChange={(event) => updateAlbum(album.id, {
+                  whyItMatters: event.target.value
+                })}
+              />
+              <small id={`why-it-matters-help-${album.id}`}>
+                Kept in your personal vault and its backups.
+              </small>
+            </label>
+          </div>
+        </details>
+      ) : (
+        <section className="collectorInspectorUnavailable" aria-labelledby={`collector-details-${album.id}`}>
+          <Lock size={18} aria-hidden="true" />
+          <div>
+            <h3 id={`collector-details-${album.id}`}>Collector’s details</h3>
+            <p>Mark this album as owned to add condition, shelf, edition, and personal story details.</p>
+          </div>
+        </section>
+      )}
 
-      <section className="panel full">
+      <section
+        className="panel full encyclopediaPanel"
+        aria-busy={encyclopediaStatus === "loading"}
+      >
         <div className="sectionHeader">
           <div>
             <p className="eyebrow">Encyclopedia</p>
@@ -1979,35 +2567,52 @@ function AlbumDetail({
           </div>
           <Wand2 size={20} />
         </div>
-        <div className="referenceGrid">
-          <article>
-            <h4>Artist</h4>
-            <p>
-              {entry?.artistInfo?.summary ??
-                "No confident artist source was matched for this entry."}
-            </p>
-            <SourceAttribution
-              source={entry?.artistInfo?.source}
-              fallbackLabel="Artist source not confidently matched yet."
-            />
-          </article>
-          <article>
-            <h4>Album</h4>
-            <p>
-              {entry?.albumInfo?.summary ?? entry?.context}
-            </p>
-            <SourceAttribution
-              source={entry?.albumInfo?.source}
-              fallbackLabel="Album source not confidently matched yet."
-            />
-          </article>
-        </div>
-        <p>{entry?.relevance}</p>
-        <div className="themeRow">
-          {entry?.themes.map((theme) => (
-            <span key={theme}>{theme}</span>
-          ))}
-        </div>
+        {encyclopediaStatus === "loading" ? (
+          <div className="encyclopediaLoadState" role="status" aria-live="polite">
+            <strong>Opening the album reference…</strong>
+            <p>Track guides and source notes will appear here.</p>
+          </div>
+        ) : encyclopediaStatus === "error" ? (
+          <div className="encyclopediaLoadState" role="status" aria-live="polite">
+            <strong>The album reference could not be opened.</strong>
+            <p>Your catalog, collection details, and playback remain available.</p>
+            <button type="button" onClick={retryEncyclopediaLoad}>
+              <RotateCcw size={15} /> Try again
+            </button>
+          </div>
+        ) : (
+          <>
+            <div className="referenceGrid">
+              <article>
+                <h4>Artist</h4>
+                <p>
+                  {entry?.artistInfo?.summary ??
+                    "No confident artist source was matched for this entry."}
+                </p>
+                <SourceAttribution
+                  source={entry?.artistInfo?.source}
+                  fallbackLabel="Artist source not confidently matched yet."
+                />
+              </article>
+              <article>
+                <h4>Album</h4>
+                <p>
+                  {entry?.albumInfo?.summary ?? entry?.context}
+                </p>
+                <SourceAttribution
+                  source={entry?.albumInfo?.source}
+                  fallbackLabel="Album source not confidently matched yet."
+                />
+              </article>
+            </div>
+            <p>{entry?.relevance}</p>
+            <div className="themeRow">
+              {entry?.themes.map((theme) => (
+                <span key={theme}>{theme}</span>
+              ))}
+            </div>
+          </>
+        )}
       </section>
 
       <section className="panel full">
@@ -2127,6 +2732,11 @@ function Insights({
   state: VaultState;
   openAlbum: (albumId: string) => void;
 }) {
+  const collectionStory = useMemo(
+    () => buildCollectionStory(albums, state),
+    [state]
+  );
+
   const ownedByDecade = useMemo(() => {
     const counts = new Map<string, number>();
     albums.forEach((album) => {
@@ -2266,6 +2876,77 @@ function Insights({
           <span>
             {Math.round((owned / catalogTotal) * 100)}%
           </span>
+        </div>
+      </section>
+
+      <section className="collectionStory" aria-labelledby="collection-story-title">
+        <div className="storyIntroduction">
+          <p className="eyebrow">Taste intelligence</p>
+          <h3 id="collection-story-title">Collection story</h3>
+          <p>{collectionStory.arcStatement}</p>
+        </div>
+
+        <div className="storyRecommendations">
+          <article>
+            <p className="eyebrow">Return to</p>
+            {collectionStory.returnTo ? (
+              <button
+                type="button"
+                className="storyAlbumButton"
+                onClick={() => openAlbum(collectionStory.returnTo!.album.id)}
+                aria-label={`Open ${collectionStory.returnTo.album.title} by ${collectionStory.returnTo.album.artist}`}
+              >
+                <span className="storyCover">
+                  <AlbumCover album={collectionStory.returnTo.album} />
+                </span>
+                <span className="storyAlbumCopy">
+                  <strong>{collectionStory.returnTo.album.title}</strong>
+                  <small>
+                    {collectionStory.returnTo.album.artist} · {collectionStory.returnTo.album.year}
+                  </small>
+                  <span>
+                    Last logged {new Date(collectionStory.returnTo.lastListenedAt).toLocaleDateString(
+                      undefined,
+                      { year: "numeric", month: "short", day: "numeric" }
+                    )}
+                  </span>
+                </span>
+              </button>
+            ) : (
+              <p className="storyEmpty">
+                Your dated listening history has not gathered enough distance yet.
+                Keep logging sessions and an older favorite will surface here.
+              </p>
+            )}
+          </article>
+
+          <article>
+            <p className="eyebrow">Tonight&apos;s first listen</p>
+            {collectionStory.firstListen ? (
+              <button
+                type="button"
+                className="storyAlbumButton"
+                onClick={() => openAlbum(collectionStory.firstListen!.id)}
+                aria-label={`Open ${collectionStory.firstListen.title} by ${collectionStory.firstListen.artist}`}
+              >
+                <span className="storyCover">
+                  <AlbumCover album={collectionStory.firstListen} />
+                </span>
+                <span className="storyAlbumCopy">
+                  <strong>{collectionStory.firstListen.title}</strong>
+                  <small>
+                    {collectionStory.firstListen.artist} · {collectionStory.firstListen.year}
+                  </small>
+                  <span>Owned, with no listening history yet</span>
+                </span>
+              </button>
+            ) : (
+              <p className="storyEmpty">
+                No owned, unlistened record is waiting yet. As your shelves and
+                listening log grow, a first spin will appear here.
+              </p>
+            )}
+          </article>
         </div>
       </section>
 

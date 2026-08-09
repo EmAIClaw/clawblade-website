@@ -12,7 +12,11 @@ const conditions = new Set<string>([
 const maxAlbums = 500;
 const maxSessions = 500;
 const maxStringLength = 5000;
+const maxEditionNoteLength = 1000;
+const maxWhyItMattersLength = 2000;
 const maxCheckedTracks = 200;
+const maxTrackKeyLength = 500;
+const unsafeRecordKeys = new Set(["__proto__", "constructor", "prototype"]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return !!value && typeof value === "object" && !Array.isArray(value);
@@ -52,7 +56,9 @@ function normalizeAlbumState(value: unknown): AlbumState {
     rating,
     condition,
     shelfLocation: cappedString(value.shelfLocation, 200),
+    editionNote: cappedString(value.editionNote, maxEditionNoteLength),
     notes: cappedString(value.notes),
+    whyItMatters: cappedString(value.whyItMatters, maxWhyItMattersLength),
     listenCount,
     lastListened: validIso(value.lastListened) ? value.lastListened : undefined
   };
@@ -80,11 +86,18 @@ function normalizeSession(value: unknown): ListeningSession | null {
     checkedTracks: Array.isArray(value.checkedTracks)
       ? value.checkedTracks
         .filter((item): item is string => typeof item === "string")
+        .map((item) => item.slice(0, maxTrackKeyLength))
+        .filter((item, index, items) => Boolean(item) && items.indexOf(item) === index)
         .slice(0, maxCheckedTracks)
       : []
   };
 
-  if (validIso(value.completedAt)) session.completedAt = value.completedAt;
+  if (
+    validIso(value.completedAt) &&
+    Date.parse(value.completedAt) >= Date.parse(startedAt)
+  ) {
+    session.completedAt = value.completedAt;
+  }
   return session;
 }
 
@@ -94,14 +107,26 @@ export function normalizeVaultState(value: unknown, now = new Date().toISOString
   }
 
   const albums: VaultState["albums"] = {};
-  for (const [albumId, albumState] of Object.entries(value.albums).slice(0, maxAlbums)) {
-    if (typeof albumId !== "string" || albumId.length > 180) continue;
+  for (const [albumId, albumState] of Object.entries(value.albums)) {
+    if (
+      typeof albumId !== "string" ||
+      !albumId ||
+      albumId.length > 180 ||
+      unsafeRecordKeys.has(albumId)
+    ) continue;
     albums[albumId] = normalizeAlbumState(albumState);
+    if (Object.keys(albums).length >= maxAlbums) break;
   }
 
+  const seenSessionIds = new Set<string>();
   const sessions = value.sessions
     .map(normalizeSession)
     .filter((item): item is ListeningSession => item !== null)
+    .filter((item) => {
+      if (seenSessionIds.has(item.id)) return false;
+      seenSessionIds.add(item.id);
+      return true;
+    })
     .slice(0, maxSessions);
 
   return {
