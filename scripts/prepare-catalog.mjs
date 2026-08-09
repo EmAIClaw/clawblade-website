@@ -126,6 +126,16 @@ function highResArtwork(url) {
   return url ? url.replace(/\/\d+x\d+bb\.(jpg|png|webp)$/i, "/600x600bb.$1") : null;
 }
 
+function normalizeCoverPath(value) {
+  if (typeof value !== "string") return "/covers/placeholder.svg";
+  const publicPath = value.startsWith("/public/")
+    ? value.slice("/public".length)
+    : value;
+  return publicPath.startsWith("/covers/")
+    ? publicPath
+    : "/covers/placeholder.svg";
+}
+
 async function downloadCover(url, id) {
   if (!url) return "/covers/placeholder.svg";
   const controller = new AbortController();
@@ -232,7 +242,7 @@ async function main() {
       appleArtworkUrl: previous?.appleArtworkUrl ?? null,
       coverSource: previous?.coverSource ?? (previous?.coverPath && previous.coverPath !== "/covers/placeholder.svg" ? "apple" : null),
       coverSourceUrl: previous?.coverSourceUrl ?? previous?.appleCollectionUrl ?? null,
-      coverPath: previous?.coverPath ?? "/covers/placeholder.svg",
+      coverPath: normalizeCoverPath(previous?.coverPath),
       tracks: previous?.tracks ?? []
     };
 

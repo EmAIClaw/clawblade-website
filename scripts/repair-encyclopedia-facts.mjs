@@ -126,7 +126,44 @@ for (const album of catalog.albums) {
   const explicit = mismatchedTracks.get(album.id) ?? new Set();
   const blanketDemoRepair = album.id === '016-the-clash-london-calling-7d75cf05';
   const blanketLiveRepair = album.id === '095-metallica-master-of-puppets-87b23472';
-  const blanketCatalogRepair = ['157-pearl-jam-ten-4e010abd', '220-eminem-the-slim-shady-lp-e8c4b177'].includes(album.id);
+  const blanketCatalogRepair = new Set([
+    '032-beyonce-lemonade-d3bb0f63',
+    '037-dr-dre-the-chronic-08e42779',
+    '042-a-tribe-called-quest-the-low-end-theory-dd3040be',
+    '054-liz-phair-exile-in-guyville-2b33a458',
+    '065-jay-z-reasonable-doubt-6a8e6823',
+    '067-alanis-morissette-jagged-little-pill-4c683edc',
+    '076-elvis-presley-the-sun-sessions-adb13ddd',
+    '087-erykah-badu-baduizm-d494a5ec',
+    '112-the-strokes-is-this-it-10c57aaf',
+    '123-beastie-boys-paul-s-boutique-28b8e212',
+    '128-prince-1999-91b2e168',
+    '134-funkadelic-maggot-brain-4a5b90a5',
+    '149-the-pretenders-pretenders-ab925375',
+    '150-pj-harvey-rid-of-me-1826b64c',
+    '157-pearl-jam-ten-4e010abd',
+    '159-pulp-different-class-47b7d265',
+    '161-buddy-holly-20-golden-greats-83b1a203',
+    '190-robyn-body-talk-7b7f26d0',
+    '191-the-beatles-meet-the-beatles-19b8da50',
+    '193-pavement-slanted-and-enchanted-b504cf59',
+    '194-sade-diamond-life-94eccc39',
+    '195-a-tribe-called-quest-midnight-marauders-a267b50d',
+    '196-bjork-homogenic-e339214b',
+    '200-rage-against-the-machine-rage-against-the-machine-fa5282b5',
+    '213-raekwon-only-built-4-cuban-linx-6ee43350'
+  ]).has(album.id);
+
+  if (blanketCatalogRepair) {
+    entry.themes = [
+      'Static reference',
+      'Source-backed facts',
+      'Track sequence',
+      album.genre,
+      entry.artistInfo?.source?.description,
+      entry.albumInfo?.source?.description
+    ].filter(Boolean);
+  }
 
   entry.trackGuide = album.tracks.map((track, index) => {
     const existing = (entry.trackGuide ?? []).find((guide) => guide.trackTitle === track.title);

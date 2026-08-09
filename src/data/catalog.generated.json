@@ -2573,7 +2573,7 @@
       "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/93/39/9293397f-a707-237e-ec7e-0ca613a67e3c/06UMGIM04143.rgb.jpg/600x600bb.jpg",
       "coverSource": "apple",
       "coverSourceUrl": "https://music.apple.com/us/album/the-velvet-underground-nico-45th-anniversary-edition/1440851613?uo=4",
-      "coverPath": "/public/covers/023-the-velvet-underground-the-velvet-underground-and-nico-0913adef.jpg",
+      "coverPath": "/covers/023-the-velvet-underground-the-velvet-underground-and-nico-0913adef.jpg",
       "tracks": [
         {
           "discNumber": 1,
@@ -3538,98 +3538,99 @@
       "artist": "Beyoncé",
       "year": 2016,
       "genre": "Pop",
-      "appleCollectionId": 626204707,
-      "appleCollectionUrl": "https://music.apple.com/album/626204707",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/53/65/d2536587-c7f3-9153-4677-f5a2f3e9e5ad/886447691120.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/lemonade/1460432013?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c1f22e07-7bdf-4a4f-8b50-7747c1091ef6",
       "coverPath": "/covers/032-beyonce-lemonade-d3bb0f63.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
           "title": "Pray You Catch Me",
-          "durationMs": null,
+          "durationMs": 196000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
           "title": "Hold Up",
-          "durationMs": null,
+          "durationMs": 221000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Don't Hurt Yourself (feat. Jack White)",
-          "durationMs": null,
+          "title": "Don’t Hurt Yourself",
+          "durationMs": 234000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
           "title": "Sorry",
-          "durationMs": null,
+          "durationMs": 233000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "6 Inch (feat. The Weeknd)",
-          "durationMs": null,
+          "title": "6 Inch",
+          "durationMs": 260000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
           "title": "Daddy Lessons",
-          "durationMs": null,
+          "durationMs": 288000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
           "title": "Love Drought",
-          "durationMs": null,
+          "durationMs": 237000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
           "title": "Sandcastles",
-          "durationMs": null,
+          "durationMs": 183000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Forward (feat. James Blake)",
-          "durationMs": null,
+          "title": "Forward",
+          "durationMs": 79000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Freedom (feat. Kendrick Lamar)",
-          "durationMs": null,
+          "title": "Freedom",
+          "durationMs": 290000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
           "title": "All Night",
-          "durationMs": null,
+          "durationMs": 322000,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
           "title": "Formation",
-          "durationMs": null,
+          "durationMs": 206000,
           "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "c1f22e07-7bdf-4a4f-8b50-7747c1091ef6"
     },
     {
       "id": "033-amy-winehouse-back-to-black-4e0a725a",
@@ -4009,132 +4010,125 @@
       "title": "The Chronic",
       "artist": "Dr. Dre",
       "year": 1992,
-      "genre": null,
-      "appleCollectionId": 1440835794,
-      "appleCollectionUrl": "https://music.apple.com/album/1440835794",
+      "genre": "Hip-Hop/Rap",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/0001a90e-252d-3af0-8e1c-173c1c4835c3",
-      "coverPath": "/covers/037-dr-dre-the-chronic-08e42779-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/ad444843-7160-33d7-b0c9-fc99f2c14a99",
+      "coverPath": "/covers/037-dr-dre-the-chronic-08e42779.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Straight Outta Compton",
-          "durationMs": 243418,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/ea/c0/2ceac013-21ab-6867-c0d0-b8a70eebc981/mzaf_5411314310889072147.plus.aac.p.m4a"
+          "title": "The Chronic (intro)",
+          "durationMs": 117893,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Flash Light",
-          "durationMs": 268875,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/72/ef/c772efd2-fd2b-16dd-02a1-28f8566856e1/mzaf_3317273914325757979.plus.aac.p.m4a"
+          "title": "Fuck Wit Dre Day (And Everybody’s Celebratin’)",
+          "durationMs": 292200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "We Want Eazy (feat. MC Ren & Dr. Dre)",
-          "durationMs": 300429,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/87/5c/18875c13-d25c-e9b8-91ff-d9cd35d18f00/mzaf_7869948747151025822.plus.aac.p.m4a"
+          "title": "Let Me Ride",
+          "durationMs": 261266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Gangsta Gangsta",
-          "durationMs": 244918,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/31/8e/34318e9b-e6a6-7740-75fb-2d5e3af5e2f5/mzaf_9333666701043317917.plus.aac.p.m4a"
+          "title": "The Day the Niggaz Took Over",
+          "durationMs": 273106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "(Not Just) Knee Deep",
-          "durationMs": 268906,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/c6/12/35c612b9-40b0-8248-9f14-145d9836efa9/mzaf_17884308648682478041.plus.aac.p.m4a"
+          "title": "Nuthin’ but a “G” Thang",
+          "durationMs": 238400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Boyz-n-the Hood",
-          "durationMs": 337134,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/db/d4/e7dbd416-f2c3-1bc1-00db-4637c3a45432/mzaf_4202134312868985044.plus.aac.p.m4a"
+          "title": "Deeez Nuuuts",
+          "durationMs": 306360,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Everybody Loves the Sunshine",
-          "durationMs": 239940,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/69/ad/7369ad35-cf8f-2b45-76a9-5b18396c1cfc/mzaf_5748084225582060412.plus.aac.p.m4a"
+          "title": "Lil’ Ghetto Boy",
+          "durationMs": 329133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Dopeman",
-          "durationMs": 346980,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/5e/24/025e24cc-adc7-b80c-8b83-fd2258c2b2a5/mzaf_9385908593704919044.plus.aac.p.m4a"
+          "title": "A Nigga Witta Gun",
+          "durationMs": 232533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "F***k the Police",
-          "durationMs": 314732,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/a7/46/83a74669-293c-77b4-ba98-884ceca0c4ec/mzaf_5606805154572891216.plus.aac.p.m4a"
+          "title": "Rat-Tat-Tat-Tat",
+          "durationMs": 228906,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Express Yourself",
-          "durationMs": 260576,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/62/79/3462790a-f45e-359d-d130-cc255435f9f7/mzaf_2724263283128000156.plus.aac.p.m4a"
+          "title": "The $20 Sack Pyramid",
+          "durationMs": 173160,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Weak at the Knees",
-          "durationMs": 228239,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/44/65/90446577-a4b5-9b67-fa78-6a856fdfc130/mzaf_11437467792265559917.plus.aac.p.m4a"
+          "title": "Lyrical Gangbang",
+          "durationMs": 244533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Quiet on tha Set",
-          "durationMs": 236182,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/f9/61/93f9617c-a2c3-1175-e61f-3b5b81f0f82d/mzaf_969735710985866053.plus.aac.p.m4a"
+          "title": "High Powered",
+          "durationMs": 164133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "8 Ball",
-          "durationMs": 272006,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/7b/a3/f07ba3e1-6787-ccf6-3976-ebc16482083d/mzaf_17057989684462363523.plus.aac.p.m4a"
+          "title": "The Doctor’s Office",
+          "durationMs": 64000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "The N***a Ya Love to Hate",
-          "durationMs": 189973,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/bb/b7/0cbbb769-2e77-187b-9aa9-8cdcc3ff1c29/mzaf_6406411019410806838.plus.aac.p.m4a"
+          "title": "Stranded on Death Row",
+          "durationMs": 287066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "Real N****z",
-          "durationMs": 267732,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/91/d3/8091d3cd-eaaf-82ab-7862-47a33beee1ca/mzaf_18357056293072530889.plus.aac.p.m4a"
+          "title": "The Roach (The Chronic Outro)",
+          "durationMs": 276906,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 16,
-          "title": "No Vaseline",
-          "durationMs": 245602,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d4/40/0ed44054-0ce0-2155-7b29-eeeccf507ad2/mzaf_11573509269681828769.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Nuthin' but a \"G\" Thang (feat. Snoop Dogg)",
-          "durationMs": 235941,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/23/47/da234798-c8dc-a0c6-ae99-cd29c054645e/mzaf_7675979424653060823.plus.aac.p.m4a"
+          "title": "Bitches Ain’t Shit",
+          "durationMs": 287866,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "ad444843-7160-33d7-b0c9-fc99f2c14a99"
@@ -4526,35 +4520,113 @@
       "artist": "A Tribe Called Quest",
       "year": 1991,
       "genre": "Hip-Hop/Rap",
-      "appleCollectionId": 1585892605,
-      "appleCollectionUrl": "https://music.apple.com/us/album/check-the-rhime-remixes-single/1585892605?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b7/fc/f1/b7fcf1cf-b890-c75a-873f-1f71bfc524f5/886449537501.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/check-the-rhime-remixes-single/1585892605?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c3733436-fcba-3c08-b082-d548df5c5139",
       "coverPath": "/covers/042-a-tribe-called-quest-the-low-end-theory-dd3040be.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Check The Rhime (Mr. Muhammad's Mix)",
-          "durationMs": 219679,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/4b/cc/964bcc46-153a-d558-0ff3-39fbe8143ed8/mzaf_17110925229181320151.plus.aac.p.m4a"
+          "title": "Excursions",
+          "durationMs": 234640,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Check The Rhime (Skeff's Mix)",
-          "durationMs": 220306,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/1e/bc/ff1ebcbf-ae40-3246-3ad2-ecfc38b006d7/mzaf_14669817533351706366.plus.aac.p.m4a"
+          "title": "Buggin’ Out",
+          "durationMs": 217466,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Check The Rhime (Instrumental)",
-          "durationMs": 218313,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/f6/b9/c9f6b900-96e6-174c-5f21-1f5b265f4f19/mzaf_4852203484085305534.plus.aac.p.m4a"
+          "title": "Rap Promoter",
+          "durationMs": 133000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 4,
+          "title": "Butter",
+          "durationMs": 218760,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 5,
+          "title": "Verses From the Abstract",
+          "durationMs": 238906,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 6,
+          "title": "Show Business",
+          "durationMs": 233426,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 7,
+          "title": "Vibes and Stuff",
+          "durationMs": 257840,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 8,
+          "title": "The Infamous Date Rape",
+          "durationMs": 173560,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 9,
+          "title": "Check the Rhime",
+          "durationMs": 216706,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 10,
+          "title": "Everything Is Fair",
+          "durationMs": 178333,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 11,
+          "title": "Jazz (We’ve Got)",
+          "durationMs": 250226,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 12,
+          "title": "Skypager",
+          "durationMs": 132240,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 13,
+          "title": "What?",
+          "durationMs": 148693,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 14,
+          "title": "Scenario",
+          "durationMs": 250133,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "c3733436-fcba-3c08-b082-d548df5c5139"
     },
     {
       "id": "043-nas-illmatic-d29fe2ef",
@@ -6083,104 +6155,139 @@
       "title": "Exile in Guyville",
       "artist": "Liz Phair",
       "year": 1993,
-      "genre": null,
-      "appleCollectionId": 1556102685,
-      "appleCollectionUrl": "https://music.apple.com/album/1556102685",
+      "genre": "Alternative",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/b08b6174-7f4d-4064-a4d8-b6824e0dc1c3",
-      "coverPath": "/covers/054-liz-phair-exile-in-guyville-2b33a458-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c186db82-9988-367e-8486-2e38e9b6c8db",
+      "coverPath": "/covers/054-liz-phair-exile-in-guyville-2b33a458.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Spanish Doors",
-          "durationMs": 237200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/fb/68/bffb686f-5a16-c110-be3b-c900bb72b3f3/mzaf_4923723504555297401.plus.aac.p.m4a"
+          "title": "6′1″",
+          "durationMs": 185893,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "The Game",
-          "durationMs": 209013,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/19/d9/7619d90b-6997-410e-590a-e2264e7bb138/mzaf_7411755358996277799.plus.aac.p.m4a"
+          "title": "Help Me Mary",
+          "durationMs": 136200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Hey Lou",
-          "durationMs": 162133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/18/6e/03186e5c-14b0-d0d5-cd46-d9defdc53bea/mzaf_12690380785359024236.plus.aac.p.m4a"
+          "title": "Glory",
+          "durationMs": 89866,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "In There",
-          "durationMs": 192600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/85/f7/4b85f7a6-98b2-3778-8abb-63f28a0fd3d5/mzaf_478766245010227940.plus.aac.p.m4a"
+          "title": "Dance of the Seven Veils",
+          "durationMs": 149666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Good Side",
-          "durationMs": 174480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/3f/08/713f0882-cff0-68cf-656d-35a851a39334/mzaf_9748176681232375429.plus.aac.p.m4a"
+          "title": "Never Said",
+          "durationMs": 196200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Sheridan Road",
-          "durationMs": 207947,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/34/7a/5b347a03-4afb-4dca-d815-8cd5a360b2c5/mzaf_4259984753974699876.plus.aac.p.m4a"
+          "title": "Soap Star Joe",
+          "durationMs": 164333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Ba Ba Ba",
-          "durationMs": 221000,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/91/28/88912877-8aa1-fb56-cae2-02507ebc91fd/mzaf_5516138639284346424.plus.aac.p.m4a"
+          "title": "Explain It to Me",
+          "durationMs": 191840,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Soberish",
-          "durationMs": 230307,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/61/5d/fd615de8-3a4b-c76f-ffa2-63b953ecfdb5/mzaf_9280868402478418797.plus.aac.p.m4a"
+          "title": "Canary",
+          "durationMs": 199826,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Soul Sucker",
-          "durationMs": 273067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/49/97/8b49975a-6d56-f539-1100-48fbd2f742b1/mzaf_9583775171196058314.plus.aac.p.m4a"
+          "title": "Mesmerizing",
+          "durationMs": 235733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Lonely Street",
-          "durationMs": 211187,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/01/df/1701df37-a13d-1b55-1667-ec802446d2cc/mzaf_10582822582613084440.plus.aac.p.m4a"
+          "title": "Fuck and Run",
+          "durationMs": 187906,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Dosage",
-          "durationMs": 245120,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/ac/22/4eac22ef-cc8e-006f-c1a6-57341bc9edb4/mzaf_16134891143075974647.plus.aac.p.m4a"
+          "title": "Girls! Girls! Girls!",
+          "durationMs": 140293,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Bad Kitty",
-          "durationMs": 217000,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/f7/7e/87f77e5e-0ae4-a0eb-f84a-010022914830/mzaf_11168893741491048036.plus.aac.p.m4a"
+          "title": "Divorce Song",
+          "durationMs": 200133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Rain Scene",
-          "durationMs": 47200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/01/5c/a8015cf3-3b29-1087-fd14-d9177004fe4e/mzaf_10934382188795401097.plus.aac.p.m4a"
+          "title": "Shatter",
+          "durationMs": 328906,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 14,
+          "title": "Flower",
+          "durationMs": 123026,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 15,
+          "title": "Johnny Sunshine",
+          "durationMs": 207533,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 16,
+          "title": "Gunshy",
+          "durationMs": 195040,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 17,
+          "title": "Stratford-on-Guy",
+          "durationMs": 179800,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 18,
+          "title": "Strange Loop",
+          "durationMs": 237200,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "c186db82-9988-367e-8486-2e38e9b6c8db"
@@ -7656,117 +7763,110 @@
       "artist": "Jay-Z",
       "year": 1996,
       "genre": "Hip-Hop/Rap",
-      "appleCollectionId": 1440933859,
-      "appleCollectionUrl": "https://music.apple.com/us/album/the-blueprint/1440933859?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/19/c0/e3/19c0e3b6-4c2f-17ee-2a4a-6e2208de8aa6/00857366006951.rgb.jpg/600x600bb.jpg",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/37c0a6b5-f723-4e70-92b8-805a569bc436",
-      "coverPath": "/covers/065-jay-z-reasonable-doubt-6a8e6823-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/a7f852ba-08bc-36f1-92f3-4dc127f4b70a",
+      "coverPath": "/covers/065-jay-z-reasonable-doubt-6a8e6823.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "The Ruler's Back",
-          "durationMs": 228627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8f/ec/a6/8feca66a-d38f-fcbd-137c-36ae37a8f0f9/mzaf_6847390394432099451.plus.aac.p.m4a"
+          "title": "Can’t Knock the Hustle",
+          "durationMs": 317266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Takeover",
-          "durationMs": 313107,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/42/25/11/422511ed-697a-d3e2-b29e-a6eb9b6f9856/mzaf_12318312049257476880.plus.aac.p.m4a"
+          "title": "Politics as Usual",
+          "durationMs": 221200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Izzo (H.O.V.A.)",
-          "durationMs": 240627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/88/73/cf/8873cfb4-6155-244b-16b7-adb760fca3e5/mzaf_5073603544013289488.plus.aac.p.m4a"
+          "title": "Brooklyn’s Finest",
+          "durationMs": 277493,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Girls, Girls, Girls",
-          "durationMs": 275373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/a0/25/b4a0258c-55dc-5d34-fbc6-fb0e44a47d47/mzaf_11091886784798439018.plus.aac.p.m4a"
+          "title": "Dead Presidents II",
+          "durationMs": 268333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Jigga That N***a",
-          "durationMs": 204027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/69/99/cb/6999cb28-fee5-8977-b57e-5870998b3387/mzaf_14725499800083964633.plus.aac.p.m4a"
+          "title": "Feelin’ It",
+          "durationMs": 228706,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "U Don't Know",
-          "durationMs": 199440,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/21/60/1b21600f-797c-1f5e-9246-707a0917f341/mzaf_15822880562420246103.plus.aac.p.m4a"
+          "title": "D’evils",
+          "durationMs": 213133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Hola' Hovito",
-          "durationMs": 273200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/7f/25/b27f2538-d93b-1c05-8343-1ee188fc24a6/mzaf_7137415213156939893.plus.aac.p.m4a"
+          "title": "22 Two’s",
+          "durationMs": 209000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Heart of the City (Ain't No Love)",
-          "durationMs": 223200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/36/29/ac/3629acbd-93c4-7228-1cba-a000710d2e7b/mzaf_11360697112789977409.plus.aac.p.m4a"
+          "title": "Can I Live",
+          "durationMs": 250426,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Never Change",
-          "durationMs": 237067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/1f/16/5a1f16d3-7c86-bc49-b8c5-0277349cfd04/mzaf_7052248944740081197.plus.aac.p.m4a"
+          "title": "Ain’t No Nigga",
+          "durationMs": 242600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Song Cry",
-          "durationMs": 302360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/16/e7/5f16e70d-ddd9-d028-3032-78cccf30a52d/mzaf_6082288934184291863.plus.aac.p.m4a"
+          "title": "Friend or Foe",
+          "durationMs": 110040,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "All I Need",
-          "durationMs": 265867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/d3/16/52d31600-af94-d0e7-6271-ff19f5ef777f/mzaf_582658254290339566.plus.aac.p.m4a"
+          "title": "Coming of Age",
+          "durationMs": 240160,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Renegade (feat. Eminem)",
-          "durationMs": 337773,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/10/cf/c2/10cfc292-72cb-7668-b4ff-f9fd1f110a49/mzaf_4468626119219007750.plus.aac.p.m4a"
+          "title": "Cashmere Thoughts",
+          "durationMs": 177333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Blueprint (Momma Loves Me)",
-          "durationMs": 220200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7a/07/4c/7a074c8d-d0e5-4fd7-45d2-62d12160db47/mzaf_11304122442362450310.plus.aac.p.m4a"
+          "title": "Bring It On",
+          "durationMs": 301200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Lyrical Exercise",
-          "durationMs": 225707,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/49/fd/46/49fd46b4-142b-6add-aa89-956bb8eff1f3/mzaf_1702511416171922351.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Girls, Girls, Girls, Pt. 2",
-          "durationMs": 256133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/37/ba/db37baca-359e-b061-4f96-34ed7967b668/mzaf_3770393406172538167.plus.aac.p.m4a"
+          "title": "Regrets",
+          "durationMs": 273973,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "a7f852ba-08bc-36f1-92f3-4dc127f4b70a"
@@ -7877,22 +7977,108 @@
       "title": "Jagged Little Pill",
       "artist": "Alanis Morissette",
       "year": 1995,
-      "genre": "Christmas",
-      "appleCollectionId": 1657551203,
-      "appleCollectionUrl": "https://music.apple.com/us/album/little-drummer-boy-single/1657551203?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/34/c1/b4/34c1b4e3-0f6c-6081-2539-d8186709764a/197187636761.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/little-drummer-boy-single/1657551203?uo=4",
+      "genre": "Alternative",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1",
       "coverPath": "/covers/067-alanis-morissette-jagged-little-pill-4c683edc.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Little Drummer Boy",
-          "durationMs": 172187,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/99/50/fb/9950fb4d-2cf8-0ad0-13ca-9f9c3ea0ddef/mzaf_6714383109619528420.plus.aac.p.m4a"
+          "title": "All I Really Want",
+          "durationMs": 285000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 2,
+          "title": "You Oughta Know",
+          "durationMs": 249000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 3,
+          "title": "Perfect",
+          "durationMs": 188000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 4,
+          "title": "Hand in My Pocket",
+          "durationMs": 222000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 5,
+          "title": "Right Through You",
+          "durationMs": 176000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 6,
+          "title": "Forgiven",
+          "durationMs": 300000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 7,
+          "title": "You Learn",
+          "durationMs": 240000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 8,
+          "title": "Head Over Feet",
+          "durationMs": 267000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 9,
+          "title": "Mary Jane",
+          "durationMs": 281000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 10,
+          "title": "Ironic",
+          "durationMs": 230000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 11,
+          "title": "Not the Doctor",
+          "durationMs": 228000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 12,
+          "title": "Wake Up",
+          "durationMs": 294000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 13,
+          "title": "You Oughta Know (Jimmy the Saint Blend) / Your House",
+          "durationMs": 493000,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1",
+      "musicBrainzReleaseId": "0838ba20-a571-4b3c-8c0c-a31436d373b3"
     },
     {
       "id": "068-n-w-a-straight-outta-compton-aff6bb78",
@@ -8666,294 +8852,127 @@
       "artist": "Elvis Presley",
       "year": 1976,
       "genre": "Rock",
-      "appleCollectionId": 217633715,
-      "appleCollectionUrl": "https://music.apple.com/us/album/the-essential-elvis-presley/217633715?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/63/93/3e6393fb-5fe2-1ef4-1c0d-6452919a351c/828768904824.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/the-essential-elvis-presley/217633715?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/2ac479cc-0126-3709-bb55-7028e4c559ef",
       "coverPath": "/covers/076-elvis-presley-the-sun-sessions-adb13ddd.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "That's All Right",
-          "durationMs": 117209,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/ba/63/abba637e-0d1d-7831-8bb3-853a94280e43/mzaf_1142865516775070906.plus.aac.p.m4a"
+          "title": "That’s All Right",
+          "durationMs": 117666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Baby Let's Play House",
-          "durationMs": 136801,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/c2/fa/51c2fafa-bc16-1252-f79c-12511721085e/mzaf_9908514534668412592.plus.aac.p.m4a"
+          "title": "Blue Moon of Kentucky",
+          "durationMs": 124226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
+          "title": "I Don’t Care If the Sun Don’t Shine",
+          "durationMs": 148840,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 4,
+          "title": "Good Rockin’ Tonight",
+          "durationMs": 134266,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 5,
+          "title": "Milk Cow Blues",
+          "durationMs": 159333,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 6,
+          "title": "You’re a Heartbreaker",
+          "durationMs": 132426,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 7,
+          "title": "I’m Left, You’re Right, She’s Gone",
+          "durationMs": 157906,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 8,
+          "title": "Baby Let’s Play House",
+          "durationMs": 137160,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 9,
           "title": "Mystery Train",
-          "durationMs": 146688,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/f6/d2/6cf6d2a2-4980-f007-50e5-9a76dedd9b47/mzaf_1618689580186397826.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 4,
-          "title": "Heartbreak Hotel",
-          "durationMs": 129305,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/42/15/004215c8-a328-64bd-d8e5-bc86a0aa2af4/mzaf_1763054997972899063.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 5,
-          "title": "I Was the One",
-          "durationMs": 153828,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/35/18/a7351807-a260-07d4-3ebf-008b800695ae/mzaf_5703437825561659757.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 6,
-          "title": "Blue Suede Shoes",
-          "durationMs": 121133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/92/c2/8a92c289-3cb6-0395-a1fa-be646aaf070e/mzaf_7872886335958490839.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 7,
-          "title": "Hound Dog",
-          "durationMs": 137948,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/9c/03/e19c03d8-93db-c3bb-969c-8d2461352936/mzaf_15894379719447029606.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 8,
-          "title": "Don't Be Cruel",
-          "durationMs": 124638,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/b8/c0/f3b8c052-9b1d-927f-7e09-b64b597b85ff/mzaf_5455979476366571871.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 9,
-          "title": "Love Me Tender",
-          "durationMs": 163122,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/5f/7a/545f7aea-7009-10fa-c02d-90468fc1eb79/mzaf_16499506256472345017.plus.aac.p.m4a"
+          "durationMs": 146373,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "All Shook Up",
-          "durationMs": 118838,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/2f/3a/7d2f3a10-9e32-2cd0-c53d-398c6bb4b518/mzaf_11210800770235577327.plus.aac.p.m4a"
+          "title": "I Forgot to Remember to Forget",
+          "durationMs": 150600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "(There'll Be) Peace In the Valley (For Me)",
-          "durationMs": 202712,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/2d/5f/ab2d5f95-ba1a-06a5-cd45-3a920e44ca7b/mzaf_6136534095259450733.plus.aac.p.m4a"
+          "title": "I’ll Never Let You Go (Little Darlin’)",
+          "durationMs": 146666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Jailhouse Rock",
-          "durationMs": 148232,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/42/b7/7a42b76d-538b-7450-a683-9b7dc6480d5a/mzaf_18006447134026521705.plus.aac.p.m4a"
+          "title": "Trying to Get to You",
+          "durationMs": 153093,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Trouble",
-          "durationMs": 138304,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/86/5c/e4865cc1-a9d0-ff3e-72d3-c4a5fcd6be68/mzaf_11627793117998586756.plus.aac.p.m4a"
+          "title": "I Love You Because",
+          "durationMs": 164240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Fever (Essential Elvis Version)",
-          "durationMs": 214673,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/34/38/7f34386a-1339-4c69-3b2c-323871303913/mzaf_18310618336499709008.plus.aac.p.m4a"
+          "title": "Blue Moon",
+          "durationMs": 161866,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "It's Now or Never",
-          "durationMs": 196840,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/27/ab/6327ab9c-6f11-e2b8-f2ca-3f8d0b224c28/mzaf_4045547648735675381.plus.aac.p.m4a"
+          "title": "Just Because",
+          "durationMs": 154826,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 16,
-          "title": "Reconsider Baby (Elvis R&B Version)",
-          "durationMs": 221114,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/32/6c/09326c13-fa91-9aff-6397-2e26b9b9f921/mzaf_16456583560292966875.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Are You Lonesome Tonight?",
-          "durationMs": 188273,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/0d/ed/5c0ded40-88f8-10ac-934a-0e8ae9d14b7f/mzaf_2273916424183757191.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 18,
-          "title": "Little Sister",
-          "durationMs": 153007,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/5e/2c/c35e2c01-0f59-cd48-e0ad-8af78587c0f5/mzaf_2564116722172908091.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 19,
-          "title": "Follow That Dream",
-          "durationMs": 100848,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/3b/19/013b19b1-700b-f45c-5b65-8b2754001c3d/mzaf_9824565791297299052.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 20,
-          "title": "Can't Help Falling In Love",
-          "durationMs": 182116,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/23/69/112369f6-6645-e9ec-8019-e06e3efb160d/mzaf_14601922769880394709.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 1,
-          "title": "Return to Sender",
-          "durationMs": 128448,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/85/b0/8185b0e0-00c1-4558-127b-a4fae865ec64/mzaf_1205309675708565582.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 2,
-          "title": "(You're The) Devil In Disguise",
-          "durationMs": 141893,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/e4/22/08e422a9-ebff-d821-45fa-d0716cbbd4ef/mzaf_17513458070105010103.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 3,
-          "title": "Bossa Nova Baby",
-          "durationMs": 124525,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/06/62/0406620a-6a6b-9109-6cda-20bc28ea33b9/mzaf_18184804129177863986.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 4,
-          "title": "Viva Las Vegas",
-          "durationMs": 146584,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/b1/2e/a4b12e73-9c97-720b-6ccd-970993452674/mzaf_160308146155238923.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 5,
-          "title": "Big Boss Man (Elvis R&B Version)",
-          "durationMs": 173461,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/62/e7/2e62e703-fafd-dfbc-c121-ea17d4862c7b/mzaf_11628703422966812545.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 6,
-          "title": "A Little Less Conversation",
-          "durationMs": 121585,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/f0/25/47f025e6-2bfa-4ff9-adf3-d34673c4c53b/mzaf_6343561395482188265.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 7,
-          "title": "If I Can Dream (Stereo Mix)",
-          "durationMs": 191046,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/e4/03/1be403a0-3ba1-cb4d-b3ff-47d3335943ed/mzaf_10447106276978552953.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 8,
-          "title": "Memories (Stereo Mix)",
-          "durationMs": 186935,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/89/a7/9689a795-5a9d-d3b5-b689-de434d04cdca/mzaf_13935293164237896788.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 9,
-          "title": "In the Ghetto",
-          "durationMs": 168649,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/58/3e/16583eb7-cafb-4749-6d21-46d36136e53c/mzaf_15847885426032949070.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 10,
-          "title": "Suspicious Minds",
-          "durationMs": 262719,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/50/28/fc5028fd-cc32-49bc-dd06-5d2003d7f940/mzaf_10782480582104912457.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 11,
-          "title": "Don't Cry Daddy",
-          "durationMs": 169833,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/53/8d/e6538de5-9123-58e7-613b-0a53e9506b8c/mzaf_10530051244858787307.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 12,
-          "title": "Kentucky Rain",
-          "durationMs": 196860,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/6b/3f/9c6b3f63-2351-7762-ad66-ab36bff8756c/mzaf_7507577418639793972.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 13,
-          "title": "Polk Salad Annie (Live)",
-          "durationMs": 291217,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/63/56/986356a9-095d-723f-8e70-d3feffdf7199/mzaf_10813165188249236939.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 14,
-          "title": "The Wonder of You",
-          "durationMs": 158810,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/2d/f9/ab2df976-b8f8-1782-ba4b-340e9d128aa3/mzaf_4792758074395444273.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 15,
-          "title": "I Just Can't Help Believin' (with The Sweet Inspirations) [Live]",
-          "durationMs": 281437,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/91/ef/5791ef92-d805-e948-73eb-a51132b01e1c/mzaf_2997030191373625695.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 16,
-          "title": "Burning Love",
-          "durationMs": 171498,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/50/0e/0f500e6f-924f-bb96-d540-e6d178df156c/mzaf_12016665112756872282.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 17,
-          "title": "Always On My Mind",
-          "durationMs": 219246,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/13/6d/07136d33-eec2-aa88-1b62-cf961a7d6949/mzaf_14763268881047137042.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 18,
-          "title": "Steamroller Blues (Live)",
-          "durationMs": 192319,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/1a/dc/671adca6-ff0a-cc5f-6c65-339d9a8eb267/mzaf_4978611051955645328.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 19,
-          "title": "Hurt (Essential Elvis Version)",
-          "durationMs": 128922,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/cf/8a/f3cf8a86-4aa0-17ce-3eac-2b41e3dd9971/mzaf_5707044869095176917.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 2,
-          "trackNumber": 20,
-          "title": "Moody Blue",
-          "durationMs": 169234,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/d2/1c/87d21c34-4644-0698-e889-a242fa1c0316/mzaf_1908032967519774505.plus.aac.p.m4a"
+          "title": "I Love You Because (2nd version)",
+          "durationMs": 204507,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "2ac479cc-0126-3709-bb55-7028e4c559ef"
     },
     {
       "id": "077-bob-dylan-blonde-on-blonde-bca0d67d",
@@ -9935,49 +9954,113 @@
       "artist": "Erykah Badu",
       "year": 1997,
       "genre": "R&B/Soul",
-      "appleCollectionId": 1490881168,
-      "appleCollectionUrl": "https://music.apple.com/us/album/next-lifetime/1490881168?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/28/5b/b1/285bb122-0ca6-3c45-e6a8-01bbe02b78a4/19UM1IM06858.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/next-lifetime/1490881168?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/45536412-c62c-34fc-9524-0bac1d2542c1",
       "coverPath": "/covers/087-erykah-badu-baduizm-d494a5ec.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Next Lifetime (Radio Version)",
-          "durationMs": 255667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/56/7b/26567b97-ccae-666c-0735-5fed2ef279a5/mzaf_5367723576813662402.plus.aac.p.m4a"
+          "title": "Rimshot (intro)",
+          "durationMs": 117066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Next Lifetime",
-          "durationMs": 390600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/13/6d/5f136d56-b41b-29f9-75a0-d5bab4b1561f/mzaf_1851545615811347510.plus.aac.p.m4a"
+          "title": "On & On",
+          "durationMs": 225960,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Next Lifetime (Linslee Remix)",
-          "durationMs": 355160,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/64/69/cd646962-a1bb-db2a-ae1c-7155d43ee5af/mzaf_7399035155501302420.plus.aac.p.m4a"
+          "title": "Appletree",
+          "durationMs": 265400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Next Lifetime (Live At The Jazz Cafe,London)",
-          "durationMs": 657040,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/0e/df/cd0edf46-df06-dcbb-2143-75e2f1f6c728/mzaf_14419365491085247792.plus.aac.p.m4a"
+          "title": "Otherside of the Game",
+          "durationMs": 393706,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Next Lifetime (Instrumental)",
-          "durationMs": 391133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/04/d8/3104d8ac-ae35-5279-261b-6dd27957b541/mzaf_1189197798431642872.plus.aac.p.m4a"
+          "title": "Sometimes (mix #9)",
+          "durationMs": 44400,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 6,
+          "title": "Next Lifetime",
+          "durationMs": 386533,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 7,
+          "title": "Afro (Freestyle skit)",
+          "durationMs": 124400,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 8,
+          "title": "Certainly",
+          "durationMs": 283200,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 9,
+          "title": "4 Leaf Clover",
+          "durationMs": 274560,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 10,
+          "title": "No Love",
+          "durationMs": 308600,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 11,
+          "title": "Drama",
+          "durationMs": 362600,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 12,
+          "title": "Sometimes…",
+          "durationMs": 250533,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 13,
+          "title": "Certainly (Flipped It)",
+          "durationMs": 326200,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 14,
+          "title": "Rimshot (outro)",
+          "durationMs": 139706,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "45536412-c62c-34fc-9524-0bac1d2542c1"
     },
     {
       "id": "088-neil-young-after-the-gold-rush-50ed1c3d",
@@ -12795,98 +12878,92 @@
       "artist": "The Strokes",
       "year": 2001,
       "genre": "Alternative",
-      "appleCollectionId": 1434099357,
-      "appleCollectionUrl": "https://music.apple.com/us/album/this-is-it/1434099357?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/2c/88/ef2c88b1-828f-b2f7-8ed0-70d1400f2d47/18UMGIM53452.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/this-is-it/1434099357?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/efea26d1-a016-30f6-b8e2-bc8c02336b0a",
       "coverPath": "/covers/112-the-strokes-is-this-it-10c57aaf.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Is This It?",
-          "durationMs": 167105,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/70/f4/4870f491-40a7-3990-6e7f-4608ce12d691/mzaf_2719090263698947577.plus.aac.p.m4a"
+          "title": "Is This It",
+          "durationMs": 154400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Pull It Together",
-          "durationMs": 219172,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d5/76/3f/d5763fae-5849-33ae-f51a-f1445a1c6d91/mzaf_8996488432081672253.plus.aac.p.m4a"
+          "title": "The Modern Age",
+          "durationMs": 212733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Some Kind of Love",
-          "durationMs": 191176,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/1b/b5/d51bb50a-f9f6-9904-8b37-bafbbba31322/mzaf_4309983167522752453.plus.aac.p.m4a"
+          "title": "Soma",
+          "durationMs": 157800,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "You've Got Me",
-          "durationMs": 219135,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8c/da/49/8cda4922-46b2-2984-f2c9-adbce27b5cb0/mzaf_11498009671836794880.plus.aac.p.m4a"
+          "title": "Barely Legal",
+          "durationMs": 238133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "17",
-          "durationMs": 219897,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/f4/aa/fdf4aa3a-1c61-58ee-5aa2-e4c320b86fe6/mzaf_5877206025420443727.plus.aac.p.m4a"
+          "title": "Someday",
+          "durationMs": 187133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "More",
-          "durationMs": 220740,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/fe/71/1afe71f4-c6d5-dafd-80d3-99bd0801b924/mzaf_17417941554711764153.plus.aac.p.m4a"
+          "title": "Alone, Together",
+          "durationMs": 192333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Run for Your Money",
-          "durationMs": 182720,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2f/e5/87/2fe58704-2ee0-15bf-8f24-7f4d5eee57a1/mzaf_5099680510727747024.plus.aac.p.m4a"
+          "title": "Last Nite",
+          "durationMs": 197533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Gold Star",
-          "durationMs": 133139,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/b3/94/bbb39461-9cfb-33af-4d27-a3e92c636707/mzaf_15120513437300485645.plus.aac.p.m4a"
+          "title": "Hard to Explain",
+          "durationMs": 227760,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Flint",
-          "durationMs": 228278,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/e8/69/7fe869ca-de9c-d437-55df-bdcb1cc723e8/mzaf_1459910074862698845.plus.aac.p.m4a"
+          "title": "New York City Cops",
+          "durationMs": 216106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Odds of Forever",
-          "durationMs": 221952,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3a/69/76/3a69764f-1bdd-6515-e876-eb308a619a8d/mzaf_2511372811135176792.plus.aac.p.m4a"
+          "title": "Trying Your Luck",
+          "durationMs": 207560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Birthday Song",
-          "durationMs": 188733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7c/8e/37/7c8e37af-bb85-89c8-67b0-dcf8c2bb0781/mzaf_12352707587031509192.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Don't Go",
-          "durationMs": 246142,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f4/ad/b0/f4adb059-020c-aad3-f815-e91604ba2547/mzaf_15196221818550670954.plus.aac.p.m4a"
+          "title": "Take It or Leave It",
+          "durationMs": 196133,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "efea26d1-a016-30f6-b8e2-bc8c02336b0a"
     },
     {
       "id": "113-kendrick-lamar-good-kid-m-a-a-d-city-221955f5",
@@ -13937,153 +14014,118 @@
       "title": "Paul's Boutique",
       "artist": "Beastie Boys",
       "year": 1989,
-      "genre": null,
-      "appleCollectionId": 1530301906,
-      "appleCollectionUrl": "https://music.apple.com/album/1530301906",
+      "genre": "Hip-Hop/Rap",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/c4944da6-84d6-498a-9aaa-94687305c8c2",
-      "coverPath": "/covers/123-beastie-boys-paul-s-boutique-28b8e212-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/b534aa01-d621-31ba-9278-38a500e3cdca",
+      "coverPath": "/covers/123-beastie-boys-paul-s-boutique-28b8e212.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "So What'Cha Want",
-          "durationMs": 217173,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/d7/8e/e9d78e9c-0f08-56e8-9d01-a32f170a944c/mzaf_1866154085082297949.plus.aac.p.m4a"
+          "title": "To All the Girls",
+          "durationMs": 89533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Paul Revere",
-          "durationMs": 219893,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/88/45/9d/88459d1c-93cb-9538-80a1-ef4c3740aece/mzaf_17809969525861693898.plus.aac.p.m4a"
+          "title": "Shake Your Rump",
+          "durationMs": 199533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Shake Your Rump",
-          "durationMs": 198773,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dc/14/bd/dc14bd27-5c94-9a95-d2b1-35e8060ca513/mzaf_325282788163235086.plus.aac.p.m4a"
+          "title": "Johnny Ryall",
+          "durationMs": 180026,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Make Some Noise",
-          "durationMs": 210333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/22/99/3922996c-9048-74c6-749f-a7710de5e590/mzaf_9284275750171699794.plus.aac.p.m4a"
+          "title": "Egg Man",
+          "durationMs": 177506,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Sure Shot",
-          "durationMs": 198707,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/41/b5/9941b537-f72e-85fd-bd63-9612db418e3a/mzaf_504846416791522622.plus.aac.p.m4a"
+          "title": "High Plains Drifter",
+          "durationMs": 253026,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Intergalactic",
-          "durationMs": 209840,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6c/ce/ab/6cceab83-418f-d584-1f2c-997603d9499d/mzaf_14598504534140738905.plus.aac.p.m4a"
+          "title": "The Sounds of Science",
+          "durationMs": 191866,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Ch-Check It Out",
-          "durationMs": 190933,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/87/09/26870943-e7e5-68a6-060b-4ccfb81a9124/mzaf_13706507172450269832.plus.aac.p.m4a"
+          "title": "3‐Minute Rule",
+          "durationMs": 219240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "(You Gotta ) Fight For Your Right (To Party)",
-          "durationMs": 210387,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bd/67/67/bd676760-043c-0857-ae4a-b74f5735b0ea/mzaf_11225828301425981994.plus.aac.p.m4a"
+          "title": "Hey Ladies",
+          "durationMs": 227360,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Pass The Mic",
-          "durationMs": 256160,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/3c/fb/a13cfb86-b874-9ef3-082c-c1a716439cbb/mzaf_7472401722947420612.plus.aac.p.m4a"
+          "title": "5‐Piece Chicken Dinner",
+          "durationMs": 23240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Don't Play No Game That I Can't Win (feat. Santigold)",
-          "durationMs": 252040,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/15/4b/3b/154b3b70-4f2b-2e99-912d-ed13124e8406/mzaf_6470195925866847860.plus.aac.p.m4a"
+          "title": "Looking Down the Barrel of a Gun",
+          "durationMs": 208200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Body Movin'",
-          "durationMs": 183680,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/e9/82/27e9829c-8b0c-c2c0-c291-92d0a99d7a45/mzaf_17985863935666243334.plus.aac.p.m4a"
+          "title": "Car Thief",
+          "durationMs": 219600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Sabotage",
-          "durationMs": 178493,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/95/27/9c9527f9-9322-a253-06e4-0d9527b76915/mzaf_8763520485302313298.plus.aac.p.m4a"
+          "title": "What Comes Around",
+          "durationMs": 187733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Hold It Now, Hit It",
-          "durationMs": 206067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/63/87/7e638712-5853-9850-465a-03bd4393a4eb/mzaf_16668856856892496039.plus.aac.p.m4a"
+          "title": "Shadrach",
+          "durationMs": 247733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Shadrach",
-          "durationMs": 248573,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/0a/71/8f0a71fe-7aec-4e1b-cd9b-aeb04313b96b/mzaf_8435916648273009792.plus.aac.p.m4a"
+          "title": "Ask for Janice",
+          "durationMs": 11333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "Root Down",
-          "durationMs": 211653,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1d/4c/f0/1d4cf09f-56d1-6606-0acb-8106ee5a018a/mzaf_239269065182207909.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Brass Monkey",
-          "durationMs": 157453,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e3/b8/24/e3b82409-07e9-fbef-9943-c95c94142cab/mzaf_17244830671821580897.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Get It Together (feat. Q-Tip)",
-          "durationMs": 245627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/69/74/01/697401e3-e726-b27e-eee3-74e100185adb/mzaf_14076234713897421532.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 18,
-          "title": "Jimmy James (Single Version)",
-          "durationMs": 184600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/80/21/1a802131-1d97-54ed-9d65-7f2748791987/mzaf_15689478314427123126.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 19,
-          "title": "Hey Ladies",
-          "durationMs": 227987,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bb/ca/a0/bbcaa00c-7c18-d156-9470-ec07316126c6/mzaf_37801168378000587.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 20,
-          "title": "No Sleep Till Brooklyn",
-          "durationMs": 246280,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/00/05/22000503-bf4b-0f57-5709-ddb037ddfdcd/mzaf_1301332882228294062.plus.aac.p.m4a"
+          "title": "B‐Boy Bouillabaisse",
+          "durationMs": 753426,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "b534aa01-d621-31ba-9278-38a500e3cdca"
@@ -14663,88 +14705,88 @@
       "artist": "Prince",
       "year": 1982,
       "genre": "Pop",
-      "appleCollectionId": 1372837552,
-      "appleCollectionUrl": "https://music.apple.com/us/album/nothing-compares-2-u-single/1372837552?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/a6/c1/daa6c196-2de6-8571-7642-b0b5c1b8278b/603497857982.jpg/600x600bb.jpg",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/ab9aa125-6f26-4145-879c-f0c05ff6ac60",
-      "coverPath": "/covers/128-prince-1999-91b2e168-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/561be5b7-a39c-3866-859d-d86f30816ae7",
+      "coverPath": "/covers/128-prince-1999-91b2e168.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
           "title": "1999",
-          "durationMs": null,
+          "durationMs": 375160,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
           "title": "Little Red Corvette",
-          "durationMs": null,
+          "durationMs": 303400,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
           "title": "Delirious",
-          "durationMs": null,
+          "durationMs": 240840,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Let's Pretend We're Married",
-          "durationMs": null,
+          "title": "Let’s Pretend We’re Married",
+          "durationMs": 441560,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
           "title": "D.M.S.R.",
-          "durationMs": null,
+          "durationMs": 497506,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
           "title": "Automatic",
-          "durationMs": null,
+          "durationMs": 568093,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
           "title": "Something in the Water (Does Not Compute)",
-          "durationMs": null,
+          "durationMs": 242840,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
           "title": "Free",
-          "durationMs": null,
+          "durationMs": 308266,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
           "title": "Lady Cab Driver",
-          "durationMs": null,
+          "durationMs": 499426,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
           "title": "All the Critics Love U in New York",
-          "durationMs": null,
+          "durationMs": 359066,
           "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
           "title": "International Lover",
-          "durationMs": null,
+          "durationMs": 397800,
           "previewUrl": null
         }
       ],
@@ -15438,125 +15480,62 @@
       "title": "Maggot Brain",
       "artist": "Funkadelic",
       "year": 1971,
-      "genre": null,
-      "appleCollectionId": 1596177928,
-      "appleCollectionUrl": "https://music.apple.com/album/1596177928",
+      "genre": "R&B/Soul",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "http://musicbrainz.org/release/f17855ba-2027-44c0-8a7d-bcdea711d716",
-      "coverPath": "/covers/134-funkadelic-maggot-brain-4a5b90a5-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/a334e612-e736-3b4f-82b4-c4dfb774983c",
+      "coverPath": "/covers/134-funkadelic-maggot-brain-4a5b90a5.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "I'll Bet You",
-          "durationMs": 373984,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/37/7c/a6/377ca65a-4aed-4580-b18c-5b224d012036/mzaf_6795497881338701572.plus.aac.p.m4a"
+          "title": "Maggot Brain",
+          "durationMs": 620200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "I Got a Thing, You Got a Thing, Everybody's Got a Thing",
-          "durationMs": 237824,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/51/a5/4a51a5ad-e0d8-a047-ea55-99e09b4b8197/mzaf_6038709379907100137.plus.aac.p.m4a"
+          "title": "Can You Get to That",
+          "durationMs": 170226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Funky Dollar Bill",
-          "durationMs": 188309,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a6/5c/50/a65c50d6-e978-4ad2-1b3e-866f7a60c4ed/mzaf_2211348441450250277.plus.aac.p.m4a"
+          "title": "Hit It and Quit It",
+          "durationMs": 230400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "I Wanna Know If It's Good To You",
-          "durationMs": 173355,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/16/c9/13/16c91380-9121-a483-f8ff-4040523ee1ff/mzaf_12479019991383277750.plus.aac.p.m4a"
+          "title": "You and Your Folks, Me and My Folks",
+          "durationMs": 216973,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Hit It and Quit It",
-          "durationMs": 232405,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f3/1f/c9/f31fc912-41ad-5cf9-d910-b432b780e969/mzaf_1813173502521243940.plus.aac.p.m4a"
+          "title": "Super Stupid",
+          "durationMs": 237293,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "You and Your Folks, Me and My Folks",
-          "durationMs": 219136,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/67/e5/9a/67e59a02-cad7-6b8b-efc3-213fbabbd50c/mzaf_4820198809160541317.plus.aac.p.m4a"
+          "title": "Back in Our Minds",
+          "durationMs": 158240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "A Joyful Process",
-          "durationMs": 173611,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/d9/fa/b3d9fa62-aa60-e716-9e73-db728c14b1f7/mzaf_5124016132909268164.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 8,
-          "title": "Loose Booty",
-          "durationMs": 290901,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/df/a0/ff/dfa0fffa-aa86-ef39-b5d0-deab740d0b7f/mzaf_964753832541725381.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 9,
-          "title": "You Can't Miss What You Can't Measure",
-          "durationMs": 186155,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/88/45/0c/88450c04-3a54-6800-c627-1cfcce88d32a/mzaf_7566317627074450716.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 10,
-          "title": "Cosmic Slop",
-          "durationMs": 320171,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c9/96/08/c9960873-ce1d-e26f-9691-7ab2acd47278/mzaf_3632730221329727421.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 11,
-          "title": "Red Hot Mama",
-          "durationMs": 204501,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cd/fa/7a/cdfa7a98-613d-48ea-89c7-f12ffe0fd454/mzaf_11784634896392463499.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Standing On the Verge of Getting It On",
-          "durationMs": 283285,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f1/9d/bf/f19dbf94-c961-cc01-30ac-f5bdd6a16811/mzaf_2094958316551867718.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Let's Take It To the Stage",
-          "durationMs": 217301,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a0/ed/4e/a0ed4e20-a1fc-5419-3324-17b50bdb4953/mzaf_18321948292808823896.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Get Off Your Ass and Jam",
-          "durationMs": 147072,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/63/bf/b8/63bfb8aa-6fd6-c5f8-e64d-d1ce663ef078/mzaf_15451061689492371977.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Undisco Kidd",
-          "durationMs": 397803,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0e/14/0e/0e140e1a-a4b8-03c1-13af-fb0c2c813493/mzaf_9173644200444643232.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Maggot Brain (Live)",
-          "durationMs": 239797,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/28/3c/e1/283ce111-e199-9ec0-b87a-86eaaa85bdcb/mzaf_13252658475940650056.plus.aac.p.m4a"
+          "title": "Wars of Armageddon",
+          "durationMs": 582866,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "a334e612-e736-3b4f-82b4-c4dfb774983c"
@@ -17028,119 +17007,99 @@
       "artist": "The Pretenders",
       "year": 1980,
       "genre": "Rock",
-      "appleCollectionId": 641792074,
-      "appleCollectionUrl": "https://music.apple.com/us/album/pretenders/641792074?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/7f/2c/73/7f2c7360-f42a-7464-0a43-0ea3e1378c93/829982143594.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/pretenders/641792074?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/448c8d23-3118-397f-9b81-a560c799f27a",
       "coverPath": "/covers/149-the-pretenders-pretenders-ab925375.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "One Last Moment Sometime",
-          "durationMs": 161960,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/c8/9b/73/c89b738d-f423-35b6-7c95-e7dbdc117c04/mzaf_7498331112226348772.plus.aac.p.m4a"
+          "title": "Precious",
+          "durationMs": 216306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "White Lies",
-          "durationMs": 299309,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/9a/3c/6e/9a3c6eb1-0f2d-82b2-0d61-15446fe3256c/mzaf_4422877946782481988.plus.aac.p.m4a"
+          "title": "The Phone Call",
+          "durationMs": 149266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Pretenders",
-          "durationMs": 210288,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/c7/ff/f7/c7fff7cd-9b05-35ea-b214-1f839f1763d6/mzaf_6866098085853736860.plus.aac.p.m4a"
+          "title": "Up the Neck",
+          "durationMs": 267266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Back in Nashville",
-          "durationMs": 225100,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/82/b7/46/82b7463c-c11c-3932-8046-6d0f94eadeb6/mzaf_3919941814544494214.plus.aac.p.m4a"
+          "title": "Tattooed Love Boys",
+          "durationMs": 179333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Before Edison",
-          "durationMs": 230817,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/48/b3/dd/48b3dd06-4437-437d-c267-e131ef3501c4/mzaf_3395588379061903150.plus.aac.p.m4a"
+          "title": "Space Invader",
+          "durationMs": 206866,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Prairie Night",
-          "durationMs": 256340,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/7c/53/c6/7c53c6ab-f9a7-de73-4c7f-2231f318549e/mzaf_2386139912649387465.plus.aac.p.m4a"
+          "title": "The Wait",
+          "durationMs": 215560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "At the End of Your Day",
-          "durationMs": 211393,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/f3/7c/53/f37c5350-96b5-6979-7e4f-7d708dec4cb6/mzaf_199769767015929881.plus.aac.p.m4a"
+          "title": "Stop Your Sobbing",
+          "durationMs": 158640,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "The Last Things",
-          "durationMs": 220257,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/3e/1d/1b/3e1d1bd4-ed69-8ce6-52ee-eaef8db61e2c/mzaf_920672048517114557.plus.aac.p.m4a"
+          "title": "Kid",
+          "durationMs": 186466,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Dusklovers",
-          "durationMs": 84026,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/ca/8d/46/ca8d46de-47fe-44df-3c51-a1b2f1f7631a/mzaf_1881315207595672681.plus.aac.p.m4a"
+          "title": "Private Life",
+          "durationMs": 385533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Anna Karina",
-          "durationMs": 131807,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/80/07/60/8007606e-6cc4-fa51-f118-16709d7db3e2/mzaf_8397329178281968037.plus.aac.p.m4a"
+          "title": "Brass in Pocket",
+          "durationMs": 184626,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Forget Goodbye",
-          "durationMs": 218320,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/65/ad/87/65ad87de-a41a-5f92-01d3-ff4311035bb7/mzaf_4261337504616872599.plus.aac.p.m4a"
+          "title": "Lovers of Today",
+          "durationMs": 351106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Heavy Branches",
-          "durationMs": 218442,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/23/7a/e4/237ae4e3-109a-9288-a2c3-0c1ea987ae1e/mzaf_478320575139292129.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Past Nostalgia",
-          "durationMs": 136461,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/54/f1/e7/54f1e7aa-64a5-a8cc-be2a-ec4d52b187f4/mzaf_4242429575292301550.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "The Shiver",
-          "durationMs": 197579,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/b1/6a/2e/b16a2e23-7666-7bce-53f8-312c717be0bc/mzaf_5328095165034922144.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Movie Song #3",
-          "durationMs": 187900,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/6f/59/08/6f59082c-16ec-e5a4-646c-dbe4a40705bf/mzaf_4904709552075670354.plus.aac.p.m4a"
+          "title": "Mystery Achievement",
+          "durationMs": 323800,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "448c8d23-3118-397f-9b81-a560c799f27a"
     },
     {
       "id": "150-pj-harvey-rid-of-me-1826b64c",
@@ -17148,113 +17107,114 @@
       "title": "Rid of Me",
       "artist": "PJ Harvey",
       "year": 1993,
-      "genre": "Rock",
-      "appleCollectionId": 1443834026,
-      "appleCollectionUrl": "https://music.apple.com/us/album/4-track-demos/1443834026?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/89/62/d7/8962d747-c219-582a-1ea6-94d48e8208d4/00731451845024.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/4-track-demos/1443834026?uo=4",
+      "genre": "Alternative",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c1bb54cc-751d-300c-ba29-d7502d571c2d",
       "coverPath": "/covers/150-pj-harvey-rid-of-me-1826b64c.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Rid of Me (4-Track Demo Version)",
-          "durationMs": 222400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/7d/76/2c7d7612-5ea8-b488-90ee-f671b7123567/mzaf_1214468889346657984.plus.aac.p.m4a"
+          "title": "Rid of Me",
+          "durationMs": 269493,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Legs (4-Track Demo Version)",
-          "durationMs": 230160,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/18/98/271898ce-c93d-038a-ac86-e543703e8d74/mzaf_11677304360518144515.plus.aac.p.m4a"
+          "title": "Missed",
+          "durationMs": 265840,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Reeling (4-Track Demo Version)",
-          "durationMs": 179307,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/6f/63/1f6f6339-2c19-2abd-80ad-8d81602488ec/mzaf_17923567608592227311.plus.aac.p.m4a"
+          "title": "Legs",
+          "durationMs": 220160,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Snake (4-Track Demo Version)",
-          "durationMs": 117933,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/40/63/bb/4063bb54-526a-f899-9962-4fc0398e7271/mzaf_7178864425762712459.plus.aac.p.m4a"
+          "title": "Rub ’Til It Bleeds",
+          "durationMs": 303666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Hook (4-Track Demo Version)",
-          "durationMs": 271960,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/83/4b/0c/834b0ccb-d9b3-a9b8-f996-bf4d213cae78/mzaf_1256221131829091810.plus.aac.p.m4a"
+          "title": "Hook",
+          "durationMs": 237333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "50ft Queenie (4-Track Demo Version)",
-          "durationMs": 168507,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/8e/82/e28e8289-31d4-c299-e213-489f8e0cbb4e/mzaf_12057329463205784608.plus.aac.p.m4a"
+          "title": "Man‐Size Sextet",
+          "durationMs": 139000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Driving (4-Track Demo Version)",
-          "durationMs": 159133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/ae/bd/85aebd63-20bf-79df-3c2f-4564be5861bb/mzaf_7019362991464849148.plus.aac.p.m4a"
+          "title": "Highway ’61 Revisited",
+          "durationMs": 177306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Ecstasy (4-Track Demo Version)",
-          "durationMs": 178333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/08/c1/a908c1fe-15eb-4cac-b293-7d6c2c32344b/mzaf_15690622254125694148.plus.aac.p.m4a"
+          "title": "50ft Queenie",
+          "durationMs": 143666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Hardly Wait (4-Track Demo Version)",
-          "durationMs": 168000,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/56/1d/02/561d026e-5764-bb2e-d846-340cdf03122b/mzaf_9135877187699321995.plus.aac.p.m4a"
+          "title": "Yuri‐G",
+          "durationMs": 208226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Rub 'Till It Bleeds (4-Track Demo Version)",
-          "durationMs": 312333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/dc/81/41dc811b-1db4-5f7d-0704-dac855147ac3/mzaf_9874264616354200345.plus.aac.p.m4a"
+          "title": "Man‐Size",
+          "durationMs": 196306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Easy (4-Track Demo Version)",
-          "durationMs": 196267,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/7a/31/577a310e-6474-dde4-cf6c-e2fa156619ac/mzaf_13598329016852497121.plus.aac.p.m4a"
+          "title": "Dry",
+          "durationMs": 203560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "M-Bike (4-Track Demo Version)",
-          "durationMs": 163400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/06/5b/06/065b0661-1d73-03b0-2fe4-eb02299ea862/mzaf_17835077803491680291.plus.aac.p.m4a"
+          "title": "Me‐Jane",
+          "durationMs": 162866,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Yuri-G (4-Track Demo Version)",
-          "durationMs": 232827,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/f2/9a/e9f29ab4-cc16-d7be-01ce-2c3151a3bf79/mzaf_7545757337746638388.plus.aac.p.m4a"
+          "title": "Snake",
+          "durationMs": 96733,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Goodnight (4-Track Demo Version)",
-          "durationMs": 258333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a4/23/8e/a4238ed8-8db0-c420-2246-d4b8315b3221/mzaf_2908593651770934200.plus.aac.p.m4a"
+          "title": "Ecstasy",
+          "durationMs": 267600,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "c1bb54cc-751d-300c-ba29-d7502d571c2d"
     },
     {
       "id": "151-aretha-franklin-amazing-grace-0b0eb309",
@@ -18162,132 +18122,97 @@
       "title": "Different Class",
       "artist": "Pulp",
       "year": 1995,
-      "genre": null,
-      "appleCollectionId": 1440767233,
-      "appleCollectionUrl": "https://music.apple.com/album/1440767233",
+      "genre": "Alternative",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/e26332fc-d9c5-4507-aeda-5f83df17a5a9",
-      "coverPath": "/covers/159-pulp-different-class-47b7d265-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/88f69eab-8f07-343b-847c-b944ad33dfcf",
+      "coverPath": "/covers/159-pulp-different-class-47b7d265.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Babies",
-          "durationMs": 245493,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/45/71/9e457169-983b-c9ef-7396-40aeb57889ca/mzaf_10021287021178692686.plus.aac.p.m4a"
+          "title": "Mis‐Shapes",
+          "durationMs": 227000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Razzamatazz",
-          "durationMs": 220000,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/46/f0/9646f0ee-c4bd-eaac-a7a4-b0618214a4cb/mzaf_1200949378872074424.plus.aac.p.m4a"
+          "title": "Pencil Skirt",
+          "durationMs": 191373,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Lipgloss",
-          "durationMs": 213200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/ae/9d/0dae9de6-2fe1-d896-0502-efe663510674/mzaf_13874102810484446440.plus.aac.p.m4a"
+          "title": "Common People",
+          "durationMs": 351626,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Do You Remember the First Time?",
-          "durationMs": 260867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/7c/bd/df7cbdb2-4c4b-2c91-d2d6-8fb96b7e5c56/mzaf_12577294725666113232.plus.aac.p.m4a"
+          "title": "I Spy",
+          "durationMs": 355240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Common People",
-          "durationMs": 350800,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/69/18/7469188f-7b9e-a200-dae8-8710da15b5f4/mzaf_1292802368291136038.plus.aac.p.m4a"
+          "title": "Disco 2000",
+          "durationMs": 273560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Underwear (Bonus Track)",
-          "durationMs": 245840,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/2e/3b/252e3b6f-5ed1-b7e0-d9ad-953185eec91f/mzaf_17323038746362844098.plus.aac.p.m4a"
+          "title": "Live Bed Show",
+          "durationMs": 209840,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Sorted for E's & Wizz",
-          "durationMs": 217667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/61/3a/13613a25-aaf8-5106-7878-7caf43188d10/mzaf_181517897508287558.plus.aac.p.m4a"
+          "title": "Something Changed",
+          "durationMs": 198626,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Disco 2000 (7\" Mix)",
-          "durationMs": 273600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/ae/cc/c5aecce0-d435-0408-8bd4-db3c332d0887/mzaf_14631928524601406858.plus.aac.p.m4a"
+          "title": "Sorted for E’s & Wizz",
+          "durationMs": 227840,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Something Changed",
-          "durationMs": 198733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/59/12/e0591279-4484-91eb-e288-cd76795844e0/mzaf_11104954737215542806.plus.aac.p.m4a"
+          "title": "F.E.E.L.I.N.G.C.A.L.L.E.D.L.O.V.E",
+          "durationMs": 361333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Help the Aged",
-          "durationMs": 267733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/c9/a9/44c9a9d2-2b37-9b56-0742-b37090dc4adb/mzaf_9162338019417853505.plus.aac.p.m4a"
+          "title": "Underwear",
+          "durationMs": 246160,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "This Is Hardcore",
-          "durationMs": 384667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/2a/13/932a13d4-1d03-570a-4741-92cd5461b78c/mzaf_6507549278006289779.plus.aac.p.m4a"
+          "title": "Monday Morning",
+          "durationMs": 258000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "A Little Soul",
-          "durationMs": 197400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/f2/09/37f20963-29e2-3b86-9985-1741277f14a4/mzaf_4127395949551327912.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Party Hard",
-          "durationMs": 240733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/95/44/4d954474-51d2-2546-ed0c-13d949373b94/mzaf_1037207242317930922.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "The Trees",
-          "durationMs": 288107,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/4f/62/da4f6253-4b17-90b6-4b9d-f1bcdfff57f7/mzaf_1270830003352389524.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Bad Cover Version",
-          "durationMs": 255293,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/4d/44/274d44e2-ecd7-d7a9-3fbf-45bc850fc1fc/mzaf_294148851099923538.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Sunrise",
-          "durationMs": 350733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/aa/bc/4aaabcb6-51ca-d190-5822-22eb6abd7ba7/mzaf_8542872437899617160.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Last Day of the Miners Strike",
-          "durationMs": 355400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/48/95/4548952a-e9f8-fb27-6d7c-004b4882c17d/mzaf_13851424543746280512.plus.aac.p.m4a"
+          "title": "Bar Italia",
+          "durationMs": 222000,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "88f69eab-8f07-343b-847c-b944ad33dfcf"
@@ -18398,104 +18323,153 @@
       "title": "20 Golden Greats",
       "artist": "Buddy Holly",
       "year": 1978,
-      "genre": null,
-      "appleCollectionId": 1444062703,
-      "appleCollectionUrl": "https://music.apple.com/album/1444062703",
+      "genre": "Rock",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/06e837a6-ab33-4f96-aaf3-72a4ecabfe10",
-      "coverPath": "/covers/161-buddy-holly-20-golden-greats-83b1a203-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/5e762b33-2f63-3124-9912-251dbb1c0a83",
+      "coverPath": "/covers/161-buddy-holly-20-golden-greats-83b1a203.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "You Are My One Desire",
-          "durationMs": 145067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/fc/bd/b9fcbd1f-8aa7-00f7-c2ce-728fc408efde/mzaf_10532531804507966940.plus.aac.p.m4a"
+          "title": "That’ll Be the Day",
+          "durationMs": 138800,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Blue Days, Black Nights",
-          "durationMs": 125760,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a2/56/e4/a256e4c3-0790-76ab-db5e-2487f3409682/mzaf_2753295091293932336.plus.aac.p.m4a"
+          "title": "Peggy Sue",
+          "durationMs": 153040,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Modern Don Juan",
-          "durationMs": 160733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e1/d1/62/e1d16211-986a-db0e-879c-6577aa52a719/mzaf_17753934533005088803.plus.aac.p.m4a"
+          "title": "Words of Love",
+          "durationMs": 118000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Rock Around With Ollie Vee (Alternate Version)",
-          "durationMs": 138067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/79/55/1e7955f8-1f01-bdbf-ed64-6b510ae07ad1/mzaf_3758078413568754374.plus.aac.p.m4a"
+          "title": "Everyday",
+          "durationMs": 130426,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Ting-A-Ling",
-          "durationMs": 163667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/00/8f/b7/008fb71a-c32f-40fb-c62b-40a8ec96942a/mzaf_5310074631854107404.plus.aac.p.m4a"
+          "title": "Not Fade Away",
+          "durationMs": 143600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Girl On My Mind",
-          "durationMs": 138400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/35/84/7b/35847b8d-5cdb-9e21-cc9b-c2d2549e226e/mzaf_1833189182520493520.plus.aac.p.m4a"
+          "title": "Oh Boy!",
+          "durationMs": 130933,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "That'll Be the Day (Album Version)",
-          "durationMs": 150133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/6c/ed/1f6cedb3-23de-3f0c-c713-aae1c1cb8aa2/mzaf_6094892801962347183.plus.aac.p.m4a"
+          "title": "Maybe Baby",
+          "durationMs": 125000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Love Me",
-          "durationMs": 127867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/16/21/58/1621581a-3f4e-85c5-e4f4-60f1a7a10306/mzaf_6549872849637940051.plus.aac.p.m4a"
+          "title": "Listen to Me",
+          "durationMs": 144040,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Changing All Those Changes (Single Version)",
-          "durationMs": 134467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/21/37/f12137a2-bd2c-c7c1-c398-10bb8f79681f/mzaf_16191530509056222316.plus.aac.p.m4a"
+          "title": "Heartbeat",
+          "durationMs": 131333,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Don't Come Back Knockin'",
-          "durationMs": 135093,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/37/ea/5a37ea72-ecf3-ae32-5a3f-b0fb6f076201/mzaf_16715588078897415079.plus.aac.p.m4a"
+          "title": "Think It Over",
+          "durationMs": 108960,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Midnight Shift",
-          "durationMs": 132400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/98/86/b5/9886b52c-fc69-b399-71f4-42ca7dd040b3/mzaf_6993108396131294667.plus.aac.p.m4a"
+          "title": "It Doesn’t Matter Anymore",
+          "durationMs": 126133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Rock Around With Ollie Vee",
-          "durationMs": 132573,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/15/4d/0d/154d0d85-b10a-3f47-d293-598f969ac9b6/mzaf_7136608814686241634.plus.aac.p.m4a"
+          "title": "It’s So Easy",
+          "durationMs": 132533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Changing All Those Changes",
-          "durationMs": 102773,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/51/f0/1f51f0b1-34fa-53f6-4b3d-cf755da66b0e/mzaf_16769051759180770598.plus.aac.p.m4a"
+          "title": "Well… All Right",
+          "durationMs": 135973,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 14,
+          "title": "Rave On",
+          "durationMs": 113000,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 15,
+          "title": "Raining in My Heart",
+          "durationMs": 170026,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 16,
+          "title": "True Love Ways",
+          "durationMs": 184933,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 17,
+          "title": "Peggy Sue Got Married",
+          "durationMs": 128306,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 18,
+          "title": "Bo Diddley",
+          "durationMs": 143200,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 19,
+          "title": "Brown Eyed Handsome Man",
+          "durationMs": 127600,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 20,
+          "title": "Wishing",
+          "durationMs": 120200,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "5e762b33-2f63-3124-9912-251dbb1c0a83"
@@ -21567,50 +21541,121 @@
       "title": "Body Talk",
       "artist": "Robyn",
       "year": 2010,
-      "genre": "Dance",
-      "appleCollectionId": 1443715051,
-      "appleCollectionUrl": "https://music.apple.com/us/album/body-talk-pt-3-ep/1443715051?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/75/1b/36/751b36a3-4af7-0a32-09ba-2bbfdf791d08/00602527588995.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/body-talk-pt-3-ep/1443715051?uo=4",
+      "genre": "Pop",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/1e151a63-e906-4903-b108-b3ecf21218b4",
       "coverPath": "/covers/190-robyn-body-talk-7b7f26d0.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Indestructible",
-          "durationMs": 220813,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7c/86/c4/7c86c4ad-dbfa-3fa2-507d-5b2a312395eb/mzaf_10059493441940344649.plus.aac.p.m4a"
+          "title": "Dancing on My Own (radio version)",
+          "durationMs": 279440,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Time Machine",
-          "durationMs": 214560,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/01/16/2b/01162b27-9414-d39f-bb37-f8f98facca80/mzaf_17713727766586041564.plus.aac.p.m4a"
+          "title": "Fembot",
+          "durationMs": 214306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Call Your Girlfriend",
-          "durationMs": 226547,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/cc/93/8dcc9326-d424-c2e8-e84e-dcad81acf36e/mzaf_15658353199277764.plus.aac.p.m4a"
+          "title": "Don’t Fucking Tell Me What to Do",
+          "durationMs": 251306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Get Myself Together",
-          "durationMs": 220560,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/ec/bd/b7ecbde8-83a9-8afa-977a-5bd75b59d855/mzaf_8181145843964387379.plus.aac.p.m4a"
+          "title": "Indestructible",
+          "durationMs": 220800,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Stars 4-Ever",
-          "durationMs": 239867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/47/07/c3/4707c3c9-803c-7609-9500-e8603616d4f0/mzaf_16873383843699844745.plus.aac.p.m4a"
+          "title": "Time Machine",
+          "durationMs": 216400,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 6,
+          "title": "Love Kills",
+          "durationMs": 268386,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 7,
+          "title": "Hang With Me",
+          "durationMs": 261373,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 8,
+          "title": "Call Your Girlfriend",
+          "durationMs": 227346,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 9,
+          "title": "None of Dem",
+          "durationMs": 311920,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 10,
+          "title": "We Dance to the Beat",
+          "durationMs": 267706,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 11,
+          "title": "U Should Know Better",
+          "durationMs": 241080,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 12,
+          "title": "Dancehall Queen",
+          "durationMs": 218946,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 13,
+          "title": "Get Myself Together",
+          "durationMs": 220800,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 14,
+          "title": "In My Eyes",
+          "durationMs": 237453,
+          "previewUrl": null
+        },
+        {
+          "discNumber": 1,
+          "trackNumber": 15,
+          "title": "Stars 4‐Ever",
+          "durationMs": 239626,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "1e151a63-e906-4903-b108-b3ecf21218b4"
     },
     {
       "id": "191-the-beatles-meet-the-beatles-19b8da50",
@@ -21619,112 +21664,99 @@
       "artist": "The Beatles",
       "year": 1964,
       "genre": "Rock",
-      "appleCollectionId": 1441165005,
-      "appleCollectionUrl": "https://music.apple.com/us/album/beatles-for-sale/1441165005?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/79/2c/10/792c1019-387f-e819-ac8f-bc989f20a970/00602567725190.rgb.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/beatles-for-sale/1441165005?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d",
       "coverPath": "/covers/191-the-beatles-meet-the-beatles-19b8da50.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "No Reply",
-          "durationMs": 135067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/c6/e9/34c6e91e-daf2-91a2-0d66-875a91f4e80e/mzaf_6474437941271288840.plus.aac.p.m4a"
+          "title": "I Want to Hold Your Hand",
+          "durationMs": 149000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "I'm a Loser",
-          "durationMs": 150027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/79/2c/94792c2b-1159-cbb9-b52a-a948efd60aca/mzaf_16512768065106571061.plus.aac.p.m4a"
+          "title": "I Saw Her Standing There",
+          "durationMs": 177000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Baby's In Black",
-          "durationMs": 124520,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/dd/f0/fdddf0f7-9283-6c20-6cb8-f427ba2780e7/mzaf_18027109006086837275.plus.aac.p.m4a"
+          "title": "This Boy",
+          "durationMs": 138000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Rock and Roll Music",
-          "durationMs": 151280,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/dc/5a/19dc5a01-2aea-bd8c-aa6d-ec5c26759fb7/mzaf_17625679185504407153.plus.aac.p.m4a"
+          "title": "It Won’t Be Long",
+          "durationMs": 136000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "I'll Follow the Sun",
-          "durationMs": 108853,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/49/78/15497857-f8da-634e-563e-8c07ba9c9e6a/mzaf_10436326774219307236.plus.aac.p.m4a"
+          "title": "All I’ve Got to Do",
+          "durationMs": 128000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Mr. Moonlight",
-          "durationMs": 158627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/00/03/86000330-6779-0f19-d671-5ceeca114d58/mzaf_15413393286858992796.plus.aac.p.m4a"
+          "title": "All My Loving",
+          "durationMs": 130000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Kansas City / Hey-Hey-Hey-Hey!",
-          "durationMs": 158147,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/86/d9/9a86d975-9c2e-57b2-55d0-595a91272b21/mzaf_15340324531032160893.plus.aac.p.m4a"
+          "title": "Don’t Bother Me",
+          "durationMs": 151000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Eight Days a Week",
-          "durationMs": 163600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/4a/87/6b4a8700-626f-0b17-c97d-1656a7cb35e3/mzaf_11322670199747599622.plus.aac.p.m4a"
+          "title": "Little Child",
+          "durationMs": 110000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Words of Love",
-          "durationMs": 124320,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/4f/89/104f893a-098d-ca2b-313b-315a9f39f9c1/mzaf_14285376985516371589.plus.aac.p.m4a"
+          "title": "Till There Was You",
+          "durationMs": 140000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Honey Don't",
-          "durationMs": 177427,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/e0/f5/04e0f54f-78c4-1a27-b5d8-1c0fbdcac1a9/mzaf_8104350146242348516.plus.aac.p.m4a"
+          "title": "Hold Me Tight",
+          "durationMs": 154000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Every Little Thing",
-          "durationMs": 123800,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e6/5c/1a/e65c1a5a-12d9-e86d-ff0a-20ee80a9676c/mzaf_6879868799572843788.plus.aac.p.m4a"
+          "title": "I Wanna Be Your Man",
+          "durationMs": 122000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "I Don't Want to Spoil the Party",
-          "durationMs": 154467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/d3/b6/e7d3b6a0-bc64-c69c-38f0-2b80a7601076/mzaf_13971530967394963193.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "What You're Doing",
-          "durationMs": 150040,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/8d/38/288d38ad-8de6-ab06-35d9-af53a0e2a0a8/mzaf_5557106417690126469.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Everybody's Trying to Be My Baby",
-          "durationMs": 143999,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/78/94/d478941e-b503-51ca-a75f-a2cc9fb08215/mzaf_12338157233610117891.plus.aac.p.m4a"
+          "title": "Not a Second Time",
+          "durationMs": 127000,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d"
     },
     {
       "id": "192-the-b-52-s-the-b-52-s-e6c2c51f",
@@ -21811,174 +21843,111 @@
       "title": "Slanted and Enchanted",
       "artist": "Pavement",
       "year": 1992,
-      "genre": null,
-      "appleCollectionId": 1589186066,
-      "appleCollectionUrl": "https://music.apple.com/album/1589186066",
+      "genre": "Alternative",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/547b6b75-d81d-4d9e-a3a5-c2115224edaf",
-      "coverPath": "/covers/193-pavement-slanted-and-enchanted-b504cf59-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+      "coverPath": "/covers/193-pavement-slanted-and-enchanted-b504cf59.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "You're Killing Me",
-          "durationMs": 200080,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8e/65/27/8e65273b-2f78-9877-d3cf-644dea97c4dc/mzaf_14322594363799292345.plus.aac.p.m4a"
+          "title": "Summer Babe (Winter version)",
+          "durationMs": 196173,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Box Elder",
-          "durationMs": 146480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/15/87/fe/1587fe58-0e3d-5f3b-16af-361c3cc22c1a/mzaf_14119330992568146476.plus.aac.p.m4a"
+          "title": "Trigger Cut / Wounded‐Kite at :17",
+          "durationMs": 196400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Maybe Maybe",
-          "durationMs": 134960,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/c9/aa/bec9aa9f-cf78-0436-b1db-b56c575df32e/mzaf_9890039698240103903.plus.aac.p.m4a"
+          "title": "No Life Singed Her",
+          "durationMs": 129266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "She Believes",
-          "durationMs": 182373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/53/55/86535518-0200-a3b6-dd37-5f0f8fa9b627/mzaf_480198036944263964.plus.aac.p.m4a"
+          "title": "In the Mouth a Desert",
+          "durationMs": 232000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Price Yeah!",
-          "durationMs": 180467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ed/92/fb/ed92fb3e-8306-9189-97eb-6460e6d55daf/mzaf_9680241333048053821.plus.aac.p.m4a"
+          "title": "Conduit for Sale!",
+          "durationMs": 172533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Forklift",
-          "durationMs": 207707,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0e/2c/f9/0e2cf96d-8a7b-67b1-138b-f433e6f23369/mzaf_2951477573152877802.plus.aac.p.m4a"
+          "title": "Zurich Is Stained",
+          "durationMs": 101360,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Spizzle Trunk",
-          "durationMs": 83613,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/52/bc/da52bc79-5cd5-e49e-0981-9b7603c21013/mzaf_16942435569269155451.plus.aac.p.m4a"
+          "title": "Chesley’s Little Wrists",
+          "durationMs": 76000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Recorder Grot",
-          "durationMs": 128427,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/8b/e7/3f8be7ea-a23b-3041-bf93-9e32f70403d3/mzaf_660312213771176528.plus.aac.p.m4a"
+          "title": "Loretta’s Scars",
+          "durationMs": 175106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Internal K-Dart",
-          "durationMs": 109360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/04/c5/7304c54f-3cbe-68be-31cd-d982ad6b9068/mzaf_8946021225690924446.plus.aac.p.m4a"
+          "title": "Here",
+          "durationMs": 236066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Perfect Depth",
-          "durationMs": 164640,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/75/df/1175dfda-2626-3a6d-df3d-217d54f0e2e6/mzaf_1241958540070790446.plus.aac.p.m4a"
+          "title": "Two States",
+          "durationMs": 107560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Recorder Grot (Rally)",
-          "durationMs": 21893,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/74/b3/7174b3d9-596c-7d2f-d479-04913d7492d6/mzaf_10581506822846491903.plus.aac.p.m4a"
+          "title": "Perfume‐V",
+          "durationMs": 129973,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Heckler Spray",
-          "durationMs": 66413,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/6f/04/e56f04dd-2c29-b651-7b86-331c86877242/mzaf_7745328110753341077.plus.aac.p.m4a"
+          "title": "Fame Throwa",
+          "durationMs": 202400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "From Now On",
-          "durationMs": 123600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/f8/d3/cbf8d37d-6188-e418-ed44-153ef76c819a/mzaf_14366672799396847287.plus.aac.p.m4a"
+          "title": "Jackals, False Grails: The Lonesome Era",
+          "durationMs": 201933,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Angel Carver Blues/Mellow Jazz Docent",
-          "durationMs": 150600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/2c/9c/fd2c9cac-c074-7fef-bd16-14a18aecfe58/mzaf_11010965652920836026.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Drive-By-Fader",
-          "durationMs": 28187,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/48/8c/d1488c1f-8d82-2ba9-df81-59b55aea185c/mzaf_1858150150640092664.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Debris Slide",
-          "durationMs": 116347,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/a4/5f/55a45fce-36f5-278a-dff4-9da4db820c3f/mzaf_7860361974225985457.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Home",
-          "durationMs": 143920,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/ed/41/d1ed415a-c836-0510-3595-d097369168d3/mzaf_2042775647710422323.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 18,
-          "title": "Krell Vid-User",
-          "durationMs": 86760,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/79/3a/71/793a7174-49f4-f0ed-7947-403725859047/mzaf_17800991335957502139.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 19,
-          "title": "Summer Babe",
-          "durationMs": 193933,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/05/7f/5e057f83-26e4-2b8a-0a0e-9296b587f92d/mzaf_16474421556466818192.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 20,
-          "title": "Mercy Snack: The Laundromat",
-          "durationMs": 99267,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/10/d9/4d/10d94d33-8cfb-e07c-6b08-d9e22b01bb93/mzaf_10163638506442717935.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 21,
-          "title": "Baptist Blacktick",
-          "durationMs": 123053,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/bc/83/04bc83e4-eb37-8ad7-8a3d-63cb3dfe966e/mzaf_15454163100894911771.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 22,
-          "title": "My First Mine",
-          "durationMs": 140533,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/64/ca/f564caaa-2c24-a50e-3cb1-ad99c94e791f/mzaf_1932733647978974955.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 23,
-          "title": "My Radio",
-          "durationMs": 82040,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/90/11/bf9011f8-d00c-807e-f21f-d27f19cb9b2b/mzaf_11402112404115464273.plus.aac.p.m4a"
+          "title": "Our Singer",
+          "durationMs": 189066,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "869f9eac-2a40-3a41-80a3-6bf2297a7cbc"
@@ -21990,126 +21959,78 @@
       "artist": "Sade",
       "year": 1984,
       "genre": "R&B/Soul",
-      "appleCollectionId": 604770232,
-      "appleCollectionUrl": "https://music.apple.com/album/604770232",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/d5/a1/4dd5a1b7-7134-f0ec-b55c-54ac47cc88a5/886448655886.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/diamond-life/1524651063?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/af2a0c41-e612-3232-949d-bdca340c407c",
       "coverPath": "/covers/194-sade-diamond-life-94eccc39.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Your Love Is King",
-          "durationMs": 219893,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5b/03/81/5b0381f7-c7eb-07f1-b15b-5be6ce152e65/mzaf_3778494995477364693.plus.aac.p.m4a"
+          "title": "Smooth Operator",
+          "durationMs": 301466,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Hang On to Your Love",
-          "durationMs": 270467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e5/6f/db/e56fdb33-86d3-853b-7e43-55b4a32317f5/mzaf_7158524900889064548.plus.aac.p.m4a"
+          "title": "Your Love Is King",
+          "durationMs": 241226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Smooth Operator (Single Version)",
-          "durationMs": 258693,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7d/9a/50/7d9a50b9-75bd-c4c8-5c72-ac200a333474/mzaf_10550216675185697487.plus.aac.p.m4a"
+          "title": "Hang On to Your Love",
+          "durationMs": 362586,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Jezebel",
-          "durationMs": 329107,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0a/9e/db/0a9edb5a-d6d4-13df-e5cb-08bd92ae3f24/mzaf_13493877453010713878.plus.aac.p.m4a"
+          "title": "Frankie’s First Affair",
+          "durationMs": 279800,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "The Sweetest Taboo",
-          "durationMs": 276640,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/93/37/c4/9337c441-0696-219f-4b1e-6289fcf82f14/mzaf_13646786107776331640.plus.aac.p.m4a"
+          "title": "When Am I Going to Make a Living",
+          "durationMs": 206853,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Is It a Crime?",
-          "durationMs": 381560,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/89/1a/66/891a662a-ef46-efda-d9dd-fbd26ffd8ff8/mzaf_14301066228032233262.plus.aac.p.m4a"
+          "title": "Cherry Pie",
+          "durationMs": 380826,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Never As Good As the First Time",
-          "durationMs": 237560,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/98/ed/81/98ed8199-1917-f406-9711-bb6b89e9368b/mzaf_14930809462459878211.plus.aac.p.m4a"
+          "title": "Sally",
+          "durationMs": 323360,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Love Is Stronger Than Pride",
-          "durationMs": 258227,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/66/97/e5/6697e53c-422a-e2b3-f98e-9ae6ed71e048/mzaf_1352807746712037506.plus.aac.p.m4a"
+          "title": "I Will Be Your Friend",
+          "durationMs": 285666,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Paradise",
-          "durationMs": 217467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/61/9d/85619d57-c0f6-1638-e43d-abbe4c4a3cbf/mzaf_1666879067709021497.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 10,
-          "title": "Nothing Can Come Between Us",
-          "durationMs": 234667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/7f/4b/fb7f4bb5-e2e8-c1b7-4ed3-ef0839d89a17/mzaf_16433786954575405442.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 11,
-          "title": "No Ordinary Love",
-          "durationMs": 440667,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e7/bf/f7/e7bff7b1-6fa2-07d2-0722-d11061db2ba6/mzaf_17668426458453852064.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Like a Tattoo",
-          "durationMs": 218427,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/42/8f/05/428f05c5-eb97-46e3-68ed-337cf589624c/mzaf_8829951975754851726.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Kiss of Life",
-          "durationMs": 251333,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ff/17/b0/ff17b020-0a01-ae59-5f82-7277c9c5dc4d/mzaf_13361184779672265889.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Please Send Me Someone to Love",
-          "durationMs": 220827,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/16/c8/67/16c8672f-8441-1018-67ed-144373727162/mzaf_16527605129586372764.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Cherish the Day",
-          "durationMs": 378373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e2/e7/6b/e2e76bdf-8a8d-5c50-d4dd-d5002bcde946/mzaf_10671366664725199713.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Pearls",
-          "durationMs": 273827,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/44/a4/6f/44a46f7a-6356-fbe7-b674-5a9a9fb893a4/mzaf_9353853625352148269.plus.aac.p.m4a"
+          "title": "Why Can’t We Live Together?",
+          "durationMs": 329266,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "af2a0c41-e612-3232-949d-bdca340c407c"
     },
     {
       "id": "195-a-tribe-called-quest-midnight-marauders-a267b50d",
@@ -22117,146 +22038,111 @@
       "title": "Midnight Marauders",
       "artist": "A Tribe Called Quest",
       "year": 1993,
-      "genre": null,
-      "appleCollectionId": 266768420,
-      "appleCollectionUrl": "https://music.apple.com/album/266768420",
+      "genre": "Hip-Hop/Rap",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "http://musicbrainz.org/release/f2ab0d46-23e4-4fd4-a6f9-0e64508acf9c",
-      "coverPath": "/covers/195-a-tribe-called-quest-midnight-marauders-a267b50d-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/c2afedfb-034a-3683-ad47-e4404cd7c485",
+      "coverPath": "/covers/195-a-tribe-called-quest-midnight-marauders-a267b50d.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Check the Rhime",
-          "durationMs": 219093,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4c/28/08/4c28084c-2633-054a-e893-84577e4e2035/mzaf_4608921413818606765.plus.aac.p.m4a"
+          "title": "Midnight Marauders Tour Guide",
+          "durationMs": 45066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Bonita Applebum",
-          "durationMs": 217240,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4f/73/77/4f737711-dfc1-3ab6-74d8-bdda48d0624a/mzaf_10016767436937091612.plus.aac.p.m4a"
+          "title": "Steve Biko (Stir It Up)",
+          "durationMs": 191533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Award Tour (LP Version)",
-          "durationMs": 207960,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/7c/ab/22/7cab22a2-261b-50f2-1c25-02615419700f/mzaf_6456294374643665766.plus.aac.p.m4a"
+          "title": "Award Tour",
+          "durationMs": 226226,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Can I Kick It?",
-          "durationMs": 265349,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b3/ac/71/b3ac714e-ed4c-364c-d0d3-fe2c157d24da/mzaf_12552786771696406148.plus.aac.p.m4a"
+          "title": "8 Million Stories",
+          "durationMs": 262000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Scenario (LP Mix)",
-          "durationMs": 250373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/58/b0/e6/58b0e6b8-ef2b-0f97-f440-d111ee3eb15d/mzaf_2856479667688613950.plus.aac.p.m4a"
+          "title": "Sucka Nigga",
+          "durationMs": 244773,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Buggin' Out",
-          "durationMs": 218760,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d6/74/2c/d6742c0d-f87a-33e9-8967-f7daa1605579/mzaf_4258255652513610176.plus.aac.p.m4a"
+          "title": "Midnight",
+          "durationMs": 265026,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "If the Papes Come",
-          "durationMs": 254173,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b0/e2/d7/b0e2d7d3-30ae-4c24-bdd6-e04045ecbc3d/mzaf_1275972212107434197.plus.aac.p.m4a"
+          "title": "We Can Get Down",
+          "durationMs": 259240,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
           "title": "Electric Relaxation",
-          "durationMs": 226133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a3/ba/d8/a3bad8d1-3a7b-5f3e-468c-b441a4b11490/mzaf_16161146981212544886.plus.aac.p.m4a"
+          "durationMs": 243533,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Jazz (We've Got)",
-          "durationMs": 250867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/52/fd/24/52fd24bd-8ea2-6643-3603-4802ea85a4fb/mzaf_13666014169304029312.plus.aac.p.m4a"
+          "title": "Clap Your Hands",
+          "durationMs": 196493,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "I Left My Wallet in El Segundo",
-          "durationMs": 246200,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e3/41/69/e34169d7-86a3-a20b-33b5-cc03244ecd89/mzaf_12698361682540834086.plus.aac.p.m4a"
+          "title": "Oh My God",
+          "durationMs": 210466,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Hot Sex",
-          "durationMs": 165627,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3f/7d/63/3f7d6392-2cd4-266d-58fd-36646276069b/mzaf_10542852936047472825.plus.aac.p.m4a"
+          "title": "Keep It Rollin’",
+          "durationMs": 186066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Oh My God",
-          "durationMs": 205507,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/78/f5/ea/78f5eaf5-19a1-5f50-de06-fd85127c851e/mzaf_5480903850248744699.plus.aac.p.m4a"
+          "title": "The Chase, Part II",
+          "durationMs": 242373,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Stressed Out (feat. Faith Evans) [LP Version]",
-          "durationMs": 293027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/53/f3/f2/53f3f2e7-2c58-9241-4148-ea4eb11dca3c/mzaf_8541377279274093065.plus.aac.p.m4a"
+          "title": "Lyrics to Go",
+          "durationMs": 249933,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Luck of Lucien",
-          "durationMs": 273173,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d7/8b/04/d78b04f4-3b7f-e14e-ec3c-228aa2aa6f59/mzaf_2818805055208683147.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Description of a Fool",
-          "durationMs": 341733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/23/00/44/230044eb-9d4b-e7cd-4a71-5fd47eb91446/mzaf_9566418407199340389.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Keeping It Moving",
-          "durationMs": 227867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f3/89/78/f3897830-7f83-09d9-4a18-49267841931f/mzaf_11504394443637897200.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 17,
-          "title": "Find a Way",
-          "durationMs": 203733,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/78/24/af/7824af72-10ae-7f42-6b55-49e153954630/mzaf_9657684298576455280.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 18,
-          "title": "Sucka N***a",
-          "durationMs": 236093,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a4/c0/bf/a4c0bf86-ec59-0c8d-a8bf-5eda7578ee24/mzaf_5856024655986422653.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 19,
-          "title": "Vivrant Thing (feat. Q-Tip)",
-          "durationMs": 190867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b4/2b/2b/b42b2b7a-266a-6e6f-925a-b9665605e6b6/mzaf_18133662484197970323.plus.aac.p.m4a"
+          "title": "God Lives Through",
+          "durationMs": 255360,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "c2afedfb-034a-3683-ad47-e4404cd7c485"
@@ -22268,126 +22154,85 @@
       "artist": "Björk",
       "year": 1997,
       "genre": "Alternative",
-      "appleCollectionId": 1726654860,
-      "appleCollectionUrl": "https://music.apple.com/gb/album/homogenic-live/1726654860?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/12/38/d0/1238d076-0a43-5758-1876-5ab6d256d648/5016958995157.png/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/gb/album/homogenic-live/1726654860?uo=4",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/810272e0-aef1-3d85-b2d3-e512e87fc38c",
       "coverPath": "/covers/196-bjork-homogenic-e339214b.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Vísur Vatnsenda Rósu (Live)",
-          "durationMs": 112147,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/72/27/2e/72272e4b-b820-4b9a-9e7f-b3e721b9287e/mzaf_6584371391886580122.plus.aac.p.m4a"
+          "title": "Hunter",
+          "durationMs": 255306,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Hunter (Live)",
-          "durationMs": 257787,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/45/3b/94/453b945b-da9c-e835-e972-ffdcffcd7f26/mzaf_4020716862419257854.plus.aac.p.m4a"
+          "title": "Jóga",
+          "durationMs": 305626,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "You've Been Flirting Again (Live)",
-          "durationMs": 214867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/73/60/de/7360de6a-9698-eda6-6bc3-721221ff84a5/mzaf_7706802358835592083.plus.aac.p.m4a"
+          "title": "Unravel",
+          "durationMs": 197973,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Isobel (Live)",
-          "durationMs": 295747,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/05/ec/cd/05eccd57-3c87-276a-80b8-f2c0fca00301/mzaf_17258685652549198459.plus.aac.p.m4a"
+          "title": "Bachelorette",
+          "durationMs": 316493,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "All Neon Like (Live)",
-          "durationMs": 296027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/19/4e/dc/194edc69-3b8a-112c-4f54-0c6bd8280946/mzaf_11362519698154887103.plus.aac.p.m4a"
+          "title": "All Neon Like",
+          "durationMs": 353000,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Possibly Maybe (Live)",
-          "durationMs": 343493,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/82/10/00/821000c3-1d52-f7ab-b63b-bbf94af9f8b9/mzaf_17712196004138310694.plus.aac.p.m4a"
+          "title": "5 Years",
+          "durationMs": 269200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "5 Years (Live)",
-          "durationMs": 249600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/de/e5/95/dee59557-a679-9ed3-60a5-61dbe077a343/mzaf_3222796996607111735.plus.aac.p.m4a"
+          "title": "Immature",
+          "durationMs": 186266,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Come to Me (Live)",
-          "durationMs": 260307,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/11/6a/ea/116aea92-0a3a-765a-69e8-370c499cec88/mzaf_12187061808135984856.plus.aac.p.m4a"
+          "title": "Alarm Call",
+          "durationMs": 259640,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Immature (Live)",
-          "durationMs": 179867,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/95/8d/ca/958dcaf1-4f33-5c97-ba7f-da552f51a81f/mzaf_17336724739652674726.plus.aac.p.m4a"
+          "title": "Pluto",
+          "durationMs": 199200,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "I Go Humble (Live)",
-          "durationMs": 264373,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/ef/ec/c5efec2a-4b06-3996-9938-18f240c3ece4/mzaf_12029770837097194008.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 11,
-          "title": "Bachelorette (Live)",
-          "durationMs": 317213,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/05/7f/fa/057ffa0a-c980-b692-e30b-ff039e28958e/mzaf_2096243310855223882.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Human Behaviour (Live)",
-          "durationMs": 232360,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ca/34/23/ca342348-e88d-a4aa-72b5-ba22471234c6/mzaf_12281545099273882678.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Pluto (Live)",
-          "durationMs": 235613,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0d/16/99/0d16997f-7bf0-6bb9-23a4-910aeef62916/mzaf_1659695057926764125.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Jóga (Live)",
-          "durationMs": 265120,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cf/6a/2c/cf6a2ceb-db9b-fbc1-9b10-dfc888dd5b30/mzaf_15698092009000268013.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "So Broken (Live)",
-          "durationMs": 267147,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/43/cf/98/43cf98af-10cb-c732-8869-79c831a60b79/mzaf_1376826536657544303.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 16,
-          "title": "Anchor Song (Live)",
-          "durationMs": 353480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/58/47/8d584756-e0bd-d789-74f6-6097697c126f/mzaf_2033384808935762669.plus.aac.p.m4a"
+          "title": "All Is Full of Love",
+          "durationMs": 272133,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "810272e0-aef1-3d85-b2d3-e512e87fc38c"
     },
     {
       "id": "197-nick-drake-pink-moon-4576ff4a",
@@ -22695,118 +22540,83 @@
       "title": "Rage Against the Machine",
       "artist": "Rage Against the Machine",
       "year": 1992,
-      "genre": null,
-      "appleCollectionId": 1536376019,
-      "appleCollectionUrl": "https://music.apple.com/album/1536376019",
+      "genre": "Rock",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
       "appleArtworkUrl": null,
       "coverSource": "musicbrainz-cover-art-archive",
-      "coverSourceUrl": "https://musicbrainz.org/release/389a60bf-e586-4dc3-b995-fe196c5cf0f7",
-      "coverPath": "/covers/200-rage-against-the-machine-rage-against-the-machine-fa5282b5-mb.jpg",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/1305859b-8937-397f-9c33-39f62eb672fb",
+      "coverPath": "/covers/200-rage-against-the-machine-rage-against-the-machine-fa5282b5.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Testify (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 246595,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/de/c1/9adec16f-bc07-f75f-633d-34b47e02c0f7/mzaf_7037008882287667491.plus.aac.p.m4a"
+          "title": "Bombtrack",
+          "durationMs": 244493,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "Guerrilla Radio (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 205313,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b5/99/8c/b5998c49-ea3a-4d49-3b79-1070040e874c/mzaf_11140286903762802438.plus.aac.p.m4a"
+          "title": "Killing in the Name",
+          "durationMs": 314173,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "People of the Sun (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 142822,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/21/3b/cb213b1e-b010-8cd9-02c9-0dd569dcc821/mzaf_9198906338320857029.plus.aac.p.m4a"
+          "title": "Take the Power Back",
+          "durationMs": 337160,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Calm Like a Bomb (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 284118,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/d2/22/9bd22206-52b2-2d17-9dcb-ff39264e4783/mzaf_252260599095729830.plus.aac.p.m4a"
+          "title": "Settle for Nothing",
+          "durationMs": 288466,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Sleep Now In the Fire (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 212223,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/89/2b/8f892b74-5436-4bdb-1afd-9e8ee1fa95f1/mzaf_12346289704811544265.plus.aac.p.m4a"
+          "title": "Bullet in the Head",
+          "durationMs": 309706,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Born of a Broken Man (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 271556,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/5c/1a/a55c1ac6-385b-7006-f0db-2abadd9b5725/mzaf_1213581640421618266.plus.aac.p.m4a"
+          "title": "Know Your Enemy",
+          "durationMs": 295560,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Bombtrack (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 241406,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/fb/d9/a8fbd9c5-e74a-4c08-29c9-77be55db1177/mzaf_2929326367836459055.plus.aac.p.m4a"
+          "title": "Wake Up",
+          "durationMs": 364106,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "Know Your Enemy (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 298914,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/a7/50/5fa7502b-f900-f3c6-1c87-649effcfe4cb/mzaf_8625830984132416476.plus.aac.p.m4a"
+          "title": "Fistful of Steel",
+          "durationMs": 331133,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "No Shelter (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 236959,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/42/3d/db423d72-59e9-579a-c7c3-064d2286a915/mzaf_13219625741389176911.plus.aac.p.m4a"
+          "title": "Township Rebellion",
+          "durationMs": 324426,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "War Within a Breath (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 208935,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/65/7f/a1/657fa15b-13bd-7c88-5eab-9eabea851ea0/mzaf_10671408750637234699.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 11,
-          "title": "Bulls On Parade (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 235032,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6b/1e/b5/6b1eb59f-0824-0898-6897-c5f38cb92d0c/mzaf_444135096258220498.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 12,
-          "title": "Killing In the Name (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 308268,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a4/91/22/a491228e-8466-d1e2-2a45-9794d2152ab0/mzaf_15947812027219856801.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 13,
-          "title": "Zapata's Blood (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 198832,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/ca/ad/58caad8b-c606-7a77-7cb1-205ad9c267d1/mzaf_10084636162338399793.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 14,
-          "title": "Freedom (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 369642,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/19/84/c1198457-e1cb-02e5-35b4-1b9efb576cf9/mzaf_4780525496182608072.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 15,
-          "title": "Township Rebellion (Live In Mexico City, MX, 10/28/99)",
-          "durationMs": 153010,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2c/88/78/2c8878d5-70d0-f4df-a647-ad4734fb8168/mzaf_14709501054601576584.plus.aac.p.m4a"
+          "title": "Freedom",
+          "durationMs": 366440,
+          "previewUrl": null
         }
       ],
       "musicBrainzReleaseGroupId": "1305859b-8937-397f-9c33-39f62eb672fb"
@@ -24347,176 +24157,142 @@
       "title": "Only Built 4 Cuban Linx...",
       "artist": "Raekwon",
       "year": 1995,
-      "genre": "Pop",
-      "appleCollectionId": 716706036,
-      "appleCollectionUrl": "https://music.apple.com/us/album/only-built-4-cuban-linx-pt-2/716706036?uo=4",
-      "appleArtworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/fb/f2/8efbf20d-84d2-5b34-f617-6a026e1bacee/05099996879351.jpg/600x600bb.jpg",
-      "coverSource": "apple",
-      "coverSourceUrl": "https://music.apple.com/us/album/only-built-4-cuban-linx-pt-2/716706036?uo=4",
+      "genre": "Hip-Hop/Rap",
+      "appleCollectionId": null,
+      "appleCollectionUrl": null,
+      "appleArtworkUrl": null,
+      "coverSource": "musicbrainz-cover-art-archive",
+      "coverSourceUrl": "https://coverartarchive.org/release-group/ab981b48-9a7b-34c4-b46a-f6266317ce7c",
       "coverPath": "/covers/213-raekwon-only-built-4-cuban-linx-6ee43350.jpg",
       "tracks": [
         {
           "discNumber": 1,
           "trackNumber": 1,
-          "title": "Return of the Northstar (feat. Papa Wu)",
-          "durationMs": 159067,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/4f/f9/84/4ff98407-7317-a455-77db-dddfe1243f3f/mzaf_4680382337703607982.plus.aac.p.m4a"
+          "title": "Striving for Perfection",
+          "durationMs": 104600,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 2,
-          "title": "House of Flying Daggers (feat. Inspectah Deck, Ghostface Killah & Method Man)",
-          "durationMs": 231467,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/1b/d2/c0/1bd2c05d-910a-e096-9be4-db24dc7bb934/mzaf_1950064106013240355.plus.aac.p.m4a"
+          "title": "Knuckleheadz",
+          "durationMs": 243960,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 3,
-          "title": "Sonny's Missing",
-          "durationMs": 149707,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/8a/f2/08/8af208ca-2843-7c7d-c3bb-b12dfa86abfc/mzaf_2073779039624274971.plus.aac.p.m4a"
+          "title": "Knowledge God",
+          "durationMs": 265480,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 4,
-          "title": "Pyrex Vision",
-          "durationMs": 55400,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/b0/5b/23/b05b2391-e4b1-2730-2964-67981648ea8a/mzaf_2234471437438056810.plus.aac.p.m4a"
+          "title": "Criminology",
+          "durationMs": 228026,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 5,
-          "title": "Cold Outside (feat. Ghostface Killah & Sugar Bang)",
-          "durationMs": 271707,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/aa/f0/69aaf0af-cfb2-c10f-0d13-20b33f2d6a85/mzaf_10396711234670143220.plus.aac.p.m4a"
+          "title": "Incarcerated Scarfaces",
+          "durationMs": 283613,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 6,
-          "title": "Black Mozart (feat. Inspectah Deck)",
-          "durationMs": 204107,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/c9/41/7d/c9417de8-3e48-c558-6cb3-786fd266dbf9/mzaf_3416387187644778587.plus.aac.p.m4a"
+          "title": "Rainy Dayz",
+          "durationMs": 363653,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 7,
-          "title": "Gihad (feat. Ghostface Killah)",
-          "durationMs": 180133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/2d/fe/dc/2dfedc46-cb13-289c-f44d-70d1f31090ed/mzaf_3494432363362753575.plus.aac.p.m4a"
+          "title": "Guillotine (Swordz)",
+          "durationMs": 263893,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 8,
-          "title": "The New Wu (feat. Method Man and Ghostface Killah)",
-          "durationMs": 231600,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/5b/58/ba5b5839-dbe5-760f-930e-a02ff3f9d03f/mzaf_511568176619000324.plus.aac.p.m4a"
+          "title": "Can It Be All So Simple (remix)",
+          "durationMs": 339093,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 9,
-          "title": "Penitentiary (feat. Ghostface Killah)",
-          "durationMs": 159413,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ac/ad/fb/acadfbc9-abfd-1a27-b558-648c379d8352/mzaf_18195572400652135567.plus.aac.p.m4a"
+          "title": "Shark Niggas (Biters)",
+          "durationMs": 99653,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 10,
-          "title": "Surgical Gloves",
-          "durationMs": 206027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/f1/0b/14/f10b14bb-0221-f1a2-bb97-4a402befe6ee/mzaf_861058440501674069.plus.aac.p.m4a"
+          "title": "Ice Water",
+          "durationMs": 219066,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 11,
-          "title": "Broken Safety (feat. Jadakiss & Styles P.)",
-          "durationMs": 163640,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/ea/ff/8f/eaff8f3b-fbec-1b5c-afd7-0c1e8986020c/mzaf_1041040192398357237.plus.aac.p.m4a"
+          "title": "Glaciers of Ice",
+          "durationMs": 321880,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 12,
-          "title": "Canal Street",
-          "durationMs": 166133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/90/89/fe90894e-12a2-09ed-43c1-262b523c83af/mzaf_12350745445069542317.plus.aac.p.m4a"
+          "title": "Verbal Intercourse",
+          "durationMs": 212773,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 13,
-          "title": "Ason Jones",
-          "durationMs": 186107,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/05/d6/98/05d69805-1ae3-3c04-d390-34d578f3a405/mzaf_693901578671357703.plus.aac.p.m4a"
+          "title": "Wisdom Body",
+          "durationMs": 159320,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 14,
-          "title": "Have Mercy (feat. Beanie Sigel)",
-          "durationMs": 231253,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/9c/5c/45/9c5c45b3-9fad-1684-47c8-996af12eba6f/mzaf_49685771546855246.plus.aac.p.m4a"
+          "title": "Spot Rusherz",
+          "durationMs": 194426,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 15,
-          "title": "10 Bricks (feat. Cappadonna & Ghostface Killah)",
-          "durationMs": 197773,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/0c/2f/b5/0c2fb53a-1a96-9349-d81e-8bd56035f7ac/mzaf_3299956166067714698.plus.aac.p.m4a"
+          "title": "Ice Cream",
+          "durationMs": 254040,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 16,
-          "title": "Fat Lady Sings",
-          "durationMs": 114947,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/24/9a/97249a7b-0eed-9c75-4c93-ed98dae4aedd/mzaf_5917423476800817833.plus.aac.p.m4a"
+          "title": "Wu-Gambinos",
+          "durationMs": 340400,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 17,
-          "title": "Catalina (feat. Lyfe Jennings)",
-          "durationMs": 209133,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/22/8c/47/228c47db-859e-7807-ba12-665ba75b29c8/mzaf_3924525158214889173.plus.aac.p.m4a"
+          "title": "Heaven & Hell",
+          "durationMs": 297453,
+          "previewUrl": null
         },
         {
           "discNumber": 1,
           "trackNumber": 18,
-          "title": "We Will Rob You",
-          "durationMs": 190267,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/3d/5d/de3d5d8e-ab18-4954-7008-dd7b82a09fb4/mzaf_4536061292335473876.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 19,
-          "title": "About Me",
-          "durationMs": 247533,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/60/a3/df60a3cb-0283-20b0-4e2b-f639dac5f68e/mzaf_8245294964012229291.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 20,
-          "title": "Mean Streets (feat. Inspectah Deck & Ghostface Killah)",
-          "durationMs": 262480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1c/88/4c/1c884c58-4131-de47-df3d-1a8f5ac8cedb/mzaf_2358815547329323493.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 21,
-          "title": "Kiss the Ring (feat. Inspectah Deck & Masta Killa)",
-          "durationMs": 250027,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/1a/52/6e/1a526e54-9068-2425-3235-4c7d731de982/mzaf_8401713933085342907.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 22,
-          "title": "Walk Wit Me",
-          "durationMs": 235640,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/c3/21/bb/c321bb41-a5da-b72e-5212-a93325c5a9fa/mzaf_8701748779557227261.plus.aac.p.m4a"
-        },
-        {
-          "discNumber": 1,
-          "trackNumber": 23,
-          "title": "Badland (feat. Ghostface Killah)",
-          "durationMs": 151480,
-          "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/3b/3b/ff/3b3bff78-c975-e3d8-6d4a-c4515434b648/mzaf_4633316775153660182.plus.aac.p.m4a"
+          "title": "North Star (Jewels)",
+          "durationMs": 238386,
+          "previewUrl": null
         }
-      ]
+      ],
+      "musicBrainzReleaseGroupId": "ab981b48-9a7b-34c4-b46a-f6266317ce7c"
     },
     {
       "id": "214-crosby-stills-and-nash-crosby-stills-and-nash-30c43805",
