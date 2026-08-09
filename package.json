@@ -10,13 +10,17 @@
     "test:security": "node scripts/test-security.mjs",
     "test:data": "node scripts/test-data-integrity.mjs",
     "test:listening": "node scripts/test-listening-enhancements.mjs",
-    "test:all": "npm run test:security && npm run test:data && npm run test:listening",
+    "test:loading": "node scripts/test-loading-recovery.mjs",
+    "test:taste": "node scripts/test-taste-intelligence.mjs",
+    "test:encyclopedia": "node scripts/test-encyclopedia-lazy-loading.mjs",
+    "test:all": "npm run test:security && npm run test:data && npm run test:listening && npm run test:loading && npm run test:taste && npm run test:encyclopedia",
     "align:tracks": "node scripts/align-track-guides.mjs",
     "preview": "vite preview",
     "prepare:catalog": "node scripts/prepare-catalog.mjs",
     "prepare:catalog:offline": "node scripts/prepare-catalog.mjs --offline",
     "fill:covers": "node scripts/fill-missing-covers.mjs",
     "generate:encyclopedia": "node scripts/generate-encyclopedia.mjs",
+    "repair:providers": "node scripts/repair-provider-matches.mjs",
     "repair:encyclopedia": "node scripts/repair-encyclopedia-facts.mjs",
     "enrich:albums": "node scripts/enrich-albums.mjs",
     "merge:enriched": "node scripts/merge-enriched.mjs",
@@ -36,8 +40,8 @@
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@vitejs/plugin-react": "^6.0.5",
     "typescript": "^5.6.3",
-    "vite": "^8.0.10"
+    "vite": "^8.2.1"
   }
 }
