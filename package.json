@@ -26,6 +26,7 @@
     "merge:enriched": "node scripts/merge-enriched.mjs",
     "enrich:full": "npm run enrich:albums && npm run merge:enriched",
     "curate:batch": "node scripts/batch-enrich.mjs",
+    "enrich:track-facts": "node scripts/enrich-all-track-facts.mjs",
     "curate:apply": "node scripts/apply-curated.mjs",
     "curate:full": "npm run curate:batch && npm run curate:apply",
     "prepare:data": "npm run prepare:catalog && npm run generate:encyclopedia"
