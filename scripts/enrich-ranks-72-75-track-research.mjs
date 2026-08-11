@@ -1,0 +1,36 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const dataPath = new URL('../src/data/encyclopedia.generated.json', import.meta.url);
+const updates = {
+  '072-kanye-west-the-college-dropout-1be7bdd4': [
+    ['All Falls Down (feat. Syleena Johnson)', 'West uses the song to examine consumerism, insecurity and class aspiration, making the glossy hook carry an argument about the pressure to perform success.', 'Listen for the tension between the accessible chorus and the self-questioning verses; the track treats confidence as something bought, borrowed and unstable.', 'Songfacts', 'All Falls Down by Kanye West', 'https://www.songfacts.com/facts/kanye-west/all-falls-down', 'Track-specific editorial reference for Kanye West’s All Falls Down.'],
+    ['Jesus Walks', 'West made faith the song’s explicit subject at a point when overtly religious rap was widely treated as a commercial risk; the track became one of The College Dropout’s defining statements.', 'Focus on the march-like urgency under the prayerful lyric. The performance insists that spiritual anxiety belongs in mainstream rap rather than outside it.', 'Songfacts', 'Jesus Walks by Kanye West', 'https://www.songfacts.com/facts/kanye-west/jesus-walks', 'Track-specific editorial reference for Kanye West’s Jesus Walks.'],
+    ['Through the Wire', 'West recorded the vocal after a car accident left his jaw wired shut, turning physical limitation into the song’s central sound and story.', 'Hear the restricted vocal as evidence, not an effect: the performance documents recovery while refusing to postpone the artist’s debut.', 'Songfacts', 'Through the Wire by Kanye West', 'https://www.songfacts.com/facts/kanye-west/through-the-wire', 'Track-specific editorial reference for Kanye West’s Through the Wire.']
+  ],
+  '073-aretha-franklin-lady-soul-7ee27bcd': [
+    ['Chain of Fools', 'Don Covay wrote this song, but Franklin’s recording transformed it into a defining late-1960s soul performance, with the female backing vocals intensifying its call-and-response force.', 'Follow the repeated accusation through the vocal responses. The arrangement makes betrayal feel collective rather than private.', 'Songfacts', 'Chain of Fools by Aretha Franklin', 'https://www.songfacts.com/facts/aretha-franklin/chain-of-fools', 'Track-specific editorial reference for Aretha Franklin’s Chain of Fools.'],
+    ['(You Make Me Feel Like) A Natural Woman', 'Carole King, Gerry Goffin and Jerry Wexler wrote the song; Franklin’s Lady Soul version became one of its most enduring recordings.', 'Start with Franklin’s control of the opening phrase, then follow how the vocal enlarges a love song into an assertion of self-recognition.', 'Songfacts', 'Natural Woman by Aretha Franklin', 'https://www.songfacts.com/facts/aretha-franklin/natural-woman', 'Track-specific editorial reference for Aretha Franklin’s Natural Woman.'],
+    ['Ain\'t No Way', 'Carolyn Franklin wrote this closing ballad for her sister, giving Lady Soul a family-authored final statement of emotional restraint and need.', 'Listen for the contrast between the song’s polite wording and its firm boundary: the narrator refuses a relationship that cannot meet her fully.', 'Songfacts', "Ain't No Way by Aretha Franklin", 'https://www.songfacts.com/facts/aretha-franklin/aint-no-way', 'Track-specific editorial reference for Aretha Franklin’s Ain’t No Way.']
+  ],
+  '074-curtis-mayfield-superfly-510928e7': [
+    ['Superfly', 'Mayfield’s title song uses the film’s drug-dealer protagonist to critique a world in which style, money and danger are entangled rather than simply glorified.', 'Listen for the brightness of the groove against the warning in the lyric. The song’s power comes from refusing to make the “superfly” figure uncomplicated.', 'Songfacts', 'Superfly by Curtis Mayfield', 'https://www.songfacts.com/facts/curtis-mayfield/superfly', 'Track-specific editorial reference for Curtis Mayfield’s Superfly.'],
+    ['Pusherman', 'Mayfield narrates from the perspective of a drug dealer, making the song a key part of Superfly’s refusal to keep social critique at a safe distance.', 'Follow the first-person voice carefully. The track does not ask you to approve the narrator; it makes the economy around him audible.', 'Songfacts', 'Pusherman by Curtis Mayfield', 'https://www.songfacts.com/facts/curtis-mayfield/pusherman', 'Track-specific editorial reference for Curtis Mayfield’s Pusherman.'],
+    ['Superfly (Single Version)', 'The single edit preserves the song’s central portrait while compressing the soundtrack’s broader social argument into a more immediate radio form.', 'Compare the directness of the single-format performance with the album’s wider narrative role: the same song has to carry both story and hook.', 'Wikipedia', 'Super Fly (song)', 'https://en.wikipedia.org/wiki/Super_Fly_(song)', 'Track-specific reference identifies Curtis Mayfield’s Super Fly single.']
+  ],
+  '075-the-who-who-s-next-3c0afc59': [
+    ["Baba O'Riley (Remastered 2022)", 'Townshend named the song for Meher Baba and minimalist composer Terry Riley. Its looping keyboard pattern gives Who’s Next one of rock’s most distinctive openings.', 'Let the repeating keyboard figure establish the song’s motion before the band enters; it is the structural engine, not mere introduction.', 'Songfacts', "Baba O'Riley by The Who", 'https://www.songfacts.com/facts/the-who/baba-oriley', 'Track-specific editorial reference for The Who’s Baba O’Riley.'],
+    ['Behind Blue Eyes (Remastered 2022)', 'Townshend wrote the song for the abandoned Lifehouse project, giving voice to its villain Jumbo; the acoustic opening and hard-rock release reflect that split perspective.', 'Listen for the turn from private confession to full-band anger. The arrangement stages a character who cannot keep his restraint intact.', 'Songfacts', 'Behind Blue Eyes by The Who', 'https://www.songfacts.com/facts/the-who/behind-blue-eyes', 'Track-specific editorial reference for The Who’s Behind Blue Eyes.'],
+    ["Won't Get Fooled Again (Remastered 2022)", 'Townshend wrote this Lifehouse survivor as a warning that political revolutions can reproduce the same old power structures, a point crystallised in its final line.', 'Follow the build from synthesizer pulse to Daltrey’s final scream. The scale is deliberately triumphant even as the lyric rejects easy political triumph.', 'Songfacts', "Won't Get Fooled Again by The Who", 'https://www.songfacts.com/facts/the-who/wont-get-fooled-again', 'Track-specific editorial reference for The Who’s Won’t Get Fooled Again.']
+  ]
+};
+const data = JSON.parse(await readFile(dataPath, 'utf8'));
+for (const [albumId, notes] of Object.entries(updates)) {
+  const guides = data.entries?.[albumId]?.trackGuide;
+  if (!Array.isArray(guides)) throw new Error(`${albumId}: missing track guide`);
+  for (const [trackTitle, guide, focus, label, title, url, summary] of notes) {
+    const target = guides.find((item) => item.trackTitle === trackTitle);
+    if (!target) throw new Error(`${albumId}: missing ${trackTitle}`);
+    Object.assign(target, { guide, focus, source: { label, title, url, summary } });
+  }
+}
+await writeFile(dataPath, `${JSON.stringify(data, null, 2)}\n`);
+console.log('Applied 12 source-backed track guides for catalog ranks 72–75.');

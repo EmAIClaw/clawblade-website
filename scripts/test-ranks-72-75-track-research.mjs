@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import catalogData from '../src/data/catalog.generated.json' with { type: 'json' };
+import encyclopediaData from '../src/data/encyclopedia.generated.json' with { type: 'json' };
+const albums = catalogData.albums.filter((album) => album.rank >= 72 && album.rank <= 75);
+const entries = encyclopediaData.entries ?? {};
+const notes = albums.flatMap((album) => (entries[album.id]?.trackGuide ?? []).filter((guide) => guide.source?.url).map((guide) => ({ album, guide })));
+const perAlbum = new Map();
+for (const { album } of notes) perAlbum.set(album.id, (perAlbum.get(album.id) ?? 0) + 1);
+assert.equal(albums.length, 4, 'research scope must remain catalog ranks 72–75');
+assert.ok(notes.length >= 12, `expected at least 12 source-backed notes, found ${notes.length}`);
+assert.ok(albums.every((album) => (perAlbum.get(album.id) ?? 0) >= 3), 'every selected album requires three source-backed notes');
+assert.ok(notes.every(({ guide }) => guide.guide.length > 50 && guide.focus.length > 10 && /^https:\/\//.test(guide.source.url)), 'notes require substantive copy, focus, and inspectable sources');
+console.log(`ranks 72–75 research regression test passed: ${notes.length} notes`);

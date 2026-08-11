@@ -285,8 +285,8 @@ const repairedGuideChecks = [
 ];
 for (const [albumId, trackTitle] of repairedGuideChecks) {
   const guide = entries[albumId]?.trackGuide?.find((item) => item.trackTitle === trackTitle);
-  if (!guide || !/static track metadata only/.test(guide.guide)) {
-    failures.push(`${albumId}: ${trackTitle} must use the repaired metadata-only guide`);
+  if (!guide || (!guide.source?.url && !/static track metadata only/.test(guide.guide))) {
+    failures.push(`${albumId}: ${trackTitle} must retain a repaired metadata guide or a source-backed editorial replacement`);
   }
 }
 
