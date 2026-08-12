@@ -2032,15 +2032,25 @@
       "trackGuide": [
         {
           "trackTitle": "Taxman",
-          "guide": "Harrison's lead vocal on 'Taxman' drips with sarcasm over a descending bass line that quotes the Batman theme. The guitar solo, actually Paul McCartney playing a clipped, Indian-influenced line on his Epiphone Casino, was punched in at 1:10 and mimics the sound of a sitar.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "George Harrison opens Revolver with a sharp complaint about Britain’s supertax rate, turning an everyday financial grievance into the album’s first burst of bite.",
+          "focus": "Listen for how the clipped guitar figure gives the satire its hard edge; the song begins Revolver with a complaint that moves like a riff.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Taxman by The Beatles",
+            "url": "https://www.songfacts.com/facts/the-beatles/taxman",
+            "summary": "Track-specific editorial reference for Taxman by The Beatles."
+          }
         },
         {
           "trackTitle": "Eleanor Rigby",
-          "guide": "No Beatle plays an instrument on 'Eleanor Rigby'; the string octet, scored by producer George Martin under Bernard Herrmann's influence, uses no vibrato, giving the arrangement a cold, classical severity. The lyrics sketch a miniature novel of loneliness in just two verses.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "McCartney’s portrait of Eleanor Rigby and Father McKenzie abandons the Beatles’ usual band instrumentation for a string octet, placing two lonely fictional figures in parallel.",
+          "focus": "Keep the strings in focus. Their tight, percussive attack makes the song’s loneliness feel staged with unusual precision.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Eleanor Rigby by The Beatles",
+            "url": "https://www.songfacts.com/facts/the-beatles/eleanor-rigby",
+            "summary": "Track-specific editorial reference for Eleanor Rigby by The Beatles."
+          }
         },
         {
           "trackTitle": "I'm Only Sleeping",
@@ -2110,9 +2120,14 @@
         },
         {
           "trackTitle": "Tomorrow Never Knows",
-          "guide": "Built on a single C chord, 'Tomorrow Never Knows' uses a droning tambura-like bass and a drum pattern from Ringo that never varies. Lennon's vocal, processed through the Leslie cabinet, sounds disembodied, while the tape loops—16 separate recordings mixed live—create a proto-psychedelic sound collage.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Lennon based the lyric on Timothy Leary’s adaptation of The Tibetan Book of the Dead, while the recording uses tape loops and studio processing to make Revolver end in altered perspective.",
+          "focus": "Treat the repeated drone and loops as the song’s form, not background texture. The sound is designed to unsettle ordinary verse-and-chorus expectation.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Tomorrow Never Knows by The Beatles",
+            "url": "https://www.songfacts.com/facts/the-beatles/tomorrow-never-knows",
+            "summary": "Track-specific editorial reference for Tomorrow Never Knows by The Beatles."
+          }
         }
       ],
       "themes": [
@@ -2315,21 +2330,36 @@
         },
         {
           "trackTitle": "Thriller",
-          "guide": "The title track's 14-minute video is legendary, but the audio itself is a masterclass in suspense. The synth bass and finger snaps create a skeletal groove, and the bridge at 2:50 shifts to a minor key with a wolf howl, while Price's cackle was recorded separately and layered in.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Rod Temperton wrote this title track as a cinematic horror story, and Vincent Price’s spoken passage turns its final section into a miniature radio play.",
+          "focus": "Follow the transition into Price’s narration. The song deliberately makes theatrical suspense part of its pop-hook architecture.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Thriller by Michael Jackson",
+            "url": "https://www.songfacts.com/facts/michael-jackson/thriller",
+            "summary": "Track-specific editorial reference for Thriller by Michael Jackson."
+          }
         },
         {
           "trackTitle": "Beat It",
-          "guide": "'Beat It' fused hard rock and pop with a Toto-supplied rhythm section. The guitar solo is the only non-Jackson element on the track; listen for the way Van Halen's tapping technique at 2:20 contrasts with the tight, clean production of the verses.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Jackson wanted a rock song that could work for a pop audience; Eddie Van Halen supplied the celebrated guitar solo, giving Thriller a deliberate crossover flashpoint.",
+          "focus": "Listen for the moment the guitar solo changes the record’s scale. It is a crossover decision built into the arrangement, not an ornamental guest spot.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Beat It by Michael Jackson",
+            "url": "https://www.songfacts.com/facts/michael-jackson/beat-it",
+            "summary": "Track-specific editorial reference for Beat It by Michael Jackson."
+          }
         },
         {
           "trackTitle": "Billie Jean",
-          "guide": "Jackson wrote 'Billie Jean' on a drum machine and based the lyrics on a real-life fan who claimed he fathered her child. The string stabs, arranged by Jerry Hey, slice through the mix at 0:45, and the bridge at 2:30 features a descending chord progression that heightens the paranoia.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Jackson’s account of a woman claiming he fathered her child is built around an insistent bass line and a tightly controlled vocal narrative.",
+          "focus": "Stay with the bass line as the story unfolds. Its persistence mirrors the narrator’s attempt to hold a boundary against an accusation.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Billie Jean by Michael Jackson",
+            "url": "https://www.songfacts.com/facts/michael-jackson/billie-jean",
+            "summary": "Track-specific editorial reference for Billie Jean by Michael Jackson."
+          }
         },
         {
           "trackTitle": "Human Nature",
@@ -2469,9 +2499,14 @@
       "trackGuide": [
         {
           "trackTitle": "Respect",
-          "guide": "Franklin's 'Respect' transforms Redding's original into a demand for dignity. The arrangement adds a bridge not in the original, and the background vocals spell 'R-E-S-P-E-C-T' with a syncopated rhythm. The track was cut in one take, with the horn section overdubbed later.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Franklin remade Otis Redding’s song from a man’s demand into a woman’s declaration, adding the “R-E-S-P-E-C-T” spelling and the “sock it to me” refrain.",
+          "focus": "Follow the response vocals around the spelling section. Franklin transforms the song’s point of view through arrangement as well as lyric.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Respect by Aretha Franklin",
+            "url": "https://www.songfacts.com/facts/aretha-franklin/respect",
+            "summary": "Track-specific editorial reference for Respect by Aretha Franklin."
+          }
         },
         {
           "trackTitle": "Drown In My Own Tears",
@@ -2481,9 +2516,14 @@
         },
         {
           "trackTitle": "I Never Loved a Man (The Way I Love You)",
-          "guide": "The title track, written by Ronnie Shannon, is a slow-burning declaration of love. The rhythm section locks into a 6/8 gospel feel, and Franklin's vocal leaps from a low alto to a piercing high note at 2:10. Curtis's sax solo quotes the melody with a crying tone.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Franklin’s first Atlantic single sets devotion against betrayal, and its Muscle Shoals session established the lean, gospel-shaped sound of the album.",
+          "focus": "Listen to the space around Franklin’s phrases. The band leaves room for the vocal to make each shift from tenderness to warning land.",
+          "source": {
+            "label": "Songfacts",
+            "title": "I Never Loved a Man (The Way I Love You) by Aretha Franklin",
+            "url": "https://www.songfacts.com/facts/aretha-franklin/i-never-loved-a-man-the-way-i-love-you",
+            "summary": "Track-specific editorial reference for I Never Loved a Man (The Way I Love You) by Aretha Franklin."
+          }
         },
         {
           "trackTitle": "Soul Serenade",
@@ -2517,9 +2557,14 @@
         },
         {
           "trackTitle": "Do Right Woman, Do Right Man",
-          "guide": "A country-soul ballad written by Chips Moman and Dan Penn, 'Do Right Woman' was recorded with Franklin at the piano. The lyric argues for mutual fidelity, and the final verse at 2:30 rises to a gospel fervor with call-and-response between Aretha and her sisters.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Written by Dan Penn and Chips Moman, this song asks for mutual respect rather than one-sided devotion, giving Franklin a direct moral counterpart to the album’s tougher moments.",
+          "focus": "Hear the calmness as part of the demand. The performance does not need to raise its voice to make reciprocity sound non-negotiable.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Do Right Woman, Do Right Man by Aretha Franklin",
+            "url": "https://www.songfacts.com/facts/aretha-franklin/do-right-woman-do-right-man",
+            "summary": "Track-specific editorial reference for Do Right Woman, Do Right Man by Aretha Franklin."
+          }
         },
         {
           "trackTitle": "Save Me",
@@ -2634,9 +2679,14 @@
       "trackGuide": [
         {
           "trackTitle": "Rocks Off",
-          "guide": "Track 1 of 18, \"Rocks Off\", is the album's opener and runs 4:33. In the album sequence it opens the record and leads into \"Rip This Joint\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "The opening track introduces Exile on Main St. with a dense, shifting groove and a lyric caught between sexual appetite, drugs and disorientation.",
+          "focus": "Listen for the way the arrangement keeps changing its footing. That instability is the song’s point: it opens the album already off balance.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Rocks Off by The Rolling Stones",
+            "url": "https://www.songfacts.com/facts/the-rolling-stones/rocks-off",
+            "summary": "Track-specific editorial reference for Rocks Off by The Rolling Stones."
+          }
         },
         {
           "trackTitle": "Rip This Joint",
@@ -2658,9 +2708,14 @@
         },
         {
           "trackTitle": "Tumbling Dice",
-          "guide": "Track 5 of 18, \"Tumbling Dice\", is the album's early-album track and runs 3:47. In the album sequence it follows \"Casino Boogie\" and leads into \"Sweet Virginia\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Jagger and Richards use gambling language to frame a character who will not be pinned down; the loose groove gives the song its rolling, evasive character.",
+          "focus": "Follow the rhythmic lilt rather than looking for a clean resolution. The performance keeps moving like the unreliable gambler it describes.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Tumbling Dice by The Rolling Stones",
+            "url": "https://www.songfacts.com/facts/the-rolling-stones/tumbling-dice",
+            "summary": "Track-specific editorial reference for Tumbling Dice by The Rolling Stones."
+          }
         },
         {
           "trackTitle": "Sweet Virginia",
@@ -2688,9 +2743,14 @@
         },
         {
           "trackTitle": "Happy",
-          "guide": "Track 10 of 18, \"Happy\", is the album's middle-section track and runs 3:05. In the album sequence it follows \"Loving Cup\" and leads into \"Turd On The Run\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Keith Richards takes the lead vocal on this Exile single, recorded quickly at Nellcôte with producer Jimmy Miller playing drums.",
+          "focus": "Notice the change in vocal personality. Richards’s lead makes the song a lived-in counterweight to Jagger’s usual command of the record.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Happy by The Rolling Stones",
+            "url": "https://www.songfacts.com/facts/the-rolling-stones/happy",
+            "summary": "Track-specific editorial reference for Happy by The Rolling Stones."
+          }
         },
         {
           "trackTitle": "Turd On The Run",
@@ -2811,15 +2871,25 @@
         },
         {
           "trackTitle": "Bring the Noise",
-          "guide": "Track 2 of 16, \"Bring the Noise\", is the album's early-album track and runs 3:46. In the album sequence it follows \"Countdown to Armageddon\" and leads into \"Don't Believe the Hype\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Public Enemy’s early anthem layers Chuck D’s forceful delivery over the Bomb Squad’s dense sample collage, making sound itself part of the group’s political pressure.",
+          "focus": "Listen for the crowding of the mix. The track refuses a clean hierarchy between beat, noise and voice.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Bring the Noise by Public Enemy",
+            "url": "https://www.songfacts.com/facts/public-enemy/bring-the-noise",
+            "summary": "Track-specific editorial reference for Bring the Noise by Public Enemy."
+          }
         },
         {
           "trackTitle": "Don't Believe the Hype",
-          "guide": "Track 3 of 16, \"Don't Believe the Hype\", is the album's early-album track and runs 5:19. In the album sequence it follows \"Bring the Noise\" and leads into \"Cold Lampin' with Flavor\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Chuck D uses this track to challenge the stories told about Public Enemy and the assumptions carried by media framing, with Flavor Flav’s interruptions sharpening the group dynamic.",
+          "focus": "Track the exchange between Chuck D and Flavor Flav. Their contrast makes the argument sound like a public confrontation rather than a solitary lecture.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Don't Believe the Hype by Public Enemy",
+            "url": "https://www.songfacts.com/facts/public-enemy/dont-believe-the-hype",
+            "summary": "Track-specific editorial reference for Don't Believe the Hype by Public Enemy."
+          }
         },
         {
           "trackTitle": "Cold Lampin' with Flavor",
@@ -2883,9 +2953,14 @@
         },
         {
           "trackTitle": "Rebel Without a Pause",
-          "guide": "Track 14 of 16, \"Rebel Without a Pause\", is the album's late-album track and runs 5:03. In the album sequence it follows \"Security of the First World\" and leads into \"Prophets of Rage\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "This Public Enemy track gives Chuck D a relentless, high-speed platform over the Bomb Squad’s compressed noise, making refusal sound like forward motion.",
+          "focus": "Listen for the siren-like high end and the unbroken pace. The arrangement makes its title feel like an operating method rather than a slogan.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Rebel Without a Pause by Public Enemy",
+            "url": "https://www.songfacts.com/facts/public-enemy/rebel-without-a-pause",
+            "summary": "Track-specific editorial reference for Rebel Without a Pause by Public Enemy."
+          }
         },
         {
           "trackTitle": "Prophets of Rage",
@@ -2965,9 +3040,14 @@
       "trackGuide": [
         {
           "trackTitle": "London Calling",
-          "guide": "Track 1 of 40, \"London Calling\", is the album's opener and runs 3:20. In the album sequence it opens the record and leads into \"Brand New Cadillac\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Joe Strummer’s title song turns fears about nuclear disaster, flooding and social crisis into an alarm-call, with the band playing reggae-influenced tension against punk urgency.",
+          "focus": "Let the bass-led opening establish the warning before the chorus arrives. The song’s drama is built from restraint as much as speed.",
+          "source": {
+            "label": "Songfacts",
+            "title": "London Calling by The Clash",
+            "url": "https://www.songfacts.com/facts/the-clash/london-calling",
+            "summary": "Track-specific editorial reference for London Calling by The Clash."
+          }
         },
         {
           "trackTitle": "Brand New Cadillac",
@@ -3007,9 +3087,14 @@
         },
         {
           "trackTitle": "Lost In the Supermarket",
-          "guide": "Track 8 of 40, \"Lost In the Supermarket\", is the album's early-album track and runs 3:47. In the album sequence it follows \"The Right Profile\" and leads into \"Clampdown\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Strummer wrote this suburban alienation song from Mick Jones’s childhood perspective, making domestic consumer space feel detached and unreal.",
+          "focus": "Listen to the pop brightness against the narrator’s disconnection. The contrast keeps the song from becoming a simple sneer at suburbia.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Lost in the Supermarket by The Clash",
+            "url": "https://www.songfacts.com/facts/the-clash/lost-in-the-supermarket",
+            "summary": "Track-specific editorial reference for Lost in the Supermarket by The Clash."
+          }
         },
         {
           "trackTitle": "Clampdown",
@@ -3019,9 +3104,14 @@
         },
         {
           "trackTitle": "The Guns of Brixton",
-          "guide": "Track 10 of 40, \"The Guns of Brixton\", is the album's early-album track and runs 3:10. In the album sequence it follows \"Clampdown\" and leads into \"Wrong 'Em Boyo\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Paul Simonon wrote and sang this reggae-rooted warning from the perspective of a young man prepared to resist police pressure in Brixton.",
+          "focus": "Focus on Simonon’s lower vocal and the dub-inflected pulse. They give the threat a different authority from Strummer’s usual attack.",
+          "source": {
+            "label": "Songfacts",
+            "title": "The Guns of Brixton by The Clash",
+            "url": "https://www.songfacts.com/facts/the-clash/the-guns-of-brixton",
+            "summary": "Track-specific editorial reference for The Guns of Brixton by The Clash."
+          }
         },
         {
           "trackTitle": "Wrong 'Em Boyo",
@@ -3353,9 +3443,14 @@
         },
         {
           "trackTitle": "Power",
-          "guide": "Co-produced by S1, 'Power' is a defiant anthem that samples King Crimson and layers handclaps, a chanting crowd, and a children's choir. The extended version includes a spoken-word outro by Dwele, but the album version ends abruptly after 4:52, leaving the energy unresolved.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "West built “Power” around a sample from King Crimson’s “21st Century Schizoid Man,” turning its abrasive guitar into a platform for a public self-portrait under pressure.",
+          "focus": "Listen for the sample’s harshness beneath the controlled cadence. The track makes grandiosity sound both commanding and unstable.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Power by Kanye West",
+            "url": "https://www.songfacts.com/facts/kanye-west/power",
+            "summary": "Track-specific editorial reference for Power by Kanye West."
+          }
         },
         {
           "trackTitle": "All of the Lights (Interlude)",
@@ -3365,9 +3460,14 @@
         },
         {
           "trackTitle": "All of the Lights",
-          "guide": "Track 5 of 14, \"All of the Lights\", is the album's early-album track and runs 5:00. In the album sequence it follows \"All of the Lights (Interlude)\" and leads into \"Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "West assembled a large cast of guest vocalists around a song about a man returning from prison and trying to reconnect with his family.",
+          "focus": "Follow how the stacked voices enlarge a private crisis. The arrangement’s scale makes the narrator’s return sound celebratory and troubled at once.",
+          "source": {
+            "label": "Songfacts",
+            "title": "All of the Lights by Kanye West",
+            "url": "https://www.songfacts.com/facts/kanye-west/all-of-the-lights",
+            "summary": "Track-specific editorial reference for All of the Lights by Kanye West."
+          }
         },
         {
           "trackTitle": "Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)",
@@ -3389,9 +3489,14 @@
         },
         {
           "trackTitle": "Runaway (feat. Pusha T)",
-          "guide": "At over nine minutes, 'Runaway' is the album's emotional center. The first half is a piano-led apology over a sparse 808 pattern, with Pusha T's verse at 2:50 detailing a toxic relationship. The second half is a wordless vocoder solo that West described as a 'toast to the douchebags.'",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "West uses the song’s extended toast to “douchebags” and an Auto-Tuned closing coda to turn apology, self-satire and spectacle into the record’s central performance.",
+          "focus": "Stay through the distorted vocal coda. It prevents the polished piano opening from settling into a conventional confession.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Runaway by Kanye West",
+            "url": "https://www.songfacts.com/facts/kanye-west/runaway",
+            "summary": "Track-specific editorial reference for Runaway by Kanye West."
+          }
         },
         {
           "trackTitle": "Hell of a Life",
@@ -3527,9 +3632,14 @@
         },
         {
           "trackTitle": "Ballad of a Thin Man",
-          "guide": "A slow, menacing piano-led waltz. Dylan's accusatory 'Something is happening here but you don't know what it is, do you, Mr. Jones?' targets clueless establishment figures. The descending chord progression and ghostly organ add to the unease.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Dylan recorded this Highway 61 Revisited track in New York with Bob Johnston producing; its sombre piano chords sit against Al Kooper’s horror-movie organ part.",
+          "focus": "Keep the piano and organ in tension. Their mismatch gives Mr. Jones’s bafflement a sound before Dylan explains any of it.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Ballad of a Thin Man",
+            "url": "https://en.wikipedia.org/wiki/Ballad_of_a_Thin_Man",
+            "summary": "Track page identifies the 1965 album release, recording session, producer, piano, and organ part."
+          }
         },
         {
           "trackTitle": "Queen Jane Approximately",
@@ -3719,9 +3829,14 @@
         },
         {
           "trackTitle": "King Kunta",
-          "guide": "Built on a sample of James Brown's 'The Payback' and Mausberg's 'Get Nekkid,' this track struts with a Parliament-Funkadelic groove. Kendrick reclaims the term 'King Kunta' from Kunta Kinte, celebrating black resilience while taking shots at industry politics.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Lamar’s track invokes Kunta Kinte and layers references or interpolations tied to Michael Jackson, James Brown, Fred Wesley and others.",
+          "focus": "Listen to the references as part of the song’s argument about authorship and status, rather than as background decoration.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "King Kunta",
+            "url": "https://en.wikipedia.org/wiki/King_Kunta",
+            "summary": "Track page identifies the Kunta Kinte reference and credited interpolations/references."
+          }
         },
         {
           "trackTitle": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
@@ -3743,9 +3858,14 @@
         },
         {
           "trackTitle": "Alright",
-          "guide": "Track 7 of 16, \"Alright\", is the album's middle-section track and runs 3:39. In the album sequence it follows \"u\" and leads into \"For Sale? (Interlude)\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "This To Pimp a Butterfly single expresses hope amid personal struggle and became associated with Black Lives Matter protests after crowds chanted its chorus.",
+          "focus": "Notice how the chorus works as a collective response, which helps explain why the song travelled beyond its album setting.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Alright (Kendrick Lamar song)",
+            "url": "https://en.wikipedia.org/wiki/Alright_(Kendrick_Lamar_song)",
+            "summary": "Track page identifies the song’s subject, Pharrell Williams co-production, and protest association."
+          }
         },
         {
           "trackTitle": "For Sale? (Interlude)",
@@ -3779,9 +3899,14 @@
         },
         {
           "trackTitle": "The Blacker the Berry",
-          "guide": "A furious, dense assault on systemic racism, with a beat by Boi-1da and KOZ. Kendrick spits from the perspective of a black man who hates white oppression but also critiques black-on-black violence. The outro reveals the internal conflict: 'So why did I weep when Trayvon Martin was in the street? When gang-banging make me kill a nigga blacker than me? Hypocrite!'",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Lamar’s thirteenth To Pimp a Butterfly track opens by calling its narrator a hypocrite while confronting racism and hatred; it ends with a jazz section.",
+          "focus": "Stay for the final change of texture. The jazz resolution matters because it alters the force of the song’s confrontational opening.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "The Blacker the Berry (Kendrick Lamar song)",
+            "url": "https://en.wikipedia.org/wiki/The_Blacker_the_Berry_(Kendrick_Lamar_song)",
+            "summary": "Track page identifies its album position, themes, featured chorus, and closing jazz section."
+          }
         },
         {
           "trackTitle": "You Ain't Gotta Lie (Momma Said)",
@@ -3904,9 +4029,14 @@
       "trackGuide": [
         {
           "trackTitle": "Everything In Its Right Place",
-          "guide": "Opens with a warm, repetitive Rhodes keyboard riff, then Yorke's vocals enter, digitally manipulated into a staccato pattern. The song's structure is circular, never fully resolving, mirroring the dislocation of the digital age.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Kid A opens with synthesiser, digitally manipulated vocals and unusual time signatures after Radiohead moved the song from a conventional band arrangement to synthesiser.",
+          "focus": "Listen for the processed voice as an instrument. It records the group’s decision to make arrangement restraint part of Kid A’s language.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Everything in Its Right Place",
+            "url": "https://en.wikipedia.org/wiki/Everything_in_Its_Right_Place",
+            "summary": "Track page identifies its opening-album role, synthesiser, manipulated vocals, and arrangement history."
+          }
         },
         {
           "trackTitle": "Kid A",
@@ -3916,15 +4046,25 @@
         },
         {
           "trackTitle": "The National Anthem",
-          "guide": "A driving bassline (inspired by Charles Mingus) anchors a paranoid anthem. The horns arrive like a swarm, creating controlled chaos. The lyrics 'Everyone is so near, everyone has got the fear' capture millennial anxiety.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "This Kid A track is built on a repeating bassline and horns playing free jazz, with the horn approach influenced by Charles Mingus.",
+          "focus": "Follow the bassline through the horns’ organised chaos. The collision is the arrangement, not a solo break added on top.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "The National Anthem (Radiohead song)",
+            "url": "https://en.wikipedia.org/wiki/The_National_Anthem_(Radiohead_song)",
+            "summary": "Track page identifies the repeating bassline, free-jazz horns, and Charles Mingus influence."
+          }
         },
         {
           "trackTitle": "How to Disappear Completely",
-          "guide": "A haunting ballad with string arrangements by Jonny Greenwood, inspired by Penderecki. Yorke's falsetto floats over acoustic guitar, and the line 'I'm not here, this isn't happening' becomes a mantra of dissociation.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Radiohead developed this acoustic-based Kid A ballad from demos into an arrangement of orchestral strings, guitar effects and ambient influences; Jonny Greenwood wrote the string arrangement.",
+          "focus": "Start with the guitar and strings rather than treating the song as a conventional acoustic ballad. The arrangement makes withdrawal feel spatial.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "How to Disappear Completely",
+            "url": "https://en.wikipedia.org/wiki/How_to_Disappear_Completely",
+            "summary": "Track page identifies its Kid A origin, acoustic basis, orchestral strings, effects, and arrangement credits."
+          }
         },
         {
           "trackTitle": "Treefingers",
@@ -4287,9 +4427,14 @@
         },
         {
           "trackTitle": "Juicy",
-          "guide": "The album's breakout hit, sampling Mtume's 'Juicy Fruit' with an added beat. Biggie recounts his childhood poverty and rise to fame, with lines like 'Birthdays was the worst days, now we sip champagne when we thirsty.' The track's optimism contrasts the album's darker moments.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Ready to Die’s first single samples Mtume’s “Juicy Fruit” through its “Fruity Instrumental” mix, with an alternate chorus by Total and Sean Combs.",
+          "focus": "Listen for the sample and alternate chorus as framing devices: they turn the autobiographical rise into a deliberately polished Bad Boy record.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Juicy (The Notorious B.I.G. song)",
+            "url": "https://en.wikipedia.org/wiki/Juicy_(The_Notorious_B.I.G._song)",
+            "summary": "Track page identifies its debut-album single status, producers, sample source, and alternate chorus."
+          }
         },
         {
           "trackTitle": "Everyday Struggle",
@@ -4449,9 +4594,14 @@
       "trackGuide": [
         {
           "trackTitle": "Sunday Morning",
-          "guide": "A deceptively gentle opener: celesta and soft percussion establish the record's dreamlike surface before its darker material arrives.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "The Velvet Underground’s album opener was the final song recorded for the debut; Tom Wilson requested a potential single with Nico in mind, though Lou Reed sang the lead on the finished version.",
+          "focus": "Hear the gentler opening in light of its single-minded brief. Reed’s lead gives the record a different centre from the Nico concept that prompted it.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Sunday Morning (The Velvet Underground song)",
+            "url": "https://en.wikipedia.org/wiki/Sunday_Morning_(The_Velvet_Underground_song)",
+            "summary": "Track page identifies its album-opening role, recording context, Wilson’s request, and finished lead vocal."
+          }
         },
         {
           "trackTitle": "I'm Waiting for the Man",
@@ -4467,9 +4617,14 @@
         },
         {
           "trackTitle": "Venus In Furs",
-          "guide": "John Cale's viola drone and Nico's voice create one of the album's starkest, most hypnotic sound worlds.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Lou Reed’s song takes its title and sexual themes from Leopold von Sacher-Masoch’s novel; the final arrangement includes John Cale’s electric viola and Reed’s detuned guitar.",
+          "focus": "Focus on the viola and detuned guitar. They make the literary reference physical rather than leaving it only in the lyric.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Venus in Furs (song)",
+            "url": "https://en.wikipedia.org/wiki/Venus_in_Furs_(song)",
+            "summary": "Track page identifies the source novel, themes, recording, and electric-viola/detuned-guitar arrangement."
+          }
         },
         {
           "trackTitle": "Run Run Run",
@@ -4485,9 +4640,14 @@
         },
         {
           "trackTitle": "Heroin",
-          "guide": "The arrangement moves between stillness and acceleration, mirroring the song's subject without romanticising it.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Reed wrote this 1964 song about heroin use and its effects; it appeared on the Velvet Underground’s 1967 debut without offering a simple endorsement or condemnation.",
+          "focus": "Listen for the absence of a tidy moral resolution. The direct account is why the song remained troubling to many listeners.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Heroin (The Velvet Underground song)",
+            "url": "https://en.wikipedia.org/wiki/Heroin_(The_Velvet_Underground_song)",
+            "summary": "Track page identifies the song’s 1964 writing, debut-album release, subject, and contemporary critical reading."
+          }
         },
         {
           "trackTitle": "There She Goes Again",
@@ -5067,9 +5227,14 @@
         },
         {
           "trackTitle": "Redondo Beach",
-          "guide": "A reggae-tinged rhythm and Richard Sohl's bright organ line create a deceptively sunny backdrop for a narrative about a woman's suicide after a lover's quarrel. Smith's deadpan vocal delivery of lines like 'she was lying on the beach so still' contrasts sharply with the jaunty arrangement, heightening the song's unsettling tension. Released as a single, it demonstrated Smith's ability to wrap dark, poetic storytelling in an accessible pop-punk structure.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "Smith first released this song on Horses; co-writers Richard Sohl and Lenny Kaye helped set lyrics about a drowned young woman in a reggae arrangement.",
+          "focus": "Attend to the reggae setting against the lyric’s shock. The groove makes the narrative’s unease more complicated, not lighter.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Redondo Beach (song)",
+            "url": "https://en.wikipedia.org/wiki/Redondo_Beach_(song)",
+            "summary": "Track page identifies its Horses release, co-writers, narrative, and reggae arrangement."
+          }
         },
         {
           "trackTitle": "Birdland",
@@ -5196,13 +5361,13 @@
         },
         {
           "trackTitle": "Method Man (feat. Method Man, Raekwon, GZA, RZA & Ghostface Killah)",
-          "guide": "Method Man's solo showcase samples Hall & Oates' “Method of Modern Love” and became the only single released from the album. It isolates one voice from the collective while still carrying RZA's sample-based production approach.",
-          "focus": "Method Man solo showcase, sample, and single status",
+          "guide": "“Method Man” is a RZA-produced solo performance by Method Man on Enter the Wu-Tang (36 Chambers), first issued as the B-side to the 1993 Loud re-release of “Protect Ya Neck.”",
+          "focus": "Treat the lead voice as the key fact: despite the catalog’s guest list, this source describes a Method Man solo built by RZA.",
           "source": {
-            "label": "Wikipedia editorial reference",
+            "label": "Wikipedia",
             "title": "Method Man (song)",
             "url": "https://en.wikipedia.org/wiki/Method_Man_(song)",
-            "summary": "The article identifies it as the album's sole single, credits RZA's production, and names Hall & Oates' “Method of Modern Love” as the sampled recording."
+            "summary": "Track page identifies the 36 Chambers placement, RZA production, Method Man solo performance, and Protect Ya Neck B-side release."
           }
         },
         {
@@ -5219,24 +5384,24 @@
         },
         {
           "trackTitle": "C.R.E.A.M. (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)",
-          "guide": "RZA built the track around the Charmels' 1967 “As Long as I've Got You”; Method Man and Raekwon deliver the verses. The sample and two-MC structure are the essential musical facts to follow.",
-          "focus": "RZA sample construction with Method Man and Raekwon",
+          "guide": "Wu-Tang Clan released “C.R.E.A.M.” as the second single from Enter the Wu-Tang (36 Chambers). RZA produced it around a sample of the Charmels’ “As Long As I’ve Got You”; Raekwon and Inspectah Deck take the verses while Method Man sings the hook.",
+          "focus": "Follow the division of labor: the Charmels loop, RZA production, verse pair, and Method Man hook are all named on the track source.",
           "source": {
-            "label": "Wikipedia editorial reference",
+            "label": "Wikipedia",
             "title": "C.R.E.A.M.",
             "url": "https://en.wikipedia.org/wiki/C.R.E.A.M.",
-            "summary": "The article identifies RZA as producer, names the Charmels sample, and credits Method Man and Raekwon as the song's rappers."
+            "summary": "Track page identifies the 36 Chambers single, RZA production, Charmels sample, verses by Raekwon and Inspectah Deck, and Method Man hook."
           }
         },
         {
           "trackTitle": "Protect Ya Neck (feat. RZA, Method Man, Inspectah Deck, Raekwon, U-God, Ol' Dirty Bastard, Ghostface Killah & GZA)",
-          "guide": "The song was Wu-Tang Clan's debut single, independently issued in 1992 before the album. Its importance is historical as well as musical: it introduced the group’s multi-member format before the 1993 debut LP.",
-          "focus": "Independent 1992 debut-single history",
+          "guide": "“Protect Ya Neck” was Wu-Tang Clan’s debut single, produced by RZA and first released independently in 1992 before its Loud re-release. The source identifies eight of the original nine members on the recording.",
+          "focus": "Use its self-released debut status to hear the group assembly: the source names this as an eight-member RZA production rather than a generic posse cut.",
           "source": {
-            "label": "Wikipedia editorial reference",
+            "label": "Wikipedia",
             "title": "Protect Ya Neck",
             "url": "https://en.wikipedia.org/wiki/Protect_Ya_Neck",
-            "summary": "The article identifies the track as the Wu-Tang Clan's debut single and dates its independent release to 1992 before Enter the Wu-Tang (36 Chambers)."
+            "summary": "Track page identifies the 1992 independent debut, RZA production, 36 Chambers placement, and eight original members."
           }
         },
         {
@@ -5532,13 +5697,13 @@
         },
         {
           "trackTitle": "While My Guitar Gently Weeps",
-          "guide": "George Harrison invited Eric Clapton to play the song's lead guitar. The guest contribution is the decisive collaborator fact to listen for in this Beatles recording.",
-          "focus": "Eric Clapton guest lead guitar",
+          "guide": "George Harrison wrote “While My Guitar Gently Weeps” for The Beatles; Eric Clapton overdubbed the lead-guitar part on the group recording, though he was not formally credited.",
+          "focus": "Listen for Clapton’s overdub as a documented guest contribution inside a Harrison song, rather than treating the guitar as an anonymous White Album texture.",
           "source": {
-            "label": "Wikipedia editorial reference",
+            "label": "Wikipedia",
             "title": "While My Guitar Gently Weeps",
             "url": "https://en.wikipedia.org/wiki/While_My_Guitar_Gently_Weeps",
-            "summary": "The article identifies Harrison as writer and documents Eric Clapton's guest lead-guitar performance on the Beatles recording."
+            "summary": "Track page identifies Harrison as writer, the White Album recording, and Eric Clapton’s uncredited lead-guitar overdub."
           }
         },
         {
@@ -5561,13 +5726,13 @@
         },
         {
           "trackTitle": "Blackbird",
-          "guide": "McCartney wrote “Blackbird” in response to racial tensions in the United States during the civil-rights era. Its compressed acoustic form carries a specific political origin, not merely a generic nature image.",
-          "focus": "Civil-rights-era inspiration",
+          "guide": "Paul McCartney wrote “Blackbird” for The Beatles and performed it as a solo piece. He has connected its lyric to both a blackbird heard in Rishikesh and the US civil-rights movement.",
+          "focus": "The solo performance matters here: listen for McCartney carrying the White Album track alone while its lyric holds those two stated points of reference.",
           "source": {
-            "label": "Wikipedia editorial reference",
+            "label": "Wikipedia",
             "title": "Blackbird (Beatles song)",
             "url": "https://en.wikipedia.org/wiki/Blackbird_(Beatles_song)",
-            "summary": "The article credits McCartney and reports that he wrote the song as a response to racial tensions in the United States during the 1960s civil-rights movement."
+            "summary": "Track page identifies McCartney as writer and solo performer and records his stated Rishikesh and civil-rights inspirations."
           }
         },
         {
@@ -5638,9 +5803,14 @@
         },
         {
           "trackTitle": "Helter Skelter",
-          "guide": "Track 6 of 30, \"Helter Skelter\", is the album's late-album track and runs 4:30. In the album sequence it follows \"Sexy Sadie\" and leads into \"Long, Long, Long\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Paul McCartney wrote “Helter Skelter” for The Beatles as an attempt to make a sound “as loud and dirty as possible.” The song became a notable early influence on heavy metal.",
+          "focus": "Use McCartney’s stated loud-and-dirty aim as the listening frame; the aggression is an explicit design target, not a retrospective description pasted onto the track.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Helter Skelter (song)",
+            "url": "https://en.wikipedia.org/wiki/Helter_Skelter_(song)",
+            "summary": "Track page identifies McCartney as writer, the White Album placement, and his stated aim to make the sound loud and dirty."
+          }
         },
         {
           "trackTitle": "Long, Long, Long",
@@ -6205,21 +6375,36 @@
       "trackGuide": [
         {
           "trackTitle": "So What",
-          "guide": "Built on two Dorian modes a half-step apart, the head is a call-and-response between Paul Chambers’s bass and the horns. Bill Evans’s suspended piano chords float over the static harmony, while John Coltrane’s solo develops a single rhythmic motif into a torrent of ideas, and Cannonball Adderley answers with blues-drenched, hard-swinging phrases. The track’s radical modal structure—eschewing chord changes for scalar improvisation—announced a seismic shift in jazz language.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "Kind of Blue opens with Davis’s modal-jazz composition in Dorian mode; Gil Evans wrote the piano-and-bass introduction for Bill Evans and Paul Chambers.",
+          "focus": "Listen for the bass stating the central theme after the introduction. The small modal shift is the drama, not a chord-heavy progression.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "So What (Miles Davis composition)",
+            "url": "https://en.wikipedia.org/wiki/So_What_(Miles_Davis_composition)",
+            "summary": "Track page identifies its album-opening role, Dorian-mode form, and Gil Evans introduction."
+          }
         },
         {
           "trackTitle": "Freddie Freeloader",
-          "guide": "A 12-bar blues in B-flat that substitutes Wynton Kelly’s earthy, church-inflected piano for Evans, giving the track a greasy, hard-bop swagger. Davis’s muted trumpet states the theme with a laid-back, almost conversational phrasing, then Coltrane digs into a soulful, preacher-like solo full of bent notes and cries. Adderley’s exuberant, cascading lines and Kelly’s bluesy comping keep the mood infectiously relaxed, making this the album’s most overtly swinging moment.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "Davis’s Kind of Blue blues uses Wynton Kelly on piano instead of Bill Evans and gives solo space to Kelly, Davis, John Coltrane, Cannonball Adderley and Paul Chambers.",
+          "focus": "Track how the twelve-bar blues opens room for each soloist. Kelly’s appearance changes the piano colour at exactly this point on the album.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Freddie Freeloader",
+            "url": "https://en.wikipedia.org/wiki/Freddie_Freeloader",
+            "summary": "Track page identifies its twelve-bar blues form, Wynton Kelly substitution, and soloists."
+          }
         },
         {
           "trackTitle": "Blue In Green",
-          "guide": "A ten-bar ballad with an ambiguous, impressionistic harmonic sequence largely shaped by Bill Evans, whose introductory piano voicings evoke a Debussy prelude. Davis’s Harmon-muted trumpet enters with a fragile, breathy tone, bending pitches and leaving space between phrases like a whispered confession. Coltrane’s tenor solo unfolds in tender, vocalized arcs, while the rhythm section plays with rubato freedom, creating a nocturnal, suspended-in-time atmosphere.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "This Kind of Blue ballad is the album’s only piece without Cannonball Adderley and unfolds through a ten-measure circular form after a four-measure introduction.",
+          "focus": "Follow the returning solo sequence rather than expecting a standard chorus. Its circular form is central to the record’s suspended mood.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Blue in Green",
+            "url": "https://en.wikipedia.org/wiki/Blue_in_Green",
+            "summary": "Track page identifies its album position, absence of Adderley, and Bill Evans’s form description."
+          }
         },
         {
           "trackTitle": "All Blues",
@@ -6305,9 +6490,14 @@
         },
         {
           "trackTitle": "Hold Up",
-          "guide": "Track 2 of 12, \"Hold Up\", is the album's early-album track and runs 3:41. In the album sequence it follows \"Pray You Catch Me\" and leads into \"Don’t Hurt Yourself\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Beyoncé’s Lemonade track “Hold Up” credits a wide writing group including Diplo, Ezra Koenig, Emile Haynie, Josh Tillman, MNEK and MeLo-X; it was later serviced as the album’s third single.",
+          "focus": "Keep the densely credited construction in mind: this is a Lemonade track built through a large collaborative writing team, not a lone-confessional performance.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Hold Up (song)",
+            "url": "https://en.wikipedia.org/wiki/Hold_Up_(song)",
+            "summary": "Track page identifies the Lemonade album placement, single release, and credited writers."
+          }
         },
         {
           "trackTitle": "Don’t Hurt Yourself",
@@ -6317,15 +6507,25 @@
         },
         {
           "trackTitle": "Sorry",
-          "guide": "Track 4 of 12, \"Sorry\", is the album's early-album track and runs 3:53. In the album sequence it follows \"Don’t Hurt Yourself\" and leads into \"6 Inch\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Sorry” is an electro-R&B and electropop Lemonade single produced by Beyoncé, Diana Gordon and MeLo-X; its lyric addresses a partner’s betrayal.",
+          "focus": "Listen for the drum beats, synthesisers and bells shaping the song’s thumping rhythm around its pointed breakup address.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Sorry (Beyoncé song)",
+            "url": "https://en.wikipedia.org/wiki/Sorry_(Beyonc%C3%A9_song)",
+            "summary": "Track page identifies the producers, musical elements, and betrayal-centred lyric."
+          }
         },
         {
           "trackTitle": "6 Inch",
-          "guide": "Track 5 of 12, \"6 Inch\", is the album's middle-section track and runs 4:20. In the album sequence it follows \"Sorry\" and leads into \"Daddy Lessons\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Beyoncé’s “6 Inch” features the Weeknd and occupies the fifth-track slot on Lemonade; its video appears within Beyoncé’s 2016 Lemonade film.",
+          "focus": "Treat the Weeknd feature as part of the album-film sequence: the source places this song both in the ordered record and its visual companion.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "6 Inch",
+            "url": "https://en.wikipedia.org/wiki/6_Inch",
+            "summary": "Track page identifies the Weeknd feature, Lemonade track position, and film appearance."
+          }
         },
         {
           "trackTitle": "Daddy Lessons",
@@ -6436,15 +6636,25 @@
       "trackGuide": [
         {
           "trackTitle": "Rehab",
-          "guide": "The opening snare hit and tambourine immediately evoke a 1960s Stax single. Winehouse's lyric 'I ain't got the time' is delivered with a defiant, swung phrasing, while the horn section punctuates each chorus with a syncopated stab.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Winehouse wrote and recorded “Rehab” for Back to Black with Mark Ronson producing; its refusal-to-enter-rehabilitation lyric is autobiographical.",
+          "focus": "The directness is the point: hear how a personal refusal becomes the song’s repeated centre rather than a detail hidden in metaphor.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Rehab (Amy Winehouse song)",
+            "url": "https://en.wikipedia.org/wiki/Rehab_(Amy_Winehouse_song)",
+            "summary": "Track page identifies Winehouse as writer, Ronson as producer, and the autobiographical rehabilitation subject."
+          }
         },
         {
           "trackTitle": "You Know I'm No Good",
-          "guide": "The song's groove is anchored by a muted guitar chop and a descending horn line. The bridge shifts to a half-time feel, and Winehouse's vocal layering on the line 'I'll be in trouble soon' creates a self-fulfilling prophecy effect.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Winehouse wrote and performed this Back to Black song as a solo recording; a separate remix adds Ghostface Killah and appears on his More Fish album.",
+          "focus": "Use the solo album version as the reference point. The later Ghostface Killah remix is a distinct reworking, not the form Back to Black presents.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "You Know I'm No Good",
+            "url": "https://en.wikipedia.org/wiki/You_Know_I%27m_No_Good",
+            "summary": "Track page distinguishes Winehouse’s original solo album recording from the Ghostface Killah remix."
+          }
         },
         {
           "trackTitle": "Me & Mr. Jones",
@@ -6460,9 +6670,14 @@
         },
         {
           "trackTitle": "Back to Black",
-          "guide": "The sparse arrangement—piano, bass, strings, and a single-note guitar line—leaves Winehouse's voice completely exposed. The string swells, arranged by Ronson, enter after the first verse and retreat for the final 'black' refrain, symbolizing emotional withdrawal.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Winehouse and Mark Ronson wrote “Back to Black,” with Ronson producing; Winehouse drew it from her relationship with Blake Fielder-Civil after he returned to an ex-girlfriend.",
+          "focus": "Listen to the title song as an aftermath narrative with a documented personal trigger, rather than as a generic retro-soul lament.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Back to Black (song)",
+            "url": "https://en.wikipedia.org/wiki/Back_to_Black_(song)",
+            "summary": "Track page identifies the co-writing, Ronson production, and stated relationship inspiration."
+          }
         },
         {
           "trackTitle": "Love Is a Losing Game",
@@ -6614,9 +6829,14 @@
         },
         {
           "trackTitle": "Living For the City",
-          "guide": "A seven-minute social-realist epic. The shift from the sung verses to the spoken narrative at 2:50 is a radical structural break; the sound effects—footsteps, a bus door, a slamming cell door—were created in the studio with foley techniques. The final chorus returns with a more urgent, clenched vocal.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Wonder released “Living for the City” as a 1973 single from Innervisions; it reached number one on Billboard’s R&B chart.",
+          "focus": "Place this narrative in Innervisions’ original release moment: the source identifies it as a 1973 album single rather than a later retrospective staple.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Living for the City",
+            "url": "https://en.wikipedia.org/wiki/Living_for_the_City",
+            "summary": "Track page identifies the Innervisions release and its R&B-chart result."
+          }
         },
         {
           "trackTitle": "Golden Lady",
@@ -6626,9 +6846,14 @@
         },
         {
           "trackTitle": "Higher Ground",
-          "guide": "The clavinet's percussive, muted attack drives the rhythm, while the Moog bass provides a deep, rubbery pulse. Wonder's vocal on 'I'm so glad that he let me try it again' is multi-tracked, creating a gospel-like self-harmony that reinforces the theme of spiritual renewal.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Wonder wrote and recorded “Higher Ground” in a three-hour burst in May 1973; the Innervisions album version includes an extra verse and runs 30 seconds longer than the single.",
+          "focus": "Compare the album cut’s extra verse with the single’s tighter form. The source makes this an edition-specific difference listeners can actually follow.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Higher Ground (Stevie Wonder song)",
+            "url": "https://en.wikipedia.org/wiki/Higher_Ground_(Stevie_Wonder_song)",
+            "summary": "Track page identifies the rapid 1973 writing/recording and album-versus-single difference."
+          }
         },
         {
           "trackTitle": "Jesus Children of America",
@@ -6644,9 +6869,14 @@
         },
         {
           "trackTitle": "Don't You Worry 'Bout a Thing",
-          "guide": "Track 8 of 9, \"Don't You Worry 'Bout a Thing\", is the album's late-album track and runs 4:45. In the album sequence it follows \"All In Love Is Fair\" and leads into \"He's Misstra Know-It-All\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Wonder released this positive-message song as Innervisions’ third single in 1974; its lyric urges taking things in stride.",
+          "focus": "Hear the reassurance as the song’s stated subject, not as a vague mood: it frames the track’s upbeat address from the opening premise.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Don't You Worry 'bout a Thing",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_You_Worry_%27bout_a_Thing",
+            "summary": "Track page identifies its Innervisions single release and positive lyrical message."
+          }
         },
         {
           "trackTitle": "He's Misstra Know-It-All",
@@ -6762,9 +6992,14 @@
         },
         {
           "trackTitle": "Norwegian Wood (This Bird Has Flown)",
-          "guide": "Lennon's oblique narrative of an extramarital affair is set to an acoustic waltz. The sitar's drone and melodic flourishes create an exotic, ambiguous mood, and the final line 'So I lit a fire' is delivered with a cold, matter-of-fact finality.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "This Rubber Soul song was written mainly by John Lennon with lyrical contributions from Paul McCartney, while George Harrison’s sitar marked the instrument’s first appearance on a Western rock recording.",
+          "focus": "Begin with Harrison’s sitar. It is a concrete arrangement landmark that helps explain why this small narrative changed the Beatles’ sonic vocabulary.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Norwegian Wood (This Bird Has Flown)",
+            "url": "https://en.wikipedia.org/wiki/Norwegian_Wood_(This_Bird_Has_Flown)",
+            "summary": "Track page identifies the writing contribution and Harrison’s sitar as a Western rock-recording first."
+          }
         },
         {
           "trackTitle": "You Won't See Me",
@@ -6774,9 +7009,14 @@
         },
         {
           "trackTitle": "Nowhere Man",
-          "guide": "A song about existential alienation with a bright, chiming guitar riff. The guitar solo, played by Harrison on his Rickenbacker 12-string, uses a volume swell technique that makes the notes bloom out of silence.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Lennon wrote “Nowhere Man” for Rubber Soul and the Beatles recorded it with three-part vocal harmony and no acoustic guitar, an unusual arrangement choice for the group at that point.",
+          "focus": "Follow the three-part harmony as the arrangement’s engine. The song’s detached portrait gains force from voices that sound deliberately unified.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Nowhere Man (song)",
+            "url": "https://en.wikipedia.org/wiki/Nowhere_Man_(song)",
+            "summary": "Track page identifies Lennon’s composition, Rubber Soul release, three-part harmony, and no-acoustic-guitar arrangement."
+          }
         },
         {
           "trackTitle": "Think For Yourself",
@@ -6816,9 +7056,14 @@
         },
         {
           "trackTitle": "In My Life",
-          "guide": "Lennon's autobiographical reverie is anchored by a chiming guitar arpeggio. The sped-up piano solo, played by producer George Martin, is a Baroque-inspired interlude that sounds like a music box mechanism, contrasting with the song's nostalgic lyric.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Credited to Lennon–McCartney, “In My Life” turns memories of people and places into a Rubber Soul song whose baroque-style keyboard solo was played by George Martin.",
+          "focus": "Listen for Martin’s compact keyboard break between vocal passages. It changes the song’s memory-piece texture without interrupting its intimate scale.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "In My Life",
+            "url": "https://en.wikipedia.org/wiki/In_My_Life",
+            "summary": "Track page identifies the Lennon–McCartney credit, memory subject, and George Martin keyboard solo."
+          }
         },
         {
           "trackTitle": "Wait",
@@ -6958,15 +7203,25 @@
       "trackGuide": [
         {
           "trackTitle": "Don't Stop 'Til You Get Enough",
-          "guide": "The song's intro uses a multi-layered vocal stack that creates a choir-of-one effect. The string arrangement by Jerry Hey uses a disco-style octave leap in the chorus, and Jackson's falsetto ad-libs ('Keep on, with the force, don't stop') weave around the horn stabs.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Michael Jackson wrote and composed “Don’t Stop ’Til You Get Enough” for Off the Wall; Quincy Jones produced the recording and the song was released as the album’s lead single.",
+          "focus": "Follow the lead-single frame: this is Jackson’s own composition placed at the front of Off the Wall, with Jones credited as its producer.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Don't Stop 'Til You Get Enough",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_Stop_%27Til_You_Get_Enough",
+            "summary": "Track page identifies Jackson as writer/composer, Quincy Jones as producer, and the Off the Wall lead-single release."
+          }
         },
         {
           "trackTitle": "Rock With You",
-          "guide": "A mid-tempo groove with a smooth, gliding bass line and a Rhodes electric piano. Jackson's vocal phrasing on 'I wanna rock with you' stretches the word 'rock' over a melismatic run, while the guitar solo by David Williams is a clean, melodic statement.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Rod Temperton wrote “Rock with You” and Quincy Jones produced it for Off the Wall; it became the album’s second single.",
+          "focus": "Treat Temperton’s writing credit and Jones’s production as the concrete personnel anchor for this second Off the Wall single.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Rock with You (Michael Jackson song)",
+            "url": "https://en.wikipedia.org/wiki/Rock_with_You_(Michael_Jackson_song)",
+            "summary": "Track page identifies Temperton as writer, Jones as producer, and the Off the Wall single release."
+          }
         },
         {
           "trackTitle": "Workin' Day and Night",
@@ -6994,9 +7249,14 @@
         },
         {
           "trackTitle": "She's Out of My Life",
-          "guide": "A stark ballad with only piano, strings, and voice. Jackson's vocal is completely dry, with no reverb, and the listener can hear his breaths and the slight cracking of his voice on the word 'life.' The song ends with a sustained string chord that fades for over ten seconds.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Tom Bahler wrote “She’s Out of My Life”; Jackson recorded it for Off the Wall and it was issued as the album’s fourth single.",
+          "focus": "The song is a Bahler composition rather than a Jackson original, and its fourth-single status locates it within the album’s release sequence.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "She's Out of My Life",
+            "url": "https://en.wikipedia.org/wiki/She%27s_Out_of_My_Life",
+            "summary": "Track page identifies Bahler as writer, the Off the Wall recording, and its fourth-single release."
+          }
         },
         {
           "trackTitle": "I Can't Help It",
@@ -7123,15 +7383,25 @@
         },
         {
           "trackTitle": "Fuck Wit Dre Day (And Everybody’s Celebratin’)",
-          "guide": "Track 2 of 16, \"Fuck Wit Dre Day (And Everybody’s Celebratin’)\", is the album's early-album track and runs 4:52. In the album sequence it follows \"The Chronic (intro)\" and leads into \"Let Me Ride\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Fuck wit Dre Day” is a diss track by Dr. Dre featuring Snoop Doggy Dogg; it was released as The Chronic’s second single.",
+          "focus": "Hear the track in its documented diss-record context and as the second single, rather than treating it as a generic album interlude.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Fuck wit Dre Day",
+            "url": "https://en.wikipedia.org/wiki/Fuck_wit_Dre_Day",
+            "summary": "Track page identifies the Snoop Doggy Dogg feature, diss-track context, and second-single release."
+          }
         },
         {
           "trackTitle": "Let Me Ride",
-          "guide": "Track 3 of 16, \"Let Me Ride\", is the album's early-album track and runs 4:21. In the album sequence it follows \"Fuck Wit Dre Day (And Everybody’s Celebratin’)\" and leads into \"The Day the Niggaz Took Over\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Let Me Ride” is a Dr. Dre song from The Chronic featuring Jewell; it was released as the album’s third single.",
+          "focus": "The Jewell feature is the specific credit to follow here; the source also places the song as The Chronic’s third single.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Let Me Ride",
+            "url": "https://en.wikipedia.org/wiki/Let_Me_Ride",
+            "summary": "Track page identifies the Jewell feature and its third-single release from The Chronic."
+          }
         },
         {
           "trackTitle": "The Day the Niggaz Took Over",
@@ -7141,9 +7411,14 @@
         },
         {
           "trackTitle": "Nuthin’ but a “G” Thang",
-          "guide": "Track 5 of 16, \"Nuthin’ but a “G” Thang\", is the album's early-album track and runs 3:58. In the album sequence it follows \"The Day the Niggaz Took Over\" and leads into \"Deeez Nuuuts\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Dr. Dre’s “Nuthin’ but a ‘G’ Thang” features Snoop Doggy Dogg and was released as the first single from The Chronic.",
+          "focus": "Use the Snoop feature as the audible anchor: the source identifies this as the first The Chronic single and one of its key vocal pairings.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Nuthin’ but a “G” Thang",
+            "url": "https://en.wikipedia.org/wiki/Nuthin%27_but_a_%22G%22_Thang",
+            "summary": "Track page identifies the Snoop Doggy Dogg feature and its first-single release from The Chronic."
+          }
         },
         {
           "trackTitle": "Deeez Nuuuts",
@@ -7277,9 +7552,14 @@
       "trackGuide": [
         {
           "trackTitle": "Nikes",
-          "guide": "Ocean's pitched-up vocal — a recurring technique on Blonde — opens the album over an ambient drone before the beat drops at 1:30 with a distorted bass pulse. The lyric juxtaposes materialism, mortality, and lost innocence, with the repeated refrain 'we'll let you guys prophesy' pushing back against the expectations placed on Ocean after Channel Orange.",
-          "focus": "",
-          "source": null
+          "guide": "Frank Ocean’s “Nikes” opens Blonde and was released with a music video before the album arrived.",
+          "focus": "Start with its opening-track role: the source ties this song directly to Blonde’s first position and its pre-album visual release.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Nikes (song)",
+            "url": "https://en.wikipedia.org/wiki/Nikes_(song)",
+            "summary": "Track page identifies “Nikes” as Blonde’s opening track and documents its music-video release."
+          }
         },
         {
           "trackTitle": "Ivy",
@@ -7289,9 +7569,14 @@
         },
         {
           "trackTitle": "Pink + White",
-          "guide": "Beyoncé provides uncredited backing vocals on this Pharrell-produced track, which samples a thunderstorm recorded on Ocean's phone. The lyric moves from a specific memory into a cosmic meditation on mortality, with Tyler, the Creator's spoken word outro grounding the track back in the tangible.",
-          "focus": "",
-          "source": null
+          "guide": "“Pink + White” is a Blonde track written by Frank Ocean with Pharrell Williams; Williams also produced it and Beyoncé provides background vocals.",
+          "focus": "Listen for the documented Pharrell production and Beyoncé background vocals—the page provides concrete personnel rather than a general mood description.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Pink + White",
+            "url": "https://en.wikipedia.org/wiki/Pink_%2B_White",
+            "summary": "Track page identifies Ocean and Pharrell Williams as writers, Williams as producer, and Beyoncé background vocals."
+          }
         },
         {
           "trackTitle": "Be Yourself",
@@ -7325,9 +7610,14 @@
         },
         {
           "trackTitle": "Nights",
-          "guide": "Track 9 of 17, \"Nights\", is the album's middle-section track and runs 5:07. In the album sequence it follows \"Good Guy\" and leads into \"Solo (Reprise)\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Frank Ocean wrote “Nights” for Blonde with producer Malay; the song’s published credits also include Om’Mas Keith and Buddy Ross.",
+          "focus": "Use the credited production team as an entry point: Malay, Om’Mas Keith and Buddy Ross are named on the source for this Blonde recording.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Nights (Frank Ocean song)",
+            "url": "https://en.wikipedia.org/wiki/Nights_(Frank_Ocean_song)",
+            "summary": "Track page identifies the Blonde placement, Ocean’s writing credit, and the credited producers."
+          }
         },
         {
           "trackTitle": "Solo (Reprise)",
@@ -7442,15 +7732,25 @@
       "trackGuide": [
         {
           "trackTitle": "Born Under Punches (The Heat Goes On)",
-          "guide": "The opening track introduces the album's core method: a looping, interlocking groove built from scratch, over which Byrne delivers fragmented, paranoid lyrics. Belew's guitar solo at 2:30 mimics a distorted radio transmission.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Talking Heads opened Remain in Light with “Born Under Punches (The Heat Goes On),” a song credited to David Byrne, Brian Eno, Chris Frantz, Jerry Harrison and Tina Weymouth.",
+          "focus": "Its full-band-and-Eno writing credit is the useful anchor: it introduces the record with the collaborative authorship documented on the song page.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Born Under Punches (The Heat Goes On)",
+            "url": "https://en.wikipedia.org/wiki/Born_Under_Punches_(The_Heat_Goes_On)",
+            "summary": "Track page identifies the Remain in Light opening position and the five credited writers."
+          }
         },
         {
           "trackTitle": "Crosseyed and Painless",
-          "guide": "Built around a rapid-fire funk beat, this track features Byrne rapping about information overload. The call-and-response backing vocals and Belew's squealing harmonics create a sense of frantic urgency.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "“Crosseyed and Painless” is a Remain in Light song credited to Byrne, Eno, Frantz, Harrison and Weymouth, with lyrics written by Byrne.",
+          "focus": "Separate the lyric credit from the broader composition credit: Byrne wrote the words while the source lists the larger collaborative writing team.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Crosseyed and Painless",
+            "url": "https://en.wikipedia.org/wiki/Crosseyed_and_Painless",
+            "summary": "Track page identifies the Remain in Light placement, five credited writers, and Byrne’s lyric credit."
+          }
         },
         {
           "trackTitle": "The Great Curve",
@@ -7460,9 +7760,14 @@
         },
         {
           "trackTitle": "Once In a Lifetime",
-          "guide": "The album's most iconic track, its looping bassline and one-chord vamp underpin Byrne's existential sermon on middle-class disorientation. The distinctive watery keyboard sound was created by Eno treating a synthesizer with a delay effect.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Talking Heads released “Once in a Lifetime” from Remain in Light as its lead single; it was co-written by David Byrne, Brian Eno, Chris Frantz and Tina Weymouth.",
+          "focus": "This is the album’s lead single, built from a Byrne–Eno–Frantz–Weymouth writing credit; use that documented collaboration as the listening context.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Once in a Lifetime (Talking Heads song)",
+            "url": "https://en.wikipedia.org/wiki/Once_in_a_Lifetime_(Talking_Heads_song)",
+            "summary": "Track page identifies the Remain in Light lead-single release and credited writers."
+          }
         },
         {
           "trackTitle": "Houses In Motion",
@@ -7599,9 +7904,14 @@
         },
         {
           "trackTitle": "Starman (2012 Remaster)",
-          "guide": "Synth-driven melodies and a catchy, otherworldly vocal hook define this space-age rock classic. The lyrics’ alien metaphors and shimmering production mark it as a pivotal moment in Bowie’s exploration of extraterrestrial themes.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "David Bowie wrote “Starman” for The Rise and Fall of Ziggy Stardust and the Spiders from Mars; it became the album’s lead single in 1972.",
+          "focus": "The 2012 remaster still points back to the original role: this Bowie composition was Ziggy Stardust’s lead single in 1972.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Starman (song)",
+            "url": "https://en.wikipedia.org/wiki/Starman_(song)",
+            "summary": "Track page identifies Bowie as writer and documents the 1972 lead-single release from Ziggy Stardust."
+          }
         },
         {
           "trackTitle": "It Ain't Easy (2012 Remaster)",
@@ -7629,15 +7939,25 @@
         },
         {
           "trackTitle": "Ziggy Stardust (2012 Remaster)",
-          "guide": "A narrative-driven rock epic with a driving rhythm section and theatrical vocal delivery, the track encapsulates the Ziggy Stardust persona. The production’s mix of electric guitars and drums reinforces the album’s mythic, theatrical vision.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "Bowie wrote “Ziggy Stardust” as the title character’s song on The Rise and Fall of Ziggy Stardust and the Spiders from Mars; Mick Ronson played lead guitar.",
+          "focus": "Follow Ronson’s lead guitar when hearing the title character’s song; the source names both the character focus and his specific instrumental role.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Ziggy Stardust (song)",
+            "url": "https://en.wikipedia.org/wiki/Ziggy_Stardust_(song)",
+            "summary": "Track page identifies Bowie as writer, the title-character subject, and Mick Ronson’s lead-guitar role."
+          }
         },
         {
           "trackTitle": "Suffragette City (2012 Remaster)",
-          "guide": "A rebellious rock anthem with a galloping rhythm and brass section, the track’s lyrics celebrate anarchic freedom. The production’s raw energy and punchy arrangement solidify its status as a fan favorite and cultural touchstone.",
-          "focus": "Listening guide",
-          "source": null
+          "guide": "Bowie wrote “Suffragette City” for Ziggy Stardust; Mott the Hoople first declined the song before Bowie recorded it for the album.",
+          "focus": "Its documented near-miss with Mott the Hoople gives this Ziggy Stardust track a concrete pre-history before Bowie’s own album version.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Suffragette City",
+            "url": "https://en.wikipedia.org/wiki/Suffragette_City",
+            "summary": "Track page identifies Bowie as writer, the Ziggy Stardust recording, and Mott the Hoople’s earlier rejection."
+          }
         },
         {
           "trackTitle": "Rock 'n' Roll Suicide (2012 Remaster)",
@@ -7711,9 +8031,14 @@
       "trackGuide": [
         {
           "trackTitle": "Gimme Shelter (Remastered 2019)",
-          "guide": "The raw, mournful slide guitar weaves a desperate counterpoint to Charlie Watts' relentlessly driving beat in \"Gimme Shelter,\" creating an unsettling tension that perfectly mirrors the song's apocalyptic lyrics. Merry Clayton’s soaring, almost frantic vocal performance, layered against Mick Jagger’s weary delivery, is a masterclass in contrasting dynamics and emotional intensity. The 2019 remaster clarifies the production’s starkness, highlighting the deliberate sparseness of the arrangement and amplifying the chilling sense of impending doom that defined the era.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "The Rolling Stones recorded “Gimme Shelter” for Let It Bleed with Merry Clayton contributing guest vocals; Keith Richards’ opening guitar figure was developed from a riff he had been working on.",
+          "focus": "Listen for Merry Clayton’s guest vocal against Richards’ opening guitar figure—both are specific recording details documented on the track page.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Gimme Shelter",
+            "url": "https://en.wikipedia.org/wiki/Gimme_Shelter",
+            "summary": "Track page identifies the Let It Bleed recording, Merry Clayton guest vocal, and Richards’ opening guitar figure."
+          }
         },
         {
           "trackTitle": "Love In Vain (Remastered 2019)",
@@ -7741,9 +8066,14 @@
         },
         {
           "trackTitle": "Midnight Rambler (Remastered 2019)",
-          "guide": "The \"Midnight Rambler\" remaster crackles with a raw, claustrophobic energy, driven by Nicky Hopkins' frantic, almost deranged piano chords that weave around Keith Richards' menacing guitar riff. Mick Jagger's spoken-word narrative, punctuated by the unsettling scrape of Charlie Watts' drums and a mournful saxophone, is layered with a chilling theatricality, showcasing a production that amplifies the song's unsettling, confessional darkness. It remains a landmark example of the Stones pushing blues and rock into a uniquely unsettling and theatrical space.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Midnight Rambler” is a Let It Bleed song credited to Mick Jagger and Keith Richards; it is based on the Boston Strangler murders.",
+          "focus": "The Jagger–Richards credit and the source’s Boston Strangler reference provide a defined narrative context for this Let It Bleed performance.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Midnight Rambler",
+            "url": "https://en.wikipedia.org/wiki/Midnight_Rambler",
+            "summary": "Track page identifies the Let It Bleed placement, Jagger–Richards writing credit, and stated inspiration."
+          }
         },
         {
           "trackTitle": "You Got the Silver (Remastered 2019)",
@@ -7759,9 +8089,14 @@
         },
         {
           "trackTitle": "You Can't Always Get What You Want (Remastered 2019)",
-          "guide": "The mournful, almost hymnal organ swells beneath Mick Jagger's weary vocals in \"You Can't Always Get What You Want,\" creating a palpable sense of resignation and vast, echoing space. Layered strings and a subtle, almost militaristic drum cadence build a stately, cinematic arrangement that belies the song's underlying melancholy. The 2019 remaster clarifies the intricate instrumentation, highlighting Charlie Watts' masterful, understated percussion and the rich, textured quality of the studio production, revealing the song’s surprising complexity.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "The Rolling Stones recorded “You Can’t Always Get What You Want” for Let It Bleed with the London Bach Choir singing the opening chorus.",
+          "focus": "Begin with the London Bach Choir at the opening: it is a clear arrangement detail that immediately distinguishes this Let It Bleed recording.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "You Can't Always Get What You Want",
+            "url": "https://en.wikipedia.org/wiki/You_Can%27t_Always_Get_What_You_Want",
+            "summary": "Track page identifies the Let It Bleed recording and the London Bach Choir’s opening-chorus contribution."
+          }
         }
       ],
       "themes": [
@@ -7877,9 +8212,14 @@
         },
         {
           "trackTitle": "Check the Rhime",
-          "guide": "Track 9 of 14, \"Check the Rhime\", is the album's middle-section track and runs 3:37. In the album sequence it follows \"The Infamous Date Rape\" and leads into \"Everything Is Fair\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Check the Rhime” is A Tribe Called Quest’s second single from The Low End Theory and includes a sample from Average White Band’s “Love Your Life.”",
+          "focus": "The track’s second-single position and named Average White Band sample offer two concrete ways into its Low End Theory construction.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Check the Rhime",
+            "url": "https://en.wikipedia.org/wiki/Check_the_Rhime",
+            "summary": "Track page identifies the second-single release from The Low End Theory and the Average White Band sample."
+          }
         },
         {
           "trackTitle": "Everything Is Fair",
@@ -7889,9 +8229,14 @@
         },
         {
           "trackTitle": "Jazz (We’ve Got)",
-          "guide": "Track 11 of 14, \"Jazz (We’ve Got)\", is the album's late-album track and runs 4:10. In the album sequence it follows \"Everything Is Fair\" and leads into \"Skypager\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Jazz (We’ve Got)” is a Low End Theory single by A Tribe Called Quest and samples Jimmy McGriff’s “Green Dolphin Street.”",
+          "focus": "Follow the named Jimmy McGriff sample rather than a generic “jazz rap” label: the source identifies the exact borrowed recording.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Jazz (We’ve Got)",
+            "url": "https://en.wikipedia.org/wiki/Jazz_(We%27ve_Got)",
+            "summary": "Track page identifies the Low End Theory single and the Jimmy McGriff sample."
+          }
         },
         {
           "trackTitle": "Skypager",
@@ -7907,9 +8252,14 @@
         },
         {
           "trackTitle": "Scenario",
-          "guide": "Track 14 of 14, \"Scenario\", is the album's closer and runs 4:10. In the album sequence it follows \"What?\" and closes the current track list. No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Scenario” was released as the third single from The Low End Theory and features Leaders of the New School, including Busta Rhymes.",
+          "focus": "The Leaders of the New School feature—especially Busta Rhymes—makes this a documented group performance, not simply another Tribe track.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Scenario (song)",
+            "url": "https://en.wikipedia.org/wiki/Scenario_(song)",
+            "summary": "Track page identifies the third-single release from The Low End Theory and the Leaders of the New School feature."
+          }
         }
       ],
       "themes": [
@@ -7984,9 +8334,14 @@
         },
         {
           "trackTitle": "N.Y. State of Mind",
-          "guide": "Premier's beat uses a Joe Chambers piano sample and a low, rumbling bass. Nas delivers a first-person tour of Queensbridge's corners, staircases, and rooftops, with the hook 'I never sleep, 'cause sleep is the cousin of death' becoming a mantra.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "DJ Premier produced “N.Y. State of Mind” for Illmatic, sampling Joe Chambers’ “Mind Rain” and Donald Byrd’s “Flight Time”; Nas delivers two verses describing New York’s dangerous environment.",
+          "focus": "Listen for Premier’s layered jazz-source construction beneath Nas’s two-verse city portrait—the source names both sides of that design.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "N.Y. State of Mind",
+            "url": "https://en.wikipedia.org/wiki/N.Y._State_of_Mind",
+            "summary": "Track page identifies DJ Premier as producer, the Joe Chambers and Donald Byrd samples, and Nas’s two-verse New York setting."
+          }
         },
         {
           "trackTitle": "Life's a Bitch (feat. AZ & Olu Dara)",
@@ -8002,9 +8357,14 @@
         },
         {
           "trackTitle": "Halftime",
-          "guide": "Track 5 of 10, \"Halftime\", is the album's middle-section track and runs 4:21. In the album sequence it follows \"The World Is Yours\" and leads into \"Memory Lane (Sittin' in da Park)\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“Halftime” was Nas’s debut single and Illmatic’s lead single, produced by Large Professor. It was the first song created for the album and arrived about a year and a half before the album.",
+          "focus": "Hear it as Illmatic’s earlier point of entry: the source documents both Large Professor’s production and its unusually early place in the album’s history.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Halftime (song)",
+            "url": "https://en.wikipedia.org/wiki/Halftime_(song)",
+            "summary": "Track page identifies Nas’s debut/Illmatic lead single, Large Professor production, and its status as the first song created for the album."
+          }
         },
         {
           "trackTitle": "Memory Lane (Sittin' in da Park)",
@@ -8032,9 +8392,14 @@
         },
         {
           "trackTitle": "It Ain't Hard to Tell",
-          "guide": "Track 10 of 10, \"It Ain't Hard to Tell\", is the album's closer and runs 3:23. In the album sequence it follows \"Represent\" and closes the current track list. No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“It Ain’t Hard to Tell” closes Illmatic and was its second single. Large Professor produced the track using samples including Michael Jackson’s “Human Nature” and Kool & the Gang’s “N.T.”",
+          "focus": "Start with the closing-track role, then listen for the documented sample architecture under Large Professor’s production rather than a generic finale label.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "It Ain't Hard to Tell",
+            "url": "https://en.wikipedia.org/wiki/It_Ain%27t_Hard_to_Tell",
+            "summary": "Track page identifies the Illmatic closing position, second-single release, Large Professor production, and named samples."
+          }
         }
       ],
       "themes": [
@@ -8129,9 +8494,14 @@
       "trackGuide": [
         {
           "trackTitle": "Sign O' The Times (2020 Remaster)",
-          "guide": "The relentless, stuttering drum machine and jarring synth stabs in \"Sign O' The Times (2020 Remaster)\" create a palpable sense of unease, mirroring the song's lyrical anxieties about societal collapse. Prince’s masterful arrangement weaves in layers of frantic guitar riffs and urgent, almost spoken vocals, all underpinned by a driving, funky bassline that refuses to let up. The remaster clarifies the intricate production, highlighting the song's dense sonic texture and revealing the sheer brilliance of its chaotic, yet meticulously controlled, energy.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Prince performed all vocals and instruments on “Sign o’ the Times,” released from the 1987 album as a single. The song had first been intended for the shelved Dream Factory and Crystal Ball projects.",
+          "focus": "The remaster points back to a one-person original recording: use Prince’s all-vocals-and-instruments credit as the concrete anchor.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Sign o' the Times (song)",
+            "url": "https://en.wikipedia.org/wiki/Sign_o%27_the_Times_(song)",
+            "summary": "Track page identifies the 1987 album and single, Prince’s all-vocals-and-instruments performance, and the shelved-project history."
+          }
         },
         {
           "trackTitle": "Play In The Sunshine (2020 Remaster)",
@@ -8183,15 +8553,25 @@
         },
         {
           "trackTitle": "U Got The Look (2020 Remaster)",
-          "guide": "The shimmering, layered synths in \"U Got The Look (2020 Remaster)\" create a dizzying, almost hypnotic atmosphere, perfectly complementing Prince’s seductive vocals. A driving, syncopated drum machine pulse and subtle, yet insistent bassline underpin the track's infectious groove, showcasing the meticulous production that defined the *Sign o' the Times* era. The remastered clarity allows the intricate interplay between the instruments – from the sharp, staccato guitar jabs to the ethereal keyboard pads – to truly shine, revealing the song’s complex and alluring beauty.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "“U Got the Look” opens the second disc of Sign o’ the Times and became the album’s second chart single. Sheena Easton contributes vocals and Sheila E. percussion.",
+          "focus": "Listen for the named Easton and Sheila E. contributions as the source-backed way into this second-disc opener.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "U Got the Look",
+            "url": "https://en.wikipedia.org/wiki/U_Got_the_Look",
+            "summary": "Track page identifies the second-disc opening position, second chart-single status, Sheena Easton vocals, and Sheila E. percussion."
+          }
         },
         {
           "trackTitle": "If I Was Your Girlfriend (2020 Remaster)",
-          "guide": "The shimmering, almost underwater quality of \"If I Was Your Girlfriend\" is instantly captivating, built upon a subtly distorted bassline and a languid, syncopated drum machine groove. Prince’s layered vocals, treated with a delicate echo and phasing effect, weave around the instrumentation, creating an intimate and yearning atmosphere. The production’s masterful restraint – allowing the song to breathe despite its density – elevates it beyond a simple ballad into a sonic portrait of longing and unspoken desire.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Prince released “If I Was Your Girlfriend” as the second single from Sign o’ the Times after first planning it for the Camille album. Its lyric imagines a more intimate relationship through an androgynous male perspective.",
+          "focus": "Keep the perspective central: the source frames the song as a deliberate relationship thought experiment, not simply another Prince love song.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "If I Was Your Girlfriend",
+            "url": "https://en.wikipedia.org/wiki/If_I_Was_Your_Girlfriend",
+            "summary": "Track page identifies the Sign o’ the Times second-single release, the earlier Camille plan, and its stated relationship perspective."
+          }
         },
         {
           "trackTitle": "Strange Relationship (2020 Remaster)",
@@ -8296,9 +8676,14 @@
         },
         {
           "trackTitle": "Graceland",
-          "guide": "Ray Phiri's lead guitar provides a weeping, melodic backbone. Simon's lyric weaves a personal journey to Graceland with the end of a relationship, the destination becoming a symbol of redemption and loss.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Paul Simon’s title song features vocals by the Everly Brothers and follows a road trip to Graceland after the narrator’s marriage has failed.",
+          "focus": "Use the Everly Brothers vocal presence and the road-trip premise as concrete guideposts through the album’s title track.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Graceland (song)",
+            "url": "https://en.wikipedia.org/wiki/Graceland_(song)",
+            "summary": "Track page identifies the 1986 title-song release, Everly Brothers vocals, and the post-marriage road-trip lyric premise."
+          }
         },
         {
           "trackTitle": "I Know What I Know (with General M.D. Shirinda & the Gaza Sisters)",
@@ -8314,15 +8699,25 @@
         },
         {
           "trackTitle": "Diamonds On the Soles of Her Shoes",
-          "guide": "Ladysmith Black Mambazo's a cappella intro shifts into a buoyant, horn-laced groove. The song's structure mirrors the lyric: a story of class division where a rich girl and a poor boy connect despite their 'diamonds on the soles of her shoes.'",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "“Diamonds on the Soles of Her Shoes” was the fourth single from Graceland and features guest vocals by South African choral group Ladysmith Black Mambazo.",
+          "focus": "Listen for Ladysmith Black Mambazo’s guest voices; the source makes that credited collaboration more useful than a broad “world music” label.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Diamonds on the Soles of Her Shoes",
+            "url": "https://en.wikipedia.org/wiki/Diamonds_on_the_Soles_of_Her_Shoes",
+            "summary": "Track page identifies the Graceland fourth-single release and Ladysmith Black Mambazo guest vocals."
+          }
         },
         {
           "trackTitle": "You Can Call Me Al",
-          "guide": "Bakithi Kumalo's fretless bass solo bookends the track. Simon's rapid-fire, absurdist verses ('I can call you Betty, and Betty when you call me, you can call me Al') contrast with a soaring, wordless chorus, creating an irrepressible pop single.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Paul Simon released “You Can Call Me Al” as Graceland’s lead single. The lyric’s “Al” and “Betty” names came from Pierre Boulez mistakenly calling Simon and then-wife Peggy Harper by those names at a party.",
+          "focus": "The mistaken-name anecdote gives the chorus its documented origin; hear the title phrase as a specific story rather than arbitrary wordplay.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "You Can Call Me Al",
+            "url": "https://en.wikipedia.org/wiki/You_Can_Call_Me_Al",
+            "summary": "Track page identifies the Graceland lead-single role and documents the Pierre Boulez mistaken-name incident behind Al and Betty."
+          }
         },
         {
           "trackTitle": "Under African Skies",
@@ -8463,15 +8858,25 @@
         },
         {
           "trackTitle": "Beat On the Brat",
-          "guide": "Dee Dee Ramone's lyric about a wealthy kid on the Upper East Side — 'Beat on the brat with a baseball bat' — became one of punk's most quoted refrains. The track's 2:32 runtime and single-riff structure epitomize the Ramones' approach: say it, play it, get out.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Joey Ramone said he wrote this Ramones debut-album track about spoiled children in Queens, while tracing its opening chord change to bubblegum songs such as “Chewy Chewy” and “Yummy Yummy Yummy.”",
+          "focus": "Hear how a bubblegum-derived chord move collides with the song’s blunt refrain. That tension is a concrete part of its joke and its attack.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Beat On The Brat by Ramones",
+            "url": "https://www.songfacts.com/facts/ramones/beat-on-the-brat",
+            "summary": "Songfacts quotes Joey Ramone on the Queens inspiration and the bubblegum-song chord change."
+          }
         },
         {
           "trackTitle": "Judy Is a Punk",
-          "guide": "At 92 seconds, the album's shortest track name-checks Berlin and San Francisco before ending with the nonchalant 'They died.' Joey's deadpan delivery of Dee Dee's absurdist lyric — about two juvenile delinquents who join the SLA — captures the cartoon violence-meets-reality aesthetic that made the Ramones revolutionary.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Joey Ramone’s short fictional story follows Jackie and Judy toward the Symbionese Liberation Army, a group then known for the 1974 Patty Hearst kidnapping; the band had honed it in New York performances before recording it.",
+          "focus": "Treat its 90 seconds as a compressed street narrative, not a vague punk pose. The named characters and current-events reference give its speed a specific setting.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Judy Is A Punk by Ramones",
+            "url": "https://www.songfacts.com/facts/ramones/judy-is-a-punk",
+            "summary": "Songfacts identifies Joey Ramone as writer, describes the fictional Jackie and Judy story, and notes its early performance history."
+          }
         },
         {
           "trackTitle": "I Wanna Be Your Boyfriend",
@@ -8517,9 +8922,14 @@
         },
         {
           "trackTitle": "53rd & 3rd",
-          "guide": "Written by Dee Dee about his time as a male hustler on 53rd Street and 3rd Avenue. The raw, confessional lyric and the repetitive, almost hypnotic riff make it one of the album's most unsettling and personal moments.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Written by Dee Dee Ramone, this song is set at the real Manhattan intersection once associated with young male sex workers; it was among the songs Ramones performed in their early CBGB-era club sets.",
+          "focus": "Listen to the narrator’s location before reducing the track to shock value. The corner supplies a precise New York setting for its uneasy first-person story.",
+          "source": {
+            "label": "Songfacts",
+            "title": "53rd & 3rd by Ramones",
+            "url": "https://www.songfacts.com/facts/ramones/53rd-3rd",
+            "summary": "Songfacts describes the real intersection, Dee Dee Ramone’s authorship, subject matter, and early Ramones performances."
+          }
         },
         {
           "trackTitle": "Let's Dance",
@@ -8624,15 +9034,25 @@
       "trackGuide": [
         {
           "trackTitle": "Is This Love",
-          "guide": "From Kaya (1978), this is the softest possible opening: a compact love song built around the off-beat guitar pulse, warm keyboard colour, and a melody that keeps returning to its promise of shelter. Notice how the I-Threes’ responses widen the song without disturbing its unhurried sway.",
-          "focus": "Kaya (1978); romantic reggae groove",
-          "source": null
+          "guide": "Bob Marley and the Wailers released “Is This Love” on Kaya in 1978; it later became part of Legend. The music video was shot at London’s Keskidee Arts Centre and includes a seven-year-old Naomi Campbell.",
+          "focus": "Connect this Legend selection to Kaya, then notice that its video has a documented London setting and early Naomi Campbell appearance.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Is This Love (Bob Marley and the Wailers song)",
+            "url": "https://en.wikipedia.org/wiki/Is_This_Love_(Bob_Marley_and_the_Wailers_song)",
+            "summary": "Track page identifies the 1978 Kaya release, later Legend inclusion, and the Keskidee Arts Centre video featuring Naomi Campbell."
+          }
         },
         {
           "trackTitle": "No Woman, No Cry (Live At The Lyceum, London/1975)",
-          "guide": "This is the Lyceum, London performance recorded in 1975 and issued on Live! The familiar studio song becomes a slow-build concert piece: the organ figure, Marley’s patient phrasing, and the audience singing the refrain are the arrangement. Let the final minutes demonstrate why this version became the canonical one.",
-          "focus": "Live! (1975); organ-led live crescendo",
-          "source": null
+          "guide": "The best-known “No Woman, No Cry” is the live recording made at London’s Lyceum Theatre on 17 July 1975 during the Natty Dread Tour. That performance was later included on Legend.",
+          "focus": "This is specifically the Lyceum performance, not the 1974 Natty Dread studio recording; use the 1975 concert setting as the edition-aware listening anchor.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "No Woman, No Cry",
+            "url": "https://en.wikipedia.org/wiki/No_Woman,_No_Cry",
+            "summary": "Track page identifies the 17 July 1975 Lyceum Theatre recording, its live-single status, and later Legend inclusion."
+          }
         },
         {
           "trackTitle": "Could You Be Loved",
@@ -8690,9 +9110,14 @@
         },
         {
           "trackTitle": "Redemption Song",
-          "guide": "The acoustic performance from Uprising (1980) strips away the band, making every pause and guitar stroke part of the message. Its “emancipate yourselves” line draws on a Marcus Garvey speech; hear the recording as a final, intimate statement rather than a conventional reggae groove.",
-          "focus": "Uprising (1980); solo acoustic performance",
-          "source": null
+          "guide": "“Redemption Song” closes Bob Marley and the Wailers’ Uprising and is a solo acoustic recording: Marley sings and plays acoustic guitar without accompaniment. Key lyrics draw on Marcus Garvey’s “The Work That Has Been Done.”",
+          "focus": "The stark acoustic setup is the point to follow: this Legend selection is sourced as voice and guitar alone, with a documented Garvey connection in the lyric.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Redemption Song",
+            "url": "https://en.wikipedia.org/wiki/Redemption_Song",
+            "summary": "Track page identifies the Uprising closing position, solo acoustic performance, and Marcus Garvey source for key lyrics."
+          }
         },
         {
           "trackTitle": "Satisfy My Soul",
@@ -8958,9 +9383,14 @@
       "trackGuide": [
         {
           "trackTitle": "Maybellene",
-          "guide": "'Maybellene' (1955) was Berry's first single, adapting the country tune 'Ida Red' with a driving beat and a story of a car chase. The guitar solo at 1:10 is a concise burst of country-tinged double stops, and the rhythm section locks into a proto-rockabilly shuffle that set the template for the Chess sound.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Chuck Berry developed “Maybellene” from Bob Wills and the Texas Playboys’ “Ida Red,” reshaping it into a fast-car story after Leonard Chess asked him to change its working title. It was the first song Berry’s band recorded, after 36 takes.",
+          "focus": "Listen for the collision of country-source material and a car-chase lyric. The direct source documents both the “Ida Red” starting point and the unusually laborious first recording session.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Maybellene by Chuck Berry",
+            "url": "https://www.songfacts.com/facts/chuck-berry/maybellene",
+            "summary": "Songfacts documents the Ida Red origin, Leonard Chess title request, car-story rewrite, and 36-take first recording session."
+          }
         },
         {
           "trackTitle": "Thirty Days",
@@ -8988,9 +9418,14 @@
         },
         {
           "trackTitle": "Roll Over Beethoven",
-          "guide": "'Roll Over Beethoven' (1956) opens with a guitar figure that mimics the opening of Beethoven's Fifth Symphony, then launches into a blues progression. The lyric is a manifesto for rock and roll displacing high culture, and the guitar solo uses rapid-fire single-note runs that influenced a generation of British Invasion guitarists.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Chuck Berry wrote “Roll Over Beethoven” as rock and roll was displacing classical music in popular culture; the title began as a joke aimed at his younger sister Lucy, who played classical piano. Its guitar introduction draws on Carl Hogan’s part on Louis Jordan’s “Ain’t That Just Like a Woman.”",
+          "focus": "Follow the guitar opening as a specific lineage rather than generic rock-and-roll energy: the source connects it to Carl Hogan and Louis Jordan while explaining the title’s family-piano origin.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Roll Over Beethoven by Chuck Berry",
+            "url": "https://www.songfacts.com/facts/chuck-berry/roll-over-beethoven",
+            "summary": "Songfacts documents the song’s rock-versus-classical premise, Lucy Berry origin, and Carl Hogan/Louis Jordan guitar-introduction lineage."
+          }
         },
         {
           "trackTitle": "Havana Moon",
@@ -9030,9 +9465,14 @@
         },
         {
           "trackTitle": "Johnny B. Goode",
-          "guide": "'Johnny B. Goode' (1958) features Berry's most iconic intro—a cascading double-string bend that climbs the fretboard. The song is semi-autobiographical, telling the story of a country boy who could 'play a guitar just like ringin' a bell,' and the solo incorporates his signature duck-walk rhythm, mixing chords and lead lines.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Chuck Berry based “Johnny B. Goode” on his own life, turning a St. Louis musician into a Louisiana guitar prodigy. The name “Johnny” came from pianist Johnnie Johnson, and the guitar materials include an introduction traced to Louis Jordan and a break traced to T-Bone Walker.",
+          "focus": "Treat the guitar hero as Berry’s deliberately revised self-portrait. The direct source identifies the real-life model, Johnnie Johnson name, and two older guitar sources woven into the record.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Johnny B. Goode by Chuck Berry",
+            "url": "https://www.songfacts.com/facts/chuck-berry/johnny-b-goode",
+            "summary": "Songfacts documents Berry’s autobiographical basis, Johnnie Johnson naming influence, and the Louis Jordan and T-Bone Walker guitar precedents."
+          }
         },
         {
           "trackTitle": "Around And Around",
@@ -9289,15 +9729,25 @@
       "trackGuide": [
         {
           "trackTitle": "Station to Station",
-          "guide": "'Station to Station' (10:18) is structured in two distinct halves: a slow, atmospheric introduction featuring treated piano and synthesizer drones that references the Kabbalistic Tree of Life, followed by a motorik groove section. The transition at 3:15 is marked by a descending guitar riff, and the song's refrain—'It's too late'—is delivered with a chilling blankness.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "The title track introduces David Bowie’s Thin White Duke persona by name and is built in four movements. Bowie later recalled directing guitarist Earl Slick to repeat a Chuck Berry riff at the opening, while the lyric incorporates occult references including Kether and Malkuth.",
+          "focus": "Hear the long opening as a designed threshold: the direct source identifies both Earl Slick’s repeated Chuck Berry riff and the Thin White Duke’s only explicit naming in a Bowie song.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Station to Station by David Bowie",
+            "url": "https://www.songfacts.com/facts/david-bowie/station-to-station",
+            "summary": "Songfacts documents the Thin White Duke naming, four-movement form, Earl Slick’s repeated Chuck Berry riff, and Kether/Malkuth references."
+          }
         },
         {
           "trackTitle": "Golden Years",
-          "guide": "'Golden Years' (4:03) was written as a potential song for Elvis Presley but kept by Bowie. The track is built around a choppy Alomar guitar riff and a falsetto vocal hook, with the bridge introducing a spoken word section that breaks the groove. The handclaps and layered harmonies give it a polished, radio-friendly sheen.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "David Bowie wrote “Golden Years” intending to give it to Elvis Presley, who reportedly declined it. Bowie then performed it on Soul Train in November 1975; producer Harry Maslin said an old RCA microphone created the backing vocals’ “round” quality.",
+          "focus": "Use the Soul Train appearance and the backing-vocal sound as concrete hooks: the direct source records both Bowie’s intended Presley handoff and Maslin’s explanation of the vocal texture.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Golden Years by David Bowie",
+            "url": "https://www.songfacts.com/facts/david-bowie/golden-years",
+            "summary": "Songfacts documents Bowie’s intended Elvis Presley handoff, the 1975 Soul Train performance, and Harry Maslin’s account of the backing-vocal microphone choice."
+          }
         },
         {
           "trackTitle": "Word on a Wing",
@@ -9307,9 +9757,14 @@
         },
         {
           "trackTitle": "TVC15",
-          "guide": "'TVC15' (5:35) was inspired by a hallucinatory story Iggy Pop told about his girlfriend being consumed by a television set. The piano boogie figure drives the verse, while the chorus erupts into a call-and-response chant. The saxophone break at 2:40 adds a chaotic, honking texture.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "David Bowie wrote “TVC 15” after hearing Iggy Pop’s drug-induced hallucination that a girlfriend was being consumed by a television set. Keyboardist Roy Bittan recalls Bowie asking him to play in the style of New Orleans pianist Professor Longhair.",
+          "focus": "Listen for Roy Bittan’s piano as an intentional stylistic cue, not incidental decoration. The direct source links the song’s television image to Iggy Pop’s story and names Professor Longhair as Bowie’s keyboard reference.",
+          "source": {
+            "label": "Songfacts",
+            "title": "TVC 15 by David Bowie",
+            "url": "https://www.songfacts.com/facts/david-bowie/tvc-15",
+            "summary": "Songfacts documents the Iggy Pop hallucination origin and Roy Bittan’s account of Bowie requesting a Professor Longhair-style piano part."
+          }
         },
         {
           "trackTitle": "Stay",
@@ -14444,15 +14899,25 @@
       "trackGuide": [
         {
           "trackTitle": "That’s All Right",
-          "guide": "Track 1 of 16, \"That’s All Right\", is the album's opener and runs 1:58. In the album sequence it opens the record and leads into \"Blue Moon of Kentucky\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Elvis Presley’s first Sun single recast Arthur Crudup’s blues song as a compact rockabilly performance; Sam Phillips produced the 1954 recording.",
+          "focus": "Start with the speed and snap of Presley’s remake. The arrangement turns an older blues composition into the sound of the Sun Sessions breakthrough.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "That's All Right",
+            "url": "https://en.wikipedia.org/wiki/That%27s_All_Right",
+            "summary": "Track page documents Crudup’s composition, Presley’s 1954 Sun recording, and Sam Phillips production."
+          }
         },
         {
           "trackTitle": "Blue Moon of Kentucky",
-          "guide": "Track 2 of 16, \"Blue Moon of Kentucky\", is the album's early-album track and runs 2:04. In the album sequence it follows \"That’s All Right\" and leads into \"I Don’t Care If the Sun Don’t Shine\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Presley paired his Sun debut with Bill Monroe’s bluegrass standard, shifting its tempo across the performance and putting country and rhythm-and-blues vocabulary on the same single.",
+          "focus": "Listen for the tempo change. It is a concrete clue to the record’s cross-genre move rather than a decorative flourish.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Blue Moon of Kentucky",
+            "url": "https://en.wikipedia.org/wiki/Blue_Moon_of_Kentucky",
+            "summary": "Track page documents Bill Monroe’s song and Presley’s 1954 Sun recording."
+          }
         },
         {
           "trackTitle": "I Don’t Care If the Sun Don’t Shine",
@@ -14492,13 +14957,13 @@
         },
         {
           "trackTitle": "Mystery Train",
-          "guide": "Source context: \"Mystery Train\" is a song written and recorded by American blues musician Junior Parker in 1953. Originally performed in the style of a Memphis blues or rhythm and blues tune, it was inspired by earlier songs and later became a popular rockabilly song, as first covered by Elvis Presley, then numerous others. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1953 song by Junior Parker",
+          "guide": "Presley recorded this 1955 Sun single after Junior Parker’s original; the track’s train image and stripped rhythmic drive became a durable rockabilly model.",
+          "focus": "Keep the forward pull in view: the performance makes the train metaphor physical through repetition and momentum.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "Mystery Train",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Mystery_Train",
-            "summary": "\"Mystery Train\" is a song written and recorded by American blues musician Junior Parker in 1953. Originally performed in the style of a Memphis blues or rhythm and blues tune, it was inspired by earlier songs and later became a popular rockabilly song, as first covered by Elvis Presley, then numerous others."
+            "label": "Songfacts",
+            "title": "Mystery Train by Elvis Presley",
+            "url": "https://www.songfacts.com/facts/elvis-presley/mystery-train",
+            "summary": "Track-specific editorial reference for Presley’s Mystery Train."
           }
         },
         {
@@ -15912,13 +16377,13 @@
       "trackGuide": [
         {
           "trackTitle": "Mother",
-          "guide": "Source context: \"Mother\" is a song by the English musician John Lennon, first released on his 1970 album John Lennon/Plastic Ono Band. An edited version of the song was issued as a single in the United States on Apple Records, on 28 December 1970. The single edit runs 1:41 shorter than the album due to its quicker fade-out and removal of the tolling bells that start the song. The B-side features \"Why\" by Yoko Ono. The song peaked in the United States at number 19 on the Cashbox Top 100 and number 43 on the Billboard Hot 100. In Canada the song reached number 12. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1970 single by John Lennon",
+          "guide": "Lennon made this opening song a direct confrontation with parental abandonment, beginning with funeral-bell sound before the vocal turns increasingly exposed.",
+          "focus": "Follow the movement from the repeated bell to the final cries. The arrangement does not soften the song’s subject; it steadily removes distance from it.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "Mother (John Lennon song)",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Mother_(John_Lennon_song)",
-            "summary": "\"Mother\" is a song by the English musician John Lennon, first released on his 1970 album John Lennon/Plastic Ono Band. An edited version of the song was issued as a single in the United States on Apple Records, on 28 December 1970. The single edit runs 1:41 shorter than the album due to its quicker fade-out and removal of the tolling bells that start the song. The B-side features \"Why\" by Yoko Ono. The song peaked in the United States at number 19 on the Cashbox Top 100 and number 43 on the Billboard Hot 100. In Canada the song reached number 12."
+            "label": "Songfacts",
+            "title": "Mother by John Lennon",
+            "url": "https://www.songfacts.com/facts/john-lennon/mother",
+            "summary": "Track-specific editorial reference for Lennon’s Mother."
           }
         },
         {
@@ -15935,9 +16400,14 @@
         },
         {
           "trackTitle": "Working Class Hero",
-          "guide": "Just Lennon's voice and acoustic guitar, recorded with heavy tape compression making every string scrape audible. The lyric's unflinching critique of class — 'they hurt you at home and they hit you at school' — and the use of 'fucking' established a new threshold for political candor in pop music.",
-          "focus": "",
-          "source": null
+          "guide": "This bare acoustic performance attacks the institutions that shape and contain ordinary lives; Lennon recorded it in two takes for Plastic Ono Band.",
+          "focus": "Listen to how the unadorned guitar leaves the argument nowhere to hide. The sparseness makes the lyric’s accusation feel deliberate rather than theatrical.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Working Class Hero by John Lennon",
+            "url": "https://www.songfacts.com/facts/john-lennon/working-class-hero",
+            "summary": "Track-specific editorial reference for Lennon’s Working Class Hero."
+          }
         },
         {
           "trackTitle": "Isolation",
@@ -15971,13 +16441,13 @@
         },
         {
           "trackTitle": "God",
-          "guide": "Source context: \"God\" is a song by the English musician John Lennon, from his first post-Beatles solo album, John Lennon/Plastic Ono Band. The album was released on 11 December 1970 in the United States and the United Kingdom. The song references the Beatles and other cultural phenomena. As with the rest of the album, Ringo Starr plays drums and Klaus Voormann plays bass guitar; in addition, Billy Preston joins Lennon in playing piano on the track. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1970 song by John Lennon",
+          "guide": "Lennon uses “God is a concept by which we measure our pain” to frame a catalogue of beliefs he rejects before closing on personal self-definition.",
+          "focus": "Pay attention to the sequence of renunciations. The song’s power comes from its plain, cumulative structure, not from a big instrumental release.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "God (John Lennon song)",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/God_(John_Lennon_song)",
-            "summary": "\"God\" is a song by the English musician John Lennon, from his first post-Beatles solo album, John Lennon/Plastic Ono Band. The album was released on 11 December 1970 in the United States and the United Kingdom. The song references the Beatles and other cultural phenomena. As with the rest of the album, Ringo Starr plays drums and Klaus Voormann plays bass guitar; in addition, Billy Preston joins Lennon in playing piano on the track."
+            "label": "Songfacts",
+            "title": "God by John Lennon",
+            "url": "https://www.songfacts.com/facts/john-lennon/god",
+            "summary": "Track-specific editorial reference for Lennon’s God."
           }
         },
         {
@@ -16700,30 +17170,35 @@
         },
         {
           "trackTitle": "After the Gold Rush",
-          "guide": "Source context: \"After the Gold Rush\" is a song written and performed by Neil Young from his 1970 album of the same name. In addition to After the Gold Rush, it also appears on the compilation albums Decade and Greatest Hits and the live album Live Rust. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1970 song written by Neil Young",
+          "guide": "Young’s title song moves through a dreamlike sequence of environmental ruin, medieval imagery and a future escape, making ambiguity part of its design rather than a gap to solve.",
+          "focus": "Listen for the piano-led restraint beneath the surreal images. The song keeps changing scale—from private vision to planetary anxiety—without explaining itself away.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "After the Gold Rush (song)",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/After_the_Gold_Rush_(song)",
-            "summary": "\"After the Gold Rush\" is a song written and performed by Neil Young from his 1970 album of the same name. In addition to After the Gold Rush, it also appears on the compilation albums Decade and Greatest Hits and the live album Live Rust."
+            "label": "Songfacts",
+            "title": "After The Gold Rush by Neil Young",
+            "url": "https://www.songfacts.com/facts/neil-young/after-the-gold-rush",
+            "summary": "Track-specific editorial reference for Neil Young’s After the Gold Rush."
           }
         },
         {
           "trackTitle": "Only Love Can Break Your Heart",
-          "guide": "A country-rock waltz that became a hit for its universal sentiment. The pedal steel guitar (played by Young himself) weeps softly in the background, and the chorus's descending melody is both sweet and sad.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Young wrote this comparatively gentle song for Graham Nash after Nash’s breakup with Joni Mitchell, giving the record a direct song of consolation amid its stranger material.",
+          "focus": "Notice how the inviting melody carries advice rather than certainty. Its warmth is specific: it is addressed to someone already hurt.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Only Love Can Break Your Heart by Neil Young",
+            "url": "https://www.songfacts.com/facts/neil-young/only-love-can-break-your-heart",
+            "summary": "Track-specific editorial reference for Neil Young’s Only Love Can Break Your Heart."
+          }
         },
         {
           "trackTitle": "Southern Man",
-          "guide": "Source context: \"Southern Man\" is a song by Canadian-American singer-songwriter Neil Young, from his album After the Gold Rush, released in 1970. An extended live version can be heard on the Crosby Stills Nash & Young album 4 Way Street. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1970 song by Neil Young",
+          "guide": "Young’s furious song confronts racism in the American South; its target later drew a musical response from Lynyrd Skynyrd, extending the song’s argument beyond the album.",
+          "focus": "Follow the recurring question in the chorus. The performance is confrontational because it refuses to let historical violence become background scenery.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "Southern Man (song)",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Southern_Man_(song)",
-            "summary": "\"Southern Man\" is a song by Canadian-American singer-songwriter Neil Young, from his album After the Gold Rush, released in 1970. An extended live version can be heard on the Crosby Stills Nash & Young album 4 Way Street."
+            "label": "Songfacts",
+            "title": "Southern Man by Neil Young",
+            "url": "https://www.songfacts.com/facts/neil-young/southern-man",
+            "summary": "Track-specific editorial reference for Neil Young’s Southern Man."
           }
         },
         {
@@ -17077,9 +17552,14 @@
         },
         {
           "trackTitle": "Spanish Castle Magic",
-          "guide": "'Spanish Castle Magic' is named after a dance hall near Seattle where Hendrix played as a teenager. The riff is a stop-start staccato figure that Noel Redding's bass mirrors precisely, and the guitar solo at 1:10 is a flurry of rapid-fire hammer-ons and pull-offs that sound like a pinball machine.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Hendrix named this song for a dance hall near Seattle where he played as a teenager, converting a real venue into a larger-than-life destination.",
+          "focus": "Hear the riff as an invitation into an imagined place. The song turns a local memory into psychedelic geography.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Spanish Castle Magic by Jimi Hendrix",
+            "url": "https://www.songfacts.com/facts/jimi-hendrix/spanish-castle-magic",
+            "summary": "Track-specific editorial reference for Hendrix’s Spanish Castle Magic."
+          }
         },
         {
           "trackTitle": "Wait Until Tomorrow",
@@ -17095,13 +17575,13 @@
         },
         {
           "trackTitle": "Little Wing",
-          "guide": "Source context: \"Little Wing\" is a song written by Jimi Hendrix and recorded by the Jimi Hendrix Experience in 1967. It is a slow tempo rhythm and blues-inspired ballad featuring Hendrix's vocal and guitar with recording studio effects accompanied by bass, drums, and glockenspiel. Lyrically, it is one of several of his songs that reference an idealized feminine or guardian angel-like figure. At about two and a half minutes in length, it is one of his most concise and melodically focused pieces. Use that documented song history to frame a focused listen.",
-          "focus": "Wikipedia track-page context — 1967 song by Jimi Hendrix",
+          "guide": "Hendrix wrote this brief ballad after the Monterey Pop Festival, drawing on the women he saw there and building its atmosphere around a concise guitar introduction.",
+          "focus": "Stay with the opening guitar figure before treating the song as a solo showcase. Its economy is central: the atmosphere arrives quickly and disappears quickly.",
           "source": {
-            "label": "Wikipedia (track-page summary)",
-            "title": "Little Wing",
-            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Little_Wing",
-            "summary": "\"Little Wing\" is a song written by Jimi Hendrix and recorded by the Jimi Hendrix Experience in 1967. It is a slow tempo rhythm and blues-inspired ballad featuring Hendrix's vocal and guitar with recording studio effects accompanied by bass, drums, and glockenspiel. Lyrically, it is one of several of his songs that reference an idealized feminine or guardian angel-like figure. At about two and a half minutes in length, it is one of his most concise and melodically focused pieces."
+            "label": "Songfacts",
+            "title": "Little Wing by Jimi Hendrix",
+            "url": "https://www.songfacts.com/facts/jimi-hendrix/little-wing",
+            "summary": "Track-specific editorial reference for Hendrix’s Little Wing."
           }
         },
         {
@@ -17123,9 +17603,14 @@
         },
         {
           "trackTitle": "Castles Made of Sand",
-          "guide": "Track 9 of 13, \"Castles Made of Sand\", is the album's middle-section track and runs 2:49. In the album sequence it follows \"You Got Me Floatin'\" and leads into \"She's So Fine\". No confident track-specific external source was found, so this entry uses static track metadata only.",
-          "focus": "Track metadata and album sequence context only",
-          "source": null
+          "guide": "Hendrix tells three miniature stories of lives overturned, then joins them with the image of castles disappearing into the sea; the song is one of Axis’s most narrative performances.",
+          "focus": "Follow the separate verses as complete scenes. The recurring image binds them without pretending that the losses have the same cause or scale.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Castles Made Of Sand by Jimi Hendrix",
+            "url": "https://www.songfacts.com/facts/jimi-hendrix/castles-made-of-sand",
+            "summary": "Track-specific editorial reference for Hendrix’s Castles Made of Sand."
+          }
         },
         {
           "trackTitle": "She's So Fine",
@@ -17292,9 +17777,14 @@
         },
         {
           "trackTitle": "Sock It 2 Me",
-          "guide": "'Sock It 2 Me' was built around a sample from the 'Mega Man' video game series—a 8-bit blip that Timbaland warped into a staccato melody. The track's structure is unusual: the chorus is just the phrase 'sock it to me' repeated over a descending bass line, while the verses are rapped in double-time.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Elliott’s second Supa Dupa Fly single features Da Brat and reworks the Delfonics’ “Ready or Not Here I Come” in a slightly re-recorded single version.",
+          "focus": "Listen for how the borrowed Delfonics element anchors a deliberately contemporary rap performance. The feature changes the song’s voice without turning it into a conventional duet.",
+          "source": {
+            "label": "Wikipedia",
+            "title": "Sock It 2 Me",
+            "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Sock_It_2_Me",
+            "summary": "Track-page summary documents the Da Brat feature, single version, and Delfonics sample."
+          }
         },
         {
           "trackTitle": "The Rain (Supa Dupa Fly)",
@@ -18404,9 +18894,14 @@
         },
         {
           "trackTitle": "Red",
-          "guide": "The title track uses a banjo, mandolin, and a four-on-the-floor beat to paint a synesthetic picture of a love that is 'like driving a new Maserati down a dead-end street.' The chorus leaps into a shout-along hook, with the mix emphasizing the high-frequency shimmer of the stringed instruments.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Swift described “Red” as a song about emotions so intense that she associated them with the color red; she wrote it and co-produced it with Nathan Chapman and Dann Huff.",
+          "focus": "Follow the color changes in the lyric rather than treating “red” as a generic title. The song uses them to map the changing intensity of a remembered relationship.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Red by Taylor Swift",
+            "url": "https://www.songfacts.com/facts/taylor-swift/red",
+            "summary": "Songfacts quotes Swift’s explanation of the color metaphor and lists the song’s co-producers."
+          }
         },
         {
           "trackTitle": "Treacherous",
@@ -18792,9 +19287,14 @@
         },
         {
           "trackTitle": "Dazed and Confused",
-          "guide": "Originally by Jake Holmes, 'Dazed and Confused' was expanded into a seven-minute epic built on a descending chromatic bass line. The middle section features Page attacking his guitar with a violin bow, creating unearthly tones that were unprecedented in rock, before the band crashes back in for a frenzied final verse.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Led Zeppelin’s version developed from a Jake Holmes song that Jimmy Page had heard while playing with the Yardbirds; Holmes’s original supplied key elements including its walking bass line and ominous mood.",
+          "focus": "Listen for the walking bass and escalating tension before treating the track as a free-form showcase. Its heavy atmosphere begins with a documented earlier song framework.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Dazed And Confused by Led Zeppelin",
+            "url": "https://www.songfacts.com/facts/led-zeppelin/dazed-and-confused",
+            "summary": "Songfacts documents Jake Holmes’s earlier song, Page hearing it with the Yardbirds, and elements carried into Led Zeppelin’s version."
+          }
         },
         {
           "trackTitle": "Your Time Is Gonna Come",
@@ -19037,9 +19537,14 @@
         },
         {
           "trackTitle": "Can I Sleep in Your Arms",
-          "guide": "At 5:24, 'Can I Sleep in Your Arms' is the album’s longest track, a tender waltz sung from the perspective of a wanderer seeking comfort. Raphael’s harmonica solo at 2:10 is a highlight, bending notes with a vocal-like ache that blurs the line between sleep and death.",
-          "focus": "Curated listening guide",
-          "source": null
+          "guide": "Willie Nelson uses “Can I Sleep in Your Arms” within the narrative sequence of Red Headed Stranger, the 1975 concept album built around the title character and his grief.",
+          "focus": "Place this request for shelter inside the album’s story rather than hearing it as an isolated love song. Its role is part of the record’s unfolding narrative.",
+          "source": {
+            "label": "Songfacts",
+            "title": "Red Headed Stranger by Willie Nelson",
+            "url": "https://www.songfacts.com/facts/willie-nelson/red-headed-stranger",
+            "summary": "Songfacts describes Red Headed Stranger as a 1975 concept album and names Can I Sleep in Your Arms among the tracks that tell its story."
+          }
         },
         {
           "trackTitle": "Remember Me (When the Candle Lights Are Gleaming)",
