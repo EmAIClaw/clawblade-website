@@ -24,7 +24,7 @@ const stoogesId = '092-the-stooges-fun-house-9896fe5c';
 assert.deepEqual(Object.keys(entries).sort(), [marvinId, lizId, stoogesId].sort());
 assert.equal(entries[marvinId].editionNumber, 4, 'Marvin rank-1 completion requires a new draft edition');
 assert.equal(entries[lizId].editionNumber, 4, 'Liz rank-54 completion requires a new draft edition');
-assert.equal(entries[stoogesId].editionNumber, 2, 'Fun House listening claims require a new draft edition');
+assert.equal(entries[stoogesId].editionNumber, 3, 'Fun House completion requires a new draft edition');
 
 const marvin = new Map(entries[marvinId].trackEntries.map((track) => [track.trackTitle, track]));
 assert.equal(marvin.size, 9, 'rank-1 edition must preserve exactly nine catalog tracks');
@@ -68,6 +68,22 @@ const neverSaid = liz.get('Never Said');
 assert.equal(neverSaid.musicalCharacter, '');
 assert.equal(neverSaid.listeningNotes, '');
 assert.equal(neverSaid.discoveryConnections?.length ?? 0, 0);
+
+const stooges = new Map(entries[stoogesId].trackEntries.map((track) => [track.trackTitle, track]));
+assert.equal(stooges.size, 7, 'rank-92 edition must preserve exactly seven catalog tracks');
+const stoogesSnapshotIds = new Set();
+for (const track of stooges.values()) {
+  assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: rank-92 completion requires documented track-specific evidence`);
+  assert.equal(track.verifiedFacts.length, 1, `${track.trackTitle}: retain one narrowly scoped verified fact`);
+  assert.equal(track.musicalCharacter, '', `${track.trackTitle}: unsupported musical-character prose must be absent`);
+  assert.equal(track.listeningNotes, '', `${track.trackTitle}: unsupported listening prose must be absent`);
+  const ref = track.verifiedFacts[0].sourceRefs[0];
+  assert.match(ref.url, /^https:\/\//, `${track.trackTitle}: evidence URL must use HTTPS`);
+  assert.ok(ref.extract, `${track.trackTitle}: evidence requires a retained verbatim excerpt`);
+  assert.ok(ref.snapshotId, `${track.trackTitle}: claim evidence requires a snapshot`);
+  stoogesSnapshotIds.add(ref.snapshotId);
+}
+assert.equal(stoogesSnapshotIds.size, 7, 'rank-92 tracks must retain independent per-track snapshots without borrowing');
 
 for (const [albumId, entry] of Object.entries(entries)) {
   for (const track of entry.trackEntries) {

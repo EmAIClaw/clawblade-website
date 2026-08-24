@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-08-24T23:18:18Z",
+  "updatedAt": "2026-08-24T23:37:45Z",
   "catalogAlbums": 243,
   "catalogTracks": 3366,
   "foundationStatus": "verified-local-foundation-complete",
@@ -8,23 +8,23 @@
   "publishedDataChanged": false,
   "versionedAlbums": 3,
   "versionedTracks": 34,
-  "completedAlbums": 2,
-  "completedTracks": 27,
-  "documentedTracks": 27,
+  "completedAlbums": 3,
+  "completedTracks": 34,
+  "documentedTracks": 34,
   "contextualTracks": 0,
   "insufficientEvidenceTracks": 0,
-  "unresearchedTracks": 3339,
+  "unresearchedTracks": 3332,
   "pilotDraftEditions": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
     "054-liz-phair-exile-in-guyville-2b33a458": 4,
-    "092-the-stooges-fun-house-9896fe5c": 2
+    "092-the-stooges-fun-house-9896fe5c": 3
   },
-  "validationStatus": "49 backend tests, updated pilot completion acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 18-track rank-54 semantic evidence audit passed",
+  "validationStatus": "49 backend tests, updated pilot completion acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 7-track rank-92 semantic evidence audit passed",
   "notes": [
-    "Rank 54 Liz Phair — Exile in Guyville is completion-eligible in unpublished draft edition 4: all 18 tracks are documented with distinct retained exact excerpts and supported independent semantic review decisions.",
+    "Rank 92 The Stooges — Fun House is completion-eligible in unpublished draft edition 3: all 7 tracks are documented with distinct retained exact excerpts and supported independent semantic review decisions.",
     "All three pilot editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
-    "Unsupported listening-analysis prose remains removed; no audio analysis is claimed.",
-    "No album other than rank 54 was researched or authored by this mission."
+    "Unsupported listening-analysis prose was removed from rank 92; no audio analysis is claimed.",
+    "No album other than rank 92 was researched or authored by this mission."
   ],
   "albums": [
     {
@@ -959,7 +959,14 @@
       "catalogTrackCount": 7,
       "legacyGuideCount": 7,
       "legacyGuidesWithHttpsSource": 0,
-      "versioned": true
+      "versioned": true,
+      "completionEligible": true,
+      "draftEdition": 3,
+      "documentedTracks": 7,
+      "contextualTracks": 0,
+      "insufficientEvidenceTracks": 0,
+      "unresearchedTracks": 0,
+      "contentHash": "ee805c782c56bc4a"
     },
     {
       "rank": 93,

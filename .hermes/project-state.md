@@ -1,6 +1,6 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25 01:22 CEST
+Updated: 2026-08-25 01:37 CEST
 
 ## Canonical workspace
 
@@ -11,39 +11,40 @@ Updated: 2026-08-25 01:22 CEST
 
 ## Current mission
 
-Complete only catalog rank 54, Liz Phair — *Exile in Guyville*, across its exact current 18-track catalog edition. Do not expand to another album.
+Complete only catalog rank 92, The Stooges — *Fun House*, across its exact current 7-track catalog edition. Do not expand to another album.
 
-## Rank-54 completion status
+## Rank-92 completion status
 
-- Authoritative album ID: `054-liz-phair-exile-in-guyville-2b33a458`.
-- Exact identity preserved: disc 1, tracks 1–18, current catalog titles unchanged.
-- New immutable draft edition: 4.
-- Draft content hash: `13de9e97abdf754c`.
-- Generated release hash: `53595e61f2cdffc1`.
+- Authoritative album ID: `092-the-stooges-fun-house-9896fe5c`.
+- Exact identity preserved: disc 1, tracks 1–7, current catalog titles unchanged.
+- New immutable draft edition: 3.
+- Draft content hash: `ee805c782c56bc4a`.
+- Generated release hash: `0e1155d463a6187e`.
 - Publication state: `published: false`.
-- Track dispositions: 18 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Track dispositions: 7 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
 - Each displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, independently hashed snapshot, and supported independent semantic review decision.
-- Separate per-track snapshots are retained even though one Rolling Stone track-by-track interview supports all 18 tracks; evidence is not borrowed across songs.
-- No listening or audio analysis is claimed. Unsupported musical-character, album-context, listening-note, and discovery prose is absent.
-- Rank 54 is completion-eligible as an unpublished draft.
+- Shared source pages use seven distinct, track-relevant snapshots and excerpts; evidence is not borrowed across songs.
+- Unsupported musical-character, album-context, and listening-note prose is absent. No audio analysis is claimed.
+- Rank 92 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Audit session: `20260825_011500_7c7025`.
-- Decisions: 18 supported, 0 unsupported, 0 uncertain.
-- Critical or important findings after final normalization: none.
+- Audit ID: `audit-092-funhouse-20260825-semantic`.
+- Decisions: 7 supported, 0 unsupported, 0 uncertain.
+- Critical or important findings: none.
+- Minor findings: source-page misspellings of Ron Asheton and Don Gallucci were normalized in claims and explicitly disclosed in track limitations.
 - Exact catalog identity: passed.
-- Snapshot URL and excerpt containment: 18/18.
-- Snapshot hash verification through the project hash implementation: 18/18.
-- Evidence borrowing: none; 18 distinct snapshot IDs.
-- Boilerplate: none.
-- Unsupported listening claims: none.
+- Actual-page and snapshot excerpt containment: 7/7.
+- Snapshot URL identity and project-hash verification: 7/7.
+- Evidence borrowing: none; 7 distinct snapshot IDs and excerpts.
+- Boilerplate: no substantive boilerplate.
+- Unsupported listening/audio analysis: none.
 
 ## Verification status
 
-All required gates passed:
+All required gates passed after replacing two stale pilot-era assertions that expected rank 92 to remain limited/unresearched:
 
-- `node scripts/build-track-encyclopedia.mjs validate --album-id 054-liz-phair-exile-in-guyville-2b33a458`
+- `node scripts/build-track-encyclopedia.mjs validate --album-id 092-the-stooges-fun-house-9896fe5c`
 - `node scripts/test-track-encyclopedia-backend.mjs` — 49/49
 - `node scripts/test-track-encyclopedia-pilot-repairs.mjs`
 - `node scripts/test-track-encyclopedia-ui.mjs` — 5/5
@@ -51,18 +52,19 @@ All required gates passed:
 - `npx tsc --noEmit`
 - `npm run test:data` — 243 albums
 - `npm run test:all`
-- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 27 documented, 7 unresearched
+- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 34 documented, 0 unresearched
 - `npm run build`
 - `git diff --check`
-- Prior rank-54 edition SHA-256 hashes unchanged across the build.
+- Rank-92 evidence snapshot hashes verified with the project hash implementation.
+- Rank-92 editions 1–2 remain byte-identical to their pre-mission SHA-256 hashes.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
 - Versioned pilots: 3 albums, 34 tracks.
-- Completion-disposition tracks: 27 (27 documented, 0 contextual, 0 insufficient-evidence).
-- Completed albums: 2.
-- Catalog tracks still unresearched for completion accounting: 3,339.
+- Completion-disposition tracks: 34 (34 documented, 0 contextual, 0 insufficient-evidence).
+- Completed albums: 3.
+- Catalog tracks still unresearched for completion accounting: 3,332.
 
 ## Safety / deployment
 
@@ -71,4 +73,4 @@ All required gates passed:
 - No push or deployment occurred.
 - No external communication occurred.
 - Historical generated releases and edition history remain retained.
-- Rank-54 editions 1–3 remain byte-identical to their pre-mission SHA-256 hashes.
+- Rank-92 editions 1–2 remain byte-identical to their pre-mission SHA-256 hashes.

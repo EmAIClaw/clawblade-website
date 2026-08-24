@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0-pilot",
-    "generatedAt": "2026-09-19T00:00:00Z",
+    "generatedAt": "2026-08-24T23:29:29Z",
     "notes": "Concise retained evidence snapshots used for automated exact-match checks. Snapshot text is stored separately from authored pilot claims."
   },
   "snapshots": {
@@ -200,6 +200,55 @@
       "fetchedAt": "2026-08-24T23:13:18Z",
       "normalizedText": "But it stands out as the last song. This is a reconciliation song. It’s about saying, “Yeah, OK, we’ve been through a lot of shit. You’re fucked up, and I’m fucked up.” There’s a sense of having moved past the Sturm und Drang. We’ve gotten some distance from it all and it’s conciliatory in a weird way.",
       "contentHash": "b7d1fc66d2da5006d2e710771e03c90871d9e36f404d5557e6c90b569d3a85c0"
+    },
+    "iggy-building-fun-house-down-on-the-street-2026-08-25": {
+      "id": "iggy-building-fun-house-down-on-the-street-2026-08-25",
+      "canonicalUrl": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "On Down On The Street there are 2 lead guitars which added more action to the space.",
+      "contentHash": "aaf824e3797dc80faef293d47250823472d86545f1a44ae28121841fffe2f81d"
+    },
+    "iggy-building-fun-house-loose-2026-08-25": {
+      "id": "iggy-building-fun-house-loose-2026-08-25",
+      "canonicalUrl": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "Ron was over-dubbing a single string counter part to himself on Loose.",
+      "contentHash": "6160ff394d6ba98c0f285bf05306a258a34429431083553f4426df21118ff615"
+    },
+    "iggy-building-fun-house-tv-eye-2026-08-25": {
+      "id": "iggy-building-fun-house-tv-eye-2026-08-25",
+      "canonicalUrl": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "So I asked him to throw in a variation for my tag line, and to begin the number in the style of John Lee Hooker, an artist we both liked, playing the single notes against a one string drone, blues style, before letting it build up to full sonics.",
+      "contentHash": "809b18b0fa1fe3f436e66693ce9e179f255b372ea85eca219d3ca40fde316762"
+    },
+    "iggy-building-fun-house-dirt-2026-08-25": {
+      "id": "iggy-building-fun-house-dirt-2026-08-25",
+      "canonicalUrl": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "Dirt has a single over-dub guitar on the chorus through a Leslie speaker to complement the Wah-wah guitar on the basic track.",
+      "contentHash": "3a3d7fb69d714433ad3279d4118df0e91b5791019d522351335af9058af110fa"
+    },
+    "steve-mackay-interview-1970-2026-08-25": {
+      "id": "steve-mackay-interview-1970-2026-08-25",
+      "canonicalUrl": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "“I didn’t know he had ‘1970’ and ‘Funhouse’ all set up for me,” Steve recalls. “Iggy said: ‘Just play like Mace Parker [James Brown’s saxman] on acid.’ I said: ‘No problem, Jim!”",
+      "contentHash": "3244f5fdf78b0329be2894877085d6de62c5936306e8b118d121571d7d406cab"
+    },
+    "steve-mackay-interview-fun-house-2026-08-25": {
+      "id": "steve-mackay-interview-fun-house-2026-08-25",
+      "canonicalUrl": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "Steve’s favourite song is ‘Funhouse’, where he and guitarist Ron Ashton belt out the riff with gusto (“What a chance to blow funky and free!”).",
+      "contentHash": "2ebe5ba8b7ea0f2187d88da327a730f3f6a8bcb165fefdc552680edaa025c91e"
+    },
+    "steve-mackay-interview-la-blues-2026-08-25": {
+      "id": "steve-mackay-interview-la-blues-2026-08-25",
+      "canonicalUrl": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+      "fetchedAt": "2026-08-24T23:29:29Z",
+      "normalizedText": "However the album’s most uncompromising track is the ‘free jazz’ of ‘LA Blues’, which these days Iggy describes as something akin to “a demonic howl”. “As a finale to our shows we would do what we called a Hippy or Freakout ending in freeform, leaving guitar and bass feeding back as we left the stage while the crowd was still passing Jim around [after one of his stagedives],” says Steve. “Don Galucci, the producer, thought it would be good to make it its own track. We did it all live in the studio.",
+      "contentHash": "d5407fd5d96c4bfeb52c75ba2f6b5eb449d71f2b303629fb9d00157b8ca34e16"
     }
   }
 }

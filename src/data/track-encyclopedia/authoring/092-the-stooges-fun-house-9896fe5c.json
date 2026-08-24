@@ -1,126 +1,330 @@
 {
   "metadata": {
     "version": "1.0.0-pilot",
-    "generatedAt": "2026-09-19T00:00:00Z",
+    "generatedAt": "2026-08-24T23:29:29Z",
     "albumCount": 3
   },
   "entries": {
     "092-the-stooges-fun-house-9896fe5c": {
       "albumId": "092-the-stooges-fun-house-9896fe5c",
-      "editionNumber": 2,
+      "editionNumber": 3,
       "published": false,
       "contentHash": "",
-      "changeNote": "Remove listening-analysis claims lacking retained audio provenance while preserving catalog identity",
+      "changeNote": "Complete all seven tracks with retained track-specific interview and first-person recording evidence",
       "trackEntries": [
         {
           "trackTitle": "Down On the Street",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Iggy Pop wrote that “Down On the Street” has two lead guitars, which added more action to the space.",
+              "sourceRefs": [
+                {
+                  "label": "Iggy and the Stooges",
+                  "title": "'Building Fun House' by Iggy Pop",
+                  "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+                  "extract": "On Down On The Street there are 2 lead guitars which added more action to the space.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "iggy-building-fun-house-down-on-the-street-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 1
+          "trackNumber": 1,
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+            }
+          ]
         },
         {
           "trackTitle": "Loose",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Iggy Pop wrote that Ron Asheton overdubbed a single-string counterpart to himself on “Loose.”",
+              "sourceRefs": [
+                {
+                  "label": "Iggy and the Stooges",
+                  "title": "'Building Fun House' by Iggy Pop",
+                  "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+                  "extract": "Ron was over-dubbing a single string counter part to himself on Loose.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "iggy-building-fun-house-loose-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 2
+          "trackNumber": 2,
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+            }
+          ]
         },
         {
           "trackTitle": "T.V. Eye",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Iggy Pop wrote that he asked Ron Asheton to begin “T.V. Eye” in the style of John Lee Hooker, playing single notes against a one-string drone before building to full sonics.",
+              "sourceRefs": [
+                {
+                  "label": "Iggy and the Stooges",
+                  "title": "'Building Fun House' by Iggy Pop",
+                  "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+                  "extract": "So I asked him to throw in a variation for my tag line, and to begin the number in the style of John Lee Hooker, an artist we both liked, playing the single notes against a one string drone, blues style, before letting it build up to full sonics.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "iggy-building-fun-house-tv-eye-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 3
+          "trackNumber": 3,
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+            }
+          ]
         },
         {
           "trackTitle": "Dirt",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Iggy Pop wrote that “Dirt” has a single overdubbed guitar on the chorus through a Leslie speaker, complementing the wah-wah guitar on the basic track.",
+              "sourceRefs": [
+                {
+                  "label": "Iggy and the Stooges",
+                  "title": "'Building Fun House' by Iggy Pop",
+                  "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+                  "extract": "Dirt has a single over-dub guitar on the chorus through a Leslie speaker to complement the Wah-wah guitar on the basic track.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "iggy-building-fun-house-dirt-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 4
+          "trackNumber": 4,
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+            }
+          ]
         },
         {
           "trackTitle": "1970",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Steve Mackay recalled that Iggy Pop had “1970” set up for his saxophone contribution and instructed him to play like “Mace Parker [James Brown’s saxman] on acid.”",
+              "sourceRefs": [
+                {
+                  "label": "Galway Advertiser (archived by Cult of Estel)",
+                  "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+                  "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+                  "extract": "“I didn’t know he had ‘1970’ and ‘Funhouse’ all set up for me,” Steve recalls. “Iggy said: ‘Just play like Mace Parker [James Brown’s saxman] on acid.’ I said: ‘No problem, Jim!”",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "steve-mackay-interview-1970-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 5
+          "trackNumber": 5,
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+            }
+          ]
         },
         {
           "trackTitle": "Fun House",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Steve Mackay identified “Funhouse” as his favorite song and described the chance to play its riff with guitarist Ron Asheton as an opportunity to “blow funky and free.”",
+              "sourceRefs": [
+                {
+                  "label": "Galway Advertiser (archived by Cult of Estel)",
+                  "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+                  "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+                  "extract": "Steve’s favourite song is ‘Funhouse’, where he and guitarist Ron Ashton belt out the riff with gusto (“What a chance to blow funky and free!”).",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "steve-mackay-interview-fun-house-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+            "The source misspells guitarist Ron Asheton's surname as 'Ashton'; the claim uses the correct spelling 'Asheton'."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 6
+          "trackNumber": 6,
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+            }
+          ]
         },
         {
           "trackTitle": "L.A. Blues",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Steve Mackay said “L.A. Blues” developed from the band’s freeform “Hippy or Freakout” concert ending, which producer Don Gallucci suggested making into its own track and which they recorded live in the studio.",
+              "sourceRefs": [
+                {
+                  "label": "Galway Advertiser (archived by Cult of Estel)",
+                  "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+                  "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+                  "extract": "However the album’s most uncompromising track is the ‘free jazz’ of ‘LA Blues’, which these days Iggy describes as something akin to “a demonic howl”. “As a finale to our shows we would do what we called a Hippy or Freakout ending in freeform, leaving guitar and bass feeding back as we left the stage while the crowd was still passing Jim around [after one of his stagedives],” says Steve. “Don Galucci, the producer, thought it would be good to make it its own track. We did it all live in the studio.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "steve-mackay-interview-la-blues-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+                "reviewedAt": "2026-08-25",
+                "notes": "Claim scope, excerpt containment, source identity, snapshot identity and hash, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry.",
-            "No listening analysis has been conducted yet."
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+            "The source misspells producer Don Gallucci's surname as 'Galucci'; the claim uses the correct spelling 'Gallucci'."
           ],
           "albumId": "092-the-stooges-fun-house-9896fe5c",
           "discNumber": 1,
-          "trackNumber": 7
+          "trackNumber": 7,
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+            }
+          ]
         }
       ],
       "generationMetadata": {
-        "generatedAt": "2026-09-19T00:00:00Z",
-        "generator": "pilot-manual",
+        "generatedAt": "2026-08-24T23:29:29Z",
+        "generator": "rank-92-manual-evidence-research",
         "model": null
       },
       "reviewMetadata": {
-        "reviewedAt": "2026-08-25T00:00:00Z",
-        "reviewer": "human",
-        "notes": "Edition 2 removes unsupported listening analysis and preserves exact catalog title capitalization."
+        "reviewedAt": "2026-08-25",
+        "reviewer": "independent evidence audit audit-092-funhouse-20260825-semantic",
+        "notes": "All seven claims supported. No critical or important findings. Two minor source-name misspellings were documented in track limitations."
       }
     }
   }

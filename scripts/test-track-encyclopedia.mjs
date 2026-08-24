@@ -908,15 +908,14 @@ await test('pilot includes one famous, one cult, one sparse album', async () => 
   assert.ok(ids.includes('092-the-stooges-fun-house-9896fe5c'), 'must include sparse: Fun House');
 });
 
-await test('pilot entries have varying evidence levels', async () => {
+await test('completed pilot entries use only completion-eligible evidence levels', async () => {
   const data = JSON.parse(await readFile(path.join(process.cwd(), 'src/data/track-encyclopedia/track-encyclopedia.generated.json'), 'utf8'));
-  const allLevels = new Set();
+  const completionEligible = new Set(['documented', 'contextual', 'insufficient-evidence']);
   for (const entry of Object.values(data.entries)) {
     for (const track of entry.trackEntries || []) {
-      allLevels.add(track.evidenceLevel);
+      assert.ok(completionEligible.has(track.evidenceLevel), `${entry.albumId}/${track.trackTitle}: ${track.evidenceLevel} is not completion-eligible`);
     }
   }
-  assert.ok(allLevels.size >= 2, `should have at least 2 different evidence levels, got ${[...allLevels].join(', ')}`);
 });
 
 await test('all pilot verifiedFacts are supported by referenced encyclopedia extracts', async () => {
@@ -959,14 +958,17 @@ await test('all pilot documented claims retain verbatim evidence metadata separa
   }
 });
 
-await test('Fun House limited entries disclose listening analysis only', async () => {
-  const pilot = JSON.parse(await readFile(path.join(dataDir, 'pilot-entries.json'), 'utf8'));
-  const entry = pilot.entries['092-the-stooges-fun-house-9896fe5c'];
-  const sourcedTracks = entry.trackEntries.filter((track) => (track.verifiedFacts ?? []).length > 0 || (track.sourceRefs ?? []).length > 0);
-  assert.equal(sourcedTracks.length, 0, 'Fun House pilot must not imply track-level sourcing');
-  for (const track of entry.trackEntries.filter((track) => track.evidenceLevel === 'limited')) {
-    assert.match((track.limitations ?? []).join(' '), /listening analysis/i);
-    assert.doesNotMatch(`${track.musicalCharacter} ${track.albumContext} ${track.listeningNotes}`, /verified|source-grounded|source-backed/i);
+await test('Fun House completion removes unsupported listening prose and retains claim evidence', async () => {
+  const active = JSON.parse(await readFile(path.join(dataDir, 'authoring/092-the-stooges-fun-house-9896fe5c.json'), 'utf8'));
+  const entry = active.entries['092-the-stooges-fun-house-9896fe5c'];
+  assert.equal(entry.trackEntries.length, 7, 'Fun House completion must preserve all seven catalog tracks');
+  for (const track of entry.trackEntries) {
+    assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: evidence must be documented`);
+    assert.equal(track.verifiedFacts?.length, 1, `${track.trackTitle}: one narrow verified fact required`);
+    assert.equal(track.verifiedFacts[0].semanticReview?.decision, 'supported', `${track.trackTitle}: supported semantic review required`);
+    assert.ok(track.verifiedFacts[0].sourceRefs?.[0]?.snapshotId, `${track.trackTitle}: retained snapshot required`);
+    assert.equal(track.musicalCharacter, '', `${track.trackTitle}: unsupported musical analysis must be absent`);
+    assert.equal(track.listeningNotes, '', `${track.trackTitle}: unsupported listening prose must be absent`);
   }
 });
 
