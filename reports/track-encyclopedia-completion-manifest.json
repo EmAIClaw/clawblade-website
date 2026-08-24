@@ -1,0 +1,2460 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-08-24T22:55:00Z",
+  "catalogAlbums": 243,
+  "catalogTracks": 3366,
+  "foundationStatus": "verified-local-foundation-complete",
+  "expansionGatePassed": true,
+  "publishedDataChanged": false,
+  "versionedAlbums": 3,
+  "versionedTracks": 34,
+  "completedAlbums": 0,
+  "completedTracks": 6,
+  "documentedTracks": 4,
+  "contextualTracks": 2,
+  "insufficientEvidenceTracks": 0,
+  "unresearchedTracks": 3360,
+  "pilotDraftEditions": {
+    "001-marvin-gaye-what-s-going-on-fd00dde9": 3,
+    "054-liz-phair-exile-in-guyville-2b33a458": 3,
+    "092-the-stooges-fun-house-9896fe5c": 2
+  },
+  "validationStatus": "49 backend tests, pilot repairs, 5 UI tests, 71 core track tests, TypeScript, data integrity, full test:all, production build, diff check, real Chrome loaded/missing/error/retry smoke, and independent final review all passed",
+  "notes": [
+    "All three pilot editions remain unpublished drafts.",
+    "Unsupported listening-analysis prose without retained audio provenance was removed rather than counted as evidence.",
+    "No additional albums were added; catalog expansion remains a separate future mission."
+  ],
+  "albums": [
+    {
+      "rank": 1,
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "artist": "Marvin Gaye",
+      "title": "What's Going On",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": true
+    },
+    {
+      "rank": 2,
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "artist": "The Beach Boys",
+      "title": "Pet Sounds",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 3,
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "artist": "Joni Mitchell",
+      "title": "Blue",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 4,
+      "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+      "artist": "Stevie Wonder",
+      "title": "Songs in the Key of Life",
+      "catalogTrackCount": 21,
+      "legacyGuideCount": 21,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 5,
+      "albumId": "005-the-beatles-abbey-road-1955f3c5",
+      "artist": "The Beatles",
+      "title": "Abbey Road",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 6,
+      "albumId": "006-nirvana-nevermind-0af5df5e",
+      "artist": "Nirvana",
+      "title": "Nevermind",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 7,
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "artist": "Fleetwood Mac",
+      "title": "Rumours",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 8,
+      "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+      "artist": "Prince and the Revolution",
+      "title": "Purple Rain",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 9,
+      "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+      "artist": "Bob Dylan",
+      "title": "Blood on the Tracks",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 10,
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "artist": "Lauryn Hill",
+      "title": "The Miseducation of Lauryn Hill",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 11,
+      "albumId": "011-the-beatles-revolver-b4f3c550",
+      "artist": "The Beatles",
+      "title": "Revolver",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 12,
+      "albumId": "012-michael-jackson-thriller-a46ba2f6",
+      "artist": "Michael Jackson",
+      "title": "Thriller",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 13,
+      "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+      "artist": "Aretha Franklin",
+      "title": "I Never Loved a Man the Way I Love You",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 14,
+      "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+      "artist": "The Rolling Stones",
+      "title": "Exile on Main St.",
+      "catalogTrackCount": 18,
+      "legacyGuideCount": 18,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 15,
+      "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+      "artist": "Public Enemy",
+      "title": "It Takes a Nation of Millions to Hold Us Back",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 16,
+      "albumId": "016-the-clash-london-calling-7d75cf05",
+      "artist": "The Clash",
+      "title": "London Calling",
+      "catalogTrackCount": 40,
+      "legacyGuideCount": 40,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 17,
+      "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+      "artist": "Kanye West",
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 18,
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "artist": "Bob Dylan",
+      "title": "Highway 61 Revisited",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 19,
+      "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+      "artist": "Kendrick Lamar",
+      "title": "To Pimp a Butterfly",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 20,
+      "albumId": "020-radiohead-kid-a-ce842ff2",
+      "artist": "Radiohead",
+      "title": "Kid A",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 21,
+      "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+      "artist": "Bruce Springsteen",
+      "title": "Born to Run",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 22,
+      "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+      "artist": "The Notorious B.I.G.",
+      "title": "Ready to Die",
+      "catalogTrackCount": 19,
+      "legacyGuideCount": 19,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 23,
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "artist": "The Velvet Underground & Nico",
+      "title": "The Velvet Underground & Nico",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 24,
+      "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+      "artist": "The Beatles",
+      "title": "Sgt. Pepper's Lonely Hearts Club Band",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 25,
+      "albumId": "025-carole-king-tapestry-b29b056b",
+      "artist": "Carole King",
+      "title": "Tapestry",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 26,
+      "albumId": "026-patti-smith-horses-2807d0f1",
+      "artist": "Patti Smith",
+      "title": "Horses",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 27,
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "artist": "Wu-Tang Clan",
+      "title": "Enter the Wu-Tang (36 Chambers)",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 28,
+      "albumId": "028-d-angelo-voodoo-b6406009",
+      "artist": "D'Angelo",
+      "title": "Voodoo",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 29,
+      "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+      "artist": "The Beatles",
+      "title": "The Beatles (White Album)",
+      "catalogTrackCount": 30,
+      "legacyGuideCount": 30,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    },
+    {
+      "rank": 30,
+      "albumId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f",
+      "artist": "The Jimi Hendrix Experience",
+      "title": "Are You Experienced",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 31,
+      "albumId": "031-miles-davis-kind-of-blue-2148074c",
+      "artist": "Miles Davis",
+      "title": "Kind of Blue",
+      "catalogTrackCount": 5,
+      "legacyGuideCount": 5,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 32,
+      "albumId": "032-beyonce-lemonade-d3bb0f63",
+      "artist": "Beyoncé",
+      "title": "Lemonade",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 33,
+      "albumId": "033-amy-winehouse-back-to-black-4e0a725a",
+      "artist": "Amy Winehouse",
+      "title": "Back to Black",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 34,
+      "albumId": "034-stevie-wonder-innervisions-d09c9a35",
+      "artist": "Stevie Wonder",
+      "title": "Innervisions",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 35,
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "artist": "The Beatles",
+      "title": "Rubber Soul",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 36,
+      "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+      "artist": "Michael Jackson",
+      "title": "Off the Wall",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 37,
+      "albumId": "037-dr-dre-the-chronic-08e42779",
+      "artist": "Dr. Dre",
+      "title": "The Chronic",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 38,
+      "albumId": "038-frank-ocean-blonde-ef1630f4",
+      "artist": "Frank Ocean",
+      "title": "Blonde",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 39,
+      "albumId": "039-talking-heads-remain-in-light-729116ee",
+      "artist": "Talking Heads",
+      "title": "Remain in Light",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 40,
+      "albumId": "040-david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars-94992dad",
+      "artist": "David Bowie",
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 41,
+      "albumId": "041-the-rolling-stones-let-it-bleed-bd31279f",
+      "artist": "The Rolling Stones",
+      "title": "Let It Bleed",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 42,
+      "albumId": "042-a-tribe-called-quest-the-low-end-theory-dd3040be",
+      "artist": "A Tribe Called Quest",
+      "title": "The Low End Theory",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 43,
+      "albumId": "043-nas-illmatic-d29fe2ef",
+      "artist": "Nas",
+      "title": "Illmatic",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 44,
+      "albumId": "044-prince-sign-o-the-times-96deaced",
+      "artist": "Prince",
+      "title": "Sign o' the Times",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 45,
+      "albumId": "045-paul-simon-graceland-5de25e59",
+      "artist": "Paul Simon",
+      "title": "Graceland",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 46,
+      "albumId": "046-ramones-ramones-edae8dcf",
+      "artist": "Ramones",
+      "title": "Ramones",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 47,
+      "albumId": "047-bob-marley-and-the-wailers-legend-e2c8278d",
+      "artist": "Bob Marley and the Wailers",
+      "title": "Legend",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 48,
+      "albumId": "048-outkast-aquemini-83dddb1e",
+      "artist": "OutKast",
+      "title": "Aquemini",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 49,
+      "albumId": "049-chuck-berry-the-great-twenty-eight-8133970a",
+      "artist": "Chuck Berry",
+      "title": "The Great Twenty-Eight",
+      "catalogTrackCount": 28,
+      "legacyGuideCount": 28,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 50,
+      "albumId": "050-david-bowie-station-to-station-d60364f2",
+      "artist": "David Bowie",
+      "title": "Station to Station",
+      "catalogTrackCount": 6,
+      "legacyGuideCount": 6,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 51,
+      "albumId": "051-jimi-hendrix-electric-ladyland-dba6360e",
+      "artist": "Jimi Hendrix",
+      "title": "Electric Ladyland",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 52,
+      "albumId": "052-james-brown-star-time-1d7aca32",
+      "artist": "James Brown",
+      "title": "Star Time",
+      "catalogTrackCount": 50,
+      "legacyGuideCount": 50,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 53,
+      "albumId": "053-pink-floyd-the-dark-side-of-the-moon-c8bed536",
+      "artist": "Pink Floyd",
+      "title": "The Dark Side of the Moon",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 54,
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "artist": "Liz Phair",
+      "title": "Exile in Guyville",
+      "catalogTrackCount": 18,
+      "legacyGuideCount": 18,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": true
+    },
+    {
+      "rank": 55,
+      "albumId": "055-the-band-the-band-1f2e3055",
+      "artist": "The Band",
+      "title": "The Band",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 56,
+      "albumId": "056-led-zeppelin-led-zeppelin-iv-62470e61",
+      "artist": "Led Zeppelin",
+      "title": "Led Zeppelin IV",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 57,
+      "albumId": "057-stevie-wonder-talking-book-506ef6b0",
+      "artist": "Stevie Wonder",
+      "title": "Talking Book",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 58,
+      "albumId": "058-captain-beefheart-trout-mask-replica-717eac51",
+      "artist": "Captain Beefheart",
+      "title": "Trout Mask Replica",
+      "catalogTrackCount": 28,
+      "legacyGuideCount": 28,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 59,
+      "albumId": "059-eric-b-and-rakim-paid-in-full-a0dcd2cf",
+      "artist": "Eric B. & Rakim",
+      "title": "Paid in Full",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 60,
+      "albumId": "060-guns-n-roses-appetite-for-destruction-66770fb8",
+      "artist": "Guns N' Roses",
+      "title": "Appetite for Destruction",
+      "catalogTrackCount": 50,
+      "legacyGuideCount": 50,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 61,
+      "albumId": "061-steely-dan-aja-eaaf1346",
+      "artist": "Steely Dan",
+      "title": "Aja",
+      "catalogTrackCount": 7,
+      "legacyGuideCount": 7,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 62,
+      "albumId": "062-outkast-stankonia-9808fc51",
+      "artist": "OutKast",
+      "title": "Stankonia",
+      "catalogTrackCount": 24,
+      "legacyGuideCount": 24,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 63,
+      "albumId": "063-de-la-soul-3-feet-high-and-rising-064e07f1",
+      "artist": "De La Soul",
+      "title": "3 Feet High and Rising",
+      "catalogTrackCount": 22,
+      "legacyGuideCount": 22,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 64,
+      "albumId": "064-john-prine-john-prine-419a1bd4",
+      "artist": "John Prine",
+      "title": "John Prine",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 65,
+      "albumId": "065-jay-z-reasonable-doubt-6a8e6823",
+      "artist": "Jay-Z",
+      "title": "Reasonable Doubt",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 66,
+      "albumId": "066-kate-bush-hounds-of-love-2f08a06b",
+      "artist": "Kate Bush",
+      "title": "Hounds of Love",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 67,
+      "albumId": "067-alanis-morissette-jagged-little-pill-4c683edc",
+      "artist": "Alanis Morissette",
+      "title": "Jagged Little Pill",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 68,
+      "albumId": "068-n-w-a-straight-outta-compton-aff6bb78",
+      "artist": "N.W.A",
+      "title": "Straight Outta Compton",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 69,
+      "albumId": "069-bob-marley-and-the-wailers-exodus-2395620b",
+      "artist": "Bob Marley and the Wailers",
+      "title": "Exodus",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 70,
+      "albumId": "070-neil-young-harvest-93a984b7",
+      "artist": "Neil Young",
+      "title": "Harvest",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 71,
+      "albumId": "071-elvis-costello-my-aim-is-true-ca631c79",
+      "artist": "Elvis Costello",
+      "title": "My Aim Is True",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 72,
+      "albumId": "072-kanye-west-the-college-dropout-1be7bdd4",
+      "artist": "Kanye West",
+      "title": "The College Dropout",
+      "catalogTrackCount": 21,
+      "legacyGuideCount": 21,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 73,
+      "albumId": "073-aretha-franklin-lady-soul-7ee27bcd",
+      "artist": "Aretha Franklin",
+      "title": "Lady Soul",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 74,
+      "albumId": "074-curtis-mayfield-superfly-510928e7",
+      "artist": "Curtis Mayfield",
+      "title": "Superfly",
+      "catalogTrackCount": 5,
+      "legacyGuideCount": 5,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 75,
+      "albumId": "075-the-who-who-s-next-3c0afc59",
+      "artist": "The Who",
+      "title": "Who's Next",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 76,
+      "albumId": "076-elvis-presley-the-sun-sessions-adb13ddd",
+      "artist": "Elvis Presley",
+      "title": "The Sun Sessions",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 77,
+      "albumId": "077-bob-dylan-blonde-on-blonde-bca0d67d",
+      "artist": "Bob Dylan",
+      "title": "Blonde on Blonde",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 78,
+      "albumId": "078-james-brown-sex-machine-554f7797",
+      "artist": "James Brown",
+      "title": "Sex Machine",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 79,
+      "albumId": "079-beyonce-beyonce-12135020",
+      "artist": "Beyoncé",
+      "title": "Beyoncé",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 80,
+      "albumId": "080-sly-and-the-family-stone-there-s-a-riot-goin-on-e109e43f",
+      "artist": "Sly and the Family Stone",
+      "title": "There's a Riot Goin' On",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 81,
+      "albumId": "081-dusty-springfield-dusty-in-memphis-73e93e62",
+      "artist": "Dusty Springfield",
+      "title": "Dusty in Memphis",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 82,
+      "albumId": "082-the-rolling-stones-beggars-banquet-649f6514",
+      "artist": "The Rolling Stones",
+      "title": "Beggars Banquet",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 83,
+      "albumId": "083-john-lennon-plastic-ono-band-3b6435aa",
+      "artist": "John Lennon",
+      "title": "Plastic Ono Band",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 84,
+      "albumId": "084-the-doors-the-doors-ce1109d2",
+      "artist": "The Doors",
+      "title": "The Doors",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 85,
+      "albumId": "085-miles-davis-bitches-brew-96499826",
+      "artist": "Miles Davis",
+      "title": "Bitches Brew",
+      "catalogTrackCount": 7,
+      "legacyGuideCount": 7,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 86,
+      "albumId": "086-david-bowie-hunky-dory-02ab21ad",
+      "artist": "David Bowie",
+      "title": "Hunky Dory",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 87,
+      "albumId": "087-erykah-badu-baduizm-d494a5ec",
+      "artist": "Erykah Badu",
+      "title": "Baduizm",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 88,
+      "albumId": "088-neil-young-after-the-gold-rush-50ed1c3d",
+      "artist": "Neil Young",
+      "title": "After the Gold Rush",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 89,
+      "albumId": "089-bruce-springsteen-darkness-on-the-edge-of-town-61927b64",
+      "artist": "Bruce Springsteen",
+      "title": "Darkness on the Edge of Town",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 90,
+      "albumId": "090-the-jimi-hendrix-experience-axis-bold-as-love-d46b04cd",
+      "artist": "The Jimi Hendrix Experience",
+      "title": "Axis: Bold as Love",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    },
+    {
+      "rank": 91,
+      "albumId": "091-missy-elliott-supa-dupa-fly-f198c824",
+      "artist": "Missy Elliott",
+      "title": "Supa Dupa Fly",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 92,
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "artist": "The Stooges",
+      "title": "Fun House",
+      "catalogTrackCount": 7,
+      "legacyGuideCount": 7,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": true
+    },
+    {
+      "rank": 93,
+      "albumId": "093-drake-take-care-2901930a",
+      "artist": "Drake",
+      "title": "Take Care",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 94,
+      "albumId": "094-r-e-m-automatic-for-the-people-4d0be6ce",
+      "artist": "R.E.M.",
+      "title": "Automatic for the People",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 95,
+      "albumId": "095-metallica-master-of-puppets-87b23472",
+      "artist": "Metallica",
+      "title": "Master of Puppets",
+      "catalogTrackCount": 32,
+      "legacyGuideCount": 32,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 96,
+      "albumId": "096-lucinda-williams-car-wheels-on-a-gravel-road-104870dc",
+      "artist": "Lucinda Williams",
+      "title": "Car Wheels on a Gravel Road",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 97,
+      "albumId": "097-taylor-swift-red-6f0a0ed0",
+      "artist": "Taylor Swift",
+      "title": "Red",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 98,
+      "albumId": "098-the-band-music-from-big-pink-0ec0c2e3",
+      "artist": "The Band",
+      "title": "Music from Big Pink",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 99,
+      "albumId": "099-led-zeppelin-led-zeppelin-2cd653a3",
+      "artist": "Led Zeppelin",
+      "title": "Led Zeppelin",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 100,
+      "albumId": "100-willie-nelson-red-headed-stranger-9f5e6dd0",
+      "artist": "Willie Nelson",
+      "title": "Red Headed Stranger",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 101,
+      "albumId": "101-the-cure-three-imaginary-boys-f2de7cb0",
+      "artist": "The Cure",
+      "title": "Three Imaginary Boys",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 102,
+      "albumId": "102-the-rolling-stones-sticky-fingers-48e9ae92",
+      "artist": "The Rolling Stones",
+      "title": "Sticky Fingers",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 5,
+      "versioned": false
+    },
+    {
+      "rank": 103,
+      "albumId": "103-johnny-cash-at-folsom-prison-96c751c6",
+      "artist": "Johnny Cash",
+      "title": "At Folsom Prison",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 104,
+      "albumId": "104-hole-live-through-this-ed795d70",
+      "artist": "Hole",
+      "title": "Live Through This",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    },
+    {
+      "rank": 105,
+      "albumId": "105-television-marquee-moon-4bd25233",
+      "artist": "Television",
+      "title": "Marquee Moon",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 106,
+      "albumId": "106-fiona-apple-when-the-pawn-b09ce5e0",
+      "artist": "Fiona Apple",
+      "title": "When the Pawn...",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 107,
+      "albumId": "107-new-order-substance-6d4ec0bb",
+      "artist": "New Order",
+      "title": "Substance",
+      "catalogTrackCount": 24,
+      "legacyGuideCount": 24,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 108,
+      "albumId": "108-joni-mitchell-court-and-spark-6308f8b6",
+      "artist": "Joni Mitchell",
+      "title": "Court and Spark",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 109,
+      "albumId": "109-radiohead-the-bends-71d0e718",
+      "artist": "Radiohead",
+      "title": "The Bends",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 110,
+      "albumId": "110-elton-john-goodbye-yellow-brick-road-6190e99f",
+      "artist": "Elton John",
+      "title": "Goodbye Yellow Brick Road",
+      "catalogTrackCount": 34,
+      "legacyGuideCount": 34,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 111,
+      "albumId": "111-the-smiths-the-queen-is-dead-f3775f2f",
+      "artist": "The Smiths",
+      "title": "The Queen Is Dead",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 112,
+      "albumId": "112-the-strokes-is-this-it-10c57aaf",
+      "artist": "The Strokes",
+      "title": "Is This It",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 113,
+      "albumId": "113-kendrick-lamar-good-kid-m-a-a-d-city-221955f5",
+      "artist": "Kendrick Lamar",
+      "title": "good kid, m.A.A.d city",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 114,
+      "albumId": "114-the-cure-disintegration-6776240e",
+      "artist": "The Cure",
+      "title": "Disintegration",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 115,
+      "albumId": "115-kanye-west-late-registration-a5fb6dc7",
+      "artist": "Kanye West",
+      "title": "Late Registration",
+      "catalogTrackCount": 21,
+      "legacyGuideCount": 21,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 116,
+      "albumId": "116-eagles-hotel-california-9e650795",
+      "artist": "Eagles",
+      "title": "Hotel California",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 117,
+      "albumId": "117-sly-and-the-family-stone-stand-1bf63897",
+      "artist": "Sly and the Family Stone",
+      "title": "Stand!",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 118,
+      "albumId": "118-van-morrison-moondance-6ecc80ce",
+      "artist": "Van Morrison",
+      "title": "Moondance",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 119,
+      "albumId": "119-elvis-costello-this-year-s-model-b9caccf0",
+      "artist": "Elvis Costello",
+      "title": "This Year's Model",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 120,
+      "albumId": "120-nine-inch-nails-the-downward-spiral-a2680461",
+      "artist": "Nine Inch Nails",
+      "title": "The Downward Spiral",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 121,
+      "albumId": "121-led-zeppelin-led-zeppelin-ii-50b11176",
+      "artist": "Led Zeppelin",
+      "title": "Led Zeppelin II",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 122,
+      "albumId": "122-u2-achtung-baby-23b4d4cc",
+      "artist": "U2",
+      "title": "Achtung Baby",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 123,
+      "albumId": "123-beastie-boys-paul-s-boutique-28b8e212",
+      "artist": "Beastie Boys",
+      "title": "Paul's Boutique",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 124,
+      "albumId": "124-mary-j-blige-my-life-da7feba0",
+      "artist": "Mary J. Blige",
+      "title": "My Life",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 125,
+      "albumId": "125-the-modern-lovers-the-modern-lovers-76e28ee4",
+      "artist": "The Modern Lovers",
+      "title": "The Modern Lovers",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 126,
+      "albumId": "126-queen-a-night-at-the-opera-2045d295",
+      "artist": "Queen",
+      "title": "A Night at the Opera",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 127,
+      "albumId": "127-pink-floyd-the-wall-504e3a21",
+      "artist": "Pink Floyd",
+      "title": "The Wall",
+      "catalogTrackCount": 26,
+      "legacyGuideCount": 26,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 128,
+      "albumId": "128-prince-1999-91b2e168",
+      "artist": "Prince",
+      "title": "1999",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 129,
+      "albumId": "129-portishead-dummy-db05d3e2",
+      "artist": "Portishead",
+      "title": "Dummy",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 130,
+      "albumId": "130-hank-williams-40-greatest-hits-89cb7a38",
+      "artist": "Hank Williams",
+      "title": "40 Greatest Hits",
+      "catalogTrackCount": 40,
+      "legacyGuideCount": 40,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 131,
+      "albumId": "131-joni-mitchell-hejira-c32b051c",
+      "artist": "Joni Mitchell",
+      "title": "Hejira",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 132,
+      "albumId": "132-fugees-the-score-3885468c",
+      "artist": "Fugees",
+      "title": "The Score",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 133,
+      "albumId": "133-u2-the-joshua-tree-0c4498cf",
+      "artist": "U2",
+      "title": "The Joshua Tree",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 134,
+      "albumId": "134-funkadelic-maggot-brain-4a5b90a5",
+      "artist": "Funkadelic",
+      "title": "Maggot Brain",
+      "catalogTrackCount": 7,
+      "legacyGuideCount": 7,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 135,
+      "albumId": "135-adele-21-c2972a58",
+      "artist": "Adele",
+      "title": "21",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 136,
+      "albumId": "136-the-meters-the-meters-0c8cce9a",
+      "artist": "The Meters",
+      "title": "The Meters",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 137,
+      "albumId": "137-black-sabbath-paranoid-b527ff0d",
+      "artist": "Black Sabbath",
+      "title": "Paranoid",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 138,
+      "albumId": "138-bob-marley-and-the-wailers-catch-a-fire-4941e216",
+      "artist": "Bob Marley and the Wailers",
+      "title": "Catch a Fire",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 139,
+      "albumId": "139-pixies-doolittle-c1a0d67b",
+      "artist": "Pixies",
+      "title": "Doolittle",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 140,
+      "albumId": "140-the-velvet-underground-the-velvet-underground-ad50cab6",
+      "artist": "The Velvet Underground",
+      "title": "The Velvet Underground",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 141,
+      "albumId": "141-led-zeppelin-physical-graffiti-49a547c4",
+      "artist": "Led Zeppelin",
+      "title": "Physical Graffiti",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 142,
+      "albumId": "142-eminem-the-marshall-mathers-lp-268b0730",
+      "artist": "Eminem",
+      "title": "The Marshall Mathers LP",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 143,
+      "albumId": "143-blondie-parallel-lines-d5e00f60",
+      "artist": "Blondie",
+      "title": "Parallel Lines",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 144,
+      "albumId": "144-jeff-buckley-grace-40adc563",
+      "artist": "Jeff Buckley",
+      "title": "Grace",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 145,
+      "albumId": "145-frank-ocean-channel-orange-360d8884",
+      "artist": "Frank Ocean",
+      "title": "Channel Orange",
+      "catalogTrackCount": 17,
+      "legacyGuideCount": 17,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 146,
+      "albumId": "146-john-coltrane-a-love-supreme-c2942c54",
+      "artist": "John Coltrane",
+      "title": "A Love Supreme",
+      "catalogTrackCount": 4,
+      "legacyGuideCount": 4,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 147,
+      "albumId": "147-bruce-springsteen-nebraska-b1fb1325",
+      "artist": "Bruce Springsteen",
+      "title": "Nebraska",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 148,
+      "albumId": "148-george-michael-faith-e774a01a",
+      "artist": "George Michael",
+      "title": "Faith",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 149,
+      "albumId": "149-the-pretenders-pretenders-ab925375",
+      "artist": "The Pretenders",
+      "title": "Pretenders",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 150,
+      "albumId": "150-pj-harvey-rid-of-me-1826b64c",
+      "artist": "PJ Harvey",
+      "title": "Rid of Me",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 151,
+      "albumId": "151-aretha-franklin-amazing-grace-0b0eb309",
+      "artist": "Aretha Franklin",
+      "title": "Amazing Grace",
+      "catalogTrackCount": 27,
+      "legacyGuideCount": 27,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 152,
+      "albumId": "152-jay-z-the-black-album-9747cc3a",
+      "artist": "Jay-Z",
+      "title": "The Black Album",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 153,
+      "albumId": "153-the-replacements-let-it-be-6ba5cb14",
+      "artist": "The Replacements",
+      "title": "Let It Be",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 154,
+      "albumId": "154-oasis-what-s-the-story-morning-glory-2d34d88a",
+      "artist": "Oasis",
+      "title": "(What's the Story) Morning Glory?",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 155,
+      "albumId": "155-erykah-badu-mama-s-gun-69028684",
+      "artist": "Erykah Badu",
+      "title": "Mama's Gun",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 156,
+      "albumId": "156-the-police-synchronicity-e8507abf",
+      "artist": "The Police",
+      "title": "Synchronicity",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 157,
+      "albumId": "157-pearl-jam-ten-4e010abd",
+      "artist": "Pearl Jam",
+      "title": "Ten",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 158,
+      "albumId": "158-crosby-stills-nash-and-young-deja-vu-2033c437",
+      "artist": "Crosby, Stills, Nash & Young",
+      "title": "Déjà Vu",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 159,
+      "albumId": "159-pulp-different-class-47b7d265",
+      "artist": "Pulp",
+      "title": "Different Class",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 160,
+      "albumId": "160-r-e-m-murmur-a52ef47a",
+      "artist": "R.E.M.",
+      "title": "Murmur",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 161,
+      "albumId": "161-buddy-holly-20-golden-greats-83b1a203",
+      "artist": "Buddy Holly",
+      "title": "20 Golden Greats",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 162,
+      "albumId": "162-depeche-mode-violator-27115494",
+      "artist": "Depeche Mode",
+      "title": "Violator",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 163,
+      "albumId": "163-steely-dan-can-t-buy-a-thrill-c8fb7c22",
+      "artist": "Steely Dan",
+      "title": "Can't Buy a Thrill",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 164,
+      "albumId": "164-billy-joel-the-stranger-77079521",
+      "artist": "Billy Joel",
+      "title": "The Stranger",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 165,
+      "albumId": "165-cream-disraeli-gears-c92836a5",
+      "artist": "Cream",
+      "title": "Disraeli Gears",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 166,
+      "albumId": "166-sonic-youth-daydream-nation-babbcc05",
+      "artist": "Sonic Youth",
+      "title": "Daydream Nation",
+      "catalogTrackCount": 34,
+      "legacyGuideCount": 34,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 167,
+      "albumId": "167-simon-and-garfunkel-bridge-over-troubled-water-4461fc13",
+      "artist": "Simon & Garfunkel",
+      "title": "Bridge Over Troubled Water",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 168,
+      "albumId": "168-nirvana-in-utero-077302d9",
+      "artist": "Nirvana",
+      "title": "In Utero",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 169,
+      "albumId": "169-jimmy-cliff-the-harder-they-come-a29eb368",
+      "artist": "Jimmy Cliff",
+      "title": "The Harder They Come",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 170,
+      "albumId": "170-kendrick-lamar-damn-ec54ad67",
+      "artist": "Kendrick Lamar",
+      "title": "DAMN.",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 171,
+      "albumId": "171-public-enemy-fear-of-a-black-planet-4f738632",
+      "artist": "Public Enemy",
+      "title": "Fear of a Black Planet",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 172,
+      "albumId": "172-rod-stewart-every-picture-tells-a-story-2228e3b3",
+      "artist": "Rod Stewart",
+      "title": "Every Picture Tells a Story",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 173,
+      "albumId": "173-otis-redding-otis-blue-26f8fa66",
+      "artist": "Otis Redding",
+      "title": "Otis Blue",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 174,
+      "albumId": "174-the-notorious-b-i-g-life-after-death-86b41612",
+      "artist": "The Notorious B.I.G.",
+      "title": "Life After Death",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 175,
+      "albumId": "175-love-forever-changes-ffacc9c3",
+      "artist": "Love",
+      "title": "Forever Changes",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 176,
+      "albumId": "176-bob-dylan-bring-it-all-back-home-f760e4cc",
+      "artist": "Bob Dylan",
+      "title": "Bring It All Back Home",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 177,
+      "albumId": "177-james-taylor-sweet-baby-james-399a239b",
+      "artist": "James Taylor",
+      "title": "Sweet Baby James",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 178,
+      "albumId": "178-d-angelo-brown-sugar-494ed407",
+      "artist": "D'Angelo",
+      "title": "Brown Sugar",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 179,
+      "albumId": "179-cyndi-lauper-she-s-so-unusual-84deffec",
+      "artist": "Cyndi Lauper",
+      "title": "She's So Unusual",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 180,
+      "albumId": "180-red-hot-chili-peppers-blood-sugar-sex-magik-b5a708b9",
+      "artist": "Red Hot Chili Peppers",
+      "title": "Blood Sugar Sex Magik",
+      "catalogTrackCount": 19,
+      "legacyGuideCount": 19,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 181,
+      "albumId": "181-ice-cube-amerikkka-s-most-wanted-87ea36b4",
+      "artist": "Ice Cube",
+      "title": "AmeriKKKa's Most Wanted",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 182,
+      "albumId": "182-t-rex-electric-warrior-758ba3c2",
+      "artist": "T. Rex",
+      "title": "Electric Warrior",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 183,
+      "albumId": "183-sleater-kinney-dig-me-out-45117dee",
+      "artist": "Sleater-Kinney",
+      "title": "Dig Me Out",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 184,
+      "albumId": "184-the-who-tommy-b4a199d7",
+      "artist": "The Who",
+      "title": "Tommy",
+      "catalogTrackCount": 24,
+      "legacyGuideCount": 24,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 185,
+      "albumId": "185-etta-james-at-last-711f9e24",
+      "artist": "Etta James",
+      "title": "At Last!",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 186,
+      "albumId": "186-beastie-boys-licensed-to-ill-3217cbc2",
+      "artist": "Beastie Boys",
+      "title": "Licensed to Ill",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 187,
+      "albumId": "187-creedence-clearwater-revival-willy-and-the-poor-boys-b9e5f9f0",
+      "artist": "Creedence Clearwater Revival",
+      "title": "Willy and the Poor Boys",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 188,
+      "albumId": "188-michael-jackson-bad-4d97fac9",
+      "artist": "Michael Jackson",
+      "title": "Bad",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 189,
+      "albumId": "189-leonard-cohen-songs-of-leonard-cohen-9e1a6410",
+      "artist": "Leonard Cohen",
+      "title": "Songs of Leonard Cohen",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 190,
+      "albumId": "190-robyn-body-talk-7b7f26d0",
+      "artist": "Robyn",
+      "title": "Body Talk",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 191,
+      "albumId": "191-the-beatles-meet-the-beatles-19b8da50",
+      "artist": "The Beatles",
+      "title": "Meet the Beatles!",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 192,
+      "albumId": "192-the-b-52-s-the-b-52-s-e6c2c51f",
+      "artist": "The B-52's",
+      "title": "The B-52's",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 193,
+      "albumId": "193-pavement-slanted-and-enchanted-b504cf59",
+      "artist": "Pavement",
+      "title": "Slanted and Enchanted",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 194,
+      "albumId": "194-sade-diamond-life-94eccc39",
+      "artist": "Sade",
+      "title": "Diamond Life",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 195,
+      "albumId": "195-a-tribe-called-quest-midnight-marauders-a267b50d",
+      "artist": "A Tribe Called Quest",
+      "title": "Midnight Marauders",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 196,
+      "albumId": "196-bjork-homogenic-e339214b",
+      "artist": "Björk",
+      "title": "Homogenic",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 197,
+      "albumId": "197-nick-drake-pink-moon-4576ff4a",
+      "artist": "Nick Drake",
+      "title": "Pink Moon",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 198,
+      "albumId": "198-kanye-west-graduation-2c2742a4",
+      "artist": "Kanye West",
+      "title": "Graduation",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 199,
+      "albumId": "199-cat-stevens-tea-for-the-tillerman-7ff118d9",
+      "artist": "Cat Stevens",
+      "title": "Tea for the Tillerman",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 200,
+      "albumId": "200-rage-against-the-machine-rage-against-the-machine-fa5282b5",
+      "artist": "Rage Against the Machine",
+      "title": "Rage Against the Machine",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 201,
+      "albumId": "201-eagles-eagles-2d9c67f1",
+      "artist": "Eagles",
+      "title": "Eagles",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 202,
+      "albumId": "202-lil-wayne-tha-carter-iii-54a9df34",
+      "artist": "Lil Wayne",
+      "title": "Tha Carter III",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 203,
+      "albumId": "203-run-d-m-c-raising-hell-b7bf19f3",
+      "artist": "Run-D.M.C.",
+      "title": "Raising Hell",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 204,
+      "albumId": "204-ray-charles-modern-sounds-in-country-and-western-music-fbd3d960",
+      "artist": "Ray Charles",
+      "title": "Modern Sounds in Country and Western Music",
+      "catalogTrackCount": 24,
+      "legacyGuideCount": 24,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 205,
+      "albumId": "205-joy-division-unknown-pleasures-3e9194d3",
+      "artist": "Joy Division",
+      "title": "Unknown Pleasures",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 206,
+      "albumId": "206-nina-simone-wild-is-the-wind-9d8ff232",
+      "artist": "Nina Simone",
+      "title": "Wild Is the Wind",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 207,
+      "albumId": "207-fiona-apple-the-idler-wheel-84b818fe",
+      "artist": "Fiona Apple",
+      "title": "The Idler Wheel...",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 208,
+      "albumId": "208-tom-petty-wildflowers-8b43694b",
+      "artist": "Tom Petty",
+      "title": "Wildflowers",
+      "catalogTrackCount": 15,
+      "legacyGuideCount": 15,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 209,
+      "albumId": "209-grateful-dead-american-beauty-0c269652",
+      "artist": "Grateful Dead",
+      "title": "American Beauty",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 210,
+      "albumId": "210-elliott-smith-either-or-26a5f842",
+      "artist": "Elliott Smith",
+      "title": "Either/Or",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 211,
+      "albumId": "211-oasis-definitely-maybe-048956c9",
+      "artist": "Oasis",
+      "title": "Definitely Maybe",
+      "catalogTrackCount": 44,
+      "legacyGuideCount": 44,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 212,
+      "albumId": "212-tlc-crazysexycool-ac12332d",
+      "artist": "TLC",
+      "title": "CrazySexyCool",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 213,
+      "albumId": "213-raekwon-only-built-4-cuban-linx-6ee43350",
+      "artist": "Raekwon",
+      "title": "Only Built 4 Cuban Linx...",
+      "catalogTrackCount": 18,
+      "legacyGuideCount": 18,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 214,
+      "albumId": "214-crosby-stills-and-nash-crosby-stills-and-nash-30c43805",
+      "artist": "Crosby, Stills & Nash",
+      "title": "Crosby, Stills & Nash",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 215,
+      "albumId": "215-madonna-ray-of-light-159ba1bc",
+      "artist": "Madonna",
+      "title": "Ray of Light",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 216,
+      "albumId": "216-john-lennon-imagine-4759bad6",
+      "artist": "John Lennon",
+      "title": "Imagine",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 217,
+      "albumId": "217-dixie-chicks-fly-b6577223",
+      "artist": "Dixie Chicks",
+      "title": "Fly",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 218,
+      "albumId": "218-wilco-yankee-hotel-foxtrot-17941a6e",
+      "artist": "Wilco",
+      "title": "Yankee Hotel Foxtrot",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 2,
+      "versioned": false
+    },
+    {
+      "rank": 219,
+      "albumId": "219-derek-and-the-dominos-layla-and-other-assorted-love-songs-59388f79",
+      "artist": "Derek and the Dominos",
+      "title": "Layla and Other Assorted Love Songs",
+      "catalogTrackCount": 27,
+      "legacyGuideCount": 27,
+      "legacyGuidesWithHttpsSource": 1,
+      "versioned": false
+    },
+    {
+      "rank": 220,
+      "albumId": "220-eminem-the-slim-shady-lp-e8c4b177",
+      "artist": "Eminem",
+      "title": "The Slim Shady LP",
+      "catalogTrackCount": 20,
+      "legacyGuideCount": 20,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 221,
+      "albumId": "221-de-la-soul-de-la-soul-is-dead-2c823ba2",
+      "artist": "De La Soul",
+      "title": "De La Soul Is Dead",
+      "catalogTrackCount": 27,
+      "legacyGuideCount": 27,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 222,
+      "albumId": "222-patsy-cline-showcase-830924eb",
+      "artist": "Patsy Cline",
+      "title": "Showcase",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 223,
+      "albumId": "223-rihanna-anti-a3d89552",
+      "artist": "Rihanna",
+      "title": "Anti",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 224,
+      "albumId": "224-tom-waits-rain-dogs-99df0659",
+      "artist": "Tom Waits",
+      "title": "Rain Dogs",
+      "catalogTrackCount": 19,
+      "legacyGuideCount": 19,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 225,
+      "albumId": "225-the-who-the-who-sell-out-64cc42ab",
+      "artist": "The Who",
+      "title": "The Who Sell Out",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 226,
+      "albumId": "226-the-antlers-hospice-7c43bdc2",
+      "artist": "The Antlers",
+      "title": "Hospice",
+      "catalogTrackCount": 11,
+      "legacyGuideCount": 11,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 227,
+      "albumId": "227-black-sabbath-master-of-reality-0d3f45a7",
+      "artist": "Black Sabbath",
+      "title": "Master of Reality",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 228,
+      "albumId": "228-metallica-metallica-d9bc9a1d",
+      "artist": "Metallica",
+      "title": "Metallica",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    },
+    {
+      "rank": 229,
+      "albumId": "229-daft-punk-discovery-c80db397",
+      "artist": "Daft Punk",
+      "title": "Discovery",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 230,
+      "albumId": "230-willie-nelson-stardust-aa298a2b",
+      "artist": "Willie Nelson",
+      "title": "Stardust",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 231,
+      "albumId": "231-kraftwerk-trans-europe-express-c9bc7eeb",
+      "artist": "Kraftwerk",
+      "title": "Trans-Europe Express",
+      "catalogTrackCount": 8,
+      "legacyGuideCount": 8,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 232,
+      "albumId": "232-boogie-down-productions-criminal-minded-23bff38f",
+      "artist": "Boogie Down Productions",
+      "title": "Criminal Minded",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 233,
+      "albumId": "233-sam-cooke-live-at-the-harlem-square-club-f021bcc8",
+      "artist": "Sam Cooke",
+      "title": "Live at the Harlem Square Club",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 234,
+      "albumId": "234-massive-attack-blue-lines-87b9e6e1",
+      "artist": "Massive Attack",
+      "title": "Blue Lines",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 235,
+      "albumId": "235-the-velvet-underground-loaded-c69903c2",
+      "artist": "The Velvet Underground",
+      "title": "Loaded",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 236,
+      "albumId": "236-the-zombies-odessey-and-oracle-4cfc68ad",
+      "artist": "The Zombies",
+      "title": "Odessey and Oracle",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 237,
+      "albumId": "237-kanye-west-808s-and-heartbreak-8ab29869",
+      "artist": "Kanye West",
+      "title": "808s & Heartbreak",
+      "catalogTrackCount": 12,
+      "legacyGuideCount": 12,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 238,
+      "albumId": "238-cocteau-twins-heaven-or-las-vegas-f461c31c",
+      "artist": "Cocteau Twins",
+      "title": "Heaven or Las Vegas",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 239,
+      "albumId": "239-ll-cool-j-mama-said-knock-you-out-7bbc5095",
+      "artist": "LL Cool J",
+      "title": "Mama Said Knock You Out",
+      "catalogTrackCount": 14,
+      "legacyGuideCount": 14,
+      "legacyGuidesWithHttpsSource": 3,
+      "versioned": false
+    },
+    {
+      "rank": 240,
+      "albumId": "240-sade-love-deluxe-65bfff6a",
+      "artist": "Sade",
+      "title": "Love Deluxe",
+      "catalogTrackCount": 9,
+      "legacyGuideCount": 9,
+      "legacyGuidesWithHttpsSource": 0,
+      "versioned": false
+    },
+    {
+      "rank": 241,
+      "albumId": "241-green-day-american-idiot-ffc77c20",
+      "artist": "Green Day",
+      "title": "American Idiot",
+      "catalogTrackCount": 13,
+      "legacyGuideCount": 13,
+      "legacyGuidesWithHttpsSource": 5,
+      "versioned": false
+    },
+    {
+      "rank": 242,
+      "albumId": "242-whitney-houston-whitney-houston-b3a7bd83",
+      "artist": "Whitney Houston",
+      "title": "Whitney Houston",
+      "catalogTrackCount": 10,
+      "legacyGuideCount": 10,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    },
+    {
+      "rank": 243,
+      "albumId": "243-buzzcocks-singles-going-steady-7ee3d34e",
+      "artist": "Buzzcocks",
+      "title": "Singles Going Steady",
+      "catalogTrackCount": 16,
+      "legacyGuideCount": 16,
+      "legacyGuidesWithHttpsSource": 4,
+      "versioned": false
+    }
+  ]
+}
