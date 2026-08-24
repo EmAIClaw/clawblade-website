@@ -1,41 +1,41 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25 01:06 CEST
+Updated: 2026-08-25 01:22 CEST
 
 ## Canonical workspace
 
 - Repository: `/Users/ai/.hermes/workspace/projects/albumvault`
 - Branch: `main`
-- Base HEAD: `59625b9e17850a84da6df1d8aeeaa5c06cc7c32c`
 - Production: `https://clawblade.ai`
 - Policy: local-first; no push or deployment without Arnaud's approval.
 
 ## Current mission
 
-Complete only catalog rank 1, Marvin Gaye — *What's Going On*, across its exact current nine-track catalog edition. Do not expand to another album.
+Complete only catalog rank 54, Liz Phair — *Exile in Guyville*, across its exact current 18-track catalog edition. Do not expand to another album.
 
-## Rank-1 completion status
+## Rank-54 completion status
 
-- Authoritative album ID: `001-marvin-gaye-what-s-going-on-fd00dde9`.
-- Exact identity preserved: disc 1, tracks 1–9, current catalog titles unchanged.
+- Authoritative album ID: `054-liz-phair-exile-in-guyville-2b33a458`.
+- Exact identity preserved: disc 1, tracks 1–18, current catalog titles unchanged.
 - New immutable draft edition: 4.
-- Draft content hash: `449c11738b4a4676`.
-- Generated release hash: `c078419a1ed414fc`.
+- Draft content hash: `13de9e97abdf754c`.
+- Generated release hash: `53595e61f2cdffc1`.
 - Publication state: `published: false`.
-- Track dispositions: 9 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
-- Each of the nine displayed claims has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, independently hashed snapshot, and supported independent semantic review decision.
-- Separate per-track snapshots are retained even when the same Library of Congress-hosted essay supports multiple tracks; evidence is not borrowed across songs.
-- No listening/audio analysis is claimed. Unsupported musical-character, session, and editorial listening prose remains removed.
-- Rank 1 is genuinely completion-eligible as an unpublished draft.
+- Track dispositions: 18 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Each displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, independently hashed snapshot, and supported independent semantic review decision.
+- Separate per-track snapshots are retained even though one Rolling Stone track-by-track interview supports all 18 tracks; evidence is not borrowed across songs.
+- No listening or audio analysis is claimed. Unsupported musical-character, album-context, listening-note, and discovery prose is absent.
+- Rank 54 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Audit session: `20260825_010400_9544ea`.
-- Decisions: 9 supported, 0 unsupported, 0 uncertain.
-- Critical findings: none.
+- Audit session: `20260825_011500_7c7025`.
+- Decisions: 18 supported, 0 unsupported, 0 uncertain.
+- Critical or important findings after final normalization: none.
 - Exact catalog identity: passed.
-- Snapshot URL and excerpt containment: 9/9.
-- Evidence borrowing: none.
+- Snapshot URL and excerpt containment: 18/18.
+- Snapshot hash verification through the project hash implementation: 18/18.
+- Evidence borrowing: none; 18 distinct snapshot IDs.
 - Boilerplate: none.
 - Unsupported listening claims: none.
 
@@ -43,7 +43,7 @@ Complete only catalog rank 1, Marvin Gaye — *What's Going On*, across its exac
 
 All required gates passed:
 
-- `node scripts/build-track-encyclopedia.mjs validate --album-id 001-marvin-gaye-what-s-going-on-fd00dde9`
+- `node scripts/build-track-encyclopedia.mjs validate --album-id 054-liz-phair-exile-in-guyville-2b33a458`
 - `node scripts/test-track-encyclopedia-backend.mjs` — 49/49
 - `node scripts/test-track-encyclopedia-pilot-repairs.mjs`
 - `node scripts/test-track-encyclopedia-ui.mjs` — 5/5
@@ -51,18 +51,18 @@ All required gates passed:
 - `npx tsc --noEmit`
 - `npm run test:data` — 243 albums
 - `npm run test:all`
-- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 11 documented, 23 unresearched
+- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 27 documented, 7 unresearched
 - `npm run build`
 - `git diff --check`
-- Prior rank-1 edition SHA-256 hashes unchanged across the build.
+- Prior rank-54 edition SHA-256 hashes unchanged across the build.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
 - Versioned pilots: 3 albums, 34 tracks.
-- Completion-eligible tracks: 11 (11 documented, 0 contextual, 0 insufficient-evidence).
-- Completed albums: 1.
-- Catalog tracks still unresearched for completion accounting: 3,355.
+- Completion-disposition tracks: 27 (27 documented, 0 contextual, 0 insufficient-evidence).
+- Completed albums: 2.
+- Catalog tracks still unresearched for completion accounting: 3,339.
 
 ## Safety / deployment
 
@@ -71,4 +71,4 @@ All required gates passed:
 - No push or deployment occurred.
 - No external communication occurred.
 - Historical generated releases and edition history remain retained.
-- Rank-1 editions 1–3 remain byte-identical to their pre-mission SHA-256 hashes.
+- Rank-54 editions 1–3 remain byte-identical to their pre-mission SHA-256 hashes.

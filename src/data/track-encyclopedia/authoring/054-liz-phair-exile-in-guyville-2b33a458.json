@@ -1,26 +1,56 @@
 {
   "metadata": {
     "version": "1.0.0-pilot",
-    "generatedAt": "2026-09-19T00:00:00Z",
+    "generatedAt": "2026-08-24T23:18:18Z",
     "albumCount": 3
   },
   "entries": {
     "054-liz-phair-exile-in-guyville-2b33a458": {
       "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
-      "editionNumber": 3,
+      "editionNumber": 4,
       "published": false,
       "contentHash": "",
-      "changeNote": "Evidence-audit repairs: document Stratford-on-Guy and remove unsupported editorial analysis",
+      "changeNote": "Complete all 18 tracks with retained track-specific Liz Phair interview evidence",
       "trackEntries": [
         {
           "trackTitle": "6′1″",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “6′1″” encapsulates the record’s bravado and described it as standing up to the boy or guy.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "To me, it’s the encapsulation of what the rest of the record is going to be delivering. It’s got that bravado that I manifest. Sometimes it’s real and sometimes I’m putting it on in the rest of the songs. It’s standing up to the boy; it’s standing up to the guy.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-61-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -28,13 +58,43 @@
         },
         {
           "trackTitle": "Help Me Mary",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Help Me Mary” drew on her experiences hosting spontaneous gatherings of male rock musicians while feeling that her real self was hidden in that scene.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "I was writing about my own experiences hosting [laughs] these spontaneous gatherings of rock dudes and how just hidden my real self was in that male scene. There weren’t that many women in the scene and, like, everybody either was like a girlfriend or a den mother.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-help-me-mary-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -42,13 +102,43 @@
         },
         {
           "trackTitle": "Glory",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Glory” is about an intimidating male rock figure who was legendary in the scene.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "It’s talking about this sort of intimidating rock dude that everyone knows – someone that’s legendary in the scene.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-glory-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -56,13 +146,43 @@
         },
         {
           "trackTitle": "Dance of the Seven Veils",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said the Johnny in “Dance of the Seven Veils” was a roommate, not the romantic lead, who thought she had taken on more than she could handle.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "In this, Johnny was actually not the romantic lead. He was the roommate who was basically – and rightfully so – convinced that I had bitten off more than I could chew and this was going to be a disaster.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-dance-seven-veils-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -73,25 +193,25 @@
           "evidenceLevel": "documented",
           "verifiedFacts": [
             {
-              "claim": "Wikipedia lists Never Said first in the Singles from Exile in Guyville infobox.",
+              "claim": "Phair described “Never Said” as being about a catty music scene where people became upset over band gossip.",
               "sourceRefs": [
                 {
-                  "label": "Wikipedia",
-                  "title": "Exile in Guyville",
-                  "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
-                  "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "[This was] just kind of like about the music scene and how catty it was. People were always getting upset about something that someone had said about their band or whatever the latest gossip was.",
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
-                  "checkedAt": "2026-08-23",
-                  "snapshotId": "wikipedia-exile-in-guyville-singles-2026-08-23"
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-never-said-2026-08-25"
                 }
               ],
               "semanticReview": {
                 "decision": "supported",
                 "semanticDecision": "supported",
-                "reviewer": "human",
-                "reviewedAt": "2026-08-25T00:00:00Z",
-                "notes": "The retained excerpt directly supports the narrowly worded claim."
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
               }
             }
           ],
@@ -99,14 +219,13 @@
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Only the source-backed singles-list fact is retained; unsupported editorial and discovery prose was removed."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
           ],
-          "discoveryConnections": [],
           "sourceRefs": [
             {
-              "label": "Wikipedia",
-              "title": "Exile in Guyville",
-              "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville"
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
             }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
@@ -115,13 +234,43 @@
         },
         {
           "trackTitle": "Soap Star Joe",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Soap Star Joe” emerged from her unshared thoughts about dating older men and the generic-feeling routine of being driven to dinner.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "When I was in my twenties, I was always dating older men, and they would always pick me up in cars and take me to dinner. I felt like I was always sitting in the interior of some dude’s car on my way to or from dinner and just how weirdly generic it all felt. Like, every Friday, Saturday night, someone was taking you out somewhere. I just had all these thoughts and feelings that I never shared, and it kind of came out in my songwriting, and “Soap Star Joe” is a perfect example.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-soap-star-joe-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -129,13 +278,43 @@
         },
         {
           "trackTitle": "Explain It to Me",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Explain It to Me” came out completely formed and is about seeing a ruined rock hero at their weakest.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "Some songs, when I write them, come out completely formed, and I don’t have to work on them at all, and “Explain It to Me” was like that. It just sort of fell out of me. It’s about a ruined rock hero and seeing one of your greatest figures at their weakest, I guess.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-explain-it-to-me-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -143,13 +322,43 @@
         },
         {
           "trackTitle": "Canary",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Canary” concerns loss of innocence and the pressures faced by a young woman still on the cusp of childhood.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "It’s about the loss of innocence and facing the pressures of being a young woman in the world and what men want from you while you’re still kind of on the cusp of your childhood.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-canary-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -157,13 +366,43 @@
         },
         {
           "trackTitle": "Mesmerizing",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said the ending of “Mesmerizing” includes Casey Rice’s dog Piggy holding a chew toy while being lifted, with her dog tags audible.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "Her name is Piggy. It’s Casey Rice’s dog, and she was the Australian sheepherding dog. She was just hilarious. Not a pretty dog. And she would always grab hold of stuff and just not let it go, and so at the end of the song, Casey is actually lifting her off of the ground while she’s holding onto a chew toy because she doesn’t want to let go and she’s just going [growls]. It’s really cute. It’s the last thing that you can hear. You can hear her dog tags jangling.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-mesmerizing-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -171,13 +410,43 @@
         },
         {
           "trackTitle": "Fuck and Run",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair described “Fuck and Run” as placing an unexpectedly private story in a classic rock or pop-song format.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "The song, to me, is probably the most emblematic of what made people like my music in the first place, with these stories that you wouldn’t think that you would be privy to or that you wouldn’t expect to hear are just absolutely laid down in a kind of classic rock or pop song format.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-fuck-and-run-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -185,13 +454,43 @@
         },
         {
           "trackTitle": "Girls! Girls! Girls!",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Girls! Girls! Girls!” turns the tables on earlier material by showing how the situation can cut both ways.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "I love it because I’m basically talking about being able to get away with murder, turning the tables on the stuff that you’ve seen that I’ve been upset about before. Earlier in the record, you can tell it’s hard to be a woman in a man’s world, and then you get to this song, and you see how the knife cuts both ways.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-girls-girls-girls-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -199,13 +498,43 @@
         },
         {
           "trackTitle": "Divorce Song",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Divorce Song” centers on two personalities trying to be intimate and colliding with each other during a road trip.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "It’s an ordinary person doing ordinary things, and the action in the song is really just about relating to another person. It feels like an action-packed song. You’ve done a lot, you’ve been a lot, you’ve seen a lot, you’ve heard a lot, but really it’s just two personalities trying to be intimate and bumping up against each other on a road trip and that’s all that happens.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-divorce-song-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -213,13 +542,43 @@
         },
         {
           "trackTitle": "Shatter",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Shatter” was constructed by matching what felt like two separate songs together.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "I did a lot of things on Guyville that I think are interesting songwriting-wise where I’d break songs in two; it happens on “Johnny Sunshine,” and it happens on “Shatter.” It’s like two separate songs, kind of matched up together, so you get this whole part.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-shatter-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -227,13 +586,43 @@
         },
         {
           "trackTitle": "Flower",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair said “Flower” encapsulates the Girly-Sound project’s concern with how little authority society gives a young female voice.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "That encapsulates the Girly-Sound project that came before Guyville that was all about how the young female voice carries the least amount of authority of any voice in society. What does it take before you listen to what she’s saying? What is she allowed to say?",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-flower-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -241,13 +630,43 @@
         },
         {
           "trackTitle": "Johnny Sunshine",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair identified “Johnny Sunshine” as her counterpart to “All Down the Line” and described its relationship story as moving from defiant abandonment to devastation.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "This was [the counterpart to] the Rolling Stones’ “All Down the Line” in my saga. They’ve just been in their disagreement moment and now the guy is checking out and hitting the road. He’s going back out on tour. I liken “Johnny Sunshine” to investing all this stuff in this relationship and then you’re just taking off. It’s that feeling of abandonment that you feel when you’re like, “Fine! Go! I don’t care.” Then, of course, you break into the truth of it, which is that she’s devastated.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-johnny-sunshine-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -255,13 +674,43 @@
         },
         {
           "trackTitle": "Gunshy",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair connected “Gunshy” to “Canary” as confession rather than bravado and described it as expressing fear of marriage and that expected role.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "“Gunshy” I connect to “Canary” because it’s more of that true-confession, diary-entry singing. There’s no pretense or bravado. It’s really saying, “I don’t know if I am cut out to do what it seems to be that society wants women to do.” It’s the little things, the little habits that I can’t handle. It’s the fear of being married and the fear of being in that role.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-gunshy-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -272,25 +721,25 @@
           "evidenceLevel": "documented",
           "verifiedFacts": [
             {
-              "claim": "Wikipedia lists Stratford-on-Guy as a single from Exile in Guyville.",
+              "claim": "Phair described “Stratford-on-Guy” as a literal perspective shift while flying above and away from the neighborhood, scene, and relationship.",
               "sourceRefs": [
                 {
-                  "label": "Wikipedia",
-                  "title": "Exile in Guyville",
-                  "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
-                  "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "They felt like they were the arbiters of cool and “Stratford-on-Guy” is me waking up as I travel out of there and just getting out of that neighborhood and it all falls off of you. It all just falls away. There is this sense that you’re literally at 30,000 feet above the scene that you are so involved in and this relationship you’re so involved in and it’s just a literal perspective shift above it.",
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
-                  "checkedAt": "2026-08-23",
-                  "snapshotId": "wikipedia-exile-in-guyville-singles-2026-08-23"
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-stratford-on-guy-2026-08-25"
                 }
               ],
               "semanticReview": {
                 "decision": "supported",
                 "semanticDecision": "supported",
-                "reviewer": "human",
-                "reviewedAt": "2026-08-25T00:00:00Z",
-                "notes": "The retained excerpt directly supports the narrowly worded claim."
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
               }
             }
           ],
@@ -298,7 +747,14 @@
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Only its identification as an album single is supported by retained evidence."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -306,13 +762,43 @@
         },
         {
           "trackTitle": "Strange Loop",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Phair described “Strange Loop” as a reconciliation song that gains distance from the preceding turmoil and ends in an unusual conciliatory place.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+                  "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853",
+                  "extract": "But it stands out as the last song. This is a reconciliation song. It’s about saying, “Yeah, OK, we’ve been through a lot of shit. You’re fucked up, and I’m fucked up.” There’s a sense of having moved past the Sturm und Drang. We’ve gotten some distance from it all and it’s conciliatory in a weird way.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rolling-stone-liz-phair-strange-loop-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+                "reviewedAt": "2026-08-24T23:18:18Z",
+                "notes": "Independent review found the narrowly worded claim directly supported by the retained track-specific excerpt."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry."
+            "Only the source-backed artist statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Liz Phair Breaks Down 'Exile in Guyville,' Track by Track",
+              "url": "https://www.rollingstone.com/music/music-features/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853"
+            }
           ],
           "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
           "discNumber": 1,
@@ -320,14 +806,14 @@
         }
       ],
       "generationMetadata": {
-        "generatedAt": "2026-09-19T00:00:00Z",
-        "generator": "pilot-manual",
+        "generatedAt": "2026-08-24T23:18:18Z",
+        "generator": "manual-source-research",
         "model": null
       },
       "reviewMetadata": {
-        "reviewedAt": "2026-08-25T00:00:00Z",
-        "reviewer": "human",
-        "notes": "Edition 3 applies the pilot evidence audit: Stratford-on-Guy is source-backed and unsupported listening/discovery prose is removed."
+        "reviewedAt": "2026-08-24T23:18:18Z",
+        "reviewer": "independent-agent-audit:20260825_011500_7c7025",
+        "notes": "All 18 exact catalog tracks independently audited against retained track-specific excerpts from Liz Phair’s Rolling Stone track-by-track interview."
       }
     }
   }

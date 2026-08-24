@@ -23,7 +23,7 @@ const lizId = '054-liz-phair-exile-in-guyville-2b33a458';
 const stoogesId = '092-the-stooges-fun-house-9896fe5c';
 assert.deepEqual(Object.keys(entries).sort(), [marvinId, lizId, stoogesId].sort());
 assert.equal(entries[marvinId].editionNumber, 4, 'Marvin rank-1 completion requires a new draft edition');
-assert.equal(entries[lizId].editionNumber, 3, 'Liz repairs require a new draft edition');
+assert.equal(entries[lizId].editionNumber, 4, 'Liz rank-54 completion requires a new draft edition');
 assert.equal(entries[stoogesId].editionNumber, 2, 'Fun House listening claims require a new draft edition');
 
 const marvin = new Map(entries[marvinId].trackEntries.map((track) => [track.trackTitle, track]));
@@ -48,10 +48,22 @@ assert.match(entries[marvinId].changeNote, /errat|evidence|unsupported/i);
 assert.match(entries[marvinId].reviewMetadata.notes, /edition 1.*Songfacts.*AllMusic.*Wikipedia/i);
 
 const liz = new Map(entries[lizId].trackEntries.map((track) => [track.trackTitle, track]));
+assert.equal(liz.size, 18, 'rank-54 edition must preserve exactly eighteen catalog tracks');
+const lizSnapshotIds = new Set();
+for (const track of liz.values()) {
+  assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: rank-54 completion requires documented track-specific evidence`);
+  assert.equal(track.verifiedFacts.length, 1, `${track.trackTitle}: retain one narrowly scoped verified fact`);
+  assert.equal(track.musicalCharacter, '', `${track.trackTitle}: unsupported musical-character prose must be absent`);
+  assert.equal(track.listeningNotes, '', `${track.trackTitle}: unsupported listening prose must be absent`);
+  const ref = track.verifiedFacts[0].sourceRefs[0];
+  assert.match(ref.url, /^https:\/\/www\.rollingstone\.com\/music\/music-features\/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853$/);
+  assert.ok(ref.snapshotId, `${track.trackTitle}: claim evidence requires a snapshot`);
+  lizSnapshotIds.add(ref.snapshotId);
+}
+assert.equal(lizSnapshotIds.size, 18, 'rank-54 tracks must retain independent per-track snapshots without borrowing');
 const stratford = liz.get('Stratford-on-Guy');
 assert.equal(stratford.evidenceLevel, 'documented');
-assert.match(stratford.verifiedFacts[0].claim, /single/i);
-assert.equal(stratford.verifiedFacts[0].sourceRefs[0].snapshotId, 'wikipedia-exile-in-guyville-singles-2026-08-23');
+assert.match(stratford.verifiedFacts[0].claim, /perspective shift/i);
 const neverSaid = liz.get('Never Said');
 assert.equal(neverSaid.musicalCharacter, '');
 assert.equal(neverSaid.listeningNotes, '');
