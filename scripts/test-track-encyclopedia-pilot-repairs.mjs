@@ -22,16 +22,23 @@ const marvinId = '001-marvin-gaye-what-s-going-on-fd00dde9';
 const lizId = '054-liz-phair-exile-in-guyville-2b33a458';
 const stoogesId = '092-the-stooges-fun-house-9896fe5c';
 assert.deepEqual(Object.keys(entries).sort(), [marvinId, lizId, stoogesId].sort());
-assert.equal(entries[marvinId].editionNumber, 3, 'Marvin repairs require a new draft edition');
+assert.equal(entries[marvinId].editionNumber, 4, 'Marvin rank-1 completion requires a new draft edition');
 assert.equal(entries[lizId].editionNumber, 3, 'Liz repairs require a new draft edition');
 assert.equal(entries[stoogesId].editionNumber, 2, 'Fun House listening claims require a new draft edition');
 
 const marvin = new Map(entries[marvinId].trackEntries.map((track) => [track.trackTitle, track]));
+assert.equal(marvin.size, 9, 'rank-1 edition must preserve exactly nine catalog tracks');
+for (const track of marvin.values()) {
+  assert.ok(
+    ['documented', 'contextual', 'insufficient-evidence'].includes(track.evidenceLevel),
+    `${track.trackTitle}: rank-1 completion cannot retain unresearched or unsupported limited status`
+  );
+}
 const whatsGoingOn = marvin.get("What's Going On");
 assert.doesNotMatch(`${whatsGoingOn.musicalCharacter} ${whatsGoingOn.historicalContext ?? ''} ${whatsGoingOn.listeningNotes}`, /flute|1970 and 1971|West Hollywood/i);
 const brother = marvin.get("What's Happening Brother");
 assert.doesNotMatch(`${brother.musicalCharacter} ${brother.albumContext} ${brother.listeningNotes}`, /Frankie Gaye|Gaye's brother Frankie/i);
-assert.match(`${brother.albumContext} ${brother.limitations.join(' ')}`, /Vietnam veteran/i);
+assert.match(`${brother.verifiedFacts[0].claim} ${brother.limitations.join(' ')}`, /Frankie Gaye.*Vietnam War/i);
 for (const title of ['Mercy Mercy Me (The Ecology)', 'Inner City Blues (Make Me Wanna Holler)']) {
   const track = marvin.get(title);
   assert.equal(track.musicalCharacter, '', `${title} unsupported musical-character prose must be removed`);

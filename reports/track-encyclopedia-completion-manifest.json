@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-08-24T22:55:00Z",
+  "updatedAt": "2026-08-24T23:06:28Z",
   "catalogAlbums": 243,
   "catalogTracks": 3366,
   "foundationStatus": "verified-local-foundation-complete",
@@ -8,22 +8,23 @@
   "publishedDataChanged": false,
   "versionedAlbums": 3,
   "versionedTracks": 34,
-  "completedAlbums": 0,
-  "completedTracks": 6,
-  "documentedTracks": 4,
-  "contextualTracks": 2,
+  "completedAlbums": 1,
+  "completedTracks": 11,
+  "documentedTracks": 11,
+  "contextualTracks": 0,
   "insufficientEvidenceTracks": 0,
-  "unresearchedTracks": 3360,
+  "unresearchedTracks": 3355,
   "pilotDraftEditions": {
-    "001-marvin-gaye-what-s-going-on-fd00dde9": 3,
+    "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
     "054-liz-phair-exile-in-guyville-2b33a458": 3,
     "092-the-stooges-fun-house-9896fe5c": 2
   },
-  "validationStatus": "49 backend tests, pilot repairs, 5 UI tests, 71 core track tests, TypeScript, data integrity, full test:all, production build, diff check, real Chrome loaded/missing/error/retry smoke, and independent final review all passed",
+  "validationStatus": "49 backend tests, pilot repair acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent nine-track semantic evidence audit passed",
   "notes": [
-    "All three pilot editions remain unpublished drafts.",
-    "Unsupported listening-analysis prose without retained audio provenance was removed rather than counted as evidence.",
-    "No additional albums were added; catalog expansion remains a separate future mission."
+    "Rank 1 Marvin Gaye — What's Going On is completion-eligible in unpublished draft edition 4: all nine tracks are documented with retained exact excerpts and supported independent semantic review decisions.",
+    "All three pilot editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
+    "Unsupported listening-analysis prose remains removed; no audio analysis is claimed.",
+    "No additional albums were researched or changed by this mission."
   ],
   "albums": [
     {
@@ -34,7 +35,14 @@
       "catalogTrackCount": 9,
       "legacyGuideCount": 9,
       "legacyGuidesWithHttpsSource": 3,
-      "versioned": true
+      "versioned": true,
+      "completionEligible": true,
+      "draftEdition": 4,
+      "documentedTracks": 9,
+      "contextualTracks": 0,
+      "insufficientEvidenceTracks": 0,
+      "unresearchedTracks": 0,
+      "contentHash": "449c11738b4a4676"
     },
     {
       "rank": 2,

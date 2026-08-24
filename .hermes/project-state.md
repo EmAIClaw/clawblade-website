@@ -1,35 +1,49 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25 00:35 CEST
+Updated: 2026-08-25 01:06 CEST
 
 ## Canonical workspace
 
 - Repository: `/Users/ai/.hermes/workspace/projects/albumvault`
 - Branch: `main`
-- Base HEAD: `10ad2548584d499a503549f83554762a55322ac2`
+- Base HEAD: `59625b9e17850a84da6df1d8aeeaa5c06cc7c32c`
 - Production: `https://clawblade.ai`
 - Policy: local-first; no push or deployment without Arnaud's approval.
 
 ## Current mission
 
-Complete only the versioned track-encyclopedia foundation and the three-pilot evidence repairs. Do not expand beyond the pilots.
+Complete only catalog rank 1, Marvin Gaye — *What's Going On*, across its exact current nine-track catalog edition. Do not expand to another album.
 
-## Foundation status
+## Rank-1 completion status
 
-- Per-album authoring exists for exactly three pilots under `src/data/track-encyclopedia/authoring/`.
-- Current draft editions: Marvin Gaye 3, Liz Phair 3, The Stooges 2.
-- All draft editions remain `published: false`.
-- Generated pilot result: 3 albums, 34 tracks; 4 documented, 2 contextual, 0 limited, 0 completed-insufficient-evidence, 28 unresearched.
-- Exact catalog identity is enforced for lifecycle validation and publication and checked during normal builds whenever the catalog is available.
-- Evidence snapshots are self-describing and strict loading no longer injects missing IDs.
-- Publication requires explicit album ID, edition number, change note, and approval token.
-- Authoring discovery, atomic release publication, dry-run GC planning, runtime hash fallback, and loading/missing/error/retry UI states have focused coverage.
-- Unsupported listening-analysis prose without retained audio provenance was removed instead of counted as evidence.
+- Authoritative album ID: `001-marvin-gaye-what-s-going-on-fd00dde9`.
+- Exact identity preserved: disc 1, tracks 1–9, current catalog titles unchanged.
+- New immutable draft edition: 4.
+- Draft content hash: `449c11738b4a4676`.
+- Generated release hash: `c078419a1ed414fc`.
+- Publication state: `published: false`.
+- Track dispositions: 9 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Each of the nine displayed claims has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, independently hashed snapshot, and supported independent semantic review decision.
+- Separate per-track snapshots are retained even when the same Library of Congress-hosted essay supports multiple tracks; evidence is not borrowed across songs.
+- No listening/audio analysis is claimed. Unsupported musical-character, session, and editorial listening prose remains removed.
+- Rank 1 is genuinely completion-eligible as an unpublished draft.
+
+## Independent evidence audit
+
+- Audit session: `20260825_010400_9544ea`.
+- Decisions: 9 supported, 0 unsupported, 0 uncertain.
+- Critical findings: none.
+- Exact catalog identity: passed.
+- Snapshot URL and excerpt containment: 9/9.
+- Evidence borrowing: none.
+- Boilerplate: none.
+- Unsupported listening claims: none.
 
 ## Verification status
 
 All required gates passed:
 
+- `node scripts/build-track-encyclopedia.mjs validate --album-id 001-marvin-gaye-what-s-going-on-fd00dde9`
 - `node scripts/test-track-encyclopedia-backend.mjs` — 49/49
 - `node scripts/test-track-encyclopedia-pilot-repairs.mjs`
 - `node scripts/test-track-encyclopedia-ui.mjs` — 5/5
@@ -37,24 +51,24 @@ All required gates passed:
 - `npx tsc --noEmit`
 - `npm run test:data` — 243 albums
 - `npm run test:all`
-- `npm run build:track-encyclopedia`
+- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 11 documented, 23 unresearched
 - `npm run build`
 - `git diff --check`
-- Real Chrome smoke: loaded, missing, error, and successful retry
-- Independent final review: approved with no critical or important findings
+- Prior rank-1 edition SHA-256 hashes unchanged across the build.
 
-The local foundation expansion gate is passed. Catalog expansion remains out of scope and was not started.
-
-## Counts
+## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
 - Versioned pilots: 3 albums, 34 tracks.
-- Completion-eligible evidence tracks: 6 (4 documented, 2 contextual).
-- Completed albums: 0.
-- Catalog tracks still unresearched for completion accounting: 3,360.
+- Completion-eligible tracks: 11 (11 documented, 0 contextual, 0 insufficient-evidence).
+- Completed albums: 1.
+- Catalog tracks still unresearched for completion accounting: 3,355.
 
 ## Safety / deployment
 
-- No website or data lifecycle publication has occurred.
-- No push or deployment has occurred.
+- No catalog or Gym data was modified.
+- No edition was marked published.
+- No push or deployment occurred.
+- No external communication occurred.
 - Historical generated releases and edition history remain retained.
+- Rank-1 editions 1–3 remain byte-identical to their pre-mission SHA-256 hashes.

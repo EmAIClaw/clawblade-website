@@ -25,6 +25,55 @@
       "normalizedText": "Exile in Guyville infobox: Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993.",
       "contentHash": "c51d3dbdcc7e8e173aced92e495806946a2571ab3e566e42d74bf0c2d6c17990",
       "id": "wikipedia-exile-in-guyville-singles-2026-08-23"
+    },
+    "performing-songwriter-whats-going-on-benson-2026-08-25": {
+      "id": "performing-songwriter-whats-going-on-benson-2026-08-25",
+      "canonicalUrl": "https://performingsongwriter.com/marvin-gaye-whats-going-on",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“He definitely put the finishing touches on it,” Benson said. “He added lyrics, and he added some spice to the melody.”",
+      "contentHash": "c823c2dbcde61b0b1a39d5368c942faad4ecb8bdd1105f527a3a54eefe7af509"
+    },
+    "loc-whats-happening-brother-2026-08-25": {
+      "id": "loc-whats-happening-brother-2026-08-25",
+      "canonicalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“What’s Happening Brother” (another question mark song without the question mark), continued to comment on current events. Cleverly utilizing one of the most used African American greetings of the day “What’s Happening” (the black sitcom “What’s Happening!!” ran from 1976-79), the song was a musical compendium of the stories Gaye’s brother Frankie had told him about what it felt like returning to America after service in the Vietnam War.",
+      "contentHash": "e87400c1ddce4e290762f1b777fbcb3e054481350467a0594e7f19dd1a0f06bc"
+    },
+    "loc-flyin-high-2026-08-25": {
+      "id": "loc-flyin-high-2026-08-25",
+      "canonicalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“Flyin’ High (In the Friendly Sky)” appropriated the United Airlines slogan: “Fly the friendly skies.”",
+      "contentHash": "f58217e615c25ea005e9dca49806ff38aa419e8c311adfeff1fc020494bcc301"
+    },
+    "wikipedia-save-the-children-2026-08-25": {
+      "id": "wikipedia-save-the-children-2026-08-25",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Save_the_Children_(song)",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "is a song written by Al Cleveland, Renaldo Benson and Marvin Gaye and issued on Marvin's 1971 album, What's Going On.",
+      "contentHash": "de65e008fbf081c25287e2e779dfffa171ba6d0c1df0e23879460e8003b63697"
+    },
+    "loc-god-is-love-2026-08-25": {
+      "id": "loc-god-is-love-2026-08-25",
+      "canonicalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“God is Love” put on vinyl Gaye’s straightforward declaration of his Christianity.",
+      "contentHash": "c3b5dda6dc852e7dc2818a58bd524808a5f4ac08cd168dbaf619923cb91b2ba0"
+    },
+    "loc-right-on-2026-08-25": {
+      "id": "loc-right-on-2026-08-25",
+      "canonicalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“Right On!”--an expression of positivity",
+      "contentHash": "1ed2b4d293c958b8e53222acb7b36b91d70264d90b092330bcdad5b4fbbed75f"
+    },
+    "loc-wholy-holy-2026-08-25": {
+      "id": "loc-wholy-holy-2026-08-25",
+      "canonicalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "“Wholy Holy,” with its play on words title, returned to themes covered in “God is Love”",
+      "contentHash": "b1da941ef3f2c3619322466e1efe1a3180f7af177ea5565d19f2cc0696221a58"
     }
   }
 }

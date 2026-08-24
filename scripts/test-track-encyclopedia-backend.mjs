@@ -310,8 +310,8 @@ await test('validateAlbumEdition reads the active per-album authoring edition', 
     dataDir,
     albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
   });
-  assert.equal(result.editionNumber, 3,
-    'lifecycle validation must use repaired per-album authoring, not stale monolithic input');
+  assert.equal(result.editionNumber, 4,
+    'lifecycle validation must use current rank-1 per-album authoring, not stale monolithic input');
 });
 
 await test('publishAlbumEdition requires explicit change note', async () => {

@@ -7,33 +7,44 @@
   "entries": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": {
       "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
-      "editionNumber": 3,
+      "editionNumber": 4,
       "published": false,
       "contentHash": "",
-      "changeNote": "Evidence-audit errata: remove unsupported listening claims and correct provenance notes",
+      "changeNote": "Complete rank-1 track research with retained claim-level evidence for all nine tracks",
       "trackEntries": [
         {
           "trackTitle": "What's Going On",
-          "evidenceLevel": "contextual",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Renaldo Benson said Marvin Gaye added lyrics and ‘some spice to the melody’ to “What’s Going On.”",
+              "sourceRefs": [
+                {
+                  "label": "Performing Songwriter",
+                  "title": "“What’s Going On”",
+                  "url": "https://performingsongwriter.com/marvin-gaye-whats-going-on",
+                  "extract": "“He definitely put the finishing touches on it,” Benson said. “He added lyrics, and he added some spice to the melody.”",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "performing-songwriter-whats-going-on-benson-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained Benson quotation directly supports the narrowly worded contribution claim."
+              }
+            }
+          ],
           "musicalCharacter": "",
-          "albumContext": "Opening track of the album and the start of its social-concern sequence.",
+          "albumContext": "",
           "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Unsupported flute and recording-session specifics from the prior draft were removed."
-          ],
-          "sourceRefs": [
-            {
-              "label": "Wikipedia",
-              "title": "What's Going On (album)",
-              "url": "https://en.wikipedia.org/wiki/What%27s_Going_On_(album)"
-            },
-            {
-              "label": "Songfacts",
-              "title": "What's Going On by Marvin Gaye",
-              "url": "https://www.songfacts.com/facts/marvin-gaye/whats-going-on"
-            }
+            "Only Benson’s quoted account of Gaye’s writing contribution is displayed; unsupported session and listening claims remain removed."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -41,13 +52,37 @@
         },
         {
           "trackTitle": "What's Happening Brother",
-          "evidenceLevel": "contextual",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "A Library of Congress-hosted essay says the song draws on Frankie Gaye’s stories about returning to America after service in the Vietnam War.",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "“What’s Going On”—Marvin Gaye (1971)",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+                  "extract": "the song was a musical compendium of the stories Gaye’s brother Frankie had told him about what it felt like returning to America after service in the Vietnam War",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-whats-happening-brother-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained essay excerpt directly supports the attributed Frankie Gaye and Vietnam-return claim."
+              }
+            }
+          ],
           "musicalCharacter": "",
-          "albumContext": "The track addresses the experience of a Vietnam veteran returning home.",
+          "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "The prior attribution to Frankie Gaye was removed; retained context supports only the Vietnam veteran description."
+            "The claim is explicitly attributed to the Library of Congress-hosted guest essay; no broader biographical inference is made."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -55,13 +90,37 @@
         },
         {
           "trackTitle": "Flyin' High (In the Friendly Sky)",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "A Library of Congress-hosted essay says the title appropriated United Airlines’ “Fly the friendly skies” slogan.",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "“What’s Going On”—Marvin Gaye (1971)",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+                  "extract": "“Flyin’ High (In the Friendly Sky)” appropriated the United Airlines slogan: “Fly the friendly skies.”",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-flyin-high-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained essay excerpt directly supports the attributed title-and-slogan claim."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Prior listening-analysis prose had no retained audio provenance and was removed."
+            "Only the source-backed title reference is displayed; no listening or addiction claim is added."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -69,14 +128,37 @@
         },
         {
           "trackTitle": "Save the Children",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia identifies Al Cleveland, Renaldo Benson, and Marvin Gaye as the songwriters and says the song appeared on Gaye’s 1971 album What’s Going On.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Save the Children (song)",
+                  "url": "https://en.wikipedia.org/wiki/Save_the_Children_(song)",
+                  "extract": "is a song written by Al Cleveland, Renaldo Benson and Marvin Gaye and issued on Marvin's 1971 album, What's Going On.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "wikipedia-save-the-children-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained Wikipedia excerpt directly supports the bounded songwriter and album metadata claim."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry.",
-            "No listening analysis has been conducted yet."
+            "The retained claim is limited to bounded authorship and album metadata."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -84,14 +166,37 @@
         },
         {
           "trackTitle": "God Is Love",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "A Library of Congress-hosted essay characterizes “God is Love” as Gaye’s declaration of his Christianity.",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "“What’s Going On”—Marvin Gaye (1971)",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+                  "extract": "“God is Love” put on vinyl Gaye’s straightforward declaration of his Christianity.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-god-is-love-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained essay excerpt directly supports the attributed critical characterization; no artist-intent inference is made."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry.",
-            "No listening analysis has been conducted yet."
+            "The characterization is attributed to the essay and is not presented as a direct statement of Gaye’s intent."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -111,31 +216,25 @@
                   "extract": "the second single from American singer-songwriter Marvin Gaye's 1971 album, What's Going On",
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
-                  "checkedAt": "2026-08-23",
+                  "checkedAt": "2026-08-25",
                   "snapshotId": "wikipedia-mercy-mercy-me-2026-08-23"
                 }
               ],
               "semanticReview": {
                 "decision": "supported",
                 "semanticDecision": "supported",
-                "reviewer": "human",
-                "reviewedAt": "2026-08-25T00:00:00Z",
-                "notes": "The retained excerpt directly supports the narrowly worded claim."
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained Wikipedia excerpt directly supports the bounded second-single claim."
               }
             }
           ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Only the source-backed single-release fact is retained; unsupported editorial listening prose was removed."
-          ],
-          "sourceRefs": [
-            {
-              "label": "Songfacts",
-              "title": "Mercy Mercy Me (The Ecology) by Marvin Gaye",
-              "url": "https://www.songfacts.com/facts/marvin-gaye/mercy-mercy-me-the-ecology"
-            }
+            "Only the source-backed single-release fact is displayed; unsupported editorial listening prose remains removed."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -143,14 +242,37 @@
         },
         {
           "trackTitle": "Right On",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "A Library of Congress-hosted essay describes “Right On!” as an expression of positivity.",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "“What’s Going On”—Marvin Gaye (1971)",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+                  "extract": "“Right On!”--an expression of positivity",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-right-on-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained essay excerpt directly supports the attributed explanation of the title phrase."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry.",
-            "No listening analysis has been conducted yet."
+            "The claim is limited to the source’s explanation of the title phrase; no listening analysis is asserted."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -158,14 +280,37 @@
         },
         {
           "trackTitle": "Wholy Holy",
-          "evidenceLevel": "unresearched",
-          "verifiedFacts": [],
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "A Library of Congress-hosted essay identifies “Wholy Holy” as a play-on-words title linked thematically to “God is Love.”",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "“What’s Going On”—Marvin Gaye (1971)",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf",
+                  "extract": "“Wholy Holy,” with its play on words title, returned to themes covered in “God is Love”",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-wholy-holy-2026-08-25"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained essay excerpt directly supports the attributed play-on-words and thematic-link claim."
+              }
+            }
+          ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "No track-specific source was found for this entry.",
-            "No listening analysis has been conducted yet."
+            "This is explicitly an attributed critical characterization, not an artist-intent claim."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -185,31 +330,25 @@
                   "extract": "released as the third and final single, and the climactic song from his 1971 landmark album, What's Going On",
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
-                  "checkedAt": "2026-08-23",
+                  "checkedAt": "2026-08-25",
                   "snapshotId": "wikipedia-inner-city-blues-2026-08-23"
                 }
               ],
               "semanticReview": {
                 "decision": "supported",
                 "semanticDecision": "supported",
-                "reviewer": "human",
-                "reviewedAt": "2026-08-25T00:00:00Z",
-                "notes": "The retained excerpt directly supports the narrowly worded claim."
+                "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+                "reviewedAt": "2026-08-24T23:04:29Z",
+                "notes": "The retained Wikipedia excerpt directly supports the bounded third-and-final-single claim; omitted source detail is a conservative narrowing."
               }
             }
           ],
           "musicalCharacter": "",
           "albumContext": "",
+          "historicalContext": "",
           "listeningNotes": "",
           "limitations": [
-            "Only the source-backed single-release fact is retained; unsupported editorial listening prose was removed."
-          ],
-          "sourceRefs": [
-            {
-              "label": "Songfacts",
-              "title": "Inner City Blues (Make Me Wanna Holler) by Marvin Gaye",
-              "url": "https://www.songfacts.com/facts/marvin-gaye/inner-city-blues-make-me-wanna-holler"
-            }
+            "Only the source-backed single-release fact is displayed; unsupported editorial listening prose remains removed."
           ],
           "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
           "discNumber": 1,
@@ -217,14 +356,14 @@
         }
       ],
       "generationMetadata": {
-        "generatedAt": "2026-09-19T00:00:00Z",
-        "generator": "pilot-manual",
+        "generatedAt": "2026-08-25T00:00:00Z",
+        "generator": "manual-source-research",
         "model": null
       },
       "reviewMetadata": {
-        "reviewedAt": "2026-08-25T00:00:00Z",
-        "reviewer": "human",
-        "notes": "Edition 3 records errata for edition 1: source provenance included Songfacts references while retained verified facts were supported by AllMusic and Wikipedia; unsupported specifics and unproven listening analysis were removed."
+        "reviewedAt": "2026-08-24T23:04:29Z",
+        "reviewer": "independent-agent-audit:20260825_010400_9544ea",
+        "notes": "Independent audit approved all nine current claims with no critical findings; exact identity, no borrowing, no boilerplate, and no unsupported listening claims confirmed. Edition 1 provenance erratum remains recorded: Songfacts appeared only as a reference while retained verified facts were supported by AllMusic and Wikipedia."
       }
     }
   }
