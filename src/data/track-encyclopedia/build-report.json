@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-19T00:00:00Z",
+  "inputFiles": [
+    {
+      "file": "authoring/001-marvin-gaye-what-s-going-on-fd00dde9.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/092-the-stooges-fun-house-9896fe5c.json",
+      "entries": 1
+    }
+  ],
+  "totalEntries": 3,
+  "totalTracks": 34,
+  "evidenceLevelCounts": {
+    "documented": 4,
+    "contextual": 2,
+    "limited": 0,
+    "insufficient-evidence": 0,
+    "unresearched": 28
+  },
+  "boilerplateDetections": [],
+  "preservedPublishedEditions": [],
+  "errors": []
+}

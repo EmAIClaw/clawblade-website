@@ -1,5 +1,5 @@
 [build]
-  command = "npm run test:all && npm run build && cp -r dist-gym dist/gym"
+  command = "npm run test:all && npm run build"
   publish = "dist"
   functions = "netlify/functions"
 

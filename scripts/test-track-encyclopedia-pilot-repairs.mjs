@@ -1,0 +1,84 @@
+import assert from 'node:assert/strict';
+import { readFile, readdir } from 'node:fs/promises';
+import path from 'node:path';
+
+const root = process.cwd();
+const dataDir = path.join(root, 'src/data/track-encyclopedia');
+const authoringDir = path.join(dataDir, 'authoring');
+const names = (await readdir(authoringDir)).filter((name) => name.endsWith('.json')).sort();
+assert.equal(names.length, 3, 'only the three pilot authoring files may exist');
+
+const entries = {};
+for (const name of names) {
+  const value = JSON.parse(await readFile(path.join(authoringDir, name), 'utf8'));
+  assert.equal(Object.keys(value.entries ?? {}).length, 1, `${name} must contain exactly one album`);
+  const [albumId, entry] = Object.entries(value.entries)[0];
+  assert.equal(entry.albumId, albumId);
+  assert.equal(entry.published, false, `${albumId} must remain an unpublished draft`);
+  entries[albumId] = entry;
+}
+
+const marvinId = '001-marvin-gaye-what-s-going-on-fd00dde9';
+const lizId = '054-liz-phair-exile-in-guyville-2b33a458';
+const stoogesId = '092-the-stooges-fun-house-9896fe5c';
+assert.deepEqual(Object.keys(entries).sort(), [marvinId, lizId, stoogesId].sort());
+assert.equal(entries[marvinId].editionNumber, 3, 'Marvin repairs require a new draft edition');
+assert.equal(entries[lizId].editionNumber, 3, 'Liz repairs require a new draft edition');
+assert.equal(entries[stoogesId].editionNumber, 2, 'Fun House listening claims require a new draft edition');
+
+const marvin = new Map(entries[marvinId].trackEntries.map((track) => [track.trackTitle, track]));
+const whatsGoingOn = marvin.get("What's Going On");
+assert.doesNotMatch(`${whatsGoingOn.musicalCharacter} ${whatsGoingOn.historicalContext ?? ''} ${whatsGoingOn.listeningNotes}`, /flute|1970 and 1971|West Hollywood/i);
+const brother = marvin.get("What's Happening Brother");
+assert.doesNotMatch(`${brother.musicalCharacter} ${brother.albumContext} ${brother.listeningNotes}`, /Frankie Gaye|Gaye's brother Frankie/i);
+assert.match(`${brother.albumContext} ${brother.limitations.join(' ')}`, /Vietnam veteran/i);
+for (const title of ['Mercy Mercy Me (The Ecology)', 'Inner City Blues (Make Me Wanna Holler)']) {
+  const track = marvin.get(title);
+  assert.equal(track.musicalCharacter, '', `${title} unsupported musical-character prose must be removed`);
+  assert.equal(track.listeningNotes, '', `${title} unsupported listening prose must be removed`);
+}
+assert.match(entries[marvinId].changeNote, /errat|evidence|unsupported/i);
+assert.match(entries[marvinId].reviewMetadata.notes, /edition 1.*Songfacts.*AllMusic.*Wikipedia/i);
+
+const liz = new Map(entries[lizId].trackEntries.map((track) => [track.trackTitle, track]));
+const stratford = liz.get('Stratford-on-Guy');
+assert.equal(stratford.evidenceLevel, 'documented');
+assert.match(stratford.verifiedFacts[0].claim, /single/i);
+assert.equal(stratford.verifiedFacts[0].sourceRefs[0].snapshotId, 'wikipedia-exile-in-guyville-singles-2026-08-23');
+const neverSaid = liz.get('Never Said');
+assert.equal(neverSaid.musicalCharacter, '');
+assert.equal(neverSaid.listeningNotes, '');
+assert.equal(neverSaid.discoveryConnections?.length ?? 0, 0);
+
+for (const [albumId, entry] of Object.entries(entries)) {
+  for (const track of entry.trackEntries) {
+    if (track.evidenceLevel === 'limited') {
+      assert.ok(track.audioProvenance, `${albumId}/${track.trackTitle}: limited listening analysis requires retained audio provenance`);
+    }
+    if (track.evidenceLevel === 'insufficient-evidence') {
+      assert.ok(track.researchDisposition?.completedAt);
+      assert.ok(track.researchDisposition?.searchedQueries?.length);
+      assert.ok(track.researchDisposition?.sourceClasses?.length);
+      assert.ok(track.researchDisposition?.outcome);
+      assert.ok(track.limitations?.length);
+    }
+    for (const fact of track.verifiedFacts ?? []) {
+      assert.equal(fact.semanticReview?.decision, 'supported', `${albumId}/${track.trackTitle}: semantic review is required`);
+      assert.ok(fact.semanticReview?.reviewer);
+      assert.ok(fact.semanticReview?.reviewedAt);
+      for (const ref of fact.sourceRefs ?? []) {
+        assert.ok(ref.snapshotId, `${albumId}/${track.trackTitle}: claim evidence requires a snapshot`);
+      }
+    }
+  }
+}
+
+const catalog = JSON.parse(await readFile(path.join(root, 'src/data/catalog.generated.json'), 'utf8'));
+const albums = new Map(catalog.albums.map((album) => [album.id, album]));
+for (const [albumId, entry] of Object.entries(entries)) {
+  const expected = albums.get(albumId).tracks.map((track) => `${track.discNumber}:${track.trackNumber}:${track.title}`);
+  const actual = entry.trackEntries.map((track) => `${track.discNumber}:${track.trackNumber}:${track.trackTitle}`);
+  assert.deepEqual(actual, expected, `${albumId}: catalog identity must be exact`);
+}
+
+console.log('All pilot repair acceptance tests passed for exactly three albums.');

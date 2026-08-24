@@ -1,0 +1,205 @@
+{
+  "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+  "editionNumber": 2,
+  "published": false,
+  "contentHash": "606fa01718c1d587",
+  "changeNote": "Downgrade unverifiable AllMusic claim and add retained evidence snapshots",
+  "trackEntries": [
+    {
+      "trackTitle": "What's Going On",
+      "evidenceLevel": "contextual",
+      "verifiedFacts": [],
+      "musicalCharacter": "Gentle questioning melody with layered vocal harmonies and a distinctive flute intro.",
+      "albumContext": "Opening track of a concept album documented by album-level sources as part of Gaye's socially conscious early-1970s work.",
+      "historicalContext": "Album-level sources place the recording during 1970 and 1971 sessions in Detroit and West Hollywood.",
+      "listeningNotes": "Listen for the distinctive flute intro and Marvin's layered vocal harmonies creating a choir-like effect.",
+      "limitations": [
+        "A prior AllMusic co-writer claim was downgraded because no independently retained snapshot in this repository verifies the exact excerpt."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia",
+          "title": "What's Going On (album)",
+          "url": "https://en.wikipedia.org/wiki/What%27s_Going_On_(album)"
+        },
+        {
+          "label": "Songfacts",
+          "title": "What's Going On by Marvin Gaye",
+          "url": "https://www.songfacts.com/facts/marvin-gaye/whats-going-on"
+        }
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 1
+    },
+    {
+      "trackTitle": "What's Happening Brother",
+      "evidenceLevel": "contextual",
+      "verifiedFacts": [],
+      "musicalCharacter": "Sparse instrumentation highlighting emotional lyrics about a returning Vietnam veteran.",
+      "albumContext": "Continues the album's narrative of social concern, addressing the experience of Gaye's brother Frankie returning from Vietnam.",
+      "listeningNotes": "Notice how the stripped-back arrangement places the lyrics at the centre.",
+      "limitations": [
+        "No track-specific external source was found for this entry; context is derived from album-level sources."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 2
+    },
+    {
+      "trackTitle": "Flyin' High (In the Friendly Sky)",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Prominent string arrangements contrast with serious lyrical subject matter.",
+      "albumContext": "Addresses drug addiction within the album's broader social commentary.",
+      "listeningNotes": "Listen for the contrast between the relatively upbeat music and the serious lyrics.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis, not a verified source."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 3
+    },
+    {
+      "trackTitle": "Save the Children",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry.",
+        "No listening analysis has been conducted yet."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 4
+    },
+    {
+      "trackTitle": "God Is Love",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry.",
+        "No listening analysis has been conducted yet."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 5
+    },
+    {
+      "trackTitle": "Mercy Mercy Me (The Ecology)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Wikipedia identifies Mercy Mercy Me (The Ecology) as the second single from Marvin Gaye's 1971 album What's Going On.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "Mercy Mercy Me (The Ecology)",
+              "url": "https://en.wikipedia.org/wiki/Mercy_Mercy_Me_(The_Ecology)",
+              "extract": "the second single from American singer-songwriter Marvin Gaye's 1971 album, What's Going On",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-23",
+              "snapshotId": "wikipedia-mercy-mercy-me-2026-08-23"
+            }
+          ]
+        }
+      ],
+      "musicalCharacter": "Haunting melody with lyrics that were remarkably prescient about environmental concerns.",
+      "albumContext": "Part of the album's shift toward social commentary, addressing ecological degradation.",
+      "listeningNotes": "Listen for the haunting melody and how the environmental message sits within the album's broader suite.",
+      "limitations": [],
+      "sourceRefs": [
+        {
+          "label": "Songfacts",
+          "title": "Mercy Mercy Me (The Ecology) by Marvin Gaye",
+          "url": "https://www.songfacts.com/facts/marvin-gaye/mercy-mercy-me-the-ecology"
+        }
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 6
+    },
+    {
+      "trackTitle": "Right On",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry.",
+        "No listening analysis has been conducted yet."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 7
+    },
+    {
+      "trackTitle": "Wholy Holy",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry.",
+        "No listening analysis has been conducted yet."
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 8
+    },
+    {
+      "trackTitle": "Inner City Blues (Make Me Wanna Holler)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Wikipedia describes Inner City Blues as the third and final single from What's Going On.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "Inner City Blues (Make Me Wanna Holler)",
+              "url": "https://en.wikipedia.org/wiki/Inner_City_Blues_(Make_Me_Wanna_Holler)",
+              "extract": "released as the third and final single, and the climactic song from his 1971 landmark album, What's Going On",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-23",
+              "snapshotId": "wikipedia-inner-city-blues-2026-08-23"
+            }
+          ]
+        }
+      ],
+      "musicalCharacter": "Powerful closing track that paints a vivid picture of urban poverty and economic inequality.",
+      "albumContext": "Closes the album on a note of unresolved tension, completing the concept suite's social commentary.",
+      "listeningNotes": "Listen for how the track ends the album on unresolved tension rather than closure.",
+      "limitations": [],
+      "sourceRefs": [
+        {
+          "label": "Songfacts",
+          "title": "Inner City Blues (Make Me Wanna Holler) by Marvin Gaye",
+          "url": "https://www.songfacts.com/facts/marvin-gaye/inner-city-blues-make-me-wanna-holler"
+        }
+      ],
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 9
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "generator": "pilot-manual",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-19T00:00:00Z",
+    "reviewer": "human",
+    "notes": "Pilot entry created from existing project sources. 2 tracks documented from retained Wikipedia snapshots, 2 contextual from album-level sources, 1 limited from listening analysis, 4 unresearched. The prior AllMusic co-writer claim was downgraded because the exact excerpt was not independently retained."
+  }
+}

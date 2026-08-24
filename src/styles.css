@@ -2647,3 +2647,209 @@ main {
 .logExpandBtn:hover {
   color: #e0c060;
 }
+
+/* ─── Track Encyclopedia (Phase 1) ─── */
+
+.trackEncyclopediaPanel {
+  border-top: 2px solid rgba(201, 168, 76, 0.3);
+}
+
+.trackEncyclopediaList {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.trackEncyclopediaEntry {
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 247, 232, 0.1);
+  border-radius: 0.4rem;
+  background: rgba(255, 247, 232, 0.02);
+}
+
+.trackEncyclopediaHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.evidenceBadge {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.evidence-documented {
+  background: rgba(76, 175, 80, 0.2);
+  color: #81c784;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.evidence-contextual {
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffd54f;
+  border: 1px solid rgba(255, 193, 7, 0.25);
+}
+
+.evidence-limited {
+  background: rgba(255, 138, 101, 0.15);
+  color: #ffab91;
+  border: 1px solid rgba(255, 138, 101, 0.25);
+}
+
+.evidence-unresearched {
+  background: rgba(158, 158, 158, 0.15);
+  color: #bdbdbd;
+  border: 1px solid rgba(158, 158, 158, 0.2);
+}
+
+.trackSection {
+  margin-top: 0.4rem;
+}
+
+.trackSection h6 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 0.2rem;
+}
+
+.trackSection p {
+  margin: 0 0 0.3rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.verifiedFact {
+  padding: 0.4rem 0;
+  border-left: 2px solid rgba(76, 175, 80, 0.3);
+  padding-left: 0.6rem;
+  margin-left: 0.2rem;
+}
+
+.sourceEvidence {
+  margin: 0.25rem 0 0.4rem;
+  padding-left: 0.55rem;
+}
+
+.sourceEvidence--claim {
+  border-left: 3px solid rgba(76, 175, 80, 0.65);
+}
+
+.sourceEvidence--reference {
+  border-left: 3px solid rgba(158, 158, 158, 0.5);
+}
+
+.sourceEvidenceLabel {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sourceExtract {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+}
+
+.criticalView {
+  padding: 0.3rem 0;
+}
+
+.fanView {
+  padding: 0.3rem 0;
+  font-style: italic;
+}
+
+.discoveryLink {
+  padding: 0.3rem 0;
+  font-size: 0.85rem;
+}
+
+.limitations {
+  color: var(--muted);
+}
+
+.limitations ul {
+  margin: 0.2rem 0 0;
+  padding-left: 1rem;
+}
+
+.limitations li {
+  font-size: 0.8rem;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
+}
+
+.trustPanel {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(255, 247, 232, 0.08);
+  border-radius: 0.4rem;
+  background: rgba(255, 247, 232, 0.02);
+}
+
+.trustPanel summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.trustPanel summary::-webkit-details-marker {
+  display: none;
+}
+
+.trustSummary {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.trustPanelContent {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 247, 232, 0.06);
+}
+
+.trustPanelContent p {
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.trustPanelContent h5 {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.trustPanelContent ul {
+  margin: 0.2rem 0;
+  padding-left: 1.2rem;
+}
+
+.trustPanelContent li {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  margin-bottom: 0.1rem;
+}
+
+.trustPanelContent code {
+  font-size: 0.75rem;
+  color: #c9a84c;
+  background: rgba(201, 168, 76, 0.08);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+}

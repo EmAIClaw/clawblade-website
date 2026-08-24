@@ -44,17 +44,23 @@ import type {
   AlbumState,
   EncyclopediaEntry,
   EncyclopediaSource,
+  EvidenceLevel,
   ListeningSession,
   Sort,
+  TrackEncyclopediaAlbumEntry,
+  TrackEncyclopediaSourceRef,
   VaultState,
   View,
   ViewMode
 } from "./types";
+import { trackEncyclopediaAlbums } from "./data/track-encyclopedia/manifest.generated";
 import {
   albumVisualMood,
   albumVisualReferenceOptions,
   youtubeAlbumSearchUrl
 } from "./listeningEnhancements";
+import { loadTrackEncyclopediaState } from "./track-encyclopedia/load-state.mjs";
+import type { TrackEncyclopediaLoadState } from "./track-encyclopedia/load-state.mjs";
 import { buildCollectionStory } from "./tasteIntelligence";
 import { normalizeVaultState, safeParseVaultState } from "./vaultState";
 
@@ -543,6 +549,9 @@ function App() {
   const [encyclopediaState, setEncyclopediaState] =
     useState<EncyclopediaLoadState>({ albumId: null, status: "loading" });
   const [encyclopediaLoadAttempt, setEncyclopediaLoadAttempt] = useState(0);
+  const [trackEncyclopediaState, setTrackEncyclopediaState] =
+    useState<TrackEncyclopediaLoadState>({ albumId: "", status: "loading" });
+  const [trackEncyclopediaLoadAttempt, setTrackEncyclopediaLoadAttempt] = useState(0);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<
     "all" | "owned" | "wantlist" | "listened" | "missing"
@@ -1008,8 +1017,25 @@ function App() {
     };
   }, [encyclopediaLoadAttempt, selectedAlbum.id, view]);
 
+  // Load track encyclopedia entry for the selected album (pilot only).
+  useEffect(() => {
+    if (view !== "album") return;
+    const albumId = selectedAlbum.id;
+    setTrackEncyclopediaState({ albumId, status: "loading" });
+    let cancelled = false;
+    void loadTrackEncyclopediaState(albumId, trackEncyclopediaAlbums).then((nextState) => {
+      if (cancelled) return;
+      setTrackEncyclopediaState(nextState);
+    });
+    return () => { cancelled = true; };
+  }, [selectedAlbum.id, trackEncyclopediaLoadAttempt, view]);
+
   function retryEncyclopediaLoad() {
     setEncyclopediaLoadAttempt((current) => current + 1);
+  }
+
+  function retryTrackEncyclopediaLoad() {
+    setTrackEncyclopediaLoadAttempt((current) => current + 1);
   }
 
   const stats = useMemo(() => {
@@ -1433,6 +1459,8 @@ function App() {
             entry={selectedEntry}
             encyclopediaStatus={encyclopediaStatus}
             retryEncyclopediaLoad={retryEncyclopediaLoad}
+            trackEncyclopediaState={trackEncyclopediaState}
+            retryTrackEncyclopediaLoad={retryTrackEncyclopediaLoad}
             albumState={state.albums[selectedAlbum.id] ?? {}}
             updateAlbum={updateAlbum}
             addSession={addSession}
@@ -2152,6 +2180,234 @@ function SourceAttribution({
   );
 }
 
+// ─── Track Encyclopedia UI (Phase 1) ─────────────────────────────
+
+const EVIDENCE_LABELS: Record<EvidenceLevel, string> = {
+  documented: "Documented",
+  contextual: "Contextual",
+  limited: "Limited",
+  "insufficient-evidence": "Research complete — insufficient evidence",
+  unresearched: "Unresearched",
+};
+
+const EVIDENCE_DESCRIPTIONS: Record<EvidenceLevel, string> = {
+  documented: "Factual claims reference retained source-text snapshots; automated checks confirm hash integrity, exact excerpt matches, and claim/excerpt consistency.",
+  contextual: "Album-level context is present, but track-specific facts are not claimed.",
+  limited: "Based on listening analysis only, not verified against external sources.",
+  "insufficient-evidence": "A documented track-specific search was completed, but no reliable evidence was found; only metadata or explicitly limited context is shown.",
+  unresearched: "No research or analysis has been conducted yet.",
+};
+
+function TrustPanel({ entry }: { entry: TrackEncyclopediaAlbumEntry }) {
+  const documented = entry.trackEntries.filter((t) => t.evidenceLevel === "documented").length;
+  const contextual = entry.trackEntries.filter((t) => t.evidenceLevel === "contextual").length;
+  const limited = entry.trackEntries.filter((t) => t.evidenceLevel === "limited").length;
+  const insufficientEvidence = entry.trackEntries.filter((t) => t.evidenceLevel === "insufficient-evidence").length;
+  const unresearched = entry.trackEntries.filter((t) => t.evidenceLevel === "unresearched").length;
+  const sourcedClaimRefs = entry.trackEntries.reduce(
+    (sum, t) => sum + (t.verifiedFacts ?? []).reduce((factSum, fact) => factSum + fact.sourceRefs.length, 0),
+    0
+  );
+
+  return (
+    <details className="trustPanel">
+      <summary>
+        <strong>Evidence notes</strong>
+        <span className="trustSummary">
+          {documented} documented, {contextual} contextual, {limited} limited, {insufficientEvidence} insufficient evidence, {unresearched} unresearched
+        </span>
+      </summary>
+      <div className="trustPanelContent">
+        <p>Edition {entry.editionNumber} — {entry.published ? "Published" : "Draft (not yet published)"}</p>
+        <p>Content hash: <code>{entry.contentHash}</code></p>
+        <p>Change note: {entry.changeNote}</p>
+        <p>Generated by: {entry.generationMetadata.generator}{entry.generationMetadata.model ? ` (${entry.generationMetadata.model})` : ""}</p>
+        <p>Reviewed by: {entry.reviewMetadata.reviewer ?? "unreviewed"}{entry.reviewMetadata.notes ? ` — ${entry.reviewMetadata.notes}` : ""}</p>
+        <h5>Evidence levels</h5>
+        <ul>
+          <li><strong>Documented</strong> ({documented} tracks): {EVIDENCE_DESCRIPTIONS.documented}</li>
+          <li><strong>Contextual</strong> ({contextual} tracks): {EVIDENCE_DESCRIPTIONS.contextual}</li>
+          <li><strong>Limited</strong> ({limited} tracks): {EVIDENCE_DESCRIPTIONS.limited}</li>
+          <li><strong>Research complete — insufficient evidence</strong> ({insufficientEvidence} tracks): {EVIDENCE_DESCRIPTIONS["insufficient-evidence"]}</li>
+          <li><strong>Unresearched</strong> ({unresearched} tracks): {EVIDENCE_DESCRIPTIONS.unresearched}</li>
+        </ul>
+        <p>Source references attached to factual claims: {sourcedClaimRefs}</p>
+      </div>
+    </details>
+  );
+}
+
+function TrackEncyclopediaLoadPanel({
+  state,
+  retry,
+}: {
+  state: TrackEncyclopediaLoadState;
+  retry: () => void;
+}) {
+  if (state.status === "loaded") return <TrackEncyclopediaPanel entry={state.entry} />;
+  return (
+    <section className="panel full trackEncyclopediaPanel trackEncyclopediaLoadState" aria-live="polite">
+      <p className="eyebrow">Track Encyclopedia — Pilot</p>
+      {state.status === "loading" && <p>Loading track encyclopedia…</p>}
+      {state.status === "missing" && <p>No versioned track encyclopedia edition is available for this album.</p>}
+      {state.status === "error" && (
+        <>
+          <p role="alert">Track encyclopedia data could not be verified or loaded.</p>
+          <p className="sourceNote">{state.message}</p>
+          <button className="secondary" type="button" onClick={retry}>Retry track encyclopedia</button>
+        </>
+      )}
+    </section>
+  );
+}
+
+function TrackEncyclopediaPanel({ entry }: { entry: TrackEncyclopediaAlbumEntry }) {
+  return (
+    <section className="panel full trackEncyclopediaPanel">
+      <div className="sectionHeader">
+        <div>
+          <p className="eyebrow">Track Encyclopedia — Pilot</p>
+          <h3>Structured track reference</h3>
+        </div>
+        <BookOpen size={20} />
+      </div>
+      <TrustPanel entry={entry} />
+      <div className="trackEncyclopediaList">
+        {entry.trackEntries.map((track) => (
+          <article key={`${track.albumId}-${track.discNumber}-${track.trackNumber}-${track.trackTitle}`} className="trackEncyclopediaEntry">
+            <div className="trackEncyclopediaHeader">
+              <strong>{track.trackTitle}</strong>
+              <span className={`evidenceBadge evidence-${track.evidenceLevel}`}>
+                {EVIDENCE_LABELS[track.evidenceLevel]}
+              </span>
+            </div>
+            {track.verifiedFacts.length > 0 && (
+              <div className="trackSection">
+                <h6>Verified facts</h6>
+                {track.verifiedFacts.map((fact, i) => (
+                  <div key={i} className="verifiedFact">
+                    <p>{fact.claim}</p>
+                    {fact.sourceRefs.map((ref, j) => (
+                      <SourceRefView key={j} refData={ref} kind="claim" />
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+            {track.musicalCharacter && (
+              <div className="trackSection">
+                <h6>Musical character</h6>
+                <p>{track.musicalCharacter}</p>
+              </div>
+            )}
+            {track.albumContext && (
+              <div className="trackSection">
+                <h6>Album context</h6>
+                <p>{track.albumContext}</p>
+              </div>
+            )}
+            {track.historicalContext && (
+              <div className="trackSection">
+                <h6>Historical context</h6>
+                <p>{track.historicalContext}</p>
+              </div>
+            )}
+            {track.criticalReception && track.criticalReception.length > 0 && (
+              <div className="trackSection">
+                <h6>Critical reception</h6>
+                {track.criticalReception.map((crit, i) => (
+                  <div key={i} className="criticalView">
+                    <p><em>"{crit.view}"</em></p>
+                    <span className="sourceNote">
+                      {crit.publication && `— ${crit.publication}`}
+                      {crit.critic && `${crit.publication ? ", " : ""}${crit.critic}`}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {track.fanPerspective && track.fanPerspective.length > 0 && (
+              <div className="trackSection">
+                <h6>Fan perspective — {track.fanPerspective[0].label}</h6>
+                {track.fanPerspective.map((fan, i) => (
+                  <div key={i} className="fanView">
+                    <p>{fan.perspective}</p>
+                    {fan.grounding && <span className="sourceNote">Grounding: {fan.grounding}</span>}
+                    {fan.sourceRefs?.map((ref, j) => (
+                      <SourceRefView key={j} refData={ref} kind="claim" />
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+            {track.listeningNotes && (
+              <div className="trackSection">
+                <h6>Listening notes</h6>
+                <p>{track.listeningNotes}</p>
+              </div>
+            )}
+            {track.discoveryConnections && track.discoveryConnections.length > 0 && (
+              <div className="trackSection">
+                <h6>Discovery connections</h6>
+                {track.discoveryConnections.map((conn, i) => (
+                  <div key={i} className="discoveryLink">
+                    <p>Connects to <strong>{conn.relatedTrackTitle}</strong></p>
+                    <span className="sourceNote">{conn.rationale}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {track.limitations.length > 0 && (
+              <div className="trackSection limitations">
+                <h6>Limitations</h6>
+                <ul>
+                  {track.limitations.map((lim, i) => (
+                    <li key={i}>{lim}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {track.sourceRefs && track.sourceRefs.length > 0 && (
+              <div className="trackSection">
+                <h6>Sources</h6>
+                {track.sourceRefs.map((ref, i) => (
+                  <SourceRefView key={i} refData={ref} kind="reference" />
+                ))}
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function SourceRefView({
+  refData,
+  kind,
+}: {
+  refData: TrackEncyclopediaSourceRef;
+  kind: "claim" | "reference";
+}) {
+  const label = kind === "claim"
+    ? "Evidence for this claim"
+    : "Reference only — not evidence for a displayed claim";
+  return (
+    <div className={`sourceEvidence sourceEvidence--${kind}`}>
+      <span className="sourceEvidenceLabel">{label}</span>
+      <a className="sourceLink compact" href={refData.url} target="_blank" rel="noreferrer">
+        {refData.label}: {refData.title}
+      </a>
+      {refData.extract && (
+        <p className="sourceExtract">
+          "{refData.extract}"
+          {refData.evidenceStatus && <span> ({refData.extractType ?? "extract"}, {refData.evidenceStatus})</span>}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function AlbumDetail({
   album,
   entry,
@@ -2167,7 +2423,9 @@ function AlbumDetail({
   spotifyUri,
   spotifyConfigured,
   spotifyLoading,
-  spotifyConnected
+  spotifyConnected,
+  trackEncyclopediaState,
+  retryTrackEncyclopediaLoad
 }: {
   album: Album;
   entry?: EncyclopediaEntry;
@@ -2190,6 +2448,8 @@ function AlbumDetail({
   spotifyConfigured: boolean;
   spotifyLoading: boolean;
   spotifyConnected: boolean;
+  trackEncyclopediaState: TrackEncyclopediaLoadState;
+  retryTrackEncyclopediaLoad: () => void;
 }) {
   const [sessionActive, setSessionActive] = useState(false);
   const [listeningMode, setListeningMode] = useState(false);
@@ -2614,6 +2874,11 @@ function AlbumDetail({
           </>
         )}
       </section>
+
+      <TrackEncyclopediaLoadPanel
+        state={trackEncyclopediaState}
+        retry={retryTrackEncyclopediaLoad}
+      />
 
       <section className="panel full">
         <div className="sectionHeader">

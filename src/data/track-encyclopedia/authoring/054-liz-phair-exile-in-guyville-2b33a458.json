@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 3
+  },
+  "entries": {
+    "054-liz-phair-exile-in-guyville-2b33a458": {
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "editionNumber": 3,
+      "published": false,
+      "contentHash": "",
+      "changeNote": "Evidence-audit repairs: document Stratford-on-Guy and remove unsupported editorial analysis",
+      "trackEntries": [
+        {
+          "trackTitle": "6′1″",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "Help Me Mary",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "Glory",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Dance of the Seven Veils",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "Never Said",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia lists Never Said first in the Singles from Exile in Guyville infobox.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Exile in Guyville",
+                  "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
+                  "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-exile-in-guyville-singles-2026-08-23"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "human",
+                "reviewedAt": "2026-08-25T00:00:00Z",
+                "notes": "The retained excerpt directly supports the narrowly worded claim."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed singles-list fact is retained; unsupported editorial and discovery prose was removed."
+          ],
+          "discoveryConnections": [],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "Exile in Guyville",
+              "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville"
+            }
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Soap Star Joe",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "Explain It to Me",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 7
+        },
+        {
+          "trackTitle": "Canary",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 8
+        },
+        {
+          "trackTitle": "Mesmerizing",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 9
+        },
+        {
+          "trackTitle": "Fuck and Run",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 10
+        },
+        {
+          "trackTitle": "Girls! Girls! Girls!",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 11
+        },
+        {
+          "trackTitle": "Divorce Song",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 12
+        },
+        {
+          "trackTitle": "Shatter",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 13
+        },
+        {
+          "trackTitle": "Flower",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 14
+        },
+        {
+          "trackTitle": "Johnny Sunshine",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 15
+        },
+        {
+          "trackTitle": "Gunshy",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 16
+        },
+        {
+          "trackTitle": "Stratford-on-Guy",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia lists Stratford-on-Guy as a single from Exile in Guyville.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Exile in Guyville",
+                  "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
+                  "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-exile-in-guyville-singles-2026-08-23"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "human",
+                "reviewedAt": "2026-08-25T00:00:00Z",
+                "notes": "The retained excerpt directly supports the narrowly worded claim."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only its identification as an album single is supported by retained evidence."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 17
+        },
+        {
+          "trackTitle": "Strange Loop",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 18
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Edition 3 applies the pilot evidence audit: Stratford-on-Guy is source-backed and unsupported listening/discovery prose is removed."
+      }
+    }
+  }
+}

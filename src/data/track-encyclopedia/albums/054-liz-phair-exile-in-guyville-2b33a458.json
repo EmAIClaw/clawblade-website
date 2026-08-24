@@ -1,0 +1,297 @@
+{
+  "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+  "editionNumber": 1,
+  "published": false,
+  "contentHash": "62271a399b3f1b59",
+  "changeNote": "Pilot entry: cult/fan-discussed album with documented and unresearched evidence levels",
+  "trackEntries": [
+    {
+      "trackTitle": "6′1″",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 1
+    },
+    {
+      "trackTitle": "Help Me Mary",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 2
+    },
+    {
+      "trackTitle": "Glory",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 3
+    },
+    {
+      "trackTitle": "Dance of the Seven Veils",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 4
+    },
+    {
+      "trackTitle": "Never Said",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Wikipedia lists Never Said first in the Singles from Exile in Guyville infobox.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "Exile in Guyville",
+              "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
+              "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-23"
+            }
+          ]
+        }
+      ],
+      "musicalCharacter": "Blunt verbal stance that serves as an entry point to the album's refusal to smooth over irritation or self-contradiction.",
+      "albumContext": "Listed in the album infobox among the 1993 singles from Exile in Guyville; the rest of this entry is listening analysis.",
+      "listeningNotes": "Start with its blunt verbal stance: it is a useful entry point to the album's refusal to smooth over irritation or self-contradiction.",
+      "limitations": [],
+      "discoveryConnections": [
+        {
+          "relatedTrackTitle": "Fuck and Run",
+          "rationale": "Both tracks share the album's first-person directness and refusal of tidy resolution, but Never Said's confrontational stance is the more accessible entry point."
+        }
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia",
+          "title": "Exile in Guyville",
+          "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville"
+        }
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 5
+    },
+    {
+      "trackTitle": "Soap Star Joe",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 6
+    },
+    {
+      "trackTitle": "Explain It to Me",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 7
+    },
+    {
+      "trackTitle": "Canary",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 8
+    },
+    {
+      "trackTitle": "Mesmerizing",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 9
+    },
+    {
+      "trackTitle": "Fuck and Run",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Direct language and a narrator's ambivalence create friction; the tension is the point, not an incidental provocation.",
+      "albumContext": "Central track exemplifying the album's approach to personal experience without resolution.",
+      "listeningNotes": "Listen for the friction between the direct language and the narrator's ambivalence.",
+      "limitations": [
+        "Existing encyclopedia extract only notes that a track-specific editorial reference exists; the prose here is listening analysis, not a source-verified claim."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 10
+    },
+    {
+      "trackTitle": "Girls! Girls! Girls!",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 11
+    },
+    {
+      "trackTitle": "Divorce Song",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Changing point of view and specific recollection create emotional power through accumulated detail.",
+      "albumContext": "Part of the album's progression through relationship collapse and personal documentation.",
+      "listeningNotes": "Track the changing point of view: its power comes from specific recollection and argument, not a generic break-up chorus.",
+      "limitations": [
+        "Existing encyclopedia extract only notes that a track-specific editorial reference exists; the prose here is listening analysis, not a source-verified claim."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 12
+    },
+    {
+      "trackTitle": "Shatter",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 13
+    },
+    {
+      "trackTitle": "Flower",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 14
+    },
+    {
+      "trackTitle": "Johnny Sunshine",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 15
+    },
+    {
+      "trackTitle": "Gunshy",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 16
+    },
+    {
+      "trackTitle": "Stratford-on-Guy",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 17
+    },
+    {
+      "trackTitle": "Strange Loop",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry."
+      ],
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "discNumber": 1,
+      "trackNumber": 18
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "generator": "pilot-manual",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-19T00:00:00Z",
+    "reviewer": "human",
+    "notes": "Pilot entry for cult/fan-discussed album. 1 track documented from the existing extract, 2 downgraded to limited listening analysis, 15 unresearched. Demonstrates varying evidence levels without overstating source support."
+  }
+}

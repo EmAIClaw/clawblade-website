@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "notes": "Concise retained evidence snapshots used for automated exact-match checks. Snapshot text is stored separately from authored pilot claims."
+  },
+  "snapshots": {
+    "wikipedia-mercy-mercy-me-2026-08-23": {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Mercy_Mercy_Me_(The_Ecology)",
+      "fetchedAt": "2026-08-23T00:00:00Z",
+      "normalizedText": "Mercy Mercy Me (The Ecology) is a song by American singer-songwriter Marvin Gaye. It was released as the second single from American singer-songwriter Marvin Gaye's 1971 album, What's Going On.",
+      "contentHash": "0ddfcc93f4df9c5682d6afc89eb74e2429e34b6a85fb559984105dbf29c57d69",
+      "id": "wikipedia-mercy-mercy-me-2026-08-23"
+    },
+    "wikipedia-inner-city-blues-2026-08-23": {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Inner_City_Blues_(Make_Me_Wanna_Holler)",
+      "fetchedAt": "2026-08-23T00:00:00Z",
+      "normalizedText": "Inner City Blues (Make Me Wanna Holler) was released as the third and final single, and the climactic song from his 1971 landmark album, What's Going On.",
+      "contentHash": "a072b865b407d9f3cd58643cff73c2e7ede43ae4ac1be178e827985a363721fc",
+      "id": "wikipedia-inner-city-blues-2026-08-23"
+    },
+    "wikipedia-exile-in-guyville-singles-2026-08-23": {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
+      "fetchedAt": "2026-08-23T00:00:00Z",
+      "normalizedText": "Exile in Guyville infobox: Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993.",
+      "contentHash": "c51d3dbdcc7e8e173aced92e495806946a2571ab3e566e42d74bf0c2d6c17990",
+      "id": "wikipedia-exile-in-guyville-singles-2026-08-23"
+    }
+  }
+}

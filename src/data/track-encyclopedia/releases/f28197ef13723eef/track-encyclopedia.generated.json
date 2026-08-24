@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 3
+  },
+  "entries": {
+    "001-marvin-gaye-what-s-going-on-fd00dde9": {
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "editionNumber": 2,
+      "published": false,
+      "contentHash": "606fa01718c1d587",
+      "changeNote": "Downgrade unverifiable AllMusic claim and add retained evidence snapshots",
+      "trackEntries": [
+        {
+          "trackTitle": "What's Going On",
+          "evidenceLevel": "contextual",
+          "verifiedFacts": [],
+          "musicalCharacter": "Gentle questioning melody with layered vocal harmonies and a distinctive flute intro.",
+          "albumContext": "Opening track of a concept album documented by album-level sources as part of Gaye's socially conscious early-1970s work.",
+          "historicalContext": "Album-level sources place the recording during 1970 and 1971 sessions in Detroit and West Hollywood.",
+          "listeningNotes": "Listen for the distinctive flute intro and Marvin's layered vocal harmonies creating a choir-like effect.",
+          "limitations": [
+            "A prior AllMusic co-writer claim was downgraded because no independently retained snapshot in this repository verifies the exact excerpt."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "What's Going On (album)",
+              "url": "https://en.wikipedia.org/wiki/What%27s_Going_On_(album)"
+            },
+            {
+              "label": "Songfacts",
+              "title": "What's Going On by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/whats-going-on"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "What's Happening Brother",
+          "evidenceLevel": "contextual",
+          "verifiedFacts": [],
+          "musicalCharacter": "Sparse instrumentation highlighting emotional lyrics about a returning Vietnam veteran.",
+          "albumContext": "Continues the album's narrative of social concern, addressing the experience of Gaye's brother Frankie returning from Vietnam.",
+          "listeningNotes": "Notice how the stripped-back arrangement places the lyrics at the centre.",
+          "limitations": [
+            "No track-specific external source was found for this entry; context is derived from album-level sources."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "Flyin' High (In the Friendly Sky)",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Prominent string arrangements contrast with serious lyrical subject matter.",
+          "albumContext": "Addresses drug addiction within the album's broader social commentary.",
+          "listeningNotes": "Listen for the contrast between the relatively upbeat music and the serious lyrics.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis, not a verified source."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Save the Children",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "God Is Love",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Mercy Mercy Me (The Ecology)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia identifies Mercy Mercy Me (The Ecology) as the second single from Marvin Gaye's 1971 album What's Going On.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Mercy Mercy Me (The Ecology)",
+                  "url": "https://en.wikipedia.org/wiki/Mercy_Mercy_Me_(The_Ecology)",
+                  "extract": "the second single from American singer-songwriter Marvin Gaye's 1971 album, What's Going On",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-mercy-mercy-me-2026-08-23"
+                }
+              ]
+            }
+          ],
+          "musicalCharacter": "Haunting melody with lyrics that were remarkably prescient about environmental concerns.",
+          "albumContext": "Part of the album's shift toward social commentary, addressing ecological degradation.",
+          "listeningNotes": "Listen for the haunting melody and how the environmental message sits within the album's broader suite.",
+          "limitations": [],
+          "sourceRefs": [
+            {
+              "label": "Songfacts",
+              "title": "Mercy Mercy Me (The Ecology) by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/mercy-mercy-me-the-ecology"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "Right On",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 7
+        },
+        {
+          "trackTitle": "Wholy Holy",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 8
+        },
+        {
+          "trackTitle": "Inner City Blues (Make Me Wanna Holler)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia describes Inner City Blues as the third and final single from What's Going On.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Inner City Blues (Make Me Wanna Holler)",
+                  "url": "https://en.wikipedia.org/wiki/Inner_City_Blues_(Make_Me_Wanna_Holler)",
+                  "extract": "released as the third and final single, and the climactic song from his 1971 landmark album, What's Going On",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-inner-city-blues-2026-08-23"
+                }
+              ]
+            }
+          ],
+          "musicalCharacter": "Powerful closing track that paints a vivid picture of urban poverty and economic inequality.",
+          "albumContext": "Closes the album on a note of unresolved tension, completing the concept suite's social commentary.",
+          "listeningNotes": "Listen for how the track ends the album on unresolved tension rather than closure.",
+          "limitations": [],
+          "sourceRefs": [
+            {
+              "label": "Songfacts",
+              "title": "Inner City Blues (Make Me Wanna Holler) by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/inner-city-blues-make-me-wanna-holler"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 9
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-19T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Pilot entry created from existing project sources. 2 tracks documented from retained Wikipedia snapshots, 2 contextual from album-level sources, 1 limited from listening analysis, 4 unresearched. The prior AllMusic co-writer claim was downgraded because the exact excerpt was not independently retained."
+      }
+    },
+    "054-liz-phair-exile-in-guyville-2b33a458": {
+      "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+      "editionNumber": 2,
+      "published": false,
+      "contentHash": "044a6e64b577986c",
+      "changeNote": "Add retained evidence snapshot linkage for Never Said",
+      "trackEntries": [
+        {
+          "trackTitle": "6′1″",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "Help Me Mary",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "Glory",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Dance of the Seven Veils",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "Never Said",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia lists Never Said first in the Singles from Exile in Guyville infobox.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Exile in Guyville",
+                  "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville",
+                  "extract": "Singles from Exile in Guyville 1. \"Never Said\" Released: 1993 2. \"Stratford-on-Guy\" Released: 1993",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-exile-in-guyville-singles-2026-08-23"
+                }
+              ]
+            }
+          ],
+          "musicalCharacter": "Blunt verbal stance that serves as an entry point to the album's refusal to smooth over irritation or self-contradiction.",
+          "albumContext": "Listed in the album infobox among the 1993 singles from Exile in Guyville; the rest of this entry is listening analysis.",
+          "listeningNotes": "Start with its blunt verbal stance: it is a useful entry point to the album's refusal to smooth over irritation or self-contradiction.",
+          "limitations": [],
+          "discoveryConnections": [
+            {
+              "relatedTrackTitle": "Fuck and Run",
+              "rationale": "Both tracks share the album's first-person directness and refusal of tidy resolution, but Never Said's confrontational stance is the more accessible entry point."
+            }
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "Exile in Guyville",
+              "url": "https://en.wikipedia.org/wiki/Exile_in_Guyville"
+            }
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Soap Star Joe",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "Explain It to Me",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 7
+        },
+        {
+          "trackTitle": "Canary",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 8
+        },
+        {
+          "trackTitle": "Mesmerizing",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 9
+        },
+        {
+          "trackTitle": "Fuck and Run",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Direct language and a narrator's ambivalence create friction; the tension is the point, not an incidental provocation.",
+          "albumContext": "Central track exemplifying the album's approach to personal experience without resolution.",
+          "listeningNotes": "Listen for the friction between the direct language and the narrator's ambivalence.",
+          "limitations": [
+            "Existing encyclopedia extract only notes that a track-specific editorial reference exists; the prose here is listening analysis, not a source-verified claim."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 10
+        },
+        {
+          "trackTitle": "Girls! Girls! Girls!",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 11
+        },
+        {
+          "trackTitle": "Divorce Song",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Changing point of view and specific recollection create emotional power through accumulated detail.",
+          "albumContext": "Part of the album's progression through relationship collapse and personal documentation.",
+          "listeningNotes": "Track the changing point of view: its power comes from specific recollection and argument, not a generic break-up chorus.",
+          "limitations": [
+            "Existing encyclopedia extract only notes that a track-specific editorial reference exists; the prose here is listening analysis, not a source-verified claim."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 12
+        },
+        {
+          "trackTitle": "Shatter",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 13
+        },
+        {
+          "trackTitle": "Flower",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 14
+        },
+        {
+          "trackTitle": "Johnny Sunshine",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 15
+        },
+        {
+          "trackTitle": "Gunshy",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 16
+        },
+        {
+          "trackTitle": "Stratford-on-Guy",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 17
+        },
+        {
+          "trackTitle": "Strange Loop",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry."
+          ],
+          "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
+          "discNumber": 1,
+          "trackNumber": 18
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-19T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Pilot entry for cult/fan-discussed album. 1 track documented from the existing extract, 2 downgraded to limited listening analysis, 15 unresearched. Demonstrates varying evidence levels without overstating source support."
+      }
+    },
+    "092-the-stooges-fun-house-9896fe5c": {
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "editionNumber": 1,
+      "published": false,
+      "contentHash": "acb4e9875adb3861",
+      "changeNote": "Pilot entry: sparse/obscure album with limited and unresearched evidence levels only",
+      "trackEntries": [
+        {
+          "trackTitle": "Down On the Street",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Raw proto-punk with driving rhythm and Iggy Pop's impassioned vocal delivery.",
+          "albumContext": "Opening track of Fun House, setting the tone for the Stooges' second album.",
+          "listeningNotes": "Listen for the raw energy and how the track establishes the album's aggressive sonic territory.",
+          "limitations": [
+            "No track-specific external source was found for this entry.",
+            "Musical character description is based on listening analysis, not a verified source."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "Loose",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "High-energy riff-driven track with a propulsive feel.",
+          "albumContext": "Second track maintaining the album's relentless forward momentum.",
+          "listeningNotes": "Notice how the riff structure propels the track forward without variation.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "T.V. Eye",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Distorted guitar and repetitive riff create a hypnotic, aggressive texture.",
+          "albumContext": "Central track of the album's first side, extending the raw sonic approach.",
+          "listeningNotes": "Listen for the distorted guitar tone and how repetition creates tension.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Dirt",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Slower tempo and more expansive arrangement than preceding tracks, with a blues-inflected feel.",
+          "albumContext": "A change of pace within the album, showing the Stooges' range beyond raw aggression.",
+          "listeningNotes": "Notice the shift to a slower, blues-influenced feel compared to the preceding tracks.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "1970",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "High-energy track with saxophone elements entering the Stooges' sound.",
+          "albumContext": "Fifth track, introducing saxophone as a textural element ahead of the title track.",
+          "listeningNotes": "Listen for the saxophone entering the arrangement, foreshadowing the title track's approach.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Fun House",
+          "evidenceLevel": "limited",
+          "verifiedFacts": [],
+          "musicalCharacter": "Saxophone-led improvisation over a driving rhythm section, blending free-jazz energy with proto-punk aggression.",
+          "albumContext": "Title track and penultimate song, representing the album's most expansive and improvisational moment.",
+          "listeningNotes": "Listen for how the saxophone interacts with the rhythm section in a free-jazz-influenced passage.",
+          "limitations": [
+            "No track-specific external source was found.",
+            "Musical character description is based on listening analysis."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "L.A. Blues",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 7
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-19T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Pilot entry for sparse/obscure album. 0 tracks documented, 6 limited (listening analysis only), 1 unresearched. Demonstrates the lowest evidence levels. No facts invented."
+      }
+    }
+  }
+}

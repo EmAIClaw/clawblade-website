@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 3
+  },
+  "entries": {
+    "001-marvin-gaye-what-s-going-on-fd00dde9": {
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "editionNumber": 3,
+      "published": false,
+      "contentHash": "",
+      "changeNote": "Evidence-audit errata: remove unsupported listening claims and correct provenance notes",
+      "trackEntries": [
+        {
+          "trackTitle": "What's Going On",
+          "evidenceLevel": "contextual",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "Opening track of the album and the start of its social-concern sequence.",
+          "historicalContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Unsupported flute and recording-session specifics from the prior draft were removed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia",
+              "title": "What's Going On (album)",
+              "url": "https://en.wikipedia.org/wiki/What%27s_Going_On_(album)"
+            },
+            {
+              "label": "Songfacts",
+              "title": "What's Going On by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/whats-going-on"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "What's Happening Brother",
+          "evidenceLevel": "contextual",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "The track addresses the experience of a Vietnam veteran returning home.",
+          "listeningNotes": "",
+          "limitations": [
+            "The prior attribution to Frankie Gaye was removed; retained context supports only the Vietnam veteran description."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "Flyin' High (In the Friendly Sky)",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Save the Children",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "God Is Love",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Mercy Mercy Me (The Ecology)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia identifies Mercy Mercy Me (The Ecology) as the second single from Marvin Gaye's 1971 album What's Going On.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Mercy Mercy Me (The Ecology)",
+                  "url": "https://en.wikipedia.org/wiki/Mercy_Mercy_Me_(The_Ecology)",
+                  "extract": "the second single from American singer-songwriter Marvin Gaye's 1971 album, What's Going On",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-mercy-mercy-me-2026-08-23"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "human",
+                "reviewedAt": "2026-08-25T00:00:00Z",
+                "notes": "The retained excerpt directly supports the narrowly worded claim."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed single-release fact is retained; unsupported editorial listening prose was removed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Songfacts",
+              "title": "Mercy Mercy Me (The Ecology) by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/mercy-mercy-me-the-ecology"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "Right On",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 7
+        },
+        {
+          "trackTitle": "Wholy Holy",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 8
+        },
+        {
+          "trackTitle": "Inner City Blues (Make Me Wanna Holler)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wikipedia describes Inner City Blues as the third and final single from What's Going On.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia",
+                  "title": "Inner City Blues (Make Me Wanna Holler)",
+                  "url": "https://en.wikipedia.org/wiki/Inner_City_Blues_(Make_Me_Wanna_Holler)",
+                  "extract": "released as the third and final single, and the climactic song from his 1971 landmark album, What's Going On",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-23",
+                  "snapshotId": "wikipedia-inner-city-blues-2026-08-23"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "semanticDecision": "supported",
+                "reviewer": "human",
+                "reviewedAt": "2026-08-25T00:00:00Z",
+                "notes": "The retained excerpt directly supports the narrowly worded claim."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed single-release fact is retained; unsupported editorial listening prose was removed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Songfacts",
+              "title": "Inner City Blues (Make Me Wanna Holler) by Marvin Gaye",
+              "url": "https://www.songfacts.com/facts/marvin-gaye/inner-city-blues-make-me-wanna-holler"
+            }
+          ],
+          "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+          "discNumber": 1,
+          "trackNumber": 9
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Edition 3 records errata for edition 1: source provenance included Songfacts references while retained verified facts were supported by AllMusic and Wikipedia; unsupported specifics and unproven listening analysis were removed."
+      }
+    }
+  }
+}

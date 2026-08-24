@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 3
+  },
+  "entries": {
+    "092-the-stooges-fun-house-9896fe5c": {
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "editionNumber": 2,
+      "published": false,
+      "contentHash": "",
+      "changeNote": "Remove listening-analysis claims lacking retained audio provenance while preserving catalog identity",
+      "trackEntries": [
+        {
+          "trackTitle": "Down On the Street",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 1
+        },
+        {
+          "trackTitle": "Loose",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 2
+        },
+        {
+          "trackTitle": "T.V. Eye",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 3
+        },
+        {
+          "trackTitle": "Dirt",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 4
+        },
+        {
+          "trackTitle": "1970",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 5
+        },
+        {
+          "trackTitle": "Fun House",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Prior listening-analysis prose had no retained audio provenance and was removed; track remains unresearched."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 6
+        },
+        {
+          "trackTitle": "L.A. Blues",
+          "evidenceLevel": "unresearched",
+          "verifiedFacts": [],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "No track-specific source was found for this entry.",
+            "No listening analysis has been conducted yet."
+          ],
+          "albumId": "092-the-stooges-fun-house-9896fe5c",
+          "discNumber": 1,
+          "trackNumber": 7
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-19T00:00:00Z",
+        "generator": "pilot-manual",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25T00:00:00Z",
+        "reviewer": "human",
+        "notes": "Edition 2 removes unsupported listening analysis and preserves exact catalog title capitalization."
+      }
+    }
+  }
+}

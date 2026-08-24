@@ -1,0 +1,124 @@
+{
+  "albumId": "092-the-stooges-fun-house-9896fe5c",
+  "editionNumber": 1,
+  "published": false,
+  "contentHash": "acb4e9875adb3861",
+  "changeNote": "Pilot entry: sparse/obscure album with limited and unresearched evidence levels only",
+  "trackEntries": [
+    {
+      "trackTitle": "Down On the Street",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Raw proto-punk with driving rhythm and Iggy Pop's impassioned vocal delivery.",
+      "albumContext": "Opening track of Fun House, setting the tone for the Stooges' second album.",
+      "listeningNotes": "Listen for the raw energy and how the track establishes the album's aggressive sonic territory.",
+      "limitations": [
+        "No track-specific external source was found for this entry.",
+        "Musical character description is based on listening analysis, not a verified source."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 1
+    },
+    {
+      "trackTitle": "Loose",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "High-energy riff-driven track with a propulsive feel.",
+      "albumContext": "Second track maintaining the album's relentless forward momentum.",
+      "listeningNotes": "Notice how the riff structure propels the track forward without variation.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 2
+    },
+    {
+      "trackTitle": "T.V. Eye",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Distorted guitar and repetitive riff create a hypnotic, aggressive texture.",
+      "albumContext": "Central track of the album's first side, extending the raw sonic approach.",
+      "listeningNotes": "Listen for the distorted guitar tone and how repetition creates tension.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 3
+    },
+    {
+      "trackTitle": "Dirt",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Slower tempo and more expansive arrangement than preceding tracks, with a blues-inflected feel.",
+      "albumContext": "A change of pace within the album, showing the Stooges' range beyond raw aggression.",
+      "listeningNotes": "Notice the shift to a slower, blues-influenced feel compared to the preceding tracks.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 4
+    },
+    {
+      "trackTitle": "1970",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "High-energy track with saxophone elements entering the Stooges' sound.",
+      "albumContext": "Fifth track, introducing saxophone as a textural element ahead of the title track.",
+      "listeningNotes": "Listen for the saxophone entering the arrangement, foreshadowing the title track's approach.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 5
+    },
+    {
+      "trackTitle": "Fun House",
+      "evidenceLevel": "limited",
+      "verifiedFacts": [],
+      "musicalCharacter": "Saxophone-led improvisation over a driving rhythm section, blending free-jazz energy with proto-punk aggression.",
+      "albumContext": "Title track and penultimate song, representing the album's most expansive and improvisational moment.",
+      "listeningNotes": "Listen for how the saxophone interacts with the rhythm section in a free-jazz-influenced passage.",
+      "limitations": [
+        "No track-specific external source was found.",
+        "Musical character description is based on listening analysis."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 6
+    },
+    {
+      "trackTitle": "L.A. Blues",
+      "evidenceLevel": "unresearched",
+      "verifiedFacts": [],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "No track-specific source was found for this entry.",
+        "No listening analysis has been conducted yet."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 7
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "generator": "pilot-manual",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-19T00:00:00Z",
+    "reviewer": "human",
+    "notes": "Pilot entry for sparse/obscure album. 0 tracks documented, 6 limited (listening analysis only), 1 unresearched. Demonstrates the lowest evidence levels. No facts invented."
+  }
+}
