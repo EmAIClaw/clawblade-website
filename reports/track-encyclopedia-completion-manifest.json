@@ -6,28 +6,30 @@
   "foundationStatus": "verified-local-foundation-complete",
   "expansionGatePassed": true,
   "publishedDataChanged": false,
-  "versionedAlbums": 6,
-  "versionedTracks": 78,
-  "completedAlbums": 6,
-  "completedTracks": 78,
-  "documentedTracks": 78,
+  "versionedAlbums": 7,
+  "versionedTracks": 95,
+  "completedAlbums": 7,
+  "completedTracks": 95,
+  "documentedTracks": 95,
   "contextualTracks": 0,
   "insufficientEvidenceTracks": 0,
-  "unresearchedTracks": 3288,
+  "unresearchedTracks": 3271,
   "pilotDraftEditions": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
     "054-liz-phair-exile-in-guyville-2b33a458": 4,
     "092-the-stooges-fun-house-9896fe5c": 3,
     "002-the-beach-boys-pet-sounds-eabcc325": 1,
     "003-joni-mitchell-blue-9c3a8b85": 1,
-    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": 1
+    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": 1,
+    "005-the-beatles-abbey-road-1955f3c5": 2
   },
-  "validationStatus": "49 backend tests, 6-authoring completion acceptance, 5 UI tests, 71 core track tests, 13 object-store tests, TypeScript, data integrity, full npm test:all, reproducible track-encyclopedia build, production build, diff check, 13 prior-edition hash verification, and independent 21-track rank-4 semantic evidence audit passed",
+  "validationStatus": "49 backend tests, 7-authoring completion acceptance, 5 UI tests, 71 core track tests, 13 object-store tests via full test:all, TypeScript, data integrity, full npm test:all, reproducible track-encyclopedia build, production build, diff check, 15 prior-edition hash verification including preserved rank-5 edition 1, and independent 17-track rank-5 semantic evidence audits plus parent postcommit editorial audit passed",
   "notes": [
-    "Rank 4 Stevie Wonder — Songs in the Key of Life is completion-eligible in unpublished draft edition 1: all 21 exact catalog tracks are documented with retained track-specific evidence and supported independent semantic review decisions.",
-    "All six versioned editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
-    "Pre-final review removed substantive Wikipedia evidence, narrowed unsupported clauses, canonicalized Rolling Stone URLs, and normalized snapshot text before final audit approval.",
-    "No album other than rank 4 was researched or authored by this mission."
+    "Rank 5 The Beatles — Abbey Road is completion-eligible in unpublished draft edition 2: all 17 exact catalog tracks are documented with retained track-specific official Beatles evidence and supported independent semantic review decisions.",
+    "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, then reported one important typo and five minor apostrophe omissions; those displayed-claim findings are fixed in edition 2.",
+    "All seven versioned albums remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
+    "Candidate2 audit found unsupported over-broad wording on three tracks and live-page wording drift on three tracks; fixes narrowed claims/excerpts and candidate3 verified the remaining live-exact issues resolved.",
+    "No album other than rank 5 was researched or authored by this mission."
   ],
   "albums": [
     {
@@ -106,7 +108,14 @@
       "catalogTrackCount": 17,
       "legacyGuideCount": 17,
       "legacyGuidesWithHttpsSource": 3,
-      "versioned": false
+      "versioned": true,
+      "completionEligible": true,
+      "draftEdition": 2,
+      "documentedTracks": 17,
+      "contextualTracks": 0,
+      "insufficientEvidenceTracks": 0,
+      "unresearchedTracks": 0,
+      "contentHash": "60c8394ddd63bf3d"
     },
     {
       "rank": 6,

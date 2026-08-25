@@ -1,0 +1,793 @@
+{
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-08-25T00:00:00Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "005-the-beatles-abbey-road-1955f3c5": {
+      "albumId": "005-the-beatles-abbey-road-1955f3c5",
+      "editionNumber": 2,
+      "published": false,
+      "contentHash": "60c8394ddd63bf3d",
+      "changeNote": "Editorial correction from parent independent audit: fix six displayed apostrophe/possessive typos while preserving retained evidence and catalog identity",
+      "trackEntries": [
+        {
+          "trackTitle": "Come Together",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Come Together\" was recorded over six days at the end of July 1969, opens Abbey Road, and was connected by John Lennon to a Timothy Leary campaign-song request.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Come Together",
+                  "url": "https://www.thebeatles.com/come-together-0",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "Recorded over six days at the end of July 1969, ‘Come Together’ is the opening track from Abbey Road and according to John, “‘Come Together’ was an expression that Timothy Leary had come up with for his attempt at being president or whatever he wanted to be, and he asked me to write a campaign song. I tried and tried, but I couldn’t come up with one. But I came up with this, ‘Come Together’, which would’ve been no good to him.”",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-come-together-2026-08-25",
+                  "snapshotHash": "f177deb9704b3c21fbfec9c7265eb29b028b5f452a3c740c5aa9f6208e19758f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Come Together",
+              "url": "https://www.thebeatles.com/come-together-0"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Something",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page identifies \"Something\" as George Harrison's Beatles No. 1 ballad, written in 1968, recorded in summer 1969, and included on Abbey Road.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Something",
+                  "url": "https://www.thebeatles.com/something-0",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "The one and only Beatles’ No.1 not composed by either John or Paul is George’s beautiful ballad written in 1968, towards the end of the sessions for The Beatles’ ‘White Album’. According to George, “I just got the bit about ‘something in the way she moves’ and then chord progression seemed to follow naturally.” It was finally recorded in the summer of 1969 and included on Abbey Road.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-something-2026-08-25",
+                  "snapshotHash": "2a62a611be158f0b901fb3360c07f379fe66a662b48e0030ca200be908450cf4"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Something",
+              "url": "https://www.thebeatles.com/something-0"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Maxwell's Silver Hammer",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Maxwell's Silver Hammer\" is sung by Paul McCartney on Abbey Road and was written by McCartney but credited to Lennon-McCartney.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Maxwell's Silver Hammer",
+                  "url": "https://www.thebeatles.com/maxwells-silver-hammer",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Maxwell's Silver Hammer\" is a song by the Beatles, sung by Paul McCartney on their album Abbey Road. It was written by McCartney, though credited to Lennon-McCartney.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-maxwells-silver-hammer-2026-08-25",
+                  "snapshotHash": "f79d42b9fbec02d230a3bc2b9c003cdee6c36d5474d829995e1af7a238fdea62"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Maxwell's Silver Hammer",
+              "url": "https://www.thebeatles.com/maxwells-silver-hammer"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Oh! Darling",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Oh! Darling\" was composed by Paul McCartney, credited to Lennon-McCartney, and placed as the fourth song on Abbey Road.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Oh! Darling",
+                  "url": "https://www.thebeatles.com/oh-darling",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Oh! Darling\" is a song by the Beatles composed by Paul McCartney (credited to Lennon-McCartney) and appearing as the fourth song on the album, Abbey Road, in 1969. Its working title was \"Oh! Darling (I'll Never Do You No Harm)\".",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-oh-darling-2026-08-25",
+                  "snapshotHash": "cc21cc6fc0115a16e66456f8a4321c4142825ccb49a6d328096d3786d507ff14"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Oh! Darling",
+              "url": "https://www.thebeatles.com/oh-darling"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Octopus's Garden",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Octopus's Garden\" was written by Ringo Starr under his real name Richard Starkey for Abbey Road, with George Harrison assisting, and was the last Beatles song released featuring Starr on lead vocals.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Octopus's Garden",
+                  "url": "https://www.thebeatles.com/octopuss-garden",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Octopus's Garden\" is a song by the Beatles written by Ringo Starr (under his real name Richard Starkey) from their 1969 album Abbey Road. George Harrison, who assisted Starr with the song, commented: \"'Octopus's Garden' is Ringo's song. It's only the second song Ringo has ever written, mind you, and it's lovely.\" He added that the song gets very deep into your consciousness \"...because it's so peaceful. I suppose Ringo is writing cosmic songs these days without even realising it.\" It was the last song released by the Beatles featuring Starr on lead vocals.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-octopuss-garden-2026-08-25",
+                  "snapshotHash": "1a6fed6791d0721194416ec0f24598611e48af3f167782ebb3eee89adfeeb573"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Octopus's Garden",
+              "url": "https://www.thebeatles.com/octopuss-garden"
+            }
+          ]
+        },
+        {
+          "trackTitle": "I Want You (She's So Heavy)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"I Want You (She's So Heavy)\" is from Abbey Road and was written by John Lennon, with credit to Lennon-McCartney.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "I Want You (She's So Heavy)",
+                  "url": "https://www.thebeatles.com/i-want-you",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"I Want You (She's So Heavy)\" is a song by the Beatles, from their album Abbey Road. It was written by John Lennon, but credited to Lennon-McCartney.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-i-want-you-shes-so-heavy-2026-08-25",
+                  "snapshotHash": "509e16e4c54c7b03158dfeaf7940d03fa4dc4981341f2c9f805975aaee32d2cc"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "I Want You (She's So Heavy)",
+              "url": "https://www.thebeatles.com/i-want-you"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Here Comes the Sun",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page identifies \"Here Comes the Sun\" as a George Harrison song from the Beatles 1969 album Abbey Road.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Here Comes the Sun",
+                  "url": "https://www.thebeatles.com/here-comes-sun",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Here Comes the Sun\" is a song by George Harrison from the Beatles' 1969 album Abbey Road.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-here-comes-the-sun-2026-08-25",
+                  "snapshotHash": "20b8a1b5a4e9a1aa61475d5888cd141ac8f2ec7b6681a0801e31151970e6512d"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Here Comes the Sun",
+              "url": "https://www.thebeatles.com/here-comes-sun"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Because",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Because\" was written by John Lennon, credited to Lennon-McCartney, recorded by the Beatles in 1969, and features a three-part Lennon, McCartney, and George Harrison harmony overdubbed twice.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Because",
+                  "url": "https://www.thebeatles.com/because",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Because\" is a song written by John Lennon (credited to Lennon-McCartney) and recorded by the Beatles in 1969. It features a prominent three-part vocal harmony by Lennon, McCartney and George Harrison, overdubbed twice to make nine voices in all. It first appeared on Abbey Road (1969), immediately preceding the extended medley on side two of the record.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-because-2026-08-25",
+                  "snapshotHash": "7d6b2dd5ab8054b36a2aca4408f32ddc830da62e2b5f8c401b2b00018cd84ef1"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Because",
+              "url": "https://www.thebeatles.com/because"
+            }
+          ]
+        },
+        {
+          "trackTitle": "You Never Give Me Your Money",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"You Never Give Me Your Money\" opens the climactic medley on side two of Abbey Road and was written by Paul McCartney, with credit to Lennon-McCartney.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "You Never Give Me Your Money",
+                  "url": "https://www.thebeatles.com/you-never-give-me-your-money",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"You Never Give Me Your Money\" is a song by the Beatles that opens the climactic medley on side two of the album Abbey Road. It was written by Paul McCartney and is credited to Lennon-McCartney. The song was composed in the midst of the break-up of the band, during the Allen Klein phase.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-you-never-give-me-your-money-2026-08-25",
+                  "snapshotHash": "344061f68fc495c93f590c494dd3fe2f29fb050ae90c8e2d27a04cf4661d7ad3"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "You Never Give Me Your Money",
+              "url": "https://www.thebeatles.com/you-never-give-me-your-money"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Sun King",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page identifies \"Sun King\" as an Abbey Road song primarily written by John Lennon, credited to Lennon-McCartney, and the second song in the B-side's climactic medley.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Sun King",
+                  "url": "https://www.thebeatles.com/sun-king",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Sun King\" is a song written primarily by John Lennon, but credited to Lennon-McCartney and recorded by the Beatles for their 1969 album, Abbey Road. It is the second song of the B-side's climactic medley.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-sun-king-2026-08-25",
+                  "snapshotHash": "715ca95f1b7c956d8d4f511b73b99ee6afcb2a884a3f4a26387508839fe49bd9"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Sun King",
+              "url": "https://www.thebeatles.com/sun-king"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Mean Mr. Mustard",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Mean Mr. Mustard\" was written by John Lennon, credited to Lennon-McCartney, performed on Abbey Road, and recorded with \"Sun King\" in one continuous piece.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Mean Mr. Mustard",
+                  "url": "https://www.thebeatles.com/mean-mr-mustard",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Mean Mr. Mustard\" is a song written by John Lennon (credited to Lennon-McCartney) and performed by the Beatles on their album Abbey Road. The Abbey Road version was recorded with \"Sun King\" in one continuous piece.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-mean-mr-mustard-2026-08-25",
+                  "snapshotHash": "74acc87c1bb1a329eed2f4215c76147d3f60302f5ff4926bb80333103274141e"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Mean Mr. Mustard",
+              "url": "https://www.thebeatles.com/mean-mr-mustard"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Polythene Pam",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Polythene Pam\" is from Abbey Road and was written by John Lennon, with credit to Lennon-McCartney.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Polythene Pam",
+                  "url": "https://www.thebeatles.com/polythene-pam",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Polythene Pam\" is a song written by John Lennon, credited to Lennon-McCartney, and performed by the Beatles on their album Abbey Road. The song is the part of the B-side medley in which Lennon declares that the title heroine \"is so good looking but she looks like a man.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-polythene-pam-2026-08-25",
+                  "snapshotHash": "70a2ff21a3355e43a486ec42a4ce71e2714269b4482d3f9ec2f70a1d8cbbf658"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Polythene Pam",
+              "url": "https://www.thebeatles.com/polythene-pam"
+            }
+          ]
+        },
+        {
+          "trackTitle": "She Came In Through the Bathroom Window",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"She Came In Through the Bathroom Window\" was written by Paul McCartney, credited to Lennon-McCartney, performed on Abbey Road, and is the fifth song in the Abbey Road medley.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "She Came In Through the Bathroom Window",
+                  "url": "https://www.thebeatles.com/she-came-through-bathroom-window",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"She Came In Through the Bathroom Window\" is a song written by Paul McCartney (although credited to Lennon-McCartney) and performed by the Beatles on their album Abbey Road as the fifth song of the Abbey Road medley.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-she-came-in-through-the-bathroom-window-2026-08-25",
+                  "snapshotHash": "46db50e94a8cfb97bbfaa9eab9eaae7608185fac8dea2fcf9865e72ebd2f7fd9"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "She Came In Through the Bathroom Window",
+              "url": "https://www.thebeatles.com/she-came-through-bathroom-window"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Golden Slumbers",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Golden Slumbers\" is part of the climactic medley on the Beatles 1969 album Abbey Road, begins the progression that leads to the end of the album, and is followed by \"Carry That Weight.\"",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Golden Slumbers",
+                  "url": "https://www.thebeatles.com/golden-slumbers",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Golden Slumbers\" is a song by the Beatles, part of the climactic medley on their 1969 album Abbey Road. The song begins the progression that leads to the end of the album and is followed by \"Carry That Weight.\" The two songs were recorded together as a single piece, and both were written by Paul McCartney (credited to Lennon-McCartney), strings and brass arranged and scored by producer George Martin.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-golden-slumbers-2026-08-25",
+                  "snapshotHash": "a591556b37748d7e14c540bcc3bb5036d44e556ddcf6146566f8113be1405c95"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 14,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Golden Slumbers",
+              "url": "https://www.thebeatles.com/golden-slumbers"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Carry That Weight",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Carry That Weight\" was released on Abbey Road, is part of the long climactic medley that closes the album, and features vocals from all four Beatles.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Carry That Weight",
+                  "url": "https://www.thebeatles.com/carry-weight",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Carry That Weight\" is a song by the Beatles. Released on Abbey Road and part of the long, climactic medley that closes the album, it features vocals from all four Beatles (a rarity in their songs). It is preceded by \"Golden Slumbers\", and segues into \"The End\".",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-carry-that-weight-2026-08-25",
+                  "snapshotHash": "a6e778f0ab1990574d90cdc80f81a9fdd36c5cd119b178e1a7b5841a2427f314"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 15,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Carry That Weight",
+              "url": "https://www.thebeatles.com/carry-weight"
+            }
+          ]
+        },
+        {
+          "trackTitle": "The End",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"The End\" was composed by Paul McCartney, credited to Lennon-McCartney, was the last song recorded collectively by all four Beatles, and closes the Abbey Road side-two medley.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "The End",
+                  "url": "https://www.thebeatles.com/end",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"The End\" is a song by the Beatles composed by Paul McCartney (credited to Lennon-McCartney) for the album Abbey Road. It was the last song recorded collectively by all four Beatles, and is the final song of the medley that comprises the majority of side two of the LP version of the album.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-the-end-2026-08-25",
+                  "snapshotHash": "0edc62b64d0d4cecfec3c500ad444fb996650f504d386d2072f1f0794c501148"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 16,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "The End",
+              "url": "https://www.thebeatles.com/end"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Her Majesty",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The official Beatles page says \"Her Majesty\" was written by Paul McCartney, credited to Lennon-McCartney, is Abbey Road's final track, appears fourteen seconds after \"The End\", and was not listed on the original sleeve.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles",
+                  "title": "Her Majesty",
+                  "url": "https://www.thebeatles.com/her-majesty",
+                  "sourceIdentity": "thebeatles.com|The Beatles",
+                  "extract": "\"Her Majesty\" is a song written by Paul McCartney (although credited to Lennon-McCartney) that appears on the Beatles' album Abbey Road. It is a brief tongue-in-cheek music hall song. \"Her Majesty\" is the final track of the album and appears fourteen seconds after the song \"The End\", but was not listed on the original sleeve. As such, it is considered one of the first examples of a hidden track in rock music.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "beatles-official-her-majesty-2026-08-25",
+                  "snapshotHash": "b8243e1e64d63d8239738d9fd70a1b3a6fe22f6d7886f2b2aabb616c435d4b93"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+                "reviewedAt": "2026-08-25",
+                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "005-the-beatles-abbey-road-1955f3c5",
+          "discNumber": 1,
+          "trackNumber": 17,
+          "sourceRefs": [
+            {
+              "label": "The Beatles",
+              "title": "Her Majesty",
+              "url": "https://www.thebeatles.com/her-majesty"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-08-25T00:00:00Z",
+        "generator": "manual-web-researched-rank5-authoring",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25",
+        "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
+        "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+      }
+    }
+  }
+}
