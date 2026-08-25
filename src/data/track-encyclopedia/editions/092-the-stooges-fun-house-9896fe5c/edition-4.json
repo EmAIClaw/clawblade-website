@@ -1,0 +1,350 @@
+{
+  "albumId": "092-the-stooges-fun-house-9896fe5c",
+  "editionNumber": 4,
+  "published": false,
+  "contentHash": "ffd3fa7023be2acf",
+  "changeNote": "Migrate rank-92 evidence to fetched source artifacts and immutable independent review provenance",
+  "trackEntries": [
+    {
+      "trackTitle": "Down On the Street",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Iggy Pop wrote that “Down On the Street” has two lead guitars, which added more action to the space.",
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+              "extract": "On Down On The Street there are 2 lead guitars which added more action to the space.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "c6ac92926cddc83b531367b1c39477977bacc12bdc93d5ee48b56dd29d05868d",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4979,
+                "end": 5063
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:1:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "sourceRefs": [
+        {
+          "label": "Iggy and the Stooges",
+          "title": "'Building Fun House' by Iggy Pop",
+          "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Loose",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Iggy Pop wrote that Ron Asheton overdubbed a single-string counterpart to himself on “Loose.”",
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+              "extract": "Ron was over-dubbing a single string counter part to himself on Loose.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "c6ac92926cddc83b531367b1c39477977bacc12bdc93d5ee48b56dd29d05868d",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4908,
+                "end": 4978
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:2:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "sourceRefs": [
+        {
+          "label": "Iggy and the Stooges",
+          "title": "'Building Fun House' by Iggy Pop",
+          "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+        }
+      ]
+    },
+    {
+      "trackTitle": "T.V. Eye",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Iggy Pop wrote that he asked Ron Asheton to begin “T.V. Eye” in the style of John Lee Hooker, playing single notes against a one-string drone before building to full sonics.",
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+              "extract": "T.V. Eye was the key number on the record for me. To get that, I had to camp in the hallway outside Ron’s door for over an hour pounding and pleading with him to let me come in and write a god damn song. He finally compromised by coming out into the hallway with his Fender Princeton practice amp and his Strat and played me the riff. I thought, “oh shit that’s really got it!” but the way he was playing it, in the style of “No Fun” or “I Wanna Be Your Dog” from our first record sounded too large and thick to allow the song to go anywhere. So I asked him to throw in a variation for my tag line, and to begin the number in the style of John Lee Hooker, an artist we both liked, playing the single notes against a one string drone, blues style, before letting it build up to full sonics.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "c6ac92926cddc83b531367b1c39477977bacc12bdc93d5ee48b56dd29d05868d",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 1289
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:3:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "sourceRefs": [
+        {
+          "label": "Iggy and the Stooges",
+          "title": "'Building Fun House' by Iggy Pop",
+          "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Dirt",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Iggy Pop wrote that “Dirt” has a single overdubbed guitar on the chorus through a Leslie speaker, complementing the wah-wah guitar on the basic track.",
+          "sourceRefs": [
+            {
+              "label": "Iggy and the Stooges",
+              "title": "'Building Fun House' by Iggy Pop",
+              "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop",
+              "extract": "Dirt has a single over-dub guitar on the chorus through a Leslie speaker to complement the Wah-wah guitar on the basic track.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "c6ac92926cddc83b531367b1c39477977bacc12bdc93d5ee48b56dd29d05868d",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5064,
+                "end": 5189
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:4:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "sourceRefs": [
+        {
+          "label": "Iggy and the Stooges",
+          "title": "'Building Fun House' by Iggy Pop",
+          "url": "https://iggyandthestoogesmusic.com/news/building-fun-house-by-iggy-pop"
+        }
+      ]
+    },
+    {
+      "trackTitle": "1970",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Steve Mackay recalled that Iggy Pop had “1970” set up for his saxophone contribution and instructed him to play like “Mace Parker [James Brown’s saxman] on acid.”",
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+              "extract": "“I didn’t know he had ‘1970’ and ‘Funhouse’ all set up for me,” Steve recalls. “Iggy said: ‘Just play like Mace Parker [James Brown’s saxman] on acid.’ I said: ‘No problem, Jim!”",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "263c62362bcac3757aa60dfcb535a1e97474978f89b922acabba58aa6da16ee1",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 678
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:5:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "sourceRefs": [
+        {
+          "label": "Galway Advertiser (archived by Cult of Estel)",
+          "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+          "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Fun House",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Steve Mackay identified “Funhouse” as his favorite song and described the chance to play its riff with guitarist Ron Asheton as an opportunity to “blow funky and free.”",
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+              "extract": "Steve’s favourite song is ‘Funhouse’, where he and guitarist Ron Ashton belt out the riff with gusto (“What a chance to blow funky and free!”).",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "263c62362bcac3757aa60dfcb535a1e97474978f89b922acabba58aa6da16ee1",
+              "section": {
+                "kind": "character-offsets",
+                "start": 679,
+                "end": 822
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:6:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The source misspells guitarist Ron Asheton's surname as 'Ashton'; the claim uses the correct spelling 'Asheton'."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "sourceRefs": [
+        {
+          "label": "Galway Advertiser (archived by Cult of Estel)",
+          "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+          "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+        }
+      ]
+    },
+    {
+      "trackTitle": "L.A. Blues",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Steve Mackay said “L.A. Blues” developed from the band’s freeform “Hippy or Freakout” concert ending, which producer Don Gallucci suggested making into its own track and which they recorded live in the studio.",
+          "sourceRefs": [
+            {
+              "label": "Galway Advertiser (archived by Cult of Estel)",
+              "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+              "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel",
+              "extract": "However the album’s most uncompromising track is the ‘free jazz’ of ‘LA Blues’, which these days Iggy describes as something akin to “a demonic howl”. “As a finale to our shows we would do what we called a Hippy or Freakout ending in freeform, leaving guitar and bass feeding back as we left the stage while the crowd was still passing Jim around [after one of his stagedives],” says Steve. “Don Galucci, the producer, thought it would be good to make it its own track. We did it all live in the studio.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "263c62362bcac3757aa60dfcb535a1e97474978f89b922acabba58aa6da16ee1",
+              "section": {
+                "kind": "character-offsets",
+                "start": 823,
+                "end": 1326
+              }
+            }
+          ],
+          "claimId": "092-the-stooges-fun-house-9896fe5c:1:7:fact-1",
+          "semanticReview": {
+            "recordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+            "decisionId": "092-the-stooges-fun-house-9896fe5c:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The source misspells producer Don Gallucci's surname as 'Galucci'; the claim uses the correct spelling 'Gallucci'."
+      ],
+      "albumId": "092-the-stooges-fun-house-9896fe5c",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "sourceRefs": [
+        {
+          "label": "Galway Advertiser (archived by Cult of Estel)",
+          "title": "Steve Mackay – Sax Man, talks The Stooges, Iggy and ESTEL.",
+          "url": "https://cultofestel.wordpress.com/2011/01/05/steve-mackay-sax-man-talks-the-stooges-iggy-and-estel"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-08-24T23:29:29Z",
+    "generator": "rank-92-manual-evidence-research",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-08-25T04:41:33Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d."
+  }
+}

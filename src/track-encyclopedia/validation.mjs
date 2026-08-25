@@ -7,6 +7,8 @@ import {
   computeTrackEncyclopediaContentHash,
   normalizeEvidenceText,
 } from './hash.mjs';
+import { validateSourceArtifact, validateSourceReference } from './source-artifacts.mjs';
+import { validateSemanticReviewBinding } from './review-artifacts.mjs';
 
 export { canonicalizeSourceUrl, computeEvidenceSnapshotHash };
 
@@ -105,7 +107,7 @@ export function isValidUrl(url) {
   }
 }
 
-export function validateSourceRef(source) {
+export function validateSourceRef(source, { allowLegacyNonCanonicalSourceUrls = false } = {}) {
   if (!source || typeof source !== 'object') {
     throw new Error('Source reference is required.');
   }
@@ -114,6 +116,9 @@ export function validateSourceRef(source) {
   }
   if (!isValidUrl(source.url)) {
     throw new Error(`Source ref URL must be a valid HTTPS URL: "${source.url}"`);
+  }
+  if (!allowLegacyNonCanonicalSourceUrls && canonicalizeSourceUrl(source.url) !== source.url) {
+    throw new Error(`Source ref URL must be canonical: "${source.url}"`);
   }
   if (!source.label || source.label.trim() === '') {
     throw new Error('Source ref label is required.');
@@ -184,8 +189,12 @@ export function sourceClaimIsConsistentWithEvidence(claim, sourceText) {
 export function validateTrackEntry(track, {
   requireIdentity = false,
   albumId = null,
+  entry = null,
   evidenceSnapshots = null,
+  sourceArtifacts = null,
+  reviewArtifacts = null,
   allowLegacySelfAttestedEvidence = false,
+  allowLegacyNonCanonicalSourceUrls = false,
 } = {}) {
   if (!track || typeof track !== 'object') {
     throw new Error('Track entry is required.');
@@ -228,14 +237,23 @@ export function validateTrackEntry(track, {
     }
     let supported = false;
     for (const ref of fact.sourceRefs) {
-      validateSourceRef(ref);
-      validateSourceRefAgainstSnapshot(ref, evidenceSnapshots, `Track "${track.trackTitle}": factual claim sourceRef`, allowLegacySelfAttestedEvidence);
+      validateSourceRef(ref, { allowLegacyNonCanonicalSourceUrls });
+      validateSourceRefAgainstArtifact(ref, {
+        evidenceSnapshots,
+        sourceArtifacts,
+        context: `Track "${track.trackTitle}": factual claim sourceRef`,
+        allowLegacySelfAttestedEvidence,
+        allowLegacyNonCanonicalSourceUrls,
+      });
       if (sourceClaimIsConsistentWithEvidence(fact.claim, ref.extract)) {
         supported = true;
       }
     }
     if (!supported) {
       throw new Error(`Track "${track.trackTitle}": verbatim extract is not consistent with factual claim — "${fact.claim.slice(0, 80)}"`);
+    }
+    if (sourceArtifacts !== null || reviewArtifacts !== null) {
+      validateSemanticReviewBinding({ entry, fact, sourceArtifacts, reviewArtifacts });
     }
   }
 
@@ -250,8 +268,14 @@ export function validateTrackEntry(track, {
     if (!view.sourceRef) {
       throw new Error(`Track "${track.trackTitle}": critic view requires sourceRef verification: "${view.view.slice(0, 80)}"`);
     }
-    validateSourceRef(view.sourceRef);
-    validateSourceRefAgainstSnapshot(view.sourceRef, evidenceSnapshots, `Track "${track.trackTitle}": critic sourceRef`, allowLegacySelfAttestedEvidence);
+    validateSourceRef(view.sourceRef, { allowLegacyNonCanonicalSourceUrls });
+    validateSourceRefAgainstArtifact(view.sourceRef, {
+      evidenceSnapshots,
+      sourceArtifacts,
+      context: `Track "${track.trackTitle}": critic sourceRef`,
+      allowLegacySelfAttestedEvidence,
+      allowLegacyNonCanonicalSourceUrls,
+    });
     if (!view.sourceRef.extract || view.sourceRef.extractType !== 'verbatim' || !sourceClaimIsConsistentWithEvidence(view.view, view.sourceRef.extract)) {
       throw new Error(`Track "${track.trackTitle}": critic sourceRef is not consistent with critical reception claim.`);
     }
@@ -272,7 +296,7 @@ export function validateTrackEntry(track, {
       throw new Error(`Track "${track.trackTitle}": fan perspective requires explicit community sourceRefs; grounded text alone is not enough.`);
     }
     for (const ref of fan.sourceRefs) {
-      validateSourceRef(ref);
+      validateSourceRef(ref, { allowLegacyNonCanonicalSourceUrls });
       if (!ref.extract || ref.extractType !== 'verbatim' || (ref.evidenceStatus !== 'retrieved' && ref.evidenceStatus !== 'checked')) {
         throw new Error(`Track "${track.trackTitle}": fan perspective sourceRefs require retrieved verbatim excerpts.`);
       }
@@ -354,7 +378,12 @@ export function validateTrackEntry(track, {
   }
 }
 
-export function validateEntry(entry, { evidenceSnapshots = null, allowLegacySelfAttestedEvidence = false } = {}) {
+export function validateEntry(entry, {
+  evidenceSnapshots = null,
+  sourceArtifacts = null,
+  reviewArtifacts = null,
+  allowLegacySelfAttestedEvidence = false,
+} = {}) {
   if (!entry || typeof entry !== 'object') {
     throw new Error('Entry is required.');
   }
@@ -386,12 +415,59 @@ export function validateEntry(entry, { evidenceSnapshots = null, allowLegacySelf
   if (!Array.isArray(entry.trackEntries)) {
     throw new Error('Entry must have a trackEntries array.');
   }
+  const candidateClaimIds = new Set();
+  const reviewRecordIds = new Set();
   for (const track of entry.trackEntries) {
-    validateTrackEntry(track, { requireIdentity: true, albumId: entry.albumId, evidenceSnapshots, allowLegacySelfAttestedEvidence });
+    for (const fact of track.verifiedFacts ?? []) {
+      if (sourceArtifacts !== null && (typeof fact.claimId !== 'string' || !fact.claimId.trim())) {
+        throw new Error(`Track "${track.trackTitle}": evidence-bearing claim requires a stable claimId.`);
+      }
+      if (fact.claimId) {
+        const claimPrefix = `${entry.albumId}:${track.discNumber}:${track.trackNumber}:fact-`;
+        if (!fact.claimId.startsWith(claimPrefix) || !/^[1-9]\d*$/.test(fact.claimId.slice(claimPrefix.length))) {
+          throw new Error(`Claim ${fact.claimId} must use globally unique stable identity ${claimPrefix}<ordinal>.`);
+        }
+        if (candidateClaimIds.has(fact.claimId)) throw new Error(`Duplicate candidate claimId ${fact.claimId}.`);
+        candidateClaimIds.add(fact.claimId);
+      }
+      if (sourceArtifacts !== null && fact.semanticReview?.recordId) reviewRecordIds.add(fact.semanticReview.recordId);
+    }
+  }
+  const allowLegacyNonCanonicalSourceUrls = entry.albumId === '004-stevie-wonder-songs-in-the-key-of-life-0518d4f8' && entry.editionNumber <= 2;
+  for (const track of entry.trackEntries) {
+    validateTrackEntry(track, {
+      requireIdentity: true,
+      albumId: entry.albumId,
+      entry,
+      evidenceSnapshots,
+      sourceArtifacts,
+      reviewArtifacts,
+      allowLegacySelfAttestedEvidence,
+      allowLegacyNonCanonicalSourceUrls,
+    });
+  }
+  if (sourceArtifacts !== null && candidateClaimIds.size > 0) {
+    if (reviewRecordIds.size !== 1) throw new Error('Candidate claims must bind to exactly one immutable review record.');
+    const [recordId] = reviewRecordIds;
+    const record = reviewArtifacts?.[recordId];
+    if (!record) throw new Error(`Missing semantic review record ${recordId}.`);
+    if (entry.reviewMetadata.reviewer !== record.reviewer.identity || entry.reviewMetadata.reviewedAt !== record.reviewedAt || entry.reviewMetadata.notes !== `Imported immutable independent review ${record.recordId}.`) {
+      throw new Error('Entry reviewMetadata must exactly match the bound immutable review record.');
+    }
+    const reviewedClaimIds = new Set(record.decisions.map((decision) => decision.claimId));
+    if (record.decisions.length !== candidateClaimIds.size || reviewedClaimIds.size !== candidateClaimIds.size || [...candidateClaimIds].some((claimId) => !reviewedClaimIds.has(claimId))) {
+      throw new Error('Semantic review decision claim set must exactly match the candidate claim set.');
+    }
   }
 }
 
-function validateSourceRefAgainstSnapshot(ref, evidenceSnapshots, context, allowLegacySelfAttestedEvidence = false) {
+function validateSourceRefAgainstArtifact(ref, {
+  evidenceSnapshots,
+  sourceArtifacts,
+  context,
+  allowLegacySelfAttestedEvidence = false,
+  allowLegacyNonCanonicalSourceUrls = false,
+}) {
   if (!ref.extract || ref.extract.trim() === '') {
     throw new Error(`${context} requires extract text for automated retained-evidence checking.`);
   }
@@ -400,6 +476,16 @@ function validateSourceRefAgainstSnapshot(ref, evidenceSnapshots, context, allow
   }
   if (ref.evidenceStatus !== 'retrieved' && ref.evidenceStatus !== 'checked') {
     throw new Error(`${context} requires retrieved or checked evidenceStatus.`);
+  }
+  if (sourceArtifacts !== null) {
+    if (!ref.artifactId || typeof ref.artifactId !== 'string') {
+      throw new Error(`${context} requires artifactId for independently fetched evidence.`);
+    }
+    const artifact = sourceArtifacts?.[ref.artifactId];
+    if (!artifact) throw new Error(`${context} references missing source artifact "${ref.artifactId}".`);
+    validateSourceArtifact(artifact, { excerpt: ref.extract });
+    validateSourceReference(ref, artifact, { allowLegacyNonCanonicalSourceUrls });
+    return;
   }
   if (allowLegacySelfAttestedEvidence && !ref.snapshotId) return;
   if (!ref.snapshotId || typeof ref.snapshotId !== 'string' || ref.snapshotId.trim() === '') {

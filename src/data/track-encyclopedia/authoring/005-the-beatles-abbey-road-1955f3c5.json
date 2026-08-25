@@ -7,10 +7,10 @@
   "entries": {
     "005-the-beatles-abbey-road-1955f3c5": {
       "albumId": "005-the-beatles-abbey-road-1955f3c5",
-      "editionNumber": 2,
+      "editionNumber": 3,
       "published": false,
-      "contentHash": "60c8394ddd63bf3d",
-      "changeNote": "Editorial correction from parent independent audit: fix six displayed apostrophe/possessive typos while preserving retained evidence and catalog identity",
+      "contentHash": "772df43eaad90b18",
+      "changeNote": "Migrate rank-5 evidence to fetched source artifacts and immutable independent review provenance",
       "trackEntries": [
         {
           "trackTitle": "Come Together",
@@ -28,15 +28,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-come-together-2026-08-25",
-                  "snapshotHash": "f177deb9704b3c21fbfec9c7265eb29b028b5f452a3c740c5aa9f6208e19758f"
+                  "snapshotHash": "f177deb9704b3c21fbfec9c7265eb29b028b5f452a3c740c5aa9f6208e19758f",
+                  "artifactId": "040e9700905426bff96a9bfd0cac4f4c3bf0034e8851c4f27d92b0082c15d508",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 157,
+                    "end": 588
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:1:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:1:fact-1"
               }
             }
           ],
@@ -73,15 +77,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-something-2026-08-25",
-                  "snapshotHash": "2a62a611be158f0b901fb3360c07f379fe66a662b48e0030ca200be908450cf4"
+                  "snapshotHash": "2a62a611be158f0b901fb3360c07f379fe66a662b48e0030ca200be908450cf4",
+                  "artifactId": "a8380690256e922f90e56441848435fe68ddc84058e9b8304206108f4e7be45b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 200,
+                    "end": 586
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:2:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:2:fact-1"
               }
             }
           ],
@@ -118,15 +126,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-maxwells-silver-hammer-2026-08-25",
-                  "snapshotHash": "f79d42b9fbec02d230a3bc2b9c003cdee6c36d5474d829995e1af7a238fdea62"
+                  "snapshotHash": "f79d42b9fbec02d230a3bc2b9c003cdee6c36d5474d829995e1af7a238fdea62",
+                  "artifactId": "1155120380f4f838011f0fae6053d1722602dee666566813a2846d880d7a20d5",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 667
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:3:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:3:fact-1"
               }
             }
           ],
@@ -163,15 +175,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-oh-darling-2026-08-25",
-                  "snapshotHash": "cc21cc6fc0115a16e66456f8a4321c4142825ccb49a6d328096d3786d507ff14"
+                  "snapshotHash": "cc21cc6fc0115a16e66456f8a4321c4142825ccb49a6d328096d3786d507ff14",
+                  "artifactId": "3a3f9448d0abf53647ebca9d41896d78bc9ddf18e0cd9b53af676285cc9531d5",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 729
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:4:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:4:fact-1"
               }
             }
           ],
@@ -208,15 +224,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-octopuss-garden-2026-08-25",
-                  "snapshotHash": "1a6fed6791d0721194416ec0f24598611e48af3f167782ebb3eee89adfeeb573"
+                  "snapshotHash": "1a6fed6791d0721194416ec0f24598611e48af3f167782ebb3eee89adfeeb573",
+                  "artifactId": "0c865924ef3eca116ae9be6a8e6a31c08078b0a67ef481a85ac38988a00f7fe8",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 1063
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:5:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:5:fact-1"
               }
             }
           ],
@@ -253,15 +273,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-i-want-you-shes-so-heavy-2026-08-25",
-                  "snapshotHash": "509e16e4c54c7b03158dfeaf7940d03fa4dc4981341f2c9f805975aaee32d2cc"
+                  "snapshotHash": "509e16e4c54c7b03158dfeaf7940d03fa4dc4981341f2c9f805975aaee32d2cc",
+                  "artifactId": "54c0c8fe04591ec09a2372cababaf88f871e1a0d60cfde32f91c83c2a27e5eed",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 649
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:6:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:6:fact-1"
               }
             }
           ],
@@ -298,15 +322,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-here-comes-the-sun-2026-08-25",
-                  "snapshotHash": "20b8a1b5a4e9a1aa61475d5888cd141ac8f2ec7b6681a0801e31151970e6512d"
+                  "snapshotHash": "20b8a1b5a4e9a1aa61475d5888cd141ac8f2ec7b6681a0801e31151970e6512d",
+                  "artifactId": "69d166e202ef13ce78436f8272c81c80cff9cb69723faff659243d04306ac6f3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 590
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:7:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:7:fact-1"
               }
             }
           ],
@@ -343,15 +371,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-because-2026-08-25",
-                  "snapshotHash": "7d6b2dd5ab8054b36a2aca4408f32ddc830da62e2b5f8c401b2b00018cd84ef1"
+                  "snapshotHash": "7d6b2dd5ab8054b36a2aca4408f32ddc830da62e2b5f8c401b2b00018cd84ef1",
+                  "artifactId": "858dcaef84ff62f2e9575e8e723bb347dd817b662255d0249cf383620a4c1d9a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 854
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:8:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:8:fact-1"
               }
             }
           ],
@@ -388,15 +420,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-you-never-give-me-your-money-2026-08-25",
-                  "snapshotHash": "344061f68fc495c93f590c494dd3fe2f29fb050ae90c8e2d27a04cf4661d7ad3"
+                  "snapshotHash": "344061f68fc495c93f590c494dd3fe2f29fb050ae90c8e2d27a04cf4661d7ad3",
+                  "artifactId": "71a73a705320f69aafd6ad99baaa3e20668dcb8c90f68760ad7e57e7a1409417",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 787
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:9:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:9:fact-1"
               }
             }
           ],
@@ -433,15 +469,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-sun-king-2026-08-25",
-                  "snapshotHash": "715ca95f1b7c956d8d4f511b73b99ee6afcb2a884a3f4a26387508839fe49bd9"
+                  "snapshotHash": "715ca95f1b7c956d8d4f511b73b99ee6afcb2a884a3f4a26387508839fe49bd9",
+                  "artifactId": "8ddf884a6f9fc857d71ea286c9d95831b0e58f5f094f5386930af0964974012d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 705
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:10:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:10:fact-1"
               }
             }
           ],
@@ -478,15 +518,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-mean-mr-mustard-2026-08-25",
-                  "snapshotHash": "74acc87c1bb1a329eed2f4215c76147d3f60302f5ff4926bb80333103274141e"
+                  "snapshotHash": "74acc87c1bb1a329eed2f4215c76147d3f60302f5ff4926bb80333103274141e",
+                  "artifactId": "5f2fef68d7be0a6fe7d7638e8ef70bd35acbcda2c91f46a29dbf6e5446cdad42",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 715
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:11:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:11:fact-1"
               }
             }
           ],
@@ -523,15 +567,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-polythene-pam-2026-08-25",
-                  "snapshotHash": "70a2ff21a3355e43a486ec42a4ce71e2714269b4482d3f9ec2f70a1d8cbbf658"
+                  "snapshotHash": "70a2ff21a3355e43a486ec42a4ce71e2714269b4482d3f9ec2f70a1d8cbbf658",
+                  "artifactId": "069710c2702c099ceecc36e0e304fc70cff92656535359c6e88a7df056b7d672",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 772
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:12:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:12:fact-1"
               }
             }
           ],
@@ -568,15 +616,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-she-came-in-through-the-bathroom-window-2026-08-25",
-                  "snapshotHash": "46db50e94a8cfb97bbfaa9eab9eaae7608185fac8dea2fcf9865e72ebd2f7fd9"
+                  "snapshotHash": "46db50e94a8cfb97bbfaa9eab9eaae7608185fac8dea2fcf9865e72ebd2f7fd9",
+                  "artifactId": "f590e280f714390584c8b293bae7e00433fabc21251128017d3f43a5895e453a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 715
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:13:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:13:fact-1"
               }
             }
           ],
@@ -613,15 +665,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-golden-slumbers-2026-08-25",
-                  "snapshotHash": "a591556b37748d7e14c540bcc3bb5036d44e556ddcf6146566f8113be1405c95"
+                  "snapshotHash": "a591556b37748d7e14c540bcc3bb5036d44e556ddcf6146566f8113be1405c95",
+                  "artifactId": "6a764551a29707b5d04d9b92b2473d2b609998caf84ea656fd8ecce41e8f4c14",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 903
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:14:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:14:fact-1"
               }
             }
           ],
@@ -658,15 +714,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-carry-that-weight-2026-08-25",
-                  "snapshotHash": "a6e778f0ab1990574d90cdc80f81a9fdd36c5cd119b178e1a7b5841a2427f314"
+                  "snapshotHash": "a6e778f0ab1990574d90cdc80f81a9fdd36c5cd119b178e1a7b5841a2427f314",
+                  "artifactId": "9443f10c7299348460f32bf72c8c1c1943499af68136601d8d989d309bca8891",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 762
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:15:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:15:fact-1"
               }
             }
           ],
@@ -703,15 +763,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-the-end-2026-08-25",
-                  "snapshotHash": "0edc62b64d0d4cecfec3c500ad444fb996650f504d386d2072f1f0794c501148"
+                  "snapshotHash": "0edc62b64d0d4cecfec3c500ad444fb996650f504d386d2072f1f0794c501148",
+                  "artifactId": "1cd40dc495a353b6fdc9fbc36b6cd20fc7c4684b005864f7dea291ec07544af6",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 789
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:16:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:16:fact-1"
               }
             }
           ],
@@ -748,15 +812,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "beatles-official-her-majesty-2026-08-25",
-                  "snapshotHash": "b8243e1e64d63d8239738d9fd70a1b3a6fe22f6d7886f2b2aabb616c435d4b93"
+                  "snapshotHash": "b8243e1e64d63d8239738d9fd70a1b3a6fe22f6d7886f2b2aabb616c435d4b93",
+                  "artifactId": "794b4f092e2f2063017de6991d58db9b9776f09f491037213f0de9a71bd94490",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 912
+                  }
                 }
               ],
+              "claimId": "005-the-beatles-abbey-road-1955f3c5:1:17:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-                "reviewedAt": "2026-08-25",
-                "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+                "recordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+                "decisionId": "005-the-beatles-abbey-road-1955f3c5:1:17:fact-1"
               }
             }
           ],
@@ -784,9 +852,9 @@
         "model": null
       },
       "reviewMetadata": {
-        "reviewedAt": "2026-08-25",
-        "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
-        "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
+        "reviewedAt": "2026-08-25T04:19:03Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review 17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49."
       }
     }
   }

@@ -32,13 +32,13 @@ async function makeFixture(prefix = 'track-objects-') {
   const pilot = JSON.parse(await readFile(pilotPath, 'utf8'));
   for (const entry of Object.values(pilot.entries)) {
     for (const track of entry.trackEntries ?? []) {
-      for (const fact of track.verifiedFacts ?? []) {
-        fact.semanticReview = {
-          reviewer: 'test-reviewer',
-          reviewedAt: '2026-08-25T00:00:00Z',
-          semanticDecision: 'supported',
-          decision: 'supported',
-        };
+      // Object-store tests isolate storage behavior; provenance is covered by
+      // its own suite. Do not forge review approval for mutable fixtures.
+      track.evidenceLevel = 'unresearched';
+      track.verifiedFacts = [];
+      track.sourceRefs = [];
+      if (!track.limitations?.length) {
+        track.limitations = ['Test fixture intentionally omits researched claims.'];
       }
     }
     entry.contentHash = '';
@@ -77,8 +77,8 @@ async function mutateOneDraft(dir, suffix) {
   const pilot = JSON.parse(await readFile(pilotPath, 'utf8'));
   const albumId = Object.keys(pilot.entries).sort()[0];
   const entry = pilot.entries[albumId];
-  const track = entry.trackEntries.find((candidate) => candidate.evidenceLevel === 'limited');
-  track.listeningNotes = `${track.listeningNotes} ${suffix}`.trim();
+  const track = entry.trackEntries[0];
+  track.limitations = [...(track.limitations ?? []), suffix];
   entry.editionNumber += 1;
   entry.changeNote = `Test-only ${suffix}`;
   entry.contentHash = '';

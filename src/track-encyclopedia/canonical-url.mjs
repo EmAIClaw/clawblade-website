@@ -16,7 +16,15 @@ export function canonicalizeSourceUrl(url) {
   parsed.hash = '';
 
   let pathname = parsed.pathname || '/';
-  pathname = pathname.replace(/\/{2,}/g, '/');
+  // Wayback replay paths embed the original absolute URL after the capture
+  // token. Those two slashes are opaque replay data, not redundant path
+  // separators, and collapsing them produces a non-replayable final URL.
+  const archiveScheme = pathname.match(/^(\/web\/[^/]+\/https?:)\/\/(.*)$/);
+  if (archiveScheme) {
+    pathname = `${archiveScheme[1]}//${archiveScheme[2].replace(/\/{2,}/g, '/')}`;
+  } else {
+    pathname = pathname.replace(/\/{2,}/g, '/');
+  }
   if (pathname.length > 1) pathname = pathname.replace(/\/+$/, '');
   parsed.pathname = pathname;
 

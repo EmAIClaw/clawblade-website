@@ -1,0 +1,585 @@
+{
+  "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+  "editionNumber": 2,
+  "published": false,
+  "changeNote": "Correct rank-7 candidate1/candidate2 provenance by binding final claims and actual archived source text to a separate immutable review record",
+  "trackEntries": [
+    {
+      "trackTitle": "Second Hand News",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says that for \"Second Hand News\", Lindsey Buckingham replaced John McVie's original bass part with his own simple quarter-note bassline while John McVie was on vacation, marking the start of Buckingham calling the shots in the band.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Originally, John McVie had an amazing, flowing and melodic bass part. Lindsey had a problem with that. It took him a while, but eventually, while John was on vacation, he put down his own bassline, one that was very simple, just quarter notes. “It worked, though. Lindsey had a grand plan in his head, and he got his way. This was the start of him really calling the shots.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "3c5330e72c0ddbd2a96c84db3f8aba01b1ea41ef8c627f413db47c4e2a659965",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 873
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:1:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Dreams",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says Stevie Nicks wrote \"Dreams\" in a spare room called Sly Stone's Pit, and that the song's rhythm track was built using an eight-bar loop of Mick Fleetwood's drumming to create a hypnotic effect.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "There was a spare room down the hall called Sly Stone’s Pit, and it had a piano. This was like heaven to Stevie. She spent hours in that place, just writing simple, three-chord songs. One day she came out the pit with something called Dreams. “Once Stevie and Lindsey figured the song out, we had some tempo and groove problems. Things felt fine, but they had to be perfect - the rhythm had to be rock solid. Mick Fleetwood is a great drummer, one of the best, but he’d shift his parts and dynamics around - every drummer does. “We made an eight-bar loop of Mick's playing, which created this fantastic, deep hypnotic effect.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "006fa6a9615793f319f214ca6bdb4ac5a5cd93e951587aa5540d3a768f614ed3",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 1281,
+                "end": 1906
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:2:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Never Going Back Again",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Never Going Back Again\" was originally called \"Brushes\" after a planned brushes snare part, and that he had Lindsey Buckingham's acoustic guitar restrung every 20 minutes to capture the brightest string sound for each picking part.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Lindsey had a pretty cool song called ‘Brushes’ – we called it this because we were going to have Mick do a press roll on his snare with brushes. That idea kind of went away. “A lot of our focus shifted to Lindsey and his acoustic guitar. I noticed that anytime he played, there was a big difference in how bright his strings sounded after just 20 minutes. So I said, ‘Can we restring your guitar every 20 minutes?’ I wanted to get the best sound on every one of his picking parts. He said sure. “It took a long time to nail everything – all day, actually – and I’m sure the roadies wanted to kill me. restringing the guitar three times every hour was a bitch.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "e291fea975550cee7072a45d64716f2b454932f42a2b0f1d78fc391ce9731ced",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2260,
+                "end": 2920
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:3:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Don't Stop",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Don't Stop\" was Christine McVie's song and improved dramatically when she suggested making it a duet with Lindsey Buckingham, and that the band kept changing their background vocals at the end.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "This was Christine’s song, and she loved it, so that's all that matters. What did improve it dramatically was when she said to Lindsey, ‘It doesn’t sound that great when I’m singing it myself. Why don’t we make it a duet?’ That opened things up. “The end is funny. The band kept changing their background vocals. Anytime I thought I knew what they’d sing, they’d do something different. That’s a hallmark of classic Fleetwood Mac, their backgrounds. They’re incredible singers.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "571caeedc28bd6b546276c5d9f048a113effee90d75e52a05175d6862b07a5c4",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3571,
+                "end": 4048
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:4:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Go Your Own Way",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Go Your Own Way\" began with Lindsey Buckingham beating his acoustic guitar and screaming, and that the two guitar solos were comped from seven or eight tracks and sound seamless as if totally composed, but were not.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Lindsey was beating his acoustic guitar as hard as he could and screaming his lungs out. The first time I heard it, I thought, What the heck is going on? [laughs] It sounded so non-musical. I didn’t know if anything would come from it. “As the months went on, we filled it out and it became a song. Lindsey figured out some fantastic guitar parts to lay down. In particular, he did an acoustic part on the 1, a flourish overdub, and that really drove the rhythm. “There’s two guitar solos, the tag and the first one. For both, Lindsey didn’t know what he wanted - the song had progressed from an acoustic piece into this searing electric rocker. I gave him seven or eight tracks and he comped the solos. They sound seamless, as if they were totally composed, but they weren’t.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f4c0c5421e3fa4dcd20e995cc9904cc2deae7306303f3a496bf40a9eb0157359",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4143,
+                "end": 4919
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:5:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Songbird",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Songbird\" was recorded as a concert recital at Zellerbach Auditorium, with Christine McVie playing a nine-foot Steinway piano on stage using 15 tracks, two close mics and the rest distant.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Christine started playing something she had written on the piano one day, and it floored me. It was so beautiful and special, so personal – I knew I had to get just the right recording of it. “Before Rumours, I had worked recorded an album with Joni Mitchell at the Berkeley Community Theatre. I thought doing a similar kind of concert recital recording was perfect for Songbird. Christine and the whole band loved the idea. “The Berkley Community Theatre wasn’t available, so we used the Zellerbach Auditorium, the same kind of vibe. Christine sat on the stage and played a nine-foot Steinway, and she sounded magnificent. I used 15 tracks for the piano – two close mics and the rest were distant mics.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "730fb1d185d10d30dbccfc2f0e0ba2fd0e89ea006cd37e0bfeff8e7eb4fb1ed9",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5680,
+                "end": 6383
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:6:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "The Chain",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"The Chain\" was the first song worked on, began as a Christine McVie piece called \"Keep Me There\", and that Lindsey Buckingham reconnected the sections three weeks before the album wrapped by taking the verses apart, playing a Dobro, and asking Mick Fleetwood to play a straight quarter-note kick beat.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "The very first song we worked on. It began as one of Christine’s things, something called Keep Me There. I remember Richard and I almost got fired while trying to record it because we spent five days on drum sounds – the band thought we were clueless. “They ran through it one day and John McVie did that incredible bass line – just like that it just came to him. What a part! Next, the band began playing the tag at the end, that big rocking section. Amazing. Then, out of nowhere, Lindsey played a screaming guitar solo. Really exciting stuff. Finally, three weeks before we wrapped the album, Lindsey figured out how to connect everything “Over the next nine months, we’d revisit the song. There was great playing on tape, but it still wasn’t right. Finally, three weeks before we wrapped the album, Lindsey figured out how to connect everything. He took the verses apart, played a Dobro and asked Mick to play a straight quarter-note beat on the kick.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "e8c03f61cb3b3591ff7e0d9c6545f41e37ceb09567778eaf34faabe441e5635a",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 6536,
+                "end": 7491
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:7:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "You Make Loving Fun",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"You Make Loving Fun\" was originally played on Christine McVie's Yamaha electric piano but was switched to a Clavinet through a wah-wah pedal, with Mick Fleetwood working the wah pedal by hand while McVie played.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Originally, it was done on Christine’s Yamaha electric piano. We wanted it to sound nastier and dirtier, though, because everybody was playing very hard. I made a remark about a Clavinet, and one of the engineers said there was one in Sly’s room. We ran out and grabbed it. To accentuate the ‘Clav-iness,’ we put it through a wah-wah pedal “To accentuate the ‘Clav-iness,’ we put it through a wah-wah pedal. Christine couldn’t play her keyboard part and work the wah at the same time, so Mick got down on his hands and knees and worked the pedal while Christine played. Being a drummer, he knew just what kind of rhythm it needed.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f5663236a2cebfa92311cf4c5821323c92553e141368a9c59bf6138bd64d966f",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7999,
+                "end": 8629
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:8:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "I Don't Want to Know",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"I Don't Want to Know\" replaced \"Silver Springs\" on the album because Silver Springs was too long, and that the band cut the track without Stevie Nicks, who added her vocals later.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "We had a song called Silver Springs that couldn’t make the record because it was too long. That broke Stevie’s heart – she loved Silver Springs so much. But we needed something shorter, a little uptempo, and out came this kind of country thing she and Lindsey had been doing live. “We cut the song with Lindsey and the others – Stevie wasn’t there that day – and Stevie came in later and sang her parts. It might have been the easiest song on the record. We were done with it fast.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f6e56b0e513054bdaac8e06052555308f0895ca2afec2f0a56613ab6365cf07d",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 9124,
+                "end": 9605
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:9:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Oh Daddy",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Oh Daddy\" was recorded early in the sessions right after \"The Chain\", with Christine McVie on organ and Lindsey Buckingham on guitar (likely a Strat), and that a Stratoblaster boost device built by guitar designer Rick Turner was used to make parts sound edgier.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Another early one. I think we did Oh Daddy right after The Chain. Christine played the organ and Lindsey had some wonderful guitar lines that he put down. I think he played a Strat on this song, but it could have been a Les Paul. “We had something called a Stratoblaster that we used. It fit inside the guitar and added about a 15dB boost. I had the guitar designer Rick Turner build me one and stick it inside a little metal box. I kept it on the console and I could feed anything through it and give it a kick, just make it sound edgier and nastier.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "b9bfd9d5e2a0163b2a55d22365c811de8feff4d99319acadd8d40f4acda39b41",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 9827,
+                "end": 10378
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:10:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Gold Dust Woman",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Co-producer Ken Caillat says \"Gold Dust Woman\" was edited down from Stevie Nicks's original 10-to-12-minute version with endless verses, and that Nicks objected to the cuts because specific verses had personal meaning to her.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "It was typical Stevie – most of her songs, in their inception, are close to 10 or 12 minutes long, with endless verses and epic stories. “My job became one of editing, taking all of these sections and making them flow, cutting out the fat. Stevie would go crazy – ‘Oh, that verse was about my mother! That part was about my dog!’ [laughs] These things would mean something to her, but they had to work for the listener.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "a7a30481368b2eec7d5298aa84fd6c6a612d7ba1b7992eade3f7aecce1b3667e",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 11273,
+                "end": 11692
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-1",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-1"
+          }
+        },
+        {
+          "claim": "Co-producer Ken Caillat says that at the end of \"Gold Dust Woman\", Stevie Nicks did coyote-like howling, and Mick Fleetwood broke sheets of glass in a miked room to accentuate her vocals.",
+          "sourceRefs": [
+            {
+              "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+              "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+              "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
+              "sourceIdentity": "musicradar.com|Ken Caillat Rumours track-by-track interview",
+              "extract": "Stevie had a lot of Courvoisier in her, and she did this incredible coyote-like howling at the end “The song grew more evil as we built it. I called over to SIR and they send over a bunch of weird instruments, like an electric harpsichord with a jet phaser – that created a cool, whooshing sound. We weren’t looking for musicality, we were looking for accents, mood. We marked the keyboard with tape so Mick could play the right notes. “Stevie had a lot of Courvoisier in her, and she did this incredible coyote-like howling at the end. She had become this witch she was always writing about. To accentuate her vocals, Mick went into this room we had miked up, and he broke sheets of glass. He was wearing goggles and coveralls – it was pretty funny. He just went mad, bashing glass with this big hammer.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "0322fbbdac1a42568b0ce6b42be29475052c32944c0263b34cf67b5a0bd0d40c",
+              "artifactId": "72cabe91f5af5c5f6d8c61df1c0c46a15b6926157df8d6ebe762d851b0277f05",
+              "section": {
+                "kind": "character-offsets",
+                "start": 11693,
+                "end": 12497
+              }
+            }
+          ],
+          "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-2",
+          "semanticReview": {
+            "recordId": "da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b",
+            "decisionId": "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-2"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed production/session statements are retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "sourceRefs": [
+        {
+          "label": "MusicRadar track-by-track interview with co-producer Ken Caillat",
+          "title": "Fleetwood Mac Rumours track-by-track with co-producer Ken Caillat — MusicRadar (2012)",
+          "url": "https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-08-25T00:00:00Z",
+    "generator": "manual-web-researched-rank7-authoring",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-08-25T04:31:51Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review da4fbea508d3a8884bf1501c3bd017889d619008f6747e387ed4eb5355b24b4b."
+  },
+  "contentHash": "d56700086a2d6d18"
+}

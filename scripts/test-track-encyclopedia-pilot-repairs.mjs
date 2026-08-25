@@ -26,9 +26,9 @@ assert.ok(names.length >= pilotIds.length, 'at least the three pilot authoring f
 for (const id of pilotIds) {
   assert.ok(entries[id], `pilot album ${id} must have an authoring entry`);
 }
-assert.equal(entries[marvinId].editionNumber, 4, 'Marvin rank-1 completion requires a new draft edition');
-assert.equal(entries[lizId].editionNumber, 4, 'Liz rank-54 completion requires a new draft edition');
-assert.equal(entries[stoogesId].editionNumber, 3, 'Fun House completion requires a new draft edition');
+assert.equal(entries[marvinId].editionNumber, 5, 'Marvin provenance migration requires a new draft edition');
+assert.equal(entries[lizId].editionNumber, 5, 'Liz provenance migration requires a new draft edition');
+assert.equal(entries[stoogesId].editionNumber, 4, 'Fun House provenance migration requires a new draft edition');
 
 const marvin = new Map(entries[marvinId].trackEntries.map((track) => [track.trackTitle, track]));
 assert.equal(marvin.size, 9, 'rank-1 edition must preserve exactly nine catalog tracks');
@@ -49,11 +49,11 @@ for (const title of ['Mercy Mercy Me (The Ecology)', 'Inner City Blues (Make Me 
   assert.equal(track.listeningNotes, '', `${title} unsupported listening prose must be removed`);
 }
 assert.match(entries[marvinId].changeNote, /errat|evidence|unsupported/i);
-assert.match(entries[marvinId].reviewMetadata.notes, /edition 1.*Songfacts.*AllMusic.*Wikipedia/i);
+assert.match(entries[marvinId].reviewMetadata.notes, /immutable independent review/i);
 
 const liz = new Map(entries[lizId].trackEntries.map((track) => [track.trackTitle, track]));
 assert.equal(liz.size, 18, 'rank-54 edition must preserve exactly eighteen catalog tracks');
-const lizSnapshotIds = new Set();
+const lizArtifactIds = new Set();
 for (const track of liz.values()) {
   assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: rank-54 completion requires documented track-specific evidence`);
   assert.equal(track.verifiedFacts.length, 1, `${track.trackTitle}: retain one narrowly scoped verified fact`);
@@ -61,10 +61,11 @@ for (const track of liz.values()) {
   assert.equal(track.listeningNotes, '', `${track.trackTitle}: unsupported listening prose must be absent`);
   const ref = track.verifiedFacts[0].sourceRefs[0];
   assert.match(ref.url, /^https:\/\/www\.rollingstone\.com\/music\/music-features\/liz-phair-breaks-down-exile-in-guyville-track-by-track-628853$/);
-  assert.ok(ref.snapshotId, `${track.trackTitle}: claim evidence requires a snapshot`);
-  lizSnapshotIds.add(ref.snapshotId);
+  assert.match(ref.artifactId ?? '', /^[a-f0-9]{64}$/, `${track.trackTitle}: claim evidence requires a source artifact`);
+  assert.equal(ref.section?.kind, 'character-offsets', `${track.trackTitle}: claim evidence requires exact offsets`);
+  lizArtifactIds.add(ref.artifactId);
 }
-assert.equal(lizSnapshotIds.size, 18, 'rank-54 tracks must retain independent per-track snapshots without borrowing');
+assert.equal(lizArtifactIds.size, 1, 'rank-54 may share one genuinely track-by-track fetched artifact with distinct excerpts');
 const stratford = liz.get('Stratford-on-Guy');
 assert.equal(stratford.evidenceLevel, 'documented');
 assert.match(stratford.verifiedFacts[0].claim, /perspective shift/i);
@@ -75,7 +76,7 @@ assert.equal(neverSaid.discoveryConnections?.length ?? 0, 0);
 
 const stooges = new Map(entries[stoogesId].trackEntries.map((track) => [track.trackTitle, track]));
 assert.equal(stooges.size, 7, 'rank-92 edition must preserve exactly seven catalog tracks');
-const stoogesSnapshotIds = new Set();
+const stoogesArtifactIds = new Set();
 for (const track of stooges.values()) {
   assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: rank-92 completion requires documented track-specific evidence`);
   assert.equal(track.verifiedFacts.length, 1, `${track.trackTitle}: retain one narrowly scoped verified fact`);
@@ -84,10 +85,11 @@ for (const track of stooges.values()) {
   const ref = track.verifiedFacts[0].sourceRefs[0];
   assert.match(ref.url, /^https:\/\//, `${track.trackTitle}: evidence URL must use HTTPS`);
   assert.ok(ref.extract, `${track.trackTitle}: evidence requires a retained verbatim excerpt`);
-  assert.ok(ref.snapshotId, `${track.trackTitle}: claim evidence requires a snapshot`);
-  stoogesSnapshotIds.add(ref.snapshotId);
+  assert.match(ref.artifactId ?? '', /^[a-f0-9]{64}$/, `${track.trackTitle}: claim evidence requires a source artifact`);
+  assert.equal(ref.section?.kind, 'character-offsets', `${track.trackTitle}: claim evidence requires exact offsets`);
+  stoogesArtifactIds.add(ref.artifactId);
 }
-assert.equal(stoogesSnapshotIds.size, 7, 'rank-92 tracks must retain independent per-track snapshots without borrowing');
+assert.equal(stoogesArtifactIds.size, 2, 'rank-92 uses two fetched track-specific source artifacts');
 
 for (const [albumId, entry] of Object.entries(entries)) {
   for (const track of entry.trackEntries) {
@@ -102,11 +104,15 @@ for (const [albumId, entry] of Object.entries(entries)) {
       assert.ok(track.limitations?.length);
     }
     for (const fact of track.verifiedFacts ?? []) {
-      assert.equal(fact.semanticReview?.decision, 'supported', `${albumId}/${track.trackTitle}: semantic review is required`);
-      assert.ok(fact.semanticReview?.reviewer);
-      assert.ok(fact.semanticReview?.reviewedAt);
+      assert.match(fact.claimId ?? '', new RegExp(`^${albumId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}:`), `${albumId}/${track.trackTitle}: stable claim ID is required`);
+      assert.match(fact.semanticReview?.recordId ?? '', /^[a-f0-9]{64}$/, `${albumId}/${track.trackTitle}: immutable semantic review is required`);
+      assert.equal(fact.semanticReview?.decisionId, fact.claimId);
+      const review = JSON.parse(await readFile(path.join(dataDir, 'review-artifacts', `${fact.semanticReview.recordId}.json`), 'utf8'));
+      const decision = review.decisions.find((item) => item.decisionId === fact.semanticReview.decisionId);
+      assert.equal(decision?.decision, 'supported', `${albumId}/${track.trackTitle}: independent review must support the claim`);
       for (const ref of fact.sourceRefs ?? []) {
-        assert.ok(ref.snapshotId, `${albumId}/${track.trackTitle}: claim evidence requires a snapshot`);
+        assert.match(ref.artifactId ?? '', /^[a-f0-9]{64}$/, `${albumId}/${track.trackTitle}: claim evidence requires a source artifact`);
+        assert.equal(ref.section?.kind, 'character-offsets');
       }
     }
   }
@@ -120,4 +126,4 @@ for (const [albumId, entry] of Object.entries(entries)) {
   assert.deepEqual(actual, expected, `${albumId}: catalog identity must be exact`);
 }
 
-console.log(`All pilot repair acceptance tests passed for ${names.length} authoring file(s) (${pilotIds.length} completed pilots + candidate drafts).`);
+console.log(`All provenance-migration acceptance tests passed for ${names.length} authoring file(s) (${pilotIds.length} completed pilots).`);

@@ -7,10 +7,10 @@
   "entries": {
     "002-the-beach-boys-pet-sounds-eabcc325": {
       "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
-      "editionNumber": 1,
+      "editionNumber": 2,
       "published": false,
-      "contentHash": "b09e0a3f6b9d372f",
-      "changeNote": "Complete all 13 Pet Sounds tracks with retained track-specific first-person interview evidence from Brian Wilson 1996 David Leaf interview",
+      "contentHash": "087bfa79d706c8ae",
+      "changeNote": "Migrate rank-2 evidence to fetched source artifacts and immutable independent review provenance",
       "trackEntries": [
         {
           "trackTitle": "Wouldn't It Be Nice",
@@ -28,14 +28,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-wouldnt-it-be-nice-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 685
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1"
               }
             }
           ],
@@ -73,14 +77,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-you-still-believe-in-me-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1250,
+                    "end": 1770
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1"
               }
             }
           ],
@@ -118,14 +126,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-thats-not-me-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1787,
+                    "end": 2092
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1"
               }
             }
           ],
@@ -163,15 +175,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-dont-talk-2026-08-25",
-                  "snapshotHash": "15310aa0c6ebad36389bd09b3bc08e092aaa517c2f0f5449f3f613f16e5f897e"
+                  "snapshotHash": "15310aa0c6ebad36389bd09b3bc08e092aaa517c2f0f5449f3f613f16e5f897e",
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2454,
+                    "end": 2665
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1"
               }
             }
           ],
@@ -209,14 +225,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-waiting-for-the-day-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2912,
+                    "end": 3217
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1"
               }
             }
           ],
@@ -254,14 +274,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-lets-go-away-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3245,
+                    "end": 3608
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1"
               }
             }
           ],
@@ -299,14 +323,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-sloop-john-b-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6168,
+                    "end": 6412
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1"
               }
             }
           ],
@@ -344,14 +372,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-god-only-knows-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6430,
+                    "end": 6609
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1"
               }
             }
           ],
@@ -389,15 +421,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-i-know-theres-an-answer-2026-08-25",
-                  "snapshotHash": "874c632eac7607bcc22afb9a0cb27523c4ade77cf9d22377b21c96e369d29144"
+                  "snapshotHash": "874c632eac7607bcc22afb9a0cb27523c4ade77cf9d22377b21c96e369d29144",
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5755,
+                    "end": 6003
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1"
               }
             }
           ],
@@ -435,14 +471,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-here-today-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7429,
+                    "end": 7719
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1"
               }
             }
           ],
@@ -480,14 +520,18 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-wasnt-made-for-these-times-2026-08-25"
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7838,
+                    "end": 8059
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:11:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:11:fact-1"
               }
             }
           ],
@@ -525,15 +569,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-pet-sounds-instrumental-2026-08-25",
-                  "snapshotHash": "05213d4042f3788d790fc50cbf1aa077a3854e0ac40ee2d5ff93d127ffc532ff"
+                  "snapshotHash": "05213d4042f3788d790fc50cbf1aa077a3854e0ac40ee2d5ff93d127ffc532ff",
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 8421,
+                    "end": 8670
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1"
               }
             }
           ],
@@ -571,15 +619,19 @@
                   "extractType": "verbatim",
                   "evidenceStatus": "retrieved",
                   "checkedAt": "2026-08-25",
-                  "snapshotId": "brian-wilson-interview-caroline-no-2026-08-25",
-                  "snapshotHash": "f617f9869377c0fe12c67fe9e417350a35e975ded0dcb19e08f96f082866a961"
+                  "snapshotHash": "f617f9869377c0fe12c67fe9e417350a35e975ded0dcb19e08f96f082866a961",
+                  "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 8764,
+                    "end": 9240
+                  }
                 }
               ],
+              "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1",
               "semanticReview": {
-                "decision": "supported",
-                "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-                "reviewedAt": "2026-08-25",
-                "notes": "Actual retained page and snapshot exact containment, canonical URL and snapshot identity, project hash reproduction, semantic scope, catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+                "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+                "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1"
               }
             }
           ],
@@ -608,9 +660,9 @@
         "model": null
       },
       "reviewMetadata": {
-        "reviewedAt": "2026-08-25",
-        "reviewer": "independent evidence audit audit-002-petsounds-20260825-semantic-final",
-        "notes": "All 13 claims supported after narrowing track 9 and repairing exact retained excerpts for tracks 4, 9, 12, and 13. No critical or important findings remain."
+        "reviewedAt": "2026-08-25T04:00:41Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review 80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5."
       }
     }
   }

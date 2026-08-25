@@ -1,7 +1,7 @@
 // editions.mjs — Versioned, immutable edition management for track-encyclopedia entries.
 // Published editions cannot be overwritten; corrections create a new edition.
 
-import { open, readFile, rename, mkdir, rm } from 'node:fs/promises';
+import { link, open, readFile, rename, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { validateEntry } from './validation.mjs';
 import { computeTrackEncyclopediaContentHash } from './hash.mjs';
@@ -26,9 +26,16 @@ export function createEntry({ albumId, editionNumber, trackEntries, generationMe
 }
 
 export class EditionStore {
-  constructor(directory, { evidenceSnapshots = null, allowLegacyHistory = false } = {}) {
+  constructor(directory, {
+    evidenceSnapshots = null,
+    sourceArtifacts = null,
+    reviewArtifacts = null,
+    allowLegacyHistory = false,
+  } = {}) {
     this.directory = directory;
     this.evidenceSnapshots = evidenceSnapshots;
+    this.sourceArtifacts = sourceArtifacts;
+    this.reviewArtifacts = reviewArtifacts;
     this.allowLegacyHistory = allowLegacyHistory;
     this._cache = new Map(); // albumId -> Map(editionNumber -> entry)
   }
@@ -68,7 +75,11 @@ export class EditionStore {
         const filePath = path.join(this.directory, 'editions', albumId, file);
         const data = JSON.parse(await readFile(filePath, 'utf8'));
         try {
-          validateEntry(data, { evidenceSnapshots: this.evidenceSnapshots });
+          validateEntry(data, {
+            evidenceSnapshots: this.evidenceSnapshots,
+            sourceArtifacts: this.sourceArtifacts,
+            reviewArtifacts: this.reviewArtifacts,
+          });
         } catch (error) {
           if (!this.allowLegacyHistory) throw error;
           validateEntry(data, {
@@ -105,7 +116,11 @@ export class EditionStore {
     }
 
     // Validate the entry
-    validateEntry(entry, { evidenceSnapshots: this.evidenceSnapshots });
+    validateEntry(entry, {
+      evidenceSnapshots: this.evidenceSnapshots,
+      sourceArtifacts: this.sourceArtifacts,
+      reviewArtifacts: this.reviewArtifacts,
+    });
 
     editions.set(entry.editionNumber, deepClone(entry));
   }
@@ -116,7 +131,11 @@ export class EditionStore {
 
   replaceDraft(entry) {
     assertSafeAlbumId(entry.albumId);
-    validateEntry(entry, { evidenceSnapshots: this.evidenceSnapshots });
+    validateEntry(entry, {
+      evidenceSnapshots: this.evidenceSnapshots,
+      sourceArtifacts: this.sourceArtifacts,
+      reviewArtifacts: this.reviewArtifacts,
+    });
     const editions = this._cache.get(entry.albumId);
     const existing = editions?.get(entry.editionNumber);
     if (!existing) throw new Error(`No draft edition ${entry.editionNumber} exists for ${entry.albumId}.`);
@@ -221,7 +240,8 @@ async function writeJsonNewOnly(filePath, value) {
     await handle.close();
   }
   try {
-    await rename(tempPath, filePath);
+    await link(tempPath, filePath);
+    await rm(tempPath, { force: true });
   } catch (error) {
     await rm(tempPath, { force: true });
     if (error?.code === 'EEXIST') {

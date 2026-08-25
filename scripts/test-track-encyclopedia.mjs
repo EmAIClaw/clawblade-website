@@ -24,6 +24,8 @@ import {
   computeContentHash,
 } from '../src/track-encyclopedia/editions.mjs';
 import { canonicalStringify } from '../src/track-encyclopedia/hash.mjs';
+import { readSourceArtifacts } from '../src/track-encyclopedia/source-artifacts.mjs';
+import { readReviewArtifacts } from '../src/track-encyclopedia/review-artifacts.mjs';
 import {
   getTrackEncyclopediaModuleIds,
   validateTrackEncyclopediaAlbumEntry,
@@ -698,6 +700,28 @@ await test('published edition remains immutable after disk persistence and reope
   await rm(dir, { recursive: true, force: true });
 });
 
+await test('concurrent edition persistence is new-only and never overwrites a winner', async () => {
+  const dir = await makeTempDir('edition-race-');
+  const first = createEntry({
+    albumId: '007-race-test', editionNumber: 1, trackEntries: [],
+    generationMetadata: { generatedAt: '2026-01-01T00:00:00Z', generator: 'first-writer', model: null },
+    reviewMetadata: { reviewedAt: '2026-01-01T00:00:00Z', reviewer: 'human', notes: 'first' },
+  });
+  const second = createEntry({
+    albumId: '007-race-test', editionNumber: 1, trackEntries: [],
+    generationMetadata: { generatedAt: '2026-01-02T00:00:00Z', generator: 'second-writer', model: null },
+    reviewMetadata: { reviewedAt: '2026-01-02T00:00:00Z', reviewer: 'human', notes: 'second' },
+  });
+  const a = new EditionStore(dir); a.upsert(first);
+  const b = new EditionStore(dir); b.upsert(second);
+  const results = await Promise.allSettled([a.persistAll(), b.persistAll()]);
+  assert.equal(results.filter((result) => result.status === 'fulfilled').length, 1);
+  assert.equal(results.filter((result) => result.status === 'rejected').length, 1);
+  const saved = JSON.parse(await readFile(path.join(dir, 'editions', '007-race-test', 'edition-1.json'), 'utf8'));
+  assert.ok(['first-writer', 'second-writer'].includes(saved.generationMetadata.generator));
+  await rm(dir, { recursive: true, force: true });
+});
+
 await test('EditionStore rejects path traversal album IDs before writing files', async () => {
   const dir = await makeTempDir('edition-traversal-');
   const store = new EditionStore(dir);
@@ -891,9 +915,11 @@ await test('pilot entries file exists and contains 3 albums', async () => {
 await test('pilot entries all pass validation', async () => {
   const data = JSON.parse(await readFile(path.join(process.cwd(), 'src/data/track-encyclopedia/track-encyclopedia.generated.json'), 'utf8'));
   const snapshots = await readEvidenceSnapshotsForTest();
+  const sourceArtifacts = await readSourceArtifacts(path.join(dataDir, 'source-artifacts'));
+  const reviewArtifacts = await readReviewArtifacts(path.join(dataDir, 'review-artifacts'));
   for (const [albumId, entry] of Object.entries(data.entries)) {
     try {
-      validateEntry(entry, { evidenceSnapshots: snapshots });
+      validateEntry(entry, { evidenceSnapshots: snapshots, sourceArtifacts, reviewArtifacts });
     } catch (err) {
       throw new Error(`${albumId}: ${err.message}`);
     }
@@ -965,8 +991,13 @@ await test('Fun House completion removes unsupported listening prose and retains
   for (const track of entry.trackEntries) {
     assert.equal(track.evidenceLevel, 'documented', `${track.trackTitle}: evidence must be documented`);
     assert.equal(track.verifiedFacts?.length, 1, `${track.trackTitle}: one narrow verified fact required`);
-    assert.equal(track.verifiedFacts[0].semanticReview?.decision, 'supported', `${track.trackTitle}: supported semantic review required`);
-    assert.ok(track.verifiedFacts[0].sourceRefs?.[0]?.snapshotId, `${track.trackTitle}: retained snapshot required`);
+    const fact = track.verifiedFacts[0];
+    assert.match(fact.semanticReview?.recordId ?? '', /^[a-f0-9]{64}$/, `${track.trackTitle}: immutable review binding required`);
+    assert.equal(fact.semanticReview?.decisionId, fact.claimId, `${track.trackTitle}: review decision must bind the stable claim ID`);
+    const review = JSON.parse(await readFile(path.join(dataDir, 'review-artifacts', `${fact.semanticReview.recordId}.json`), 'utf8'));
+    const decision = review.decisions.find((item) => item.decisionId === fact.semanticReview.decisionId);
+    assert.equal(decision?.decision, 'supported', `${track.trackTitle}: supported immutable review decision required`);
+    assert.match(fact.sourceRefs?.[0]?.artifactId ?? '', /^[a-f0-9]{64}$/, `${track.trackTitle}: retained source artifact required`);
     assert.equal(track.musicalCharacter, '', `${track.trackTitle}: unsupported musical analysis must be absent`);
     assert.equal(track.listeningNotes, '', `${track.trackTitle}: unsupported listening prose must be absent`);
   }
@@ -1339,8 +1370,26 @@ async function makeTempDir(prefix) {
 }
 
 async function copyPilotFixture(dir) {
-  await cp(path.join(dataDir, 'pilot-entries.json'), path.join(dir, 'pilot-entries.json'));
   await cp(path.join(dataDir, 'evidence-snapshots.json'), path.join(dir, 'evidence-snapshots.json'));
+  const pilot = { schemaVersion: 1, entries: {} };
+  const authoringDir = path.join(dataDir, 'authoring');
+  for (const name of (await readdir(authoringDir)).filter((value) => value.endsWith('.json')).sort()) {
+    const document = JSON.parse(await readFile(path.join(authoringDir, name), 'utf8'));
+    for (const [albumId, sourceEntry] of Object.entries(document.entries ?? {})) {
+      const entry = structuredClone(sourceEntry);
+      entry.contentHash = '';
+      for (const track of entry.trackEntries ?? []) {
+        // These fixtures isolate edition/build mechanics. Provenance behavior
+        // is covered separately; stripping factual claims lets mutation tests
+        // change payloads without forging replacement review approvals.
+        track.evidenceLevel = 'unresearched';
+        track.verifiedFacts = [];
+        track.sourceRefs = [];
+      }
+      pilot.entries[albumId] = entry;
+    }
+  }
+  await writeFile(path.join(dir, 'pilot-entries.json'), `${JSON.stringify(pilot, null, 2)}\n`);
 }
 
 function collectEncyclopediaExtracts(entry) {

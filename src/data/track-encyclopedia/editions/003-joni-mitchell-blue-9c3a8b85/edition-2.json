@@ -1,0 +1,509 @@
+{
+  "albumId": "003-joni-mitchell-blue-9c3a8b85",
+  "editionNumber": 2,
+  "published": false,
+  "contentHash": "26b222e5aef9db55",
+  "changeNote": "Migrate rank-3 evidence to fetched source artifacts and immutable independent review provenance",
+  "trackEntries": [
+    {
+      "trackTitle": "All I Want",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Joni Mitchell said that “All I Want” has more tooth than most of her other early songs and that its meaning is plain-speak rather than hidden between the lines.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Joni on Joni",
+              "url": "https://jonimitchell.com/library/view.cfm?id=4423",
+              "sourceIdentity": "jonimitchell.com|Joni Mitchell Library",
+              "extract": "I like the song. It's got more tooth than most of the other [early] songs. But I don't know what to say about it. It's funny how people keep looking between the lines of songs to see what is hidden there. Well, I'm not an evasive writer. You don't have to dig under the words for the meaning. The meaning is all there. It's very plain-speak.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f063266165362be833b677dc1ce362d19de2b149a2aa84a5057120d2f990e03b",
+              "artifactId": "837c58423c8dddd58c5406a3fdad461d02a5f480e06d572fc4503e3d88a710c0",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 841
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:1:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Joni on Joni",
+          "url": "https://jonimitchell.com/library/view.cfm?id=4423"
+        }
+      ]
+    },
+    {
+      "trackTitle": "My Old Man",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "A 2021 New York Post article identifies “My Old Man” as one of the Blue tracks specifically about Graham Nash and describes it as covering their relationship through domestic bliss that does not need a marriage certificate.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+              "url": "https://jonimitchell.com/library/view.cfm?id=4906",
+              "sourceIdentity": "jonimitchell.com|New York Post archive",
+              "extract": "The \"Blue\" tracks that are specifically about Nash - \"My Old Man\" and \"River\" - cover their relationship from opposite ends of the spectrum: On the former, Mitchell sings about a domestic bliss that doesn't \"need no piece of paper,\" while the latter is a breakup lament about losing \"the best baby that I ever had\".\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "c3b33f59065f7790447d63756a5344e88fb6b4aaeb2f0d51621e8351da2e020d",
+              "artifactId": "63f7570157b5ddb68528397d4a4c77b61c2ee50a5f20b203cee7f70264c14150",
+              "section": {
+                "kind": "character-offsets",
+                "start": 783,
+                "end": 1099
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:2:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+          "url": "https://jonimitchell.com/library/view.cfm?id=4906"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Little Green",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Joni Mitchell said that poverty forced her to give up her daughter for adoption, and identified Kilauren as the daughter she was singing about in “Little Green.”",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Her Back Pages",
+              "url": "https://jonimitchell.com/library/view.cfm?id=503",
+              "sourceIdentity": "jonimitchell.com|Hot Press archive",
+              "extract": "\"All those songs I wrote the way I did because I had to,\" she explains. \"I was emotionally disturbed, again, which brings out the poet in me. I had some hard life changes handed to me. The story is out on the streets now, but what happened was that I had to give up my daughter for adoption. Because of poverty. Not having the money to feed and clothe her and put a roof over her head.\" Kilauren is the daughter Joni was singing about in 'Little Green' from Blue.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "d8d0bac928c18069012fc15168ac0e5aad967be7c7a3abbb19283f9503ceed3a",
+              "artifactId": "1f3d696a3c0454a54f334ddc8188e481fff738f4f3571a48b332a48bc1b38d85",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 963
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:3:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Her Back Pages",
+          "url": "https://jonimitchell.com/library/view.cfm?id=503"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Carey",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Joni Mitchell recounted how she met Cary Raditz in Matala when a stove explosion blew him out of a restaurant doorway.",
+          "sourceRefs": [
+            {
+              "label": "Los Angeles Times",
+              "title": "Joni Mitchell opens up to Cameron Crowe about singing again, lost loves and 50 years of ‘Blue’",
+              "url": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue",
+              "sourceIdentity": "latimes.com|Los Angeles Times",
+              "extract": "Just as we were talking, we heard an explosion, and when we turned around we saw Cary (Raditz) being blown out the door of a restaurant. He was a cook, and he had been lighting the stove and it exploded. I said to Penelope, “What an entrance! I’ve got to go and meet him.”",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "97f17d369983c46f4b1a571371fe0de709a832bb170c2ee50edad3e9ebb25525",
+              "artifactId": "e2cf36e16bcc6fc5fbd624e0108b3b67508f5634e1e129971127c27641ba87f7",
+              "section": {
+                "kind": "character-offsets",
+                "start": 499,
+                "end": 771
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:4:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "sourceRefs": [
+        {
+          "label": "Los Angeles Times",
+          "title": "Joni Mitchell opens up to Cameron Crowe about singing again, lost loves and 50 years of ‘Blue’",
+          "url": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Blue",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "In his 1971 Rolling Stone review, Timothy Crouse described “Blue” as a distillation of pain and the most private of Mitchell’s private songs.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Blue",
+              "url": "https://jonimitchell.com/library/view.cfm?id=252",
+              "sourceIdentity": "jonimitchell.com|Rolling Stone archive",
+              "extract": "\"Blue\" is a distillation of pain and is therefore the most private of Joni's private songs. She wrote it for nobody but herself and her lover:",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f496595d8c842ba8eeaf0031d274e894afa3600f66006efb36a770effb31e5c9",
+              "artifactId": "773f0ef4e79ca0d3183f910df914e5c17ace14e0a605a0d1d06d75122bfe5193",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5085,
+                "end": 5227
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:5:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Blue",
+          "url": "https://jonimitchell.com/library/view.cfm?id=252"
+        }
+      ]
+    },
+    {
+      "trackTitle": "California",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "A 2021 New York Post article identifies “California” among the Blue tracks on which drummer Russ Kunkel played.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+              "url": "https://jonimitchell.com/library/view.cfm?id=4906",
+              "sourceIdentity": "jonimitchell.com|New York Post archive",
+              "extract": "Drummer Russ Kunkel - who played on \"Carey,\" \"California\" and \"A Case of You\" - connected with Mitchell through the vibrant Laurel Canyon music scene.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "8308e93459c140f74cec3f7dd358baa120f854a6a05dbcb6331ba26d848ee5e1",
+              "artifactId": "63f7570157b5ddb68528397d4a4c77b61c2ee50a5f20b203cee7f70264c14150",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2190,
+                "end": 2340
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:6:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+          "url": "https://jonimitchell.com/library/view.cfm?id=4906"
+        }
+      ]
+    },
+    {
+      "trackTitle": "This Flight Tonight",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "In his 1971 Rolling Stone review, Timothy Crouse wrote that in “This Flight Tonight” Mitchell’s narrator has walked out on her man, is flying west on a jet, and regrets the decision.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Blue",
+              "url": "https://jonimitchell.com/library/view.cfm?id=252",
+              "sourceIdentity": "jonimitchell.com|Rolling Stone archive",
+              "extract": "In \"This Flight Tonight,\" Joni has walked out on her man, is flying west on a jet, and now regrets the decision.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "9d25a9abeb55f9d1398c1e0af2f6f4f9f1e0766392664a4c67aa4998446c3482",
+              "artifactId": "773f0ef4e79ca0d3183f910df914e5c17ace14e0a605a0d1d06d75122bfe5193",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3423,
+                "end": 3535
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:7:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Blue",
+          "url": "https://jonimitchell.com/library/view.cfm?id=252"
+        }
+      ]
+    },
+    {
+      "trackTitle": "River",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Joni Mitchell said that “River” expresses regret at the end of a relationship and is about being lonely at Christmastime.",
+          "sourceRefs": [
+            {
+              "label": "Los Angeles Times",
+              "title": "Joni Mitchell opens up to Cameron Crowe about singing again, lost loves and 50 years of ‘Blue’",
+              "url": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue",
+              "sourceIdentity": "latimes.com|Los Angeles Times",
+              "extract": "No, just, you know, it expresses regret at the end of a relationship. That’s about all. It’s about being lonely at Christmastime, which is one reason for its popularity, I think. So many people are lonely at Christmas.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "088bf3465b80b53ba9681cc619601df8693d21e8434edb1d513867f51878c335",
+              "artifactId": "e2cf36e16bcc6fc5fbd624e0108b3b67508f5634e1e129971127c27641ba87f7",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4231,
+                "end": 4449
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:8:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "sourceRefs": [
+        {
+          "label": "Los Angeles Times",
+          "title": "Joni Mitchell opens up to Cameron Crowe about singing again, lost loves and 50 years of ‘Blue’",
+          "url": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue"
+        }
+      ]
+    },
+    {
+      "trackTitle": "A Case of You",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Graham Nash said that he distinctly remembers Mitchell writing at the piano in their shared Laurel Canyon house, in a passage identifying “A Case of You” among the songs he saw her write.",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+              "url": "https://jonimitchell.com/library/view.cfm?id=4906",
+              "sourceIdentity": "jonimitchell.com|New York Post archive",
+              "extract": "While Nash and Mitchell were living together in Los Angeles, he saw her genius at work writing some of the songs, including \"A Case of You.\" \"I distinctly picture in my head her writing at her piano in our house in Laurel Canyon that we shared for a couple of years there,\" he said.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "09295d60b4a7b53385166493ee41388712fd4352a58ab5c8c44b735bc86e182e",
+              "artifactId": "63f7570157b5ddb68528397d4a4c77b61c2ee50a5f20b203cee7f70264c14150",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 782
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:9:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Joni Mitchell’s ex talks heartache as her masterpiece ‘Blue’ turns 50",
+          "url": "https://jonimitchell.com/library/view.cfm?id=4906"
+        }
+      ]
+    },
+    {
+      "trackTitle": "The Last Time I Saw Richard",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "In his 1971 Rolling Stone review, Timothy Crouse described “The Last Time I Saw Richard” as a memoir of Mitchell’s “dark cafe days.”",
+          "sourceRefs": [
+            {
+              "label": "Joni Mitchell Library",
+              "title": "Blue",
+              "url": "https://jonimitchell.com/library/view.cfm?id=252",
+              "sourceIdentity": "jonimitchell.com|Rolling Stone archive",
+              "extract": "\"The Last Time I Saw Richard' is a memoir of Joni's \"dark cafe days,\" cluttered with insignificant detail and reminiscent of the least memorable autobiographical songs on Ladies.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "a97b3a5064ea7d3b421b1ef6a75b6d3ca227024b7d08f4d1876db7089e9f559b",
+              "artifactId": "773f0ef4e79ca0d3183f910df914e5c17ace14e0a605a0d1d06d75122bfe5193",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 678
+              }
+            }
+          ],
+          "claimId": "003-joni-mitchell-blue-9c3a8b85:1:10:fact-1",
+          "semanticReview": {
+            "recordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+            "decisionId": "003-joni-mitchell-blue-9c3a8b85:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+      ],
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "sourceRefs": [
+        {
+          "label": "Joni Mitchell Library",
+          "title": "Blue",
+          "url": "https://jonimitchell.com/library/view.cfm?id=252"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-08-25T00:00:00Z",
+    "generator": "rank-3-manual-evidence-research",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-08-25T04:04:06Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2."
+  }
+}

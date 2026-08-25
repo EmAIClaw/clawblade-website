@@ -12,6 +12,8 @@ import {
 } from '../src/track-encyclopedia/validation.mjs';
 import { EditionStore, computeContentHash } from '../src/track-encyclopedia/editions.mjs';
 import { canonicalStringify } from '../src/track-encyclopedia/hash.mjs';
+import { readSourceArtifacts } from '../src/track-encyclopedia/source-artifacts.mjs';
+import { readReviewArtifacts } from '../src/track-encyclopedia/review-artifacts.mjs';
 import { createHash } from 'node:crypto';
 
 const defaultRoot = process.cwd();
@@ -54,7 +56,9 @@ export async function buildTrackEncyclopedia({
 
   await mkdir(dataDir, { recursive: true });
   const evidenceSnapshots = await readEvidenceSnapshots(snapshotsPath);
-  const store = await EditionStore.openWithLegacyHistory(dataDir, { evidenceSnapshots });
+  const sourceArtifacts = await readSourceArtifacts(path.join(dataDir, 'source-artifacts'));
+  const reviewArtifacts = await readReviewArtifacts(path.join(dataDir, 'review-artifacts'));
+  const store = await EditionStore.openWithLegacyHistory(dataDir, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
 
   try {
     data ??= JSON.parse(await readFile(inputPath, 'utf8'));
@@ -86,12 +90,12 @@ export async function buildTrackEncyclopedia({
 
     for (const [albumId, rawEntry] of Object.entries(data.entries || {})) {
       try {
-        const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots);
+        const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots, sourceArtifacts, reviewArtifacts);
         validateCatalogIdentity(entry, catalogAlbums);
         preserveEdition(store, entry, report);
 
         const latest = store.getLatest(albumId) ?? entry;
-        validateEntry(latest, { evidenceSnapshots });
+        validateEntry(latest, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
         allEntries[albumId] = latest;
 
         const boilerplate = detectBoilerplate(latest.trackEntries.map((track) => ({
@@ -155,7 +159,7 @@ export async function buildTrackEncyclopedia({
   return { output, report };
 }
 
-function normalizeEntry(albumId, rawEntry, evidenceSnapshots) {
+function normalizeEntry(albumId, rawEntry, evidenceSnapshots, sourceArtifacts, reviewArtifacts) {
   const entry = deepClone(rawEntry);
   entry.albumId = entry.albumId || albumId;
   if (entry.albumId !== albumId) {
@@ -167,7 +171,7 @@ function normalizeEntry(albumId, rawEntry, evidenceSnapshots) {
   } else if (entry.contentHash !== expectedHash) {
     throw new Error(`contentHash mismatch for ${albumId}: supplied stale hash "${entry.contentHash}", expected "${expectedHash}".`);
   }
-  validateEntry(entry, { evidenceSnapshots });
+  validateEntry(entry, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
   return entry;
 }
 
@@ -229,16 +233,13 @@ function preserveEdition(store, entry, report) {
     store.upsert(entry);
     return;
   }
-  if (existing.contentHash === entry.contentHash) {
+  if (canonicalStringify(existing) === canonicalStringify(entry)) {
     if (existing.published) {
       report.preservedPublishedEditions.push({ albumId: entry.albumId, editionNumber: existing.editionNumber });
     }
     return;
   }
-  if (existing.published) {
-    throw new Error(`Source content changed for already-published ${entry.albumId} edition ${entry.editionNumber}; increment editionNumber and supply changeNote.`);
-  }
-  store.replaceDraft(entry);
+  throw new Error(`Source content changed or edition metadata changed for immutable ${entry.albumId} edition ${entry.editionNumber}; increment editionNumber and supply changeNote.`);
 }
 
 function buildManifestSource(metadata, entries, releaseHash) {
@@ -611,8 +612,14 @@ export function checkSemanticReviews(entry, { requireReview = false } = {}) {
           pendingReviews += 1;
         }
       } else {
-        // Validate the semantic review structure
+        // Immutable provenance uses a content-addressed review binding. The
+        // caller validates that record/decision against the review store before
+        // this publication-completeness check. Keep legacy inline review support
+        // for isolated fixtures that still exercise reviewEvidenceGate.
         const review = fact.semanticReview;
+        if (typeof review.recordId === 'string' && review.recordId && typeof review.decisionId === 'string' && review.decisionId) {
+          continue;
+        }
         const decision = review.semanticDecision ?? review.decision;
         if (!review.reviewer || !review.reviewedAt || !decision) {
           if (requireReview) {
@@ -661,8 +668,10 @@ export async function validateAlbumEdition({ dataDir, albumId } = {}) {
   }
 
   const evidenceSnapshots = await readEvidenceSnapshots(snapshotsPath);
-  const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots);
-  validateEntry(entry, { evidenceSnapshots });
+  const sourceArtifacts = await readSourceArtifacts(path.join(dataDir, 'source-artifacts'));
+  const reviewArtifacts = await readReviewArtifacts(path.join(dataDir, 'review-artifacts'));
+  const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots, sourceArtifacts, reviewArtifacts);
+  validateEntry(entry, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
 
   // Check exact catalog album/track identity
   const catalogAlbums = await readCatalogAlbums(dataDir);
@@ -716,8 +725,10 @@ export async function publishAlbumEdition({ dataDir, albumId, editionNumber, cha
   }
 
   const evidenceSnapshots = await readEvidenceSnapshots(snapshotsPath);
-  const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots);
-  validateEntry(entry, { evidenceSnapshots });
+  const sourceArtifacts = await readSourceArtifacts(path.join(dataDir, 'source-artifacts'));
+  const reviewArtifacts = await readReviewArtifacts(path.join(dataDir, 'review-artifacts'));
+  const entry = normalizeEntry(albumId, rawEntry, evidenceSnapshots, sourceArtifacts, reviewArtifacts);
+  validateEntry(entry, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
   if (entry.editionNumber !== editionNumber) {
     throw new Error(`Edition number mismatch for ${albumId}: active authoring is edition ${entry.editionNumber}, requested ${editionNumber}.`);
   }
@@ -733,23 +744,22 @@ export async function publishAlbumEdition({ dataDir, albumId, editionNumber, cha
   checkSemanticReviews(entry, { requireReview: true });
 
   // With approval: perform the atomic publication
-  const store = await EditionStore.openWithLegacyHistory(dataDir, { evidenceSnapshots });
+  const store = await EditionStore.openWithLegacyHistory(dataDir, { evidenceSnapshots, sourceArtifacts, reviewArtifacts });
 
   // Check if this edition is already published
   const existing = store.getEdition(albumId, editionNumber);
   if (existing && existing.published) {
     throw new Error(`Edition ${editionNumber} for ${albumId} is already published; published editions are immutable. Create a new edition.`);
   }
+  if (existing && !existing.published) {
+    throw new Error(`Edition ${editionNumber} for ${albumId} is already persisted as an immutable unpublished edition; create a new published edition instead of mutating it.`);
+  }
 
   // Set published=true and upsert
   const publishedEntry = { ...entry, editionNumber, published: true, changeNote };
   publishedEntry.contentHash = computeContentHash(publishedEntry);
 
-  if (existing && !existing.published) {
-    store.replaceDraft(publishedEntry);
-  } else if (!existing) {
-    store.upsert(publishedEntry);
-  }
+  store.upsert(publishedEntry);
 
   await store.persist(albumId, editionNumber);
 

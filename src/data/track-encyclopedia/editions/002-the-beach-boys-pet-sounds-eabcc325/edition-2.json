@@ -1,0 +1,660 @@
+{
+  "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+  "editionNumber": 2,
+  "published": false,
+  "contentHash": "087bfa79d706c8ae",
+  "changeNote": "Migrate rank-2 evidence to fetched source artifacts and immutable independent review provenance",
+  "trackEntries": [
+    {
+      "trackTitle": "Wouldn't It Be Nice",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that \"Wouldn't It Be Nice\" expresses the frustration of youth, what you cannot have, what you really want and have to wait for.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"Wouldn't It Be Nice' was not a real long song, but it's a very 'up' song. It expresses the frustration of youth, what you can't have, what you really want and you have to wait for it.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 685
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "You Still Believe In Me",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson described \"You Still Believe In Me\" as a song where he was able to close his eyes and go into a world and sing more effeminately and more sweet, allowing more love to come down through him.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"You Still Believe In Me' was more of what I would call a man who would not be afraid to take all of his clothes off and sing like a girl because he had feelings for people from that perspective. I was able to close my eyes and go into a world and sing a little more effeminately and more sweet--which allows a lot more love to come down through me, you know what I mean?... It's like Kenny Rogers. There's an example of a guy who has a fairly masculine sounding voice. 'You Still Believe In Me' was quite the opposite.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 1250,
+                "end": 1770
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "That's Not Me",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that \"That's Not Me\" was a very Mike Love-ish kind of a trip, that Mike Love nailed it with a real powerful voice, a very souped-up kind of sound, and that he and Tony Asher did not even really realize who they were writing it for.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"A very Mike Love-ish kind of a trip. He just really nailed it, real powerful voice, very souped-up kind of a sound. Tony and I actually didn't even really realize who we were writing it for. We didn't really write for anybody; we just wrote the songs. So we had full carte blanche to create these songs.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 1787,
+                "end": 2092
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Don't Talk (Put Your Head On My Shoulder)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that “Don’t Talk (Put Your Head On My Shoulder)” resulted from the fact that there are many different ways to tell somebody you love them, and that he and Tony Asher had a special grip on that kind of thing.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "[Don't Talk] was something that I think was the result of the fact that there are so many different ways to tell somebody you love them, and I think that we had a real special kind of grip on that kind of thing.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "15310aa0c6ebad36389bd09b3bc08e092aaa517c2f0f5449f3f613f16e5f897e",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2454,
+                "end": 2665
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "I'm Waiting for the Day",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that vocally he thought he sounded a little bit weird in his head on \"I'm Waiting for the Day,\" the one cut off the album he did not really like that much, but that it was a very positive song.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"Vocally, I thought I sounded a little bit weird in my head. That's the one cut off the album I didn't really like that much. But, you know, it's okay, it's not a case of liking or not liking it; it was an appropriate song, a very, very positive song. I just didn't like my voice on that particular song.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2912,
+                "end": 3217
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Let's Go Away for Awhile",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that Burt Bacharach had influenced him with \"Let's Go Away for Awhile,\" that if analyzed there were a lot of chord changes similar to the way Bacharach would put something together, and that he was proud of that tune.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"If you want to know the truth, I think Burt Bacharach had influenced me a little bit with that. If you really analyzeit and you think about it, there were a lot of chord changes similar to the way he would put something together. And I think that his music had such a profound thing on my head; he got me going in a direction. I'm definitely proud of that tune.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3245,
+                "end": 3608
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Sloop John B",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that Al Jardine called him up and said he wanted the Beach Boys to do \"Sloop John B,\" that the Kingston Trio had a version, and that Al brought the record over, played it for him, and he learned the song and arranged it.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"Al Jardine called me up and said, 'I want the Beach Boys to do 'Sloop John B.' The Kingston Trio had a version, and I'd never heard it so he brought The Kingston Trio record over, and he played it for me. I learned the song and I arranged it.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 6168,
+                "end": 6412
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "God Only Knows",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that \"God Only Knows\" was a vision that he and Tony Asher had, that it is like being blind but in being blind you can see more, that you close your eyes and are able to see a place or something that is happening.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"That was a vision that Tony and I had. It's like being blind but in being blind, you can see more. You close your eyes; you're able to see a place or something that's happening.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 6430,
+                "end": 6609
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "I Know There's an Answer",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that “I Know There’s an Answer” combines organ and tack piano to make a completely new sound.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "I used that in Pet Sounds. 'I Know There's An Answer--you'll hear an organ and a tack piano together. It's really neither of those sounds. It's like a completely new sound. A different sound. Combining one thing to make another thing. It's amazing.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "874c632eac7607bcc22afb9a0cb27523c4ade77cf9d22377b21c96e369d29144",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5755,
+                "end": 6003
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Here Today",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that \"Here Today\" was probably one of the mystery songs on the album, that he did not really know what it is about, that he liked it but yet he did not, and that he did not identify with it like he did with other songs.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"Here Today' was probably one of the mystery songs on the album. I don't really know what it's about. I liked it, but yet I didn't. I don't really identify with that song like I do with 'You Still Believe In Me', or 'Caroline, No.' It was just one of those songs in there, one little song.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7429,
+                "end": 7719
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "I Just Wasn't Made for These Times",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that \"I Just Wasn't Made For These Times\" had what he would call a fairly behind-the-beat quality, getting behind the beat and being able to create a song like that from a place.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "\"I Just Wasn't Made For These Times' had what I would call a fairly behind-the-beat-- not 'behind-the-beat' meaning in back of the beat, but getting behind the beat and being able to create a song like that from a place.\"",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7838,
+                "end": 8059
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:11:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:11:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Pet Sounds",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson said that the instrumental “Pet Sounds” was originally “Run James Run,” intended as a James Bond theme type of song, and was put on the album after they thought pitching it would never happen.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "The instrumental called 'Pet Sounds'? That was [originally] 'Run James Run! It was supposed to be a James Bond theme type of song. We were gonna try to get it to the James Bond people. But we thought it would never happen, so we put it on the album.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "05213d4042f3788d790fc50cbf1aa077a3854e0ac40ee2d5ff93d127ffc532ff",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8421,
+                "end": 8670
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 12,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    },
+    {
+      "trackTitle": "Caroline, No",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claim": "Brian Wilson called “Caroline, No” probably his favorite cut on the album and said that, on his father’s advice, they sped it up a whole note.",
+          "sourceRefs": [
+            {
+              "label": "Album Liner Notes",
+              "title": "Brian Wilson Interview (1996, David Leaf)",
+              "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+              "sourceIdentity": "albumlinernotes.com|Album Liner Notes",
+              "extract": "Obviously, probably my favorite cut on the album. Just absolutely blew my mind away. The song itself was taken and put in a context, musical context over at Western Recorders. We gave it life. Gave it new life, like a breathing person, like the life of a song or something. And quite a heavy experience for me. I liked my voice on that one. My dad said, he goes, 'You know what, son?' he said. 'You oughta speed that up a whole note; it'll sound better] So that's what we did.",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-08-25",
+              "snapshotHash": "f617f9869377c0fe12c67fe9e417350a35e975ded0dcb19e08f96f082866a961",
+              "artifactId": "7d7ff91f0c373cd6f550b021243a1002123424b3c1153205fd933a9d2873ab2f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8764,
+                "end": 9240
+              }
+            }
+          ],
+          "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1",
+          "semanticReview": {
+            "recordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+            "decisionId": "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made.",
+        "The excerpt is from Brian Wilson's 1996 interview with David Leaf, archived by albumlinernotes.com, originally conducted for The Pet Sounds Sessions box set."
+      ],
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "sourceRefs": [
+        {
+          "label": "Album Liner Notes",
+          "title": "Brian Wilson Interview (1996, David Leaf)",
+          "url": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-08-25T00:00:00Z",
+    "generator": "rank-2-manual-evidence-research",
+    "model": null
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-08-25T04:00:41Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review 80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5."
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 2,
-  "updatedAt": "2026-08-25T00:00:00Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-08-25T06:37:06Z",
   "catalogAlbums": 243,
   "catalogTracks": 3366,
-  "foundationStatus": "verified-local-foundation-complete",
+  "foundationStatus": "verified-local-foundation-and-item-1-provenance-migration-complete",
   "expansionGatePassed": true,
   "publishedDataChanged": false,
   "versionedAlbums": 9,
@@ -15,22 +15,22 @@
   "insufficientEvidenceTracks": 0,
   "unresearchedTracks": 3247,
   "pilotDraftEditions": {
-    "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
-    "054-liz-phair-exile-in-guyville-2b33a458": 4,
-    "092-the-stooges-fun-house-9896fe5c": 3,
-    "002-the-beach-boys-pet-sounds-eabcc325": 1,
-    "003-joni-mitchell-blue-9c3a8b85": 1,
-    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": 1,
-    "005-the-beatles-abbey-road-1955f3c5": 2,
-    "006-nirvana-nevermind-0af5df5e": 1,
-    "007-fleetwood-mac-rumours-bc57e04c": 1
+    "001-marvin-gaye-what-s-going-on-fd00dde9": 5,
+    "002-the-beach-boys-pet-sounds-eabcc325": 2,
+    "003-joni-mitchell-blue-9c3a8b85": 2,
+    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": 3,
+    "005-the-beatles-abbey-road-1955f3c5": 3,
+    "006-nirvana-nevermind-0af5df5e": 2,
+    "007-fleetwood-mac-rumours-bc57e04c": 3,
+    "054-liz-phair-exile-in-guyville-2b33a458": 5,
+    "092-the-stooges-fun-house-9896fe5c": 4
   },
-  "validationStatus": "49 backend tests, 9-authoring completion acceptance, 5 UI tests, 71 core track tests, 13 object-store tests via full test:all, TypeScript, data integrity, full npm test:all, reproducible track-encyclopedia build, production build, diff check, 17 prior-edition hash verification, and independent 11-track rank-7 semantic evidence audit passed",
+  "validationStatus": "35 provenance, 51 backend, 72 core, 13 object-store, 5 UI, 9-authoring migration acceptance, all-nine lifecycle validation, TypeScript, 243-album data integrity, full npm test:all, two zero-growth byte-identity builds, production build, nine-rank Chrome smoke, git diff check, fresh Codex spec review, and fresh Codex adversarial review passed",
   "notes": [
-    "Rank 7 Fleetwood Mac — Rumours is completion-eligible in unpublished draft edition 1: all 11 exact catalog tracks are documented with retained distinct track-specific excerpts from Ken Caillat's MusicRadar track-by-track co-producer interview and supported independent semantic review decisions. Track 11 (Gold Dust Woman) retains two verified facts with distinct contiguous excerpts.",
-    "Independent final-candidate audit audit-007-rumours-20260825-independent-final-candidate2 verified 11 supported, 0 unsupported, 0 uncertain, with live-page/snapshot/hash containment and aggregate identity, borrowing, boilerplate, and unsupported-analysis checks passed; zero critical, important, or minor findings. The first audit (candidate1) found 2 critical (non-contiguous excerpts on tracks 7 and 11) and 2 important (claim-scope issues on tracks 2 and 5); all were fixed before the final candidate.",
-    "All nine versioned albums remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
-    "No album other than rank 7 was researched or authored by this mission."
+    "Item 1 migrated ranks 1, 2, 3, 4, 5, 6, 7, 54, and 92 to actual fetched content-addressed source artifacts, exact claim offsets/context, stable claim IDs, and separate immutable Codex reviews.",
+    "Rank 7 edition 3 preserves the exact Wayback replay URL and correct candidate provenance; all prior editions and releases remain historical and unchanged.",
+    "Two unchanged builds added zero source, review, or album objects and preserved byte identity.",
+    "All nine versioned albums remain unpublished drafts; no data lifecycle publication, push, deployment, catalog change, Gym change, or messaging occurred."
   ],
   "albums": [
     {
@@ -43,12 +43,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 4,
+      "draftEdition": 5,
       "documentedTracks": 9,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "449c11738b4a4676"
+      "contentHash": "b35fcb8c1fb0a2a1",
+      "reviewRecordId": "291b50dea9568e9ca400e4935ee1137c8e62c43c36e9c93f7aa95e707c05def1",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 2,
@@ -60,12 +63,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 1,
+      "draftEdition": 2,
       "documentedTracks": 13,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "b09e0a3f6b9d372f"
+      "contentHash": "087bfa79d706c8ae",
+      "reviewRecordId": "80ccb9f4fa2556b6b791c896c0f723f99766e91acde7fe4424e21772be6679e5",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 3,
@@ -77,12 +83,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 1,
+      "draftEdition": 2,
       "documentedTracks": 10,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "03c972742edf5d9a"
+      "contentHash": "26b222e5aef9db55",
+      "reviewRecordId": "bbebf41c0ccf36a149da5198f84582881a93492fae619301753dfa32d23dbca2",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 4,
@@ -94,12 +103,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 1,
+      "draftEdition": 3,
       "documentedTracks": 21,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "898fc67f8c7aaa5e"
+      "contentHash": "bc1413dab6a4d0ab",
+      "reviewRecordId": "bc827de5afe0730fc5651452997ece8c61d4dda3ad3dc09e19585c0dafa1d4b0",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 5,
@@ -111,12 +123,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 2,
+      "draftEdition": 3,
       "documentedTracks": 17,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "60c8394ddd63bf3d"
+      "contentHash": "772df43eaad90b18",
+      "reviewRecordId": "17c5c195592ad38d9ca4aca86fbf556515ca4d95618ddf14dbb3f1c49a6a9d49",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 6,
@@ -128,12 +143,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 1,
+      "draftEdition": 2,
       "documentedTracks": 13,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "760c0dd6f1f4bc26"
+      "contentHash": "2a86565a358580f0",
+      "reviewRecordId": "aae31a4ae2e4a11febece052d312c8d6f97889059698ac7f0074055ff772ba45",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 7,
@@ -145,12 +163,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 1,
+      "draftEdition": 3,
       "documentedTracks": 11,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "60db2f9ccccfa002"
+      "contentHash": "414abb016229da97",
+      "reviewRecordId": "253b2a3bd110bb5be220f91513fac363089b419b8cd38af35273003481e495b2",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 8,
@@ -622,12 +643,15 @@
       "legacyGuidesWithHttpsSource": 3,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 4,
+      "draftEdition": 5,
       "documentedTracks": 18,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "13de9e97abdf754c"
+      "contentHash": "c8496228067c3426",
+      "reviewRecordId": "dcb8f331d5a1114608b005beca04d97906103514e21158a40a6127e9f2fa9d1a",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 55,
@@ -1009,12 +1033,15 @@
       "legacyGuidesWithHttpsSource": 0,
       "versioned": true,
       "completionEligible": true,
-      "draftEdition": 3,
+      "draftEdition": 4,
       "documentedTracks": 7,
       "contextualTracks": 0,
       "insufficientEvidenceTracks": 0,
       "unresearchedTracks": 0,
-      "contentHash": "ee805c782c56bc4a"
+      "contentHash": "ffd3fa7023be2acf",
+      "reviewRecordId": "ca14fd3aae123a8e43f22df0cc4c590923d91f94717bb5d4a899afacdb9ad99d",
+      "provenanceMigrated": true,
+      "published": false
     },
     {
       "rank": 93,
@@ -2526,5 +2553,27 @@
       "legacyGuidesWithHttpsSource": 4,
       "versioned": false
     }
-  ]
+  ],
+  "provenanceMigration": {
+    "status": "complete",
+    "sourceArtifactCount": 42,
+    "reviewArtifactCount": 11,
+    "albumObjectCount": 23,
+    "ranks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      54,
+      92
+    ],
+    "allActiveEditionsUnpublished": true,
+    "priorHistoryPreserved": true,
+    "rank7CorrectedEdition": 3,
+    "rank7SourceArtifactId": "5ab387b4c2a02b66b4f047184be68ce06efdd1b889a2508285a560460329515d",
+    "rank7ReviewRecordId": "253b2a3bd110bb5be220f91513fac363089b419b8cd38af35273003481e495b2"
+  }
 }

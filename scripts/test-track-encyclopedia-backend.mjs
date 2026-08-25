@@ -62,25 +62,26 @@ async function makeTempDir(prefix) {
 }
 
 async function copyPilotFixture(dir) {
-  await cp(path.join(dataDir, 'pilot-entries.json'), path.join(dir, 'pilot-entries.json'));
   await cp(path.join(dataDir, 'evidence-snapshots.json'), path.join(dir, 'evidence-snapshots.json'));
+  await cp(path.join(dataDir, 'source-artifacts'), path.join(dir, 'source-artifacts'), { recursive: true });
+  await cp(path.join(dataDir, 'review-artifacts'), path.join(dir, 'review-artifacts'), { recursive: true });
   await cp(catalogPath, path.join(dir, 'catalog.generated.json'));
-  const pilotPath = path.join(dir, 'pilot-entries.json');
-  const pilot = JSON.parse(await readFile(pilotPath, 'utf8'));
-  for (const entry of Object.values(pilot.entries ?? {})) {
-    for (const track of entry.trackEntries ?? []) {
-      for (const fact of track.verifiedFacts ?? []) {
-        fact.semanticReview = {
-          reviewer: 'test-reviewer',
-          reviewedAt: '2026-08-25T00:00:00Z',
-          semanticDecision: 'supported',
-          decision: 'supported',
-        };
-      }
+
+  // Lifecycle fixtures must exercise the migrated provenance contract rather
+  // than the intentionally stale legacy pilot aggregate. Flatten the current
+  // per-album authoring records into an isolated fixture so immutable review
+  // bindings remain valid while publication tests create the next rank-1 edition.
+  const pilot = { schemaVersion: 1, entries: {} };
+  const authoringDir = path.join(dataDir, 'authoring');
+  for (const name of (await readdir(authoringDir)).filter((value) => value.endsWith('.json')).sort()) {
+    const document = JSON.parse(await readFile(path.join(authoringDir, name), 'utf8'));
+    for (const [albumId, sourceEntry] of Object.entries(document.entries ?? {})) {
+      const entry = structuredClone(sourceEntry);
+      entry.contentHash = '';
+      pilot.entries[albumId] = entry;
     }
-    entry.contentHash = '';
   }
-  await writeFile(pilotPath, `${JSON.stringify(pilot, null, 2)}\n`);
+  await writeFile(path.join(dir, 'pilot-entries.json'), `${JSON.stringify(pilot, null, 2)}\n`);
 }
 
 function makeEvidenceSnapshot({ id, url, text }) {
@@ -293,10 +294,13 @@ await test('validateAlbumEdition checks exact catalog track identity', async () 
   await copyPilotFixture(dir);
   const pilot = JSON.parse(await readFile(path.join(dir, 'pilot-entries.json'), 'utf8'));
   const albumId = Object.keys(pilot.entries)[0];
-  // Corrupt a track title to mismatch the catalog
-  pilot.entries[albumId].trackEntries[0].trackTitle = 'WRONG TITLE';
-  pilot.entries[albumId].contentHash = '';
-  await writeFile(path.join(dir, 'pilot-entries.json'), `${JSON.stringify(pilot, null, 2)}\n`);
+  // Corrupt the catalog identity while leaving the independently reviewed
+  // candidate untouched, so this test reaches the catalog alignment gate.
+  const catalogFixturePath = path.join(dir, 'catalog.generated.json');
+  const catalog = JSON.parse(await readFile(catalogFixturePath, 'utf8'));
+  const catalogAlbum = catalog.albums.find((album) => album.id === albumId);
+  catalogAlbum.tracks[0].title = 'WRONG TITLE';
+  await writeFile(catalogFixturePath, `${JSON.stringify(catalog, null, 2)}\n`);
   await assert.rejects(
     () => validateAlbumEdition({ dataDir: dir, albumId }),
     /catalog.*identity|track.*title.*match|track.*identity/i,
@@ -310,15 +314,31 @@ await test('validateAlbumEdition reads the active per-album authoring edition', 
     dataDir,
     albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
   });
-  assert.equal(result.editionNumber, 4,
+  assert.equal(result.editionNumber, 5,
     'lifecycle validation must use current rank-1 per-album authoring, not stale monolithic input');
+});
+
+await test('build rejects same-edition generation metadata mutation', async () => {
+  const dir = await makeTempDir('immutable-edition-metadata-');
+  await copyPilotFixture(dir);
+  await cp(path.join(dataDir, 'editions'), path.join(dir, 'editions'), { recursive: true });
+  const albumId = '001-marvin-gaye-what-s-going-on-fd00dde9';
+  const authoringPath = path.join(dir, 'pilot-entries.json');
+  const doc = JSON.parse(await readFile(authoringPath, 'utf8'));
+  doc.entries[albumId].generationMetadata.generator = 'forged-after-review';
+  await writeFile(authoringPath, `${JSON.stringify(doc, null, 2)}\n`);
+  await assert.rejects(
+    () => buildTrackEncyclopedia({ dataDir: dir }),
+    /edition metadata changed|immutable.*edition/i,
+  );
+  await rm(dir, { recursive: true, force: true });
 });
 
 await test('publishAlbumEdition requires explicit change note', async () => {
   const dir = await makeTempDir('lifecycle-no-note-');
   await copyPilotFixture(dir);
   await assert.rejects(
-    () => publishAlbumEdition({ dataDir: dir, albumId: '001-marvin-gaye-what-s-going-on-fd00dde9', changeNote: '', editionNumber: 2, approval: 'test-approval' }),
+    () => publishAlbumEdition({ dataDir: dir, albumId: '001-marvin-gaye-what-s-going-on-fd00dde9', changeNote: '', editionNumber: 5, approval: 'test-approval' }),
     /changeNote.*required/i,
     'publish without change note must fail'
   );
@@ -340,7 +360,7 @@ await test('publishAlbumEdition requires approval token', async () => {
   const dir = await makeTempDir('lifecycle-no-approval-');
   await copyPilotFixture(dir);
   await assert.rejects(
-    () => publishAlbumEdition({ dataDir: dir, albumId: '001-marvin-gaye-what-s-going-on-fd00dde9', changeNote: 'test', editionNumber: 2 }),
+    () => publishAlbumEdition({ dataDir: dir, albumId: '001-marvin-gaye-what-s-going-on-fd00dde9', changeNote: 'test', editionNumber: 5 }),
     /approval.*required/i,
     'publish without approval token must fail'
   );
@@ -360,10 +380,10 @@ await test('publishAlbumEdition rejects evidence-bearing claims without semantic
       dataDir: dir,
       albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
       changeNote: 'Test semantic gate',
-      editionNumber: 2,
+      editionNumber: 5,
       approval: 'test-fixture-approval',
     }),
-    /semantic review|missing.*review|publication rejected/i
+    /semantic review|semanticReview|missing.*review|publication rejected/i
   );
   await rm(dir, { recursive: true, force: true });
 });
@@ -376,13 +396,32 @@ await test('publishAlbumEdition does not publish real pilot albums without appro
       dataDir: dir,
       albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
       changeNote: 'Test publication attempt',
-      editionNumber: 2,
+      editionNumber: 5,
     }),
     /approval.*required/i,
     'real pilot editions must fail closed without release approval'
   );
   await assert.rejects(() => readdir(path.join(dir, 'editions')), /ENOENT/,
     'failed publication must not create edition files');
+  await rm(dir, { recursive: true, force: true });
+});
+
+await test('publishAlbumEdition rejects mutation of a persisted unpublished edition', async () => {
+  const dir = await makeTempDir('lifecycle-immutable-unpublished-');
+  await copyPilotFixture(dir);
+  await cp(path.join(dataDir, 'editions'), path.join(dir, 'editions'), { recursive: true });
+  await assert.rejects(
+    () => publishAlbumEdition({
+      dataDir: dir,
+      albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
+      changeNote: 'Attempt to mutate immutable draft into published state',
+      editionNumber: 5,
+      approval: 'test-fixture-approval',
+    }),
+    /immutable unpublished edition|new published edition/i,
+  );
+  const edition = JSON.parse(await readFile(path.join(dir, 'editions', '001-marvin-gaye-what-s-going-on-fd00dde9', 'edition-5.json'), 'utf8'));
+  assert.equal(edition.published, false);
   await rm(dir, { recursive: true, force: true });
 });
 
@@ -393,14 +432,14 @@ await test('publishAlbumEdition publishes temp fixture with approval and verifie
     dataDir: dir,
     albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
     changeNote: 'Test fixture publication',
-    editionNumber: 2,
+    editionNumber: 5,
     approval: 'test-fixture-approval',
   });
   assert.equal(result.published, true, 'temp fixture with approval must be published');
   assert.equal(result.albumId, '001-marvin-gaye-what-s-going-on-fd00dde9');
-  assert.equal(result.editionNumber, 2);
+  assert.equal(result.editionNumber, 5);
   // Verify readback: edition file should exist with published=true
-  const editionPath = path.join(dir, 'editions', '001-marvin-gaye-what-s-going-on-fd00dde9', 'edition-2.json');
+  const editionPath = path.join(dir, 'editions', '001-marvin-gaye-what-s-going-on-fd00dde9', 'edition-5.json');
   const edition = JSON.parse(await readFile(editionPath, 'utf8'));
   assert.equal(edition.published, true, 'edition on disk must have published=true');
   assert.equal(edition.changeNote, 'Test fixture publication');
@@ -415,7 +454,7 @@ await test('publishAlbumEdition rejects already-published edition', async () => 
     dataDir: dir,
     albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
     changeNote: 'First publish',
-    editionNumber: 2,
+    editionNumber: 5,
     approval: 'test-fixture-approval',
   });
   // Second publish of same edition should fail
@@ -424,7 +463,7 @@ await test('publishAlbumEdition rejects already-published edition', async () => 
       dataDir: dir,
       albumId: '001-marvin-gaye-what-s-going-on-fd00dde9',
       changeNote: 'Second publish',
-      editionNumber: 2,
+      editionNumber: 5,
       approval: 'test-fixture-approval',
     }),
     /already.*published|published.*immutable/i,
