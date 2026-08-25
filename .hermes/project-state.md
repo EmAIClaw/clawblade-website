@@ -11,34 +11,34 @@ Updated: 2026-08-25
 
 ## Current mission
 
-Complete only catalog rank 3, Joni Mitchell — *Blue*, across its exact current 10-track catalog edition. Do not expand to another album.
+Complete only catalog rank 4, Stevie Wonder — *Songs in the Key of Life*, across its exact current 21-track catalog edition. Do not expand to another album.
 
-## Rank-3 completion status
+## Rank-4 completion status
 
-- Authoritative album ID: `003-joni-mitchell-blue-9c3a8b85`.
-- Exact identity preserved: disc 1, tracks 1–10, current catalog titles unchanged.
+- Authoritative album ID: `004-stevie-wonder-songs-in-the-key-of-life-0518d4f8`.
+- Exact identity preserved: disc 1 tracks 1–10 and disc 2 tracks 1–11, with current catalog titles unchanged.
 - New immutable draft edition: 1.
-- Draft content hash: `03c972742edf5d9a`.
-- Edition file SHA-256: `8cb17db066cb55b969fd69dbc5954707becdffd97be559ea4ea4ac82b8656077`.
-- Immutable object hash: `560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b`.
-- Generated release hash: `690a7e4721c4433a`.
+- Draft content hash: `898fc67f8c7aaa5e`.
+- Edition file SHA-256: `a97e2766c6a6eb89dce16baac1415be603387eb180a7096ecf4768b5249d8523`.
+- Immutable object hash: `15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6`.
+- Generated release hash: `df7c0753c7baf436`.
 - Publication state: `published: false`.
-- Track dispositions: 10 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Track dispositions: 21 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
 - Every displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, self-describing project-hashed snapshot, and supported independent semantic review decision.
 - Unsupported musical-character, album-context, listening-note, and audio-analysis prose is absent.
-- Rank 3 is completion-eligible as an unpublished draft.
+- Rank 4 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Audit ID: `audit-003-blue-20260825-semantic-final`.
-- Final decisions: 10 supported, 0 unsupported, 0 uncertain.
-- Actual-page and snapshot exact containment: 10/10.
-- Project snapshot-hash and edition content-hash reproduction: passed.
-- Exact catalog identity/order/title: 10/10.
+- Audit ID: `audit-004-sitkol-20260825-semantic-final-candidate2`.
+- Final decisions: 21 supported, 0 unsupported, 0 uncertain.
+- Actual-page and snapshot exact containment: 21/21.
+- Project snapshot-hash and lifecycle validation: passed.
+- Exact catalog identity/order/title: 21/21.
 - Evidence borrowing: none.
 - Unsupported listening/audio analysis: none.
 - Critical or important findings remaining: none.
-- Repairs before final approval: corrected three Rolling Stone bylines, narrowed Carey and California claims, normalized the Little Green excerpt, and replaced initial plain-text hashes with repository-required self-describing hashes.
+- Non-blocking note: one unused word outside the retained Easy Goin' Evening excerpt differs between snapshot and live page; the retained excerpt itself is exact and supported.
 
 ## Verification status
 
@@ -46,24 +46,25 @@ All required gates passed after the final audited candidate:
 
 - Lifecycle validator — valid; edition 1; unpublished.
 - Backend tests — 49/49.
-- Authoring completion acceptance — 5 authoring files.
+- Authoring completion acceptance — 6 authoring files.
 - UI evidence/state tests — 5/5.
 - Core track-encyclopedia tests — 71/71.
 - Object-store tests — 13/13 via full `test:all`.
 - TypeScript — passed.
 - Data integrity — 243 albums.
 - Full `npm run test:all` — passed.
-- Track build — 5 albums, 57 tracks; 57 documented, 0 unresearched.
+- Track build — 6 albums, 78 tracks; 78 documented, 0 contextual/limited/insufficient-evidence/unresearched.
+- Unchanged track rebuild — 6 objects before/after, zero added/removed, byte-identical generated outputs.
 - Production build — passed; 1,574 modules transformed.
 - `git diff --check` — passed.
-- Prior-edition hash verification — 12/12 unchanged.
+- Prior-edition hash verification — 13/13 unchanged.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
-- Versioned/completed: 5 albums, 57 tracks.
-- Completion-disposition tracks: 57 (57 documented, 0 contextual, 0 insufficient-evidence).
-- Catalog tracks still unresearched for completion accounting: 3,309.
+- Versioned/completed: 6 albums, 78 tracks.
+- Completion-disposition tracks: 78 (78 documented, 0 contextual, 0 insufficient-evidence).
+- Catalog tracks still unresearched for completion accounting: 3,288.
 
 ## Safety / deployment
 

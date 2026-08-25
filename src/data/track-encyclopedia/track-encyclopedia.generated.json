@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0-pilot",
     "generatedAt": "2026-09-19T00:00:00Z",
-    "albumCount": 5
+    "albumCount": 6
   },
   "entries": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": {
@@ -1441,6 +1441,970 @@
         "reviewedAt": "2026-08-25",
         "reviewer": "independent evidence audit audit-003-blue-20260825-semantic-final",
         "notes": "All 10 claims supported after correcting three Rolling Stone byline attributions and narrowing the Carey and California claims. No critical or important findings remain."
+      }
+    },
+    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": {
+      "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+      "editionNumber": 1,
+      "published": false,
+      "contentHash": "898fc67f8c7aaa5e",
+      "changeNote": "Complete all 21 Songs in the Key of Life tracks with retained track-specific interview, encyclopedia, and reputable music-journalism evidence",
+      "trackEntries": [
+        {
+          "trackTitle": "Love's In Need of Love Today",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Stevie Wonder said that the concept behind \"Love's In Need of Love Today\" was that for love to be effective, it has to be fed, and that love by itself is hollow.",
+              "sourceRefs": [
+                {
+                  "label": "Okayplayer (WSJ interview excerpts)",
+                  "title": "Stevie Wonder Takes Us Behind The Creation Of 'Love's In Need Of Love Today'",
+                  "url": "https://okayplayer.com/stevie-wonder-takes-us-behind-the-creation-of-loves-in-need-of-love-today/762483",
+                  "sourceIdentity": "okayplayer.com|Okayplayer (WSJ interview excerpts)",
+                  "extract": "The concept I had in mind was that for love to be effective, it has to be fed. Love by itself is hollow.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "okayplayer-wsj-loves-in-need-2026-08-25",
+                  "snapshotHash": "5af8d2ff68d42470e17dcc98ed7c0708eda45c89ee6894183ecffddb4757b43f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "sourceRefs": [
+            {
+              "label": "Okayplayer (WSJ interview excerpts)",
+              "title": "Stevie Wonder Takes Us Behind The Creation Of 'Love's In Need Of Love Today'",
+              "url": "https://okayplayer.com/stevie-wonder-takes-us-behind-the-creation-of-loves-in-need-of-love-today/762483"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Have a Talk With God",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wonder's brother Calvin Hardaway co-wrote the track \"Have a Talk With God\" on Songs in the Key of Life.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "Wonder's brother Calvin Hardaway co-wrote \"Have a Talk With God,\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-hardaway-2026-08-25",
+                  "snapshotHash": "702fffe78af914461dbf928e7edaa0833837e373f13ae19890011587fbd6230a"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Village Ghetto Land",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Gary Byrd co-wrote the lyrics to \"Village Ghetto Land\" and had labored for three months on the words before Wonder called him from the studio to say he had added another verse.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "Gary Byrd had a particularly harrowing experience while co-writing the lyrics to the track \"Village Ghetto Land.\" He had labored for three months perfecting the words to what he believed to be the complete song. Then Wonder called him from the recording studio and casually informed him that he had added another verse.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-gary-byrd-2026-08-25",
+                  "snapshotHash": "8c3f42e13a4fc1042cbf74cc5a15082b298029b4ae9a26c9b53070e759c163d1"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Contusion",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Engineer Gary Olazabal said that \"Contusion\" was mixed at least 30 times during the endless remixing phase of Songs in the Key of Life, and the crew had T-shirts reading \"Let's Mix 'Contusion' Again.\"",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "We had T-shirts with 'Are We Finished Yet?' printed on them, as well as others with 'Let's Mix 'Contusion' Again.' Without exaggeration, we must have mixed that track at least 30 times.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-contusion-2026-08-25",
+                  "snapshotHash": "32fae9cea34e6f3e401073c8ce480d952abdb00d9b92f6660e84c24c748f5480"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Sir Duke",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wonder told a Billboard-sponsored symposium at UCLA that he knew the title \"Sir Duke\" from the beginning but wanted it to be about the musicians who did something for him, saying \"So soon they are forgotten. I wanted to show my appreciation.\"",
+              "sourceRefs": [
+                {
+                  "label": "uDiscover Music",
+                  "title": "'Sir Duke': Stevie Wonder Salutes Duke Ellington, Soars To No.1",
+                  "url": "https://www.udiscovermusic.com/stories/stevie-wonder-sir-duke-song",
+                  "sourceIdentity": "udiscovermusic.com|uDiscover Music",
+                  "extract": "I knew the title from the beginning but wanted it to be about the musicians who did something for us. So soon they are forgotten. I wanted to show my appreciation.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "udiscover-sir-duke-2026-08-25",
+                  "snapshotHash": "9bd9d96b2f16c178e4710c70b1e2a6eb34f8bbba561102831d389b410da74f27"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "sourceRefs": [
+            {
+              "label": "uDiscover Music",
+              "title": "'Sir Duke': Stevie Wonder Salutes Duke Ellington, Soars To No.1",
+              "url": "https://www.udiscovermusic.com/stories/stevie-wonder-sir-duke-song"
+            }
+          ]
+        },
+        {
+          "trackTitle": "I Wish",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Stevie Wonder told Musician magazine that he wrote \"I Wish\" on the day of a Motown picnic in the summer of 1976, going to Crystal Recording Studio right afterward where the vibe came to him from running at the picnic and the contests.",
+              "sourceRefs": [
+                {
+                  "label": "Classic Motown",
+                  "title": "Stevie Wonder - \"I Wish\" | Classic Motown",
+                  "url": "https://classic.motown.com/story/stevie-wonder-wish/",
+                  "sourceIdentity": "classic.motown.com|Classic Motown",
+                  "extract": "The day I wrote it was a Saturday, the day of a Motown picnic in the summer of '76,\" he told Musician magazine. \"God, I remember that because I was having this really bad toothache, it was ridiculous. \"I had such a good time at the picnic that I went to Crystal Recording Studio right afterward and the vibe came right to my mind, running at the picnic, the contests, we all participated. It was a lot of fun, even though I couldn't eat the hot dogs – that was around the time of the creation of those chicken hot dogs. And from that came the 'I Wish' vibe.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "classic-motown-i-wish-2026-08-25",
+                  "snapshotHash": "3aa9348f5b9587df38e6d79cae5549328df262f85592c95ad795b882276b4247"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "sourceRefs": [
+            {
+              "label": "Classic Motown",
+              "title": "Stevie Wonder - \"I Wish\" | Classic Motown",
+              "url": "https://classic.motown.com/story/stevie-wonder-wish/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Knocks Me Off My Feet",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "MusicRadar's track-by-track review notes that \"Knocks Me Off My Feet\" is notable for its \"I don't want to bore you with it\" refrain and a clever 'musical tumble' that accompanies the moment when Wonder is knocked from his feet, as noted in the album's lyric sheet.",
+              "sourceRefs": [
+                {
+                  "label": "MusicRadar",
+                  "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+                  "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life",
+                  "sourceIdentity": "musicradar.com|MusicRadar",
+                  "extract": "This one is notable for its \"I don't want to bore you with it\" refrain and clever 'musical tumble' that accompanies the moment when Wonder is knocked from his feet (cutely, it's even noted in the lyric sheet that comes with the album).",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "musicradar-sitkol-knocks-me-off-2026-08-25",
+                  "snapshotHash": "2e67f4b1a474aa689033169339598893277e5fd85f46677f796d3ba38004329a"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "sourceRefs": [
+            {
+              "label": "MusicRadar",
+              "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+              "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Pastime Paradise",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "\"Pastime Paradise\" opens with a fugue that borrows its first eight notes from Bach's Prelude No. 2 in C Minor, was intended to mimic the Beatles' \"Eleanor Rigby,\" and features Hare Krishna chanting on the fade out.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "The latter opens with an insistent cartwheeling fugue that borrows its first eight notes from Johann Sebastian Bach's \"Prelude No. 2 in C Minor.\" Intended to mimic the Beatles' \"Eleanor Rigby,\" the anxious instrumental phrase is made even more disorienting by the sound of a backwards gong that anticipates the chanting of Hare Krishnas heard on the fade out.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-pastime-paradise-2026-08-25",
+                  "snapshotHash": "7857fbdd54bccf118efe58bf22a589c3bc15396c0a7c5c9b5c08e554030faee9"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Summer Soft",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Organist Ronnie Foster said in a 2022 interview that Stevie Wonder called him in for \"Summer Soft,\" which Foster noted is not an easy song to play, and that George Benson was also on that record.",
+              "sourceRefs": [
+                {
+                  "label": "Jazz Weekly",
+                  "title": "RONNIE FOSTER: GOING FULL CIRCLE WITH BLUE NOTE AND SOUL JAZZ",
+                  "url": "https://jazzweekly.com/2022/07/ronnie-foster-interview/",
+                  "sourceIdentity": "jazzweekly.com|Jazz Weekly",
+                  "extract": "So he called me in for \"Summer Soft\", which is not an easy song to play, by the way. George is also on that record.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "jazzweekly-ronnie-foster-summer-soft-2026-08-25",
+                  "snapshotHash": "43f8109c4ccae4a8b3887e34585076b84e32730990a460e804d1f74925870664"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "sourceRefs": [
+            {
+              "label": "Jazz Weekly",
+              "title": "RONNIE FOSTER: GOING FULL CIRCLE WITH BLUE NOTE AND SOUL JAZZ",
+              "url": "https://jazzweekly.com/2022/07/ronnie-foster-interview/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Ordinary Pain",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Wonder's former wife Syreeta Wright provides backing vocals on \"Ordinary Pain\" on Songs in the Key of Life.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "his former wife Syreeta Wright provides backing vocals on \"Ordinary Pain.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-ordinary-pain-2026-08-25",
+                  "snapshotHash": "f5b71f8263f97e41b8cff6f2d69970e174aa77cadbef77652a1d08f41a296aeb"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Isn't She Lovely",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "\"Isn't She Lovely\" is described as a joyous celebration of parenthood; while birthing sounds on the intro are from another infant, Aisha can be heard laughing and splashing in the bathtub with her father on the extended fade.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "\"Isn't She Lovely\" – a joyous celebration of parenthood – is perhaps the most obvious beneficiary of Wonder's new inspiration. While actual birthing sounds edited onto the song's intro are from another infant, Aisha can be heard laughing splashing around the bathtub with her father on the extended fade.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-isnt-she-lovely-2026-08-25",
+                  "snapshotHash": "228ddde17189c17b9083f838ede28577b744493689db48f3f695ed757c95c1d0"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 1,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Joy Inside My Tears",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "The Library of Congress essay on Songs in the Key of Life describes \"Joy Inside My Tears\" as embodying an almost indescribable joyfulness even in the face of life's travails.",
+              "sourceRefs": [
+                {
+                  "label": "Library of Congress",
+                  "title": "Songs in the Key of Life — National Recording Registry essay",
+                  "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Songs-in-the-Key-of-Life.pdf",
+                  "sourceIdentity": "loc.gov|Library of Congress",
+                  "extract": "there is a certain, almost indescribable joyfulness even in the face of life's travails (\"Joy Inside My Tears\")",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "loc-sitkol-joy-inside-my-tears-2026-08-25",
+                  "snapshotHash": "246ecf5a03009ea3a355f061120a43c6fd773531f4a18e3f4a4869a7d4f73289"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 2,
+          "sourceRefs": [
+            {
+              "label": "Library of Congress",
+              "title": "Songs in the Key of Life — National Recording Registry essay",
+              "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Songs-in-the-Key-of-Life.pdf"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Black Man",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Rolling Stone's original album review describes \"Black Man\" as a Bicentennial history lesson drawing together key figures in America's melting pot.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Songs In The Key Of Life — Original Album Review",
+                  "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "a Bicentennial history lesson drawing together key figures in America's melting pot",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-aletti-black-man-2026-08-25",
+                  "snapshotHash": "c59aaae629d367481df4470c038491edcf9233c885f25f4eb9e2ced4dc43986d"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 3,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Songs In The Key Of Life — Original Album Review",
+              "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Ngiculela-Es Una Historia-I Am Singing",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "\"Ngiculela-Es Una Historia-I Am Singing\" gets its title from the three vocal sections that are in Zulu, Spanish, and English, as noted in MusicRadar's track-by-track review of Songs in the Key of Life.",
+              "sourceRefs": [
+                {
+                  "label": "MusicRadar",
+                  "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+                  "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life",
+                  "sourceIdentity": "musicradar.com|MusicRadar",
+                  "extract": "Ngiculela - Es Una Historia - I Am Singing gets its title from the three vocal sections that are in Zulu, Spanish and English.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "musicradar-sitkol-ngiculela-2026-08-25",
+                  "snapshotHash": "068297f9a85156e3d1fa8323d7c2c0445110614e93497a79a4cd094302e78c6f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 4,
+          "sourceRefs": [
+            {
+              "label": "MusicRadar",
+              "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+              "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life"
+            }
+          ]
+        },
+        {
+          "trackTitle": "If It's Magic",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "MusicRadar's track-by-track review states that \"If It's Magic\" was composed and originally recorded with Stevie at the piano, but he later decided to let harpist Dorothy Ashby take over the arrangement.",
+              "sourceRefs": [
+                {
+                  "label": "MusicRadar",
+                  "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+                  "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life",
+                  "sourceIdentity": "musicradar.com|MusicRadar",
+                  "extract": "If It's Magic was composed and originally recorded with Stevie at the piano, but he later decided to let harpist Dorothy Ashby, who he considered much underrated, take over, and her playing takes the song somewhere almost heavenly.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "musicradar-sitkol-if-its-magic-2026-08-25",
+                  "snapshotHash": "dc7608d96c73c88fcf11711e574b9e2fe96ecd150875f550f3129cce99cef493"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 5,
+          "sourceRefs": [
+            {
+              "label": "MusicRadar",
+              "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+              "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life"
+            }
+          ]
+        },
+        {
+          "trackTitle": "As",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Rolling Stone's original album review describes \"As\" as a long, elaborate song of utter dedication to love, in which Stevie vows, \"I'll be loving you always/ Until the day is night and night becomes the day.\"",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Songs In The Key Of Life — Original Album Review",
+                  "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "In \"As,\" a long, elaborate song of utter dedication to love, Stevie vows, \"I'll be loving you always/ Until the day is night and night becomes the day\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-aletti-as-2026-08-25",
+                  "snapshotHash": "6b8205c7a5de2d402ab6dd0b2a24b26b051828ce8298476bf9a975f5ec198b9b"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 6,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Songs In The Key Of Life — Original Album Review",
+              "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Another Star",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Rolling Stone's original album review says that \"Another Star\" bursts with an aching, tender passion.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Songs In The Key Of Life — Original Album Review",
+                  "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "\"Another Star\" bursts with an aching, tender passion",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-aletti-another-star-2026-08-25",
+                  "snapshotHash": "b465bbe3da109fe3989a3f08695cfeb6b5b1205fe25fd96cca3164b37c90316f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 7,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Songs In The Key Of Life — Original Album Review",
+              "url": "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Saturn",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "\"Saturn\" was originally about Saginaw, Wonder's Michigan birthplace, as an homage to his home, but was shifted into outer space when guitarist Mike Sembello misheard the title as the ringed planet.",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "The lyrical location was originally \"Saginaw,\" Wonder's Michigan birthplace, and intended as homage to his home in the mold of the Jackson 5's \"Goin' Back to Indiana.\" But the song was shifted into outer space when guitarist Mike Sambello (later to score a hit with the Flashdance favorite \"Maniac\") misheard the title as the ringed planet.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-saturn-2026-08-25",
+                  "snapshotHash": "0e5e5aa31d1d8e07c9c8ce40e2ab40a5d006bdce4c03ae88a4abb69b90948a8d"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 8,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Ebony Eyes",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Rolling Stone reports that some believe \"Ebony Eyes,\" with its reference to a \"Miss Beautiful Supreme,\" is an ode to Wonder's childhood infatuation with Diana Ross; Wonder told Vanity Fair in 2008, \"I had a crush on her. When I came to Motown, she walked me around the building and showed me different things – she was wonderful.\"",
+              "sourceRefs": [
+                {
+                  "label": "Rolling Stone",
+                  "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+                  "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/",
+                  "sourceIdentity": "rollingstone.com|Rolling Stone",
+                  "extract": "Some even believe that \"Ebony Eyes\" – with its reference to a \"Miss Beautiful Supreme\" – is an ode to Wonder's childhood infatuation with elder Motown labelmate, Diana Ross. \"I had a crush on her,\" he admitted to Vanity Fair in 2008. \"When I came to Motown, she walked me around the building and showed me different things – she was wonderful.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "rollingstone-sitkol-ebony-eyes-2026-08-25",
+                  "snapshotHash": "b4cd0ab2ae006fd3e0b94c8edda0e6165fe726fe6c1c323dff72518098c41ada"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 9,
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone",
+              "title": "Inside Stevie Wonder's Epic 'Songs in the Key of Life'",
+              "url": "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478/"
+            }
+          ]
+        },
+        {
+          "trackTitle": "All Day Sucker",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "MusicRadar describes \"All Day Sucker\" as arguably the most downright funky thing on Songs in the Key of Life, noting it is all about the Clavinets and features the Marshall Time Modulator.",
+              "sourceRefs": [
+                {
+                  "label": "MusicRadar",
+                  "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+                  "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life",
+                  "sourceIdentity": "musicradar.com|MusicRadar",
+                  "extract": "All Day Sucker is arguably the most downright funky thing to come off the whole of Songs', though the stop-start rhythm and vocal-tracking bassline mean that it's not exactly danceable. It's all about the Clavinets here, and the Marshall Time Modulator gets another showing, too.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "musicradar-sitkol-all-day-sucker-2026-08-25",
+                  "snapshotHash": "9f22cc9f662104db609a17422bdb9c1566cbab7d360241445b35ada989b9813f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 10,
+          "sourceRefs": [
+            {
+              "label": "MusicRadar",
+              "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+              "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Easy Goin' Evening (My Mama's Call)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "\"Easy Goin' Evening (My Mama's Call)\" is an instrumental closing track featuring heavily chorused/flanged Fender Rhodes, Nathan Watts' laid-back bassline, and multi-tracked harmonica, as described in MusicRadar's track-by-track review.",
+              "sourceRefs": [
+                {
+                  "label": "MusicRadar",
+                  "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+                  "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life",
+                  "sourceIdentity": "musicradar.com|MusicRadar",
+                  "extract": "Stevie's opus closes with an instrumental that features a heavily chorused/flanged Fender Rhodes, Nathan Watts' laid-back bassline and multi-tracked harmonica.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "musicradar-sitkol-easy-goin-evening-2026-08-25",
+                  "snapshotHash": "0213b10bdc2b90f6f48cc4966d00ec2d5dba43af111b0c02bd76eb2ec89320a1"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+                "reviewedAt": "2026-08-25",
+                "notes": "Actual retained canonical pages and snapshots, exact excerpt containment after defensible normalization, repository snapshot-hash reproduction after canonical URL processing, canonical URL/source identity, semantic scope, exact catalog identity, evidence borrowing, boilerplate, and unsupported-analysis checks passed."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+          "discNumber": 2,
+          "trackNumber": 11,
+          "sourceRefs": [
+            {
+              "label": "MusicRadar",
+              "title": "Stevie Wonder: Songs In The Key Of Life track-by-track",
+              "url": "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-08-25T00:00:00Z",
+        "generator": "rank-4-manual-evidence-research",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25",
+        "reviewer": "independent evidence audit audit-004-sitkol-20260825-semantic-final-candidate2",
+        "notes": "All 21 claims supported; 0 unsupported, 0 uncertain, 0 critical, and 0 important findings. One non-blocking source-fidelity note: the Easy Goin Evening snapshot has an unused hard-pressed/hard-pushed variation outside the retained excerpt."
       }
     },
     "054-liz-phair-exile-in-guyville-2b33a458": {

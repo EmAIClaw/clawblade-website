@@ -4,7 +4,7 @@ import type { TrackEncyclopediaAlbumEntry } from "../../types";
 export const trackEncyclopediaMetadata = {
   "version": "1.0.0-pilot",
   "generatedAt": "2026-09-19T00:00:00Z",
-  "albumCount": 5
+  "albumCount": 6
 } as const;
 
 export const trackEncyclopediaAlbums = {
@@ -14,7 +14,7 @@ export const trackEncyclopediaAlbums = {
     contentHash: "449c11738b4a4676",
     objectHash: "030a139c5c59ef4c674a6b0b639af94ef419818414a755d2ee272bad06252f78",
     trackCount: 9,
-    releaseHash: "690a7e4721c4433a",
+    releaseHash: "df7c0753c7baf436",
     editionPath: "objects/albums/030a139c5c59ef4c674a6b0b639af94ef419818414a755d2ee272bad06252f78.json",
     load: async () => { const response = await fetch(new URL("./objects/albums/030a139c5c59ef4c674a6b0b639af94ef419818414a755d2ee272bad06252f78.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
@@ -24,7 +24,7 @@ export const trackEncyclopediaAlbums = {
     contentHash: "b09e0a3f6b9d372f",
     objectHash: "f89d2d72d13c21ba12023e53c5bec191f87961ccee06e7692e42658352f10541",
     trackCount: 13,
-    releaseHash: "690a7e4721c4433a",
+    releaseHash: "df7c0753c7baf436",
     editionPath: "objects/albums/f89d2d72d13c21ba12023e53c5bec191f87961ccee06e7692e42658352f10541.json",
     load: async () => { const response = await fetch(new URL("./objects/albums/f89d2d72d13c21ba12023e53c5bec191f87961ccee06e7692e42658352f10541.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
@@ -34,9 +34,19 @@ export const trackEncyclopediaAlbums = {
     contentHash: "03c972742edf5d9a",
     objectHash: "560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b",
     trackCount: 10,
-    releaseHash: "690a7e4721c4433a",
+    releaseHash: "df7c0753c7baf436",
     editionPath: "objects/albums/560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b.json",
     load: async () => { const response = await fetch(new URL("./objects/albums/560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
+  },
+  "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": {
+    albumId: "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    editionNumber: 1,
+    contentHash: "898fc67f8c7aaa5e",
+    objectHash: "15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6",
+    trackCount: 21,
+    releaseHash: "df7c0753c7baf436",
+    editionPath: "objects/albums/15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6.json",
+    load: async () => { const response = await fetch(new URL("./objects/albums/15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
   "054-liz-phair-exile-in-guyville-2b33a458": {
     albumId: "054-liz-phair-exile-in-guyville-2b33a458",
@@ -44,7 +54,7 @@ export const trackEncyclopediaAlbums = {
     contentHash: "13de9e97abdf754c",
     objectHash: "497b264ea8835eb1fb2cf810bed368a4397174be5bbdc710c06452928b530102",
     trackCount: 18,
-    releaseHash: "690a7e4721c4433a",
+    releaseHash: "df7c0753c7baf436",
     editionPath: "objects/albums/497b264ea8835eb1fb2cf810bed368a4397174be5bbdc710c06452928b530102.json",
     load: async () => { const response = await fetch(new URL("./objects/albums/497b264ea8835eb1fb2cf810bed368a4397174be5bbdc710c06452928b530102.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
@@ -54,7 +64,7 @@ export const trackEncyclopediaAlbums = {
     contentHash: "ee805c782c56bc4a",
     objectHash: "efd609a7260c9f173836bc1480fea6b56ccf130d5cfa3158524d2d11aa86a9cc",
     trackCount: 7,
-    releaseHash: "690a7e4721c4433a",
+    releaseHash: "df7c0753c7baf436",
     editionPath: "objects/albums/efd609a7260c9f173836bc1480fea6b56ccf130d5cfa3158524d2d11aa86a9cc.json",
     load: async () => { const response = await fetch(new URL("./objects/albums/efd609a7260c9f173836bc1480fea6b56ccf130d5cfa3158524d2d11aa86a9cc.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
