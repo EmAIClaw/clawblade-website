@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0-pilot",
-    "generatedAt": "2026-08-24T23:29:29Z",
+    "generatedAt": "2026-08-25T00:00:00Z",
     "notes": "Concise retained evidence snapshots used for automated exact-match checks. Snapshot text is stored separately from authored pilot claims."
   },
   "snapshots": {
@@ -249,6 +249,97 @@
       "fetchedAt": "2026-08-24T23:29:29Z",
       "normalizedText": "However the album’s most uncompromising track is the ‘free jazz’ of ‘LA Blues’, which these days Iggy describes as something akin to “a demonic howl”. “As a finale to our shows we would do what we called a Hippy or Freakout ending in freeform, leaving guitar and bass feeding back as we left the stage while the crowd was still passing Jim around [after one of his stagedives],” says Steve. “Don Galucci, the producer, thought it would be good to make it its own track. We did it all live in the studio.",
       "contentHash": "d5407fd5d96c4bfeb52c75ba2f6b5eb449d71f2b303629fb9d00157b8ca34e16"
+    },
+    "brian-wilson-interview-wouldnt-it-be-nice-2026-08-25": {
+      "id": "brian-wilson-interview-wouldnt-it-be-nice-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"Wouldn't It Be Nice' was not a real long song, but it's a very 'up' song. It expresses the frustration of youth, what you can't have, what you really want and you have to wait for it.\"",
+      "contentHash": "23a3b48488f04976fb3c0a12c861dc5767b375210acc436ed86180024e0e0106",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-you-still-believe-in-me-2026-08-25": {
+      "id": "brian-wilson-interview-you-still-believe-in-me-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"You Still Believe In Me' was more of what I would call a man who would not be afraid to take all of his clothes off and sing like a girl because he had feelings for people from that perspective. I was able to close my eyes and go into a world and sing a little more effeminately and more sweet--which allows a lot more love to come down through me, you know what I mean?... It's like Kenny Rogers. There's an example of a guy who has a fairly masculine sounding voice. 'You Still Believe In Me' was quite the opposite.\"",
+      "contentHash": "b133344c33126a8d6a9999736d3419b3531a27dd05ca0d290aa0ede3bd8f5d5b",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-thats-not-me-2026-08-25": {
+      "id": "brian-wilson-interview-thats-not-me-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"A very Mike Love-ish kind of a trip. He just really nailed it, real powerful voice, very souped-up kind of a sound. Tony and I actually didn't even really realize who we were writing it for. We didn't really write for anybody; we just wrote the songs. So we had full carte blanche to create these songs.\"",
+      "contentHash": "a46381b4b1b2e2ded147f9d141998ed5c8ff2137b93a926d4a9d7b31d6b7d84f",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-dont-talk-2026-08-25": {
+      "id": "brian-wilson-interview-dont-talk-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "[Don't Talk] was something that I think was the result of the fact that there are so many different ways to tell somebody you love them, and I think that we had a real special kind of grip on that kind of thing.",
+      "contentHash": "15310aa0c6ebad36389bd09b3bc08e092aaa517c2f0f5449f3f613f16e5f897e",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-waiting-for-the-day-2026-08-25": {
+      "id": "brian-wilson-interview-waiting-for-the-day-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"Vocally, I thought I sounded a little bit weird in my head. That's the one cut off the album I didn't really like that much. But, you know, it's okay, it's not a case of liking or not liking it; it was an appropriate song, a very, very positive song. I just didn't like my voice on that particular song.\"",
+      "contentHash": "32b22f3a65efad0e2165477db65cd30968a9c594666d6a94c8117acfff68e1e8",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-lets-go-away-2026-08-25": {
+      "id": "brian-wilson-interview-lets-go-away-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"If you want to know the truth, I think Burt Bacharach had influenced me a little bit with that. If you really analyzeit and you think about it, there were a lot of chord changes similar to the way he would put something together. And I think that his music had such a profound thing on my head; he got me going in a direction. I'm definitely proud of that tune.\"",
+      "contentHash": "1cbf93cdae2a3ac4bc48dbf25ee9b1dd54dee99e1d95da8712fd924be6a0650e",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-sloop-john-b-2026-08-25": {
+      "id": "brian-wilson-interview-sloop-john-b-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"Al Jardine called me up and said, 'I want the Beach Boys to do 'Sloop John B.' The Kingston Trio had a version, and I'd never heard it so he brought The Kingston Trio record over, and he played it for me. I learned the song and I arranged it.\"",
+      "contentHash": "143a91027b9ffe549ec6ed0d453ff4dcfcec8e84f1b4942b9fa12949f394977b",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-god-only-knows-2026-08-25": {
+      "id": "brian-wilson-interview-god-only-knows-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"That was a vision that Tony and I had. It's like being blind but in being blind, you can see more. You close your eyes; you're able to see a place or something that's happening.\"",
+      "contentHash": "8330a5c3ca9fffe25f01c31e881a6d1d3c1a30a95e735f33f335755368910207",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-i-know-theres-an-answer-2026-08-25": {
+      "id": "brian-wilson-interview-i-know-theres-an-answer-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "I used that in Pet Sounds. 'I Know There's An Answer--you'll hear an organ and a tack piano together. It's really neither of those sounds. It's like a completely new sound. A different sound. Combining one thing to make another thing. It's amazing.",
+      "contentHash": "874c632eac7607bcc22afb9a0cb27523c4ade77cf9d22377b21c96e369d29144",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-here-today-2026-08-25": {
+      "id": "brian-wilson-interview-here-today-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"Here Today' was probably one of the mystery songs on the album. I don't really know what it's about. I liked it, but yet I didn't. I don't really identify with that song like I do with 'You Still Believe In Me', or 'Caroline, No.' It was just one of those songs in there, one little song.\"",
+      "contentHash": "bc7665b4d950aae389a5186be8efca4ae97dc4e94980314f0947d826ef5e5cda",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-wasnt-made-for-these-times-2026-08-25": {
+      "id": "brian-wilson-interview-wasnt-made-for-these-times-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "\"I Just Wasn't Made For These Times' had what I would call a fairly behind-the-beat-- not 'behind-the-beat' meaning in back of the beat, but getting behind the beat and being able to create a song like that from a place.\"",
+      "contentHash": "1055f3e3bd8d664c4a040a0e0ec105f6823c61a18fb452c8e1f21f981a29f5df",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-pet-sounds-instrumental-2026-08-25": {
+      "id": "brian-wilson-interview-pet-sounds-instrumental-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "The instrumental called 'Pet Sounds'? That was [originally] 'Run James Run! It was supposed to be a James Bond theme type of song. We were gonna try to get it to the James Bond people. But we thought it would never happen, so we put it on the album.",
+      "contentHash": "05213d4042f3788d790fc50cbf1aa077a3854e0ac40ee2d5ff93d127ffc532ff",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "brian-wilson-interview-caroline-no-2026-08-25": {
+      "id": "brian-wilson-interview-caroline-no-2026-08-25",
+      "canonicalUrl": "https://albumlinernotes.com/Interview_w_Brian_Wilson.html",
+      "normalizedText": "Obviously, probably my favorite cut on the album. Just absolutely blew my mind away. The song itself was taken and put in a context, musical context over at Western Recorders. We gave it life. Gave it new life, like a breathing person, like the life of a song or something. And quite a heavy experience for me. I liked my voice on that one. My dad said, he goes, 'You know what, son?' he said. 'You oughta speed that up a whole note; it'll sound better] So that's what we did.",
+      "contentHash": "f617f9869377c0fe12c67fe9e417350a35e975ded0dcb19e08f96f082866a961",
+      "fetchedAt": "2026-08-25T00:00:00Z"
     }
   }
 }

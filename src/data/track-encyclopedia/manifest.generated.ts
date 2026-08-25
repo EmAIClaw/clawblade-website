@@ -4,7 +4,7 @@ import type { TrackEncyclopediaAlbumEntry } from "../../types";
 export const trackEncyclopediaMetadata = {
   "version": "1.0.0-pilot",
   "generatedAt": "2026-09-19T00:00:00Z",
-  "albumCount": 3
+  "albumCount": 4
 } as const;
 
 export const trackEncyclopediaAlbums = {
@@ -13,27 +13,36 @@ export const trackEncyclopediaAlbums = {
     editionNumber: 4,
     contentHash: "449c11738b4a4676",
     trackCount: 9,
-    releaseHash: "0e1155d463a6187e",
-    editionPath: "releases/0e1155d463a6187e/editions/001-marvin-gaye-what-s-going-on-fd00dde9/edition-4-449c11738b4a4676.json",
-    load: async () => { const response = await fetch(new URL("./releases/0e1155d463a6187e/albums/001-marvin-gaye-what-s-going-on-fd00dde9.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
+    releaseHash: "f631a27c8cdd3e6f",
+    editionPath: "releases/f631a27c8cdd3e6f/editions/001-marvin-gaye-what-s-going-on-fd00dde9/edition-4-449c11738b4a4676.json",
+    load: async () => { const response = await fetch(new URL("./releases/f631a27c8cdd3e6f/albums/001-marvin-gaye-what-s-going-on-fd00dde9.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
+  },
+  "002-the-beach-boys-pet-sounds-eabcc325": {
+    albumId: "002-the-beach-boys-pet-sounds-eabcc325",
+    editionNumber: 1,
+    contentHash: "b09e0a3f6b9d372f",
+    trackCount: 13,
+    releaseHash: "f631a27c8cdd3e6f",
+    editionPath: "releases/f631a27c8cdd3e6f/editions/002-the-beach-boys-pet-sounds-eabcc325/edition-1-b09e0a3f6b9d372f.json",
+    load: async () => { const response = await fetch(new URL("./releases/f631a27c8cdd3e6f/albums/002-the-beach-boys-pet-sounds-eabcc325.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
   "054-liz-phair-exile-in-guyville-2b33a458": {
     albumId: "054-liz-phair-exile-in-guyville-2b33a458",
     editionNumber: 4,
     contentHash: "13de9e97abdf754c",
     trackCount: 18,
-    releaseHash: "0e1155d463a6187e",
-    editionPath: "releases/0e1155d463a6187e/editions/054-liz-phair-exile-in-guyville-2b33a458/edition-4-13de9e97abdf754c.json",
-    load: async () => { const response = await fetch(new URL("./releases/0e1155d463a6187e/albums/054-liz-phair-exile-in-guyville-2b33a458.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
+    releaseHash: "f631a27c8cdd3e6f",
+    editionPath: "releases/f631a27c8cdd3e6f/editions/054-liz-phair-exile-in-guyville-2b33a458/edition-4-13de9e97abdf754c.json",
+    load: async () => { const response = await fetch(new URL("./releases/f631a27c8cdd3e6f/albums/054-liz-phair-exile-in-guyville-2b33a458.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
   "092-the-stooges-fun-house-9896fe5c": {
     albumId: "092-the-stooges-fun-house-9896fe5c",
     editionNumber: 3,
     contentHash: "ee805c782c56bc4a",
     trackCount: 7,
-    releaseHash: "0e1155d463a6187e",
-    editionPath: "releases/0e1155d463a6187e/editions/092-the-stooges-fun-house-9896fe5c/edition-3-ee805c782c56bc4a.json",
-    load: async () => { const response = await fetch(new URL("./releases/0e1155d463a6187e/albums/092-the-stooges-fun-house-9896fe5c.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
+    releaseHash: "f631a27c8cdd3e6f",
+    editionPath: "releases/f631a27c8cdd3e6f/editions/092-the-stooges-fun-house-9896fe5c/edition-3-ee805c782c56bc4a.json",
+    load: async () => { const response = await fetch(new URL("./releases/f631a27c8cdd3e6f/albums/092-the-stooges-fun-house-9896fe5c.json", import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(`Track encyclopedia request failed: ${response.status}`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },
   },
 } as const;
 

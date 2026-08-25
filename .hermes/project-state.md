@@ -1,6 +1,6 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25 01:37 CEST
+Updated: 2026-08-25 02:09 CEST
 
 ## Canonical workspace
 
@@ -11,60 +11,59 @@ Updated: 2026-08-25 01:37 CEST
 
 ## Current mission
 
-Complete only catalog rank 92, The Stooges — *Fun House*, across its exact current 7-track catalog edition. Do not expand to another album.
+Complete only catalog rank 2, The Beach Boys — *Pet Sounds*, across its exact current 13-track catalog edition. Do not expand to another album.
 
-## Rank-92 completion status
+## Rank-2 completion status
 
-- Authoritative album ID: `092-the-stooges-fun-house-9896fe5c`.
-- Exact identity preserved: disc 1, tracks 1–7, current catalog titles unchanged.
-- New immutable draft edition: 3.
-- Draft content hash: `ee805c782c56bc4a`.
-- Generated release hash: `0e1155d463a6187e`.
+- Authoritative album ID: `002-the-beach-boys-pet-sounds-eabcc325`.
+- Exact identity preserved: disc 1, tracks 1–13, current catalog titles unchanged.
+- New immutable draft edition: 1.
+- Draft content hash: `b09e0a3f6b9d372f`.
+- Edition file SHA-256: `fc9834b4962f2d8591c89826d59351b35aeeba225ed9c2a14c7c1fd938508844`.
+- Generated release hash: `f631a27c8cdd3e6f`.
 - Publication state: `published: false`.
-- Track dispositions: 7 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
-- Each displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, independently hashed snapshot, and supported independent semantic review decision.
-- Shared source pages use seven distinct, track-relevant snapshots and excerpts; evidence is not borrowed across songs.
-- Unsupported musical-character, album-context, and listening-note prose is absent. No audio analysis is claimed.
-- Rank 92 is completion-eligible as an unpublished draft.
+- Track dispositions: 13 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Every displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, self-describing hashed snapshot, and supported independent semantic review decision.
+- The shared track-by-track interview page genuinely discusses every song; 13 distinct track-specific excerpts and snapshot IDs prevent evidence borrowing.
+- Unsupported musical-character, album-context, listening-note, and audio-analysis prose is absent.
+- Rank 2 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Audit ID: `audit-092-funhouse-20260825-semantic`.
-- Decisions: 7 supported, 0 unsupported, 0 uncertain.
-- Critical or important findings: none.
-- Minor findings: source-page misspellings of Ron Asheton and Don Gallucci were normalized in claims and explicitly disclosed in track limitations.
-- Exact catalog identity: passed.
-- Actual-page and snapshot excerpt containment: 7/7.
-- Snapshot URL identity and project-hash verification: 7/7.
-- Evidence borrowing: none; 7 distinct snapshot IDs and excerpts.
-- Boilerplate: no substantive boilerplate.
+- Audit ID: `audit-002-petsounds-20260825-semantic-final`.
+- Final decisions: 13 supported, 0 unsupported, 0 uncertain.
+- Actual-page and snapshot exact containment: 13/13.
+- Snapshot URL identity and project-hash verification: 13/13.
+- Exact catalog identity/order/title: 13/13.
+- Evidence borrowing: none.
 - Unsupported listening/audio analysis: none.
+- Critical or important findings remaining: none.
+- Repairs before final approval: removed an unsupported Phil Spector clause from track 9 and replaced extractor-escaped/non-contiguous excerpts for tracks 4, 9, 12, and 13 with exact contiguous retained text; refreshed hashes and search records.
 
 ## Verification status
 
-All required gates passed after replacing two stale pilot-era assertions that expected rank 92 to remain limited/unresearched:
+All required gates passed after the final audited candidate:
 
-- `node scripts/build-track-encyclopedia.mjs validate --album-id 092-the-stooges-fun-house-9896fe5c`
+- `node scripts/build-track-encyclopedia.mjs validate --album-id 002-the-beach-boys-pet-sounds-eabcc325`
 - `node scripts/test-track-encyclopedia-backend.mjs` — 49/49
-- `node scripts/test-track-encyclopedia-pilot-repairs.mjs`
+- `node scripts/test-track-encyclopedia-pilot-repairs.mjs` — 4 authoring files
 - `node scripts/test-track-encyclopedia-ui.mjs` — 5/5
 - `node scripts/test-track-encyclopedia.mjs` — 71/71
 - `npx tsc --noEmit`
 - `npm run test:data` — 243 albums
 - `npm run test:all`
-- `npm run build:track-encyclopedia` — 3 albums, 34 tracks; 34 documented, 0 unresearched
+- `npm run build:track-encyclopedia` — 4 albums, 47 tracks; 47 documented, 0 unresearched
 - `npm run build`
 - `git diff --check`
-- Rank-92 evidence snapshot hashes verified with the project hash implementation.
-- Rank-92 editions 1–2 remain byte-identical to their pre-mission SHA-256 hashes.
+- Rank-2 search-record/snapshot alignment: 13/13.
+- Eleven pre-mission edition files remain byte-identical to captured SHA-256 hashes.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
-- Versioned pilots: 3 albums, 34 tracks.
-- Completion-disposition tracks: 34 (34 documented, 0 contextual, 0 insufficient-evidence).
-- Completed albums: 3.
-- Catalog tracks still unresearched for completion accounting: 3,332.
+- Versioned/completed: 4 albums, 47 tracks.
+- Completion-disposition tracks: 47 (47 documented, 0 contextual, 0 insufficient-evidence).
+- Catalog tracks still unresearched for completion accounting: 3,319.
 
 ## Safety / deployment
 
@@ -72,5 +71,5 @@ All required gates passed after replacing two stale pilot-era assertions that ex
 - No edition was marked published.
 - No push or deployment occurred.
 - No external communication occurred.
-- Historical generated releases and edition history remain retained.
-- Rank-92 editions 1–2 remain byte-identical to their pre-mission SHA-256 hashes.
+- Historical valid generated releases and prior edition history remain retained.
+- Unrelated untracked historical reports remain untouched and must be excluded from the focused commit.

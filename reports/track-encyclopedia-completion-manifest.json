@@ -1,30 +1,31 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-08-24T23:37:45Z",
+  "updatedAt": "2026-08-25T00:09:51Z",
   "catalogAlbums": 243,
   "catalogTracks": 3366,
   "foundationStatus": "verified-local-foundation-complete",
   "expansionGatePassed": true,
   "publishedDataChanged": false,
-  "versionedAlbums": 3,
-  "versionedTracks": 34,
-  "completedAlbums": 3,
-  "completedTracks": 34,
-  "documentedTracks": 34,
+  "versionedAlbums": 4,
+  "versionedTracks": 47,
+  "completedAlbums": 4,
+  "completedTracks": 47,
+  "documentedTracks": 47,
   "contextualTracks": 0,
   "insufficientEvidenceTracks": 0,
-  "unresearchedTracks": 3332,
+  "unresearchedTracks": 3319,
   "pilotDraftEditions": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
     "054-liz-phair-exile-in-guyville-2b33a458": 4,
-    "092-the-stooges-fun-house-9896fe5c": 3
+    "092-the-stooges-fun-house-9896fe5c": 3,
+    "002-the-beach-boys-pet-sounds-eabcc325": 1
   },
-  "validationStatus": "49 backend tests, updated pilot completion acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 7-track rank-92 semantic evidence audit passed",
+  "validationStatus": "49 backend tests, 4-authoring completion acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 13-track rank-2 semantic evidence audit passed",
   "notes": [
-    "Rank 92 The Stooges — Fun House is completion-eligible in unpublished draft edition 3: all 7 tracks are documented with distinct retained exact excerpts and supported independent semantic review decisions.",
-    "All three pilot editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
-    "Unsupported listening-analysis prose was removed from rank 92; no audio analysis is claimed.",
-    "No album other than rank 92 was researched or authored by this mission."
+    "Rank 2 The Beach Boys — Pet Sounds is completion-eligible in unpublished draft edition 1: all 13 exact catalog tracks are documented with retained track-specific first-person interview excerpts and supported independent semantic review decisions.",
+    "All four versioned editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
+    "The final audit required narrowing one unsupported Phil Spector clause and repairing exact excerpt containment for tracks 4, 9, 12, and 13; all findings were resolved before completion.",
+    "No album other than rank 2 was researched or authored by this mission."
   ],
   "albums": [
     {
@@ -52,7 +53,14 @@
       "catalogTrackCount": 13,
       "legacyGuideCount": 13,
       "legacyGuidesWithHttpsSource": 3,
-      "versioned": false
+      "versioned": true,
+      "completionEligible": true,
+      "draftEdition": 1,
+      "documentedTracks": 13,
+      "contextualTracks": 0,
+      "insufficientEvidenceTracks": 0,
+      "unresearchedTracks": 0,
+      "contentHash": "b09e0a3f6b9d372f"
     },
     {
       "rank": 3,
