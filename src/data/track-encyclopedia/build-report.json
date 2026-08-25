@@ -10,6 +10,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/003-joni-mitchell-blue-9c3a8b85.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -18,10 +22,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 4,
-  "totalTracks": 47,
+  "totalEntries": 5,
+  "totalTracks": 57,
   "evidenceLevelCounts": {
-    "documented": 47,
+    "documented": 57,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

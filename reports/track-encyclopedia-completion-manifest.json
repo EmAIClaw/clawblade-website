@@ -1,31 +1,32 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-08-25T00:09:51Z",
+  "updatedAt": "2026-08-25T00:00:00Z",
   "catalogAlbums": 243,
   "catalogTracks": 3366,
   "foundationStatus": "verified-local-foundation-complete",
   "expansionGatePassed": true,
   "publishedDataChanged": false,
-  "versionedAlbums": 4,
-  "versionedTracks": 47,
-  "completedAlbums": 4,
-  "completedTracks": 47,
-  "documentedTracks": 47,
+  "versionedAlbums": 5,
+  "versionedTracks": 57,
+  "completedAlbums": 5,
+  "completedTracks": 57,
+  "documentedTracks": 57,
   "contextualTracks": 0,
   "insufficientEvidenceTracks": 0,
-  "unresearchedTracks": 3319,
+  "unresearchedTracks": 3309,
   "pilotDraftEditions": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": 4,
     "054-liz-phair-exile-in-guyville-2b33a458": 4,
     "092-the-stooges-fun-house-9896fe5c": 3,
-    "002-the-beach-boys-pet-sounds-eabcc325": 1
+    "002-the-beach-boys-pet-sounds-eabcc325": 1,
+    "003-joni-mitchell-blue-9c3a8b85": 1
   },
-  "validationStatus": "49 backend tests, 4-authoring completion acceptance, 5 UI tests, 71 core track tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 13-track rank-2 semantic evidence audit passed",
+  "validationStatus": "49 backend tests, 5-authoring completion acceptance, 5 UI tests, 71 core track tests, 13 object-store tests, TypeScript, data integrity, full npm test:all, track-encyclopedia build, production build, diff check, immutable prior-edition hash verification, and independent 10-track rank-3 semantic evidence audit passed",
   "notes": [
-    "Rank 2 The Beach Boys — Pet Sounds is completion-eligible in unpublished draft edition 1: all 13 exact catalog tracks are documented with retained track-specific first-person interview excerpts and supported independent semantic review decisions.",
-    "All four versioned editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
-    "The final audit required narrowing one unsupported Phil Spector clause and repairing exact excerpt containment for tracks 4, 9, 12, and 13; all findings were resolved before completion.",
-    "No album other than rank 2 was researched or authored by this mission."
+    "Rank 3 Joni Mitchell — Blue is completion-eligible in unpublished draft edition 1: all 10 exact catalog tracks are documented with retained track-specific interview or reputable music-journalism excerpts and supported independent semantic review decisions.",
+    "All five versioned editions remain unpublished drafts; no data lifecycle publication, push, or deployment occurred.",
+    "The candidate audit required correcting three Rolling Stone reviewer attributions and narrowing the Carey and California claims; all critical and important findings were resolved before completion.",
+    "No album other than rank 3 was researched or authored by this mission."
   ],
   "albums": [
     {
@@ -70,7 +71,14 @@
       "catalogTrackCount": 10,
       "legacyGuideCount": 10,
       "legacyGuidesWithHttpsSource": 3,
-      "versioned": false
+      "versioned": true,
+      "completionEligible": true,
+      "draftEdition": 1,
+      "documentedTracks": 10,
+      "contextualTracks": 0,
+      "insufficientEvidenceTracks": 0,
+      "unresearchedTracks": 0,
+      "contentHash": "03c972742edf5d9a"
     },
     {
       "rank": 4,

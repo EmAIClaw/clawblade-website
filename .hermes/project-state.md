@@ -1,6 +1,6 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25 02:09 CEST
+Updated: 2026-08-25
 
 ## Canonical workspace
 
@@ -11,59 +11,59 @@ Updated: 2026-08-25 02:09 CEST
 
 ## Current mission
 
-Complete only catalog rank 2, The Beach Boys — *Pet Sounds*, across its exact current 13-track catalog edition. Do not expand to another album.
+Complete only catalog rank 3, Joni Mitchell — *Blue*, across its exact current 10-track catalog edition. Do not expand to another album.
 
-## Rank-2 completion status
+## Rank-3 completion status
 
-- Authoritative album ID: `002-the-beach-boys-pet-sounds-eabcc325`.
-- Exact identity preserved: disc 1, tracks 1–13, current catalog titles unchanged.
+- Authoritative album ID: `003-joni-mitchell-blue-9c3a8b85`.
+- Exact identity preserved: disc 1, tracks 1–10, current catalog titles unchanged.
 - New immutable draft edition: 1.
-- Draft content hash: `b09e0a3f6b9d372f`.
-- Edition file SHA-256: `fc9834b4962f2d8591c89826d59351b35aeeba225ed9c2a14c7c1fd938508844`.
-- Generated release hash: `f631a27c8cdd3e6f`.
+- Draft content hash: `03c972742edf5d9a`.
+- Edition file SHA-256: `8cb17db066cb55b969fd69dbc5954707becdffd97be559ea4ea4ac82b8656077`.
+- Immutable object hash: `560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b`.
+- Generated release hash: `690a7e4721c4433a`.
 - Publication state: `published: false`.
-- Track dispositions: 13 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
-- Every displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, self-describing hashed snapshot, and supported independent semantic review decision.
-- The shared track-by-track interview page genuinely discusses every song; 13 distinct track-specific excerpts and snapshot IDs prevent evidence borrowing.
+- Track dispositions: 10 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Every displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, self-describing project-hashed snapshot, and supported independent semantic review decision.
 - Unsupported musical-character, album-context, listening-note, and audio-analysis prose is absent.
-- Rank 2 is completion-eligible as an unpublished draft.
+- Rank 3 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Audit ID: `audit-002-petsounds-20260825-semantic-final`.
-- Final decisions: 13 supported, 0 unsupported, 0 uncertain.
-- Actual-page and snapshot exact containment: 13/13.
-- Snapshot URL identity and project-hash verification: 13/13.
-- Exact catalog identity/order/title: 13/13.
+- Audit ID: `audit-003-blue-20260825-semantic-final`.
+- Final decisions: 10 supported, 0 unsupported, 0 uncertain.
+- Actual-page and snapshot exact containment: 10/10.
+- Project snapshot-hash and edition content-hash reproduction: passed.
+- Exact catalog identity/order/title: 10/10.
 - Evidence borrowing: none.
 - Unsupported listening/audio analysis: none.
 - Critical or important findings remaining: none.
-- Repairs before final approval: removed an unsupported Phil Spector clause from track 9 and replaced extractor-escaped/non-contiguous excerpts for tracks 4, 9, 12, and 13 with exact contiguous retained text; refreshed hashes and search records.
+- Repairs before final approval: corrected three Rolling Stone bylines, narrowed Carey and California claims, normalized the Little Green excerpt, and replaced initial plain-text hashes with repository-required self-describing hashes.
 
 ## Verification status
 
 All required gates passed after the final audited candidate:
 
-- `node scripts/build-track-encyclopedia.mjs validate --album-id 002-the-beach-boys-pet-sounds-eabcc325`
-- `node scripts/test-track-encyclopedia-backend.mjs` — 49/49
-- `node scripts/test-track-encyclopedia-pilot-repairs.mjs` — 4 authoring files
-- `node scripts/test-track-encyclopedia-ui.mjs` — 5/5
-- `node scripts/test-track-encyclopedia.mjs` — 71/71
-- `npx tsc --noEmit`
-- `npm run test:data` — 243 albums
-- `npm run test:all`
-- `npm run build:track-encyclopedia` — 4 albums, 47 tracks; 47 documented, 0 unresearched
-- `npm run build`
-- `git diff --check`
-- Rank-2 search-record/snapshot alignment: 13/13.
-- Eleven pre-mission edition files remain byte-identical to captured SHA-256 hashes.
+- Lifecycle validator — valid; edition 1; unpublished.
+- Backend tests — 49/49.
+- Authoring completion acceptance — 5 authoring files.
+- UI evidence/state tests — 5/5.
+- Core track-encyclopedia tests — 71/71.
+- Object-store tests — 13/13 via full `test:all`.
+- TypeScript — passed.
+- Data integrity — 243 albums.
+- Full `npm run test:all` — passed.
+- Track build — 5 albums, 57 tracks; 57 documented, 0 unresearched.
+- Production build — passed; 1,574 modules transformed.
+- `git diff --check` — passed.
+- Prior-edition hash verification — 12/12 unchanged.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
-- Versioned/completed: 4 albums, 47 tracks.
-- Completion-disposition tracks: 47 (47 documented, 0 contextual, 0 insufficient-evidence).
-- Catalog tracks still unresearched for completion accounting: 3,319.
+- Versioned/completed: 5 albums, 57 tracks.
+- Completion-disposition tracks: 57 (57 documented, 0 contextual, 0 insufficient-evidence).
+- Catalog tracks still unresearched for completion accounting: 3,309.
 
 ## Safety / deployment
 

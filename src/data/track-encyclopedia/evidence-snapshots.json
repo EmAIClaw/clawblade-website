@@ -340,6 +340,76 @@
       "normalizedText": "Obviously, probably my favorite cut on the album. Just absolutely blew my mind away. The song itself was taken and put in a context, musical context over at Western Recorders. We gave it life. Gave it new life, like a breathing person, like the life of a song or something. And quite a heavy experience for me. I liked my voice on that one. My dad said, he goes, 'You know what, son?' he said. 'You oughta speed that up a whole note; it'll sound better] So that's what we did.",
       "contentHash": "f617f9869377c0fe12c67fe9e417350a35e975ded0dcb19e08f96f082866a961",
       "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "hot-press-little-green-2026-08-25": {
+      "id": "hot-press-little-green-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=503",
+      "normalizedText": "\"All those songs I wrote the way I did because I had to,\" she explains. \"I was emotionally disturbed, again, which brings out the poet in me. I had some hard life changes handed to me. The story is out on the streets now, but what happened was that I had to give up my daughter for adoption. Because of poverty. Not having the money to feed and clothe her and put a roof over her head.\" Kilauren is the daughter Joni was singing about in 'Little Green' from Blue.",
+      "contentHash": "d8d0bac928c18069012fc15168ac0e5aad967be7c7a3abbb19283f9503ceed3a",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "joni-on-joni-all-i-want-2026-08-25": {
+      "id": "joni-on-joni-all-i-want-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=4423",
+      "normalizedText": "I like the song. It's got more tooth than most of the other [early] songs. But I don't know what to say about it. It's funny how people keep looking between the lines of songs to see what is hidden there. Well, I'm not an evasive writer. You don't have to dig under the words for the meaning. The meaning is all there. It's very plain-speak.",
+      "contentHash": "f063266165362be833b677dc1ce362d19de2b149a2aa84a5057120d2f990e03b",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "los-angeles-times-carey-2026-08-25": {
+      "id": "los-angeles-times-carey-2026-08-25",
+      "canonicalUrl": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue",
+      "normalizedText": "Just as we were talking, we heard an explosion, and when we turned around we saw Cary (Raditz) being blown out the door of a restaurant. He was a cook, and he had been lighting the stove and it exploded. I said to Penelope, “What an entrance! I’ve got to go and meet him.”",
+      "contentHash": "97f17d369983c46f4b1a571371fe0de709a832bb170c2ee50edad3e9ebb25525",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "los-angeles-times-river-2026-08-25": {
+      "id": "los-angeles-times-river-2026-08-25",
+      "canonicalUrl": "https://www.latimes.com/entertainment-arts/music/story/2021-06-20/joni-mitchell-cameron-crowe-50th-anniversary-blue",
+      "normalizedText": "No, just, you know, it expresses regret at the end of a relationship. That’s about all. It’s about being lonely at Christmastime, which is one reason for its popularity, I think. So many people are lonely at Christmas.",
+      "contentHash": "088bf3465b80b53ba9681cc619601df8693d21e8434edb1d513867f51878c335",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "new-york-post-a-case-of-you-2026-08-25": {
+      "id": "new-york-post-a-case-of-you-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=4906",
+      "normalizedText": "While Nash and Mitchell were living together in Los Angeles, he saw her genius at work writing some of the songs, including \"A Case of You.\" \"I distinctly picture in my head her writing at her piano in our house in Laurel Canyon that we shared for a couple of years there,\" he said.",
+      "contentHash": "09295d60b4a7b53385166493ee41388712fd4352a58ab5c8c44b735bc86e182e",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "new-york-post-california-2026-08-25": {
+      "id": "new-york-post-california-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=4906",
+      "normalizedText": "Drummer Russ Kunkel - who played on \"Carey,\" \"California\" and \"A Case of You\" - connected with Mitchell through the vibrant Laurel Canyon music scene.",
+      "contentHash": "8308e93459c140f74cec3f7dd358baa120f854a6a05dbcb6331ba26d848ee5e1",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "new-york-post-my-old-man-2026-08-25": {
+      "id": "new-york-post-my-old-man-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=4906",
+      "normalizedText": "The \"Blue\" tracks that are specifically about Nash - \"My Old Man\" and \"River\" - cover their relationship from opposite ends of the spectrum: On the former, Mitchell sings about a domestic bliss that doesn't \"need no piece of paper,\" while the latter is a breakup lament about losing \"the best baby that I ever had\".\"",
+      "contentHash": "c3b33f59065f7790447d63756a5344e88fb6b4aaeb2f0d51621e8351da2e020d",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "rolling-stone-blue-title-track-2026-08-25": {
+      "id": "rolling-stone-blue-title-track-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=252",
+      "normalizedText": "\"Blue\" is a distillation of pain and is therefore the most private of Joni's private songs. She wrote it for nobody but herself and her lover:",
+      "contentHash": "f496595d8c842ba8eeaf0031d274e894afa3600f66006efb36a770effb31e5c9",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "rolling-stone-last-time-richard-2026-08-25": {
+      "id": "rolling-stone-last-time-richard-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=252",
+      "normalizedText": "\"The Last Time I Saw Richard' is a memoir of Joni's \"dark cafe days,\" cluttered with insignificant detail and reminiscent of the least memorable autobiographical songs on Ladies.",
+      "contentHash": "a97b3a5064ea7d3b421b1ef6a75b6d3ca227024b7d08f4d1876db7089e9f559b",
+      "fetchedAt": "2026-08-25T00:00:00Z"
+    },
+    "rolling-stone-this-flight-tonight-2026-08-25": {
+      "id": "rolling-stone-this-flight-tonight-2026-08-25",
+      "canonicalUrl": "https://jonimitchell.com/library/view.cfm?id=252",
+      "normalizedText": "In \"This Flight Tonight,\" Joni has walked out on her man, is flying west on a jet, and now regrets the decision.",
+      "contentHash": "9d25a9abeb55f9d1398c1e0af2f6f4f9f1e0766392664a4c67aa4998446c3482",
+      "fetchedAt": "2026-08-25T00:00:00Z"
     }
   }
 }
