@@ -22,6 +22,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/006-nirvana-nevermind-0af5df5e.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -30,10 +34,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 7,
-  "totalTracks": 95,
+  "totalEntries": 8,
+  "totalTracks": 108,
   "evidenceLevelCounts": {
-    "documented": 95,
+    "documented": 108,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

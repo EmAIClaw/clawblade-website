@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0-pilot",
     "generatedAt": "2026-09-19T00:00:00Z",
-    "albumCount": 7
+    "albumCount": 8
   },
   "entries": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": {
@@ -3190,6 +3190,610 @@
         "reviewer": "independent evidence audits audit-005-abbey-road-20260825-semantic-independent-final-candidate2; audit-005-abbey-road-20260825-semantic-independent-final-candidate3; audit-005-abbey-road-20260825-parent-independent-postcommit-verification",
         "notes": "Parent independent postcommit audit audit-005-abbey-road-20260825-parent-independent-postcommit-verification verified 17 supported, 0 unsupported, 0 uncertain with live-page/snapshot/hash containment and aggregate integrity passed, and reported one important typo plus five minor apostrophe omissions in displayed claims. Edition 2 fixes those editorial findings while preserving semantic support, retained verbatim excerpts, evidence snapshots, and exact catalog identity."
       }
+    },
+    "006-nirvana-nevermind-0af5df5e": {
+      "albumId": "006-nirvana-nevermind-0af5df5e",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Initial independently researched completion draft for all 13 exact Nevermind catalog tracks",
+      "trackEntries": [
+        {
+          "trackTitle": "Smells Like Teen Spirit",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "In MOJO's track-by-track session account, producer Butch Vig says the first time he heard \"Smells Like Teen Spirit\" with Dave Grohl, it stunned him.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Smells Like Teen Spirit Butch Vig: \"The first time I heard Teen Spirit it stunned me. I hadn't seen them play with Dave before- it was in this big room and it was really loud.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-smells-like-teen-spirit-2026-08-25",
+                  "snapshotHash": "c7ff39b13e445e795a411c9cab1f108586ade7d0b7982e2c593b610d9181c9b2"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "In Bloom",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says the Nevermind arrangement of \"In Bloom\" was the same as the demo arrangement, while the drums were an area of dissatisfaction.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "In Bloom Vig: \"In Bloom has that amazing chorus - an amazing hook. The arrangement is the same as on the demo, except none of us was very happy with the drums.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-in-bloom-2026-08-25",
+                  "snapshotHash": "bd187cb0d4c0edfc5e363b649eb4001184cab1378a95bc2c3216aa868bb5c07a"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Come As You Are",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says the backing track for \"Come As You Are\" was recorded quickly and that the bass was triple-tracked, including regular, octave, and DBX sub-harmonic parts.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Come As You Are Kurt Cobain's message to his disenfranchised audience was simple: he would accept them as they were, and he offered them no threat. His lyrics were more or less complete by the time Vig first heard the song, recorded in a rehearsal on an old boom box. Vig: \"The backing track was very quick. We actually triple-tracked the bass: a regular bass, then Chris played an octave bass, then he tuned the bass strangely and ran it through a DBX sub-harmonic effect. We were trying to make the bass sound like a 12-string.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-come-as-you-are-2026-08-25",
+                  "snapshotHash": "ac936745f68c3a50fe791e0f5ecff71627a35fcc7cf112b5ffb53fe4b5368393"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Breed",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says the scratchy guitar at the start of \"Breed\" came from Kurt Cobain plugging directly into the mixing desk.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Breed Vig: \"The song starts with a really scratchy guitar. That's where Kurt plugged straight into the mixing desk, a really punk thing.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-breed-2026-08-25",
+                  "snapshotHash": "95ed5999031295a05d248c66f54af5f0b6dc02450a609fb3f49d757c139761cb"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Lithium",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "MOJO's session account says \"Lithium\" was relatively difficult to record: Dave Grohl tracked drums to a click, with bass, guitars, and quieter guitar parts added separately.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Lithium proved relatively difficult to record, partly because Cobain insisted on an even tempo, keeping the same pace for the raucous choruses and the more thoughtful, guitar-led section. Grohl therefore recorded the drums to a click track, with the bass and guitars added later. The quieter guitar parts were also done separately.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-lithium-2026-08-25",
+                  "snapshotHash": "bb665a5057a4cfa78f26e10611bbc280910b4cd115b940263760f19292e88e4f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Polly",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says \"Polly\" was recorded late at night at Smart Studios, with Kurt Cobain singing while playing acoustic guitar.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Polly Vig: \"Polly was the last thing we did at Smart and it was recorded really raw, late at night. Not too much thought went into it. Kurt just wanted to record the track at that moment. He played the song and sang it at the same time, just acoustic guitar and voice.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-polly-2026-08-25",
+                  "snapshotHash": "95c3b44326599d079a4218c5aff556699f1be407cd810005b148266727cf75b9"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Territorial Pissings",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says Krist Novoselic sang part of the Youngbloods' \"Get Together\" at the start of \"Territorial Pissings\", and the guitar was injected directly into the board.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Territorial Pissings Vig: \"That's Chris singing at the front. I think I suggested we should put something kind of odd in there. So he went in and sung a little bit of The Youngbloods' Get Together. Kurt asked him to sing it 'joyously terrible'. The guitar was DI'd [directly injected] straight into the board, like many punk bands of the '70s and early '80s.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-territorial-pissings-2026-08-25",
+                  "snapshotHash": "ec7a168e03e45030be100a01f81335c5e8147ecf31a708e67340f90d5f8e1022"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Drain You",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says the 17-bar abstract section in \"Drain You\" retained sounds Kurt Cobain made with objects including squeaky ducks, percussion, and an aerosol during vocal passes.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Vig: \"Instead of concocting a guitar solo, every time Kurt did a vocal pass he would run to the side of the room at that part of the song and pick something up - squeaky ducks, percussion things or an aerosol. It became an abstract part for 17 bars. We just left them all in on the mix.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-drain-you-2026-08-25",
+                  "snapshotHash": "60c5dcd20ba8dc37c6facdd28db2ec238d1e65e6db33a1ac92504b470ad4c4cc"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Lounge Act",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says \"Lounge Act\" took five or six takes, used AC30 and added Bassman guitars, and received a quick vocal.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Lounge Act Vig: \"We struggled a bit on this one. Five or six takes. We changed a few of the fills. Kurt plays this through the AC3O and then added some Bassman guitars when the guitar picks up. I love the melodic hook on this. A very quick vocal.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-lounge-act-2026-08-25",
+                  "snapshotHash": "e9a4b53362d4819e2c4c261590f27212b7dada489e03540a7c51f235b2d44211"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Stay Away",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says \"Stay Away\" had previously been known as \"Pay To Play\" during the Smart Studios sessions.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Stay Away Vig: \"We already knew this as Pay To Play from Smart. The line he says on the end, 'God is gay', which we thought was extremely funny, caused a fair amount of controversy when it came out among the right-wingers, who held it up as an example of why music should be censored.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-stay-away-2026-08-25",
+                  "snapshotHash": "602542e237353c7c4e581b51d2076d54c85627c228f4b6a8ce9d3308cb23183f"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "On A Plain",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "MOJO's session account says \"On A Plain\" was written shortly before the Sound City sessions and credits Dave Grohl with its harmony vocals.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "On A Plain Vig: \"A great pop song. A really new one. It took a few takes to get it.\" The song was written just before the Sound City sessions started, hence Kurt's lyric, \"One more special message to go and then I'm done and I can go home.\" The harmony vocals on one of the most melodic songs of the album were Dave Grohl's.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-on-a-plain-2026-08-25",
+                  "snapshotHash": "722ba6a4cf3feb8fe25cbaf4cf7375c8862f5a25375ed6bc6894ef1648821b44"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Something In The Way",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says the foundation of \"Something In The Way\" was recorded with Kurt Cobain singing and playing quietly on the control-room couch, after which harmonies, bass, and drums were added.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Something In The Way Vig: \"This was written just a week before recording and was by far the most difficult track to record. We spent most of a day trying to record it as a band, working out different drum parts. Kurt came into the control room and said, 'I can't get into this at all.' I said, 'How do you hear it then?' and he sat down on the couch and was hardly mumbling the vocal, playing the guitar so quietly. So I said, 'Everybody shut up,' turned the fans and everything off and brought a couple of mics into the control room. He kind of laid on the couch and I gave him an acoustic mic and a vocal mic and he recorded it in the control room. Then he put the harmonies on and we went back and did the bass, which Chris found very hard. We then recorded the drums in studio B. It almost killed Dave to play so quietly.",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-something-in-the-way-2026-08-25",
+                  "snapshotHash": "d8a764f20650e2c3364a55c8ec43647941cdd4b9c2119b59e64bab4671b3179d"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        },
+        {
+          "trackTitle": "Endless, Nameless",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claim": "Butch Vig says Nirvana launched into \"Endless, Nameless\" after completing a frustrating \"Lithium\" take, and that Kurt Cobain smashed his left-handed Mosrite during the performance.",
+              "sourceRefs": [
+                {
+                  "label": "MOJO interview transcript (Live Nirvana, with permission)",
+                  "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+                  "url": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+                  "sourceIdentity": "livenirvana.com|MOJO #54 Peter Henderson interview with Butch Vig",
+                  "extract": "Endless, Nameless Vig: \"Lithium took quite a while. It was a long day and Kurt became very frustrated, and after we finally got a take, they launched into Endless Nameless and Kurt fucking went ballistic. He was screaming so hard I swore to God he had blown his vocal cords out and in the middle of it he smashed his guitar up. It was the only left-handed Mosrite he had but he was so pissed off that he didn't care. He went back in and screamed some more. We spent the next day going round LA trying to track down another left-handed Mosrite.\"",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-08-25",
+                  "snapshotId": "mojo54-nevermind-endless-nameless-2026-08-25",
+                  "snapshotHash": "ac374bdfaa3d5269496a51cc794fb4cfdb19baed8bf8ad07edbc121acc677641"
+                }
+              ],
+              "semanticReview": {
+                "decision": "supported",
+                "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+                "reviewedAt": "2026-08-25",
+                "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "Only the source-backed production/session statement is retained; no independent listening or audio-analysis claim is made."
+          ],
+          "albumId": "006-nirvana-nevermind-0af5df5e",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "sourceRefs": [
+            {
+              "label": "MOJO interview transcript (Live Nirvana, with permission)",
+              "title": "Titanic! The Nevermind Recording Sessions — MOJO #54 (May 1998)",
+              "url": "https://www.livenirvana.com/sessions/reading/mojo54.php"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-08-25T00:00:00Z",
+        "generator": "manual-web-researched-rank6-authoring",
+        "model": null
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-08-25",
+        "reviewer": "independent evidence audit audit-006-nevermind-20260825-independent-final-candidate1",
+        "notes": "Independent auditor fetched the actual retained MOJO transcript and verified live/snapshot exact containment after NFKC/whitespace normalization, canonical HTTPS identity and HTTP 200 status, self-describing snapshot hashes, semantic scope, exact catalog identity, no borrowing, no substantive boilerplate, and no unsupported listening/audio-analysis; 13 supported, 0 unsupported, 0 uncertain, with zero critical, important, or minor findings."
+      },
+      "contentHash": "760c0dd6f1f4bc26"
     },
     "054-liz-phair-exile-in-guyville-2b33a458": {
       "albumId": "054-liz-phair-exile-in-guyville-2b33a458",

@@ -11,65 +11,60 @@ Updated: 2026-08-25
 
 ## Current mission
 
-Complete only catalog rank 5, The Beatles — *Abbey Road*, across its exact current 17-track catalog edition. Do not expand to another album.
+Complete only catalog rank 6, Nirvana — *Nevermind*, across its exact current 13-track catalog edition. Do not expand to another album.
 
-## Rank-5 completion status
+## Rank-6 completion status
 
-- Authoritative album ID: `005-the-beatles-abbey-road-1955f3c5`.
-- Exact identity preserved: disc 1 tracks 1-17, with current catalog titles unchanged.
-- Preserved immutable draft edition 1 SHA-256: `d798de5f42b565705aa2722336b0fc561162810ab089c434bb0aef2d16334e7c`.
-- New immutable draft edition: 2.
-- Draft content hash: `60c8394ddd63bf3d`.
-- Edition file SHA-256: `8a753fc521d63b84242d598d749cd4b5fbc06b03fa8a5f01952f9a39ad0317db`.
-- Immutable object hash: `76853d41c445d9dea3e3e95c3d8110bb63b8303e0ae599181d150688848d667f`.
-- Generated release hash: `24546b928acb2ed8`.
+- Authoritative album ID: `006-nirvana-nevermind-0af5df5e`.
+- Exact identity preserved: disc 1 tracks 1-13, with current catalog titles unchanged.
+- New immutable unpublished draft edition: 1.
+- Draft content hash: `760c0dd6f1f4bc26`.
+- Edition file SHA-256: `8579fcfa40c27f4003fbec37f9aaca00815cade27cf3a3b274dd5dd40c3a6096`.
+- Immutable object hash: `f99df8980ac146de85bda12de8dcf48038db08b12c7dc1092b89dea96b07af7e`.
+- Generated release hash: `4bca54f02f4ad8aa`.
 - Publication state: `published: false`.
-- Track dispositions: 17 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
+- Track dispositions: 13 documented, 0 contextual, 0 insufficient-evidence, 0 unresearched.
 - Every displayed claim has an explicit claim-to-source link, canonical HTTPS URL, retained minimum verbatim excerpt, retrieval/check metadata, self-describing project-hashed snapshot, and supported independent semantic review decision.
 - Unsupported musical-character, album-context, listening-note, and audio-analysis prose is absent.
-- Rank 5 is completion-eligible as an unpublished draft.
+- Rank 6 is completion-eligible as an unpublished draft.
 
 ## Independent evidence audit
 
-- Full audit ID: `audit-005-abbey-road-20260825-semantic-independent-final-candidate2`.
-- Targeted follow-up audit ID: `audit-005-abbey-road-20260825-semantic-independent-final-candidate3`.
-- Parent independent postcommit audit ID: `audit-005-abbey-road-20260825-parent-independent-postcommit-verification`.
-- Parent final edition-2 audit ID: `audit-005-abbey-road-20260825-parent-independent-final-edition2`.
-- Final decisions: 17 supported, 0 unsupported, 0 uncertain.
-- Actual-page and snapshot exact containment: parent audit passed live-page/snapshot/hash containment and aggregate integrity for the committed candidate.
-- Parent editorial findings fixed in edition 2: important `B-sides climactic medley` -> `B-side's climactic medley`; minor `Harrisons` -> `Harrison's`; `Maxwells` -> `Maxwell's`; `Octopuss` -> `Octopus's`; `Shes` -> `She's`; `Abbey Roads` -> `Abbey Road's`.
-- Project snapshot-hash and lifecycle validation: passed.
-- Exact catalog identity/order/title: 17/17.
-- Evidence borrowing: none.
+- Audit ID: `audit-006-nevermind-20260825-independent-final-candidate1`.
+- Final decisions: 13 supported, 0 unsupported, 0 uncertain.
+- Actual-page and snapshot exact containment: passed for all 13 tracks after NFKC/whitespace normalization.
+- Snapshot identity/hash reproduction: 13/13 passed.
+- Exact catalog identity/order/title: 13/13.
+- Evidence borrowing: none; each track retains its own distinct relevant excerpt and snapshot.
 - Unsupported listening/audio analysis: none.
-- Critical or important findings remaining: none.
-- Final edition-2 audit findings: 0 critical, 0 important, 0 minor.
+- Boilerplate: none substantive.
+- Critical, important, or minor findings remaining: none.
 
 ## Verification status
 
-All required gates passed after the final audited candidate:
+All required gates passed against the final audited candidate:
 
-- Lifecycle validator — valid; edition 2; unpublished.
+- Lifecycle validator — valid; edition 1; unpublished.
 - Backend tests — 49/49.
-- Authoring completion acceptance — 7 authoring files.
+- Authoring completion acceptance — 8 authoring files.
 - UI evidence/state tests — 5/5.
 - Core track-encyclopedia tests — 71/71.
 - Object-store tests — 13/13 via full `test:all`.
 - TypeScript — passed.
 - Data integrity — 243 albums.
 - Full `npm run test:all` — passed.
-- Track build — 7 albums, 95 tracks; 95 documented, 0 contextual/limited/insufficient-evidence/unresearched.
-- Unchanged track rebuild — 8 objects before/after, zero added/removed, byte-identical generated outputs.
+- Track build — 8 albums, 108 tracks; 108 documented, 0 contextual/limited/insufficient-evidence/unresearched.
+- Unchanged track rebuild — 9 objects before/after, zero object or generated-output hash differences.
 - Production build — passed; 1,574 modules transformed.
-- Prior-edition hash verification — 15/15 unchanged, including preserved rank-5 edition 1.
-- `git diff --check` — passed after report/state/manifest updates.
+- Prior-edition hash verification — 16/16 unchanged.
+- `git diff --check` — passed after final report/state/completion-manifest updates.
 
 ## Cumulative counts
 
 - Catalog: 243 albums, 3,366 tracks.
-- Versioned/completed: 7 albums, 95 tracks.
-- Completion-disposition tracks: 95 (95 documented, 0 contextual, 0 insufficient-evidence).
-- Catalog tracks still unresearched for completion accounting: 3,271.
+- Versioned/completed: 8 albums, 108 tracks.
+- Completion-disposition tracks: 108 (108 documented, 0 contextual, 0 insufficient-evidence).
+- Catalog tracks still unresearched for completion accounting: 3,258.
 
 ## Safety / deployment
 

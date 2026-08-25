@@ -676,6 +676,97 @@
       "fetchedAt": "2026-08-25T00:00:00Z",
       "normalizedText": "\"Her Majesty\" is a song written by Paul McCartney (although credited to Lennon-McCartney) that appears on the Beatles' album Abbey Road. It is a brief tongue-in-cheek music hall song. \"Her Majesty\" is the final track of the album and appears fourteen seconds after the song \"The End\", but was not listed on the original sleeve. As such, it is considered one of the first examples of a hidden track in rock music.",
       "contentHash": "b8243e1e64d63d8239738d9fd70a1b3a6fe22f6d7886f2b2aabb616c435d4b93"
+    },
+    "mojo54-nevermind-smells-like-teen-spirit-2026-08-25": {
+      "id": "mojo54-nevermind-smells-like-teen-spirit-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Smells Like Teen Spirit Butch Vig: \"The first time I heard Teen Spirit it stunned me. I hadn't seen them play with Dave before- it was in this big room and it was really loud.\"",
+      "contentHash": "c7ff39b13e445e795a411c9cab1f108586ade7d0b7982e2c593b610d9181c9b2"
+    },
+    "mojo54-nevermind-in-bloom-2026-08-25": {
+      "id": "mojo54-nevermind-in-bloom-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "In Bloom Vig: \"In Bloom has that amazing chorus - an amazing hook. The arrangement is the same as on the demo, except none of us was very happy with the drums.\"",
+      "contentHash": "bd187cb0d4c0edfc5e363b649eb4001184cab1378a95bc2c3216aa868bb5c07a"
+    },
+    "mojo54-nevermind-come-as-you-are-2026-08-25": {
+      "id": "mojo54-nevermind-come-as-you-are-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Come As You Are Kurt Cobain's message to his disenfranchised audience was simple: he would accept them as they were, and he offered them no threat. His lyrics were more or less complete by the time Vig first heard the song, recorded in a rehearsal on an old boom box. Vig: \"The backing track was very quick. We actually triple-tracked the bass: a regular bass, then Chris played an octave bass, then he tuned the bass strangely and ran it through a DBX sub-harmonic effect. We were trying to make the bass sound like a 12-string.\"",
+      "contentHash": "ac936745f68c3a50fe791e0f5ecff71627a35fcc7cf112b5ffb53fe4b5368393"
+    },
+    "mojo54-nevermind-breed-2026-08-25": {
+      "id": "mojo54-nevermind-breed-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Breed Vig: \"The song starts with a really scratchy guitar. That's where Kurt plugged straight into the mixing desk, a really punk thing.\"",
+      "contentHash": "95ed5999031295a05d248c66f54af5f0b6dc02450a609fb3f49d757c139761cb"
+    },
+    "mojo54-nevermind-lithium-2026-08-25": {
+      "id": "mojo54-nevermind-lithium-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Lithium proved relatively difficult to record, partly because Cobain insisted on an even tempo, keeping the same pace for the raucous choruses and the more thoughtful, guitar-led section. Grohl therefore recorded the drums to a click track, with the bass and guitars added later. The quieter guitar parts were also done separately.",
+      "contentHash": "bb665a5057a4cfa78f26e10611bbc280910b4cd115b940263760f19292e88e4f"
+    },
+    "mojo54-nevermind-polly-2026-08-25": {
+      "id": "mojo54-nevermind-polly-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Polly Vig: \"Polly was the last thing we did at Smart and it was recorded really raw, late at night. Not too much thought went into it. Kurt just wanted to record the track at that moment. He played the song and sang it at the same time, just acoustic guitar and voice.\"",
+      "contentHash": "95c3b44326599d079a4218c5aff556699f1be407cd810005b148266727cf75b9"
+    },
+    "mojo54-nevermind-territorial-pissings-2026-08-25": {
+      "id": "mojo54-nevermind-territorial-pissings-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Territorial Pissings Vig: \"That's Chris singing at the front. I think I suggested we should put something kind of odd in there. So he went in and sung a little bit of The Youngbloods' Get Together. Kurt asked him to sing it 'joyously terrible'. The guitar was DI'd [directly injected] straight into the board, like many punk bands of the '70s and early '80s.\"",
+      "contentHash": "ec7a168e03e45030be100a01f81335c5e8147ecf31a708e67340f90d5f8e1022"
+    },
+    "mojo54-nevermind-drain-you-2026-08-25": {
+      "id": "mojo54-nevermind-drain-you-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Vig: \"Instead of concocting a guitar solo, every time Kurt did a vocal pass he would run to the side of the room at that part of the song and pick something up - squeaky ducks, percussion things or an aerosol. It became an abstract part for 17 bars. We just left them all in on the mix.\"",
+      "contentHash": "60c5dcd20ba8dc37c6facdd28db2ec238d1e65e6db33a1ac92504b470ad4c4cc"
+    },
+    "mojo54-nevermind-lounge-act-2026-08-25": {
+      "id": "mojo54-nevermind-lounge-act-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Lounge Act Vig: \"We struggled a bit on this one. Five or six takes. We changed a few of the fills. Kurt plays this through the AC3O and then added some Bassman guitars when the guitar picks up. I love the melodic hook on this. A very quick vocal.\"",
+      "contentHash": "e9a4b53362d4819e2c4c261590f27212b7dada489e03540a7c51f235b2d44211"
+    },
+    "mojo54-nevermind-stay-away-2026-08-25": {
+      "id": "mojo54-nevermind-stay-away-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Stay Away Vig: \"We already knew this as Pay To Play from Smart. The line he says on the end, 'God is gay', which we thought was extremely funny, caused a fair amount of controversy when it came out among the right-wingers, who held it up as an example of why music should be censored.\"",
+      "contentHash": "602542e237353c7c4e581b51d2076d54c85627c228f4b6a8ce9d3308cb23183f"
+    },
+    "mojo54-nevermind-on-a-plain-2026-08-25": {
+      "id": "mojo54-nevermind-on-a-plain-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "On A Plain Vig: \"A great pop song. A really new one. It took a few takes to get it.\" The song was written just before the Sound City sessions started, hence Kurt's lyric, \"One more special message to go and then I'm done and I can go home.\" The harmony vocals on one of the most melodic songs of the album were Dave Grohl's.",
+      "contentHash": "722ba6a4cf3feb8fe25cbaf4cf7375c8862f5a25375ed6bc6894ef1648821b44"
+    },
+    "mojo54-nevermind-something-in-the-way-2026-08-25": {
+      "id": "mojo54-nevermind-something-in-the-way-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Something In The Way Vig: \"This was written just a week before recording and was by far the most difficult track to record. We spent most of a day trying to record it as a band, working out different drum parts. Kurt came into the control room and said, 'I can't get into this at all.' I said, 'How do you hear it then?' and he sat down on the couch and was hardly mumbling the vocal, playing the guitar so quietly. So I said, 'Everybody shut up,' turned the fans and everything off and brought a couple of mics into the control room. He kind of laid on the couch and I gave him an acoustic mic and a vocal mic and he recorded it in the control room. Then he put the harmonies on and we went back and did the bass, which Chris found very hard. We then recorded the drums in studio B. It almost killed Dave to play so quietly.",
+      "contentHash": "d8a764f20650e2c3364a55c8ec43647941cdd4b9c2119b59e64bab4671b3179d"
+    },
+    "mojo54-nevermind-endless-nameless-2026-08-25": {
+      "id": "mojo54-nevermind-endless-nameless-2026-08-25",
+      "canonicalUrl": "https://www.livenirvana.com/sessions/reading/mojo54.php",
+      "fetchedAt": "2026-08-25T00:00:00Z",
+      "normalizedText": "Endless, Nameless Vig: \"Lithium took quite a while. It was a long day and Kurt became very frustrated, and after we finally got a take, they launched into Endless Nameless and Kurt fucking went ballistic. He was screaming so hard I swore to God he had blown his vocal cords out and in the middle of it he smashed his guitar up. It was the only left-handed Mosrite he had but he was so pissed off that he didn't care. He went back in and screamed some more. We spent the next day going round LA trying to track down another left-handed Mosrite.\"",
+      "contentHash": "ac374bdfaa3d5269496a51cc794fb4cfdb19baed8bf8ad07edbc121acc677641"
     }
   }
 }
