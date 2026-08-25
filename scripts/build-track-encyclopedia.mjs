@@ -1,7 +1,7 @@
 // build-track-encyclopedia.mjs — Data-driven build/import for the versioned track encyclopedia.
 // Reads JSON input, validates entries, preserves edition files, and writes per-album payload modules.
 
-import { open, readFile, writeFile, mkdir, rm, rename, readdir } from 'node:fs/promises';
+import { link, open, readFile, writeFile, mkdir, rm, rename, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -21,14 +21,16 @@ export async function buildTrackEncyclopedia({
   dataDir = defaultDataDir,
   authoringDir = path.join(dataDir, 'authoring'),
   failAfterPayloadWrites = false,
+  failAfterObjectWrites = false,
   failAfterCandidatePublish = false,
+  failAfterAggregateWrite = false,
+  failAfterReportWrite = false,
   failDuringManifestSwap = false,
 } = {}) {
   const inputPath = path.join(dataDir, 'pilot-entries.json');
   const snapshotsPath = path.join(dataDir, 'evidence-snapshots.json');
   const outputPath = path.join(dataDir, 'track-encyclopedia.generated.json');
   const reportPath = path.join(dataDir, 'build-report.json');
-  const albumsDir = path.join(dataDir, 'albums');
   const manifestPath = path.join(dataDir, 'manifest.generated.ts');
 
   const allEntries = {};
@@ -131,7 +133,6 @@ export async function buildTrackEncyclopedia({
   await store.persistAll();
   await publishGeneratedOutputs({
     dataDir,
-    albumsDir,
     outputPath,
     reportPath,
     manifestPath,
@@ -139,7 +140,10 @@ export async function buildTrackEncyclopedia({
     report,
     sortedEntries,
     failAfterPayloadWrites,
+    failAfterObjectWrites,
     failAfterCandidatePublish,
+    failAfterAggregateWrite,
+    failAfterReportWrite,
     failDuringManifestSwap,
   });
 
@@ -247,14 +251,16 @@ function buildManifestSource(metadata, entries, releaseHash) {
     'export const trackEncyclopediaAlbums = {',
   ];
   for (const [albumId, entry] of Object.entries(entries)) {
+    const objectHash = computeObjectHash(entry);
     lines.push(`  ${JSON.stringify(albumId)}: {`);
     lines.push(`    albumId: ${JSON.stringify(albumId)},`);
     lines.push(`    editionNumber: ${entry.editionNumber},`);
     lines.push(`    contentHash: ${JSON.stringify(entry.contentHash)},`);
+    lines.push(`    objectHash: ${JSON.stringify(objectHash)},`);
     lines.push(`    trackCount: ${entry.trackEntries.length},`);
     lines.push(`    releaseHash: ${JSON.stringify(releaseHash)},`);
-    lines.push(`    editionPath: ${JSON.stringify(`releases/${releaseHash}/editions/${albumId}/edition-${entry.editionNumber}-${entry.contentHash}.json`)},`);
-    const albumPath = `./releases/${releaseHash}/albums/${albumId}.json`;
+    lines.push(`    editionPath: ${JSON.stringify(`objects/albums/${objectHash}.json`)},`);
+    const albumPath = `./objects/albums/${objectHash}.json`;
     lines.push(`    load: async () => { const response = await fetch(new URL(${JSON.stringify(albumPath)}, import.meta.url), { cache: "no-store" }); if (!response.ok) throw new Error(\`Track encyclopedia request failed: \${response.status}\`); return (await response.json()) as TrackEncyclopediaAlbumEntry; },`);
     lines.push('  },');
   }
@@ -290,7 +296,6 @@ function deterministicGeneratedAt(data) {
 
 async function publishGeneratedOutputs({
   dataDir,
-  albumsDir,
   outputPath,
   reportPath,
   manifestPath,
@@ -298,52 +303,52 @@ async function publishGeneratedOutputs({
   report,
   sortedEntries,
   failAfterPayloadWrites,
+  failAfterObjectWrites,
   failAfterCandidatePublish,
+  failAfterAggregateWrite,
+  failAfterReportWrite,
   failDuringManifestSwap,
 }) {
   const releaseHash = computeReleaseHash(output);
   const releasesDir = path.join(dataDir, 'releases');
   const releaseDir = path.join(releasesDir, releaseHash);
-  const stageDir = path.join(dataDir, `.release-stage-${process.pid}-${releaseHash}`);
-  await rm(stageDir, { recursive: true, force: true });
+  const objectsDir = path.join(dataDir, 'objects', 'albums');
+  const manifestTempPath = `${manifestPath}.${releaseHash}.tmp`;
   try {
-    await mkdir(path.join(stageDir, 'albums'), { recursive: true });
-    await mkdir(path.join(stageDir, 'editions'), { recursive: true });
-
     for (const [albumId, entry] of Object.entries(sortedEntries)) {
-      await writeJsonAtomic(path.join(stageDir, 'albums', `${albumId}.json`), entry);
-      await writeJsonAtomic(
-        path.join(stageDir, 'editions', albumId, `edition-${entry.editionNumber}-${entry.contentHash}.json`),
-        entry
-      );
-    }
-    await writeJsonAtomic(path.join(stageDir, 'track-encyclopedia.generated.json'), output);
-    await writeJsonAtomic(path.join(stageDir, 'build-report.json'), report);
-
-    if (failAfterPayloadWrites) {
-      throw new Error('Injected failure after staged payload writes.');
+      await writeImmutableAlbumObject(objectsDir, albumId, entry);
     }
 
-    await validateCandidateRelease(stageDir, sortedEntries);
+    if (failAfterPayloadWrites || failAfterObjectWrites) {
+      throw new Error('Injected failure after immutable object writes.');
+    }
+
+    await validateImmutableObjects(objectsDir, sortedEntries);
     await mkdir(releasesDir, { recursive: true });
-    await publishNewReleaseDirectory(stageDir, releaseDir);
+    await publishReleaseIdentity(releaseDir, buildReleaseIdentity(output.metadata, sortedEntries, releaseHash));
 
     if (failAfterCandidatePublish) {
-      throw new Error('Injected failure after immutable candidate publication.');
+      throw new Error('Injected failure after immutable release identity publication.');
     }
 
-    const manifestTempPath = `${manifestPath}.${releaseHash}.tmp`;
+    await writeJsonAtomic(outputPath, output);
+    if (failAfterAggregateWrite) {
+      throw new Error('Injected failure after aggregate publication.');
+    }
+
+    await writeJsonAtomic(reportPath, report);
+    if (failAfterReportWrite) {
+      throw new Error('Injected failure after report publication.');
+    }
+
     await writeTextAtomic(manifestTempPath, buildManifestSource(output.metadata, sortedEntries, releaseHash));
     if (failDuringManifestSwap) {
       throw new Error('Injected failure during manifest pointer swap.');
     }
     await rename(manifestTempPath, manifestPath);
-    await writeJsonAtomic(outputPath, output);
-    await writeJsonAtomic(reportPath, report);
     await fsyncDirectory(dataDir);
   } finally {
-    await rm(stageDir, { recursive: true, force: true });
-    await rm(`${manifestPath}.${releaseHash}.tmp`, { force: true });
+    await rm(manifestTempPath, { force: true });
   }
 }
 
@@ -354,23 +359,122 @@ function computeReleaseHash(output) {
     .slice(0, 16);
 }
 
-async function validateCandidateRelease(stageDir, sortedEntries) {
+function buildReleaseIdentity(metadata, sortedEntries, releaseHash) {
+  return {
+    schemaVersion: 2,
+    storageModel: 'content-addressed-objects',
+    releaseHash,
+    metadata,
+    albums: Object.fromEntries(Object.entries(sortedEntries).map(([albumId, entry]) => [albumId, {
+      editionNumber: entry.editionNumber,
+      contentHash: entry.contentHash,
+      objectHash: computeObjectHash(entry),
+      objectPath: `objects/albums/${computeObjectHash(entry)}.json`,
+    }])),
+  };
+}
+
+async function validateImmutableObjects(objectsDir, sortedEntries) {
   for (const [albumId, expected] of Object.entries(sortedEntries)) {
-    const albumPath = path.join(stageDir, 'albums', `${albumId}.json`);
+    const objectHash = computeObjectHash(expected);
+    const albumPath = immutableAlbumObjectPath(objectsDir, objectHash);
     const entry = JSON.parse(await readFile(albumPath, 'utf8'));
-    if (entry.contentHash !== expected.contentHash || entry.albumId !== albumId) {
-      throw new Error(`Candidate release validation failed for ${albumId}.`);
+    if (computeObjectHash(entry) !== objectHash || entry.contentHash !== expected.contentHash || computeContentHash(entry) !== expected.contentHash || entry.albumId !== albumId) {
+      throw new Error(`Immutable object validation failed for ${albumId}.`);
     }
   }
 }
 
-async function publishNewReleaseDirectory(stageDir, releaseDir) {
+async function publishReleaseIdentity(releaseDir, identity) {
+  let created = false;
   try {
-    await rename(stageDir, releaseDir);
+    await mkdir(releaseDir);
+    created = true;
   } catch (error) {
-    if (error?.code !== 'EEXIST' && error?.code !== 'ENOTEMPTY') throw error;
-    await rm(stageDir, { recursive: true, force: true });
+    if (error?.code !== 'EEXIST') throw error;
   }
+  const releasePath = path.join(releaseDir, 'release.json');
+  if (!created) {
+    try {
+      await readFile(releasePath, 'utf8');
+    } catch (error) {
+      if (error?.code !== 'ENOENT') throw error;
+      const children = await readdir(releaseDir);
+      const legacyMarkers = new Set(['albums', 'editions', 'track-encyclopedia.generated.json', 'build-report.json']);
+      if (children.some((child) => legacyMarkers.has(child))) {
+        return; // Preserve a matching legacy full release untouched.
+      }
+      if (children.length > 0) {
+        throw new Error(`Cannot publish release identity into unrecognized non-empty directory ${releaseDir}.`);
+      }
+    }
+  }
+  await writeJsonNewOnlyVerified(releasePath, identity, 'release identity');
+}
+
+function immutableAlbumObjectPath(objectsDir, objectHash) {
+  if (!/^[a-f0-9]{64}$/.test(objectHash)) {
+    throw new Error(`Unsafe immutable object hash rejected: ${objectHash}`);
+  }
+  return path.join(objectsDir, `${objectHash}.json`);
+}
+
+async function writeImmutableAlbumObject(objectsDir, albumId, entry) {
+  if (entry.albumId !== albumId || computeContentHash(entry) !== entry.contentHash) {
+    throw new Error(`Cannot publish invalid immutable object for ${albumId}.`);
+  }
+  const objectHash = computeObjectHash(entry);
+  const objectPath = immutableAlbumObjectPath(objectsDir, objectHash);
+  await writeTextNewOnlyVerified(objectPath, serializeImmutableObject(entry), `immutable object ${objectHash}`);
+}
+
+function computeObjectHash(entry) {
+  return createHash('sha256')
+    .update(serializeImmutableObject(entry))
+    .digest('hex');
+}
+
+function serializeImmutableObject(entry) {
+  return `${canonicalStringify(entry)}\n`;
+}
+
+async function writeJsonNewOnlyVerified(filePath, value, label) {
+  return await writeTextNewOnlyVerified(filePath, `${JSON.stringify(value, null, 2)}\n`, label);
+}
+
+async function writeTextNewOnlyVerified(filePath, text, label) {
+  try {
+    const existing = await readFile(filePath, 'utf8');
+    if (existing === text) return false;
+    throw new Error(`${label} collision at ${filePath}; existing bytes do not match.`);
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+  }
+
+  const dir = path.dirname(filePath);
+  await mkdir(dir, { recursive: true });
+  const tempPath = path.join(dir, `.${path.basename(filePath)}.${process.pid}.${Date.now()}.tmp`);
+  const handle = await open(tempPath, 'wx');
+  try {
+    await handle.writeFile(text);
+    await handle.sync();
+  } finally {
+    await handle.close();
+  }
+  try {
+    await link(tempPath, filePath);
+  } catch (error) {
+    if (error?.code !== 'EEXIST') throw error;
+    const existing = await readFile(filePath, 'utf8');
+    if (existing !== text) {
+      throw new Error(`${label} collision at ${filePath}; concurrently created bytes do not match.`);
+    }
+    return false;
+  } finally {
+    await rm(tempPath, { force: true });
+  }
+  await fsyncDirectory(dir);
+  return true;
 }
 
 async function writeJsonAtomic(filePath, value) {

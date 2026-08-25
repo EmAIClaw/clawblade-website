@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-08-25T00:39:56Z",
+  "catalogAlbums": 243,
+  "catalogTracks": 3366,
+  "completedAlbums": 4,
+  "completedTracks": 47,
+  "documentedTracks": 47,
+  "contextualTracks": 0,
+  "limitedTracks": 0,
+  "insufficientEvidenceTracks": 0,
+  "unresearchedTracks": 3319,
+  "activeAlbumRank": null,
+  "activeAlbumId": null,
+  "validationStatus": "all-post-canonical-serialization-gates-passed; independent-review-approved; focused-local-commit-ready",
+  "workingTreeBaseCommit": "5704a8511a437fd333b717c867e3bbaa20523f54",
+  "versionedAlbums": 4,
+  "versionedTracks": 47,
+  "releaseHash": "f631a27c8cdd3e6f",
+  "objectStore": {
+    "schemaVersion": 2,
+    "albumObjectCount": 4,
+    "unchangedBuildsChecked": 2,
+    "newObjectsAcrossUnchangedBuilds": 0,
+    "removedObjectsAcrossUnchangedBuilds": 0,
+    "changedObjectsAcrossUnchangedBuilds": 0,
+    "allExistingObjectsByteIdentical": true,
+    "legacyReleaseCount": 6,
+    "garbageCollectionMode": "dry-run-only",
+    "garbageCollectionDeleted": false
+  },
+  "verification": {
+    "objectStoreTests": "13/13 passed",
+    "coreTrackEncyclopediaTests": "71/71 passed",
+    "backendTests": "49/49 passed",
+    "pilotRepairAcceptance": "passed for 4 authoring files",
+    "uiStateEvidenceTests": "5/5 passed",
+    "typescript": "passed",
+    "dataIntegrity": "passed for 243 albums",
+    "fullNpmTestAll": "passed",
+    "productionBuild": "passed; 1574 modules transformed; 4 immutable JSON assets emitted",
+    "browserSmoke": "Google Chrome production preview passed for ranks 1, 2, 54, and 92; each immutable object returned HTTP 200 application/json; zero console errors and zero network failures",
+    "independentReview": "approved; 0 critical; 0 important; 3 informational minor findings",
+    "gitDiffCheck": "passed immediately before focused local commit"
+  },
+  "semanticContentHashes": {
+    "1": "449c11738b4a4676",
+    "2": "b09e0a3f6b9d372f",
+    "54": "13de9e97abdf754c",
+    "92": "ee805c782c56bc4a"
+  },
+  "notes": [
+    "This run changed storage architecture only; it did not research or modify album content.",
+    "Canonical authoring and edition history remain preserved; legacy releases were neither modified nor removed.",
+    "No push, deployment, publication, catalog modification, or Gym modification occurred."
+  ]
+}

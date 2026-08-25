@@ -1,27 +1,10 @@
-// release-gc.mjs — Dry-run-only reference-aware GC planner for track-encyclopedia releases.
-// Never deletes. Returns a plan describing which releases are referenced and which are not.
-// Preserves all canonical edition history (editions/ directory) and published editions.
-// Fails closed if edition history cannot be proved.
-// Audit item 8: safe design and tests; destructive cleanup need not run before expansion.
+// Dry-run-only retention planner for legacy full releases and content-addressed objects.
+// This module never deletes. Malformed history makes reference verification fail closed.
 
-import { readFile, readdir, stat } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 
-/**
- * Plan release retention without deleting anything.
- *
- * Reads the manifest to find which release hash is currently referenced,
- * scans the editions/ directory to find all published editions,
- * then scans the releases/ directory to identify all release directories.
- * A release is referenced if:
- *   - it is the current manifest release, OR
- *   - it contains editions that are published (canonical edition history).
- * Fails closed (sets editionHistoryVerified=false) if the editions/ directory
- * cannot be read or analyzed.
- *
- * @param {{ dataDir: string }} options
- * @returns {Promise<{ deleted: false, releases: Array<{ releaseHash: string, referenced: boolean, hasPublishedEditions: boolean, path: string }>, editionHistoryVerified: boolean }>}
- */
 export async function planReleaseRetention({ dataDir }) {
   if (!dataDir || typeof dataDir !== 'string') {
     throw new Error('planReleaseRetention requires a dataDir option.');
@@ -29,107 +12,167 @@ export async function planReleaseRetention({ dataDir }) {
 
   const releasesDir = path.join(dataDir, 'releases');
   const editionsDir = path.join(dataDir, 'editions');
+  const objectsDir = path.join(dataDir, 'objects', 'albums');
   const manifestPath = path.join(dataDir, 'manifest.generated.ts');
 
-  // Find the manifest-referenced release hash
-  let manifestHash = null;
+  let manifestReleaseHash = null;
+  const manifestObjectHashes = new Set();
+  let objectReferencesVerified = true;
   try {
     const manifest = await readFile(manifestPath, 'utf8');
-    const match = manifest.match(/releases\/([a-f0-9]{16})\//);
-    if (match) {
-      manifestHash = match[1];
+    manifestReleaseHash = manifest.match(/releaseHash:\s*"([a-f0-9]{16})"/)?.[1]
+      ?? manifest.match(/releases\/([a-f0-9]{16})\//)?.[1]
+      ?? null;
+    for (const match of manifest.matchAll(/objects\/albums\/([a-f0-9]{64})\.json/g)) {
+      manifestObjectHashes.add(match[1]);
     }
   } catch {
-    // No manifest — nothing is manifest-referenced
+    objectReferencesVerified = false;
   }
 
-  // Scan published editions to find which release hashes contain published editions
-  const publishedEditionReleaseHashes = new Set();
   let editionHistoryVerified = true;
-
   try {
     const albumDirs = await readdir(editionsDir, { withFileTypes: true });
     for (const albumDir of albumDirs) {
       if (!albumDir.isDirectory()) continue;
-      const albumEdDir = path.join(editionsDir, albumDir.name);
-      const files = await readdir(albumEdDir);
+      const files = await readdir(path.join(editionsDir, albumDir.name));
       for (const file of files) {
         if (!file.endsWith('.json')) continue;
         try {
-          const edition = JSON.parse(await readFile(path.join(albumEdDir, file), 'utf8'));
-          if (edition.published === true) {
-            // This published edition must be preserved in all releases that contain it
-            // We can't know which release contains it without scanning, so we mark
-            // all releases that have this album as potentially containing published editions
-          }
+          JSON.parse(await readFile(path.join(editionsDir, albumDir.name, file), 'utf8'));
         } catch {
-          // If we can't read an edition file, we can't prove edition history
           editionHistoryVerified = false;
         }
       }
     }
   } catch {
-    // editions/ directory doesn't exist or can't be read
     editionHistoryVerified = false;
   }
 
-  // Scan all release directories
   let releaseDirs = [];
   try {
     releaseDirs = await readdir(releasesDir, { withFileTypes: true });
   } catch {
-    // No releases directory — empty plan
+    // No releases is a valid empty history.
   }
 
-  // Scan each release for published edition content
+  const releaseObjectHashes = new Set();
   const releases = [];
   for (const entry of releaseDirs) {
-    if (!entry.isDirectory()) continue;
-    if (!/^[a-f0-9]{16}$/.test(entry.name)) continue;
-
+    if (!entry.isDirectory() || !/^[a-f0-9]{16}$/.test(entry.name)) continue;
     const releasePath = path.join(releasesDir, entry.name);
+    let storageModel = 'unknown';
     let hasPublishedEditions = false;
+    let identityValid = false;
 
-    // Check if this release contains any published editions
     try {
-      const releaseEditionsDir = path.join(releasePath, 'editions');
-      const albumDirs = await readdir(releaseEditionsDir, { withFileTypes: true });
-      for (const albumDir of albumDirs) {
-        if (!albumDir.isDirectory()) continue;
-        const files = await readdir(path.join(releaseEditionsDir, albumDir.name));
-        for (const file of files) {
-          if (!file.endsWith('.json')) continue;
-          try {
-            const edition = JSON.parse(await readFile(path.join(releaseEditionsDir, albumDir.name, file), 'utf8'));
-            if (edition.published === true) {
-              hasPublishedEditions = true;
-            }
-          } catch {
-            // Can't read — be conservative and preserve
-            hasPublishedEditions = true;
+      const identity = JSON.parse(await readFile(path.join(releasePath, 'release.json'), 'utf8'));
+      if (identity.schemaVersion !== 2 || identity.storageModel !== 'content-addressed-objects' || identity.releaseHash !== entry.name) {
+        throw new Error('invalid release identity');
+      }
+      for (const album of Object.values(identity.albums ?? {})) {
+        if (!/^[a-f0-9]{64}$/.test(album.objectHash)
+          || album.objectPath !== `objects/albums/${album.objectHash}.json`) {
+          throw new Error('invalid release object reference');
+        }
+        releaseObjectHashes.add(album.objectHash);
+      }
+      storageModel = 'content-addressed';
+      identityValid = true;
+    } catch (error) {
+      if (error?.code !== 'ENOENT') objectReferencesVerified = false;
+    }
+
+    if (!identityValid) {
+      let legacyShape = false;
+      for (const child of ['albums', 'editions', 'track-encyclopedia.generated.json']) {
+        try {
+          await readdir(path.join(releasePath, child));
+          legacyShape = true;
+          break;
+        } catch (error) {
+          if (error?.code === 'ENOTDIR') {
+            legacyShape = true;
+            break;
           }
         }
       }
-    } catch {
-      // No editions subdirectory — no published editions in this release
+      if (legacyShape) storageModel = 'legacy-full';
     }
 
-    const referenced = entry.name === manifestHash || hasPublishedEditions;
+    if (storageModel === 'legacy-full') {
+      try {
+        const albumDirs = await readdir(path.join(releasePath, 'editions'), { withFileTypes: true });
+        for (const albumDir of albumDirs) {
+          if (!albumDir.isDirectory()) continue;
+          const files = await readdir(path.join(releasePath, 'editions', albumDir.name));
+          for (const file of files) {
+            if (!file.endsWith('.json')) continue;
+            try {
+              const edition = JSON.parse(await readFile(path.join(releasePath, 'editions', albumDir.name, file), 'utf8'));
+              if (edition.published === true) hasPublishedEditions = true;
+            } catch {
+              hasPublishedEditions = true;
+            }
+          }
+        }
+      } catch {
+        // Legacy releases may predate edition snapshots.
+      }
+    }
 
     releases.push({
       releaseHash: entry.name,
-      referenced,
+      referenced: entry.name === manifestReleaseHash || hasPublishedEditions,
       hasPublishedEditions,
+      storageModel,
       path: releasePath,
     });
   }
+  releases.sort((left, right) => left.releaseHash.localeCompare(right.releaseHash));
 
-  // Sort for deterministic output
-  releases.sort((a, b) => a.releaseHash.localeCompare(b.releaseHash));
+  const referencedObjectHashes = new Set([...manifestObjectHashes, ...releaseObjectHashes]);
+  let objectEntries = [];
+  try {
+    objectEntries = await readdir(objectsDir, { withFileTypes: true });
+  } catch {
+    // Pre-migration repositories legitimately have no object directory.
+  }
+  const objects = [];
+  for (const entry of objectEntries) {
+    if (!entry.isFile() || !/^[a-f0-9]{64}\.json$/.test(entry.name)) continue;
+    const objectHash = entry.name.slice(0, 64);
+    let valid = true;
+    try {
+      const text = await readFile(path.join(objectsDir, entry.name), 'utf8');
+      const payload = JSON.parse(text);
+      valid = createHash('sha256').update(text).digest('hex') === objectHash
+        && typeof payload.contentHash === 'string'
+        && /^[a-f0-9]{16}$/.test(payload.contentHash);
+    } catch {
+      valid = false;
+    }
+    if (!valid) objectReferencesVerified = false;
+    objects.push({
+      objectHash,
+      referenced: referencedObjectHashes.has(objectHash),
+      valid,
+      path: path.join(objectsDir, entry.name),
+    });
+  }
+  objects.sort((left, right) => left.objectHash.localeCompare(right.objectHash));
+
+  for (const hash of referencedObjectHashes) {
+    if (!objects.some((object) => object.objectHash === hash && object.valid)) {
+      objectReferencesVerified = false;
+    }
+  }
 
   return {
-    deleted: false, // Never deletes — dry-run only
+    deleted: false,
     releases,
+    objects,
     editionHistoryVerified,
+    objectReferencesVerified,
   };
 }

@@ -1131,10 +1131,12 @@ await test('per-album manifest and album payloads exist without aggregate app im
   assert.doesNotMatch(appSource, /track-encyclopedia\.generated\.json/, 'App must not import aggregate track encyclopedia JSON');
   assert.match(appSource, /manifest\.generated/, 'App must load via the per-album manifest');
   const manifest = await readFile(path.join(dataDir, 'manifest.generated.ts'), 'utf8');
-  assert.match(manifest, /fetch\(new URL\("\.\/releases\/[a-f0-9]{16}\/albums\/001-marvin-gaye-what-s-going-on-fd00dde9\.json", import\.meta\.url\)/);
+  assert.match(manifest, /fetch\(new URL\("\.\/objects\/albums\/[a-f0-9]{64}\.json", import\.meta\.url\)/);
+  assert.doesNotMatch(manifest, /\.\/releases\/[a-f0-9]{16}\/albums\//);
   const visible = await readVisibleManifestPayloads(dataDir);
-  assert.ok(Object.keys(visible).some((file) => /albums\/001-marvin-gaye-what-s-going-on-fd00dde9\.json$/.test(file)));
-  assert.ok(Object.keys(visible).some((file) => /albums\/054-liz-phair-exile-in-guyville-2b33a458\.json$/.test(file)));
+  const visibleAlbumIds = Object.values(visible).map((text) => JSON.parse(text).albumId);
+  assert.ok(visibleAlbumIds.includes('001-marvin-gaye-what-s-going-on-fd00dde9'));
+  assert.ok(visibleAlbumIds.includes('054-liz-phair-exile-in-guyville-2b33a458'));
 });
 
 await test('builder preserves published editions across reruns', async () => {

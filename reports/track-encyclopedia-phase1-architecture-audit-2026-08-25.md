@@ -1,6 +1,26 @@
 # Track encyclopedia Phase 1 architecture audit — 2026-08-25
 
-Status: **resolved locally; final verification passed on 2026-08-25**
+Status: **resolved locally; content-addressed storage migration verified on 2026-08-25**
+
+## Content-addressed generated storage (schema v2)
+
+Catalog-wide expansion is now unblocked from the previous quadratic release-copy pattern.
+
+- Canonical authoring and edition history remains under `authoring/<albumId>.json` and `editions/<albumId>/edition-N.json`.
+- Runtime album payloads are immutable byte-addressed objects at `objects/albums/<sha256>.json`. The filename is the full SHA-256 of the exact JSON bytes, while the existing 16-character `contentHash` remains the semantic track-content hash used by runtime validation.
+- `manifest.generated.ts` is still the runtime commit point. Each album record retains `releaseHash` and `contentHash`, adds `objectHash`, and loads `./objects/albums/<objectHash>.json` directly. The manifest is atomically renamed only after object verification, release identity, aggregate JSON, and build report publication.
+- New releases use schema-v2 `releases/<releaseHash>/release.json` identity metadata only. They do not copy album or edition payloads. If the same release hash already names a legacy full release, the legacy directory is left byte-for-byte untouched and the manifest can still migrate to direct object loading.
+- All pre-migration full release trees under `releases/` remain historical recovery artifacts. No legacy release was rewritten or removed.
+- GC remains dry-run only. Its plan now classifies `legacy-full` and `content-addressed` releases, verifies current/release object references, reports object validity/reference state, and never deletes.
+- Failure injection covers immutable-object publication, release identity publication, aggregate publication, report publication, and manifest swap. Every injected failure leaves the prior manifest usable.
+- Growth regression builds N incremental completions and asserts N immutable objects rather than `N(N+1)/2` copied release payloads. Repeated unchanged builds add zero objects and preserve byte identity; one changed album adds one object.
+
+Migration preserved the completed album semantic hashes exactly:
+
+- rank 1: `449c11738b4a4676`
+- rank 2: `b09e0a3f6b9d372f`
+- rank 54: `13de9e97abdf754c`
+- rank 92: `ee805c782c56bc4a`
 
 Resolution summary:
 
@@ -13,10 +33,25 @@ Resolution summary:
 
 Verified baseline:
 
-- 70/70 focused tests pass.
+- 71/71 core track-encyclopedia tests pass.
+- 49/49 backend tests pass.
+- 13/13 content-addressed object-store tests pass.
+- Pilot repair acceptance passes for all 4 authoring files; 5/5 UI state/evidence-label tests pass.
 - TypeScript compile is clean.
 - Existing content and evidence snapshot hashes validate.
-- Pilot tracks align with the current catalog: 243 albums, 3,366 tracks.
+- Data integrity passes for 243 albums; pilot tracks align with the current catalog of 3,366 tracks.
+
+## Final post-canonical-serialization gate — 2026-08-25
+
+All final gates ran against the same working tree after canonical object serialization:
+
+- `npm run test:all` passed in full, including security, data, listening, loading/recovery, taste, lazy-loading, 71 core track-encyclopedia tests, 13 object-store tests, and all existing research regression suites.
+- Two consecutive unchanged `npm run build:track-encyclopedia` runs each produced 4 entries and 47 tracks. Object count stayed exactly 4 before, after build 1, and after build 2; zero files were added or removed and every object remained byte-identical by SHA-256.
+- `npm run build` passed: Vite transformed 1,574 modules and emitted all four content-addressed JSON assets. The tracked `dist/gym` tree was restored unchanged after the local production-build check.
+- Real Google Chrome production-preview smoke passed for ranks 1, 2, 54, and 92. Each album detail and Track Encyclopedia panel loaded, its exact immutable SHA-256 object asset returned HTTP 200 as `application/json`, and Chrome reported zero console errors and zero network failures.
+- GC dry-run reported `deleted=false`, 6 preserved legacy-full releases, the manifest-referenced current release, and no deletion.
+- Independent read-only review approved the change with no Critical or Important findings. It verified atomicity, legacy history, Vite URL handling, traversal controls, collision/concurrency handling, mixed-store GC behavior, and linear growth. Three informational minor notes require no pre-commit change: `editionPath` now aliases the object path; symlink detection remains a pre-existing non-worsened limitation; and a matching legacy release hash intentionally suppresses `release.json` creation to preserve history byte-for-byte.
+- `git diff --check` and final scoped-status hygiene passed immediately before the focused local commit; unrelated historical research reports and all legacy release trees remained untouched.
 
 ## Blocking foundation work
 

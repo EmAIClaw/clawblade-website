@@ -758,7 +758,7 @@ await test('planReleaseRetention marks manifest-referenced releases as reference
   await copyPilotFixture(dir);
   await buildTrackEncyclopedia({ dataDir: dir });
   const manifest = await readFile(path.join(dir, 'manifest.generated.ts'), 'utf8');
-  const referencedHash = manifest.match(/releases\/([a-f0-9]{16})\//)[1];
+  const referencedHash = manifest.match(/releaseHash:\s*"([a-f0-9]{16})"/)[1];
   const plan = await planReleaseRetention({ dataDir: dir });
   const refEntry = plan.releases.find((r) => r.releaseHash === referencedHash);
   assert.ok(refEntry, 'must find the manifest-referenced release');
