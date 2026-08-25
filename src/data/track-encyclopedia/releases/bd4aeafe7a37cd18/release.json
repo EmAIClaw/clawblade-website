@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "storageModel": "content-addressed-objects",
+  "releaseHash": "bd4aeafe7a37cd18",
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 9
+  },
+  "albums": {
+    "001-marvin-gaye-what-s-going-on-fd00dde9": {
+      "editionNumber": 4,
+      "contentHash": "449c11738b4a4676",
+      "objectHash": "030a139c5c59ef4c674a6b0b639af94ef419818414a755d2ee272bad06252f78",
+      "objectPath": "objects/albums/030a139c5c59ef4c674a6b0b639af94ef419818414a755d2ee272bad06252f78.json"
+    },
+    "002-the-beach-boys-pet-sounds-eabcc325": {
+      "editionNumber": 1,
+      "contentHash": "b09e0a3f6b9d372f",
+      "objectHash": "f89d2d72d13c21ba12023e53c5bec191f87961ccee06e7692e42658352f10541",
+      "objectPath": "objects/albums/f89d2d72d13c21ba12023e53c5bec191f87961ccee06e7692e42658352f10541.json"
+    },
+    "003-joni-mitchell-blue-9c3a8b85": {
+      "editionNumber": 1,
+      "contentHash": "03c972742edf5d9a",
+      "objectHash": "560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b",
+      "objectPath": "objects/albums/560189417ae7d43da35c8a39509857f3aa116a8e3bf117062ff5e30fdedcb04b.json"
+    },
+    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": {
+      "editionNumber": 1,
+      "contentHash": "898fc67f8c7aaa5e",
+      "objectHash": "15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6",
+      "objectPath": "objects/albums/15a086fa12b4bfaed685438322db65797d42c95f52815b17326e481c478655d6.json"
+    },
+    "005-the-beatles-abbey-road-1955f3c5": {
+      "editionNumber": 2,
+      "contentHash": "60c8394ddd63bf3d",
+      "objectHash": "76853d41c445d9dea3e3e95c3d8110bb63b8303e0ae599181d150688848d667f",
+      "objectPath": "objects/albums/76853d41c445d9dea3e3e95c3d8110bb63b8303e0ae599181d150688848d667f.json"
+    },
+    "006-nirvana-nevermind-0af5df5e": {
+      "editionNumber": 1,
+      "contentHash": "760c0dd6f1f4bc26",
+      "objectHash": "f99df8980ac146de85bda12de8dcf48038db08b12c7dc1092b89dea96b07af7e",
+      "objectPath": "objects/albums/f99df8980ac146de85bda12de8dcf48038db08b12c7dc1092b89dea96b07af7e.json"
+    },
+    "007-fleetwood-mac-rumours-bc57e04c": {
+      "editionNumber": 1,
+      "contentHash": "3cdabdf90fc289e4",
+      "objectHash": "df734cdbdcb07a6dda9c5b6b8797a9bae238fb1f28a66c09ce1adf99a25c20c7",
+      "objectPath": "objects/albums/df734cdbdcb07a6dda9c5b6b8797a9bae238fb1f28a66c09ce1adf99a25c20c7.json"
+    },
+    "054-liz-phair-exile-in-guyville-2b33a458": {
+      "editionNumber": 4,
+      "contentHash": "13de9e97abdf754c",
+      "objectHash": "497b264ea8835eb1fb2cf810bed368a4397174be5bbdc710c06452928b530102",
+      "objectPath": "objects/albums/497b264ea8835eb1fb2cf810bed368a4397174be5bbdc710c06452928b530102.json"
+    },
+    "092-the-stooges-fun-house-9896fe5c": {
+      "editionNumber": 3,
+      "contentHash": "ee805c782c56bc4a",
+      "objectHash": "efd609a7260c9f173836bc1480fea6b56ccf130d5cfa3158524d2d11aa86a9cc",
+      "objectPath": "objects/albums/efd609a7260c9f173836bc1480fea6b56ccf130d5cfa3158524d2d11aa86a9cc.json"
+    }
+  }
+}
