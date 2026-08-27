@@ -30,6 +30,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/008-prince-and-the-revolution-purple-rain-e947342e.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -38,10 +42,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 9,
-  "totalTracks": 119,
+  "totalEntries": 10,
+  "totalTracks": 128,
   "evidenceLevelCounts": {
-    "documented": 119,
+    "documented": 128,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,
