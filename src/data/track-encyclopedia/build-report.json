@@ -34,6 +34,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/009-bob-dylan-blood-on-the-tracks-c704391c.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -42,10 +46,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 10,
-  "totalTracks": 128,
+  "totalEntries": 11,
+  "totalTracks": 138,
   "evidenceLevelCounts": {
-    "documented": 128,
+    "documented": 138,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-02T20:36:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "009-bob-dylan-blood-on-the-tracks-c704391c": {
+      "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all ten Blood on the Tracks catalog tracks with official Sony/Legacy session-release evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Tangled Up In Blue",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:1:fact-1",
+              "claim": "Sony/Legacy lists \"Tangled Up in Blue\" under Sound 80 Studio in Minneapolis on December 30, 1974, marking it \"with band\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "Sound 80 Studio Minneapolis, MN December 30, 1974 Tangled Up in Blue – with band – previously released on Blood On The Tracks Lily, Rosemary and the Jack of Hearts – with band",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6026,
+                    "end": 6201
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Simple Twist of Fate",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:2:fact-1",
+              "claim": "Sony/Legacy lists \"Simple Twist of Fate (Take 3, Remake)\" under A&R Studios in New York on September 19, 1974, marking it \"with bass\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "DISC 5 A & R Studios New York September 19, 1974 Tangled Up in Blue (Rehearsal and Take 1, Remake 2) – with bass Tangled Up in Blue (Take 2, Remake 2) – with bass Tangled Up in Blue (Take 3, Remake 2) – with bass – included on Blood On The Tracks test pressing and previously released on The Bootleg Series, Vols. 1-3: Rare and Unreleased, 1961-1991 Simple Twist of Fate (Take 2, Remake) – with bass Simple Twist of Fate (Take 3, Remake) – with bass – previously released on Blood On The Tracks Up to Me (Rehearsal and Take 1, Remake 3)",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 4484,
+                    "end": 5020
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "You're a Big Girl Now",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:3:fact-1",
+              "claim": "Sony/Legacy lists \"You're a Big Girl Now\" under Sound 80 Studio in Minneapolis on December 27, 1974, marking it \"with band\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "Sound 80 Studio Minneapolis, MN December 27, 1974 Idiot Wind – with band – previously released on Blood On The Tracks You’re a Big Girl Now – with band – previously released on Blood On The Tracks Sound 80 Studio Minneapolis, MN December 30, 1974",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5829,
+                    "end": 6075
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Idiot Wind",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:4:fact-1",
+              "claim": "Sony/Legacy lists \"Idiot Wind\" under Sound 80 Studio in Minneapolis on December 27, 1974, marking it \"with band\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "Sound 80 Studio Minneapolis, MN December 27, 1974 Idiot Wind – with band – previously released on Blood On The Tracks You’re a Big Girl Now – with band",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5829,
+                    "end": 5980
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "You're Gonna Make Me Lonesome When You Go",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:5:fact-1",
+              "claim": "Sony/Legacy lists \"You're Gonna Make Me Lonesome When You Go (Take 2, Remake 2)\" under A&R Studios in New York on September 17, 1974, marking it \"with bass\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "DISC 4 A & R Studios New York September 17, 1974 You’re Gonna Make Me Lonesome When You Go (Take 1, Remake 2) – with bass You’re Gonna Make Me Lonesome When You Go (Take 2, Remake 2) – with bass – previously released on Blood On The Tracks A & R Studios New York September 18, 1974",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3141,
+                    "end": 3422
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "Meet Me In the Morning",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:6:fact-1",
+              "claim": "Sony/Legacy lists \"Meet Me in the Morning (Take 1)\" under A&R Studios in New York on September 16, 1974, marking it \"with band\" and as the edited version previously released on Blood On The Tracks.",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "DISC 2 A & R Studios New York September 16, 1974 Simple Twist of Fate (Take 1A) – with band Simple Twist of Fate (Take 2A) – with band Simple Twist of Fate (Take 3A) – with band Call Letter Blues (Take 1) – with band Meet Me in the Morning (Take 1) – with band – edited version included on Blood On The Tracks test pressing and previously released on Blood On The Tracks Call Letter Blues (Take 2)",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 897
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "Lily, Rosemary and the Jack of Hearts",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:7:fact-1",
+              "claim": "Sony/Legacy lists \"Lily, Rosemary and the Jack of Hearts\" under Sound 80 Studio in Minneapolis on December 30, 1974, marking it \"with band\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "Sound 80 Studio Minneapolis, MN December 30, 1974 Tangled Up in Blue – with band – previously released on Blood On The Tracks Lily, Rosemary and the Jack of Hearts – with band – previously released on Blood On The Tracks If You See Her, Say Hello – with band",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6026,
+                    "end": 6284
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "If You See Her, Say Hello",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:8:fact-1",
+              "claim": "Sony/Legacy lists \"If You See Her, Say Hello\" under Sound 80 Studio in Minneapolis on December 30, 1974, marking it \"with band\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "Sound 80 Studio Minneapolis, MN December 30, 1974 Tangled Up in Blue – with band – previously released on Blood On The Tracks Lily, Rosemary and the Jack of Hearts – with band – previously released on Blood On The Tracks If You See Her, Say Hello – with band – previously released on Blood On The Tracks Bob Dylan: vocals, guitar, harmonica, organ",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6026,
+                    "end": 6373
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "Shelter from the Storm",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:9:fact-1",
+              "claim": "Sony/Legacy lists \"Shelter from the Storm (Take 4)\" under A&R Studios in New York on September 17, 1974, marking it \"with bass\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "A & R Studios New York September 17, 1974 You’re a Big Girl Now (Take 1, Remake) – with bass and organ You’re a Big Girl Now (Take 2, Remake) – with bass, organ, and steel guitar –included on Blood On The Tracks test pressing and previously released on Biograph Tangled Up in Blue (Rehearsal) – with bass and organ Tangled Up in Blue (Take 2, Remake) – with bass and organ Spanish Is the Loving Tongue (Take 1) – with bass and piano Call Letter Blues (Rehearsal) – with bass and piano You’re Gonna Make Me Lonesome When You Go (Take 1, Remake) – with bass and piano Shelter from the Storm (Take 1) – with bass and piano – previously released on the Jerry McGuire original soundtrack Buckets of Rain (Take 1) – with bass Tangled Up in Blue (Take 3, Remake) – with bass Buckets of Rain (Take 2) – with bass Shelter from the Storm (Take 2) – with bass Shelter from the Storm (Take 3) – with bass Shelter from the Storm (Take 4) – with bass – previously released on Blood On The Tracks",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2046,
+                    "end": 3027
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        },
+        {
+          "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Buckets of Rain",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:10:fact-1",
+              "claim": "Sony/Legacy lists \"Buckets of Rain (Take 4, Remake 2)\" under A&R Studios in New York on September 19, 1974, marking it \"with bass\" and \"previously released on Blood On The Tracks.\"",
+              "sourceRefs": [
+                {
+                  "label": "Sony/Legacy More Blood, More Tracks session chronology",
+                  "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+                  "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2",
+                  "sourceIdentity": "sonymusic.com|Legacy Recordings More Blood More Tracks press release",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-02",
+                  "artifactId": "942adce2be1b90c597518ffe458b3b92d7006043253d497db81845d6587a8e3a",
+                  "extract": "A & R Studios New York September 19, 1974 Up to Me (Take 1, Remake) – with bass Up to Me (Take 2, Remake) – with bass Buckets of Rain (Take 1, Remake 2) – with bass Buckets of Rain (Take 2, Remake 2) – with bass Buckets of Rain (Take 3, Remake 2) – with bass Buckets of Rain (Take 4, Remake 2) – with bass – previously released on Blood On The Tracks If You See Her, Say Hello (Take 1, Remake)",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3583,
+                    "end": 3976
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479",
+                "decisionId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One official release/session-listing claim retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Sony/Legacy More Blood, More Tracks session chronology",
+              "title": "Bob Dylan - More Blood, More Tracks - The Bootleg Series Vol. 14 to Be Released by Columbia Records/Legacy Recordings on Friday, November 2",
+              "url": "https://www.sonymusic.com/legacy/bob-dylan-more-blood-more-tracks-the-bootleg-series-vol-14-to-be-released-by-columbia-records-legacy-recordings-on-friday-november-2"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-02T20:36:00.000Z",
+        "generator": "codex-rank9-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-02T21:00:00.000Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review aad07c500a4bafe2fb2cf7df6cd8a02bd5701bda1c26f18be633f7d02abbd479."
+      },
+      "contentHash": "e95a96b5264c6074"
+    }
+  }
+}
