@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank18-highway-61-http-collector-20260903",
+  "collectedAt": "2026-09-03T15:40:07.971Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+      "fetchUrl": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+      "finalUrl": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+      "status": "collected",
+      "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+      "created": true,
+      "fetchedResponseSha256": "764d20ccce0d9f840f9029fc0106e2836265cb67c89671e5c86707a5b51450e1",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 9804,
+      "fetchedCharacters": 93240,
+      "claims": [
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Like a Rolling Stone",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Highway 61 Revisited opens with \"Like a Rolling Stone\", which has been described as revolutionary in its combination of electric guitar licks, organ chords, and Dylan's voice,",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 675
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Tombstone Blues",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The fast-paced, two-chord blues song \"Tombstone Blues\", driven by Michael Bloomfield's lead guitar, uses a parade of historical characters",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1712,
+            "end": 1850
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "According to critic Andy Gill, \"It Takes A Lot To Laugh\" illustrates Dylan's creativity, both in the way it adapts an old blues song,",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2756,
+            "end": 2889
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "From a Buick 6",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "AllMusic critic Bill Janovitz describes \"From a Buick 6\" as a \"raucous, up-tempo blues\", which is played \"almost recklessly\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3996,
+            "end": 4121
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Ballad of a Thin Man",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Ballad of a Thin Man\" is driven by Dylan's piano, which contrasts with \"the spooky organ riffs\" played by Al Kooper.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4798,
+            "end": 4915
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Queen Jane Approximately",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Polizzotti, in his study of Highway 61 Revisited, writes that the opening track of Side Two, \"Queen Jane Approximately\" is in a similar vein to \"Like a Rolling Stone\",",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5718,
+            "end": 5885
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Highway 61 Revisited",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Dylan commences the title song of his album, \"Highway 61 Revisited\", with the words \"Oh God said to Abraham, 'Kill me a son'/Abe says, 'Man, you must be puttin' me on'\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6679,
+            "end": 6848
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Just Like Tom Thumb's Blues",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Just Like Tom Thumb's Blues\" has six verses and no chorus.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7653,
+            "end": 7712
+          }
+        },
+        {
+          "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+          "trackTitle": "Desolation Row",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Gill has characterized \"Desolation Row\" as \"an 11-minute epic of entropy, which takes the form of a Fellini-esque parade of grotesques and oddities featuring a huge cast of iconic characters\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9112,
+            "end": 9304
+          }
+        }
+      ]
+    }
+  ]
+}

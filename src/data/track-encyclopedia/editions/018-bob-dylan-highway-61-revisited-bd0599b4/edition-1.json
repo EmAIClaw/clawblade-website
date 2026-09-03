@@ -1,0 +1,451 @@
+{
+  "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+  "editionNumber": 1,
+  "published": false,
+  "changeNote": "Complete all nine Highway 61 Revisited catalog tracks with track-specific evidence and independent semantic review.",
+  "trackEntries": [
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Like a Rolling Stone",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:1:fact-1",
+          "claim": "Wikipedia states that Highway 61 Revisited opens with \"Like a Rolling Stone\", which has been described as revolutionary in its combination of electric guitar licks, organ chords, and Dylan's voice.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Highway 61 Revisited opens with \"Like a Rolling Stone\", which has been described as revolutionary in its combination of electric guitar licks, organ chords, and Dylan's voice,",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 675
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Tombstone Blues",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:2:fact-1",
+          "claim": "Wikipedia describes \"Tombstone Blues\" as a fast-paced, two-chord blues song driven by Michael Bloomfield's lead guitar that uses a parade of historical characters.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The fast-paced, two-chord blues song \"Tombstone Blues\", driven by Michael Bloomfield's lead guitar, uses a parade of historical characters",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 1712,
+                "end": 1850
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:3:fact-1",
+          "claim": "Wikipedia states that, according to critic Andy Gill, \"It Takes a Lot to Laugh, It Takes a Train to Cry\" illustrates Dylan's creativity in the way it adapts an old blues song.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "According to critic Andy Gill, \"It Takes A Lot To Laugh\" illustrates Dylan's creativity, both in the way it adapts an old blues song,",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2756,
+                "end": 2889
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "From a Buick 6",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:4:fact-1",
+          "claim": "Wikipedia states that AllMusic critic Bill Janovitz describes \"From a Buick 6\" as a \"raucous, up-tempo blues\" played \"almost recklessly\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "AllMusic critic Bill Janovitz describes \"From a Buick 6\" as a \"raucous, up-tempo blues\", which is played \"almost recklessly\".",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3996,
+                "end": 4121
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Ballad of a Thin Man",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:5:fact-1",
+          "claim": "Wikipedia states that \"Ballad of a Thin Man\" is driven by Dylan's piano, which contrasts with \"the spooky organ riffs\" played by Al Kooper.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Ballad of a Thin Man\" is driven by Dylan's piano, which contrasts with \"the spooky organ riffs\" played by Al Kooper.",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4798,
+                "end": 4915
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Queen Jane Approximately",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:6:fact-1",
+          "claim": "Wikipedia states that Polizzotti, in his study of Highway 61 Revisited, writes that the opening track of Side Two, \"Queen Jane Approximately\", is in a similar vein to \"Like a Rolling Stone\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Polizzotti, in his study of Highway 61 Revisited, writes that the opening track of Side Two, \"Queen Jane Approximately\" is in a similar vein to \"Like a Rolling Stone\",",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5718,
+                "end": 5885
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Highway 61 Revisited",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:7:fact-1",
+          "claim": "Wikipedia states that Dylan commences the title song \"Highway 61 Revisited\" with the words \"Oh God said to Abraham, 'Kill me a son'/Abe says, 'Man, you must be puttin' me on'\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Dylan commences the title song of his album, \"Highway 61 Revisited\", with the words \"Oh God said to Abraham, 'Kill me a son'/Abe says, 'Man, you must be puttin' me on'\".",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 6679,
+                "end": 6848
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Just Like Tom Thumb's Blues",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:8:fact-1",
+          "claim": "Wikipedia states that \"Just Like Tom Thumb's Blues\" has six verses and no chorus.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Just Like Tom Thumb's Blues\" has six verses and no chorus.",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7653,
+                "end": 7712
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Desolation Row",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:9:fact-1",
+          "claim": "Wikipedia states that Gill has characterized \"Desolation Row\" as \"an 11-minute epic of entropy, which takes the form of a Fellini-esque parade of grotesques and oddities featuring a huge cast of iconic characters\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Highway 61 Revisited article",
+              "title": "Highway 61 Revisited - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+              "sourceIdentity": "en.wikipedia.org|Highway 61 Revisited album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Gill has characterized \"Desolation Row\" as \"an 11-minute epic of entropy, which takes the form of a Fellini-esque parade of grotesques and oddities featuring a huge cast of iconic characters\".",
+              "artifactId": "c028e72aecc11deff7768020936df05dfcf17e77f171dbbd0d92505fa1ee0e3e",
+              "section": {
+                "kind": "character-offsets",
+                "start": 9112,
+                "end": 9304
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f",
+            "decisionId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Highway 61 Revisited article",
+          "title": "Highway 61 Revisited - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Highway_61_Revisited"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "generator": "codex-rank18-track-encyclopedia-author",
+    "model": "gpt-5-codex"
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-03T15:41:20Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review 8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f."
+  },
+  "contentHash": "21571f1103a6484f"
+}
