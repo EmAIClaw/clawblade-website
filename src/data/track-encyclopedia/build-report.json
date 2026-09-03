@@ -78,6 +78,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/020-radiohead-kid-a-ce842ff2.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -86,10 +90,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 21,
-  "totalTracks": 301,
+  "totalEntries": 22,
+  "totalTracks": 312,
   "evidenceLevelCounts": {
-    "documented": 293,
+    "documented": 304,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 8,

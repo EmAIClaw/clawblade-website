@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "020-radiohead-kid-a-ce842ff2": {
+      "albumId": "020-radiohead-kid-a-ce842ff2",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all eleven Kid A catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Everything In Its Right Place",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:1:fact-1",
+              "claim": "Wikipedia states that Yorke wrote \"Everything in Its Right Place\" about the depression he experienced on the OK Computer tour, feeling he could not speak.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Yorke wrote \"Everything in Its Right Place\" about the depression he experienced on the OK Computer tour, feeling he could not speak.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6695,
+                    "end": 6827
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Kid A",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:2:fact-1",
+              "claim": "Wikipedia states that Yorke's vocals on the title track \"Kid A\" were spoken, then vocoded with the ondes Martenot to create the melody.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "his vocals on the title track were spoken, then vocoded with the ondes Martenot to create the melody.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 4089,
+                    "end": 4190
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "The National Anthem",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:3:fact-1",
+              "claim": "Wikipedia states that Yorke wrote an early version of \"The National Anthem\" when the band was still in school.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Yorke wrote an early version of \"The National Anthem\" when the band was still in school.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 588
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "How to Disappear Completely",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:4:fact-1",
+              "claim": "Wikipedia states that the strings on \"How to Disappear Completely\" were performed by the Orchestra of St John's and recorded in Dorchester Abbey, a 12th-century church about five miles from Radiohead's Oxfordshire studio.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The strings on \"How to Disappear Completely\" were performed by the Orchestra of St John's and recorded in Dorchester Abbey, a 12th-century church about five miles from Radiohead's Oxfordshire studio.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1140,
+                    "end": 1339
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Treefingers",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:5:fact-1",
+              "claim": "Wikipedia states that \"Treefingers\", an ambient instrumental, was created by digitally processing O'Brien's guitar loops.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Treefingers\", an ambient instrumental, was created by digitally processing O'Brien's guitar loops.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3915,
+                    "end": 4014
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "Optimistic",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:6:fact-1",
+              "claim": "Wikipedia states that the refrain of \"Optimistic\" was an assurance by Yorke's partner, Rachel Owen, when Yorke was frustrated with the band's progress.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The refrain of \"Optimistic\" (\"try the best you can / the best you can is good enough\") was an assurance by Yorke's partner, Rachel Owen, when Yorke was frustrated with the band's progress.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7036,
+                    "end": 7224
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "In Limbo",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:7:fact-1",
+              "claim": "Songfacts states that the original title of \"In Limbo\" was \"Lost At Sea.\"",
+              "sourceRefs": [
+                {
+                  "label": "Songfacts In Limbo",
+                  "title": "In Limbo by Radiohead - Songfacts",
+                  "url": "https://www.songfacts.com/facts/radiohead/in-limbo",
+                  "sourceIdentity": "songfacts.com|In Limbo by Radiohead",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The original title was \"Lost At Sea.\"",
+                  "artifactId": "c67136984ae5de6da9fd2b976b9beea4f2ca892edca5c13d7d521a8b21af08b1",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 537
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Songfacts In Limbo",
+              "title": "In Limbo by Radiohead - Songfacts",
+              "url": "https://www.songfacts.com/facts/radiohead/in-limbo"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "Idioteque",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:8:fact-1",
+              "claim": "Wikipedia states that \"Idioteque\" was built from a drum machine pattern Greenwood created with a modular synthesiser.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Idioteque\" was built from a drum machine pattern Greenwood created with a modular synthesiser.",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2044,
+                    "end": 2139
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "Morning Bell",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:9:fact-1",
+              "claim": "Wikipedia states that \"Morning Bell\" features repeated contrasting lines such as \"Where'd you park the car?\" and \"Cut the kids in half\".",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Morning Bell\" features repeated contrasting lines such as \"Where'd you park the car?\" and \"Cut the kids in half\".",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5773,
+                    "end": 5887
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Motion Picture Soundtrack",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:10:fact-1",
+              "claim": "Wikipedia states that \"Motion Picture Soundtrack\" was written before Radiohead's debut single, \"Creep\" (1992).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kid A article",
+                  "title": "Kid A - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kid_A",
+                  "sourceIdentity": "en.wikipedia.org|Kid A album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Motion Picture Soundtrack\" was written before Radiohead's debut single, \"Creep\" (1992)",
+                  "artifactId": "716563c68aa1c0c46fd01ea40a949a93500a4b6d2b0ed26c3f558b79c7675807",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2588,
+                    "end": 2675
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kid A article",
+              "title": "Kid A - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kid_A"
+            }
+          ]
+        },
+        {
+          "albumId": "020-radiohead-kid-a-ce842ff2",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Untitled",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "020-radiohead-kid-a-ce842ff2:1:11:fact-1",
+              "claim": "Citizen Insane states that \"Untitled\" is the official name for the instrumental hidden track after \"Motion Picture Soundtrack\".",
+              "sourceRefs": [
+                {
+                  "label": "Citizen Insane Untitled",
+                  "title": "Untitled - Citizen Insane",
+                  "url": "https://citizeninsane.eu/music/kam/untitled.html",
+                  "sourceIdentity": "citizeninsane.eu|Untitled",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Untitled\" is the official name for the instrumental hidden track after \"Motion Picture Soundtrack\".",
+                  "artifactId": "ed7e5bed3af1b3c9e32132994eeb7e86a6ba0ae4bd80bbef969d3399eabe91c1",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 260,
+                    "end": 360
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7",
+                "decisionId": "020-radiohead-kid-a-ce842ff2:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Citizen Insane Untitled",
+              "title": "Untitled - Citizen Insane",
+              "url": "https://citizeninsane.eu/music/kam/untitled.html"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank20-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T16:40:00Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review 26675231edb379789d345bd359c9fb1fc66898efbf87b40d10a4645c597a84d7."
+      },
+      "contentHash": "7b4ca61faf5f76ba"
+    }
+  }
+}
