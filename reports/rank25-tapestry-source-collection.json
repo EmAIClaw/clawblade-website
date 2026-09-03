@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank25-tapestry-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:35:23.930Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move",
+      "finalUrl": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move",
+      "status": "collected",
+      "artifactId": "ba7930eac96522e7426188eca64f73b653ec4854a52a05792f16a6faecb2fb82",
+      "fetchedResponseSha256": "e0838db3c8fc77787277f0b569ad35b32989e1e45effbb5bba35dfb6c1ec3bf4",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1139,
+      "fetchedCharacters": 22050,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "I Feel the Earth Move",
+          "trackNumber": 1,
+          "retainedExtract": "This rhythm, putting the accent at the end of the word \"tumbling\" rather than at the beginning, produces a \"musical equivalent of a tumble\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 639
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)",
+      "status": "collected",
+      "artifactId": "510f236365e3669e9be685d0be0a9f6d25bf88fa9750406314b2a4fd0bb18d70",
+      "fetchedResponseSha256": "ccf0ba98d7d2919eea9d060ddd1c0aadf897aaa8faf8ad5314f6c548f298975b",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1193,
+      "fetchedCharacters": 12449,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "So Far Away",
+          "trackNumber": 2,
+          "retainedExtract": "The recording features James Taylor on acoustic guitar. In addition to Taylor, and King on piano, instruments include Russ Kunkel on drums, Charles Larkey on bass guitar and Curtis Amy on flute.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 694
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)",
+      "status": "collected",
+      "artifactId": "4e7f193e89acb0b98319dc7f09e43f00ee8b9728f564719034842099a226dce4",
+      "fetchedResponseSha256": "d430c11df2843ac1a5185f3a4e2fd4469e9750ec109ef1a7e2d9ae735184d581",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1048,
+      "fetchedCharacters": 41467,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "It's Too Late",
+          "trackNumber": 3,
+          "retainedExtract": "Kortchmar and Amy each have an instrumental solo",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 548
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)",
+      "status": "collected",
+      "artifactId": "f3a616f9b5d7455a99279f00be4d34101fdb0f69a853de912b867d18f8b151e1",
+      "fetchedResponseSha256": "ee82b8b6b05757393397fb2f4dcada6200ce2e367f68f0d3755842f8cbe6a061",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1085,
+      "fetchedCharacters": 9530,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "Beautiful",
+          "trackNumber": 5,
+          "retainedExtract": "she did not consciously attempt to write \"Beautiful\" but it came to her spontaneously",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 585
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend",
+      "finalUrl": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend",
+      "status": "collected",
+      "artifactId": "f28c84958930e67433a6c52b0aad8b9930506e1e3844776c378bc45772b74a94",
+      "fetchedResponseSha256": "d47cedf1a0127473de9cdb7f60945a4a004974a3140404d01d2ca3ee49d89577",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1168,
+      "fetchedCharacters": 72904,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "You've Got a Friend",
+          "trackNumber": 7,
+          "retainedExtract": "According to Taylor, King told him that the song was a response to a line in his earlier song \"Fire and Rain\" (\"I've seen lonely times when I could not find a friend\").",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 668
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Where_You_Lead",
+      "finalUrl": "https://en.wikipedia.org/wiki/Where_You_Lead",
+      "status": "collected",
+      "artifactId": "4c0ac35704fc4c1ecf23fd51e37c504b16159c5bbcd2c6ffe631ea5ecefd3672",
+      "fetchedResponseSha256": "f870485c75ff7e4d338d44d8da2bf74539ea03297f9d188966784ae2d7132cc8",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1244,
+      "fetchedCharacters": 31394,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "Where You Lead",
+          "trackNumber": 8,
+          "retainedExtract": "King had written the music and the majority of the lyric for \"Where You Lead\" when she solicited the assistance of Stern, saying: \"I can't write the bridge to this: if you can figure out the bridge you can get [co-writing] credit for the song.\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 744
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow",
+      "finalUrl": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow",
+      "status": "collected",
+      "artifactId": "3268dba4222380cba110474e432ed6a47636634cc1352791457645511fffcd47",
+      "fetchedResponseSha256": "dd5cf9f3f68d03102306f2f9db3cd77f1d4db6cec480389b4d159a4886537dce",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1238,
+      "fetchedCharacters": 26439,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "Will You Love Me Tomorrow",
+          "trackNumber": 9,
+          "retainedExtract": "In 1971, Carole King, who composed the music of the song, recorded a version of \"Will You Love Me Tomorrow\" for her second studio album Tapestry, with Joni Mitchell and James Taylor performing background vocals on separate audio channels.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 738
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)",
+      "status": "collected",
+      "artifactId": "db76a67da1f0f16297133757971b6e8049c6c36c77076382b78e52b78097e63b",
+      "fetchedResponseSha256": "8544f4a6e65e1363e46e80f3d6ca683db94820e8db80b70bf441c0e6075d2ceb",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1072,
+      "fetchedCharacters": 9362,
+      "claims": [
+        {
+          "albumId": "025-carole-king-tapestry-b29b056b",
+          "trackTitle": "Smackwater Jack",
+          "trackNumber": 10,
+          "retainedExtract": "a confrontation between the outlaw Smackwater Jack and Big Jim the Chief",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 572
+          }
+        }
+      ]
+    }
+  ]
+}

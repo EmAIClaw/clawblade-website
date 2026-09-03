@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "albumId": "025-carole-king-tapestry-b29b056b",
+  "editionNumber": 1,
+  "candidateContentHash": "fb361c9c20a2c980882a419b59e7deeee189ad8b121ee0ab04e647b9ee89420d",
+  "candidate": {
+    "albumId": "025-carole-king-tapestry-b29b056b",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "gpt-5.6-sol-rank25-track-encyclopedia-author",
+      "model": "gpt-5.6-sol"
+    },
+    "trackEntries": [
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "I Feel the Earth Move",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:1:fact-1",
+            "claim": "Wikipedia reports James Perone’s analysis that accenting the end of “tumbling” produces a musical equivalent of a tumble.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia I Feel the Earth Move article",
+                "title": "I Feel the Earth Move - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move",
+                "sourceIdentity": "en.wikipedia.org|I Feel the Earth Move",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "This rhythm, putting the accent at the end of the word \"tumbling\" rather than at the beginning, produces a \"musical equivalent of a tumble\"",
+                "artifactId": "ba7930eac96522e7426188eca64f73b653ec4854a52a05792f16a6faecb2fb82",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 639
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia I Feel the Earth Move article",
+            "title": "I Feel the Earth Move - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "So Far Away",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:2:fact-1",
+            "claim": "Wikipedia identifies James Taylor on acoustic guitar, Carole King on piano, Russ Kunkel on drums, Charles Larkey on bass guitar, and Curtis Amy on flute for “So Far Away.”",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia So Far Away article",
+                "title": "So Far Away (Carole King song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)",
+                "sourceIdentity": "en.wikipedia.org|So Far Away (Carole King song)",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The recording features James Taylor on acoustic guitar. In addition to Taylor, and King on piano, instruments include Russ Kunkel on drums, Charles Larkey on bass guitar and Curtis Amy on flute.",
+                "artifactId": "510f236365e3669e9be685d0be0a9f6d25bf88fa9750406314b2a4fd0bb18d70",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 694
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia So Far Away article",
+            "title": "So Far Away (Carole King song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "It's Too Late",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:3:fact-1",
+            "claim": "Wikipedia notes that Danny Kortchmar and Curtis Amy each take an instrumental solo on “It’s Too Late.”",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia It's Too Late article",
+                "title": "It's Too Late (Carole King song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)",
+                "sourceIdentity": "en.wikipedia.org|It's Too Late (Carole King song)",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Kortchmar and Amy each have an instrumental solo",
+                "artifactId": "4e7f193e89acb0b98319dc7f09e43f00ee8b9728f564719034842099a226dce4",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 548
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia It's Too Late article",
+            "title": "It's Too Late (Carole King song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Home Again",
+        "evidenceLevel": "insufficient-evidence",
+        "verifiedFacts": [],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "researchDisposition": {
+          "completedAt": "2026-09-03",
+          "searchedQueries": [
+            "Carole King Tapestry track by track interview Home Again",
+            "site:caroleking.com/discography/tracks/tapestry Home Again",
+            "Tapestry personnel Home Again Carole King"
+          ],
+          "sourceClasses": [
+            "Carole King official discography album and track pages",
+            "Library of Congress National Recording Registry essay",
+            "Wikipedia album and song articles",
+            "reputable retrospective and interview search results"
+          ],
+          "outcome": "Fetched official discography and album-level editorial sources exposed lyrics, credits, or generic album context, but no sufficiently informative source-body claim specific to the composition or recording of “Home Again.”"
+        },
+        "limitations": [
+          "Fetched official discography and album-level editorial sources exposed lyrics, credits, or generic album context, but no sufficiently informative source-body claim specific to the composition or recording of “Home Again.”"
+        ],
+        "sourceRefs": []
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Beautiful",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:5:fact-1",
+            "claim": "Wikipedia reports Carole King’s account that “Beautiful” came to her spontaneously rather than through a conscious attempt to write it.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Beautiful article",
+                "title": "Beautiful (Carole King song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)",
+                "sourceIdentity": "en.wikipedia.org|Beautiful (Carole King song)",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "she did not consciously attempt to write \"Beautiful\" but it came to her spontaneously",
+                "artifactId": "f3a616f9b5d7455a99279f00be4d34101fdb0f69a853de912b867d18f8b151e1",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 585
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Beautiful article",
+            "title": "Beautiful (Carole King song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "Way Over Yonder",
+        "evidenceLevel": "insufficient-evidence",
+        "verifiedFacts": [],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "researchDisposition": {
+          "completedAt": "2026-09-03",
+          "searchedQueries": [
+            "Carole King Tapestry track by track interview Way Over Yonder",
+            "site:caroleking.com/discography/tracks/tapestry Way Over Yonder",
+            "Way Over Yonder Tapestry recording interview"
+          ],
+          "sourceClasses": [
+            "Carole King official discography album and track pages",
+            "Library of Congress National Recording Registry essay",
+            "Wikipedia album and song articles",
+            "reputable retrospective and interview search results"
+          ],
+          "outcome": "Fetched official discography and album-level editorial sources exposed lyrics, credits, or broad critical description, but no sufficiently informative source-body claim specific to the composition or recording of “Way Over Yonder.”"
+        },
+        "limitations": [
+          "Fetched official discography and album-level editorial sources exposed lyrics, credits, or broad critical description, but no sufficiently informative source-body claim specific to the composition or recording of “Way Over Yonder.”"
+        ],
+        "sourceRefs": []
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "You've Got a Friend",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:7:fact-1",
+            "claim": "Wikipedia reports James Taylor’s recollection that King described “You’ve Got a Friend” as a response to a line in his “Fire and Rain.”",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia You've Got a Friend article",
+                "title": "You've Got a Friend - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend",
+                "sourceIdentity": "en.wikipedia.org|You've Got a Friend",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "According to Taylor, King told him that the song was a response to a line in his earlier song \"Fire and Rain\" (\"I've seen lonely times when I could not find a friend\").",
+                "artifactId": "f28c84958930e67433a6c52b0aad8b9930506e1e3844776c378bc45772b74a94",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 668
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia You've Got a Friend article",
+            "title": "You've Got a Friend - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Where You Lead",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:8:fact-1",
+            "claim": "Wikipedia reports that King had written the music and most of the lyric for “Where You Lead” before asking Toni Stern to supply the bridge for co-writing credit.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Where You Lead article",
+                "title": "Where You Lead - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Where_You_Lead",
+                "sourceIdentity": "en.wikipedia.org|Where You Lead",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "King had written the music and the majority of the lyric for \"Where You Lead\" when she solicited the assistance of Stern, saying: \"I can't write the bridge to this: if you can figure out the bridge you can get [co-writing] credit for the song.\"",
+                "artifactId": "4c0ac35704fc4c1ecf23fd51e37c504b16159c5bbcd2c6ffe631ea5ecefd3672",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 744
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Where You Lead article",
+            "title": "Where You Lead - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Where_You_Lead"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Will You Love Me Tomorrow?",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:9:fact-1",
+            "claim": "Wikipedia states that King’s Tapestry recording of “Will You Love Me Tomorrow?” used Joni Mitchell and James Taylor for background vocals on separate audio channels.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Will You Love Me Tomorrow? article",
+                "title": "Will You Love Me Tomorrow - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow",
+                "sourceIdentity": "en.wikipedia.org|Will You Love Me Tomorrow",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "In 1971, Carole King, who composed the music of the song, recorded a version of \"Will You Love Me Tomorrow\" for her second studio album Tapestry, with Joni Mitchell and James Taylor performing background vocals on separate audio channels.",
+                "artifactId": "3268dba4222380cba110474e432ed6a47636634cc1352791457645511fffcd47",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 738
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Will You Love Me Tomorrow? article",
+            "title": "Will You Love Me Tomorrow - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Smackwater Jack",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "025-carole-king-tapestry-b29b056b:1:10:fact-1",
+            "claim": "Wikipedia describes “Smackwater Jack” as telling of a confrontation between the outlaw Smackwater Jack and Big Jim the Chief.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Smackwater Jack article",
+                "title": "Smackwater Jack (song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)",
+                "sourceIdentity": "en.wikipedia.org|Smackwater Jack (song)",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "a confrontation between the outlaw Smackwater Jack and Big Jim the Chief",
+                "artifactId": "db76a67da1f0f16297133757971b6e8049c6c36c77076382b78e52b78097e63b",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 572
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow attributed statement is retained; no broader lyric interpretation, listening analysis, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Smackwater Jack article",
+            "title": "Smackwater Jack (song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)"
+          }
+        ]
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "Tapestry",
+        "evidenceLevel": "insufficient-evidence",
+        "verifiedFacts": [],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "researchDisposition": {
+          "completedAt": "2026-09-03",
+          "searchedQueries": [
+            "Carole King Tapestry title track song story interview",
+            "site:caroleking.com/discography/tracks/tapestry Tapestry",
+            "Carole King Tapestry song meaning recording"
+          ],
+          "sourceClasses": [
+            "Carole King official discography album and track pages",
+            "Library of Congress National Recording Registry essay",
+            "Wikipedia album and song articles",
+            "reputable retrospective and interview search results"
+          ],
+          "outcome": "Fetched official discography and album-level editorial sources exposed lyrics and broad album commentary, but no sufficiently informative source-body claim specific to the composition or recording of the title track."
+        },
+        "limitations": [
+          "Fetched official discography and album-level editorial sources exposed lyrics and broad album commentary, but no sufficiently informative source-body claim specific to the composition or recording of the title track."
+        ],
+        "sourceRefs": []
+      },
+      {
+        "albumId": "025-carole-king-tapestry-b29b056b",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "(You Make Me Feel Like) A Natural Woman",
+        "evidenceLevel": "insufficient-evidence",
+        "verifiedFacts": [],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "researchDisposition": {
+          "completedAt": "2026-09-03",
+          "searchedQueries": [
+            "Carole King Natural Woman Tapestry version recording interview",
+            "site:caroleking.com/discography/tracks/tapestry Natural Woman",
+            "Carole King Tapestry Natural Woman personnel"
+          ],
+          "sourceClasses": [
+            "Carole King official discography album and track pages",
+            "Library of Congress National Recording Registry essay",
+            "Wikipedia album and song articles",
+            "reputable retrospective and interview search results"
+          ],
+          "outcome": "Fetched official discography, Library of Congress, and encyclopedia sources established earlier authorship/performance history but did not provide a sufficiently informative claim specific to King’s Tapestry recording of “(You Make Me Feel Like) A Natural Woman.”"
+        },
+        "limitations": [
+          "Fetched official discography, Library of Congress, and encyclopedia sources established earlier authorship/performance history but did not provide a sufficiently informative claim specific to King’s Tapestry recording of “(You Make Me Feel Like) A Natural Woman.”"
+        ],
+        "sourceRefs": []
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "ba7930eac96522e7426188eca64f73b653ec4854a52a05792f16a6faecb2fb82": {
+      "artifactId": "ba7930eac96522e7426188eca64f73b653ec4854a52a05792f16a6faecb2fb82",
+      "artifactSha256": "ba7930eac96522e7426188eca64f73b653ec4854a52a05792f16a6faecb2fb82",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "e0838db3c8fc77787277f0b569ad35b32989e1e45effbb5bba35dfb6c1ec3bf4",
+      "finalUrl": "https://en.wikipedia.org/wiki/I_Feel_the_Earth_Move",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "unleashing of an entire generation of soft-spoken college girls' collective libidos\".^([4]) Cash Box described the song as being a \"forceful 'earthquake song'\" and considered its pairing with \"It's Too Late\" as a single to be \"double dynamite\".^([5]) Record World said that it is \"quality contemporary pop\".^([6]) Author James Perone praised the way the lyrics and music work together.^([7]) As a prime example, he notes the syncopated rhythm to the melody on which King sings \"tumbling down\".^([7]) This rhythm, putting the accent at the end of the word \"tumbling\" rather than at the beginning, produces a \"musical equivalent of a tumble\".^([7]) Perone also notes that the fast tempo allows the listener to feel the singer's excitement over being near her lover, and that the lyrics also express sexual tension even though that tension is left implicit.^([7]) Perone attributes some of the song's success to producer Lou Adler's decision to highlight King's piano playing in the mix, giving it a different feel from the guitar-based singer-songwriter approach King took in her prior album.^([7]) Mason also attributes the song's success t",
+      "retrievedAt": "2026-09-03T17:35:22.662Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 4917,
+        "fetchedTextLength": 22050,
+        "kind": "character-offsets",
+        "start": 3778
+      }
+    },
+    "510f236365e3669e9be685d0be0a9f6d25bf88fa9750406314b2a4fd0bb18d70": {
+      "artifactId": "510f236365e3669e9be685d0be0a9f6d25bf88fa9750406314b2a4fd0bb18d70",
+      "artifactSha256": "510f236365e3669e9be685d0be0a9f6d25bf88fa9750406314b2a4fd0bb18d70",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "ccf0ba98d7d2919eea9d060ddd1c0aadf897aaa8faf8ad5314f6c548f298975b",
+      "finalUrl": "https://en.wikipedia.org/wiki/So_Far_Away_(Carole_King_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "----------------------------------- ----------------------- | | \"It's Too Late\" / \"I Feel the Earth Move\" \"So Far Away\" / \"Smackwater Jack\" \"Sweet Seasons\" | | (1971) (1971) (1971) | | | | ------------------------------------------- ----------------------------------- ----------------------- | +---------------------------------------------------------------------------------------------------------------+ \"So Far Away\" is a song written by Carole King, which appeared on her 1971 album Tapestry. The recording features James Taylor on acoustic guitar. In addition to Taylor, and King on piano, instruments include Russ Kunkel on drums, Charles Larkey on bass guitar and Curtis Amy on flute.^([4]) The lyrics express longing for a lover who is far away.^([4]) AllMusic critic Bill Janovitz notes that while the lyrics start by focusing on the physical distance between the lovers, the lyrics use that as a jumping-off point to explore emotional distance between lovers as well.^([5]) Rolling Stone stated King's \"warm, earnest singing\" on the song brought out the song's sadness.^([6]) Cash Box said of it that \"Carole weaves a magnificent ballad spun of soft, melodic phrasing and soothing",
+      "retrievedAt": "2026-09-03T17:35:22.793Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3411,
+        "fetchedTextLength": 12449,
+        "kind": "character-offsets",
+        "start": 2218
+      }
+    },
+    "4e7f193e89acb0b98319dc7f09e43f00ee8b9728f564719034842099a226dce4": {
+      "artifactId": "4e7f193e89acb0b98319dc7f09e43f00ee8b9728f564719034842099a226dce4",
+      "artifactSha256": "4e7f193e89acb0b98319dc7f09e43f00ee8b9728f564719034842099a226dce4",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "d430c11df2843ac1a5185f3a4e2fd4469e9750ec109ef1a7e2d9ae735184d581",
+      "finalUrl": "https://en.wikipedia.org/wiki/It%27s_Too_Late_(Carole_King_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "an 'It's Too Late,' the world (or at least AM radio) isn't ready for it.\"^([7]) Marsh described the melody as Tin Pan Alley and the arrangement as a cross between light jazz and \"L.A. studio craftsmanship.\"^([6]) Rolling Stone remarked that Carole King's \"warm, earnest singing\" on the song brought out the song's sadness.^([8]) According to author James Perone, the feel of the song is enhanced by the instrumental work of Danny Kortchmar on guitar, Curtis Amy on saxophone and King on piano.^([5]) Kortchmar and Amy each have an instrumental solo.^([5]) Cash Box described the song as \"a sensitive ballad with a strong rock under-beat.\"^([9]) Record World said that it is \"quality contemporary pop.\"^([10]) Lyricist Toni Stern told author Sheila Weller that she wrote the lyrics in a single day, after her relationship with James Taylor ended.^([11][12]) (This runs counter to multiple obituaries, including one^([13]) by her husband of many years until her death, Jerry Rounds.) The recording won a Grammy Award for Record of the Year at the 14t",
+      "retrievedAt": "2026-09-03T17:35:22.993Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 5072,
+        "fetchedTextLength": 41467,
+        "kind": "character-offsets",
+        "start": 4024
+      }
+    },
+    "f3a616f9b5d7455a99279f00be4d34101fdb0f69a853de912b867d18f8b151e1": {
+      "artifactId": "f3a616f9b5d7455a99279f00be4d34101fdb0f69a853de912b867d18f8b151e1",
+      "artifactSha256": "f3a616f9b5d7455a99279f00be4d34101fdb0f69a853de912b867d18f8b151e1",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "ee82b8b6b05757393397fb2f4dcada6200ce2e367f68f0d3755842f8cbe6a061",
+      "finalUrl": "https://en.wikipedia.org/wiki/Beautiful_(Carole_King_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "-+ | Producer | Lou Adler | +-------------------------------------+-------------------------------------+ \"Beautiful\" is a song written by Carole King that was first released on her 1971 award-winning album Tapestry. It has also been covered by other artists, such as Barbra Streisand and Richard Marx, and included on several of King's live albums. It was also used as the title song of the 2014 Broadway musical Beautiful: The Carole King Musical. Lyrics and music [edit] According to Carole King, she did not consciously attempt to write \"Beautiful\" but it came to her spontaneously.^([2]) It stemmed from her realization while riding the New York City Subway that the way she perceived others reflected how she herself felt.^([2]) She has also stated that because it came to her spontaneously, she initially didn't realize some of the professional details of the song, such as the lack of rhyme in the refrain, which if she was writing the song consciously she would have included.^([2]) Rolling Stone Magazine critic Jon Landau describes \"Beautiful\" as an \"uptempo song.\"^([3]) Th",
+      "retrievedAt": "2026-09-03T17:35:23.087Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2282,
+        "fetchedTextLength": 9530,
+        "kind": "character-offsets",
+        "start": 1197
+      }
+    },
+    "f28c84958930e67433a6c52b0aad8b9930506e1e3844776c378bc45772b74a94": {
+      "artifactId": "f28c84958930e67433a6c52b0aad8b9930506e1e3844776c378bc45772b74a94",
+      "artifactSha256": "f28c84958930e67433a6c52b0aad8b9930506e1e3844776c378bc45772b74a94",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "d47cedf1a0127473de9cdb7f60945a4a004974a3140404d01d2ca3ee49d89577",
+      "finalUrl": "https://en.wikipedia.org/wiki/You%27ve_Got_a_Friend",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "aylor's version was included in CBS News's list of the 250 most essential American songs of the past 250 years.^([3]) History [edit] [] Carole King wrote \"You've Got a Friend\" during the January 1971 recording sessions for her album Tapestry, when James Taylor was also recording his album Mud Slide Slim and the Blue Horizon. She has said that \"the song was as close to pure inspiration as I've ever experienced. The song wrote itself. It was written by something outside myself, through me.\"^([4]) According to Taylor, King told him that the song was a response to a line in his earlier song \"Fire and Rain\" (\"I've seen lonely times when I could not find a friend\").^([5][6]) King said in a 1972 interview that she \"didn't write it with James or anybody really specifically in mind. But when James heard it he really liked it and wanted to record it\".^([7]) Both King and Taylor recorded the song for their respective albums, and Taylor and Danny Kortchmar perform on both versions. Taylor's version was released as a single and reached number 1 on the Billboard Hot 100 (his only song to do so) and number 4 on the UK Singles Chart. Taylor's version also spent a we",
+      "retrievedAt": "2026-09-03T17:35:23.431Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 6213,
+        "fetchedTextLength": 72904,
+        "kind": "character-offsets",
+        "start": 5045
+      }
+    },
+    "4c0ac35704fc4c1ecf23fd51e37c504b16159c5bbcd2c6ffe631ea5ecefd3672": {
+      "artifactId": "4c0ac35704fc4c1ecf23fd51e37c504b16159c5bbcd2c6ffe631ea5ecefd3672",
+      "artifactSha256": "4c0ac35704fc4c1ecf23fd51e37c504b16159c5bbcd2c6ffe631ea5ecefd3672",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Where_You_Lead",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "f870485c75ff7e4d338d44d8da2bf74539ea03297f9d188966784ae2d7132cc8",
+      "finalUrl": "https://en.wikipedia.org/wiki/Where_You_Lead",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "a medley titled \"Sweet Inspiration/Where You Lead\"—the song has also served as the main theme song for the 2000–2007 The WB dramedy series Gilmore Girls in a lyrically revised version recorded by King and Louise Goffin and was featured on the 2002 soundtrack album Our Little Corner of the World: Music from Gilmore Girls. Original version [edit] \"Where You Lead\" is one of two Carole King/Toni Stern collaborations featured on the 1971 album Tapestry, the other being the #1 single \"It's Too Late\". King had written the music and the majority of the lyric for \"Where You Lead\" when she solicited the assistance of Stern, saying: \"I can't write the bridge to this: if you can figure out the bridge you can get [co-writing] credit for the song.\" Disliking the arguably servile stance of the song as written by King so far, Stern swiftly conceived lyrics for its bridge which she felt expressed a more empowered narrative voice. The lyrics Stern submitted to King included the lines: \"...if you want to live in fucking New York City / Honey you know I will\": King herself deleted \"fucking\", then sought Tapestry producer Lou Adler's approval of the \"New York City\" reference; Adler's approval was forthcoming and the lyrics for \"Where You Lead\" w",
+      "retrievedAt": "2026-09-03T17:35:23.568Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2431,
+        "fetchedTextLength": 31394,
+        "kind": "character-offsets",
+        "start": 1187
+      }
+    },
+    "3268dba4222380cba110474e432ed6a47636634cc1352791457645511fffcd47": {
+      "artifactId": "3268dba4222380cba110474e432ed6a47636634cc1352791457645511fffcd47",
+      "artifactSha256": "3268dba4222380cba110474e432ed6a47636634cc1352791457645511fffcd47",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "dd5cf9f3f68d03102306f2f9db3cd77f1d4db6cec480389b4d159a4886537dce",
+      "finalUrl": "https://en.wikipedia.org/wiki/Will_You_Love_Me_Tomorrow",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "d \"Tomorrow and Always\" (in two different versions), which used the same melody as the original but initially neglected to credit King and Gerry Goffin. Following a threat of litigation, later pressings of the record included proper credit. Eventually, it was withdrawn and replaced by the song \"Angel\" with the same B-side \"A Love That Can Never Be\". The Satintones' versions are included in the box set The Complete Motown Singles, Volume 1: 1959–1961. Carole King version [edit] Background [edit] In 1971, Carole King, who composed the music of the song, recorded a version of \"Will You Love Me Tomorrow\" for her second studio album Tapestry, with Joni Mitchell and James Taylor performing background vocals on separate audio channels.^([17]) King's version of the song was taken at a considerably slower tempo. David Hepworth analyzed it as \"less like the pleas for gentleness on the part of a trembling virgin and more like a mature woman requiring parity in a relationship.\"^([17]) It gained considerable album-oriented rock airplay due to the large-scale commercial success of the album. The song became a feature of King's live shows. Taylor recreated his part during their joint arena-based Troubadour Reunion Tour of 2010. In th",
+      "retrievedAt": "2026-09-03T17:35:23.771Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 7259,
+        "fetchedTextLength": 26439,
+        "kind": "character-offsets",
+        "start": 6021
+      }
+    },
+    "db76a67da1f0f16297133757971b6e8049c6c36c77076382b78e52b78097e63b": {
+      "artifactId": "db76a67da1f0f16297133757971b6e8049c6c36c77076382b78e52b78097e63b",
+      "artifactSha256": "db76a67da1f0f16297133757971b6e8049c6c36c77076382b78e52b78097e63b",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank25-tapestry-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "8544f4a6e65e1363e46e80f3d6ca683db94820e8db80b70bf441c0e6075d2ceb",
+      "finalUrl": "https://en.wikipedia.org/wiki/Smackwater_Jack_(song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "--------+ \"Smackwater Jack\" is a song written by Gerry Goffin and Carole King. It was first released on King's 1971 album Tapestry and then on the second single from that album, along with \"So Far Away\", charting at number 14 on the Billboard Hot 100. It was subsequently covered by many artists, most famously by Quincy Jones as the title song of his 1971 album Smackwater Jack. Rolling Stone critic Jon Landau described \"Smackwater Jack\" as an \"uptempo shuffle\".^([3]) Its lyrics tell the story of a confrontation between the outlaw Smackwater Jack and Big Jim the Chief.^([4][5]) In this way it differs from the other songs on Tapestry, which are more personal and based on expressing emotions.^([4][5]) Billboard ranked both sides of the \"So Far Away\"/\"Smackwater Jack\" single together on the Billboard Hot 100.^([6]) The single peaked at number 14.^([6][7]) Critical reception [edit] Author James Perone claims that the song still fits into the album by being the one song on which Carole King's piano blends in with the other instruments on the song.^([5]) Perone re",
+      "retrievedAt": "2026-09-03T17:35:23.925Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 4059,
+        "fetchedTextLength": 9362,
+        "kind": "character-offsets",
+        "start": 2987
+      }
+    }
+  }
+}
