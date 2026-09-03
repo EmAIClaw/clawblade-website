@@ -86,6 +86,38 @@
       "entries": 1
     },
     {
+      "file": "authoring/022-the-notorious-b-i-g-ready-to-die-98945eb8.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/023-the-velvet-underground-the-velvet-underground-and-nico-0913adef.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/025-carole-king-tapestry-b29b056b.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/026-patti-smith-horses-2807d0f1.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/028-d-angelo-voodoo-b6406009.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/029-the-beatles-the-beatles-white-album-29eb84d8.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -94,13 +126,13 @@
       "entries": 1
     }
   ],
-  "totalEntries": 23,
-  "totalTracks": 320,
+  "totalEntries": 31,
+  "totalTracks": 435,
   "evidenceLevelCounts": {
-    "documented": 312,
+    "documented": 423,
     "contextual": 0,
     "limited": 0,
-    "insufficient-evidence": 8,
+    "insufficient-evidence": 12,
     "unresearched": 0
   },
   "boilerplateDetections": [],
