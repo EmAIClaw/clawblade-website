@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank14-exile-http-collector-20260903",
+  "collectedAt": "2026-09-03T04:47:07.163Z",
+  "results": [
+    {
+      "canonicalUrl": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+      "fetchUrl": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+      "finalUrl": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+      "status": "collected",
+      "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+      "created": true,
+      "fetchedResponseSha256": "d46f8e5422634f6b80f9cef39a7ccf21c83b78857d8ad4268ef9d1dc40eff29e",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 5658,
+      "fetchedCharacters": 7380,
+      "claims": [
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Rocks Off",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "After Keith Richards fell asleep while overdubbing a guitar part, recording engineer Andy Johns called it a night, only to be dragged back at five in the morning so Richards could add another track. “Absolutely brilliant,” says Johns. “He knew what he wanted – oh, yeah.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 469,
+            "end": 740
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Rip This Joint",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Bill Plummer plays upright bass, with Bobby Keys on both tenor and baritone saxophones. One of only six Exile tracks performed regularly on the Stones’ tour of America in 1972.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 756,
+            "end": 932
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Shake Your Hips",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Written by Slim Harpo and sung by Mick Jagger in a voice that Richard Williams of Melody Maker felt was an “unnecessary affectation.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 968,
+            "end": 1101
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Casino Boogie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Nicky Hopkins on piano and Jagger singing “Dietrich movies/Close-up boogies/Kissing cunt in Cannes.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1116,
+            "end": 1216
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Tumbling Dice",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Originally titled “Good Time Woman,” this song – the lead single from Exile – first surfaced during the Sticky Fingers sessions. Charlie Watts had a hard time with a drum part after the breakdown, so producer Jimmy Miller was edited in.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1231,
+            "end": 1467
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Sweet Virginia",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Jagger at his down-home country best. The vocal is influenced by Nellcôte guest Gram Parsons, who had been hanging with Richards since meeting him in Los Angeles while the Stones were rehearsing for their 1969 U.S. tour.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1483,
+            "end": 1703
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Torn And Frayed",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Another Parsons-influenced track, with Al Perkins on pedal steel guitar and lyrics about either Richards or Parsons.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1747,
+            "end": 1863
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Sweet Black Angel",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Jagger’s paean of love to Angela Davis, then in prison on murder and kidnapping charges. She was found innocent during the Stones’ 1972 American tour. Originally recorded live on the mobile at Stargroves, Jagger’s estate in England, with Miller on percussion, it was the B side of “Tumbling Dice.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1882,
+            "end": 2179
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Loving Cup",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Originally recorded at Olympic Studios in 1969, the song was performed by the Stones during their free concert in London’s Hyde Park on July 5th, 1969, where Mick Taylor made his debut with the band. The show began with Jagger reading a poem for Brian Jones, who was found dead in his swimming pool two days earlier.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2378,
+            "end": 2694
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Happy",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Richards’ signature tune. Inspired by the news that his longtime companion Anita Pallenberg was pregnant, he walked into the basement at Nellcôte and knocked this out during a sound check, with Keys on baritone sax and Miller on drums.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2701,
+            "end": 2936
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Turd On The Run",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Bill Plummer on bass, overdubbed at Sunset Sound in Los Angeles after the Stones had fled from the south of France. Jagger on harp. As Richards told journalist Lisa Robinson in 1989, “He’s not thinking when he’s playing harp. It comes from inside him. He always played like that, from the early days on.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2953,
+            "end": 3257
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Ventilator Blues",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The only track co-written by Mick Taylor, who felt he deserved more songwriting credit than Jagger and Richards were willing to give. There was just a single fan in a corner window of the Nellcôte basement, which, as Johns notes, “didn’t work very well. Therefore, ‘Ventilator Blues.’ It’s one of my favorite tunes. It’s about the fan in the window.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3275,
+            "end": 3625
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "I Just Want To See His Face",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "An uncredited Dr. John on piano with Richards on organ. Plummer on string bass, Taylor on electric bass and Miller on percussion. Jagger made up the words as he recorded the song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3654,
+            "end": 3833
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Let It Loose",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Let it Loose Another Exile track originally recorded at Olympic Studios.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3834,
+            "end": 3906
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "All Down The Line",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Jagger’s initial choice for a single. Johns could not imagine it on the radio, so Jagger sent pianist and road manager Ian Stewart to an L.A. station with a tape. As Johns sat with Jagger, Richards and Watts in the back of a limo cruising up and down Sunset Boulevard, they listened to the song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3925,
+            "end": 4220
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Stop Breaking Down",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "This Robert Johnson cover – with Stewart playing boogie-woogie piano and Taylor on slide guitar – was also originally recorded at Olympic Studios.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4240,
+            "end": 4386
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Shine A Light",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The oldest song on the album, recorded at Olympic, it features the late Billy Preston on organ and piano, Taylor on bass (though Bill Wyman would later claim it was him) and producer Miller on drums.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4401,
+            "end": 4600
+          }
+        },
+        {
+          "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+          "trackTitle": "Soul Survivor",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Richards on bass. As though describing their relationship during the Nellcôte sessions, Jagger sings, “You ain’t giving me no quarter/I’d rather drink seawater/l wish I’d never brought you/It’s gonna be the death of me.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4938,
+            "end": 5158
+          }
+        }
+      ]
+    }
+  ]
+}

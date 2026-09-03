@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+  "editionNumber": 1,
+  "candidateContentHash": "cf982528d59a06c5bb77de099d4362fbb2227e0dfc1e850ff5ae1026051a9d8d",
+  "candidate": {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank14-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Rocks Off",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:1:fact-1",
+            "claim": "Rolling Stone notes that after Keith Richards fell asleep while overdubbing a guitar part on \"Rocks Off,\" engineer Andy Johns called it a night, only to be dragged back at five in the morning so Richards could add another track.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "After Keith Richards fell asleep while overdubbing a guitar part, recording engineer Andy Johns called it a night, only to be dragged back at five in the morning so Richards could add another track. “Absolutely brilliant,” says Johns. “He knew what he wanted – oh, yeah.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 469,
+                  "end": 740
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "Rip This Joint",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:2:fact-1",
+            "claim": "Rolling Stone notes that \"Rip This Joint\" features Bill Plummer on upright bass with Bobby Keys on both tenor and baritone saxophones, and was one of only six Exile tracks performed regularly on the Stones' 1972 tour of America.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Bill Plummer plays upright bass, with Bobby Keys on both tenor and baritone saxophones. One of only six Exile tracks performed regularly on the Stones’ tour of America in 1972.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 756,
+                  "end": 932
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "Shake Your Hips",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:3:fact-1",
+            "claim": "Rolling Stone notes that \"Shake Your Hips\" was written by Slim Harpo and sung by Mick Jagger in a voice that Richard Williams of Melody Maker felt was an \"unnecessary affectation.\"",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Written by Slim Harpo and sung by Mick Jagger in a voice that Richard Williams of Melody Maker felt was an “unnecessary affectation.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 968,
+                  "end": 1101
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Casino Boogie",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:4:fact-1",
+            "claim": "Rolling Stone notes that \"Casino Boogie\" features Nicky Hopkins on piano and Jagger singing the line \"Dietrich movies/Close-up boogies/Kissing cunt in Cannes.\"",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Nicky Hopkins on piano and Jagger singing “Dietrich movies/Close-up boogies/Kissing cunt in Cannes.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1116,
+                  "end": 1216
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Tumbling Dice",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:5:fact-1",
+            "claim": "Rolling Stone notes that \"Tumbling Dice,\" originally titled \"Good Time Woman,\" was the lead single from Exile and first surfaced during the Sticky Fingers sessions, and that producer Jimmy Miller was edited in after Charlie Watts had trouble with a drum part after the breakdown.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Originally titled “Good Time Woman,” this song – the lead single from Exile – first surfaced during the Sticky Fingers sessions. Charlie Watts had a hard time with a drum part after the breakdown, so producer Jimmy Miller was edited in.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1231,
+                  "end": 1467
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "Sweet Virginia",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:6:fact-1",
+            "claim": "Rolling Stone notes that the vocal on \"Sweet Virginia\" is influenced by Nellcôte guest Gram Parsons, who had been hanging with Richards since meeting him in Los Angeles while the Stones rehearsed for their 1969 U.S. tour.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Jagger at his down-home country best. The vocal is influenced by Nellcôte guest Gram Parsons, who had been hanging with Richards since meeting him in Los Angeles while the Stones were rehearsing for their 1969 U.S. tour.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1483,
+                  "end": 1703
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Torn And Frayed",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:7:fact-1",
+            "claim": "Rolling Stone notes that \"Torn And Frayed\" is another Gram Parsons-influenced track, with Al Perkins on pedal steel guitar and lyrics about either Richards or Parsons.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Another Parsons-influenced track, with Al Perkins on pedal steel guitar and lyrics about either Richards or Parsons.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1747,
+                  "end": 1863
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Sweet Black Angel",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:8:fact-1",
+            "claim": "Rolling Stone notes that \"Sweet Black Angel\" is Jagger's paean of love to Angela Davis, then in prison on murder and kidnapping charges, and that it was originally recorded live on the mobile at Stargroves with Miller on percussion and was the B side of \"Tumbling Dice.\"",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Jagger’s paean of love to Angela Davis, then in prison on murder and kidnapping charges. She was found innocent during the Stones’ 1972 American tour. Originally recorded live on the mobile at Stargroves, Jagger’s estate in England, with Miller on percussion, it was the B side of “Tumbling Dice.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1882,
+                  "end": 2179
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Loving Cup",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:9:fact-1",
+            "claim": "Rolling Stone notes that \"Loving Cup\" was originally recorded at Olympic Studios in 1969 and was performed by the Stones at their free Hyde Park concert on July 5th, 1969, where Mick Taylor made his debut with the band.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Originally recorded at Olympic Studios in 1969, the song was performed by the Stones during their free concert in London’s Hyde Park on July 5th, 1969, where Mick Taylor made his debut with the band. The show began with Jagger reading a poem for Brian Jones, who was found dead in his swimming pool two days earlier.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2378,
+                  "end": 2694
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Happy",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:10:fact-1",
+            "claim": "Rolling Stone notes that \"Happy\" is Richards' signature tune, inspired by the news that his companion Anita Pallenberg was pregnant, and that he knocked it out during a sound check in the Nellcôte basement with Keys on baritone sax and Miller on drums.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Richards’ signature tune. Inspired by the news that his longtime companion Anita Pallenberg was pregnant, he walked into the basement at Nellcôte and knocked this out during a sound check, with Keys on baritone sax and Miller on drums.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2701,
+                  "end": 2936
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "Turd On The Run",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:11:fact-1",
+            "claim": "Rolling Stone notes that \"Turd On The Run\" features Bill Plummer on bass, overdubbed at Sunset Sound in Los Angeles after the Stones had fled the south of France, with Jagger on harp.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Bill Plummer on bass, overdubbed at Sunset Sound in Los Angeles after the Stones had fled from the south of France. Jagger on harp. As Richards told journalist Lisa Robinson in 1989, “He’s not thinking when he’s playing harp. It comes from inside him. He always played like that, from the early days on.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2953,
+                  "end": 3257
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "Ventilator Blues",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:12:fact-1",
+            "claim": "Rolling Stone notes that \"Ventilator Blues\" is the only Exile track co-written by Mick Taylor, and that its title came from the single fan in a corner window of the Nellcôte basement that, as Andy Johns notes, \"didn't work very well.\"",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The only track co-written by Mick Taylor, who felt he deserved more songwriting credit than Jagger and Richards were willing to give. There was just a single fan in a corner window of the Nellcôte basement, which, as Johns notes, “didn’t work very well. Therefore, ‘Ventilator Blues.’ It’s one of my favorite tunes. It’s about the fan in the window.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3275,
+                  "end": 3625
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 13,
+        "trackTitle": "I Just Want To See His Face",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:13:fact-1",
+            "claim": "Rolling Stone notes that \"I Just Want To See His Face\" features an uncredited Dr. John on piano with Richards on organ, Plummer on string bass, Taylor on electric bass and Miller on percussion, and that Jagger made up the words as he recorded the song.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "An uncredited Dr. John on piano with Richards on organ. Plummer on string bass, Taylor on electric bass and Miller on percussion. Jagger made up the words as he recorded the song.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3654,
+                  "end": 3833
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 14,
+        "trackTitle": "Let It Loose",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:14:fact-1",
+            "claim": "Rolling Stone notes that \"Let It Loose\" is another Exile track originally recorded at Olympic Studios.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Let it Loose Another Exile track originally recorded at Olympic Studios.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3834,
+                  "end": 3906
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 15,
+        "trackTitle": "All Down The Line",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:15:fact-1",
+            "claim": "Rolling Stone notes that \"All Down The Line\" was Jagger's initial choice for a single, and that when Andy Johns could not imagine it on the radio, Jagger sent pianist and road manager Ian Stewart to an L.A. station with a tape.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Jagger’s initial choice for a single. Johns could not imagine it on the radio, so Jagger sent pianist and road manager Ian Stewart to an L.A. station with a tape. As Johns sat with Jagger, Richards and Watts in the back of a limo cruising up and down Sunset Boulevard, they listened to the song.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3925,
+                  "end": 4220
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 16,
+        "trackTitle": "Stop Breaking Down",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:16:fact-1",
+            "claim": "Rolling Stone notes that \"Stop Breaking Down\" is a Robert Johnson cover featuring Ian Stewart on boogie-woogie piano and Mick Taylor on slide guitar, and was also originally recorded at Olympic Studios.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "This Robert Johnson cover – with Stewart playing boogie-woogie piano and Taylor on slide guitar – was also originally recorded at Olympic Studios.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4240,
+                  "end": 4386
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 17,
+        "trackTitle": "Shine A Light",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:17:fact-1",
+            "claim": "Rolling Stone notes that \"Shine A Light\" is the oldest song on the album, recorded at Olympic, and features the late Billy Preston on organ and piano, Taylor on bass, and producer Miller on drums.",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The oldest song on the album, recorded at Olympic, it features the late Billy Preston on organ and piano, Taylor on bass (though Bill Wyman would later claim it was him) and producer Miller on drums.",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4401,
+                  "end": 4600
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      },
+      {
+        "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+        "discNumber": 1,
+        "trackNumber": 18,
+        "trackTitle": "Soul Survivor",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:18:fact-1",
+            "claim": "Rolling Stone notes that \"Soul Survivor\" features Richards on bass, with Jagger singing the lines \"You ain't giving me no quarter/I'd rather drink seawater/l wish I'd never brought you/It's gonna be the death of me.\"",
+            "sourceRefs": [
+              {
+                "label": "Rolling Stone Exile on Main St. Track By Track article",
+                "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+                "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+                "sourceIdentity": "rollingstone.com|Exile on Main St. Track By Track 2006",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Richards on bass. As though describing their relationship during the Nellcôte sessions, Jagger sings, “You ain’t giving me no quarter/I’d rather drink seawater/l wish I’d never brought you/It’s gonna be the death of me.”",
+                "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4938,
+                  "end": 5158
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Rolling Stone Exile on Main St. Track By Track article",
+            "title": "'Exile on Main St.' Track By Track - Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739": {
+      "artifactId": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+      "artifactSha256": "16b355e805fffd9f3d59c0f2954ad27752c6a9cda11bdc1f54a0ca38d3eab739",
+      "canonicalUrl": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank14-exile-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "br",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "d46f8e5422634f6b80f9cef39a7ccf21c83b78857d8ad4268ef9d1dc40eff29e",
+      "finalUrl": "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Music ‘Exile on Main St.’ Track By Track The making of each song on the Stones' 1972 classic By Rolling Stone Rolling Stone - Noah Kahan Brings the Fireworks to Rolling Stone’s Stateside Festival - Morgan Wallen: A Timeline of Big Wins, Thrown Objects, and Canceled Shows - Sean Combs’ History of Controversies and Allegations View all posts by Rolling Stone September 21, 2006 [Mick Taylor Charlie Watts Mick Jagger Keith Richards Bill Wyman Rolling Stones] Rocks Off After Keith Richards fell asleep while overdubbing a guitar part, recording engineer Andy Johns called it a night, only to be dragged back at five in the morning so Richards could add another track. “Absolutely brilliant,” says Johns. “He knew what he wanted – oh, yeah.” Rip This Joint Bill Plummer plays upright bass, with Bobby Keys on both tenor and baritone saxophones. One of only six Exile tracks performed regularly on the Stones’ tour of America in 1972. Shake Your Hips (A.K.A. Hip Shake) Written by Slim Harpo and sung by Mick Jagger in a voice that Richard Williams of Melody Maker felt was an “unnecessary affectation.” Casino Boogie Nicky Hopkins on piano and Jagger singing “Dietrich movies/Close-up boogies/Kissing cunt in Cannes.” Tumbling Dice Originally titled “Good Time Woman,” this song – the lead single from Exile – first surfaced during the Sticky Fingers sessions. Charlie Watts had a hard time with a drum part after the breakdown, so producer Jimmy Miller was edited in. Sweet Virginia Jagger at his down-home country best. The vocal is influenced by Nellcôte guest Gram Parsons, who had been hanging with Richards since meeting him in Los Angeles while the Stones were rehearsing for their 1969 U.S. tour. Hear Exile on Main Street: Torn And Frayed Another Parsons-influenced track, with Al Perkins on pedal steel guitar and lyrics about either Richards or Parsons. Sweet Black Angel Jagger’s paean of love to Angela Davis, then in prison on murder and kidnapping charges. She was found innocent during the Stones’ 1972 American tour. Originally recorded live on the mobile at Stargroves, Jagger’s estate in England, with Miller on percussion, it was the B side of “Tumbling Dice.” Editor’s picks [] The 250 Greatest Albums of the 21st Century So Far [] The 100 Best TV Episodes of All Time [] The 500 Greatest Albums of All Time [] 100 Best Movies of the 21st Century Loving Cup Originally recorded at Olympic Studios in 1969, the song was performed by the Stones during their free concert in London’s Hyde Park on July 5th, 1969, where Mick Taylor made his debut with the band. The show began with Jagger reading a poem for Brian Jones, who was found dead in his swimming pool two days earlier. Happy Richards’ signature tune. Inspired by the news that his longtime companion Anita Pallenberg was pregnant, he walked into the basement at Nellcôte and knocked this out during a sound check, with Keys on baritone sax and Miller on drums. Turd On The Run Bill Plummer on bass, overdubbed at Sunset Sound in Los Angeles after the Stones had fled from the south of France. Jagger on harp. As Richards told journalist Lisa Robinson in 1989, “He’s not thinking when he’s playing harp. It comes from inside him. He always played like that, from the early days on.” Ventilator Blues The only track co-written by Mick Taylor, who felt he deserved more songwriting credit than Jagger and Richards were willing to give. There was just a single fan in a corner window of the Nellcôte basement, which, as Johns notes, “didn’t work very well. Therefore, ‘Ventilator Blues.’ It’s one of my favorite tunes. It’s about the fan in the window.” I Just Want To See His Face An uncredited Dr. John on piano with Richards on organ. Plummer on string bass, Taylor on electric bass and Miller on percussion. Jagger made up the words as he recorded the song. Let it Loose Another Exile track originally recorded at Olympic Studios. All Down The Line Jagger’s initial choice for a single. Johns could not imagine it on the radio, so Jagger sent pianist and road manager Ian Stewart to an L.A. station with a tape. As Johns sat with Jagger, Richards and Watts in the back of a limo cruising up and down Sunset Boulevard, they listened to the song. Stop Breaking Down This Robert Johnson cover – with Stewart playing boogie-woogie piano and Taylor on slide guitar – was also originally recorded at Olympic Studios. Shine A Light The oldest song on the album, recorded at Olympic, it features the late Billy Preston on organ and piano, Taylor on bass (though Bill Wyman would later claim it was him) and producer Miller on drums. Trending Stories Tim Curry’s Cause of Death Revealed Billy Ray Cyrus Says Miley Dropping Last Name Is ‘Natural Progression for an Iconic Superstar' Here’s What Stevie Nicks and Olivia Rodrigo Sing on the ‘Practical Magic 2’ Soundtrack Sean Ono Lennon Confirms Birth of Baby Boy, John Lennon and Yoko Ono’s First Grandchild Soul Survivor Richards on bass. As though describing their relationship during the Nellcôte sessions, Jagger sings, “You ain’t giving me no quarter/I’d rather drink seawater/l wish I’d never brought you/It’s gonna be the death of me.” This story is from the September 21, 2006 issue of Rolling Stone. In this article: - Bill Wyman, - Charlie Watts, - Gram Parsons, - Keith Richards, - Mick Jagger, - The Rolling Stones - Music - Music News More News - [LOS ANGELES, CA - MAY 30: Musician Alex Van Halen attends the 2015 MOCA Gala at The Geffen Contemporary at MOCA on May 30, 2015 in Los Angeles, California. (Photo by Jason LaVeris/FilmMagic)] Legendary Drummer Alex Van Halen Knighted in the Netherlands - Highest Honor - By Charism",
+      "retrievedAt": "2026-09-03T04:47:07.155Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 5658,
+        "fetchedTextLength": 7380,
+        "kind": "character-offsets",
+        "start": 0
+      }
+    }
+  }
+}

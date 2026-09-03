@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "storageModel": "content-addressed-objects",
+  "releaseHash": "f2af0078bfdd332d",
+  "metadata": {
+    "version": "1.0.0-pilot",
+    "generatedAt": "2026-09-19T00:00:00Z",
+    "albumCount": 16
+  },
+  "albums": {
+    "001-marvin-gaye-what-s-going-on-fd00dde9": {
+      "editionNumber": 5,
+      "contentHash": "b35fcb8c1fb0a2a1",
+      "objectHash": "a3251e02645e1b828f32381c974fa1d82a61b3ec912df2f88c345f8e50d0fc28",
+      "objectPath": "objects/albums/a3251e02645e1b828f32381c974fa1d82a61b3ec912df2f88c345f8e50d0fc28.json"
+    },
+    "002-the-beach-boys-pet-sounds-eabcc325": {
+      "editionNumber": 2,
+      "contentHash": "087bfa79d706c8ae",
+      "objectHash": "fbd7c63d9cd0488ed599adad29d957b29f16afae6579b35539c6a4460d4a7d3f",
+      "objectPath": "objects/albums/fbd7c63d9cd0488ed599adad29d957b29f16afae6579b35539c6a4460d4a7d3f.json"
+    },
+    "003-joni-mitchell-blue-9c3a8b85": {
+      "editionNumber": 2,
+      "contentHash": "26b222e5aef9db55",
+      "objectHash": "cb7afcee2ceb8f5f33cd471b55b674ea359099ee15973d19b4949c36da414476",
+      "objectPath": "objects/albums/cb7afcee2ceb8f5f33cd471b55b674ea359099ee15973d19b4949c36da414476.json"
+    },
+    "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8": {
+      "editionNumber": 3,
+      "contentHash": "bc1413dab6a4d0ab",
+      "objectHash": "61e886618870cfc0839956c88ad5fa7c134bb056376130b0aed6a7ab98d52024",
+      "objectPath": "objects/albums/61e886618870cfc0839956c88ad5fa7c134bb056376130b0aed6a7ab98d52024.json"
+    },
+    "005-the-beatles-abbey-road-1955f3c5": {
+      "editionNumber": 3,
+      "contentHash": "772df43eaad90b18",
+      "objectHash": "f93c8c5cb633863141d9a105b5e643bee29ee10b025df679a9802d2f2ed18700",
+      "objectPath": "objects/albums/f93c8c5cb633863141d9a105b5e643bee29ee10b025df679a9802d2f2ed18700.json"
+    },
+    "006-nirvana-nevermind-0af5df5e": {
+      "editionNumber": 2,
+      "contentHash": "2a86565a358580f0",
+      "objectHash": "940c9a5f85651c8cbcb95e93122acb84f28b6ad3b598b4ef32e4c187cf28299d",
+      "objectPath": "objects/albums/940c9a5f85651c8cbcb95e93122acb84f28b6ad3b598b4ef32e4c187cf28299d.json"
+    },
+    "007-fleetwood-mac-rumours-bc57e04c": {
+      "editionNumber": 3,
+      "contentHash": "414abb016229da97",
+      "objectHash": "f42e526158350c0734ca1b251182dbea9b53db9fb46f25459d67d697a5532016",
+      "objectPath": "objects/albums/f42e526158350c0734ca1b251182dbea9b53db9fb46f25459d67d697a5532016.json"
+    },
+    "008-prince-and-the-revolution-purple-rain-e947342e": {
+      "editionNumber": 1,
+      "contentHash": "89547af20055ff8a",
+      "objectHash": "5313f3a07f69fe1322bd7aba753dc467d3b2c37be171bd8998fc2c01546b3903",
+      "objectPath": "objects/albums/5313f3a07f69fe1322bd7aba753dc467d3b2c37be171bd8998fc2c01546b3903.json"
+    },
+    "009-bob-dylan-blood-on-the-tracks-c704391c": {
+      "editionNumber": 1,
+      "contentHash": "e95a96b5264c6074",
+      "objectHash": "eb7dca9992ca7bf9877b6812c09dacfd25e2f4c3c366d0df2654aeaada0e7d85",
+      "objectPath": "objects/albums/eb7dca9992ca7bf9877b6812c09dacfd25e2f4c3c366d0df2654aeaada0e7d85.json"
+    },
+    "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b": {
+      "editionNumber": 1,
+      "contentHash": "a5b704c0a30f7f11",
+      "objectHash": "b217080be8570cd151b3e9c1e1b08d992cc6c5be2e28059f7d8ec3d432965a56",
+      "objectPath": "objects/albums/b217080be8570cd151b3e9c1e1b08d992cc6c5be2e28059f7d8ec3d432965a56.json"
+    },
+    "011-the-beatles-revolver-b4f3c550": {
+      "editionNumber": 1,
+      "contentHash": "8284849f6f9913f3",
+      "objectHash": "6d0dda580b0a4fa37e127b3c2fe301e46342921a16633592a04ea15488eb8f69",
+      "objectPath": "objects/albums/6d0dda580b0a4fa37e127b3c2fe301e46342921a16633592a04ea15488eb8f69.json"
+    },
+    "012-michael-jackson-thriller-a46ba2f6": {
+      "editionNumber": 1,
+      "contentHash": "8657b99ec8e06279",
+      "objectHash": "f01c063d4f3e01232f4d74c308508ff8f35489636f45f835b00274e055dec345",
+      "objectPath": "objects/albums/f01c063d4f3e01232f4d74c308508ff8f35489636f45f835b00274e055dec345.json"
+    },
+    "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf": {
+      "editionNumber": 1,
+      "contentHash": "53c6ce1fe34e4bbb",
+      "objectHash": "04e83b43330ffbc1e840ad245557f0bb7b5284f58b0bb4d6d3d28f88996190ab",
+      "objectPath": "objects/albums/04e83b43330ffbc1e840ad245557f0bb7b5284f58b0bb4d6d3d28f88996190ab.json"
+    },
+    "014-the-rolling-stones-exile-on-main-st-9d89aa7d": {
+      "editionNumber": 1,
+      "contentHash": "1b0aa6d44c190623",
+      "objectHash": "731966358eff8bdc1bfce6d106b63f3f24370084c77eb88511438a70f5161601",
+      "objectPath": "objects/albums/731966358eff8bdc1bfce6d106b63f3f24370084c77eb88511438a70f5161601.json"
+    },
+    "054-liz-phair-exile-in-guyville-2b33a458": {
+      "editionNumber": 5,
+      "contentHash": "c8496228067c3426",
+      "objectHash": "3da3d3ff11498d848e8e6c54bcb956cbafe9d22765ad055f84012ebe0e1f20a6",
+      "objectPath": "objects/albums/3da3d3ff11498d848e8e6c54bcb956cbafe9d22765ad055f84012ebe0e1f20a6.json"
+    },
+    "092-the-stooges-fun-house-9896fe5c": {
+      "editionNumber": 4,
+      "contentHash": "ffd3fa7023be2acf",
+      "objectHash": "bcd1f36752a4b5b299ecfa8e1f46eb294d29f000a796e4f4ccb0b946385068e2",
+      "objectPath": "objects/albums/bcd1f36752a4b5b299ecfa8e1f46eb294d29f000a796e4f4ccb0b946385068e2.json"
+    }
+  }
+}

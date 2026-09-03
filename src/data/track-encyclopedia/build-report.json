@@ -54,6 +54,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/014-the-rolling-stones-exile-on-main-st-9d89aa7d.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -62,10 +66,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 15,
-  "totalTracks": 188,
+  "totalEntries": 16,
+  "totalTracks": 206,
   "evidenceLevelCounts": {
-    "documented": 188,
+    "documented": 206,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,
