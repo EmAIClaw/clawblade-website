@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank26-horses-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:42:08.815Z",
+  "results": [
+    {
+      "canonicalUrl": "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html",
+      "fetchUrl": "https://web.archive.org/web/20251110153406/https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html",
+      "finalUrl": "https://web.archive.org/web/20251110153406/https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html",
+      "snapshotTimestamp": "20251110153406",
+      "status": "collected",
+      "artifactId": "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a",
+      "created": true,
+      "fetchedResponseSha256": "db53cbb74cca5d15c8d527c05f9d70872b1872b9e4499f2476bfff0bf8c0e24e",
+      "contentType": "text/html; charset=utf-8",
+      "retainedCharacters": 27064,
+      "fetchedCharacters": 35397,
+      "claims": [
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Gloria",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Patti Smith We had “Land.” Then one day we were in the practice room, making a set list, and I said, “I’d love it if we had another song that had simple chords.” I wanted something I could riff off of. And Lenny said, “Well, there’s ‘Gloria.’” And I was like, “Is that a good one?” And he said, “It’s the best.” It freed me up in a certain way to do a song like “Gloria,” and not be hung up with the fact that it was written from a male point of view.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 951
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Redondo Beach",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Side 1 Redondo Beach [] [] Patti Smith I wrote it at the Chelsea Hotel. I had a rare argument with my sister and she disappeared, I think she went to Coney Island. But I got this frightened feeling that something had happened to her. I wrote it as a poem and I used to read it in poetry readings. And then with Richard [Sohl] and Lenny, it evolved as a little reggae song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5946,
+            "end": 6318
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Birdland",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Patti Smith I was completely green. I had never worked with a producer. If John couldn’t win, he would step back and challenge me. “OK, you want to improvise ‘Birdland’? You want to wing it? Then really do it.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8657,
+            "end": 8867
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Free Money",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Side 1 Free Money [] [] Patti Smith So many people think it’s a love song. I wrote it as [] “Oh baby,” as if perhaps it is, but it was really for my mother. My family struggled financially, sometimes to the point of not having enough food on the table.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11867,
+            "end": 12119
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Kimberly",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lenny Kaye Patti’s remembering the birth of her sister Kimberly. I believe it started like a Booker T. & the M.G.’s kind of song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 15763,
+            "end": 15892
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Break It Up",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Side 2 Break It Up [] [] Patti Smith The song is a homage to poetry, to Jim [Morrison], to dreaming, but it also is a little document of my friendship with Tom [Verlaine] and our process together.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 18776,
+            "end": 18972
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Land",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Patti Smith The word “land” was from “Land of 1000 Dances” [the 1962 Chris Kenner song]. I loved “A Thousand and One Nights” and the idea of Scheherazade telling story after story.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 22009,
+            "end": 22189
+          }
+        },
+        {
+          "albumId": "026-patti-smith-horses-2807d0f1",
+          "trackTitle": "Elegie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Side 2 Elegie [] [] Jay Dee Daugherty The music was written by Allen Lanier, who was a skilled musician, and who actually knew things like, you know, scales and notes. [] Chords. [] Patti Smith It really was my dream to have Chet Baker play at the end, sort of for Jimi. But we couldn’t afford him. It was $5,000, but we didn’t have it. I think our whole budget was $20,000.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 26190,
+            "end": 26564
+          }
+        }
+      ]
+    }
+  ]
+}

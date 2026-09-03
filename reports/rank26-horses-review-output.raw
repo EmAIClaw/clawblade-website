@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "albumId": "026-patti-smith-horses-2807d0f1",
+  "editionNumber": 1,
+  "candidateContentHash": "fc19a66856e843f34c993d1d48f03f4daf7b09392d29b255a8cc4874fe4b94a5",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank26-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T19:50:23+02:00",
+  "decisions": [
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:1:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:1:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 500-951 exactly match the extract. The extract specifically names Gloria and supports Smith saying Kaye suggested it when she wanted a simple-chord song to riff over and that the male point of view did not hang her up."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:2:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:2:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 5946-6318 exactly match the extract. The extract is in the Redondo Beach section and directly supports Smith saying it was written at the Chelsea Hotel after an argument with her sister, began as a poem, and evolved with Richard Sohl and Lenny Kaye into a reggae song."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:3:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:3:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 8657-8867 exactly match the extract. The extract specifically names Birdland and supports Smith recalling John, in the producer context, challenging her to really improvise it."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:4:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:4:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 11867-12119 exactly match the extract. The extract is in the Free Money section and directly supports Smith saying it was really for her mother and tying it to her family's financial struggle, including not always having enough food."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:5:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:5:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 15734-15892 exactly match the extract. The extract is in the Kimberly section and supports Kaye saying Patti was remembering her sister Kimberly's birth and that he believed it started like a Booker T. & the M.G.'s kind of song."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:6:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:6:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 18776-18972 exactly match the extract. The extract is in the Break It Up section and directly supports Smith describing the song as a homage to poetry, Jim Morrison, and dreaming, and as a document of her friendship and process with Tom Verlaine."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:7:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:7:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 22009-22189 exactly match the extract. The extract specifically discusses the word land and directly supports Smith saying it came from Chris Kenner's Land of 1000 Dances and connecting it to A Thousand and One Nights and Scheherazade's repeated storytelling."
+    },
+    {
+      "claimId": "026-patti-smith-horses-2807d0f1:1:8:fact-1",
+      "decisionId": "026-patti-smith-horses-2807d0f1:1:8:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f251527f34cf2b79c91cb2d0efeb5c4f933f424993ca2aac6b2f4d777280883a"
+      ],
+      "sourceUrls": [
+        "https://www.nytimes.com/interactive/2025/11/07/arts/music/patti-smith-horses-anniversary.html"
+      ],
+      "rationale": "Artifact exists, sourceRef URL matches the artifact canonical New York Times URL, finalUrl is the 2025-11-10 Wayback snapshot, and offsets 26190-26564 exactly match the extract. The extract is in the Elegie section and supports Smith saying she wanted Chet Baker to play at the end, sort of for Jimi, but they could not afford the $5,000 cost within a roughly $20,000 album budget."
+    }
+  ]
+}
