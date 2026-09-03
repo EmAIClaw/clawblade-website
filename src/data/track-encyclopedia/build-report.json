@@ -62,6 +62,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/016-the-clash-london-calling-7d75cf05.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -70,13 +74,13 @@
       "entries": 1
     }
   ],
-  "totalEntries": 17,
-  "totalTracks": 222,
+  "totalEntries": 18,
+  "totalTracks": 262,
   "evidenceLevelCounts": {
-    "documented": 222,
+    "documented": 254,
     "contextual": 0,
     "limited": 0,
-    "insufficient-evidence": 0,
+    "insufficient-evidence": 8,
     "unresearched": 0
   },
   "boilerplateDetections": [],

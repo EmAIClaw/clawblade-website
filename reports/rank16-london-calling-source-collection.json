@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank16-london-calling-http-collector-20260903",
+  "collectedAt": "2026-09-03T06:01:18.211Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/London_Calling",
+      "fetchUrl": "https://en.wikipedia.org/wiki/London_Calling",
+      "finalUrl": "https://en.wikipedia.org/wiki/London_Calling",
+      "status": "collected",
+      "artifactId": "0b8906b6e8907945af442dd035396ee7808049eeee1ee99f8afa637ae659af8c",
+      "created": true,
+      "fetchedResponseSha256": "a0fc79922d7a934a0ff8f0c4c42430c62f009496c94121f777f11fef9a0c3847",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 30973,
+      "fetchedCharacters": 69477,
+      "claims": [
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "London Calling",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"London Calling\", the album's title track and opener, was partially influenced by the March 1979 accident at a nuclear reactor at Three Mile Island in Pennsylvania.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6423,
+            "end": 6587
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Brand New Cadillac",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The first track recorded for London Calling was \"Brand New Cadillac\", which the Clash had originally used as a warm-up song before recording.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3426,
+            "end": 3567
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Jimmy Jazz",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "an underworld criminal named Jimmy Jazz",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5245,
+            "end": 5284
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Rudie Can't Fail",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Rudie Can't Fail\" chronicles the life of a fun-loving young man who is criticised for his inability to act like a responsible adult.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5568,
+            "end": 5701
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Spanish Bombs",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the lingering effects of the Spanish Civil War (\"Spanish Bombs\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6252,
+            "end": 6316
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Lost In the Supermarket",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Strummer wrote \"Lost in the Supermarket\" after imagining Jones' childhood growing up in a basement with his mother and grandmother.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2099,
+            "end": 2230
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Clampdown",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Clampdown\" began as an instrumental track called \"Working and Waiting\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3579,
+            "end": 3651
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "The Guns of Brixton",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"The Guns of Brixton\" was the first of bassist Paul Simonon's compositions the band would record for an album, and the first to have him sing lead.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2238,
+            "end": 2385
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Wrong 'Em Boyo",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Wrong 'Em Boyo\" Clive Alphonso; originally performed by the Rulers; including \"Stagger Lee\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 28235,
+            "end": 28327
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Death or Glory",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "on \"Death or Glory\", Strummer examines his life in retrospect and acknowledges the complications and responsibilities of adulthood.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5927,
+            "end": 6058
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "The Card Cheat",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "While working on \"The Card Cheat\", the band recorded each part twice to create a \"sound as big as possible\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3659,
+            "end": 3767
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Lover's Rock",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Lover's Rock\" advocates safe sex and planning.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6066,
+            "end": 6113
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Train In Vain",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The final track, \"Train in Vain\", was originally excluded from the back cover's track listing.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9383,
+            "end": 9477
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Paul's Tune (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the instrumental track titled \"Paul's Tune\" would eventually be recorded for London Calling under the title \"The Guns of Brixton\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 499,
+            "end": 628
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Koka Kola, Advertising & Cocaine (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Koka Kola, Advertising & Cocaine\" (Early version of \"Koka Kola\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 29776,
+            "end": 29841
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Lonesome Me (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the country-inflected \"Lonesome Me.\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1126,
+            "end": 1162
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "The Police Walked in 4 Jazz (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"The Police Walked in 4 Jazz\" (Instrumental, early version of \"Jimmy Jazz\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 29969,
+            "end": 30044
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Up-Toon (Instrumental) [Vanilla Studios Demo Version]",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the instrumental tracked titled \"Up-Toon\" would ultimately be released as \"The Right Profile\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 636,
+            "end": 729
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Walking the Slidewalk (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Walking the Slidewalk\" (Instrumental, does not appear on \"London Calling\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 30161,
+            "end": 30236
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Where You Gonna Go (Soweto) [Vanilla Studios Demo Version]",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Sonny Okosun's \"Where You Gonna Go (Soweto)\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 822,
+            "end": 866
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "The Man In Me (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "a reggae version of Bob Dylan's \"The Man in Me\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 871,
+            "end": 918
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Remote Control (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Remote Control\" (Does not appear on \"London Calling\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 30419,
+            "end": 30473
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Working and Waiting (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Clampdown\" began as an instrumental track called \"Working and Waiting\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3579,
+            "end": 3651
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Heart and Mind (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "never-officially-released Clash tunes like \"Heart and Mind\" (described by rock journalist Pat Gilbert as \"a rocker\")",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1004,
+            "end": 1120
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary",
+      "fetchUrl": "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary",
+      "finalUrl": "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary",
+      "status": "collected",
+      "artifactId": "f2d9afc0a2c6fb5821fb79b54be3471477fd4eb589e39f55e1fb9571093223b4",
+      "created": true,
+      "fetchedResponseSha256": "5132919b3d4c986c0f46db7ad027a5888257a2b0391f69d74c1fd3a52b445f9a",
+      "contentType": "text/html; charset=utf-8",
+      "retainedCharacters": 9656,
+      "fetchedCharacters": 15462,
+      "claims": [
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Hateful",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the Bo Diddley–meets-Bowie drug panic “Hateful.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 499,
+            "end": 547
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "The Right Profile",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“The Right Profile,” Strummer’s wry and sad eulogy to Clift, is a rollicking anthem for a doomed figure who not coincidentally resembled Guy Stevens.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3183,
+            "end": 3332
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Koka Kola",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The blink-and-you’ll-miss-it gem “Koka Kola” is an act of comic revenge against the encroaching advertising world, in the style of early Who, and its future colonization of both our whims and habits.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7937,
+            "end": 8136
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Four Horsemen",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Four Horsemen” is a straightforward reaffirmation of Joe, Topper Headon, Paul Simonon, and Mick: the men making the music happen.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8704,
+            "end": 8834
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "I'm Not Down",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“I’m Not Down” is the brilliant Jones-sung final word on all the misery and magic and possibility of the new great depression: “I’ve been beaten up / I’ve been thrown around / But I’m not down.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8835,
+            "end": 9029
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Revolution Rock",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "a transporting cover of the Danny Ray and Jackie Edwards reggae anthem “Revolution Rock,”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9067,
+            "end": 9156
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.rollingstone.com/music/music-news/the-clash-serve-vanilla-248698/",
+      "fetchUrl": "https://www.rollingstone.com/music/music-news/the-clash-serve-vanilla-248698/",
+      "finalUrl": "https://www.rollingstone.com/music/music-news/the-clash-serve-vanilla-248698",
+      "status": "collected",
+      "artifactId": "3b930611ed995cd6da381149b585c83d99cbef407e657915d21ba237c988e1ce",
+      "created": true,
+      "fetchedResponseSha256": "f3b9e41dc2d0d9576f765ab3b8812116ea5955b2a1b5e1f9c70348e6ef13693e",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1080,
+      "fetchedCharacters": 4389,
+      "claims": [
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "Death or Glory (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "early versions of “London Calling” (with alternate lyrics) and “Death or Glory.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 580
+          }
+        },
+        {
+          "albumId": "016-the-clash-london-calling-7d75cf05",
+          "trackTitle": "London Calling (Vanilla Studios Demo Version)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "early versions of “London Calling” (with alternate lyrics)",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 558
+          }
+        }
+      ]
+    }
+  ]
+}
