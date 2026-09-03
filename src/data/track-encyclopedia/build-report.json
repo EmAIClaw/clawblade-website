@@ -118,6 +118,38 @@
       "entries": 1
     },
     {
+      "file": "authoring/030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/031-miles-davis-kind-of-blue-2148074c.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/032-beyonce-lemonade-d3bb0f63.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/033-amy-winehouse-back-to-black-4e0a725a.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/034-stevie-wonder-innervisions-d09c9a35.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/035-the-beatles-rubber-soul-e05eb313.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/036-michael-jackson-off-the-wall-4752dab3.json",
+      "entries": 1
+    },
+    {
+      "file": "authoring/037-dr-dre-the-chronic-08e42779.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -126,10 +158,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 31,
-  "totalTracks": 435,
+  "totalEntries": 39,
+  "totalTracks": 529,
   "evidenceLevelCounts": {
-    "documented": 423,
+    "documented": 517,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 12,
