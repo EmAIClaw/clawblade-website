@@ -1,0 +1,940 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "022-the-notorious-b-i-g-ready-to-die-98945eb8": {
+      "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all nineteen Ready to Die remaster catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Intro",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:1:fact-1",
+              "claim": "Easy Mo Bee says Puffy’s concept for the “Intro” was to create the album’s story line.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The whole story line for the album—starting in the beginning when you hear the robbery happening on the train and “Rapper’s Delight” in the background and everything—that was Puff’s concept: to create a story line for the album.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 728
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Things Done Changed",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:2:fact-1",
+              "claim": "Lil’ Cease told XXL that Biggie made “Things Done Changed” to represent Brooklyn and show how they grew up.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Biggie made it to represent Brooklyn. To show how he grew up, how we grew up.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2383,
+                    "end": 2460
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Gimme the Loot",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:3:fact-1",
+              "claim": "Easy Mo Bee recalled that Biggie created the two character voices in “Gimme the Loot” by recording one voice, leaving gaps, and returning to fill them with the other.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "he went in the booth and then it just kind of happened. He just started doing it. He would do one voice, then come behind and do the other one later—just like, leave a gap so he could come back and fill the spaces.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 4193,
+                    "end": 4407
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Machine Gun Funk",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:4:fact-1",
+              "claim": "Easy Mo Bee says Biggie picked the “Machine Gun Funk” beat in his car.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Biggie picked that beat in my car.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5425,
+                    "end": 5459
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Warning",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:5:fact-1",
+              "claim": "Easy Mo Bee says the beat used for “Warning” was first offered to Big Daddy Kane.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "that beat was offered first to Big Daddy Kane.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6601,
+                    "end": 6647
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "Ready To Die",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:6:fact-1",
+              "claim": "Easy Mo Bee described the title track’s extreme language as an intensified emotional expression of how Biggie felt.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "That was just his whole intensified approach to explaining just how much he felt. He was ready to die. It was just an emotional expression.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7676,
+                    "end": 7815
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "One More Chance",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:7:fact-1",
+              "claim": "Lil’ Cease says his sister and her friends performed the women’s interlude heard before “One More Chance.”",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "My sister did the interlude for “One More Chance”—with all the girls on it. The other girls on it, that’s just my sister’s friends.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 8307,
+                    "end": 8438
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "#!*@ Me",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:8:fact-1",
+              "claim": "Lil’ Cease told XXL that Biggie and Lil’ Kim performed the interlude in a Daddy’s House studio booth containing a piano and its chair.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Him and Lil’ Kim did it. What they did was, there was a piano in the booth of the studio we was working in, it was in Daddy’s House. It had the piano and the chair to the piano.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10325,
+                    "end": 10502
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "The What",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:9:fact-1",
+              "claim": "Easy Mo Bee says he wrote “The What” on the beat’s disc and Puff approved it.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "So for whatever reason, I wrote on this disc, “The What.” Puff was like, “Yo, that shit is cool.”",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 15367,
+                    "end": 15464
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Juicy",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:10:fact-1",
+              "claim": "Producer Poke says he used an MPC60 on “Juicy,” reinforcing the bass line and drums around the loop to give it more hip-hop character.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "I used an MPC60. I just reinforced the bass lines and drums and tried to make it bigger than the original. But it was pretty much I just looped it and had the elements on top of it, to give it a little more hip-hop flavor.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 16811,
+                    "end": 17033
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Everyday Struggle",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:11:fact-1",
+              "claim": "Digga says Biggie made a face while instruments were selected, indicating he wanted something similar for “Everyday Struggle.”",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "When I was picking out the instruments he would make a face like, “Yeah, I want something similar to that.” The guy was always thinking about how he wanted to make something better.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 19003,
+                    "end": 19184
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "Me and My B*tch",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:12:fact-1",
+              "claim": "Digga says the original “Me & My Bitch” sample came from a Minnie Riperton song written by Stevie Wonder, who refused its use because of the cursing.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The original sample that we used was from a Minnie Riperton song that Stevie Wonder wrote. When they sent it out to him, he was like, “I love the song. But this cursing, I’m not with it. You can’t use it.”",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 19728,
+                    "end": 19933
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "Big Poppa",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:13:fact-1",
+              "claim": "Nashiem Myrick says the track that became “Big Poppa” was initially given to the Lost Boyz, then retrieved in a trade for another track.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "That song was actually [supposed to be] for Mr. Cheeks, the Lost Boyz. We gave that song to the Lost Boyz. And then something happened and Puff was like, “Get that song back, get it back from him.” We traded them for another track.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 21056,
+                    "end": 21287
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 14,
+          "trackTitle": "Respect",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:14:fact-1",
+              "claim": "While discussing “Respect,” Banger recalled Biggie analyzing and absorbing situations and conversations from his life, then turning them into songs.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "How he’d do our situation or our conversation—he’d analyze it and absorb it and suck it up and then make a song about it. He absorbed his whole life.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 22937,
+                    "end": 23086
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:14:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 15,
+          "trackTitle": "Friend of Mine",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:15:fact-1",
+              "claim": "Easy Mo Bee says the “Friend of Mine” hook samples Black Mambo’s “You’re no friend of mine/You know that ain’t right.”",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The thing about that record is [the hook I sampled]: “You’re no friend of mine/You know that ain’t right.” That’s Black Mambo.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 23945,
+                    "end": 24071
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:15:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 16,
+          "trackTitle": "Unbelievable",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:16:fact-1",
+              "claim": "DJ Premier says “Unbelievable” was the final song recorded for Ready to Die.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "“Unbelievable” was the final song [recorded for] Ready To Die.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 24683,
+                    "end": 24745
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:16:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 17,
+          "trackTitle": "Suicidal Thoughts",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:17:fact-1",
+              "claim": "Engineer “Prince” Charles Alexander says the ending of “Suicidal Thoughts” was designed to include the phone dropping and a body thud after the character shoots himself.",
+              "sourceRefs": [
+                {
+                  "label": "XXL Ready to Die oral history",
+                  "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+                  "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business",
+                  "sourceIdentity": "xxlmag.com|Ready to Die track-by-track oral history",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "At the end of the song, he drops the phone and he falls, ’cause he has shot himself. So he shoots himself, the phone drops and there was supposed to be a body thud.",
+                  "artifactId": "ce76ddb92adbf34223b0a04a2839af142b61f5bdf5be2382e9efb71d8acb7fc3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 29184,
+                    "end": 29348
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:17:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "XXL Ready to Die oral history",
+              "title": "The Making of The Notorious B.I.G.'s Ready to Die: Family Business",
+              "url": "https://www.xxlmag.com/the-making-of-ready-to-diefamily-business"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 18,
+          "trackTitle": "Who Shot Ya",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:18:fact-1",
+              "claim": "Wikipedia reports that Wallace explained “Who Shot Ya” as portraying a rivalry between drug dealers.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Who Shot Ya article",
+                  "title": "Who Shot Ya? - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Who_Shot_Ya%3F",
+                  "sourceIdentity": "en.wikipedia.org|Who Shot Ya song article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Wallace, when interviewed, explained his \"Who Shot Ya\" lyrics as simply portraying a rivalry between drug dealers.",
+                  "artifactId": "b62f893c9784277f21abdbaa19eda0c03b60679e24d5b70d2c5713dc3167703b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 614
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:18:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Who Shot Ya article",
+              "title": "Who Shot Ya? - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Who_Shot_Ya%3F"
+            }
+          ]
+        },
+        {
+          "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+          "discNumber": 1,
+          "trackNumber": 19,
+          "trackTitle": "Just Playing (Dreams)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:19:fact-1",
+              "claim": "Wikipedia states that “Just Playing (Dreams)” was produced by Rashad “Ringo” Smith and built on a sample of James Brown’s “Blues and Pants.”",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Just Playing (Dreams) article",
+                  "title": "Just Playing (Dreams) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Just_Playing_(Dreams)",
+                  "sourceIdentity": "en.wikipedia.org|Just Playing Dreams song article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The song is built on a sample of \"Blues and Pants\" written by James Brown, and its production was done by Ringo.",
+                  "artifactId": "aa9fa5f08acfa7cec1b54d03e14cbefb6a4c977fbb038c35c72e308ea4504210",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 612
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53",
+                "decisionId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:19:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed track-specific production or interpretation statement retained; no independent lyric interpretation or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Just Playing (Dreams) article",
+              "title": "Just Playing (Dreams) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Just_Playing_(Dreams)"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank22-track-encyclopedia-author",
+        "model": "gpt-5.6-sol"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T17:40:00Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review e5761ad072a0dcdcf82d38d06097e2445954b49d6ef864fd6a621c4d1ed7bc53."
+      },
+      "contentHash": "408374464e0ffb76"
+    }
+  }
+}
