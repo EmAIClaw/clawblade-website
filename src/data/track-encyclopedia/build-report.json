@@ -58,6 +58,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -66,10 +70,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 16,
-  "totalTracks": 206,
+  "totalEntries": 17,
+  "totalTracks": 222,
   "evidenceLevelCounts": {
-    "documented": 206,
+    "documented": 222,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

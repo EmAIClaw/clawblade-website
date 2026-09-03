@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+  "editionNumber": 1,
+  "candidateContentHash": "6696a676e5310d7b6e86b9b82d9a0f53e6d1bdd5cb6de984a8dbe59af66fae34",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank15-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T05:29:24Z",
+  "decisions": [
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1",
+      "artifactIds": [
+        "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d"
+      ],
+      "sourceUrls": [
+        "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract states that the beginning uses London concert audio called the London Invasion from the Def Jam Tour."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:2:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:2:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the song was for the Less Than Zero soundtrack and was Public Enemy's second B-sided street hit."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:3:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:3:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the track was made before Bring The Noise for Less Than Zero, seemed slow, and was put in the can."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:4:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:4:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract states Flavor had the idea in mind and that it took about a year to write and put together."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:5:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:5:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Terminator contributed parts and they ran Rebel Without A Pause backwards."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:6:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:6:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract describes Mind Terrorist as an instrumental used to break up songs and introduce instrumentals and concerts."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:7:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:7:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Public Enemy never performed the song live because other records were faster and similar."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:8:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:8:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says samples set the rhythm and the song presented a courtroom scene about sampling that later became true."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the song was originally first on the album before Hank Shocklee flipped the sides and made it the B-side."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:10:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:10:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the record used rock aspects and a Slayer Angel Of Death sample because Slayer was distributed by Def Jam."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:11:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:11:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Public Enemy were attacking drug dealers and the drug trade and wanted drugs to appear nasty to young people."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:12:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:12:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Black Steel concerns being jailed for beliefs and fighting for all people, with Chuck D saying he was jailed because he did not believe in the war."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:13:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:13:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the instrumental signifies the strength and intelligence of the S1Ws."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:14:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:14:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Rebel Without A Pause was Public Enemy's breakthrough single, broken by Lady B. in Philadelphia and Chuck Chillout in New York."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:15:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:15:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says Chuck D wrote Prophets Of Rage while in traffic on the Kosciusko going from Queens into Brooklyn."
+    },
+    {
+      "decisionId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1",
+      "artifactIds": [
+        "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c"
+      ],
+      "sourceUrls": [
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "decision": "supported",
+      "rationale": "The artifact exists, the source URL matches the artifact canonical URL, the offset slice matches the extract, and the extract says the song was a quirky reverse opposite of Fight For Your Right To Party by the Beastie Boys."
+    }
+  ]
+}

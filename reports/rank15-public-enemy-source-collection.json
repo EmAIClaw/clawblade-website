@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank15-public-enemy-http-collector-20260903",
+  "collectedAt": "2026-09-03T05:27:28.256Z",
+  "results": [
+    {
+      "canonicalUrl": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back/",
+      "fetchUrl": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back/",
+      "finalUrl": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+      "status": "collected",
+      "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+      "created": true,
+      "fetchedResponseSha256": "ae6ae74f734de734c6dc659a46838efa9b9467eb54c80e8139c387672bf821ed",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 12178,
+      "fetchedCharacters": 15029,
+      "claims": [
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Bring the Noise",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Bring The Noise” was originally a song for the Less Than Zero soundtrack for Def Jam [Records] and when it came down to it, it was really our second B-sided street hit.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 679
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Don't Believe the Hype",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Don’t Believe The Hype” actually was made before “Bring The Noise” for the Less Than Zero soundtrack. We actually thought it was rather slow so we put it in the can.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1472,
+            "end": 1648
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Cold Lampin' with Flavor",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Cold Lampin’ With Flavor” was something that Flavor had in his mind all the time and it was an outlet we made that was fast, crazy, and quick enough and Flavor stepped up to the task. It took about a year to write and put everything up in one nutshell.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2255,
+            "end": 2518
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Terminator X to the Edge of Panic",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Terminator X To The Edge Of Panic” Produced By The Bomb Squad Chuck D.: Myself and Terminator was trying to make a record that was indicative of the speed of the instrumentals and also the aspect of the DJ. So Terminator actually contributed parts; we just took “Rebel [Without A Pause]” and ran it backwards.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3687,
+            "end": 3997
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Mind Terrorist",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Mind Terrorist” was just an instrumental that we wanted to break up in between songs. It introduced instrumentals, and introduced concerts.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4270,
+            "end": 4420
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Louder Than a Bomb",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Louder Than A Bomb” was one of those records we never performed live because there were records that were faster and similar.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4612,
+            "end": 4748
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Caught, Can We Get a Witness?",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Caught, Can We Get A Witness” was a record we found a couple of samples that set the rhythm and we wanted to present a court room scene of going court because we were sampling and it all really became true (Laughs).",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5205,
+            "end": 5431
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Show 'Em Whatcha Got",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Show Em Whatcha Got” Produced By The Bomb Squad Chuck D.: Actually “Show Em Whatcha Got” was the first song on the album. Back then you had A-sides and B-sides as far as cassettes and records were concerned. At the last minute Hank flipped the sides and said “Nah this should be the B-side.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5658,
+            "end": 5950
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "She Watch Channel Zero?!",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “She Watch Channel Zero?!” was our second record that we actually took some Rock aspects and got down with it. We actually took a Slayer sample (“Angel Of Death”) because Slayer was distributed by Def Jam and I said “Well music is music.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6492,
+            "end": 6740
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Night of the Living Baseheads",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Night Of The Living Baseheads” Produced By The Bomb Squad Chuck D.: We were attacking drug dealers and the drug trade at that time. We wanted to make drugs appear nasty to young people.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6848,
+            "end": 7034
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Black Steel in the Hour of Chaos",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Black Steel” is the other side of that. If you going to be jailed, be jailed for your beliefs for fighting for all the people. I was jailed because I didn’t believe in the war and my thing was I deserve to be free.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8024,
+            "end": 8249
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Security of the First World",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Security Of The First World” Produced By The Bomb Squad Chuck D.: An instrumental that signifies the strength, intelligence of the S1W’s.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9212,
+            "end": 9350
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Rebel Without a Pause",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Rebel Without A Pause” is our breakthrough single that was broke by Lady B. in Philadelphia and Chuck Chillout in New York.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9402,
+            "end": 9536
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Prophets of Rage",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Chuck D.: “Prophets Of Rage” I wrote while being in traffic on the Kosciusko going into the city from Queens into Brooklyn.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10681,
+            "end": 10804
+          }
+        },
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Party for Your Right to Fight",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Party For Your Right To Fight” Produced By The Bomb Squad Chuck D.: A total quirky song; we wanted to make a song that was reverse opposite of “Fight For Your Right To Party” by The Beastie Boys who are our great friends.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11456,
+            "end": 11678
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview/",
+      "fetchUrl": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview/",
+      "finalUrl": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview",
+      "status": "collected",
+      "artifactId": "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d",
+      "created": true,
+      "fetchedResponseSha256": "56d62451ec619052e1f2a025472f78862ab1dadb66464a2dfc7032c824e60b7f",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 15185,
+      "fetchedCharacters": 15185,
+      "claims": [
+        {
+          "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+          "trackTitle": "Countdown to Armageddon",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "You hear that on the beginning of “Countdown To Armageddon.” It starts with audio from a London concert. We called it the ‘London Invasion’ when we went over there with the Def Jam Tour.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5617,
+            "end": 5803
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+  "editionNumber": 1,
+  "candidateContentHash": "6696a676e5310d7b6e86b9b82d9a0f53e6d1bdd5cb6de984a8dbe59af66fae34",
+  "candidate": {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank15-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Countdown to Armageddon",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1",
+            "claim": "Chuck D says that the beginning of \"Countdown To Armageddon\" starts with audio from a London concert, which Public Enemy called the \"London Invasion\" from the Def Jam Tour.",
+            "sourceRefs": [
+              {
+                "label": "uDiscover Music Chuck D interview by Kyle Eustice",
+                "title": "Chuck D On Public Enemy's 'It Takes A Nation Of Millions To Hold Us Back'",
+                "url": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview",
+                "sourceIdentity": "udiscovermusic.com|Chuck D It Takes a Nation interview",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "You hear that on the beginning of “Countdown To Armageddon.” It starts with audio from a London concert. We called it the ‘London Invasion’ when we went over there with the Def Jam Tour.",
+                "artifactId": "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 5617,
+                  "end": 5803
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "uDiscover Music Chuck D interview by Kyle Eustice",
+            "title": "Chuck D On Public Enemy's 'It Takes A Nation Of Millions To Hold Us Back'",
+            "url": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "Bring the Noise",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:2:fact-1",
+            "claim": "Chuck D says \"Bring The Noise\" was originally a song for the Less Than Zero soundtrack for Def Jam Records and was really Public Enemy's second B-sided street hit.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Bring The Noise” was originally a song for the Less Than Zero soundtrack for Def Jam [Records] and when it came down to it, it was really our second B-sided street hit.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 679
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "Don't Believe the Hype",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:3:fact-1",
+            "claim": "Chuck D says \"Don't Believe The Hype\" was actually made before \"Bring The Noise\" for the Less Than Zero soundtrack, and that Public Enemy thought it was rather slow so they put it in the can.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Don’t Believe The Hype” actually was made before “Bring The Noise” for the Less Than Zero soundtrack. We actually thought it was rather slow so we put it in the can.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1472,
+                  "end": 1648
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Cold Lampin' with Flavor",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:4:fact-1",
+            "claim": "Chuck D says \"Cold Lampin' With Flavor\" was something Flavor Flav had in his mind all the time, and that it took about a year to write and put everything up in one nutshell.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Cold Lampin’ With Flavor” was something that Flavor had in his mind all the time and it was an outlet we made that was fast, crazy, and quick enough and Flavor stepped up to the task. It took about a year to write and put everything up in one nutshell.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2255,
+                  "end": 2518
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Terminator X to the Edge of Panic",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:5:fact-1",
+            "claim": "Chuck D says that on \"Terminator X To The Edge Of Panic\" he and Terminator X took \"Rebel [Without A Pause]\" and ran it backwards, with Terminator contributing parts.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Terminator X To The Edge Of Panic” Produced By The Bomb Squad Chuck D.: Myself and Terminator was trying to make a record that was indicative of the speed of the instrumentals and also the aspect of the DJ. So Terminator actually contributed parts; we just took “Rebel [Without A Pause]” and ran it backwards.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3687,
+                  "end": 3997
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "Mind Terrorist",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:6:fact-1",
+            "claim": "Chuck D says \"Mind Terrorist\" was just an instrumental that Public Enemy wanted to break up in between songs, introducing instrumentals and concerts.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Mind Terrorist” was just an instrumental that we wanted to break up in between songs. It introduced instrumentals, and introduced concerts.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4270,
+                  "end": 4420
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Louder Than a Bomb",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:7:fact-1",
+            "claim": "Chuck D says \"Louder Than A Bomb\" was one of those records Public Enemy never performed live because there were records that were faster and similar.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Louder Than A Bomb” was one of those records we never performed live because there were records that were faster and similar.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4612,
+                  "end": 4748
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Caught, Can We Get a Witness?",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:8:fact-1",
+            "claim": "Chuck D says \"Caught, Can We Get A Witness\" was built from a couple of samples that set the rhythm, presenting a court room scene about sampling that later really became true.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Caught, Can We Get A Witness” was a record we found a couple of samples that set the rhythm and we wanted to present a court room scene of going court because we were sampling and it all really became true (Laughs).",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 5205,
+                  "end": 5431
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Show 'Em Whatcha Got",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1",
+            "claim": "Chuck D says \"Show Em Whatcha Got\" was actually the first song on the album, and that at the last minute Hank Shocklee flipped the sides so it introduces the B-side.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Show Em Whatcha Got” Produced By The Bomb Squad Chuck D.: Actually “Show Em Whatcha Got” was the first song on the album. Back then you had A-sides and B-sides as far as cassettes and records were concerned. At the last minute Hank flipped the sides and said “Nah this should be the B-side.”",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 5658,
+                  "end": 5950
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "She Watch Channel Zero?!",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:10:fact-1",
+            "claim": "Chuck D says \"She Watch Channel Zero?!\" was Public Enemy's second record to take on rock aspects, using a Slayer sample (\"Angel Of Death\") because Slayer was distributed by Def Jam.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “She Watch Channel Zero?!” was our second record that we actually took some Rock aspects and got down with it. We actually took a Slayer sample (“Angel Of Death”) because Slayer was distributed by Def Jam and I said “Well music is music.”",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 6492,
+                  "end": 6740
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "Night of the Living Baseheads",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:11:fact-1",
+            "claim": "Chuck D says that on \"Night Of The Living Baseheads\" Public Enemy were attacking drug dealers and the drug trade, wanting to make drugs appear nasty to young people.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Night Of The Living Baseheads” Produced By The Bomb Squad Chuck D.: We were attacking drug dealers and the drug trade at that time. We wanted to make drugs appear nasty to young people.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 6848,
+                  "end": 7034
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "Black Steel in the Hour of Chaos",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:12:fact-1",
+            "claim": "Chuck D says \"Black Steel\" is about being jailed for your beliefs for fighting for all the people, and that he was jailed because he didn't believe in the war.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Black Steel” is the other side of that. If you going to be jailed, be jailed for your beliefs for fighting for all the people. I was jailed because I didn’t believe in the war and my thing was I deserve to be free.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 8024,
+                  "end": 8249
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 13,
+        "trackTitle": "Security of the First World",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:13:fact-1",
+            "claim": "Chuck D says \"Security Of The First World\" is an instrumental that signifies the strength and intelligence of the S1W's.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Security Of The First World” Produced By The Bomb Squad Chuck D.: An instrumental that signifies the strength, intelligence of the S1W’s.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 9212,
+                  "end": 9350
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 14,
+        "trackTitle": "Rebel Without a Pause",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:14:fact-1",
+            "claim": "Chuck D says \"Rebel Without A Pause\" is Public Enemy's breakthrough single that was broke by Lady B. in Philadelphia and Chuck Chillout in New York.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Rebel Without A Pause” is our breakthrough single that was broke by Lady B. in Philadelphia and Chuck Chillout in New York.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 9402,
+                  "end": 9536
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 15,
+        "trackTitle": "Prophets of Rage",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:15:fact-1",
+            "claim": "Chuck D says he wrote \"Prophets Of Rage\" while being in traffic on the Kosciusko going into the city from Queens into Brooklyn.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Chuck D.: “Prophets Of Rage” I wrote while being in traffic on the Kosciusko going into the city from Queens into Brooklyn.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 10681,
+                  "end": 10804
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      },
+      {
+        "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+        "discNumber": 1,
+        "trackNumber": 16,
+        "trackTitle": "Party for Your Right to Fight",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1",
+            "claim": "Chuck D says \"Party For Your Right To Fight\" was a total quirky song made to be the reverse opposite of \"Fight For Your Right To Party\" by The Beastie Boys.",
+            "sourceRefs": [
+              {
+                "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+                "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+                "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+                "sourceIdentity": "allhiphop.com|Class Of 88 Chuck D track-by-track commentary",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Party For Your Right To Fight” Produced By The Bomb Squad Chuck D.: A total quirky song; we wanted to make a song that was reverse opposite of “Fight For Your Right To Party” by The Beastie Boys who are our great friends.",
+                "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 11456,
+                  "end": 11678
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "AllHipHop Class Of '88 track-by-track commentary by Chuck D",
+            "title": "Class Of '88: Public Enemy's It Takes A Nation Of Millions To Hold Us Back - AllHipHop",
+            "url": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d": {
+      "artifactId": "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d",
+      "artifactSha256": "55b7f8806a51297577136c4dc809a0caa36505663cc62c2d9f53dc676d87ca9d",
+      "canonicalUrl": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank15-public-enemy-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "56d62451ec619052e1f2a025472f78862ab1dadb66464a2dfc7032c824e60b7f",
+      "finalUrl": "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Chuck D On Public Enemy’s 'It Takes A Nation Of Millions To Hold Us Back' [uDiscover Music] - Shop - US Store - UK/EU Store - Japan - Mexico - Columbia - News - Features - Features - In-Depth - On This Day - uDiscover Lists - reDiscovered Albums - Artists - Genres - Alternative - Blues - Classical - Country - Hip-Hop - Jazz - Rock - Browse All - Playlists - Quizzes - Win Sign Up [uDiscover Music] - Shop - US - UK/EU - Japan - Mexico - Columbia - News - Features - Features - In-Depth - On This Day - uDiscover Lists - reDiscovered Albums - Artists - Genres - Alternative - Blues - Classical - Country - Hip-Hop - Jazz - Pop - Rock - ...see all genres - Playlists - Quizzes - Win Sign Up search mail Search uDiscover Music - - Features - Latest News - Re:versal And The World’s Largest Music Archive July 8, 2026 - Yacht Rock: A Boatload Of Not-So-Guilty Pleasures June 22, 2026 - Back To The Beach: How Sun, Sand And Surf Inspired Beach Music June 21, 2026 - Under A Marquee Moon: Guns N’ Roses’ International Arrival June 19, 2026 - Best Paul McCartney Collaborations: 15 Surprising Team-Ups June 18, 2026 - Monterey Pop Festival: The Epitome Of The Summer of Love June 16, 2026 - Chelsea Hotel: Memories Of Nico, Leonard Cohen, Dylan, Nash, And More June 16, 2026 - Jonas Blue’s ‘Rise’ Joins The Spotify Billions Club September 2, 2026 - Jae Stephens Shares Two New Singles, ‘I Miss The City’ And ‘Gymnastics’ September 2, 2026 - Maggie Antone Signs To Island Records September 2, 2026 - EST Gee Releases Singles Ahead of ‘Bigger Than The Devil’ September 1, 2026 - Jacob Hackworth Announces Debut EP ‘What Took You So Long’ September 1, 2026 - The Bee Gees’ ‘Children Of The World’ Gets Vinylphyle Reissue September 1, 2026 - Paris Jackson Surprise-Releases Two New Songs For Her Father’s Birthday September 1, 2026 Chuck D On Public Enemy’s ‘It Takes A Nation Of Millions To Hold Us Back’ Chuck D explains how Marvin Gaye and Earth Wind & Fire inspired the classic album. Published on June 28, 2023 | Last updated June 28, 2026 By Kyle Eustice [Chuck D of Public Enemy at the Fight The Power video shoot] Photo: Michael Ochs Archives/Getty Images It was the summer of 1987. Public Enemy was on the Def Jam Tour alongside LL Cool J, Doug E. Fresh, Eric B. & Rakim, Stetsasonic, and Whodini. During those extensive rides on the tour bus, the blueprints for three classic albums were drafted — De La Soul’s 3 Feet High and Rising, Stetsasonic’s In Full Gear, and Public Enemy’s It Takes A Nation Of Millions To Hold Us Back. - EST Gee Releases Singles Ahead of ‘Bigger Than The Devil’ - Rob49 and Sexyy Red Are ‘In The Club’ - Ken Carson Drops New EP ‘cartunez’ Chuck D, the legendary hip-hop group’s mastermind, spent hours trying to figure out how to rap over the frenetic drums and abstract noises The Bomb Squad’s Hank Shocklee injected into the single “Bring The Noise.” Once he did, it was on. As Public Enemy’s sophomore effort — and the follow-up to 1987’s inaugural album Yo! Bum Rush The Show — It Takes A Nation Of Millions To Hold Us Back rocked the hip-hop landscape upon its 1988 release. With Chuck’s brutally honest and politically charged lyrics, Flavor Flav’s comedic relief, and The Bomb Squad’s avant-garde approach to production, it became Public Enemy’s most influential body of work. In this interview, Chuck D reveals the unsung heroes of its production, how Marvin Gaye and Earth Wind & Fire played a role, and the story behind “Black Steel In The Hour Of Chaos.” Would you consider It Takes A Nation To Hold Us Back Public Enemy’s magnum opus? 1986 was really when the rap album was official in the mainstream as being a legitimate format. Albums released before were more like compilations. Grandmaster Flash and the Furious Five and Run-DMC’s first album were more like a collection of singles. Whodini was the first album in hip-hop that was kind of significant as being a mighty piece of work. Run-DMC’s Raising Hell was really the album that broke that mold and that’s my personal favorite album of all time. Then, you had the Beastie Boys’ License To Ill. By 1987 and ’88, the major record companies finally got what they were looking for when they invested in hip-hop and rap. They didn’t want to be in the singles market. Singles weren’t enough for them. We were right there at the cusp of proving hip-hop was an album-oriented format. When we released that first album, we then knew what to do with our second album. After traveling the country and the world, we knew what an album was supposed to be like. I predicted in an interview that I wanted to make the record our What’s Going On by Marvin Gaye. Why did you feel that album was particularly important at that time? We wanted to present an experience that was a bunch of different feelings all in one. One, we wanted to present what Run-DMC’s Raising Hell was. We also wanted to present a record we could perform. We noticed when we did Yo! Bum Rush The Show, whenever a concert would happen, we would want to pick up the music on the turntable to join the hype of the crowd. We felt that recording wise it was one speed, so our BPM went up. We also wanted to present a live aspect. We were really influenced by the live Earth Wind & Fire album called Gratitude. It influenced It Takes A Nation when we finally had all our songs done. I had this tape of our live performances in London to intersperse within the album. That was the first album that was broken up. We used live excerpts from that point on. De La Soul had done it with skits, but we wanted to present an experience, so all of those elements went into it. You hear that on the beginning of “Countdown To Armageddon.” It starts with audio from a London concert. We called it the ‘London Invasion’ when we went over there with the Def Jam Tour. We had the recordings to let people know that, ‘Look, you might not be on to what we do, but we have a whole entire world on to what we do.’ So, it takes a nation to hold us back. Countdown To Armageddon [Countdown To Armageddon] Watch this video on YouTube Click to load video That makes sense with the title then. The album title was actually conceived from an interview from Now Magazine in Toronto, where they used it for the headline of their article. It comes from a line from a song that’s on Yo! Bum Rush The Show called “Raise The Roof.” Originally, the album was going to be called Countdown To Armageddon, but myself and Hank Shocklee, who was the other wall of noise, saw the interview together. We saw how long it was. It was so crazy long that it was actually kind of dope ‘cause it stood out. Raise The Roof [Raise The Roof] Watch this video on YouTube Click to load video How did you market it? Hank actually was working in a record store — he was the manager of Sam Goode up in Queens. One day he showed me Iron Maiden and he says, ‘Yo these dudes are dope.’ That stuck with us when it came down to marketing Public Enemy, like their titles and themes. One of my favorite remixes you did was “Bring The Noise” with Anthrax. On It Takes A Nation, there a lot of metal samples in there. I know Rick Rubin did that with Beastie Boys and Run-DMC did that with Aerosmith, but did hardcore metal seem like a risk at all? Nah, because we came from Long Island. We knew these sounds and we knew it worked. By 1986, we were masters of records. We had rooms of records. We understood groups, records, and sounds. We knew turntablism makes them all come to the forefront. I read you tracked down a lot of the voice samples yourself. That was my job. The scratching on the album comes from two DJs, Terminator X and Johnny Juice Rosado — the unacknowledged hero on the turntables on both Yo! Bum Rush The Show and It Takes It A Nation. Terminator X had a scratching style that was more of a funk rhythm and Johnny Juice was a sharp executioner. When we felt like certain scratches weren’t going to work, Juice would knock them out. I never realized it was a 2-for-1 deal. That’s one of the things that makes Juice upset because he feels his history is obscured. At some point, you switched engineers when finishing the album. What happened there? Hank felt like certain studios, in the beginning, didn’t get what we were doing. Some engineers did not get it because a lot of the things broke the rules. Hank used Rick Rubin’s connection and we started working with Steven Ett. He’s another unacknowledged hero. He actually made “Public Enemy No. 1” work by cutting a two-inch tape and wrapping it around the room. He passed away years ago. But he is the unacknowledged hero on a lot of these sonic interventions. That was at Chung King Studios [in Manhattan], and Hank saw it was worthwhile to go back and use Rod Hui as an engineer. Run-DMC had abandoned Greene St. Studios and Rod Hui, who is also another unacknowledged hero. [laughs] What role did Hank play throughout the album process? Hank had the vision. He might not make the music with his hands, but he’s the master of making it all work. His ears are no more evident than how he made it work in the mixes of all the noise. You gotta organize the noise and Hank organized the noise. He was able to teach Rod Hui how some of that noise was useful. I remember Hank saying he had to match your voice because your voice is so powerful that he felt the music of It Takes A Nation really had to parallel your strength, your energy. That was a combined effort of knowing that you can handle the speeds. It took me so long of getting everything down to be able to knock out “Bring The Noise” during the summer of ’87 on the Def Jam Tour. We shared the bus with LL Cool J and Stetsasonic. Out of that bus ride came It Takes A Nation Of Millions To Hold Us Back, the developing of In Full Gear by Stetsasonic and also through Prince Paul, 3 Feet High and Rising, so you had three classic albums come out of one long tour on the bus in 1987. Prince Paul has definitely never talked about that. As he was contemplating ideas for De La Soul’s beginnings, Daddy-O was putting together the album In Full Gear, which is just as good as It Takes A Nation. We had eight hours of trying to figure out “Bring The Noise” and how to rap over that. It was supposed to be for the movie Less Than Zero. Originally, we submitted “Don’t Believe The Hype” for the film, but they thought it was too slow. Then, we recorded “Bring The Noise” in September and October of 1987. So when it came down to putting together “Rebel Without A Pause” and “Bring The Noise,” it was the one time with had dispute with Rick. He wanted us to leave those two off It Takes A Nation Of Millions. We vehemently opposed it and we got our way, and they were two perfect fits on the A and the B side — or as we called them — the silver and the black side. Another trivia to the album is that the second side of It Takes A Nation was originally the first side, and first side was originally the second side. Hank flipped it. Bring The Noise [Bring The Noise] Watch this video on YouTube Click to load video One of the best lines from “Black Steel In The Hour Of Chaos” is “I got a letter from the government the other day / I opened and read it / It said they were suckers.” How does that resonate today? It does but the song was no surprise because it didn’t come out of a fantasy. In 1967, I remember being at my grandmother’s house and one of my uncles just got out of high school, and he was drafted from the Marines to go fight in Vietnam. He had gotten a letter and I was the kid who saw the look on his face as he dropped the letter. A military guy knocked on the door – and he’d just graduated so he’s kind of celebrating like an 18-year-old would—he dropped the letter and disappeared. That was the letter that said my uncle had gotten drafted to Vietnam. He went from happy shit to, ‘Oh shit.’ A lot of people tried to get out of it but you really couldn’t because it was a serious deal. As a matter of fact, he got injured and got a Purple Heart that we’d put on our G.I. Joes [laughs]. That’s what he thought about those medals. We were like, ‘Oh wow you got a medal.’ He was like, ‘Yeah go fucking play. Get that shit up outta here.’ It stuck with me, so yeah, “I got a letter from the government” — that’s exactly what my uncle did. Public Enemy - Black Steel In The Hour Of Chaos [Public Enemy - Black Steel In The Hour Of Chaos] Watch this video on YouTube Click to load video And you describe the government as “suckas.” I can’t stand most governments. I’m an artist. I’m like the world should be shared. I’m kinda like a hippie. I thought like a hippie, really. I’m a child of the ‘60s. But the thing about It Takes A Nation — we are all children of the ‘60s and ‘70s in spirit with music. That’s what culminated in It Takes A Nation Of Millions To Hold Us Back in 1988. Remember, I graduated from high school in 1978, and Hank in 1976, so were able to bring to hip-hop a lot of things that people didn’t realize we’re already there. Editor’s note: This article was first published in 2018. We are re-publishing it today in celebration of the album’s release anniversary. Listen to Public Enemy’s It Takes A Nation Of Millions To Hold Us Back now. Related Topics:Chuck DHip-HopIt Takes A Nation Of Millions To Hold Us BackPublic EnemySingle FeaturedUrban LegendsUrban Legends Featured See More Releases [uDiscover Music image background] [EST Gee Bigger Than The Devil] EST Gee Releases Singles Ahead of ‘Bigger Than The Devil’ [uDiscover Music image background] [Rob49 Sexxy Red In The Club cover] Rob49 and Sexyy Red Are ‘In The Club’ [uDiscover Music image background] [Ken Carson cartunez] Ken Carson Drops New EP ‘cartunez’ [uDiscover Music image background] [Chris Patrick Check Me] Chris Patrick Releases New Single ‘Check Me’ [uDiscover Music image background] [Ice Space Out My Face] Ice Spice, Lil Yachty Release ‘Out My Face (My Baby)’ [uDiscover Music image background] [VITA SINGLE] VITA Announces ‘OPIA,’ Set To Be Released on September 25 Most Popular [] The Lighthouse Cafe: West Coast Jazz By The Beach [Mick Karn, bass player for Japan] Low-End Revolution: How UK New Wave And Post-Punk Changed Bass Playing [Iggy Pop] Best Iggy Pop Songs: 20 Tracks With An Insatiable Lust For Life [uDiscover Rewards] [uDiscover Rewards] [uDiscover Rewards] See More Releases [uDiscover Music] - - - - - - - - - PARTNERS - Vinylphyle - This Day In Music - Disney - uDiscover Classical UDISCOVER MUSIC SITES - uDiscover Música - uDiscover Music Canada - uDiscover Music Germany - uDiscover Music Holland - uDiscover Music Japan - uDiscover Music Norway - uDiscover Music Poland About Us • Terms of Service • Privacy Policy © 2026 uDiscover Music [uDiscover Music - Back To Top] [uDiscover Music] - - - - - - - - - - Shop - News - Features - Artists - Playlists - Quizzes - Win Vinylphyle This Day In Music Disney uDiscover Classical - [uDiscover Música]uDiscover Música - [uDiscover Canada]Canada - [uDiscover Germany]Germany - [uDiscover Holland]Holland - [uDiscover Japan]Japan - [uDiscover Norway]Norway - [uDiscover Poland]Poland About Us • Contributors • Terms of Service • Privacy Policy © 2026 uDiscoverMusic [uDiscover Music - Back To Top]",
+      "retrievedAt": "2026-09-03T05:27:28.248Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": true,
+        "end": 15185,
+        "fetchedTextLength": 15185,
+        "kind": "complete-source",
+        "start": 0
+      }
+    },
+    "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c": {
+      "artifactId": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+      "artifactSha256": "5f5a3badeacd4edbd130e43099a547f5996e84e44c7c6df19451608deb8ae87c",
+      "canonicalUrl": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank15-public-enemy-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "ae6ae74f734de734c6dc659a46838efa9b9467eb54c80e8139c387672bf821ed",
+      "finalUrl": "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "t samples and “She Watch Channel Zero’s” infamous metal guitar would be borrowed from Thrash Rock group Slayer. Additionally, DJ Terminator X’s defined cuts brought everything back to the essence. Today It Takes A Nation Of Millions To Hold Us Back still weighs a ton. As one of the greatest and influential Rap albums ever; we pay tribute to it twenty years later. We get a track by track commentary from Chuck D. on how it all came together. Peep game. “Bring The Noise” Produced By The Bomb Squad Chuck D.: “Bring The Noise” was originally a song for the Less Than Zero soundtrack for Def Jam [Records] and when it came down to it, it was really our second B-sided street hit. We was known for always doing the B-side of something. It was never the A-side that was ever promoted at radio. “Bring The Noise” was the B-side of Less Than Zero soundtrack single releases and when it got time to It Takes A Nation, Hank Shocklee and I were adamant about telling Rick Rubin that “That Rebel Without A Pause” and “Bring The Noise” had to be on the It Takes A Nation album because they were records that were already known in the streets. The album wasn’t [like] every cut was brand new; we had to actually put some songs we had as the flipside of some singles and they both happen to be hot B-sides. That’s “Rebel Without A Pause” that came out in May of ‘87 and the second one was “Bring The Noise” which was November ’87. “Don’t Believe The Hype” Produced By The Bomb Squad Chuck D.: “Don’t Believe The Hype” actually was made before “Bring The Noise” for the Less Than Zero soundtrack. We actually thought it was rather slow so we put it in the can. One day myself and Hank heard DMC in his Bronco truck playing “Don’t Believe The Hype” from one of the tapes that had gotten around Def Jam and it kind of totally flipped us into saying well “Dam that joint is kind of hot.” In May 1988 that was our first single. “Don’t Believe The Hype” was a simple thing of don’t believe the information; that’s what we were trying to tell people. Just don’t take it for word; challenge it. If you don’t do it you’re a robot. There are a lot of people that have given into roboticism; we think they’ll change again. “Cold Lampin’ With Flavor” Produced By The Bomb Squad Chuck D.: “Cold Lampin’ With Flavor” was something that Flavor had in his mind all the time and it was an outlet we made that was fast, crazy, and quick enough and Flavor stepped up to the task. It took about a year to write and put everything up in one nutshell. The energy of the record matched the energy of It Takes A Nation. The biggest thing with It Takes A Nation that it was a faster record because we knew movement on stage was very important so we made a record that was matching our intensity and speed on stage. So “Bring The Noise” was a hundred and nine beats per minute which was faster any other Rap record. We knew we could keep up with it. So “Bring The Noise” and It Takes A Nation introduced a faster Hip-Hop sound. And also we introduced breaking up records, you know instead of going from song to song to song; we introduced those kind of skits. Really we introduced a lot of the aspects of the live audience from London. We did a London tour in November of 1987. We wanted to show everyone in the United States that if you ain’t up on us, the rest of the world is. We showed the media that Rap was worldwide. People that were thinking that we weren’t hot enough, well the rest of the world is on it and you better get up on it. Because we have people in London and everywhere else; still to this day we tell the United States if you think you on top, we’ll tell you are actually behind the rest of the world. “Terminator X To The Edge Of Panic” Produced By The Bomb Squad Chuck D.: Myself and Terminator was trying to make a record that was indicative of the speed of the instrumentals and also the aspect of the DJ. So Terminator actually contributed parts; we just took “Rebel [Without A Pause]” and ran it backwards. We ran the voices in the middle of the choruses from Minister Farrakhan speech in 1980 that he had for the Jack The Rapper conference talking about the responsibility of Black music and Black radio. It still rings loudly today. “Mind Terrorist” Produced By The Bomb Squad Chuck D.: “Mind Terrorist” was just an instrumental that we wanted to break up in between songs. It introduced instrumentals, and introduced concerts. We didn’t want to go to cut to cut, It Takes A Nation was almost our reflection of how a radio station should be. It was a nonstop 60 Minutes. “Louder Than A Bomb” Produced By The Bomb Squad Chuck D.: “Louder Than A Bomb” was one of those records we never performed live because there were records that were faster and similar. “Louder Than A Bomb” was pretty much telling everybody don’t be afraid to say anything. Even though the FBI was tapping my phone, it ain’t no secret at all because I’m louder than a bomb. You ain’t got to tap my phone; I’ll tell you. And I’ll tell millions of others in this Rap song; I’m not keeping any secrets. I’m letting you know I’m a Black militant nationalist in my heart and in my spirit. “Caught, Can We Get A Witness” Produced By The Bomb Squad Chuck D.: “Caught, Can We Get A Witness” was a record we found a couple of samples that set the rhythm and we wanted to present a court room scene of going court because we were sampling and it all really became true (Laughs). We actually borrowed some sounds from the Stax [Records] catalog and The Bar Kays and some other sounds that was in there and we pieced together a song that talked about the right to sample and being in the middle of a court. “Show Em Whatcha Got” Produced By The Bomb Squad Chuck D.: Actually “Show Em Whatcha Got” was the first song on the album. Back then you had A-sides and B-sides as far as cassettes and records were concerned. At the last minute Hank flipped the sides and said “Nah this should be the B-side.” So it introduces the B-side opposed to the A-side. That’s probably the trivia about that song. It was just an instrumental with a groove underneath it with Sister Ava Muhammad talking about sisterhood and how we need to step up to the plate and be accountable. We actually sampled a snippet from a group in the ‘70’s (“Darkest Light” by Lafayette Afro Rock Band). Then Jay-Z did it later on. To see that record come to life with Jay-Z was actually like wow; this is what it’s all about. “She Watch Channel Zero?!” Produced By The Bomb Squad Chuck D.: “She Watch Channel Zero?!” was our second record that we actually took some Rock aspects and got down with it. We actually took a Slayer sample (“Angel Of Death”) because Slayer was distributed by Def Jam and I said “Well music is music.” Rock and Roll was definitely in our blood, where RUN DMC paved the way; we stepped it up and kept with it. “Night Of The Living Baseheads” Produced By The Bomb Squad Chuck D.: We were attacking drug dealers and the drug trade at that time. We wanted to make drugs appear nasty to young people. At that time crack had already wiped out New York and the east. It was already spreading throughout Detroit and Chicago. So we said a lot of young people listen to Rap music we can make our first video off “Night Of The Living Baseheads” and make a statement. We wanted to make drugs look nasty. If you can make a kid go “Uggh,” they’ll have the tendency not to mess with it. I think the problem now is that you got a lot of rappers who don’t tell the truth and ain’t telling the truth about themselves. A lot of them are good cats. If they sold drugs they weren’t good at it. That goes from Jay-Z down onto the bottom (chuckling). So they continue to glorify and tell stories about something they weren’t really good at, that someone else was good at but they never talk about the person that pays the price. I call them half truths. So anybody talking about dealing, they only tell half truths and never tell the full story. “Black Steel In The Hour Of Chaos” Produced By The Bomb Squad Chuck D.: “Black Steel” is the other side of that. If you going to be jailed, be jailed for your beliefs for fighting for all the people. I was jailed because I didn’t believe in the war and my thing was I deserve to be free. It’s a difference between someone who violates their community and or is a knucklehead who continues to not do better and go to jail for violating their own community opposed to someone who is a political prisoner who looks out for all the people. There’s a distinct difference. My thing is don’t tell half the story, tell the full story. My challenge to Rap is if you want to actually be the thug gangster dealer then you need represent in front of that crowd and be able to reform and go the jails and do prison tours like Johnny Cash. If you can’t take it there then who are you talking to and who are you trying to take advantage of? Some little white kids in the suburbs and tell them some story of some aspect that you ain’t? Let’s not be half; let’s go all the way then. If you want to talk about how you this, how you that, then talk to your constituency and try to hide that screwface, that screwface ain’t working man (chuckling). I think they scared. “Security Of The First World” Produced By The Bomb Squad Chuck D.: An instrumental that signifies the strength, intelligence of the S1W’s. “Rebel Without A Pause” Produced By The Bomb Squad Chuck D.: “Rebel Without A Pause” is our breakthrough single that was broke by Lady B. in Philadelphia and Chuck Chillout in New York. They broke that record respectively and it was basically myself, Hank Shocklee, Erick Sadler, Keith Shocklee, Flavor Flav, and Terminator X made it. It was our statement to say “Hey, we can make the records that everybody is making right now and even make them faster.” Rakim and KRS ONE changed the game of rhyme; they changed it with their phrasing and they introduced a style of rhyme that changed Rap forever. That was my first time of trying what they introduced. I thank those brothers forever. Ra is truly the God and KRS ONE is the most feared rapper of all time. When I said Jay-Z is the greatest rapper of all time; he’s the epitome all the way up to his point. People trying to challenge me like I don’t know what the hell I’m talking about. I know what the hell I’m talking about. But Rakim is the God rapper and KRS ONE is the most feared rapper of all time. KRS ONE is the only rapper I seen everybody stepped their game up when he walks in the room. If someone were to say “Who’s a rapper here?” everybody is going to keep their hands low they don’t want to actually get in his way. “Prophets Of Rage” Produced By The Bomb Squad Chuck D.: “Prophets Of Rage” I wrote while being in traffic on the Kosciusko going into the city from Queens into Brooklyn. There was a track laying around that the Bomb Squad did after I came off from tour and I wrote in traffic. And sure enough I wrote it under a sign that later on the bridge when you go into Brooklyn it says “Welcome To Brooklyn: Believe The Hype!” That’s exactly where I wrote “Prophets Of Rage.” It was definitely one of our showstoppers; it was so fast and so turbulent. One thing we might say there might have been groups that said they might have been better but no one could keep up with our speed and intensity. We were too physical; cats were just slow compared to us. They can’t keep up with our speed; we have the speed of a Rock Thrash band. “Party For Your Right To Fight” Produced By The Bomb Squad Chuck D.: A total quirky song; we wanted to make a song that was reverse opposite of “Fight For Your Right To Party” by The Beastie Boys who are our great friends. The Beastie Boys where fun and frolicking party driven White boys and we were the Black Militant anti-American Rap group. “Party For Your Right To Fight” was talking praise to the Nation Of Islam and the Black Panther party. That was the party. Public Enemy “Don’t Believe The Hype” Public Enemy “Night Of The Living Baseheads” Related Category: Reviews / Music [] About Grouchy Greg Watkins (@GrouchyGreg) Follow me on Bluesky: https://bsky.app/profile/grouchy.tv – I am Grouchy Greg. I founded All",
+      "retrievedAt": "2026-09-03T05:27:25.871Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 14691,
+        "fetchedTextLength": 15029,
+        "kind": "character-offsets",
+        "start": 2513
+      }
+    }
+  }
+}
