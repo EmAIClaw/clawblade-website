@@ -74,6 +74,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -82,10 +86,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 20,
-  "totalTracks": 285,
+  "totalEntries": 21,
+  "totalTracks": 301,
   "evidenceLevelCounts": {
-    "documented": 277,
+    "documented": 293,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 8,

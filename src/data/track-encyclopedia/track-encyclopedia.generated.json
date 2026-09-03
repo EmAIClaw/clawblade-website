@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0-pilot",
     "generatedAt": "2026-09-19T00:00:00Z",
-    "albumCount": 20
+    "albumCount": 21
   },
   "entries": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": {
@@ -12798,6 +12798,793 @@
         "notes": "Imported immutable independent review 8585cb34e91035298b2793494a8d07f5124bf42789c5fab7b75c9b571d589d7f."
       },
       "contentHash": "21571f1103a6484f"
+    },
+    "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a": {
+      "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all sixteen To Pimp a Butterfly catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Wesley's Theory (feat. George Clinton & Thundercat)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:1:fact-1",
+              "claim": "Wikipedia states that the opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion;",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10242,
+                    "end": 10351
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "For Free? (Interlude)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:2:fact-1",
+              "claim": "Wikipedia states that \"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10540,
+                    "end": 10678
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "King Kunta",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:3:fact-1",
+              "claim": "Wikipedia states that \"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10686,
+                    "end": 10795
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:4:fact-1",
+              "claim": "Wikipedia states that singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3035,
+                    "end": 3223
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:5:fact-1",
+              "claim": "Wikipedia states that \"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 11246,
+                    "end": 11451
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "u",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:6:fact-1",
+              "claim": "Wikipedia states that Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 11459,
+                    "end": 11554
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "Alright",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:7:fact-1",
+              "claim": "Wikipedia states that \"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 11647,
+                    "end": 11875
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "For Sale? (Interlude)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:8:fact-1",
+              "claim": "Wikipedia states that Flying Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 499,
+                    "end": 657
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "Momma",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1",
+              "claim": "Wikipedia states that the instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 39280,
+                    "end": 39357
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Hood Politics",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:10:fact-1",
+              "claim": "Wikipedia states that \"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 40123,
+                    "end": 40218
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "How Much a Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:11:fact-1",
+              "claim": "Wikipedia states that Ronald Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2710,
+                    "end": 2817
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "Complexion (A Zulu Love) [feat. Rapsody]",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:12:fact-1",
+              "claim": "Wikipedia states that American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 750,
+                    "end": 857
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "The Blacker the Berry",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:13:fact-1",
+              "claim": "Wikipedia states that \"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 12156,
+                    "end": 12318
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 14,
+          "trackTitle": "You Ain't Gotta Lie (Momma Said)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:14:fact-1",
+              "claim": "Stereogum states that Thundercat provided background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\".",
+              "sourceRefs": [
+                {
+                  "label": "Stereogum Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+                  "title": "Who's Who On Kendrick Lamar's To Pimp A Butterfly - Stereogum",
+                  "url": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+                  "sourceIdentity": "stereogum.com|Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\"",
+                  "artifactId": "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 569
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:14:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Stereogum Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+              "title": "Who's Who On Kendrick Lamar's To Pimp A Butterfly - Stereogum",
+              "url": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 15,
+          "trackTitle": "i",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:15:fact-1",
+              "claim": "Wikipedia states that the album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2179,
+                    "end": 2307
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:15:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "discNumber": 1,
+          "trackNumber": 16,
+          "trackTitle": "Mortal Man",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:16:fact-1",
+              "claim": "Wikipedia states that in the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia To Pimp a Butterfly article",
+                  "title": "To Pimp a Butterfly - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                  "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "In the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.",
+                  "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 12553,
+                    "end": 12685
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd",
+                "decisionId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:16:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia To Pimp a Butterfly article",
+              "title": "To Pimp a Butterfly - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank19-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T16:11:53Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review 79e4bdf99b17ff1ed043a458b54d14a8f8bc8219ffbf10a6147e6bf0520143cd."
+      },
+      "contentHash": "59db8b0ab53842be"
     },
     "054-liz-phair-exile-in-guyville-2b33a458": {
       "albumId": "054-liz-phair-exile-in-guyville-2b33a458",

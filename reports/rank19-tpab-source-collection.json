@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank19-tpab-http-collector-20260903",
+  "collectedAt": "2026-09-03T16:01:57.797Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+      "fetchUrl": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+      "finalUrl": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+      "status": "collected",
+      "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+      "created": true,
+      "fetchedResponseSha256": "0d1fc5aa95eb1487a8c923e2608b6662402f5c38a7ebd0a3d2fbbc0c37720dfc",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 40718,
+      "fetchedCharacters": 102921,
+      "claims": [
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Wesley's Theory (feat. George Clinton & Thundercat)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion;",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10242,
+            "end": 10351
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "For Free? (Interlude)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10540,
+            "end": 10678
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "King Kunta",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10686,
+            "end": 10795
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3035,
+            "end": 3223
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11246,
+            "end": 11451
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "u",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11459,
+            "end": 11554
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Alright",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11647,
+            "end": 11875
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "For Sale? (Interlude)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 499,
+            "end": 657
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Momma",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 39280,
+            "end": 39357
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Hood Politics",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 40123,
+            "end": 40218
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "How Much a Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2710,
+            "end": 2817
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Complexion (A Zulu Love) [feat. Rapsody]",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 750,
+            "end": 857
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "The Blacker the Berry",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 12156,
+            "end": 12318
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "i",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2179,
+            "end": 2307
+          }
+        },
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "Mortal Man",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "In the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 12553,
+            "end": 12685
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+      "fetchUrl": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+      "finalUrl": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+      "status": "collected",
+      "artifactId": "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b",
+      "created": true,
+      "fetchedResponseSha256": "5a60b7f7332d77b8ec283ed4ed57050f19b1e25592467164556aff6e1684da27",
+      "contentType": "text/html; charset=utf-8",
+      "retainedCharacters": 1069,
+      "fetchedCharacters": 13786,
+      "claims": [
+        {
+          "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+          "trackTitle": "You Ain't Gotta Lie (Momma Said)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\"",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 569
+          }
+        }
+      ]
+    }
+  ]
+}

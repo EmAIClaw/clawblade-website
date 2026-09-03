@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+  "editionNumber": 1,
+  "candidateContentHash": "398a5b7d10a8a5cbaa7cc3a68e56655a97b8b30bf685078e2aacdbf15c16b4af",
+  "candidate": {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank19-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Wesley's Theory (feat. George Clinton & Thundercat)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:1:fact-1",
+            "claim": "Wikipedia states that the opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion;",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 10242,
+                  "end": 10351
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "For Free? (Interlude)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:2:fact-1",
+            "claim": "Wikipedia states that \"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 10540,
+                  "end": 10678
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "King Kunta",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:3:fact-1",
+            "claim": "Wikipedia states that \"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 10686,
+                  "end": 10795
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:4:fact-1",
+            "claim": "Wikipedia states that singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3035,
+                  "end": 3223
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:5:fact-1",
+            "claim": "Wikipedia states that \"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 11246,
+                  "end": 11451
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "u",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:6:fact-1",
+            "claim": "Wikipedia states that Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 11459,
+                  "end": 11554
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Alright",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:7:fact-1",
+            "claim": "Wikipedia states that \"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 11647,
+                  "end": 11875
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "For Sale? (Interlude)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:8:fact-1",
+            "claim": "Wikipedia states that Flying Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 499,
+                  "end": 657
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Momma",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1",
+            "claim": "Wikipedia states that the instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 39280,
+                  "end": 39357
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Hood Politics",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:10:fact-1",
+            "claim": "Wikipedia states that \"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 40123,
+                  "end": 40218
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "How Much a Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:11:fact-1",
+            "claim": "Wikipedia states that Ronald Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2710,
+                  "end": 2817
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "Complexion (A Zulu Love) [feat. Rapsody]",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:12:fact-1",
+            "claim": "Wikipedia states that American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 750,
+                  "end": 857
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 13,
+        "trackTitle": "The Blacker the Berry",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:13:fact-1",
+            "claim": "Wikipedia states that \"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 12156,
+                  "end": 12318
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 14,
+        "trackTitle": "You Ain't Gotta Lie (Momma Said)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:14:fact-1",
+            "claim": "Stereogum states that Thundercat provided background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\".",
+            "sourceRefs": [
+              {
+                "label": "Stereogum Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+                "title": "Who's Who On Kendrick Lamar's To Pimp A Butterfly - Stereogum",
+                "url": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+                "sourceIdentity": "stereogum.com|Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\"",
+                "artifactId": "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 569
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Stereogum Who's Who On Kendrick Lamar's To Pimp A Butterfly",
+            "title": "Who's Who On Kendrick Lamar's To Pimp A Butterfly - Stereogum",
+            "url": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 15,
+        "trackTitle": "i",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:15:fact-1",
+            "claim": "Wikipedia states that the album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2179,
+                  "end": 2307
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      },
+      {
+        "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+        "discNumber": 1,
+        "trackNumber": 16,
+        "trackTitle": "Mortal Man",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:16:fact-1",
+            "claim": "Wikipedia states that in the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia To Pimp a Butterfly article",
+                "title": "To Pimp a Butterfly - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+                "sourceIdentity": "en.wikipedia.org|To Pimp a Butterfly album article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "In the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.",
+                "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 12553,
+                  "end": 12685
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia To Pimp a Butterfly article",
+            "title": "To Pimp a Butterfly - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a": {
+      "artifactId": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+      "artifactSha256": "027972335dbbd4c66e1234b4746a5c261b4fbcc2aba80dd0d8095a76f2da764a",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank19-tpab-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "0d1fc5aa95eb1487a8c923e2608b6662402f5c38a7ebd0a3d2fbbc0c37720dfc",
+      "finalUrl": "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Recording Studios, Downtown Studios, House Studios, Notifi Studios and No Excuses Studios.^([6]) Lamar wrote the lyrics to the song \"Mortal Man\" while on Kanye West's Yeezus Tour.^([7]) During the whole tour, producer Flying Lotus played Lamar a selection of tracks that was intended for Captain Murphy's album (Flying Lotus's alter ego).^([8]) Lamar kept all the tracks, but only opener \"Wesley's Theory\", which also features Thundercat and George Clinton, made the final cut onto the album.^([8]) Lotus had produced a version of \"For Sale? (Interlude)\" that was ultimately discarded, with Lamar using Taz Arnold's version of the song on the album instead.^([8][6]) Lotus stated that it is unlikely his version of the song will see a release.^([9]) American rapper Rapsody appeared on the album, contributing a verse to the song \"Complexion (A Zulu Love)\".^([10][11]) Lamar had requested that 9th Wonder contact Rapsody and request her appearance.^([10][11]) Rapsody and Lamar discussed the song but there was little instruction from Lamar regarding her contribution.^([10][11]) Speaking about the song, she stated that Lamar had already decided on the concept of the song and stated that the only instructions he gave were the song's title and the idea that \"...we are beautiful no matter our race but he really wanted to speak to our people and address this light versus dark complex\".^([10][11]) Lamar also contacted Madlib to seek his collaboration on the record but was unable to reach him.^([12]) In 2014, Pharrell Williams, who previously worked with Lamar, along with producer Sounwave, played the track \"Alright\" at the Holy Ship Festival.^([13]) The track features the same unidentified sample that Williams used on Rick Ross' track \"Presidential\" from his album God Forgives, I Don't (2012).^([14]) Reportedly, at one time it featured a guest appearance from American rapper Fabolous.^([13][14][15]) The album went through three different phases before the production team could move forward with the idea.^([16]) Afterwards, producer Thundercat was brought into the process, after Flying Lotus brought him along to see Lamar's performance on The Yeezus Tour.^([16]) The album's lead single, titled \"I\", was produced by Rahki, who also produced a song for the album entitled \"Institutionalized\".^([6]) Containing a sample of the song \"That Lady\" performed by the Isley Brothers, Lamar personally visited the Isley Brothers, to receive permission from lead vocalist Ronald Isley to sample the song.^([17]) [] [] Bass player Thundercat (left) and singer Bilal are among the musicians who contributed to the album. Lamar began traveling to St. Louis and began working with Isley at the studio.^([17]) Isley also performed on the song \"How Much a Dollar Cost\" alongside the singer-songwriter James Fauntleroy.^([17]) Producer and rapper Pete Rock provided some backing vocals and scratches to the song \"Complexion (A Zulu Love)\", and as he stated, the contribution was unusual, as he was not the producer for the track.^([18]) Singer Bilal features on the songs \"Institutionalized\" and \"These Walls\", and has provided uncredited backing vocals on the songs \"U\", \"For Sale? (Interlude)\", \"Momma\" and \"Hood Politics\".^([6]) Bilal stated that he and Lamar were initially unsure of how many songs he would be featured on, stating he worked on various tracks, but did not yet know the outcome.^([19]) \"For a lot of the material, Kendrick had an idea of what he wanted. He would sing out the melody and some of the words, and I would interpret what he was telling me.\"^([19]) On the songs where Bilal added backing vocals, he stated that \"...some of it was freestyle; just adding color to make it a fuller sound.\"^([19]) Lamar also reportedly worked with American musician Prince; however, the duo were too pressed for time during the recording session and therefore were unable to complete any work for inclusion on the album.^([20][21][22]) Lamar professed to having listened often to Miles Davis and Parliament-Funkadelic during the album's recording.^([23]) In 2016, Lamar released Untitled Unmastered, a compilation album, which contains previously unreleased demos that originated during the recording of To Pimp a Butterfly.^([24]) According to producer Thundercat, it \"completes the sentence\" of Lamar's third studio album.^([24]) Musical style [edit] According to musicologist Will Fulton, To Pimp a Butterfly engages in and celebrates the black music tradition.^([25]) Much like the singer D'Angelo on his 2014 album Black Messiah, Lamar \"consciously indexes African American musical styles of the past in a dynamic relationship of nostalgic revivalism and vanguardism.\"^([25]) Kyle Anderson of Entertainment Weekly described the album as \"embracing the entire history of black American music.\"^([26]) Lamar's co-engineer/mixer MixedByAli praised Lamar, saying, \"[Lamar is] a sponge. He incorporated everything that was going on [in Africa] and in his life to complete a million-piece puzzle.\"^([5]) Lamar described the album as an \"honest, fearful and unapologetic\" work that draws on funk, hard bop, spoken word and soul^([3][23]) while critics also noted elements of West Coast hip-hop^([27]) and avant-garde.^([28][29]) Allison Stewart from The Washington Post says the album is \"threaded\" with G-funk.^([30]) Speaking on the album's styles, co-producer Terrace Martin said, \"If you dig deeper you hear the lineage of James Brown, Jackie Wilson, Mahalia Jackson, the sounds of Africa, and our people when they started over here. I hear something different every time. I heard Cuban elements in it the other day.\"^([5]) The album features contributions from the collective of musicians called the West Coast Get Down, who experiment with jazz and progressive hip-hop sounds, and feature Lamar, Flying Lotus, Martin, and saxophonist Kamasi Washington, among others.^([31]) Consequently, the music is \"jazz-like in spirit if not always in sound\", according to Ben Ratliff,^([31]) while Mosi Reeves from Deadspin observes a virtuosic quality to its \"prog-rap cornucopia\".^([32]) Stereogum described To Pimp a Butterfly as an \"ambitious avant-jazz-rap statement,\"^([33]) and The Source categorized the album as an experimental hip-hop release.^([34]) Dan Weiss of Spin noted \"shades of Miles Davis' On the Corner and free jazz all over [...], as well as Sly Stone's There's a Riot Goin' On and Funkadelic and Erykah Badu's similarly wah-crazy but comparatively lo-fi New Amerykah (4th World War),\" but stated nonetheless that \"the sense of this album is vividly contemporary.\"^([35]) Other critics regard it as \"throwback\" to neo soul music of the 1990s.^([36]) Greg Kot of Chicago Tribune noted the album's affinities with previous black music, but argued that \"Lamar takes familiar musical tropes into new territory.\"^([28]) The Atlantic noted the influence of collaborator Flying Lotus, writing that \"his signature sound—jazz instrumentation and hip-hop layered into chaotic collages—is all over the album.\"^([37]) Steve Mallon of The Quietus noted an \"eerily warped psychedelia bursting out of its idiosyncratic arrangements.\"^([38]) Lyrics and themes [edit] [] \"Institutionalized\" Lamar's lyrics explore the results of institutional racism. ------------------------------------------------------------------------ Problems playing this file? See media help. Categorized by Billboard as a \"politically-charged\" conscious rap album,^([39]) To Pimp a Butterfly explores a variety of political and personal themes related to race, culture, and discrimination. Critic Neil Kulkarni said it appraises \"the broken promises and bloody pathways in and out of America's heartland malaise\".^([40]) Jay Caspian Kang observed elements of critical race theory, respectability politics, theology, and meta-analysis examining Lamar's success and revered status in the hip-hop community.^([41]) It was compared by California State University, Fullerton professor Natalie Graham to the 1977 television miniseries Roots.^([42]) While \"Roots compresses and simplifies\" black history, Graham said To Pimp a Butterfly \"radically disrupt[s] meanings of black respectability, heroic morality, trauma, and memory\".^([42]) In the Toronto Journal of Theology, James D. McLeod Jr. drew parallels between Lamar's examination of death's domineering significance in the African-American experience and the works of Christian theologian Paul Tillich, with McLeod calling To Pimp a Butterfly an original example of \"existentialist hip hop.\"^([43]) Meanwhile, Adam Blum discerned connections between To Pimp a Butterfly and the writings of psychoanalysts such as Wilfred Bion, Nicolas Abraham, and Sigmund Freud.^([44]) In an essay published in The Lancet Psychiatry, University of Cambridge academics Akeem Sule and Becky Inkster described Lamar as the \"street poet of mental health,\" noting how To Pimp a Butterfly (as well as its predecessor, Good Kid, M.A.A.D City) explore topics such as addiction, anxiety, depression, and resilience.^([45]) The album continues a nuanced dialogue about weighty topics that affect the African-American community. Releasing his album in a time of renewed black activism, Lamar's song \"Alright\" has become a rallying cry for the Black Lives Matter movement.^([46]) With lyrics like \"and we hate po-po / Wanna kill us dead in the street fo sho, nigga\", he makes it clear that he is supportive of the movement and the families of black men and women like Michael Brown, Sandra Bland, Tamir Rice, and others who have fallen victim to police brutality in the United States.^([47]) Lamar takes his opinions further to lend his position on black crime in the song \"The Blacker the Berry\", criticizing himself and his community by rapping, \"So why did I weep when Trayvon Martin was in the street? / When gang bangin' make me kill a nigga blacker than me?\". Stereo Williams of The Daily Beast wrote in response to his lyrics that \"it's dangerous to use that violence as a silencing tactic when the public is angry about the systematic subjugation of black people.\"^([48]) Lamar has offered explanations of the meanings behind songs such as \"Wesley's Theory\" and \"King Kunta\".^([49][50][51]) The album's 1970s funk-inspired^([52]) opening track \"Wesley's Theory\" is a reference to Wesley Snipes and how the actor was jailed for tax evasion; according to Lamar, \"no one teaches poor black males how to manage money or celebrity, so if they do achieve success, the powers that be can take it from right under them\".^([49][50][51]) \"For Free? (Interlude)\" sees Lamar rapping in a dense, spoken word-esque manner with musical accompaniment by jazz pianist Robert Glasper.^([52]) \"King Kunta\" is concerned with the \"history of negative stereotypes all African-Americans have to reconcile\".^([49][50][51]) Lamar criticizes rappers who use ghostwriters; in an MTV interview he explained that he came to prominence as a ghostwriter, and has respect for writers, but that \"as a new artist, you have to stand behind your work.\"^([49][50][51]) Some journalists interpreted the criticism as a subliminal diss directed at the Canadian rapper Drake, who has a longstanding feud with Lamar and has faced allegations of using ghostwriters.^([53][54]) \"These Walls\" has been described by Billboard as \"pondering sex and existence in equal measure; it's a yoni metaphor about the power of peace, with sugar walls being escape and real walls being obstacles.\"^([55]) Lamar revealed that \"U\" was inspired by his own experience of depression and suicidal thoughts.^([56]) He also mentioned feelings of survivor's guilt as inspirations for the album.^([57]) \"Alright\" begins as a spoken-word treatise before exploding into a shapeshifting portrait of America that brings in jazz horns, skittering drum beats and Lamar's mellifluous rapping as he struggles with troubles and temptations.^([58]) Yet at the end of each verse, he reassures himself that \"We gon' be alright\"—a simple rallying cry for a nation reeling from gun violence and police brutality.^([58]) For critics a \"celebration of being alive\",^([59]) Lamar described \"Alright\" as a message of hope.^([60]) \"The Blacker the Berry\" features a \"boom bap beat\" and lyrics that celebrate Lamar's African-American heritage and \"tackle hatred, racism, and hypocrisy head on.\"^([61]) The song's hook is performed by Jamaican dancehall artist Assassin, notable for performing on Kanye West's 2013 album Yeezus, whose lyrics similarly address racial inequality, specifically against African Americans.^([62][63]) In the final track of the album, the 12-minute song \"Mortal Man\", Lamar reflects on everything he has explored throughout the album.^([64]) He delves into both historical and contemporary views on black identity, while also grappling with his own relationship with fame.^([64]) He repeats some of the album's most impactful lines, also addressing his misuse of power and the inner struggles he faces in managing his influence.^([64]) The song ends with an \"interview\" between Lamar and Tupac Shakur which was recorded \"using audio excerpts from a rare 1994 interview between Shakur and the host of Swedish radio show P3 Soul, Mats Nileskar\".^([65]) Title and packaging [edit] The album was originally going to be titled Tu Pimp a Caterpillar, a backronym for Tu.P.A.C., itself an allusion to the rapper Tupac.^([50]) Lamar decided to replace \"caterpillar\" in the original title to \"butterfly\", which he explained in an interview for MTV, \"I just really wanted to show the brightness of life and the word 'pimp' has so much aggression and that represents several things. For me, it represents using my celebrity for good. Another reason is, not being pimped by the industry through my celebrity ... It gets even deeper than that for me. I could be talking all day about it.\"^([50]) Lamar later also told Rolling Stone, \"Just putting the word 'pimp' next to 'butterfly'... It's a trip. That's something that will be a phrase forever. It'll be taught in college courses—I truly believe that.\"^([66]) The album's CD and vinyl releases included a booklet produced with braille letterings; according to Lamar, these characters, when translated, reveal the \"actual full title of the album.\"^([67]) Complex commissioned a braille translator, who found that it translated to A Kendrick by Letter Blank Lamar which Complex noted was most likely supposed to read as A Blank Letter by Kendrick Lamar.^([67][68]) Marketing and sales [edit] The album's release was preceded by the release of two singles, \"I\", on September 23, 2014,^([69]) and \"The Blacker the Berry\" in February 2015.^([70]) The former became Lamar's sixth top-40 single on the US Billboard Hot 100 and was performed on Saturday Night Live.^([71]) \"King Kunta\" was released as the third single in March 2015,^([72]) and \"Alright\" was released to radio stations on June 30.^([73]) With the latter's release, several contemporary progressive news outlets, including BET, raised the idea of \"Alright\" being the modern Black National Anthem,^([46][74][75]) while the media reported youth-lead protests against police brutality across the country chanted the chorus of the song.^([76][77]) Primarily for the latter, Lamar was featured on Ebony magazine's Power 100, an annual list that recognizes many leaders of the African-American community.^([78]) \"These Walls\" was released as the album's fifth single on October 13.^([79]) Aside from the singles' accompanying music videos, the song \"For Free? (Interlude)\" also featured visuals,^([80]) as did \"U\" with \"For Sale? (Interlude)\" as part of the short film God Is Gangsta.^([81]) In support of the album, Lamar embarked on the Kunta's Groove Sessions Tour, which included eight shows in eight cities during October and November.^([82]) To Pimp a Butterfly was first released to the iTunes Store and Spotify on March 15, 2015, eight days ahead of its scheduled release date.^([83]) According to Anthony Tiffith, CEO of Top Dawg Entertainment, the album's early release was unintentional, apparently caused by an error on the part of Interscope Records.^([84]) The following day, it was made unavailable on iTunes, and the release was rescheduled for March 23, although it was still available for streaming on Spotify.^([85]) In its first week of release, To Pimp a Butterfly debuted at number one on record charts in the United Kingdom, Australia,^([86]) and the United States, where it recorded first-week sales of 324,000 copies.^([87]) The album was streamed 9.6 million times in its first day on Spotify, setting the service's global first-day streaming record.^([88]) By the end of 2015, To Pimp a Butterfly was ranked the sixteenth most popular album on the Billboard 200 that year^([89]) and reached sales of one million copies worldwide.^([90]) By March 2016, it had sold 850,000 copies in the US,^([91]) where it was certified platinum by the Recording Industry Association of America (RIAA).^([92]) In June 2017, it reached one million copies sold in the US.^([93]) Critical reception [edit] +:--------------------:+:-------------------------------------------:+ | Aggregate scores | +----------------------+---------------------------------------------+ | Source | Rating | +----------------------+---------------------------------------------+ | AnyDecentMusic? | 9.3/10^([94]) | +----------------------+---------------------------------------------+ | Metacritic | 96/100^([95]) | +----------------------+---------------------------------------------+ | Review scores | +----------------------+---------------------------------------------+ | Source | Rating | +----------------------+---------------------------------------------+ | AllMusic | [Star][Star][Star][Star][Star]^([96]) | +----------------------+---------------------------------------------+ | The Daily Telegraph | [Star][Star][Star][Star][Star]^([97]) | +----------------------+---------------------------------------------+ | Entertainment Weekly | A^([26]) | +----------------------+---------------------------------------------+ | The Guardian | [Star][Star][Star][Star][]^([98]) | +----------------------+---------------------------------------------+ | The Irish Times | [Star][Star][Star][Star][Star]^([99]) | +----------------------+---------------------------------------------+ | NME | 8/10^([100]) | +----------------------+---------------------------------------------+ | Pitchfork | 9.3/10^([101]) | +----------------------+---------------------------------------------+ | Rolling Stone | [Star][Star][Star][Star][Half star]^([102]) | +----------------------+---------------------------------------------+ | Spin | 10/10^([35]) | +----------------------+---------------------------------------------+ | USA Today | [Star][Star][Star][Star]^([103]) | +----------------------+---------------------------------------------+ : To Pimp a Butterfly ratings {#mwA2M .wikitable .floatright style=\"width:24.2em;font-size:88%;text-align:center;margin:0.5em 0 0.5em 1em;padding:0;border-spacing:0\" about=\"#mwt335\" typeof=\"mw:Transclusion\" mw=\"{\\\"parts\\\":[{\\\"template\\\":{\\\"target\\\":{\\\"wt\\\":\\\"Music ratings\\\\n\\\",\\\"href\\\":\\\"./Template:Music_ratings\\\"},\\\"params\\\":{\\\"title\\\":{\\\"wt\\\":\\\"''To Pimp a Butterfly'' ratings\\\"},\\\"ADM\\\":{\\\"wt\\\":\\\"9.3/10<ref name=\\\\\\\"ADM\\\\\\\">{{cite web|url=http://www.anydecentmusic.com/review/7071/Kendrick-Lamar-To-Pimp-A-Butterfly.aspx|title=To Pimp A Butterfly by Kendrick Lamar reviews|publisher=AnyDecentMusic?|access-date=October 31, 2016|url-status=live|archive-url=https://web.archive.org/web/20161114185258/http://www.anydecentmusic.com/review/7071/Kendrick-Lamar-To-Pimp-A-Butterfly.aspx|archive-date=November 14, 2016}}</ref>\\\"},\\\"MC\\\":{\\\"wt\\\":\\\"96/100<ref name=\\\\\\\"MC\\\\\\\">{{cite web |url=https://www.metacritic.com/music/to-pimp-a-butterfly/kendrick-lamar |title=Reviews for To Pimp A Butterfly by Kendrick Lamar |access-date=March 17, 2015 |publisher=[[Metacritic]] |archive-date=March 19, 2015 |archive-url=https://web.archive.org/web/20150319180434/http://www.metacritic.com/music/to-pimp-a-butterfly/kendrick-lamar |url-status=live }}</ref>\\\"},\\\"rev1\\\":{\\\"wt\\\":\\\"[[AllMusic]]\\\"},\\\"rev1Score\\\":{\\\"wt\\\":\\\"{{Rating|5|5}}<ref name=\\\\\\\"AllMusic\\\\\\\">{{cite web |url=https://www.allmusic.com/album/to-pimp-a-butterfly-mw0002835159 |title=To Pimp a Butterfly – Kendrick Lamar |first=David |last=Jeffries |publisher=[[AllMusic]] |access-date=April 20, 2017 |archive-date=May 12, 2017 |archive-url=https://web.archive.org/web/20170512195924/http://www.allmusic.com/album/to-pimp-a-butterfly-mw0002835159 |url-status=live }}</ref>\\\"},\\\"rev2\\\":{\\\"wt\\\":\\\"''[[The Daily Telegraph]]''\\\"},\\\"rev2Score\\\":{\\\"wt\\\":\\\"{{Rating|5|5}}<ref name=\\\\\\\"Telegraph\\\\\\\">{{cite news |url=https://www.telegraph.co.uk/culture/music/cdreviews/11510932/Kendrick-Lamar-To-Pimp-a-Butterfly-review-a-bravura-masterpiece.html |title=Kendrick Lamar: To Pimp a Butterfly review |first=Neil |last=McCormick |author-link=Neil McCormick |work=[[The Daily Telegraph]] |location=London |date=March 19, 2015 |access-date=February 1, 2016 |archive-date=February 2, 2016 |archive-url=https://web.archive.org/web/20160202231630/http://www.telegraph.co.uk/culture/music/cdreviews/11510932/Kendrick-Lamar-To-Pimp-a-Butterfly-review-a-bravura-masterpiece.html |url-status=live }}</ref>\\\"},\\\"rev3\\\":{\\\"wt\\\":\\\"''[[Entertainment Weekly]]''\\\"},\\\"rev3Score\\\":{\\\"wt\\\":\\\"A<ref name=\\\\\\\"Anderson\\\\\\\"/>\\\"},\\\"rev4\\\":{\\\"wt\\\":\\\"''[[The Guardian]]''\\\"},\\\"rev4Score\\\":{\\\"wt\\\":\\\"{{Rating|4|5}}<ref name=\\\\\\\"Petridis\\\\\\\">{{cite news |url=https://www.theguardian.com/music/2015/mar/19/kendrick-lamar-to-pimp-a-butterfly-review |title=Kendrick Lamar: To Pimp a Butterfly review – challenging but gripping |first=Alexis |last=Petridis |author-link=Alexis Petridis |work=[[The Guardian]] |location=London |date=March 19, 2015 |access-date=April 3, 2015 |archive-date=April 2, 2015 |archive-url=https://web.archive.org/web/20150402152558/http://www.theguardian.com/music/2015/mar/19/kendrick-lamar-to-pimp-a-butterfly-review |url-status=live }}</ref>\\\"},\\\"rev5\\\":{\\\"wt\\\":\\\"''[[The Irish Times]]''\\\"},\\\"rev5Score\\\":{\\\"wt\\\":\\\"{{Rating|5|5}}<ref name=\\\\\\\"Carroll\\\\\\\">{{cite news |url=https://www.irishtimes.com/culture/music/kendrick-lamar-to-pimp-a-butterfly-album-review-a-record-for-the-times-we-re-in-1.2162924 |title=Kendrick Lamar – To Pimp a Butterfly album review: a record for the times we're in |first=Jim |last=Carroll |author-link=Jim Carroll (journalist) |newspaper=[[The Irish Times]] |location=Dublin |date=April 2, 2015 |access-date=September 25, 2016 |archive-date=October 5, 2016 |archive-url=https://web.archive.org/web/20161005155651/http://www.irishtimes.com/culture/music/kendrick-lamar-to-pimp-a-butterfly-album-review-a-record-for-the-times-we-re-in-1.2162924 |url-status=live }}</ref>\\\"},\\\"rev6\\\":{\\\"wt\\\":\\\"''[[NME]]''\\\"},\\\"rev6Score\\\":{\\\"wt\\\":\\\"8/10<ref>{{cite web |url=https://www.nme.com/reviews/kendrick-lamar/15989 |title=Kendrick Lamar – 'To Pimp a Butterfly' |work=[[NME]] |location=London |first=Alex |last=Denney |date=March 18, 2015 |access-date=September 25, 2016 |url-status=dead |archive-url=https://web.archive.org/web/20150324005509/http://www.nme.com/reviews/kendrick-lamar/15989 |archive-date=March 24, 2015}}</ref>\\\"},\\\"rev7\\\":{\\\"wt\\\":\\\"''[[Pitchfork (website)|Pitchfork]]''\\\"},\\\"rev7Score\\\":{\\\"wt\\\":\\\"9.3/10<ref name=\\\\\\\"auto2\\\\\\\">{{cite web |url=https://pitchfork.com/reviews/albums/20390-to-pimp-a-butterfly/ |title=Kendrick Lamar: To Pimp a Butterfly |first=Craig |last=Jenkins |work=[[Pitchfork (website)|Pitchfork]] |date=March 19, 2015 |access-date=March 19, 2015 |archive-date=March 22, 2015 |archive-url=https://web.archive.org/web/20150322102829/http://pitchfork.com/reviews/albums/20390-to-pimp-a-butterfly/ |url-status=live }}</ref>\\\"},\\\"rev8\\\":{\\\"wt\\\":\\\"''[[Rolling Stone]]''\\\"},\\\"rev8Score\\\":{\\\"wt\\\":\\\"{{Rating|4.5|5}}<ref name=\\\\\\\"auto3\\\\\\\">{{cite magazine |url=https://www.rollingstone.com/music/albumreviews/kendrick-lamar-to-pimp-a-butterfly-20150319 |title=To Pimp a Butterfly |first=Greg |last=Tate |author-link=Greg Tate |magazine=[[Rolling Stone]] |location=New York |date=March 19, 2015 |access-date=December 18, 2015 |url-status=live |archive-url=https://web.archive.org/web/20151219050830/http://www.rollingstone.com/music/albumreviews/kendrick-lamar-to-pimp-a-butterfly-20150319 |archive-date=December 19, 2015 }}</ref>\\\"},\\\"rev9\\\":{\\\"wt\\\":\\\"''[[Spin (magazine)|Spin]]''\\\"},\\\"rev9Score\\\":{\\\"wt\\\":\\\"10/10<ref name=\\\\\\\"spin\\\\\\\">{{cite web |url=http://www.spin.com/reviews/kendrick-lamar-to-pimp-a-butterfly/ |title=Review: Kendrick Lamar Returns With the Great American Hip-Hop Album, 'To Pimp a Butterfly' |first=Dan |last=Weiss |work=[[Spin (magazine)|Spin]] |location=New York |date=March 20, 2015 |access-date=March 20, 2015 |archive-date=August 31, 2015 |archive-url=https://web.archive.org/web/20150831075723/http://www.spin.com/reviews/kendrick-lamar-to-pimp-a-butterfly/ |url-status=live }}</ref>\\\"},\\\"rev10\\\":{\\\"wt\\\":\\\"''[[USA Today]]''\\\"},\\\"rev10Score\\\":{\\\"wt\\\":\\\"{{Rating|4|4}}<ref>{{cite news |url=https://www.usatoday.com/story/life/music/2015/03/16/kendrick-lamar-to-pimp-a-butterfly/24847853/ |title=Album review: Lamar's mighty 'Butterfly' |first=Patrick |last=Ryan |work=[[USA Today]] |location=McLean |date=March 16, 2015 |access-date=September 25, 2016 |url-status=live |archive-url=https://web.archive.org/web/20161014083122/http://www.usatoday.com/story/life/music/2015/03/16/kendrick-lamar-to-pimp-a-butterfly/24847853/ |archive-date=October 14, 2016 }}</ref>\\\"}},\\\"i\\\":0}}]}\"} To Pimp a Butterfly was met with widespread critical acclaim. At Metacritic, which assigns a normalized rating out of 100 to reviews from professional publications, the album received an average score of 96, based on 44 reviews, indicating \"universal acclaim\".^([95]) Aggregator AnyDecentMusic? gave it 9.3 out of 10, based on their assessment of the critical consensus.^([94]) According to Gigwise writer Will Butler, it was universally hailed by critics as an \"instant classic\".^([104]) Spin magazine's Dan Weiss regarded To Pimp a Butterfly as the \"Great American Hip-Hop Album\" and an essential listen,^([35]) while Neil McCormick from The Daily Telegraph called it a dense but dazzling masterpiece.^([97]) Writing for Entertainment Weekly, Kyle Anderson found the record twice as substantial as Lamar's debut major label album and more comprehensive of African-American music styles, with supremely \"cinematic\" production qualities but \"the freedom of a mixtape\".^([26]) Irish Times journalist Jim Carroll deemed it \"a record for the times we're in\", in which Lamar transitioned from his past narratives about Compton to fierce but precise reflections on \"black America\".^([99]) In Rolling Stone, Greg Tate deemed To Pimp a Butterfly \"a masterpiece of fiery outrage, deep jazz and ruthless self-critique\" that along with D'Angelo's third album Black Messiah, made 2015 \"the year radical Black politics and for-real Black music resurged in tandem to converge on the nation's pop mainstream.\"^([102]) Robert Christgau wrote in his review on Cuepoint that not many artists were as passionate and understanding as Lamar, who offered \"a strong, brave effective bid to reinstate hip hop as black America's CNN\" during an era of social media.^([105]) To Pimp a Butterfly also received a rare \"10\" rating from YouTuber and music critic Anthony Fantano of The Needle Drop.^([106][107][a]) Nonetheless, several reviews criticized some aspects of the album. For instance, New York Times critic Jon Caramanica said Lamar still struggled in reconciling his density as a lyricist with the music he rapped over: \"He hasn't outrun his tendency towards clutter [and] still runs the risk of suffocation.\"^([108]) In The Guardian, Alexis Petridis found the music somewhat erratic and lamented \"moments of self-indulgence\" such as the twelve-minute \"Mortal Man\" and Lamar's reflections on fame.^([98]) Accolades [edit] At the end of 2015, To Pimp a Butterfly was the most frequently ranked record in top ten lists of the year's best albums. According to Metacritic, it appeared 101 times in the top ten of lists published by critics, magazines, websites, and music stores.^([109]) The record topped 51 lists, including those by Rolling Stone, Billboard, Pitchfork, Slant Magazine, Spin, The Guardian, Complex, Consequence, The Irish Times, and Vice.^([109]) NME ranked it second on their list, while Time named it the year's third best album.^([110]) It was voted the best album of 2015 in the Pazz & Jop, an annual poll of American critics nationwide, published by The Village Voice.^([111]) Christgau, the Pazz & Jop's creator, ranked it fourth in his ballot for the poll.^([112]) The album placed ninth in British magazine The Wire's annual critics' poll.^([113]) On their lists of best albums of the decade, The Independent placed it first,^([114]) Consequence second,^([115]) Rolling Stone third,^([116]) and Pitchfork fourth.^([117]) In The Guardian's 2019 poll of 45 music journalists, To Pimp a Butterfly was voted the fourth best album of the 21st century, and contributing writer Ben Beaumont-Thomas said in an accompanying that, \"as a celebration of the richness of black artistry, the whole album was a riposte to bigotry.\"^([118]) Similarly, in his March 2015 review of the album for The Verge, editor and journalist Micah Singleton had hailed it as \"the best album of the 21st century, the best hip-hop album since The Notorious B.I.G.'s Ready to Die and Nas' Illmatic in 1994, and it cements Kendrick Lamar's spot as an all-time great.\"^([119]) The Tampa Bay Times placed the album as the second on their list of \"The 10 Best Albums of the 2010s\".^([120]) In September 2020, Rolling Stone released an updated version of their \"500 Greatest Albums of All Time\" list, based on the opinions of over 300 artists, music journalists, and industry insiders, which ranked To Pimp a Butterfly as the 19th-best album of all time.^([121]) To Pimp a Butterfly became the No. 1 overall ranked album on music cataloging website Rate Your Music in February 2023, surpassing Radiohead's OK Computer (1997) with an average rating of 4.34 out of 5 at the time of reaching that spot.^([122]) In 2024, Paste ranked To Pimp a Butterfly number 22 on its list of \"The 300 Greatest Albums of All Time\".^([123]) To Pimp a Butterfly also earned Lamar seven nominations at the 2016 Grammy Awards. It was nominated in the categories of Album of the Year and Best Rap Album, winning the latter but losing the former to Taylor Swift's 1989, regarded by many as a Grammy snub.^([124]) \"Alright\" won for Best Rap Performance and Best Rap Song while also being nominated for Song of the Year and Best Music Video.^([125]) \"These Walls\" won for Best Rap/Sung Performance.^([125]) He would also receive four additional nominations for other musical collaborations from that year, making it a total of eleven Grammy nominations for Lamar. This earned Lamar the most Grammy nominations for a rapper in a single night and the second most by any artist in a single night.^([126]) Michael Jackson and Kenneth \"Babyface\" Edmonds are tied for the artists with the most Grammy nominations in a single night with twelve; Jackson in 1984 and Babyface in 1997.^([126][127]) At the previous year's ceremony, \"I\" had won Grammy Awards for Best Rap Song and Best Rap Performance.^([128]) To Pimp a Butterfly also received a nomination for Top Rap Album at the 2016 Billboard Music Awards.^([129]) Legacy and impact [edit] The album's immediate influence was felt as \"a pantheon for racial empowerment\", according to Butler, who also argued that the record helped create a respected space for conscious hip-hop and \"will be revered not just at the top of some list at the end of the year, but in the subconscious of music fans for decades to come\".^([104]) Writing for Highsnobiety, Robert Blair said, \"[To Pimp a Butterfly] is the crystallized moment in time where Kendrick became a generation's most potent artistic voice.\"^([5]) Uproxx journalist Aaron Williams said the album \"proved that left-field, experimental rap can function in both the critical and commercial realms\".^([130]) Jazz saxophonist Kamasi Washington said that the album \"changed music, and we're still seeing the effects of it [...] [the album] meant that intellectually stimulating music doesn't have to be underground. It just didn't change the music. It changed the audience.\"^([5]) To Pimp a Butterfly was an influence on David Bowie's 2016 album Blackstar. As its producer Tony Visconti recalled, he and Bowie were \"listening to a lot of Kendrick Lamar [...] we loved the fact Kendrick was so open-minded and he didn't do a straight-up hip-hop record. He threw everything on there, and that's exactly what we wanted to do.\"^([131]) Track listing [edit] +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | No. | Title | Writer(s) | Producer(s) | Length | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 1. | \"Wesley's Theory\" (featuring George Clinton and Thundercat) | - Kendrick Duckworth | - Flying Lotus | 4:47 | | | | - George Clinton | - Flippa | | | | | - Steven Ellison | - Sounwave^([a]) | | | | | - Ronald Colson | - Thundercat^([a]) | | | | | - Stephen Bruner | | | | | | - Boris Gardiner^([b]) | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 2. | \"For Free? (Interlude)\" | - Duckworth | Martin | 2:10 | | | | - Terrace Martin | | | | | | - Rose McKinney | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 3. | \"King Kunta\" | - Duckworth | - Sounwave | 3:54 | | | | - Mark Spears | - Martin^([a]) | | | | | - Johnny Burns | | | | | | - Michael Jackson | | | | | | - Ahmad Lewis | | | | | | - Stefan Gordy | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 4. | \"Institutionalized\" (featuring Bilal, Anna Wise, and Snoop Dogg) | - Duckworth | - Rahki | 4:31 | | | | - Columbus Smith | - Tommy Black | | | | | - Fredrik Halldin | | | | | | - Sam Barsh | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 5. | \"These Walls\" (featuring Bilal, Anna Wise, and Thundercat) | - Duckworth | - Martin | 5:00 | | | | - Martin | - Dopson | | | | | - McKinney | - Sounwave^([a]) | | | | | - Larrance Dopson | | | | | | - James Fauntleroy | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 6. | \"U\" | - Duckworth | - Arnold | 4:28 | | | | - Taz Arnold | - Whoarei | | | | | - Michael Brown | - Sounwave^([a]) | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 7. | \"Alright\" | - Duckworth | - Williams | 3:39 | | | | - Spears | - Sounwave | | | | | - Pharrell Williams | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 8. | \"For Sale? (Interlude)\" | - Duckworth | - Arnold | 4:51 | | | | - Arnold | - Sounwave^([a]) | | | | | | - Martin^([a]) | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 9. | \"Momma\" | - Duckworth | - Knxwledge | 4:43 | | | | - Arnold | - Arnold | | | | | - Glen Boothe | | | | | | - Sylvester Stewart^([d]) | | | | | | - Lalah Hathaway^([d]) | | | | | | - Rahsaan Patterson^([d]) | | | | | | - Rex Rideout^([d]) | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 10. | \"Hood Politics\" | - Duckworth | - Tae Beast | 4:52 | | | | - Spears | - Sounwave | | | | | - Bruner | - Thundercat | | | | | - Donte Perkins | | | | | | - Sufjan Stevens^([e]) | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 11. | \"How Much a Dollar Cost\" (featuring James Fauntleroy and Ronald Isley) | - Duckworth | LoveDragon | 4:21 | | | | - McKinney | | | | | | - Fauntleroy | | | | | | - Martin | | | | | | - Josef Leimberg | | | | | | - Ronald Isley | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 12. | \"Complexion (A Zulu Love)\" (featuring Rapsody) | - Duckworth | - Thundercat | 4:23 | | | | - Bruner | - Sounwave | | | | | - Spears | - Martin^([a]) | | | | | - Marlanna Evans | - The Antydote^([a]) | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 13. | \"The Blacker the Berry\" | - Duckworth | - Boi-1da | 5:28 | | | | - Matthew Samuels | - KOZ | | | | | - Stephen Kozmeniuk | - Martin^([a]) | | | | | - Ken Lewis | | | | | | - Brent Kolatalo | | | | | | - Jefferey Campbell | | | | | | - Alexander Izquierdo | | | | | | - Zale Epstein | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 14. | \"You Ain't Gotta Lie (Momma Said)\" | - Duckworth | LoveDragon | 4:01 | | | | - Martin | | | | | | - McKinney | | | | | | - Leimberg | | | | | | - Spears | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 15. | \"I\" | - Duckworth | Rahki | 5:36 | | | | - Smith | | | | | | - Ro. Isley^([f]) | | | | | | - O'Kelly Isley, Jr.^([f]) | | | | | | - Ernie Isley^([f]) | | | | | | - Marvin Isley^([f]) | | | | | | - Rudolph Isley^([f]) | | | | | | - Christopher Jasper^([f]) | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | 16. | \"Mortal Man\" | - Duckworth | Sounwave | 12:07 | | | | - Spears | | | | | | - Bruner | | | | | | - Fela Anikulapo Kuti^([g]) | | | +-----------------+------------------------------------------------------------------------+-----------------------------+----------------------+-------------+ | Total length: | 78:51 | +-----------------------------------------------------------------------------------------------------------------------------------------------+-------------+ : Track listing {.tracklist} Notes - ^[a] signifies an additional producer - \"U\" and \"I\" are stylized in lowercase - The instrumental of \"Momma\" was originally released as \"So[Rt]\" by Knxwledge.^([132]) Sample credits [edit] - ^(^[b]) \"Wesley's Theory\" contains elements of \"Every Nigger Is a Star\", written and performed by Boris Gardiner. - ^(^[c]) \"King Kunta\" contains interpolations of \"Get Nekkid\", written by Johnny Burns; resung lyrics from \"Smooth Criminal\", written by Michael Jackson; elements from \"The Payback\", written by James Brown, Fred Wesley, and John Starks; and samples from \"We Want the Funk\", written by Ahmad Lewis and Stefan Gordy, and performed by Ahmad. - ^(^[d]) \"Momma\" contains elements of \"Wishful Thinking\", written by Sylvester Stewart and performed by Sly and the Family Stone; and elements and samples of \"On Your Own\", written by Lalah Hathaway, Rahsaan Patterson, and Rex Rideout and performed by Lalah Hathaway. - ^(^[e]) \"Hood Politics\" contains a sample of \"All for Myself\", written and performed by Sufjan Stevens. - ^(^[f]) \"I\" contains portions of \"That Lady\", written by Ronald Isley, Christopher Jasper, O'Kelly Isley, Jr., Ernie Isley, Marvin Isley, and Rudolph Isley and performed by the Isley Brothers. - ^(^[g]) \"Mortal Man\" contains excerpts from \"I No Get Eye for Back\", written by Fela Anikulapo Kuti and performed by Houston Person; and featuring parts from the music journalist Mats Nileskär's November 1994 interview with Tupac Shakur for P3 Soul in Sveriges Radio P3. Personnel [edit] Credits for To",
+      "retrievedAt": "2026-09-03T16:01:57.526Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 52459,
+        "fetchedTextLength": 102921,
+        "kind": "character-offsets",
+        "start": 11741
+      }
+    },
+    "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b": {
+      "artifactId": "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b",
+      "artifactSha256": "640a7a35fb9f24c97398a9ba0672fe919371b5292d6c16bc413d36cfb511b15b",
+      "canonicalUrl": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank19-tpab-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "br",
+      "contentType": "text/html; charset=utf-8",
+      "fetchedResponseSha256": "5a60b7f7332d77b8ec283ed4ed57050f19b1e25592467164556aff6e1684da27",
+      "finalUrl": "https://stereogum.com/1788180/whos-who-on-kendrick-lamars-to-pimp-a-butterfly/columns/sounding-board",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "rom a man renowned for hopping identities from character to outlandish character as a way of commenting on both the process of making music and the perceptions of (and within) black communities everywhere is even more of a fitting touch than the burbly Parliament-isms in the production. Thundercat TPAB Contributions: co-production on \"Wesley's Theory,\" \"Hood Politics,\" and \"Complexion (A Zulu Love)\"; additional bass on \"King Kunta,\" \"These Walls,\" \"The Blacker The Berry,\" \"i,\" and \"Mortal Man\"; background vocals on \"Alright\" and \"You Ain't Gotta Lie (Momma Said)\" You could call Stephen Bruner FlyLo's sideman, or cohort, or songwriting partner, or what-have-you -- in any case, he's been an integral component of Flying Lotus' sound since Cosmogramma and has been expanding his own bass-virtuoso role into something wider and more versatile since 2013's Apocalypse showed off his ambitious range. (Which was more characteristic, the boogie-funk ecstasy freakout or the orchestral soul-jazz suite in memory of a lost friend? Well, why choose?) Thundercat's bass i",
+      "retrievedAt": "2026-09-03T16:01:57.791Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 5608,
+        "fetchedTextLength": 13786,
+        "kind": "character-offsets",
+        "start": 4539
+      }
+    }
+  }
+}
