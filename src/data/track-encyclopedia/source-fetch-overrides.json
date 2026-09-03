@@ -5,6 +5,11 @@
       "fetchUrl": "https://web.archive.org/web/20240625090857id_/https://www.musicradar.com/news/fleetwood-mac-rumours-interview-track-by-track",
       "collectionMethod": "archive-http-fetch",
       "reason": "The live page no longer exposes the retained 2012 track-by-track interview body; use a legitimate Wayback capture of the original URL."
+    },
+    "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf": {
+      "fetchUrl": "https://web.archive.org/web/20260823053427id_/https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+      "collectionMethod": "archive-http-fetch",
+      "reason": "The live Library of Congress PDF endpoint returns HTTP 403; use a legitimate Wayback capture of the original URL."
     }
   }
 }

@@ -1,0 +1,787 @@
+{
+  "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+  "editionNumber": 1,
+  "published": false,
+  "changeNote": "Complete all sixteen Miseducation catalog tracks with track-specific evidence and independent semantic review.",
+  "trackEntries": [
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Intro",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:1:fact-1",
+          "claim": "The Library of Congress National Recording Registry essay notes that the album opens with a teacher alphabetically calling roll, reaching Hill’s name several times with no answer before beginning to teach, and that the teacher was Ras Baraka, a poet, eighth-grade teacher, and later mayor of Newark.",
+          "sourceRefs": [
+            {
+              "label": "Library of Congress National Recording Registry essay by Paula Mejia",
+              "title": "The Miseducation of Lauryn Hill (National Recording Registry essay)",
+              "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+              "sourceIdentity": "loc.gov|National Recording Registry Miseducation essay",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Consider how the album kicks off with a teacher alphabetically calling roll. He reaches Hill’s name, calling it out several times. She’s nowhere to be found, so he moves on and begins to teach. Ras Baraka, a poet, eighth-grade teacher, and later mayor of Newark, led the lesson",
+              "artifactId": "4459e910afed80582368cdb479548d62d79ce52ba70cd9e4011752d9fb2e6e03",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3168,
+                "end": 3445
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Library of Congress National Recording Registry essay by Paula Mejia",
+          "title": "The Miseducation of Lauryn Hill (National Recording Registry essay)",
+          "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Lost Ones",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:2:fact-1",
+          "claim": "Producer Vada Nobles says “Lost Ones” was made at the Bob Marley Museum on 56 Hope Road, which is why Hill raps “I was hopeless, now I’m on Hope Road.”",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: We stayed way up in the hills and Rohan would take us to the studio. He would fly in that BMW around curves, he was messing with us. I remember being scared for my life. “Forgive Them Father” and “Lost Ones” were made at the Bob Marley Museum on 56 Hope Road. That’s why on “Lost Ones” she says, “I was hopeless, now I’m on Hope Road.”",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4908,
+                "end": 5251
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Ex-Factor",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:3:fact-1",
+          "claim": "Producer Vada Nobles says there was a female group called Ex Factor signed to Arista and they did a song called “Ex Factor” for them, and that it and “Loved Real Hard Once” (later retitled “When It Hurts So Bad”) were the first two records worked on.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: There was a female group called Ex Factor signed to Arista and we did a song called “Ex Factor” for them. And then we started working on a song called “Loved Real Hard Once” — the title got switched [to “When It Hurts So Bad”]. Those were the first two records that we worked on.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 787
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "To Zion (feat. Carlos Santana)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:4:fact-1",
+          "claim": "Producer Che Vicious says he made the “Zion” track during one of his 20-minute sessions in a hot Brooklyn brownstone studio, and that Hill teared up saying she had the idea for a song about her baby but did not know what the music should sound like until she heard that track.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Che Vicious: I’d gotten into a bunch of Spanish records. I lived in a brownstone in Brooklyn and there was this little studio apartment on the top floor that didn’t have air conditioning. I could only go in there for 20 minutes at a time to make tracks because it was too hot. And one of those 20 minutes is when I made “Zion.” I came in with the track and Lauryn teared up and said, “I have this idea to do a song about my baby and I didn’t know what the music should sound like until I heard that track.”",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2054,
+                "end": 2560
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Doo Wop (That Thing)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:5:fact-1",
+          "claim": "Producer Vada Nobles says the title “Doo Wop (That Thing)” came off a box set labeled “doo wop” sitting on the floor, and that he added a heavy drum to give the music a hip-hop edge.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: There was a box set that said “doo wop” sitting on the floor — the title for her single “Doo Wop (That Thing)” came off that box. We were making a song warning women about slick men, but there’s some bad girls out here, so we gotta tell both sides. I thought the music was cheesy, it wasn’t hard enough, so I put a really heavy drum in there just to give it some edge, something hip-hop.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3301,
+                "end": 3696
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Superstar",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:6:fact-1",
+          "claim": "Engineer Commissioner Gordon Williams says that when James Poyser came in for “Superstar,” they rented a harpsichord so old it fell out of tune quickly, requiring a tuner to be present.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Commissioner Gordon: When I mixed “Doo Wop” at Sony Studios, it was 128 tracks — two 48-track machines plus two 24 two-inch machines all running at the same time. When James Poyser came in for “Superstar,” we rented a harpsichord that was so old it fell out of tune really quickly so we had to have the tuner actually there. By the time James finished playing it once it was out of tune.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4274,
+                "end": 4661
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Final Hour",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:7:fact-1",
+          "claim": "The Library of Congress National Recording Registry essay says that on “Final Hour” Hill breaks down why she is one of the finest wordsmiths of her generation, quoting “I treat this like my thesis / Well-written topic, broken down into pieces / I introduce then produce.”",
+          "sourceRefs": [
+            {
+              "label": "Library of Congress National Recording Registry essay by Paula Mejia",
+              "title": "The Miseducation of Lauryn Hill (National Recording Registry essay)",
+              "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+              "sourceIdentity": "loc.gov|National Recording Registry Miseducation essay",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "On the unstoppable “Final Hour,” for instance, she breaks down exactly why it is that she’s one of the finest wordsmiths of her generation: “I treat this like my thesis / Well- written topic, broken down into pieces / I introduce then produce / Words so profuse it's abuse how I juice up this beat,” she raps, showing us a glimpse into her process.",
+              "artifactId": "4459e910afed80582368cdb479548d62d79ce52ba70cd9e4011752d9fb2e6e03",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 848
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Library of Congress National Recording Registry essay by Paula Mejia",
+          "title": "The Miseducation of Lauryn Hill (National Recording Registry essay)",
+          "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "When It Hurts so Bad",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:8:fact-1",
+          "claim": "Producer Vada Nobles says the song “Loved Real Hard Once” had its title switched to “When It Hurts So Bad.”",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: There was a female group called Ex Factor signed to Arista and we did a song called “Ex Factor” for them. And then we started working on a song called “Loved Real Hard Once” — the title got switched [to “When It Hurts So Bad”].",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 735
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "I Used to Love Him (feat. Mary J. Blige)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:9:fact-1",
+          "claim": "Producer Vada Nobles says “I Used to Love Him” came about during a conversation about Hill’s relationship in the little attic studio in South Orange, and that it was about ‘Clef.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: There was a female group called Ex Factor signed to Arista and we did a song called “Ex Factor” for them. And then we started working on a song called “Loved Real Hard Once” — the title got switched [to “When It Hurts So Bad”]. Those were the first two records that we worked on. We were making songs for other people and the songs started becoming too personal and we were like, wait a minute, this is your story. We were having a conversation about her relationship in the little studio in her attic in South Orange, and that’s how “I Used to Love Him” came about. It was about ‘Clef.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 1094
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Forgive Them Father",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:10:fact-1",
+          "claim": "Producer Vada Nobles says “Forgive Them Father” was made at the Bob Marley Museum on 56 Hope Road.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Nobles: We stayed way up in the hills and Rohan would take us to the studio. He would fly in that BMW around curves, he was messing with us. I remember being scared for my life. “Forgive Them Father” and “Lost Ones” were made at the Bob Marley Museum on 56 Hope Road.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 4908,
+                "end": 5175
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Every Ghetto, Every City",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:11:fact-1",
+          "claim": "GRAMMY.com notes that when Hill says “Jack ya, jack ya, jack ya body” in “Every Ghetto, Every City,” she is referencing the 1986 club anthem “Jack Your Body” by Chicago DJ/producer Steve ‘Silk’ Hurley.",
+          "sourceRefs": [
+            {
+              "label": "GRAMMY.com 25 facts about The Miseducation of Lauryn Hill",
+              "title": "'The Miseducation Of Lauryn Hill': 25 Facts About The Iconic Album, From Its Cover To Its Controversy",
+              "url": "https://www.grammy.com/news/the-miseducation-of-lauryn-hill-facts-cover-controversy-records-anniversary-tour",
+              "sourceIdentity": "grammy.com|Miseducation 25 facts",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "When she says, \"Jack ya, jack ya, jack ya body\" in \"Every Ghetto, Every City,\" she is referencing the 1986 club anthem \"Jack Your Body\" by Chicago DJ/producer Steve 'Silk' Hurley.",
+              "artifactId": "dcd10ce08663de2934022bcba18361828a3b3e0aee0349e463947e17987383ca",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 679
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:11:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "GRAMMY.com 25 facts about The Miseducation of Lauryn Hill",
+          "title": "'The Miseducation Of Lauryn Hill': 25 Facts About The Iconic Album, From Its Cover To Its Controversy",
+          "url": "https://www.grammy.com/news/the-miseducation-of-lauryn-hill-facts-cover-controversy-records-anniversary-tour"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Nothing Even Matters (feat. D'Angelo)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:12:fact-1",
+          "claim": "D’Angelo says that when he and Hill went into the studio together, he laid down his vocals in the course of an hour.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "D’Angelo: Collaborating with Lauryn was very cool. She was warm and sweet. Originally, we were going to swap tunes for each other’s projects because I was working on Voodoo at the same time and my keyboardist James Poyser was also working with her. I went to her house in New Jersey, she played a lot of songs for me and gave me a rough copy to listen to. When Lauryn and I went into in the studio together, I laid down my vocals in the course of an hour.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7342,
+                "end": 7797
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:12:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Everything Is Everything",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:13:fact-1",
+          "claim": "John Legend says Hill asked him to play piano on “Everything Is Everything,” and that he was playing along with a string part that was already there.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "John Legend: I was in the spring of my junior year at University of Pennsylvania. A friend invited me to give her a ride to Lauryn’s house in Jersey. Lauryn was working “Everything Is Everything.” I sang and played a couple songs for her. She asked me to play piano on the track. She guided me a little bit but it was pretty simple because I was playing along with a string part that was already there.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8128,
+                "end": 8530
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:13:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 14,
+      "trackTitle": "The Miseducation of Lauryn Hill",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:14:fact-1",
+          "claim": "Pitchfork’s Sunday Review writes that on the title track Hill “reaches the apogee of this cycle by learning love of self.”",
+          "sourceRefs": [
+            {
+              "label": "Pitchfork Sunday Review by Carvell Wallace",
+              "title": "Lauryn Hill: The Miseducation of Lauryn Hill Album Review",
+              "url": "https://pitchfork.com/reviews/albums/22035-the-miseducation-of-lauryn-hill",
+              "sourceIdentity": "pitchfork.com|Carvell Wallace Miseducation review",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "On “To Zion” she is breathless, learning love of God through love of her child; on “When It Hurts So Bad,” she learns (painfully) about the love others, and on the title track, she reaches the apogee of this cycle by learning love of self.",
+              "artifactId": "0fe8073b60d1f5907ce0d7b30846eadd58d6aa59fff506d0ec0b105c87b8fdb6",
+              "section": {
+                "kind": "character-offsets",
+                "start": 499,
+                "end": 738
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:14:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Pitchfork Sunday Review by Carvell Wallace",
+          "title": "Lauryn Hill: The Miseducation of Lauryn Hill Album Review",
+          "url": "https://pitchfork.com/reviews/albums/22035-the-miseducation-of-lauryn-hill"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 15,
+      "trackTitle": "Can't Take My Eyes Off of You (I Love You Baby)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:15:fact-1",
+          "claim": "Engineer Commissioner Gordon Williams says “Can’t Take My Eyes Off of You” was never meant to be a commercial single, and was originally recorded for the Conspiracy Theory soundtrack.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Commissioner Gordon: “Can’t Take My Eyes Off of You” was never meant to be a commercial single. It was originally recorded for [the soundtrack for the movie] Conspiracy Theory and ended up on the radio, became popular, and that’s how it ended became a bonus track.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8691,
+                "end": 8955
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:15:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Tell Him",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:16:fact-1",
+          "claim": "Backup singer Candice Anderson says “Tell Him” took a while because Hill is very particular about how she wants it to sound.",
+          "sourceRefs": [
+            {
+              "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+              "title": "Inside 'The Miseducation of Lauryn Hill'",
+              "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219",
+              "sourceIdentity": "rollingstone.com|Miseducation of Lauryn Hill oral history",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Candice Anderson (backup singer): I came in during the last two songs. I had just auditioned at her house and they were like, come to Chung King. I had no clue what was going on but she told us what to sing. “Tell Him” took a while because she’s very particular about how she wants it to sound.",
+              "artifactId": "9f33202438635ae677b7703b05ae7cf9bf8549581da2e2b0e2816825206cbff9",
+              "section": {
+                "kind": "character-offsets",
+                "start": 9429,
+                "end": 9723
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8",
+            "decisionId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:16:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed production/recording statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Rolling Stone oral history of The Miseducation of Lauryn Hill",
+          "title": "Inside 'The Miseducation of Lauryn Hill'",
+          "url": "https://www.rollingstone.com/music/music-news/inside-the-miseducation-of-lauryn-hill-252219"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "generator": "codex-rank10-track-encyclopedia-author",
+    "model": "gpt-5-codex"
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-03T00:00:00.000Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review 4082c52a79052a8a9819a7998e4708c6c674a94a2ebcb74890a5e61426799cf8."
+  },
+  "contentHash": "a5b704c0a30f7f11"
+}
