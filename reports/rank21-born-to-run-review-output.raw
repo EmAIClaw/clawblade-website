@@ -1,0 +1,931 @@
+OpenAI Codex v0.147.0
+--------
+workdir: /Users/ai/.hermes/workspace/projects/albumvault
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a06832-0351-74d0-aca6-df23cde0dade
+--------
+user
+You are a separate read-only semantic evidence reviewer for AlbumVault Track Encyclopedia.
+
+Repository: /Users/ai/.hermes/workspace/projects/albumvault
+Review input JSON: reports/rank21-born-to-run-review-input.json
+
+The review input JSON has this exact structure (do NOT explore with jq; just read the file):
+{
+  "schemaVersion": 1,
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "candidateContentHash": "<sha256>",
+  "candidate": {
+    "albumId": "...",
+    "editionNumber": 1,
+    "generationMetadata": { "generator": "codex-rank21-track-encyclopedia-author", ... },
+    "trackEntries": [
+      {
+        "albumId": "...", "discNumber": 1, "trackNumber": N, "trackTitle": "...",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-...:1:N:fact-1",
+            "claim": "<the candidate claim sentence>",
+            "sourceRefs": [
+              {
+                "label": "...", "title": "...", "url": "https://...",
+                "sourceIdentity": "...", "extractType": "verbatim",
+                "evidenceStatus": "retrieved", "checkedAt": "2026-09-03",
+                "extract": "<verbatim excerpt>",
+                "artifactId": "<64-hex>",
+                "section": { "kind": "character-offsets", "start": N, "end": N }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "", "albumContext": "", "listeningNotes": "",
+        "limitations": [...], "sourceRefs": [...]
+      },
+      ... 8 total trackEntries ...
+    ]
+  },
+  "sourceArtifacts": {
+    "<64-hex artifactId>": { "canonicalUrl": "...", "retainedText": "<long text>", "window": {...}, ... },
+    ...
+  }
+}
+
+Rules:
+- Do not modify files.
+- Read the review input JSON and the referenced sourceArtifacts inside it.
+- For each candidate verified fact (8 total, one per track), verify mechanically and semantically:
+  1. the referenced artifact exists in sourceArtifacts;
+  2. the claim's sourceRefs artifactIds and canonical URLs match the artifact/source binding;
+  3. the sourceRef section character offsets slice the artifact retainedText to the exact retained extract after normal project normalization/whitespace expectations;
+  4. the retained extract genuinely supports the candidate claim without relying on unsourced inference, generic album prose, title restatement, track position, duration, or listening analysis;
+  5. the claim is track-specific for the stated catalog track and does not borrow evidence from a different track.
+- Decide every candidate claim exactly once: supported, unsupported, or uncertain.
+- Be strict. If the evidence is too generic, does not support the full claim, or is not inspectable, mark unsupported or uncertain with rationale.
+
+Output only one JSON object to stdout, no markdown, no prose, using this exact shape:
+{
+  "schemaVersion": 1,
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "candidateContentHash": "<from input>",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank21-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "<ISO timestamp>",
+  "decisions": [
+    {
+      "claimId": "same as candidate claimId",
+      "decisionId": "same as claimId",
+      "decision": "supported|unsupported|uncertain",
+      "artifactIds": ["artifact ids exactly as in candidate sourceRefs"],
+      "sourceUrls": ["canonical source URLs exactly as in candidate sourceRefs"],
+      "rationale": "specific evidence-based rationale"
+    }
+  ]
+}
+
+The decisions array must include all 8 candidate claims and no extra claims.
+
+
+IMPORTANT: After you finish verifying all 8 claims, you MUST emit the final JSON object (the schemaVersion/albumId/editionNumber/candidateContentHash/reviewer/reviewedAt/decisions shape) as the LAST thing in your response. Do not stop after the per-track inspection. Every decision must be "supported" only if the offsetmatch is True AND the extract genuinely supports the full claim. Emit the JSON now.
+
+exec
+/bin/zsh -lc 'cat reports/rank21-born-to-run-review-input.json' in /Users/ai/.hermes/workspace/projects/albumvault
+ succeeded in 0ms:
+{
+  "schemaVersion": 1,
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "candidateContentHash": "9b7d6ea945cf6feb0bc71074db3bffbffe0e8b67d4968780121ad36058852edf",
+  "candidate": {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank21-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Thunder Road",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+            "claim": "Wikipedia states that \"Thunder Road\" was written by Springsteen while at his living room piano in Long Branch, New Jersey.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Thunder Road (song) article",
+                "title": "Thunder Road (song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Thunder_Road_(song)",
+                "sourceIdentity": "en.wikipedia.org|Thunder Road (song) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Thunder Road\" was written by Springsteen while at his living room piano in Long Branch, New Jersey.",
+                "artifactId": "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 600
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Thunder Road (song) article",
+            "title": "Thunder Road (song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Thunder_Road_(song)"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "Tenth Avenue Freeze-Out",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1",
+            "claim": "Wikipedia states that \"Tenth Avenue Freeze-Out\" tells the story of the formation of the E Street Band.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Tenth Avenue Freeze-Out article",
+                "title": "Tenth Avenue Freeze-Out - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out",
+                "sourceIdentity": "en.wikipedia.org|Tenth Avenue Freeze-Out article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The song tells the story of the formation of the E Street Band.",
+                "artifactId": "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 563
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Tenth Avenue Freeze-Out article",
+            "title": "Tenth Avenue Freeze-Out - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "Night",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1",
+            "claim": "Wikipedia states that the music of \"Night\" is propelled by Garry Tallent's bass guitar.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Night (Bruce Springsteen song) article",
+                "title": "Night (Bruce Springsteen song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)",
+                "sourceIdentity": "en.wikipedia.org|Night (Bruce Springsteen song) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The music is propelled by Garry Tallent's bass guitar.",
+                "artifactId": "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 554
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Night (Bruce Springsteen song) article",
+            "title": "Night (Bruce Springsteen song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Backstreets",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1",
+            "claim": "Wikipedia states that \"Backstreets\" begins with a minute-long instrumental introduction that features pianist Roy Bittan playing both piano and organ, with only occasional traces of any other instruments being heard.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Backstreets article",
+                "title": "Backstreets - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Backstreets_(song)",
+                "sourceIdentity": "en.wikipedia.org|Backstreets article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Backstreets\" begins with a minute-long instrumental introduction that features pianist Roy Bittan playing both piano and organ, with only occasional traces of any other instruments being heard.",
+                "artifactId": "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 694
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Backstreets article",
+            "title": "Backstreets - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Backstreets_(song)"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Born to Run",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+            "claim": "Wikipedia states that in late 1973, on the road in Tennessee, Springsteen awoke with the title \"Born to Run\", which he wrote down.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Born to Run (song) article",
+                "title": "Born to Run (song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Born_to_Run_(song)",
+                "sourceIdentity": "en.wikipedia.org|Born to Run (song) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "In late 1973, on the road in Tennessee, Springsteen awoke with the title \"Born to Run\", which he wrote down.",
+                "artifactId": "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 608
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Born to Run (song) article",
+            "title": "Born to Run (song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Born_to_Run_(song)"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "She's the One",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1",
+            "claim": "Wikipedia states that Springsteen has claimed that he wrote \"She's the One\" primarily because he wanted to hear E Street Band saxophonist Clarence Clemons play its sax solo, and after he wrote the melody he then changed his mind.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia She's the One (Bruce Springsteen song) article",
+                "title": "She's the One (Bruce Springsteen song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)",
+                "sourceIdentity": "en.wikipedia.org|She's the One (Bruce Springsteen song) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Springsteen has claimed that he wrote the song primarily because he wanted to hear E Street Band saxophonist Clarence Clemons play its sax solo, and after he wrote the melody he then changed his mind.",
+                "artifactId": "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 499,
+                  "end": 699
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia She's the One (Bruce Springsteen song) article",
+            "title": "She's the One (Bruce Springsteen song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Meeting Across the River",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1",
+            "claim": "Wikipedia states that \"Meeting Across the River\" is a dark character sketch featuring a soft, haunting trumpet played by Randy Brecker, piano backing from E Street Band member Roy Bittan and upright bass from jazz veteran Richard Davis.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Meeting Across the River article",
+                "title": "Meeting Across the River - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Meeting_Across_the_River",
+                "sourceIdentity": "en.wikipedia.org|Meeting Across the River article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The song is a dark character sketch featuring a soft, haunting trumpet played by Randy Brecker, piano backing from E Street Band member Roy Bittan and upright bass from jazz veteran Richard Davis.",
+                "artifactId": "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 696
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Meeting Across the River article",
+            "title": "Meeting Across the River - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Meeting_Across_the_River"
+          }
+        ]
+      },
+      {
+        "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Jungleland",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+            "claim": "Wikipedia states that \"Jungleland\" features short-time E Streeter Suki Lahav, who performs the delicate 23-note violin introduction to the song, accompanied by Roy Bittan on piano in the opening.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Jungleland article",
+                "title": "Jungleland - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Jungleland",
+                "sourceIdentity": "en.wikipedia.org|Jungleland article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "It also features short-time E Streeter Suki Lahav, who performs the delicate 23-note violin introduction to the song, accompanied by Roy Bittan on piano in the opening.",
+                "artifactId": "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 668
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Jungleland article",
+            "title": "Jungleland - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Jungleland"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6": {
+      "artifactId": "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6",
+      "artifactSha256": "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Thunder_Road_(song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "8b0d6f829a1c58a909422f7a84dc0c98b0d581ffe6f338e46d2e05fe3fd21cbb",
+      "finalUrl": "https://en.wikipedia.org/wiki/Thunder_Road_(song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "-----------------------------------------------------+ \"Thunder Road\" is a song written and recorded by American singer-songwriter Bruce Springsteen. It is the opening track on his breakthrough album Born to Run. While never charting substantially as a single, \"Thunder Road\" is nevertheless considered one of Springsteen's greatest songs and one of the top rock songs in history. It is ranked number 111 on Rolling Stone's 500 Greatest Songs of All Time list.^([1]) Composition and recording [edit] \"Thunder Road\" was written by Springsteen while at his living room piano in Long Branch, New Jersey.^([2]) In October 1974, it existed as a solo recording, \"Chrissie's Song\", that included the line, \"leave what you've lost, leave what's grown cold, Thunder Road\".^([3]) By early 1975, Springsteen had combined lyrics from another composition, \"Walking in the Street\", forming a new song, \"Wings for Wheels\", which he debuted on February 5, 1975, at a benefit for a local club, The Main Point, radio broadcast in the Philadelphia area, and featuring four yet-to-be-released Born to Run songs. Still un",
+      "retrievedAt": "2026-09-03T16:53:18.963Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3744,
+        "fetchedTextLength": 25905,
+        "kind": "character-offsets",
+        "start": 2644
+      }
+    },
+    "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903": {
+      "artifactId": "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903",
+      "artifactSha256": "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "4866d7cb9445f3a3c08f70b069373c6556fad09d23869c7d3e90a5e18ccf5f1b",
+      "finalUrl": "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "---------------------+ | ----------------------- --------------------------- ----------------------- | | \"Born to Run\" \"Tenth Avenue Freeze-Out\" \"Prove It All Night\" | | (1975) (1976) (1978) | | | | ----------------------- --------------------------- ----------------------- | +-----------------------------------------------------------------------------------+ \"Tenth Avenue Freeze-Out\" is a song by the American singer-songwriter Bruce Springsteen, from his 1975 album Born to Run. Content [edit] The song tells the story of the formation of the E Street Band. The meaning of the title is unclear. Springsteen says in the Born to Run documentary Wings for Wheels: The Making of Born to Run: \"I still have no idea what it means. But it's important.\"^([3]) The song's protagonist, \"Bad Scooter\", is a pseudonym for Springsteen himself (as indicated by the initials they share). In the third verse, \"Big Man joined the band\" refers to Clarence Clemons, the band's long-time saxophonist. As stated by Springsteen in the Wings for Wheels documentary, the idea for t",
+      "retrievedAt": "2026-09-03T16:53:19.606Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 5306,
+        "fetchedTextLength": 18067,
+        "kind": "character-offsets",
+        "start": 4243
+      }
+    },
+    "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f": {
+      "artifactId": "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f",
+      "artifactSha256": "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "d09ec8a299443ba2a1c28c6f1b1721c1702b00afa65b319214255d7cfa35f038",
+      "finalUrl": "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "though this is one of the lesser known songs from Born to Run, \"Night\" has become somewhat of a stage favorite for the E Street Band. The song was not immediately played during the 1975 portions of the Born to Run Tour, but later became a frequent set-opener, especially during the 1976 and 1977 legs. It was still sometimes being used as an opening song decades later during the 2007–2008 Magic Tour. The mood of the music is mostly exciting as are the lyrics which have a romantic quality as well. The music is propelled by Garry Tallent's bass guitar.^([1]) It is similar to the album's famous title track in that both songs deal with men and their fast cars.^([2]) The lyrics mostly describe the central character as a blue collar worker who, after working a full day, runs off into the night to go drag racing and search for the love of a woman.^([2]) For the protagonist, the only freedom and joy comes when he is on the highway, and he lives for the nights and weekends when he can escape work.^([3]) Like a couple of other songs on Born to Run, \"",
+      "retrievedAt": "2026-09-03T16:53:20.108Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2093,
+        "fetchedTextLength": 13160,
+        "kind": "character-offsets",
+        "start": 1039
+      }
+    },
+    "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11": {
+      "artifactId": "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11",
+      "artifactSha256": "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Backstreets_(song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "24ddb71ecf371b942f01e12d45006b827473b7fdba7165c457c7673d8f995765",
+      "finalUrl": "https://en.wikipedia.org/wiki/Backstreets_(song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "------------+ | Label | Columbia | +---------------+-------------------------------------------+ | Songwriter | Bruce Springsteen | +---------------+-------------------------------------------+ | Producers | Bruce Springsteen, Jon Landau, Mike Appel | +---------------+-------------------------------------------+ \"Backstreets\" is a song by Bruce Springsteen from the album Born to Run, which was released in 1975. In the original vinyl release, it concludes side one of the record. Structure [edit] \"Backstreets\" begins with a minute-long instrumental introduction that features pianist Roy Bittan playing both piano and organ, with only occasional traces of any other instruments being heard. In his review of Born to Run for Rolling Stone, writer Greil Marcus said: \"Backstreets\" ... begins with music so stately, so heartbreaking, that it might be the prelude to a rock & roll version of The Iliad.^([1]) \"Backstreets\" has also been interpreted as a narrative about a homosexual relationship because the name Terry is sexually ambiguous.^([2][3]) It has also been said to potentially represent a platonic but intense friendship between two men that has faded.^([2][3]) However, listening to",
+      "retrievedAt": "2026-09-03T16:53:20.454Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2045,
+        "fetchedTextLength": 14145,
+        "kind": "character-offsets",
+        "start": 851
+      }
+    },
+    "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61": {
+      "artifactId": "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61",
+      "artifactSha256": "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Born_to_Run_(song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "8cdcaf4538cc36aa71cb1fbc8155faa6a19eb19817d4bb9b45cef7fbf7e315a6",
+      "finalUrl": "https://en.wikipedia.org/wiki/Born_to_Run_(song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "itical acclaim and is considered Springsteen's signature song. It was ranked number 27 on Rolling Stone's 2021 list of the \"500 Greatest Songs of All Time\", the highest placement for a song by Springsteen. It was also included in The Rock and Roll Hall of Fame's 500 Songs that Shaped Rock and Roll.^([5]) Upon release, music critic Robert Christgau took note of its wall of sound influence and called it \"the fulfillment of everything 'Be My Baby' was about and lots more\".^([6]) Composition [edit] In late 1973, on the road in Tennessee, Springsteen awoke with the title \"Born to Run\", which he wrote down. According to him, it was the first spark of the later song.^([7]) Written in the first person, the song is a love letter to a girl named Wendy, for whom the hot rod-riding protagonist seems to possess the passion to love, just not the patience. However, Springsteen has noted that it has a much simpler core: getting out of Freehold. U.S. Route 9, a highway passing through Freehold, is mentioned from the lyric \"sprung from cages out on Highway 9\".^([8]) In his 1996 book Songs, Springsteen relates",
+      "retrievedAt": "2026-09-03T16:53:20.617Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 4218,
+        "fetchedTextLength": 30755,
+        "kind": "character-offsets",
+        "start": 3110
+      }
+    },
+    "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832": {
+      "artifactId": "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832",
+      "artifactSha256": "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "c03663ac020d6315d8bd3cfe41a74a452d1369ebc499a5554ec232c94bc5d618",
+      "finalUrl": "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Diddley\" or \"Mona\".^([6]) The percussive piano sound and the rhythms that are reminiscent of some Buddy Holly songs sound like an homage to older rock 'n' roll songs.^([3]) \"She's the One\" has connections with other Springsteen songs. The line from \"Backstreets\", \"I hated you when you went away\" was originally a line in \"She's the One\".^([3]) \"She's the One\" includes references to French cream and French kisses, which were originally included in an early Springsteen song, \"Santa Ana\".^([3][6]) Springsteen has claimed that he wrote the song primarily because he wanted to hear E Street Band saxophonist Clarence Clemons play its sax solo, and after he wrote the melody he then changed his mind.^([1]) Live performances [edit] [] The song has become very popular live, and has been played 565 times as of 2023.^([7]) Some fans have claimed that \"She's the One\" and \"Born to Run\" were first played at a concert where Springsteen opened for Bonnie Raitt at Harvard Square Theater in Cambridge, Massachusetts on May 9, 1974.^([8]) This has never been confirmed, and bootlegs of the concert do not contain either of these songs.^([8]) The first confirmed live performance of the song was on October",
+      "retrievedAt": "2026-09-03T16:53:21.382Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3653,
+        "fetchedTextLength": 14497,
+        "kind": "character-offsets",
+        "start": 2455
+      }
+    },
+    "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37": {
+      "artifactId": "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37",
+      "artifactSha256": "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Meeting_Across_the_River",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "e3d3568e6c30025089953aad301a9816eedbe6dca19eca61d37e36a44695a19b",
+      "finalUrl": "https://en.wikipedia.org/wiki/Meeting_Across_the_River",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "-----------+ | Producers | Bruce Springsteen, Jon Landau and Mike Appel | +---------------+----------------------------------------------+ \"Meeting Across the River\" is the seventh track on Bruce Springsteen's 1975 album, Born to Run; it also appeared as the B-side of \"Born to Run\", the lead single from that album. The song is often paired with \"Jungleland\" in concert, though without the Randy Brecker trumpet part from the record and with regular bass guitarist Garry Tallent. Description [edit] The song is a dark character sketch featuring a soft, haunting trumpet played by Randy Brecker, piano backing from E Street Band member Roy Bittan and upright bass from jazz veteran Richard Davis. Brecker's jazz-inspired horn part adds poignancy to the song and suggests a film noir feel.^([1][2]) The lyrical, understated track forms a bridge between the uptempo \"She's the One\" and the album's epic finale, \"Jungleland\".^([3]) It also forms a bridge between the New Jersey–based songs throughout the Born to Run album and the New York City setting of \"Jungleland\".^([2]) Presumably, the men in \"Meeting Across the River\" are heading through \"the tunnel\" under the Hudson River from New Jersey t",
+      "retrievedAt": "2026-09-03T16:53:21.518Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3162,
+        "fetchedTextLength": 13773,
+        "kind": "character-offsets",
+        "start": 1966
+      }
+    },
+    "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93": {
+      "artifactId": "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93",
+      "artifactSha256": "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Jungleland",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank21-born-to-run-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "75a83cbe85dbeb0a3ba914b8c4cf268e929908258dc9844dcc2709daff275ed0",
+      "finalUrl": "https://en.wikipedia.org/wiki/Jungleland",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "er | Bruce Springsteen | +-------------------------------------+-----------------------------------------+ | Producers | - Bruce Springsteen | | | - Mike Appel | +-------------------------------------+-----------------------------------------+ \"Jungleland\" is a song by the American singer-songwriter Bruce Springsteen from his 1975 album Born to Run as its closing track. Over nine minutes in length, it contains one of the E Street Band saxophonist Clarence Clemons' most recognizable solos.^([1]) It also features short-time E Streeter Suki Lahav, who performs the delicate 23-note violin introduction to the song, accompanied by Roy Bittan on piano in the opening. Recording [edit] Though much is made of the six months it took to record the track \"Born to Run\", \"Jungleland\" was not completed until 19 months after its first rehearsal take on January 8, 1974, at 914 Sound Studios, Blauvelt, New York. It was on July 12, 1974, at The Bottom Line, New York, that Springsteen finally decided to debut it live; at this juncture it is still very much of a piece like other jazzed-up mini-operas from The Wild, The Innocent and the E Street Shuffle, influenced by Davi",
+      "retrievedAt": "2026-09-03T16:53:22.145Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2520,
+        "fetchedTextLength": 20627,
+        "kind": "character-offsets",
+        "start": 1352
+      }
+    }
+  }
+}
+
+exec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\"); const p=\"reports/rank21-born-to-run-review-input.json\"; const data=JSON.parse(fs.readFileSync(p,\"utf8\")); for (const te of data.candidate.trackEntries){ const vf=te.verifiedFacts[0]; for (const sr of vf.sourceRefs){ const art=data.sourceArtifacts[sr.artifactId]; const slice=art?art.retainedText.slice(sr.section.start, sr.section.end):null; console.log(JSON.stringify({track:te.trackNumber,title:te.trackTitle,claimId:vf.claimId,artifactExists:"'!!art,urlMatches:art && sr.url===art.canonicalUrl,sourceUrl:art&&art.canonicalUrl,extractMatches:slice===sr.extract,slice,extract:sr.extract})); } }'"'" in /Users/ai/.hermes/workspace/projects/albumvault
+ succeeded in 0ms:
+{"track":1,"title":"Thunder Road","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Thunder_Road_(song)","extractMatches":true,"slice":"\"Thunder Road\" was written by Springsteen while at his living room piano in Long Branch, New Jersey.","extract":"\"Thunder Road\" was written by Springsteen while at his living room piano in Long Branch, New Jersey."}
+{"track":2,"title":"Tenth Avenue Freeze-Out","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out","extractMatches":true,"slice":"The song tells the story of the formation of the E Street Band.","extract":"The song tells the story of the formation of the E Street Band."}
+{"track":3,"title":"Night","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)","extractMatches":true,"slice":"The music is propelled by Garry Tallent's bass guitar.","extract":"The music is propelled by Garry Tallent's bass guitar."}
+{"track":4,"title":"Backstreets","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Backstreets_(song)","extractMatches":true,"slice":"\"Backstreets\" begins with a minute-long instrumental introduction that features pianist Roy Bittan playing both piano and organ, with only occasional traces of any other instruments being heard.","extract":"\"Backstreets\" begins with a minute-long instrumental introduction that features pianist Roy Bittan playing both piano and organ, with only occasional traces of any other instruments being heard."}
+{"track":5,"title":"Born to Run","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Born_to_Run_(song)","extractMatches":true,"slice":"In late 1973, on the road in Tennessee, Springsteen awoke with the title \"Born to Run\", which he wrote down.","extract":"In late 1973, on the road in Tennessee, Springsteen awoke with the title \"Born to Run\", which he wrote down."}
+{"track":6,"title":"She's the One","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)","extractMatches":true,"slice":"Springsteen has claimed that he wrote the song primarily because he wanted to hear E Street Band saxophonist Clarence Clemons play its sax solo, and after he wrote the melody he then changed his mind.","extract":"Springsteen has claimed that he wrote the song primarily because he wanted to hear E Street Band saxophonist Clarence Clemons play its sax solo, and after he wrote the melody he then changed his mind."}
+{"track":7,"title":"Meeting Across the River","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Meeting_Across_the_River","extractMatches":true,"slice":"The song is a dark character sketch featuring a soft, haunting trumpet played by Randy Brecker, piano backing from E Street Band member Roy Bittan and upright bass from jazz veteran Richard Davis.","extract":"The song is a dark character sketch featuring a soft, haunting trumpet played by Randy Brecker, piano backing from E Street Band member Roy Bittan and upright bass from jazz veteran Richard Davis."}
+{"track":8,"title":"Jungleland","claimId":"021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1","artifactExists":true,"urlMatches":true,"sourceUrl":"https://en.wikipedia.org/wiki/Jungleland","extractMatches":true,"slice":"It also features short-time E Streeter Suki Lahav, who performs the delicate 23-note violin introduction to the song, accompanied by Roy Bittan on piano in the opening.","extract":"It also features short-time E Streeter Suki Lahav, who performs the delicate 23-note violin introduction to the song, accompanied by Roy Bittan on piano in the opening."}
+
+exec
+/bin/zsh -lc 'date -u +%Y-%m-%dT%H:%M:%SZ' in /Users/ai/.hermes/workspace/projects/albumvault
+ succeeded in 0ms:
+2026-09-03T16:55:29Z
+
+codex
+{
+  "schemaVersion": 1,
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "candidateContentHash": "9b7d6ea945cf6feb0bc71074db3bffbffe0e8b67d4968780121ad36058852edf",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank21-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T16:55:29Z",
+  "decisions": [
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Thunder_Road_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-600 exactly match the retained extract. The extract directly states that \"Thunder Road\" was written by Springsteen at his living room piano in Long Branch, New Jersey, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-563 exactly match the retained extract. The extract directly says the song tells the story of the formation of the E Street Band, supporting the full claim for this track."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-554 exactly match the retained extract. The extract directly states that the music is propelled by Garry Tallent's bass guitar, supporting the full claim for \"Night\"."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Backstreets_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-694 exactly match the retained extract. The extract directly describes the minute-long instrumental introduction, Roy Bittan's piano and organ, and the limited presence of other instruments, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Born_to_Run_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-608 exactly match the retained extract. The extract directly states that in late 1973, on the road in Tennessee, Springsteen awoke with and wrote down the title \"Born to Run\", supporting the full claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 499-699 exactly match the retained extract. The extract directly states Springsteen's claimed reason for writing the song, Clarence Clemons's intended sax solo, and Springsteen changing his mind after writing the melody, supporting the full claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Meeting_Across_the_River"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-696 exactly match the retained extract. The extract directly identifies the song as a dark character sketch and names Randy Brecker on trumpet, Roy Bittan on piano backing, and Richard Davis on upright bass, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jungleland"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-668 exactly match the retained extract. The extract directly states that \"Jungleland\" features Suki Lahav performing the 23-note violin introduction with Roy Bittan on piano in the opening, supporting the full claim."
+    }
+  ]
+}
+tokens used
+17,493
+{
+  "schemaVersion": 1,
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "candidateContentHash": "9b7d6ea945cf6feb0bc71074db3bffbffe0e8b67d4968780121ad36058852edf",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank21-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T16:55:29Z",
+  "decisions": [
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "a78836befb25a367a0e429e44a48a313233b4c14fbd70bb060b26892e820efc6"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Thunder_Road_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-600 exactly match the retained extract. The extract directly states that \"Thunder Road\" was written by Springsteen at his living room piano in Long Branch, New Jersey, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f059e5e624c5acb1d9c381de4d246063e0dc97bc39f4a142b928d10239ca8903"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-563 exactly match the retained extract. The extract directly says the song tells the story of the formation of the E Street Band, supporting the full claim for this track."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "e6efbcaee87c337d7fdc37d87cce0d98729d298a6339016a738ca695084d4b2f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-554 exactly match the retained extract. The extract directly states that the music is propelled by Garry Tallent's bass guitar, supporting the full claim for \"Night\"."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "f881a0be8da161c52cbc7fb09280513c7ca962b681ba5d7adb22ff7bcf852c11"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Backstreets_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-694 exactly match the retained extract. The extract directly describes the minute-long instrumental introduction, Roy Bittan's piano and organ, and the limited presence of other instruments, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "58b7440a5bfbf974857433f4f4cda84d2b7bdc77835e214b8c8d699ab4930a61"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Born_to_Run_(song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-608 exactly match the retained extract. The extract directly states that in late 1973, on the road in Tennessee, Springsteen awoke with and wrote down the title \"Born to Run\", supporting the full claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "514e00f116f60f67a52c71b9d420158fb9b3ca659843440ec693682b8346b832"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 499-699 exactly match the retained extract. The extract directly states Springsteen's claimed reason for writing the song, Clarence Clemons's intended sax solo, and Springsteen changing his mind after writing the melody, supporting the full claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "adbcc3a88504c3ffbade1962cc9a213ef2d7bc21cd8cf8c342318b3bbba20d37"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Meeting_Across_the_River"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-696 exactly match the retained extract. The extract directly identifies the song as a dark character sketch and names Randy Brecker on trumpet, Roy Bittan on piano backing, and Richard Davis on upright bass, supporting the full track-specific claim."
+    },
+    {
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+      "decisionId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "d493bd1baa6e5ac77dad7f2eaf6a7e722eda1087f65d46d602af37709cb4dc93"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jungleland"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the candidate source URL, and offsets 500-668 exactly match the retained extract. The extract directly states that \"Jungleland\" features Suki Lahav performing the 23-note violin introduction with Roy Bittan on piano in the opening, supporting the full claim."
+    }
+  ]
+}

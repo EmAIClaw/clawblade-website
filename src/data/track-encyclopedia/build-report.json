@@ -82,6 +82,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/021-bruce-springsteen-born-to-run-21f663bb.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -90,10 +94,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 22,
-  "totalTracks": 312,
+  "totalEntries": 23,
+  "totalTracks": 320,
   "evidenceLevelCounts": {
-    "documented": 304,
+    "documented": 312,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 8,
