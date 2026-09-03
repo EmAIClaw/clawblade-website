@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "031-miles-davis-kind-of-blue-2148074c": {
+      "albumId": "031-miles-davis-kind-of-blue-2148074c",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all five Kind of Blue catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "So What",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "031-miles-davis-kind-of-blue-2148074c:1:1:fact-1",
+              "claim": "Wikipedia, citing Bill Evans’ original liner notes, states that “So What” consists of two modes: sixteen measures of the first, eight of the second, then eight more of the first.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kind of Blue article",
+                  "title": "Kind of Blue - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+                  "sourceIdentity": "en.wikipedia.org|Kind of Blue album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"So What\" consists of two modes: sixteen measures of the first, followed by eight measures of the second, and then eight again of the first.",
+                  "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 640
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da",
+                "decisionId": "031-miles-davis-kind-of-blue-2148074c:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed formal description is retained from a reputable secondary source citing the original liner notes; no interpretive listening analysis or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kind of Blue article",
+              "title": "Kind of Blue - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+            }
+          ]
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Freddie Freeloader",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "031-miles-davis-kind-of-blue-2148074c:1:2:fact-1",
+              "claim": "Wikipedia, citing Bill Evans’ original liner notes, describes “Freddie Freeloader” as a standard twelve-bar blues form.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kind of Blue article",
+                  "title": "Kind of Blue - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+                  "sourceIdentity": "en.wikipedia.org|Kind of Blue album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Freddie Freeloader\" is a standard twelve-bar blues form.",
+                  "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 647,
+                    "end": 704
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da",
+                "decisionId": "031-miles-davis-kind-of-blue-2148074c:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed formal description is retained from a reputable secondary source citing the original liner notes; no interpretive listening analysis or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kind of Blue article",
+              "title": "Kind of Blue - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+            }
+          ]
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Blue In Green",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "031-miles-davis-kind-of-blue-2148074c:1:3:fact-1",
+              "claim": "Wikipedia, citing Bill Evans’ original liner notes, states that “Blue in Green” consists of a ten-measure cycle following a short four-measure introduction.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kind of Blue article",
+                  "title": "Kind of Blue - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+                  "sourceIdentity": "en.wikipedia.org|Kind of Blue album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Blue in Green\" consists of a ten-measure cycle following a short four-measure introduction.",
+                  "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 705,
+                    "end": 797
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da",
+                "decisionId": "031-miles-davis-kind-of-blue-2148074c:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed formal description is retained from a reputable secondary source citing the original liner notes; no interpretive listening analysis or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kind of Blue article",
+              "title": "Kind of Blue - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+            }
+          ]
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "All Blues",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "031-miles-davis-kind-of-blue-2148074c:1:4:fact-1",
+              "claim": "Wikipedia, citing Bill Evans’ original liner notes, describes “All Blues” as a twelve-bar blues form in 6/8 time.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kind of Blue article",
+                  "title": "Kind of Blue - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+                  "sourceIdentity": "en.wikipedia.org|Kind of Blue album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"All Blues\" is a twelve-bar blues form in 6 8 time.",
+                  "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 804,
+                    "end": 855
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da",
+                "decisionId": "031-miles-davis-kind-of-blue-2148074c:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed formal description is retained from a reputable secondary source citing the original liner notes; no interpretive listening analysis or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kind of Blue article",
+              "title": "Kind of Blue - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+            }
+          ]
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Flamenco Sketches",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "031-miles-davis-kind-of-blue-2148074c:1:5:fact-1",
+              "claim": "Wikipedia, citing Bill Evans’ original liner notes, states that “Flamenco Sketches” consists of five scales, each played as long as the soloist wishes before completing the series.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia Kind of Blue article",
+                  "title": "Kind of Blue - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+                  "sourceIdentity": "en.wikipedia.org|Kind of Blue album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Flamenco Sketches\" consists of five scales, which are each played \"as long as the soloist wishes until he has completed the series\".",
+                  "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 856,
+                    "end": 989
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da",
+                "decisionId": "031-miles-davis-kind-of-blue-2148074c:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed formal description is retained from a reputable secondary source citing the original liner notes; no interpretive listening analysis or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Kind of Blue article",
+              "title": "Kind of Blue - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "rank31-track-encyclopedia-author",
+        "model": "gpt-5.6-sol"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T17:54:20Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review d2b37ff2c913ecd56371a6d689c9620d57a3a2d36484762413ae50cad9bf14da."
+      },
+      "contentHash": "452d460272415142"
+    }
+  }
+}

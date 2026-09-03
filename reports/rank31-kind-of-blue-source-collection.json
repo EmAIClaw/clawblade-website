@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank31-kind-of-blue-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:52:03.527Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+      "finalUrl": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+      "status": "collected",
+      "httpStatus": 200,
+      "checkedAt": "2026-09-03",
+      "artifactId": "31b23551038bfd342a26624838407ad105125f22a69f7f8338f4f39d85a79cbb",
+      "fetchedResponseSha256": "fe02a2eb570c84c5b693bcf5d7f05603d6e7b23a39152e811b733f58fa27873e",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1489,
+      "fetchedCharacters": 76336,
+      "claims": [
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "So What",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"So What\" consists of two modes: sixteen measures of the first, followed by eight measures of the second, and then eight again of the first.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 640
+          }
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Freddie Freeloader",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Freddie Freeloader\" is a standard twelve-bar blues form.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 647,
+            "end": 704
+          }
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Blue In Green",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Blue in Green\" consists of a ten-measure cycle following a short four-measure introduction.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 705,
+            "end": 797
+          }
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "All Blues",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"All Blues\" is a twelve-bar blues form in 6 8 time.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 804,
+            "end": 855
+          }
+        },
+        {
+          "albumId": "031-miles-davis-kind-of-blue-2148074c",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Flamenco Sketches",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Flamenco Sketches\" consists of five scales, which are each played \"as long as the soloist wishes until he has completed the series\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 856,
+            "end": 989
+          }
+        }
+      ]
+    }
+  ]
+}
