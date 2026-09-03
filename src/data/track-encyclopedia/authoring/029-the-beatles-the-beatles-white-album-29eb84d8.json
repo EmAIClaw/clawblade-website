@@ -1,0 +1,1468 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "029-the-beatles-the-beatles-white-album-29eb84d8": {
+      "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all thirty The Beatles (White Album) catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Back In the U.S.S.R.",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:1:fact-1",
+              "claim": "Wikipedia states that \"Back in the U.S.S.R.\" uses a field recording of a jet aeroplane taking off and landing at the start and intermittently throughout the track.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "A field recording of a jet aeroplane taking off and landing was used at the start of the track, and intermittently throughout it.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 629
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Dear Prudence",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:2:fact-1",
+              "claim": "Wikipedia states that Lennon wrote \"Dear Prudence\" about Prudence Farrow, Mia Farrow's sister, who rarely left her room during the Rishikesh meditation stay.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Lennon wrote the track about Mia Farrow's sister Prudence Farrow, who rarely left her room during the stay in commitment to the meditation.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1122,
+                    "end": 1261
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Glass Onion",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:3:fact-1",
+              "claim": "Wikipedia states that \"Glass Onion\" was the first backing track recorded as a full band after Ringo Starr's brief departure.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Glass Onion\" was the first backing track recorded as a full band after Starr's brief departure.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1269,
+                    "end": 1365
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Ob-La-Di, Ob-La-Da",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:4:fact-1",
+              "claim": "Wikipedia states that Jimmy Scott suggested the title \"Ob-La-Di, Ob-La-Da\" and played bongos on the initial take.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Jimmy Scott, a friend of McCartney, suggested the title and played bongos on the initial take.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2331,
+                    "end": 2425
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Wild Honey Pie",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:5:fact-1",
+              "claim": "Wikipedia states that McCartney recorded \"Wild Honey Pie\" on 20 August at the end of the \"Mother Nature's Son\" session.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "McCartney recorded \"Wild Honey Pie\" on 20 August at the end of the session for \"Mother Nature's Son\".",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3287,
+                    "end": 3388
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "The Continuing Story of Bungalow Bill",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:6:fact-1",
+              "claim": "Wikipedia states that \"The Continuing Story of Bungalow Bill\" was written by Lennon after an American visitor to Rishikesh left for a tiger-hunting trip.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"The Continuing Story of Bungalow Bill\" was written by Lennon after an American visitor to Rishikesh left for a few weeks to hunt tigers.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3494,
+                    "end": 3631
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "While My Guitar Gently Weeps",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:7:fact-1",
+              "claim": "Wikipedia states that Harrison invited Eric Clapton to play on \"While My Guitar Gently Weeps\" after being unhappy with the group's first attempt at the track.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "He was unhappy with the group's first attempt to record the track, and so invited his friend Eric Clapton to come and play on it.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 4296,
+                    "end": 4425
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "Happiness Is a Warm Gun",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:8:fact-1",
+              "claim": "Wikipedia states that the basic backing track for \"Happiness Is a Warm Gun\" ran to 95 takes because of its irregular time signatures and style changes.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The basic backing track ran to 95 takes, due to the irregular time signatures and variations in style throughout the song.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5016,
+                    "end": 5138
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "Martha My Dear",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:9:fact-1",
+              "claim": "Wikipedia states that McCartney took the title \"Martha My Dear\" from his Old English Sheepdog, while the lyrics are otherwise unrelated.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "McCartney took the title of \"Martha My Dear\" from his Old English Sheepdog, but the lyrics are otherwise unrelated.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5559,
+                    "end": 5674
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "I'm So Tired",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:10:fact-1",
+              "claim": "Wikipedia states that Lennon wrote \"I'm So Tired\" in India while having difficulty sleeping.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"I'm So Tired\" was written in India when Lennon was having difficulty sleeping.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5851,
+                    "end": 5930
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Blackbird",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:11:fact-1",
+              "claim": "Wikipedia states that the birdsong on \"Blackbird\" came from the Abbey Road sound effects collection.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The birdsong on the track was taken from the Abbey Road sound effects collection, and was recorded on one of the first EMI portable tape recorders.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6674,
+                    "end": 6821
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "Piggies",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:12:fact-1",
+              "claim": "Wikipedia states that Harrison wrote \"Piggies\" as an attack on greed and materialism in modern society.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Harrison wrote \"Piggies\" as an attack on greed and materialism in modern society.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6829,
+                    "end": 6910
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "Rocky Raccoon",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:13:fact-1",
+              "claim": "Wikipedia states that \"Rocky Raccoon\" evolved from a jam session with McCartney, Lennon and Donovan in Rishikesh.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Rocky Raccoon\" evolved from a jam session with McCartney, Lennon and Donovan in Rishikesh.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7081,
+                    "end": 7172
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 14,
+          "trackTitle": "Don't Pass Me By",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:14:fact-1",
+              "claim": "Wikipedia states that \"Don't Pass Me By\" was Ringo Starr's first solo composition for the Beatles.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Don't Pass Me By\" was Starr's first solo composition for the band;",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7324,
+                    "end": 7391
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:14:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 15,
+          "trackTitle": "Why Don't We Do It In the Road?",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:15:fact-1",
+              "claim": "Wikipedia states that McCartney wrote \"Why Don't We Do It in the Road?\" in India after seeing two monkeys copulating in the street.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "McCartney wrote \"Why Don't We Do It in the Road?\" in India after he saw two monkeys copulating in the street and wondered why humans were too civilised to do the same.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 7864,
+                    "end": 8031
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:15:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 16,
+          "trackTitle": "I Will",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:16:fact-1",
+              "claim": "Wikipedia states that during takes for \"I Will\", McCartney, Lennon and Starr broke off to busk other songs.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "In between numerous takes, the three Beatles broke off to busk some other songs.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 8402,
+                    "end": 8482
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:16:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 1,
+          "trackNumber": 17,
+          "trackTitle": "Julia",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:17:fact-1",
+              "claim": "Wikipedia states that \"Julia\" is the only Beatles song on which Lennon performs alone.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "This is the only Beatles song on which Lennon performs alone.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 8901,
+                    "end": 8962
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:17:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 1,
+          "trackTitle": "Birthday",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:1:fact-1",
+              "claim": "Wikipedia states that McCartney described the authorship of \"Birthday\" as \"50-50 John and me, made up on the spot and recorded all on the same evening.\"",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "According to McCartney, the authorship of \"Birthday\" was \"50–50 John and me, made up on the spot and recorded all on the same evening\".",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 9316,
+                    "end": 9451
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 2,
+          "trackTitle": "Yer Blues",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:2:fact-1",
+              "claim": "Wikipedia states that the backing track for \"Yer Blues\" was recorded in a small room next to the Studio 2 control room.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The backing track was recorded in a small room next to the Studio 2 control room.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10085,
+                    "end": 10166
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 3,
+          "trackTitle": "Mother Nature's Son",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:3:fact-1",
+              "claim": "Wikipedia states that McCartney wrote \"Mother Nature's Son\" in India and worked on it apart from the other Beatles.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "McCartney wrote \"Mother Nature's Son\" in India, and worked on it in isolation from the other members of the band.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10363,
+                    "end": 10476
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 4,
+          "trackTitle": "Everybody's Got Something to Hide Except Me and My Monkey",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:4:fact-1",
+              "claim": "Wikipedia states that the final mix of \"Everybody's Got Something to Hide Except Me and My Monkey\" was sped up by mixing the tape at 43 hertz instead of the usual 50.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The final mix was sped up by mixing the tape running at 43 hertz instead of the usual 50.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10673,
+                    "end": 10762
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 5,
+          "trackTitle": "Sexy Sadie",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:5:fact-1",
+              "claim": "Wikipedia states that Lennon wrote \"Sexy Sadie\" as \"Maharishi\" shortly after deciding to leave Rishikesh.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Sexy Sadie\" was written as \"Maharishi\" by Lennon shortly after he decided to leave Rishikesh.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 10881,
+                    "end": 10975
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 6,
+          "trackTitle": "Helter Skelter",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:6:fact-1",
+              "claim": "Wikipedia states that McCartney wrote \"Helter Skelter\" and that it was initially recorded in July as a blues number.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Helter Skelter\" was written by McCartney and was initially recorded in July as a blues number.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 11119,
+                    "end": 11214
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 7,
+          "trackTitle": "Long, Long, Long",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:7:fact-1",
+              "claim": "Wikipedia states that the rattling effect at the end of \"Long, Long, Long\" was created by a note making a wine bottle on the Leslie speaker resonate.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "an \"eerie rattling\" effect at the end was created by a note causing a wine bottle on top of the organ's Leslie speaker to resonate.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 12808,
+                    "end": 12939
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 8,
+          "trackTitle": "Revolution 1",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:8:fact-1",
+              "claim": "Wikipedia states that \"Revolution 1\" was the first track recorded for the White Album, with backing-track sessions starting on 30 May.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Revolution 1\" was the first track recorded for the album, with sessions for the backing track starting on 30 May.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 12969,
+                    "end": 13083
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 9,
+          "trackTitle": "Honey Pie",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:9:fact-1",
+              "claim": "Wikipedia states that McCartney wrote \"Honey Pie\" as a pastiche of 1920s flapper dance style.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "McCartney wrote \"Honey Pie\" as a pastiche of the 1920s' flapper dance style.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 13435,
+                    "end": 13511
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 10,
+          "trackTitle": "Savoy Truffle",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:10:fact-1",
+              "claim": "Wikipedia states that \"Savoy Truffle\" was named after one of the chocolates in a box of Mackintosh's Good News that Eric Clapton enjoyed eating.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Savoy Truffle\" was named after one of the types of chocolate found in a box of Mackintosh's Good News, which Clapton enjoyed eating.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 13777,
+                    "end": 13910
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 11,
+          "trackTitle": "Cry Baby Cry",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:11:fact-1",
+              "claim": "Wikipedia states that Lennon began writing \"Cry Baby Cry\" in late 1967 and partly derived the lyrics from an old television commercial tagline.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Lennon began writing \"Cry Baby Cry\" in late 1967 and the lyrics were partly derived from the tagline of an old television commercial.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 14079,
+                    "end": 14212
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 12,
+          "trackTitle": "Revolution 9",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:12:fact-1",
+              "claim": "Wikipedia states that \"Revolution 9\" evolved from overdubs from the \"Revolution 1\" coda, with Lennon, Harrison and Ono adding tape collages and spoken-word extracts.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Revolution 9\" evolved from the overdubs from the \"Revolution 1\" coda. Lennon, Harrison and Ono added further tape collages and spoken word extracts, in the style of Karlheinz Stockhausen.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 14258,
+                    "end": 14446
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "discNumber": 2,
+          "trackNumber": 13,
+          "trackTitle": "Good Night",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:13:fact-1",
+              "claim": "Wikipedia states that Lennon wrote \"Good Night\" as a lullaby for Julian and wanted Ringo Starr to sing it.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia The Beatles album article",
+                  "title": "The Beatles (album) - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+                  "sourceIdentity": "en.wikipedia.org|The Beatles album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Lennon wrote \"Good Night\" as a lullaby for his son Julian, and wanted Starr to sing it.",
+                  "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 15022,
+                    "end": 15109
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e",
+                "decisionId": "029-the-beatles-the-beatles-white-album-29eb84d8:2:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Beatles album article",
+              "title": "The Beatles (album) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Beatles_(album)"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank29-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review d9532740183e40079d49ec0da66204f0d4e8821157c549043b83e7aeecd3df7e."
+      },
+      "contentHash": "977823ba39b0e936"
+    }
+  }
+}

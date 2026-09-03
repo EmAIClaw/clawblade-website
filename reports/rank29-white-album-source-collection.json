@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank29-white-album-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:10:55.579Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+      "finalUrl": "https://en.wikipedia.org/wiki/The_Beatles_(album)",
+      "status": "collected",
+      "artifactId": "bae1ac2a367803a2735ab449d20e171b29a4500f7dc8899692f915fae221dc6d",
+      "fetchedResponseSha256": "88a9ac0b048a199f7a297c784c73a7e9f2f76ec9d70c03f55aa5ccc144176dab",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 15609,
+      "fetchedCharacters": 130624,
+      "claims": [
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Back In the U.S.S.R.",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "A field recording of a jet aeroplane taking off and landing was used at the start of the track, and intermittently throughout it.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 629
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Dear Prudence",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lennon wrote the track about Mia Farrow's sister Prudence Farrow, who rarely left her room during the stay in commitment to the meditation.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1122,
+            "end": 1261
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Glass Onion",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Glass Onion\" was the first backing track recorded as a full band after Starr's brief departure.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1269,
+            "end": 1365
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Ob-La-Di, Ob-La-Da",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Jimmy Scott, a friend of McCartney, suggested the title and played bongos on the initial take.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2331,
+            "end": 2425
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Wild Honey Pie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "McCartney recorded \"Wild Honey Pie\" on 20 August at the end of the session for \"Mother Nature's Son\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3287,
+            "end": 3388
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "The Continuing Story of Bungalow Bill",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"The Continuing Story of Bungalow Bill\" was written by Lennon after an American visitor to Rishikesh left for a few weeks to hunt tigers.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3494,
+            "end": 3631
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "While My Guitar Gently Weeps",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "He was unhappy with the group's first attempt to record the track, and so invited his friend Eric Clapton to come and play on it.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4296,
+            "end": 4425
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Happiness Is a Warm Gun",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The basic backing track ran to 95 takes, due to the irregular time signatures and variations in style throughout the song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5016,
+            "end": 5138
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Martha My Dear",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "McCartney took the title of \"Martha My Dear\" from his Old English Sheepdog, but the lyrics are otherwise unrelated.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5559,
+            "end": 5674
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "I'm So Tired",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"I'm So Tired\" was written in India when Lennon was having difficulty sleeping.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5851,
+            "end": 5930
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Blackbird",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The birdsong on the track was taken from the Abbey Road sound effects collection, and was recorded on one of the first EMI portable tape recorders.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6674,
+            "end": 6821
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Piggies",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Harrison wrote \"Piggies\" as an attack on greed and materialism in modern society.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6829,
+            "end": 6910
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Rocky Raccoon",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Rocky Raccoon\" evolved from a jam session with McCartney, Lennon and Donovan in Rishikesh.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7081,
+            "end": 7172
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Don't Pass Me By",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Don't Pass Me By\" was Starr's first solo composition for the band;",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7324,
+            "end": 7391
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Why Don't We Do It In the Road?",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "McCartney wrote \"Why Don't We Do It in the Road?\" in India after he saw two monkeys copulating in the street and wondered why humans were too civilised to do the same.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7864,
+            "end": 8031
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "I Will",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "In between numerous takes, the three Beatles broke off to busk some other songs.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8402,
+            "end": 8482
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Julia",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "This is the only Beatles song on which Lennon performs alone.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8901,
+            "end": 8962
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Birthday",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "According to McCartney, the authorship of \"Birthday\" was \"50–50 John and me, made up on the spot and recorded all on the same evening\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9316,
+            "end": 9451
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Yer Blues",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The backing track was recorded in a small room next to the Studio 2 control room.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10085,
+            "end": 10166
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Mother Nature's Son",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "McCartney wrote \"Mother Nature's Son\" in India, and worked on it in isolation from the other members of the band.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10363,
+            "end": 10476
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Everybody's Got Something to Hide Except Me and My Monkey",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The final mix was sped up by mixing the tape running at 43 hertz instead of the usual 50.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10673,
+            "end": 10762
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Sexy Sadie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Sexy Sadie\" was written as \"Maharishi\" by Lennon shortly after he decided to leave Rishikesh.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 10881,
+            "end": 10975
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Helter Skelter",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Helter Skelter\" was written by McCartney and was initially recorded in July as a blues number.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 11119,
+            "end": 11214
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Long, Long, Long",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "an \"eerie rattling\" effect at the end was created by a note causing a wine bottle on top of the organ's Leslie speaker to resonate.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 12808,
+            "end": 12939
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Revolution 1",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Revolution 1\" was the first track recorded for the album, with sessions for the backing track starting on 30 May.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 12969,
+            "end": 13083
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Honey Pie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "McCartney wrote \"Honey Pie\" as a pastiche of the 1920s' flapper dance style.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 13435,
+            "end": 13511
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Savoy Truffle",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Savoy Truffle\" was named after one of the types of chocolate found in a box of Mackintosh's Good News, which Clapton enjoyed eating.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 13777,
+            "end": 13910
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Cry Baby Cry",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lennon began writing \"Cry Baby Cry\" in late 1967 and the lyrics were partly derived from the tagline of an old television commercial.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 14079,
+            "end": 14212
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Revolution 9",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Revolution 9\" evolved from the overdubs from the \"Revolution 1\" coda. Lennon, Harrison and Ono added further tape collages and spoken word extracts, in the style of Karlheinz Stockhausen.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 14258,
+            "end": 14446
+          }
+        },
+        {
+          "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+          "trackTitle": "Good Night",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Lennon wrote \"Good Night\" as a lullaby for his son Julian, and wanted Starr to sing it.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 15022,
+            "end": 15109
+          }
+        }
+      ]
+    }
+  ]
+}
