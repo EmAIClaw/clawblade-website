@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+  "editionNumber": 1,
+  "candidateContentHash": "db806fcbd47200d7d18518385339d9492924569c5c122c7b970f90b584c7e728",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank17-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T13:22:56Z",
+  "decisions": [
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 500-623 exactly state that the album begins with \"Dark Fantasy\" opened by Nicki Minaj narrating a rework of Roald Dahl's 1982 poem Cinderella."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:2:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:2:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 1173-1219 exactly describe \"Gorgeous\" as an uplifting blues-styled track."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 1513-1625 exactly state that \"Power\" has dark production relying on a King Crimson \"21st Century Schizoid Man\" sample."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1",
+      "artifactIds": ["2f75d80a859c444101b8ed09f732deabf60c29f828dd6125048c809f8d829770"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/All_of_the_Lights"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 500-639 exactly state that the song is often played with \"All of the Lights (Interlude)\", which precedes it on the album tracklist."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 2169-2308 exactly state that West enlisted 11 guest vocalists including the named artists and that Rihanna sings the hook."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:6:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:6:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 2608-2633 exactly describe \"Monster\" as a posse cut."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 2953-3022 exactly describe \"So Appalled\" as a fellow posse cut built around piano and strings."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 3811-3911 exactly state that \"Devil in a New Dress\" is built on a sample of Smokey Robinson's \"Will You Love Me Tomorrow\" (1960)."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 4287-4395 exactly state that \"Runaway\" contains a piano-based motif made of uninterrupted descending half and whole notes."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 5031-5157 exactly state that \"Hell of a Life\" was inspired by West's two-year relationship with Amber Rose and samples the Mojo Men's \"She's My Baby\" (1966)."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 5548-5670 exactly state that \"Blame Game\" is a low-key track built around a sample of Richard D. James's \"Avril 14th\" (2001)."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 5904-6019 exactly state that \"Lost in the World\" features tribal drums and prominent samples from Bon Iver's \"Woods\" (2009)."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1",
+      "artifactIds": ["3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 6536-6629 state that the track serves as the album's coda and samples Gil Scott-Heron's \"Comment No. 1\" (1970); the immediately preceding retainedText identifies the track as \"Who Will Survive in America\"."
+    },
+    {
+      "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:2:1:fact-1",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:2:1:fact-1",
+      "artifactIds": ["6a658dfcab6f0d999a42ebf855c6274f8156e1112337a75a06b7f808abfc7c40"],
+      "sourceUrls": ["https://en.wikipedia.org/wiki/See_Me_Now"],
+      "decision": "supported",
+      "rationale": "The artifact exists, its canonical URL matches the sourceRef URL, and offsets 500-664 exactly state that the album version includes a Big Sean verse and appears on My Beautiful Dark Twisted Fantasy (2010) as an iTunes Store bonus track."
+    }
+  ]
+}

@@ -66,6 +66,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -74,10 +78,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 18,
-  "totalTracks": 262,
+  "totalEntries": 19,
+  "totalTracks": 276,
   "evidenceLevelCounts": {
-    "documented": 254,
+    "documented": 268,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 8,

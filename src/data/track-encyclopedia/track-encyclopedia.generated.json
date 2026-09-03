@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0-pilot",
     "generatedAt": "2026-09-19T00:00:00Z",
-    "albumCount": 18
+    "albumCount": 19
   },
   "entries": {
     "001-marvin-gaye-what-s-going-on-fd00dde9": {
@@ -11656,6 +11656,697 @@
         "notes": "Imported immutable independent review 2ec3e6acd719848b60ce2088b61d39df224893065974015d9c799862f7257e56."
       },
       "contentHash": "580f5f2a45b44176"
+    },
+    "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087": {
+      "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all fourteen My Beautiful Dark Twisted Fantasy catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Dark Fantasy",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1",
+              "claim": "Wikipedia states that the album begins with \"Dark Fantasy\", opened by rapper Nicki Minaj narrating a rework of Roald Dahl's 1982 poem Cinderella.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The album begins with \"Dark Fantasy\", opened by rapper Nicki Minaj narrating a rework of Roald Dahl's 1982 poem Cinderella,",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 623
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Gorgeous (feat. Kid Cudi & Raekwon)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:2:fact-1",
+              "claim": "Wikipedia describes \"Gorgeous\" as an uplifting blues-styled track.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Gorgeous\" is an uplifting blues-styled track,",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1173,
+                    "end": 1219
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Power",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1",
+              "claim": "Wikipedia states that \"Power\" features a dark production that relies on a sample of King Crimson's \"21st Century Schizoid Man\" (1969).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Power\" features a dark production that relies on a sample of King Crimson's \"21st Century Schizoid Man\" (1969),",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 1513,
+                    "end": 1625
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "All of the Lights (Interlude)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1",
+              "claim": "Wikipedia states that \"All of the Lights\" is often played along with its accompanying interlude \"All of the Lights (Interlude)\", which precedes the song on the album's tracklist.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia All of the Lights article",
+                  "title": "All of the Lights - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/All_of_the_Lights",
+                  "sourceIdentity": "en.wikipedia.org|All of the Lights song article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "It is often played along with its accompanying interlude \"All of the Lights (Interlude)\", which precedes the song on the album's tracklist.",
+                  "artifactId": "2f75d80a859c444101b8ed09f732deabf60c29f828dd6125048c809f8d829770",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 639
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia All of the Lights article",
+              "title": "All of the Lights - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/All_of_the_Lights"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "All of the Lights",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1",
+              "claim": "Wikipedia states that West enlisted 11 guest vocalists for \"All of the Lights\", including Alicia Keys, John Legend, Tony Williams, and Elly Jackson, with Rihanna singing the hook.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "West enlisted 11 guest vocalists for the song, including Alicia Keys, John Legend, Tony Williams, and Elly Jackson; Rihanna sings the hook.",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2169,
+                    "end": 2308
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:6:fact-1",
+              "claim": "Wikipedia describes \"Monster\" as a posse cut.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Monster\" is a posse cut,",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2608,
+                    "end": 2633
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "So Appalled (feat. JAŸ-Z, Pusha T, Prynce Cy Hi, Swizz Beatz & RZA)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1",
+              "claim": "Wikipedia describes \"So Appalled\" as a fellow posse cut built around piano and strings.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The fellow posse cut \"So Appalled\" is built around piano and strings,",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 2953,
+                    "end": 3022
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "Devil In a New Dress (feat. Rick Ross)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1",
+              "claim": "Wikipedia states that \"Devil in a New Dress\" is built on a sample of Smokey Robinson's \"Will You Love Me Tomorrow\" (1960).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Devil in a New Dress\" is built on a sample of Smokey Robinson's \"Will You Love Me Tomorrow\" (1960).",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 3811,
+                    "end": 3911
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "Runaway (feat. Pusha T)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1",
+              "claim": "Wikipedia states that \"Runaway\" contains a piano-based motif comprising a series of uninterrupted descending half and whole notes.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Runaway\" contains a piano-based motif comprising a series of uninterrupted descending half and whole notes,",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 4287,
+                    "end": 4395
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Hell of a Life",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1",
+              "claim": "Wikipedia states that \"Hell of a Life\", inspired by West's two-year relationship with model Amber Rose, samples the Mojo Men's \"She's My Baby\" (1966).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Inspired by West's two-year relationship with model Amber Rose, \"Hell of a Life\" samples the Mojo Men's \"She's My Baby\" (1966)",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5031,
+                    "end": 5157
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Blame Game (feat. John Legend)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1",
+              "claim": "Wikipedia states that \"Blame Game\" is a low-key track built around a sample of Richard D. James's piano composition \"Avril 14th\" (2001).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Blame Game\" is a low-key track that is built around a sample of Richard D. James's piano composition \"Avril 14th\" (2001),",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5548,
+                    "end": 5670
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "Lost In the World (feat. Bon Iver)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1",
+              "claim": "Wikipedia states that \"Lost in the World\" features tribal drums and prominent samples from the indie folk band Bon Iver's \"Woods\" (2009).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "\"Lost in the World\" features tribal drums and prominent samples from the indie folk band Bon Iver's \"Woods\" (2009),",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 5904,
+                    "end": 6019
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "Who Will Survive In America",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1",
+              "claim": "Wikipedia states that \"Who Will Survive in America\" serves as the album's coda and samples jazz poet Gil Scott-Heron's \"Comment No. 1\" (1970).",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+                  "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy",
+                  "sourceIdentity": "en.wikipedia.org|My Beautiful Dark Twisted Fantasy album article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "It serves as the album's coda and samples jazz poet Gil Scott-Heron's \"Comment No. 1\" (1970),",
+                  "artifactId": "3e13511c15726ba6225229e6c68d7485708da89edc1a13ddefc7cb1f49fc737e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 6536,
+                    "end": 6629
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia My Beautiful Dark Twisted Fantasy article",
+              "title": "My Beautiful Dark Twisted Fantasy - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy"
+            }
+          ]
+        },
+        {
+          "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+          "discNumber": 2,
+          "trackNumber": 1,
+          "trackTitle": "See Me Now (feat. Beyoncé, Charlie Wilson & Big Sean) [Bonus Track]",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:2:1:fact-1",
+              "claim": "Wikipedia states that the album version of \"See Me Now\" includes a verse by Big Sean and is included on My Beautiful Dark Twisted Fantasy (2010) as an iTunes Store bonus track.",
+              "sourceRefs": [
+                {
+                  "label": "Wikipedia See Me Now article",
+                  "title": "See Me Now - Wikipedia",
+                  "url": "https://en.wikipedia.org/wiki/See_Me_Now",
+                  "sourceIdentity": "en.wikipedia.org|See Me Now song article",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The album version includes a verse by Big Sean and is included on West's fifth studio album My Beautiful Dark Twisted Fantasy (2010) as an iTunes Store bonus track.",
+                  "artifactId": "6a658dfcab6f0d999a42ebf855c6274f8156e1112337a75a06b7f808abfc7c40",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 664
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3",
+                "decisionId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:2:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "Wikipedia See Me Now article",
+              "title": "See Me Now - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/See_Me_Now"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank17-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T13:22:56Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review f0e9504dfd86e660fa59d3a9aac1e25d02af3d4ee36f25db21a4e229d98d7ee3."
+      },
+      "contentHash": "a7cc5cd4bd43bf7c"
     },
     "054-liz-phair-exile-in-guyville-2b33a458": {
       "albumId": "054-liz-phair-exile-in-guyville-2b33a458",
