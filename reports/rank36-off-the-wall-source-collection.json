@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank36-off-the-wall-http-collector-20260903",
+  "collectedAt": "2026-09-03T18:00:15.058Z",
+  "results": [
+    {
+      "canonicalUrl": "https://www.billboard.com/music/reviews/michael-jacksons-off-the-wall-at-35-classic-track-by-track-6214222/",
+      "fetchUrl": "https://www.billboard.com/music/reviews/michael-jacksons-off-the-wall-at-35-classic-track-by-track-6214222/",
+      "finalUrl": "https://www.billboard.com/music/reviews/michael-jacksons-off-the-wall-at-35-classic-track-by-track-6214222",
+      "status": "collected",
+      "artifactId": "1d772d265dabc78988e3acc21846fc36bdf69331f077fd65e207a5c980c236e9",
+      "created": true,
+      "fetchedResponseSha256": "f4980571cc1f4eafd8924acc2ba9a4a46c49bffe4c23d1a4e03d14b8cf37c8c7",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 5570,
+      "fetchedCharacters": 9774,
+      "claims": [
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Don't Stop 'Til You Get Enough",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Touch me,” he urges, singing self-penned lyrics over music he’s written himself.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 581
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Rock With You",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "As far as grooving goes, this one’s slower and funkier than “Don’t Stop.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1208,
+            "end": 1281
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Workin' Day and Night",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The second of three tunes written solely by Jackson, “Working Day and Night” would have been a smash single on any other album.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1500,
+            "end": 1627
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Off the Wall",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Rod Temperton, the man behind “Rock With You,” penned this, the album’s third of four Top 10 pop hits.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2409,
+            "end": 2511
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Girlfriend",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Even though Paul McCartney included this tune on the 1978 Wings album London Town, he penned it with Michael in mind.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2923,
+            "end": 3040
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "She's Out of My Life",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "As the story goes, Michael cried at the end of each take, and he certainly sounds like a man on the verge of tears.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3406,
+            "end": 3521
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "I Can't Help It",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The tune Stevie Wonder co-wrote is among the ones people talk about the least.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4092,
+            "end": 4170
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "It's the Falling in Love",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "It’s all about how the idea of romance, the mystery of thinking about what might be, is better than the real thing.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4531,
+            "end": 4646
+          }
+        },
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Burn This Disco Out",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "In a few playful moments, he affects a low bellow and sings, “Keep the boogie alright.”",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4983,
+            "end": 5070
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://albumism.com/features/michael-jackson-off-the-wall-album-anniversary",
+      "fetchUrl": "https://albumism.com/features/michael-jackson-off-the-wall-album-anniversary",
+      "finalUrl": "https://albumism.com/features/michael-jackson-off-the-wall-album-anniversary",
+      "status": "collected",
+      "artifactId": "24b0cefcc9f1fda3cbe93bb264c25d393d68f90f10e433eca390ab8c481153e3",
+      "created": true,
+      "fetchedResponseSha256": "26640069f57d7b5bbd40cfe239a166d6681ce465743a271c39e2227b44a27a93",
+      "contentType": "text/html;charset=utf-8",
+      "retainedCharacters": 1307,
+      "fetchedCharacters": 21344,
+      "claims": [
+        {
+          "albumId": "036-michael-jackson-off-the-wall-4752dab3",
+          "trackTitle": "Get On the Floor",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Structured around the sublime bass work of Louis Johnson (co-writer on the track with Jackson) whose hands run all over the fret, Jackson builds the song into a flurry of funk with a sparse arrangement of bass, strings and vocals anchored on a percussion infused groove that fills the song with pure energy.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 807
+          }
+        }
+      ]
+    }
+  ]
+}
