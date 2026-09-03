@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank28-voodoo-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:33:30.980Z",
+  "results": [
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+      "fetchUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+      "status": "collected",
+      "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+      "created": true,
+      "fetchedResponseSha256": "dc89bc2536ac577a2839b077e311d0623f5217c39deb5aff30851454556aa9c8",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 9799,
+      "fetchedCharacters": 106876,
+      "claims": [
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Playa Playa",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "On his bass playing in the song, Pino Palladino recalled \"I was thinking about Stevie Wonder in the choruses and P-Funk in the verses\".",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 635
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Left and Right (feat. Redman & Method Man)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Left & Right\" is a funky party jam featuring rappers Method Man and Redman, who exchange verses as D'Angelo sings the song's verses and chorus.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1855,
+            "end": 1999
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "The Line",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The introspective track \"The Line\" has a downtempo, spiritual sound with lyrics about dealing with some unnamed adversity.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2162,
+            "end": 2284
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Send It On",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Co-written by D'Angelo's former girlfriend, singer Angie Stone, \"Send It On\" contains lyrics concerning themes of honesty and faith in love, and features jazz trumpeter Roy Hargrove on flugelhorn.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4207,
+            "end": 4403
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Chicken Grease",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Chicken Grease\" is named after a technical term that musician Prince used for his guitarist to play a 9th minor chord while playing 16th notes.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3865,
+            "end": 4009
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "One Mo'Gin",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Titled after a southern colloquial conflation of the terms \"One More Time\" and \"Again\", the mid-tempo ballad \"One Mo'Gin\" has its narrator reminiscing about a former lover.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4411,
+            "end": 4583
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Spanish Joint",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Co-written by Roy Hargrove, \"Spanish Joint\" is a salsa-infused, high tempo track about karma.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6298,
+            "end": 6391
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Greatdayndamornin' / Booty",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Greatdayndamornin' / Booty'\" features double rimshots placed behind the beat by Questlove.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6750,
+            "end": 6841
+          }
+        },
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Africa",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Africa\" was originally written in honor of D'Angelo's son, Michael Archer Jr.,",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9220,
+            "end": 9299
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+      "fetchUrl": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+      "finalUrl": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+      "status": "collected",
+      "artifactId": "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624",
+      "created": true,
+      "fetchedResponseSha256": "1ecdda497ca042e3c2248ab6029a6fd3b63e6995d38cd8bf74b8c6c616bce837",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1112,
+      "fetchedCharacters": 10573,
+      "claims": [
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Devil's Pie",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "DJ Premier originally made the track for Canibus but later offered it to D'Angelo after Canibus rejected the song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 499,
+            "end": 613
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/The_Root",
+      "fetchUrl": "https://en.wikipedia.org/wiki/The_Root",
+      "finalUrl": "https://en.wikipedia.org/wiki/The_Root",
+      "status": "collected",
+      "artifactId": "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999",
+      "created": true,
+      "fetchedResponseSha256": "bb9e7919a12b2906d5308d1f3f5109e66a4684226113ccd913b79ea5a8e44cb9",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1077,
+      "fetchedCharacters": 10839,
+      "claims": [
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "The Root",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Charlie Hunter simultaneously plays a bass line and guitar solo for the song.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 577
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+      "fetchUrl": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+      "status": "collected",
+      "artifactId": "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699",
+      "created": true,
+      "fetchedResponseSha256": "665be39ad94581dc046097c90ef59103afa492dd1fff1248ed84d6858496f6bd",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1098,
+      "fetchedCharacters": 41625,
+      "claims": [
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Untitled (How Does It Feel)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "\"Untitled (How Does It Feel)\" was originally intended as a tribute to influential musician Prince.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 598
+          }
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+      "fetchUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+      "status": "collected",
+      "artifactId": "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f",
+      "created": true,
+      "fetchedResponseSha256": "9e0735aeb511a152a047c11fc2f0568aa2973b9e6b04569b3e8fe29a7ed46d46",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1062,
+      "fetchedCharacters": 22763,
+      "claims": [
+        {
+          "albumId": "028-d-angelo-voodoo-b6406009",
+          "trackTitle": "Feel Like Makin' Love",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "It was initially planned as a duet with R&B singer Lauryn Hill.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 563
+          }
+        }
+      ]
+    }
+  ]
+}

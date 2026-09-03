@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 1,
+  "albumId": "028-d-angelo-voodoo-b6406009",
+  "editionNumber": 1,
+  "candidateContentHash": "67fdcb45c97bdefbb6a68e631e41a769384eba499be8c9cf6d38a6089e66427b",
+  "candidate": {
+    "albumId": "028-d-angelo-voodoo-b6406009",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "hermes-rank28-track-encyclopedia-author",
+      "model": "gpt-5.6-sol"
+    },
+    "trackEntries": [
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Playa Playa",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:1:fact-1",
+            "claim": "Wikipedia quotes bassist Pino Palladino recalling that for \"Playa Playa\" he was thinking about Stevie Wonder in the choruses and P-Funk in the verses.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "On his bass playing in the song, Pino Palladino recalled \"I was thinking about Stevie Wonder in the choruses and P-Funk in the verses\".",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 635
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "Devil's Pie",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:2:fact-1",
+            "claim": "Wikipedia states that DJ Premier originally made \"Devil's Pie\" for Canibus, then offered it to D'Angelo after Canibus rejected it.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Devil's Pie article",
+                "title": "Devil's Pie - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+                "sourceIdentity": "en.wikipedia.org|Devil's Pie song article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "DJ Premier originally made the track for Canibus but later offered it to D'Angelo after Canibus rejected the song.",
+                "artifactId": "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 499,
+                  "end": 613
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Devil's Pie article",
+            "title": "Devil's Pie - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Devil%27s_Pie"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "Left and Right (feat. Redman & Method Man)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:3:fact-1",
+            "claim": "Wikipedia describes \"Left & Right\" as a funky party jam featuring Method Man and Redman, who exchange verses while D'Angelo sings the verses and chorus.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Left & Right\" is a funky party jam featuring rappers Method Man and Redman, who exchange verses as D'Angelo sings the song's verses and chorus.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 1855,
+                  "end": 1999
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "The Line",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:4:fact-1",
+            "claim": "Wikipedia describes \"The Line\" as an introspective, downtempo and spiritual track whose lyrics deal with unnamed adversity.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The introspective track \"The Line\" has a downtempo, spiritual sound with lyrics about dealing with some unnamed adversity.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 2162,
+                  "end": 2284
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Send It On",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:5:fact-1",
+            "claim": "Wikipedia states that \"Send It On\" was co-written by Angie Stone, concerns honesty and faith in love, and features Roy Hargrove on flugelhorn.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Co-written by D'Angelo's former girlfriend, singer Angie Stone, \"Send It On\" contains lyrics concerning themes of honesty and faith in love, and features jazz trumpeter Roy Hargrove on flugelhorn.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4207,
+                  "end": 4403
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "Chicken Grease",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:6:fact-1",
+            "claim": "Wikipedia states that \"Chicken Grease\" takes its name from a Prince term for a guitarist playing a minor ninth chord in sixteenth notes.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Chicken Grease\" is named after a technical term that musician Prince used for his guitarist to play a 9th minor chord while playing 16th notes.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3865,
+                  "end": 4009
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "One Mo'Gin",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:7:fact-1",
+            "claim": "Wikipedia states that the title \"One Mo'Gin\" is a southern conflation of \"One More Time\" and \"Again\", and that its narrator reminisces about a former lover.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Titled after a southern colloquial conflation of the terms \"One More Time\" and \"Again\", the mid-tempo ballad \"One Mo'Gin\" has its narrator reminiscing about a former lover.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4411,
+                  "end": 4583
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "The Root",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:8:fact-1",
+            "claim": "Wikipedia states that Charlie Hunter simultaneously plays the bass line and guitar solo on \"The Root\".",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia The Root article",
+                "title": "The Root - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/The_Root",
+                "sourceIdentity": "en.wikipedia.org|The Root song article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Charlie Hunter simultaneously plays a bass line and guitar solo for the song.",
+                "artifactId": "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 577
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia The Root article",
+            "title": "The Root - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Root"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Spanish Joint",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:9:fact-1",
+            "claim": "Wikipedia states that Roy Hargrove co-wrote \"Spanish Joint\" and describes it as a high-tempo, salsa-infused track about karma.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Co-written by Roy Hargrove, \"Spanish Joint\" is a salsa-infused, high tempo track about karma.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 6298,
+                  "end": 6391
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Feel Like Makin' Love",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:10:fact-1",
+            "claim": "Wikipedia states that D'Angelo's recording of \"Feel Like Makin' Love\" was initially planned as a duet with Lauryn Hill.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Feel Like Makin' Love article",
+                "title": "Feel Like Makin' Love (Roberta Flack song) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+                "sourceIdentity": "en.wikipedia.org|Feel Like Makin' Love song article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "It was initially planned as a duet with R&B singer Lauryn Hill.",
+                "artifactId": "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 563
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Feel Like Makin' Love article",
+            "title": "Feel Like Makin' Love (Roberta Flack song) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "Greatdayndamornin' / Booty",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:11:fact-1",
+            "claim": "Wikipedia states that \"Greatdayndamornin' / Booty\" features Questlove placing double rimshots behind the beat.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Greatdayndamornin' / Booty'\" features double rimshots placed behind the beat by Questlove.",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 6750,
+                  "end": 6841
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "Untitled (How Does It Feel)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:12:fact-1",
+            "claim": "Wikipedia states that \"Untitled (How Does It Feel)\" was originally intended as a tribute to Prince.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Untitled (How Does It Feel) article",
+                "title": "Untitled (How Does It Feel) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+                "sourceIdentity": "en.wikipedia.org|Untitled (How Does It Feel) song article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Untitled (How Does It Feel)\" was originally intended as a tribute to influential musician Prince.",
+                "artifactId": "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 500,
+                  "end": 598
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Untitled (How Does It Feel) article",
+            "title": "Untitled (How Does It Feel) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)"
+          }
+        ]
+      },
+      {
+        "albumId": "028-d-angelo-voodoo-b6406009",
+        "discNumber": 1,
+        "trackNumber": 13,
+        "trackTitle": "Africa",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "028-d-angelo-voodoo-b6406009:1:13:fact-1",
+            "claim": "Wikipedia states that \"Africa\" was originally written in honor of D'Angelo's son, Michael Archer Jr.",
+            "sourceRefs": [
+              {
+                "label": "Wikipedia Voodoo (D'Angelo album) article",
+                "title": "Voodoo (D'Angelo album) - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+                "sourceIdentity": "en.wikipedia.org|Voodoo (D'Angelo album) article",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "\"Africa\" was originally written in honor of D'Angelo's son, Michael Archer Jr.,",
+                "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 9220,
+                  "end": 9299
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording, songwriting, performance, or lyrical-context statement retained; no broader musical analysis or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Wikipedia Voodoo (D'Angelo album) article",
+            "title": "Voodoo (D'Angelo album) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f": {
+      "artifactId": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+      "artifactSha256": "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank28-voodoo-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "dc89bc2536ac577a2839b077e311d0623f5217c39deb5aff30851454556aa9c8",
+      "finalUrl": "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "ome tracks incorporate sampling.^([28][53]) Most of its production was influenced by hip hop producer J Dilla's input.^([28]) On J Dilla's influence, Questlove stated \"He's the zenith of hip-hop to us. Jay Dee helped to bring out the album's dirty sound and encouraged the false starts and the nonquantized sound of the record\".^([20]) Songs [edit] The opening track \"Playa Playa\" features basketball metaphors and gospel overtones,^([54]) which accompany the track's slow funk and jazz vibe.^([55]) On his bass playing in the song, Pino Palladino recalled \"I was thinking about Stevie Wonder in the choruses and P-Funk in the verses\".^([56]) Rob Evanoff of All About Jazz called the song \"an uplifting soul ride\", and stated that it evokes an image of \"a musical train seen far off in the distance, slowly getting bigger as it gets closer\".^([57]) Evanoff also compared the track's style to the jam-sound of Pink Floyd, and wrote \"it surrounds you with a deep thick infectious groove that, at first, shadows and then envelopes your senses in such a way that is equal bits liberating, intoxicating and hypnotic...you close your eyes and are transported into another dimension\".^([57]) On the song's lyrics, one critic wrote that \"D'Angelo disses all neo-soul wannabes by calmly singing 'Bring the drama playa/Give me all U got'\".^([58]) \"Devil's Pie\" is a funk and hip hop diatribe with a lyrical theme concerning hip hop excess, and it is accompanied by P-Funk style harmonies and low-key singing by D'Angelo.^([9][28]) It is a bass-driven track produced by DJ Premier, who contributes to its hip hop texture.^([59]) The song's theme also incorporates religious imagery into its message of social strife.^([58]) Questlove has stated that \"Devil's Pie\" was written to address the issues of \"the money hungry jiggafied state of the world we're in\".^([28]) \"Left & Right\" is a funky party jam featuring rappers Method Man and Redman, who exchange verses as D'Angelo sings the song's verses and chorus.^([60]) Entertainment Weekly's Matt Diehl calls Method Man's and Redman's lyrics \"misogynistic\", adding that it upsets Voodoo's \"organically sensual vibe\".^([61]) The introspective track \"The Line\" has a downtempo, spiritual sound with lyrics about dealing with some unnamed adversity.^([62][63]) According to one critic, it \"could be about his MIA status ('Will I hang or get left hangin?/Will I fall off or is it bangin?/I say it's up to God'), or about anyone facing doubters with a revolver loaded with talent and self-confidence ('I'm gonna put my finger on the trigger/I'm gonna pull it, and then we gon' see/What the deal/I'm for real')\".^([64]) Music critic Robert Christgau interpreted the lyrics to be \"unjudgmental, unsentimental ... in which a young black man lays out the reasons he's ready to die-leaving the listener to wonder why the fuck he should have to think about it\".^([65]) Andy Peterson of The GW Hatchet viewed that the adversity is \"the price of fame\" or \"lamenting a lost lover\".^([63]) [] \"Chicken Grease\" The song's light, sparse funk sound was the result of old school production techniques employed by recording engineer Russell Elevado. ------------------------------------------------------------------------ Problems playing this file? See media help. The sparse funk song \"Chicken Grease\" has lyrics advising against acting \"uptight\",^([19][54]) and it features D'Angelo referencing the line \"I know you got soul\" from Eric B. & Rakim's song of the same name (1987).^([64]) It contains an ambiguous harmony and bass by Pino Palladino, who evokes the playing style of James Jamerson, with spontaneously improvised variations-on-a-theme parts that sit back \"in the pocket\".^([56]) The track was originally intended for Common's Like Water for Chocolate, but D'Angelo offered Common the song \"Geto Heaven Part Two\" as a trade.^([34]) \"Chicken Grease\" is named after a technical term that musician Prince used for his guitarist to play a 9th minor chord while playing 16th notes.^([28]) The song contains background voices, which one writer described as \"omnipresent party people channeled in from 'What's Going On' and 'Voodoo Chile', laughin and carryin on all over\".^([64]) Co-written by D'Angelo's former girlfriend, singer Angie Stone, \"Send It On\" contains lyrics concerning themes of honesty and faith in love, and features jazz trumpeter Roy Hargrove on flugelhorn.^([19]) Titled after a southern colloquial conflation of the terms \"One More Time\" and \"Again\", the mid-tempo ballad \"One Mo'Gin\" has its narrator reminiscing about a former lover.^([19]) Its introductory sound consisting of soft organ work and dim percussion evokes the sound of D'Angelo's \"Sh★t, Damn, Motherf★cker\" (1995).^([19][54]) \"One Mo'Gin\" contains strong jazz overtones and a prominent rocksteady drum rhythm played by Questlove.^([66]) It incorporates Delta blues-style bass and keyboard-driven verses with a melodic hook.^([56]) The song is introduced with lead-in bass licks by Pino Palladino, who adds musical texture to its sparse composition by using 10th notes and other arpeggio shapes.^([56]) According to Seattle Weekly's Tricia Romano, the song's music actualizes \"new skool sensibility with old school soul\".^([67]) [] \"Spanish Joint\" The high tempo, salsa-influenced track features Latin grooves and jazzy trumpet by co-writer Roy Hargrove. ------------------------------------------------------------------------ Problems playing this file? See media help. According to Questlove, \"The Root\", \"Spanish Joint\", and \"Greatdayndamornin' / Booty'\" serve as the \"virtuoso part of the record\", featuring intricate technical arrangements^([28]) and Charlie Hunter playing both electric and bass guitar.^([28]) \"The Root\" is a mid-tempo heartbreak song with the bass line and guitar solo played simultaneously by Hunter on an eight-string guitar.^([45]) It is about a vengeful woman's effect on the narrator: \"In the name of love and hope she took my shield and sword ... From the pit of the bottom that knows no floor/Like the rain to the dirt, from the vine to the wine/From the alpha of creation, to the end of all time\".^([64]) Miles Marshall Lewis writes of the song's subject matter, \"[it] can actually be digested and emotionally felt, sadly rare for Hot 97 R&B.\"^([64]) Co-written by Roy Hargrove, \"Spanish Joint\" is a salsa-infused, high tempo track about karma.^([19]) It incorporates rhythmic Brazilian guitar licks by Hunter, funky horn arrangements by Hargrove,^([19]) and Latin grooves and fusion instrumentation similar to Stevie Wonder's \"Don't You Worry 'bout a Thing\" (1973).^([19]) \"Feel Like Makin' Love\" is a cover of Roberta Flack's 1974 hit of the same name with a low-key,^([57]) quiet storm sound.^([66]) \"Greatdayndamornin' / Booty'\" features double rimshots placed behind the beat by Questlove.^([68]) [D'Angelo] didn't see this at first because we had already did a song about his son. But I told him the music here fit the mood better. It's like a bunch of toy boxes playing at once... It gives you that sad feeling that 'Higher' gave you on Brown Sugar; a dope song that you don't want to hear because you know that this is the last song you're gonna hear in some time. I know D wanted to do a song that spoke of history. Not just to his son. but to God, to Africa and the world. — Questlove, on \"Africa\", 1999^([28]) Co-written by Raphael Saadiq, \"Untitled (How Does It Feel)\" is a tribute to one of D'Angelo's primary influences, Prince, and evokes his early Controversy period.^([28][58]) The similarity of D'Angelo's music on Voodoo to Prince was addressed in Saul Williams's liner notes, as he stated \"I'd pay to see Prince's face as he listens to this album.\"^([23]) Questlove described the song as \"finding the line between parody and honesty [...] In an era of 'the cover song', redoing a Prince song was taboo. This is the second best thing\".^([28]) It follows a six eight signature and features electric guitar interplay throughout, which is reminiscent of the Jimi Hendrix guitar style and \"Maggot Brain\" sound.^([36]) The song contains a drum pattern with a uniform dynamic.^([36]) D'Angelo's vocals were overdubbed several times to produce the sound of a choir singing harmonies during choruses, all of which were sung by D'Angelo.^([36]) The song's sexually explicit lyrics describe the narrator's plea to his lover for sex, as exemplified in the second verse: \"Love to make you wet/In between your thighs, cause/I love when it comes inside of you/I get so excited when I'm around you, baby\"^([36]) It has been cited by critics as the album's best song.^([19][28][25]) [] \"Africa\" The album's closing track, composed by D'Angelo in honor of his son and his cultural roots ------------------------------------------------------------------------ Problems playing this file? See media help. The philosophical album closer \"Africa\" celebrates D'Angelo's heritage, while reaffirming his contemporary mission in life.^([28]) It has been cited by Questlove as his favorite song on the album.^([28]) The theme of \"Africa\" concerns the finding of a spiritual home amid geographical displacement, and of passing that sense of belonging on to one's children.^([69]) \"Africa\" was originally written in honor of D'Angelo's son, Michael Archer Jr.,^([28]) and ended up as a dedication to history, Africa, and God.^([70]) Opening with a shimmery rustle of chimes,^([69]) the song contains a drum interpretation of Prince's \"I Wonder U\" from his Parade (1986),^([53]) which was also utilized for the Ursula Rucker and the Roots track \"The Return to Innocence Lost\" from Things Fall Apart.^([28]) Questlove discussed producing the opening chime sounds for \"Africa\", stating \"we took the cover off the rhodes and mic'd 'em\".^([28]) One critic described",
+      "retrievedAt": "2026-09-03T17:33:30.413Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 36519,
+        "fetchedTextLength": 106876,
+        "kind": "character-offsets",
+        "start": 26720
+      }
+    },
+    "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624": {
+      "artifactId": "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624",
+      "artifactSha256": "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank28-voodoo-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "1ecdda497ca042e3c2248ab6029a6fd3b63e6995d38cd8bf74b8c6c616bce837",
+      "finalUrl": "https://en.wikipedia.org/wiki/Devil%27s_Pie",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Virgin Records. It was issued as a promotional single for his second studio album, 2000's Voodoo. The song was composed by D'Angelo and hip hop producer DJ Premier of the group Gang Starr. \"Devil's Pie\" served as a departure for D'Angelo from the urban contemporary style of his previous commercially successful singles to the more experimental, \"jam\"-like sound that is predominant on Voodoo, as well as the use of sampling in his music. The song appeared on the soundtrack to the 1998 film Belly. DJ Premier originally made the track for Canibus but later offered it to D'Angelo after Canibus rejected the song.^([2]) Background [edit] A part of the musical collective Soulquarians, J Dilla aka Jay Dee served as a frequent collaborator of theirs.^([3][4]) Although album tracks such as \"Left & Right\" and \"Devil's Pie\" help to bring this claim to light, Dilla himself was not officially credited for production. However, he contributed significantly to Voodoo's overall sound, specifically the rhythm and percussion.^([3]) Composition [edit] Produced by D'Angelo and hip hop producer DJ Premier, \"Devil's Pie\"",
+      "retrievedAt": "2026-09-03T17:33:30.539Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3366,
+        "fetchedTextLength": 10573,
+        "kind": "character-offsets",
+        "start": 2254
+      }
+    },
+    "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999": {
+      "artifactId": "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999",
+      "artifactSha256": "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/The_Root",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank28-voodoo-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "bb9e7919a12b2906d5308d1f3f5109e66a4684226113ccd913b79ea5a8e44cb9",
+      "finalUrl": "https://en.wikipedia.org/wiki/The_Root",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "udio album, Voodoo (2000),^([1]) which took place during 1998 to 1999.^([2]) The song was composed by guitarist Charlie Hunter, D'Angelo, and Luther Archer, D'Angelo's brother.^([3]) According to Voodoo's co-producer and drummer, Ahmir \"Questlove\" Thompson of The Roots, the track serves as part of the album's \"virtuoso part\", along with \"Spanish Joint\" and \"Greatdayndamornin' / Booty\".^([2]) It features intricate technical arrangements and no overdubbing of live instrumentation or vocals.^([2]) Charlie Hunter simultaneously plays a bass line and guitar solo for the song.^([4]) Hunter came up with the song's guitar and bass parts after being inspired by his jamming with D'Angelo to Jimi Hendrix songs.^([5]) He played the guitar and bass sections on \"The Root\" with a custom 8 string guitar/bass combo, which features the upper three strings as bass and the lower five as guitar.^([5]) It also had separate pickups for each set of strings, along with separate outputs for each pickup.^([5]) To adjust to his playing, Voodoo's audio engineer Russell Elevado had separate",
+      "retrievedAt": "2026-09-03T17:33:30.634Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3334,
+        "fetchedTextLength": 10839,
+        "kind": "character-offsets",
+        "start": 2257
+      }
+    },
+    "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f": {
+      "artifactId": "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f",
+      "artifactSha256": "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank28-voodoo-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "9e0735aeb511a152a047c11fc2f0568aa2973b9e6b04569b3e8fe29a7ed46d46",
+      "finalUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Here\" | | (2000) (2000) (2002) | | | | ----------------------- ------------------------- ----------------------- | +---------------------------------------------------------------------------------+ American R&B and neo soul musician D'Angelo covered the song for his second studio album Voodoo (2000). It was released April 8, 2000, on Virgin Records as the album's fifth and last single. His cover version features a quiet storm radio-style sound and heavy use of multi-tracking for vocals.^([23]) It was initially planned as a duet with R&B singer Lauryn Hill.^([24]) Although tapes were sent via FedEx between the two, the collaboration between D'Angelo and Hill was aborted and the song was instead recorded solo. According to producer and drummer Questlove, the duet failed to materialize due to \"too many middle men.... I don't think Lauryn and D ever talked face-to-face.\"^([24]) Mistakenly, some critics who later reviewed the album's track assumed that Lauryn Hill's vocals are present in the recording.^([24]) According to Questlove's review of Voodoo",
+      "retrievedAt": "2026-09-03T17:33:30.974Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 10200,
+        "fetchedTextLength": 22763,
+        "kind": "character-offsets",
+        "start": 9138
+      }
+    },
+    "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699": {
+      "artifactId": "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699",
+      "artifactSha256": "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699",
+      "canonicalUrl": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank28-voodoo-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "gzip",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "665be39ad94581dc046097c90ef59103afa492dd1fff1248ed84d6858496f6bd",
+      "finalUrl": "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "this image led to his period of absence from the music scene following the conclusion of the supporting tour for Voodoo. The song won a Grammy Award for Best Male R&B Vocal Performance at the 43rd Grammy Awards in 2001. Rolling Stone magazine named \"Untitled (How Does It Feel)\" the fourth best single of 2000. The magazine later named it the fifty-first best song of the 2000s. The song's music video inspired later videos by Panic! at the Disco and Jason Derulo. Background and recording [edit] [] \"Untitled (How Does It Feel)\" was originally intended as a tribute to influential musician Prince.^([2]) The song evokes Prince's earlier work, in particular his balladry, from his Controversy period, as well as his musical style and falsetto vocal technique.^([2][3]) As an homage to the musician, Voodoo producer Ahmir \"Questlove\" Thompson described the song as \"finding the line between parody and honesty ... In an era of 'the cover song', redoing a Prince song was taboo. This is the second best thing\".^([2]) Production of the song was handled by D'Angelo and fellow neo soul musician Raphael",
+      "retrievedAt": "2026-09-03T17:33:30.846Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 5156,
+        "fetchedTextLength": 41625,
+        "kind": "character-offsets",
+        "start": 4058
+      }
+    }
+  }
+}

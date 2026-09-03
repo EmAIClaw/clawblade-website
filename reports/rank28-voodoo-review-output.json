@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "albumId": "028-d-angelo-voodoo-b6406009",
+  "editionNumber": 1,
+  "candidateContentHash": "67fdcb45c97bdefbb6a68e631e41a769384eba499be8c9cf6d38a6089e66427b",
+  "reviewer": {
+    "identity": "codex-independent-evidence-reviewer",
+    "runId": "rank28-final-readonly-review-20260903",
+    "process": "codex exec --sandbox read-only"
+  },
+  "reviewedAt": "2026-09-03T17:37:16Z",
+  "decisions": [
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:1:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:1:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract specifically says Pino Palladino recalled thinking about Stevie Wonder in the choruses and P-Funk in the verses in connection with the song, supporting the Playa Playa claim."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:2:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:2:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "374b72ae5a546488b250e817d56cc6a0a93600825ae9e41fd440de56e0907624"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Devil%27s_Pie"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract directly states that DJ Premier made the track for Canibus and later offered it to D'Angelo after Canibus rejected it."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:3:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:3:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract names Left & Right and describes it as a funky party jam featuring Method Man and Redman exchanging verses while D'Angelo sings the verses and chorus; the catalog title typography difference is covered by the review instructions."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:4:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:4:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract specifically identifies The Line as introspective, downtempo, spiritual, and lyrically about dealing with unnamed adversity."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:5:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:5:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract states that Send It On was co-written by Angie Stone, concerns honesty and faith in love, and features Roy Hargrove on flugelhorn."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:6:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:6:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract directly says Chicken Grease is named after Prince's technical term for his guitarist playing a ninth minor chord while playing sixteenth notes."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:7:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:7:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract states the title is a southern colloquial conflation of One More Time and Again and that One Mo'Gin has its narrator reminiscing about a former lover."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:8:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:8:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "b0adee0e9063ed97e473993d9094a38ed25147857c555aacf95fd89cfa4ea999"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Root"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. In the The Root article, the extract says Charlie Hunter simultaneously plays a bass line and guitar solo for the song, supporting the claim."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:9:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:9:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract directly states that Spanish Joint was co-written by Roy Hargrove and is a salsa-infused, high-tempo track about karma."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:10:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:10:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "e8b929d5e66906c8cf441eb6355ccee3c8c91519b06ce12ba7bce0b0ab19535f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Feel_Like_Makin'_Love_(Roberta_Flack_song)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The artifact context identifies D'Angelo's cover version of Feel Like Makin' Love, and the extract states it was initially planned as a duet with Lauryn Hill."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:11:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:11:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract says Greatdayndamornin' / Booty features double rimshots placed behind the beat by Questlove; the quoted typography difference is expressly allowed by the review instructions."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:12:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:12:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "8f2ef3568ec8b53007ecbadf2b9c5cab4eb058c463f30adf165cbefeb7ad4699"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Untitled_(How_Does_It_Feel)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract directly states that Untitled (How Does It Feel) was originally intended as a tribute to Prince."
+    },
+    {
+      "claimId": "028-d-angelo-voodoo-b6406009:1:13:fact-1",
+      "decisionId": "028-d-angelo-voodoo-b6406009:1:13:fact-1",
+      "decision": "supported",
+      "artifactIds": [
+        "5de829d2d864e1bdc86c59ec147ad45ed584ffa5c3c1323204d43a965e012a1f"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Voodoo_(D%27Angelo_album)"
+      ],
+      "rationale": "The referenced artifact exists, its canonical URL matches the sourceRef URL, and the offset slice matches the extract. The extract directly states that Africa was originally written in honor of D'Angelo's son, Michael Archer Jr."
+    }
+  ]
+}
