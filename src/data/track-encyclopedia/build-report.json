@@ -46,6 +46,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/012-michael-jackson-thriller-a46ba2f6.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -54,10 +58,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 13,
-  "totalTracks": 168,
+  "totalEntries": 14,
+  "totalTracks": 177,
   "evidenceLevelCounts": {
-    "documented": 168,
+    "documented": 177,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

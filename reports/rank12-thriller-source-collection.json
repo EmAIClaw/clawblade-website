@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank12-thriller-web-extract-collector-20260903",
+  "collectedAt": "2026-09-03T03:55:00.000Z",
+  "results": [
+    {
+      "canonicalUrl": "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track",
+      "fetchUrl": "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track/",
+      "finalUrl": "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track",
+      "status": "collected",
+      "artifactId": "26fae0e9499c07283574aabfc633875a39b393f3948ea36bb5a031adf4a704f9",
+      "created": true,
+      "fetchedResponseSha256": "aae05b1668bfcb3a00217ed19c08afb4edf9a432dae19c055cc06d7ef5bad58d",
+      "contentType": "text/markdown; source=web_extract",
+      "retainedCharacters": 10585,
+      "fetchedCharacters": 12687,
+      "claims": [
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Wanna Be Startin' Somethin'",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "It starts with a lot of percussion. There’s some drum machines and some live drums and other things. It’s a Univox drum machine. We actually used it a lot on the Brothers Johnson record, and we were using it at that time on Michael’s record as well. I think it’s an SR55.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 500,
+            "end": 771
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Baby Be Mine",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "That’s John Robinson playing drums on my drum platform. I still use it and Michael did all his vocals on that drum platform. It’s unpainted, unvarnished, about eight feet square and by getting the sound source up off the floor, it prevented secondary pick-up if I was recording other instruments along with whatever was on the drum platform.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 1572,
+            "end": 1913
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "The Girl Is Mine",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "That was actually the first track we recorded for the album. It was a duet with Michael and Paul McCartney who was an absolute joy to work with. He was such a gentleman, he came to the studio prepared – Linda McCartney was with him and we had a fabulous time.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 2775,
+            "end": 3034
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Thriller",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "But you know who it is that is doing those wolf howls? That’s Michael Jackson, we had to get Michael to do it instead, but he did it so great. There’s some library stuff in there but Michael did those wolf howls.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4634,
+            "end": 4846
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Beat It",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Oh boy – the intro synth was a stock Synclavier patch; any Synclavier will make that sound. We liked it but we wanted everything to be unrecognisable, unique, so we didn’t want to use that sound, but Michael loved it and made us keep it.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5447,
+            "end": 5684
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Billie Jean",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The bass on this was fantastic – the bass player is Louis Johnson from the Brothers Johnson and I picked him up with a DI, which I still have – it’s got a UTC transformer in it and I got it when I lived in Chicago and the low-end is incredible – very warm.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6692,
+            "end": 6948
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "Human Nature",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "That was a track written by Steve Porcaro of Toto [with John Bettis]. He played and programmed a lot of the synths. It’s a really incredible piece of music; it’s so different, and Michael sings it so well.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8480,
+            "end": 8685
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "P.Y.T. (Pretty Young Thing)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "P.Y.T. was written by James Ingram and Quincy Jones – a great stone R&B hit. We used a lot of Minimoog – our synth programmer who was there all the time was Michael Boddicker. He programmed the Minimoog and he owned the best-sounding synths at the time.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8865,
+            "end": 9118
+          }
+        },
+        {
+          "albumId": "012-michael-jackson-thriller-a46ba2f6",
+          "trackTitle": "The Lady in My Life",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Rod Temperton wrote that. Rod is very different from anyone else I’ve ever known in the music business – he’s the most disciplined pop music composer I’ve ever met. When he comes to the studio, every musical detail is written down or accounted for in Rod’s mind.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9823,
+            "end": 10085
+          }
+        }
+      ]
+    }
+  ]
+}
