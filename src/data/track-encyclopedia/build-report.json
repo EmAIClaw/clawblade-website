@@ -50,6 +50,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -58,10 +62,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 14,
-  "totalTracks": 177,
+  "totalEntries": 15,
+  "totalTracks": 188,
   "evidenceLevelCounts": {
-    "documented": 177,
+    "documented": 188,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

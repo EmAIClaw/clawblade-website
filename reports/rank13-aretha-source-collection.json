@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "collectorRunId": "rank13-aretha-http-collector-20260903",
+  "collectedAt": "2026-09-03T04:19:24.576Z",
+  "results": [
+    {
+      "canonicalUrl": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24/",
+      "fetchUrl": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24/",
+      "finalUrl": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+      "status": "collected",
+      "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+      "created": true,
+      "fetchedResponseSha256": "2b5fcd96860fedfb0a86271b793bb60c25b7985a9cd5df1a0a01f91b06b8c37a",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 10323,
+      "fetchedCharacters": 21229,
+      "claims": [
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Respect",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Franklin, Wexler and Atlantic staff arranger Arif Mardin vastly improved on Redding’s rough-hewn arrangement. The background singers—Aretha’s sisters Carolyn and Erma with Cissy Houston—serve as a Greek chorus as the drama of the track spreads out during a fully packed 2:29 timing.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 3518,
+            "end": 3800
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Drown In My Own Tears",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "Henry Glover’s “Drown In My Own Tears” which had been cut by Ray Charles for Atlantic in 1956, begins with a powerful starkness, Aretha’s voice and piano laying down gospel licks with bassist Tommy Cogbill before Hawkins—or perhaps alternate Swamper Gene Chrisman—enters.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 4065,
+            "end": 4336
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "I Never Loved a Man (The Way I Love You)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "With Aretha on acoustic piano and Dewey “Spooner” Oldham on electric piano, and all the other musicians recording live, “I Never Loved a Man (The Way I Love You)” was tracked. Written by Detroit’s Ronnie Shannon, the song and Franklin’s intense vocal performance electrified the musicians.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 499,
+            "end": 788
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Soul Serenade",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "The languid “Soul Serenade,” written by Luther Dixon and King Curtis, had often been performed as an instrumental ever since Curtis’ 1964 hit version for Capitol Records; this version with lyrics, while beautifully sung, is not a highlight of the LP.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5480,
+            "end": 5730
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Don't Let Me Lose This Dream",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Don’t Let Me Lose This Dream,” written by Franklin and her husband, is a bossa-nova that sounds not unlike a Bacharach-David song for Dionne Warwick.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 5797,
+            "end": 5947
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Baby, Baby, Baby",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Baby, Baby, Baby” was written by Carolyn and Aretha Franklin. Oldham’s organ is in support of Franklin’s stately piano once again.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 6783,
+            "end": 6914
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Dr. Feelgood (Love Is Serious Business)",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Dr. Feelgood (Love Is a Serious Business)” leads off side two of the original LP, and is wonderfully loose and unabashedly sexy. This is one of the best examples of how White and Franklin could co-write with real heat and from their attraction to each other.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 7628,
+            "end": 7887
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Good Times",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "There are two Sam Cooke tunes on side two, “Good Times” and “A Change Is Gonna Come.” As a party anthem the first can’t be beat, and Franklin and company make short, potent work of it. A hit for Cooke in 1964, it’s attracted dozens of cover versions and had wide appeal",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8583,
+            "end": 8852
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Do Right Woman, Do Right Man",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "the regally impressive “Do Right Woman–Do Right Man,” penned by the Muscle Shoals duo Dan Penn and Chips Moman",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9464,
+            "end": 9574
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "Save Me",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“Save Me,” a light confection that never strays from the same three chords that anchor Van Morrison’s “Gloria.” It’s one of the only songs ever written by Carolyn, Aretha and King Curtis, and is basically a short jam with a rock/boogaloo beat.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 9580,
+            "end": 9823
+          }
+        },
+        {
+          "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+          "trackTitle": "A Change Is Gonna Come",
+          "factIndex": 0,
+          "refIndex": 0,
+          "retainedExtract": "“A Change Is Gonna Come” is now of course a Civil Rights anthem, based on Cooke’s experience of racism while on tour in the South. His stirring version was released as a single B-side in early 1964. The longest cut on the album, Aretha’s take is placed at the very end, after all the playfulness and love songs, and is a deadly serious, focused, emotional masterpiece.",
+          "section": {
+            "kind": "character-offsets",
+            "start": 8986,
+            "end": 9354
+          }
+        }
+      ]
+    }
+  ]
+}

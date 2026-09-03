@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+  "editionNumber": 1,
+  "candidateContentHash": "b786a89d21713bb3da5c2c8f23792158c9bcaaab02c6108fe4d3d17558029c8c",
+  "candidate": {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank13-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Respect",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:1:fact-1",
+            "claim": "Mark Leviton notes that Franklin, Wexler and Atlantic staff arranger Arif Mardin vastly improved on Otis Redding’s rough-hewn arrangement of “Respect,” and that the background singers were Aretha’s sisters Carolyn and Erma with Cissy Houston.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Franklin, Wexler and Atlantic staff arranger Arif Mardin vastly improved on Redding’s rough-hewn arrangement. The background singers—Aretha’s sisters Carolyn and Erma with Cissy Houston—serve as a Greek chorus as the drama of the track spreads out during a fully packed 2:29 timing.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 3518,
+                  "end": 3800
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "Drown In My Own Tears",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:2:fact-1",
+            "claim": "Mark Leviton notes that Henry Glover’s “Drown In My Own Tears,” which had been cut by Ray Charles for Atlantic in 1956, begins with Aretha’s voice and piano laying down gospel licks with bassist Tommy Cogbill before Hawkins—or perhaps alternate Swamper Gene Chrisman—enters.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Henry Glover’s “Drown In My Own Tears” which had been cut by Ray Charles for Atlantic in 1956, begins with a powerful starkness, Aretha’s voice and piano laying down gospel licks with bassist Tommy Cogbill before Hawkins—or perhaps alternate Swamper Gene Chrisman—enters.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 4065,
+                  "end": 4336
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "I Never Loved a Man (The Way I Love You)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:3:fact-1",
+            "claim": "Mark Leviton notes that the title track was tracked with Aretha on acoustic piano and Dewey “Spooner” Oldham on electric piano, all musicians recording live, and that the song was written by Detroit’s Ronnie Shannon.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "With Aretha on acoustic piano and Dewey “Spooner” Oldham on electric piano, and all the other musicians recording live, “I Never Loved a Man (The Way I Love You)” was tracked. Written by Detroit’s Ronnie Shannon, the song and Franklin’s intense vocal performance electrified the musicians.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 499,
+                  "end": 788
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Soul Serenade",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:4:fact-1",
+            "claim": "Mark Leviton notes that “Soul Serenade,” written by Luther Dixon and King Curtis, had often been performed as an instrumental since Curtis’ 1964 hit version for Capitol Records, and that this version with lyrics is not a highlight of the LP.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The languid “Soul Serenade,” written by Luther Dixon and King Curtis, had often been performed as an instrumental ever since Curtis’ 1964 hit version for Capitol Records; this version with lyrics, while beautifully sung, is not a highlight of the LP.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 5480,
+                  "end": 5730
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Don't Let Me Lose This Dream",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:5:fact-1",
+            "claim": "Mark Leviton notes that “Don’t Let Me Lose This Dream,” written by Franklin and her husband, is a bossa-nova that sounds not unlike a Bacharach-David song for Dionne Warwick.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Don’t Let Me Lose This Dream,” written by Franklin and her husband, is a bossa-nova that sounds not unlike a Bacharach-David song for Dionne Warwick.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 5797,
+                  "end": 5947
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "Baby, Baby, Baby",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:6:fact-1",
+            "claim": "Mark Leviton notes that “Baby, Baby, Baby” was written by Carolyn and Aretha Franklin, with Oldham’s organ supporting Franklin’s stately piano.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Baby, Baby, Baby” was written by Carolyn and Aretha Franklin. Oldham’s organ is in support of Franklin’s stately piano once again.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 6783,
+                  "end": 6914
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Dr. Feelgood (Love Is Serious Business)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:7:fact-1",
+            "claim": "Mark Leviton notes that “Dr. Feelgood (Love Is a Serious Business)” leads off side two of the original LP and is a strong example of how Ted White and Franklin could co-write with real heat and from their attraction to each other.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Dr. Feelgood (Love Is a Serious Business)” leads off side two of the original LP, and is wonderfully loose and unabashedly sexy. This is one of the best examples of how White and Franklin could co-write with real heat and from their attraction to each other.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 7628,
+                  "end": 7887
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Good Times",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:8:fact-1",
+            "claim": "Mark Leviton notes that “Good Times” is one of two Sam Cooke tunes on side two, that it was a hit for Cooke in 1964, and that it has attracted dozens of cover versions.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "There are two Sam Cooke tunes on side two, “Good Times” and “A Change Is Gonna Come.” As a party anthem the first can’t be beat, and Franklin and company make short, potent work of it. A hit for Cooke in 1964, it’s attracted dozens of cover versions and had wide appeal",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 8583,
+                  "end": 8852
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "Do Right Woman, Do Right Man",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:9:fact-1",
+            "claim": "Mark Leviton notes that “Do Right Woman–Do Right Man” was penned by the Muscle Shoals duo Dan Penn and Chips Moman.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "the regally impressive “Do Right Woman–Do Right Man,” penned by the Muscle Shoals duo Dan Penn and Chips Moman",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 9464,
+                  "end": 9574
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Save Me",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:10:fact-1",
+            "claim": "Mark Leviton notes that “Save Me” is a light confection that never strays from the same three chords that anchor Van Morrison’s “Gloria,” and that it is one of the only songs ever written by Carolyn, Aretha and King Curtis.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“Save Me,” a light confection that never strays from the same three chords that anchor Van Morrison’s “Gloria.” It’s one of the only songs ever written by Carolyn, Aretha and King Curtis, and is basically a short jam with a rock/boogaloo beat.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 9580,
+                  "end": 9823
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      },
+      {
+        "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "A Change Is Gonna Come",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:11:fact-1",
+            "claim": "Mark Leviton notes that “A Change Is Gonna Come” is a Civil Rights anthem based on Sam Cooke’s experience of racism while on tour in the South, and that Aretha’s take, the longest cut on the album, is placed at the very end.",
+            "sourceRefs": [
+              {
+                "label": "Best Classic Bands album review by Mark Leviton",
+                "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+                "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+                "sourceIdentity": "bestclassicbands.com|Mark Leviton I Never Loved a Man review",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "“A Change Is Gonna Come” is now of course a Civil Rights anthem, based on Cooke’s experience of racism while on tour in the South. His stirring version was released as a single B-side in early 1964. The longest cut on the album, Aretha’s take is placed at the very end, after all the playfulness and love songs, and is a deadly serious, focused, emotional masterpiece.",
+                "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 8986,
+                  "end": 9354
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "Best Classic Bands album review by Mark Leviton",
+            "title": "Aretha Franklin's 'I Never Loved a Man the Way I Love You' LP: R-E-S-P-E-C-T",
+            "url": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396": {
+      "artifactId": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+      "artifactSha256": "6890ca85f7228e85e58d4d611145026814d68544cecfe439149077abb4403396",
+      "canonicalUrl": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank13-aretha-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "2b5fcd96860fedfb0a86271b793bb60c25b7985a9cd5df1a0a01f91b06b8c37a",
+      "finalUrl": "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "rancorous disputes ever since the musicians gathered on Jan. 10, 1967. Wexler always claimed he wanted Hall to hire a horn section made up of Black musicians, because he was anxious about how Franklin and her manager-husband Ted White might react to the “bunch of white Southern crackers” that worked with Hall. “It bothered me that she walked into the studio and didn’t see another Black face,” Wexler told Cox. “But Aretha has never had a spark of racial prejudice in her. She didn’t say a word.” With Aretha on acoustic piano and Dewey “Spooner” Oldham on electric piano, and all the other musicians recording live, “I Never Loved a Man (The Way I Love You)” was tracked. Written by Detroit’s Ronnie Shannon, the song and Franklin’s intense vocal performance electrified the musicians. Drummer Roger Hawkins later said, “I’ve never experienced so much feeling coming out of one human being.” But alcohol was consumed, and one of the musicians reportedly went too far with the general teasing and goofing off. Did he really hit on Aretha? White thought so. Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. After two hours completing that song and getting halfway into “Do Right Woman–Do Right Man,” the session ended with tension in the air, especially between Hall and White. At the Downtowner Hotel in the wee hours, Hall tried to smooth things over and instead, he later admitted, got into “a full-blown fistfight,” with White, while Franklin tried to break them up. Wexler, whose room was nearby, visited White at 6 a.m., and told biographer David Ritz that White was apoplectic, screaming about how he and his wife had been mistreated. By noon, White had taken his wife back to New York City. Undeterred, Wexler flew some of the Muscle Shoals musicians, informally known as the Swampers, to New York, added a few of his local regulars, including saxophonist Curtis Ousley (King Curtis), and completed Franklin’s debut LP for Atlantic at their own 1841 Broadway studios, with the brilliant Tom Dowd engineering. (One account says Wexler lied to Hall about the Swampers coming north to work only on King Curtis’ Plays the Great Memphis Hits sessions.) [][] Released on March 10, 1967, a mere two weeks after the final “sweetening” recording sessions, I Never Loved A Man The Way I Love You was an immediate smash, not only because of the title track, which as a single made the Billboard top 10, but for the LP’s first cut, Franklin’s landmark version of Otis Redding’s “Respect,” which made it to #1 as a 45 in June. “To tell the truth, I never expected ‘I Never Loved a Man’ to be a hit,” Franklin told Norman Jopling in a rare 1968 interview. “I was surprised. I could see more potential in ‘Respect.’ In fact, I can say I knew that would be a hit song,” Redding had recorded it two years before, and his version fit into a long-standing social template, in which a male breadwinner demands credit—and access to good lovin’—for his efforts. Related: Watch Aretha Franklin duet with Tom Jones Repurposed for a female singer, the concept of “respect” expands beyond home life and into all of American society. In Franklin’s performance, she demands respect as both a woman and a Black woman. She was always a bit coy when discussing the connection to the Civil Rights and feminist movements, telling the Detroit Free Press, “I don’t think it’s bold at all. I think it’s quite natural that we all want respect—and should get it.” Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. Franklin, Wexler and Atlantic staff arranger Arif Mardin vastly improved on Redding’s rough-hewn arrangement. The background singers—Aretha’s sisters Carolyn and Erma with Cissy Houston—serve as a Greek chorus as the drama of the track spreads out during a fully packed 2:29 timing. The “sock it to me” grind and spelling out “r-e-s-p-e-c-t” are genius moves. Jimmy Johnson’s guitar, Oldham’s Hammond organ, King Curtis’ tenor sax, Hawkins’ insistent drumming and Franklin’s piano all mesh into one of the greatest of all recordings in any genre. Henry Glover’s “Drown In My Own Tears” which had been cut by Ray Charles for Atlantic in 1956, begins with a powerful starkness, Aretha’s voice and piano laying down gospel licks with bassist Tommy Cogbill before Hawkins—or perhaps alternate Swamper Gene Chrisman—enters. The robust arrangement for four-piece horn section (trumpeter Melvin Lastie, Willie Bridges on baritone sax and Charles Chalmers and King Curtis on tenors) buoys the track even more. Franklin’s vocal calisthenics are astounding; she’s always on the move, turning melody lines around, shouting, exclaiming. She takes liberties with the phrasing just as Charles did. Listen to how she handles “I’ve been crying just like a child/These tears of mine, these tears are runnin’ wild” about a minute in. Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. “I Never Loved a Man (The Way I Love You)” is next. From the moment Franklin insists, “You’re no good, heartbreaker/You’re a liar, and you’re a cheat,” over Oldham’s electric piano, the listener can’t help but be riveted. Franklin’s muscular piano becomes more central as the track unfolds, and her ability to explode pitch-perfect vocal notes into her upper range is startling. How many words have already been written trying to discern how Jerry Wexler and Aretha Franklin found the alchemy that others failed to discover? The recording is a Mount Rushmore of Rhythm and Blues. The languid “Soul Serenade,” written by Luther Dixon and King Curtis, had often been performed as an instrumental ever since Curtis’ 1964 hit version for Capitol Records; this version with lyrics, while beautifully sung, is not a highlight of the LP. Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. “Don’t Let Me Lose This Dream,” written by Franklin and her husband, is a bossa-nova that sounds not unlike a Bacharach-David song for Dionne Warwick. The lyrics are plain, but Franklin does her best to sell them: “If I lose this dream/It’s goodbye love and happiness/You’re the one I need/I don’t want a love that’s second best.” Musically, the bridge section at 1:50 is one of the strongest parts. Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. The lyrics are especially heartbreaking now that we know Ted White wouldn’t last much longer as Franklin’s spouse, after years of abuse and co-dependency that Aretha excused by referring to him as “a take-charge kind of guy,” As she told NME’s Alan White in 1968, “I might be just 26, but I’m an old woman in disguise—26 going on 65. Trying to grow up is hurting, you know. You make mistakes. You try to learn from them, and when you don’t, it hurts even more. I know what it’s like. I’ve been hurt—I’ve been hurt bad.” “Baby, Baby, Baby” was written by Carolyn and Aretha Franklin. Oldham’s organ is in support of Franklin’s stately piano once again. The call-and-response with the harmonizing female trio has some hokey moments, like when “If loving you was so wrong/I’m guilty of this crime” is echoed by “I’m guilty, I’m guilty, I’m guilty,” but the juxtapositions most often work well, as when Aretha sings, “I’m lonely and I’m loveless without you to hold my hand” and the response is “reach out for me, boy.” Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. There’s something very real and soulful about how Aretha calls her lover “baby,” an endearment she returned to many more times, including for another smash written by Ronnie Shannon, “Baby I Love You,” the only single pulled from her follow-up and second LP of 1967, Aretha Arrives. “Dr. Feelgood (Love Is a Serious Business)” leads off side two of the original LP, and is wonderfully loose and unabashedly sexy. This is one of the best examples of how White and Franklin could co-write with real heat and from their attraction to each other. Listen to the spectacular way she stretches out a single “oh” at 1:47 into a scream of passion, leading into “when me and that man get to lovin’/I tell you girls/I dig you but I just don’t have time to sit and chit and sit and chit-chat and smile.” Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. The story goes that the “real” Dr. Feelgood was Dr. Max Jacobsen, who was given that name by Secret Service agents during the Kennedy administration, since he was well-known as a purveyor of amphetamines to celebrities, including Marilyn Monroe, Elvis Presley and the President himself. For this song, substitute sex for pills and you know what makes the singer “feel real good.” There are two Sam Cooke tunes on side two, “Good Times” and “A Change Is Gonna Come.” As a party anthem the first can’t be beat, and Franklin and company make short, potent work of it. A hit for Cooke in 1964, it’s attracted dozens of cover versions and had wide appeal; Dan Seals had a #1 country single with “Good Times” in 1990, the same year the Grateful Dead used it as a rousing first-set opener. “A Change Is Gonna Come” is now of course a Civil Rights anthem, based on Cooke’s experience of racism while on tour in the South. His stirring version was released as a single B-side in early 1964. The longest cut on the album, Aretha’s take is placed at the very end, after all the playfulness and love songs, and is a deadly serious, focused, emotional masterpiece. Er is een fout opgetreden. JavaScript kan niet worden uitgevoerd. Before that, we get two more performances, the regally impressive “Do Right Woman–Do Right Man,” penned by the Muscle Shoals duo Dan Penn and Chips Moman, and “Save Me,” a light confection that never strays from the same three chords that anchor Van Morrison’s “Gloria.” It’s one of the only songs ever written by Carolyn, Aretha and King Curtis, and is basically a short jam with a rock/boogaloo beat. One account says Franklin plays both piano and overdubbed organ on “Do Right Woman,” but as this is a FAME/Atlantic Studios fixer-upper, memories differ. “Take me to heart and I’ll always love you/And nobody can make me do wrong/Take me for granted, leaving love unsure/Makes willpower weak and temptation strong” is one of the most tragic, and poetic, statements of a lover’s dilemma in popular music. The behind-the-beat backing vocals on the chorus are expertly designed to keep a somber, mid-tem",
+      "retrievedAt": "2026-09-03T04:19:24.569Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 14757,
+        "fetchedTextLength": 21229,
+        "kind": "character-offsets",
+        "start": 4434
+      }
+    }
+  }
+}
