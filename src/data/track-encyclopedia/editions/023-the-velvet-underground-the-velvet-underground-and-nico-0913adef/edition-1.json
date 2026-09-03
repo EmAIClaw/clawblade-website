@@ -1,0 +1,547 @@
+{
+  "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+  "editionNumber": 1,
+  "published": false,
+  "changeNote": "Complete all eleven The Velvet Underground & Nico catalog tracks with track-specific fetched evidence and independent semantic review.",
+  "trackEntries": [
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Sunday Morning",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:1:fact-1",
+          "claim": "Wikipedia states that “Sunday Morning” was the final song recorded for the album and that Tom Wilson requested another potential single with lead vocals by Nico.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Sunday Morning article",
+              "title": "Sunday Morning - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sunday_Morning_(The_Velvet_Underground_song)",
+              "sourceIdentity": "en.wikipedia.org|Sunday Morning song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "In late 1966, \"Sunday Morning\" was the final song to be recorded for The Velvet Underground & Nico. It was requested by Tom Wilson, who thought the album needed another song with lead vocals by Nico with the potential to be a successful single.",
+              "artifactId": "673f59fdb06ee0700a587b9d2a6b2a28bf421f014cace3ba8ca5a9f54343cb11",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 744
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Sunday Morning article",
+          "title": "Sunday Morning - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunday_Morning_(The_Velvet_Underground_song)"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "I'm Waiting for the Man",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:2:fact-1",
+          "claim": "Wikipedia states that the lyrics of “I’m Waiting for the Man” describe a man trying to obtain heroin.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia I'm Waiting for the Man article",
+              "title": "I'm Waiting for the Man - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/I%27m_Waiting_for_the_Man",
+              "sourceIdentity": "en.wikipedia.org|I'm Waiting for the Man song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The lyrics describe a man's efforts to obtain heroin.",
+              "artifactId": "fde6fa321d2d085c5f7c3da51cf0f683232ad83b68e85302595cfc5e1bc3aa35",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 553
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia I'm Waiting for the Man article",
+          "title": "I'm Waiting for the Man - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/I%27m_Waiting_for_the_Man"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Femme Fatale",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:3:fact-1",
+          "claim": "Wikipedia states that Lou Reed wrote “Femme Fatale” about Warhol superstar Edie Sedgwick at Andy Warhol’s request.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Femme Fatale article",
+              "title": "Femme Fatale - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Femme_Fatale_(The_Velvet_Underground_song)",
+              "sourceIdentity": "en.wikipedia.org|Femme Fatale song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "At the request of Andy Warhol, band frontman Lou Reed wrote the song about Warhol superstar Edie Sedgwick.",
+              "artifactId": "b972083b6b74fcd96e0b2c56e39d6c9bac2c1e0fc7af18a7e70951edb5a7d5e4",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 606
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Femme Fatale article",
+          "title": "Femme Fatale - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Femme_Fatale_(The_Velvet_Underground_song)"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Venus In Furs",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:4:fact-1",
+          "claim": "Wikipedia states that “Venus in Furs” was inspired by Leopold von Sacher-Masoch’s novel of the same name and addresses sadomasochism and bondage.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Venus In Furs article",
+              "title": "Venus In Furs - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Venus_in_Furs_(song)",
+              "sourceIdentity": "en.wikipedia.org|Venus In Furs song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Inspired by the novel of the same name by Leopold von Sacher-Masoch, the song includes sexual themes of sadomasochism and bondage.",
+              "artifactId": "2b5a599e33f528b318e2a8cd461b0dd02fa54474d47994eb1090034807ad352a",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 630
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Venus In Furs article",
+          "title": "Venus In Furs - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus_in_Furs_(song)"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Run Run Run",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:5:fact-1",
+          "claim": "Wikipedia states that Lou Reed wrote “Run Run Run” on the back of an envelope while the band was traveling to a Café Bizarre performance.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Run Run Run article",
+              "title": "Run Run Run - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Run_Run_Run_(The_Velvet_Underground_song)",
+              "sourceIdentity": "en.wikipedia.org|Run Run Run song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The song was written on the back of an envelope by Lou Reed while he and the band were on their way to a gig at the Café Bizarre.",
+              "artifactId": "b93ae3a87cefc50d6f300ef1fba9c1a26629b77ac265367703c0fced79dcb25a",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 629
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Run Run Run article",
+          "title": "Run Run Run - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Run_Run_Run_(The_Velvet_Underground_song)"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "All Tomorrow's Parties",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:6:fact-1",
+          "claim": "Wikipedia states that “All Tomorrow’s Parties” arose from Reed’s observations of Andy Warhol’s Factory circle and quotes Reed calling it an apt description of people there.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia All Tomorrow's Parties article",
+              "title": "All Tomorrow's Parties - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/All_Tomorrow%27s_Parties",
+              "sourceIdentity": "en.wikipedia.org|All Tomorrow's Parties song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Inspiration for the song came from Reed's observation of Andy Warhol's clique—according to Reed, the song is \"a very apt description of certain people at the Factory at the time.",
+              "artifactId": "3ee567511a4c14ca1f2416f65a1808a3ebc3bb64ebcc40b5f8764cc2e0bc3b76",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 678
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia All Tomorrow's Parties article",
+          "title": "All Tomorrow's Parties - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/All_Tomorrow%27s_Parties"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Heroin",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:7:fact-1",
+          "claim": "Wikipedia states that Lou Reed wrote “Heroin” in 1964 and that the song overtly depicts heroin use and its effects.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Heroin article",
+              "title": "Heroin - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Heroin_(The_Velvet_Underground_song)",
+              "sourceIdentity": "en.wikipedia.org|Heroin song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Written by Lou Reed in 1964, the song, which overtly depicts heroin usage and its effects, is one of the band's most celebrated compositions.",
+              "artifactId": "13214a85df1080c980e86aff560a20ed872080f7c9730fbbde9da53f48b45b7a",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 641
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Heroin article",
+          "title": "Heroin - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heroin_(The_Velvet_Underground_song)"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "There She Goes Again",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:8:fact-1",
+          "claim": "Wikipedia states that the syncopated guitar riff in “There She Goes Again” was taken from Marvin Gaye’s 1962 song “Hitch Hike.”",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia There She Goes Again article",
+              "title": "There She Goes Again - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/There_She_Goes_Again",
+              "sourceIdentity": "en.wikipedia.org|There She Goes Again song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The syncopated guitar riff is taken from the 1962 Marvin Gaye song \"Hitch Hike\".",
+              "artifactId": "f32e2d0743d53ba8ccd0151f7f5aa43f53fcf171ccf654a193e8128a51ae85e1",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 580
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia There She Goes Again article",
+          "title": "There She Goes Again - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/There_She_Goes_Again"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "I'll Be Your Mirror",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:9:fact-1",
+          "claim": "Wikipedia states that Lou Reed wrote “I’ll Be Your Mirror” for Nico, who sings lead on the recording.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia I'll Be Your Mirror article",
+              "title": "I'll Be Your Mirror - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/I%27ll_Be_Your_Mirror",
+              "sourceIdentity": "en.wikipedia.org|I'll Be Your Mirror song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Lou Reed wrote the song for Nico, who provides lead vocals.",
+              "artifactId": "5fad567c46eec2ed3361593a982ab549dab2de8a3ef4b54510eca5ff712054e3",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 559
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia I'll Be Your Mirror article",
+          "title": "I'll Be Your Mirror - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/I%27ll_Be_Your_Mirror"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "The Black Angel's Death Song",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:10:fact-1",
+          "claim": "Wikipedia states that John Cale’s electric viola dominates “The Black Angel’s Death Song” and creates dissonance throughout it.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia The Black Angel's Death Song article",
+              "title": "The Black Angel's Death Song - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Black_Angel%27s_Death_Song",
+              "sourceIdentity": "en.wikipedia.org|The Black Angel's Death Song song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The music is dominated by the piercing sound of John Cale's electric viola, creating dissonance throughout the song.",
+              "artifactId": "0b53d014d4728cc4c49b5aaa0009059d67e26ae9b58459227cf38b1c7bd71833",
+              "section": {
+                "kind": "character-offsets",
+                "start": 499,
+                "end": 615
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia The Black Angel's Death Song article",
+          "title": "The Black Angel's Death Song - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Black_Angel%27s_Death_Song"
+        }
+      ]
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "European Son",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:11:fact-1",
+          "claim": "Wikipedia states that “European Son” is dedicated to poet Delmore Schwartz, Lou Reed’s former adviser at Syracuse University.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia European Son article",
+              "title": "European Son - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/European_Son",
+              "sourceIdentity": "en.wikipedia.org|European Son song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"European Son\" is dedicated to poet Delmore Schwartz, who had been Lou Reed's advisor at Syracuse University.",
+              "artifactId": "fd8ec723d424b13c74d3533e135bf98f51331c554f4fa355c774736c86893902",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 609
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f",
+            "decisionId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:11:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia European Son article",
+          "title": "European Son - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/European_Son"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "generator": "codex-rank23-track-encyclopedia-author",
+    "model": "gpt-5.6-sol"
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-03T17:35:00.000Z",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review fec1036729f465eb332b30c5bdeca7a7646a0d9bc443f146cc599554f4d0125f."
+  },
+  "contentHash": "dd541a3ae55f1f0b"
+}
