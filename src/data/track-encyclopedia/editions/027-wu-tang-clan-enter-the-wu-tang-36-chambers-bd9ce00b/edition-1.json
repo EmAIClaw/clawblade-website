@@ -1,0 +1,451 @@
+{
+  "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+  "editionNumber": 1,
+  "published": false,
+  "changeNote": "Complete all nine catalog tracks with track-specific evidence and independent semantic review.",
+  "trackEntries": [
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Shame On a Nuh (feat. Raekwon, Ol' Dirty Bastard & Method Man)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:1:fact-1",
+          "claim": "For \"Shame,\" The Face quotes RZA saying, \"And he goes and do that shit in one fucking take, bro.\"",
+          "sourceRefs": [
+            {
+              "label": "The Face RZA interview (archived 2026-04-11)",
+              "title": "RZA dissects Wu-Tang's early bangers - The Face",
+              "url": "https://theface.com/music/rza-interview-wu-tang-clan-final-tour-london",
+              "sourceIdentity": "theface.com|RZA dissects Wu-Tang early bangers|Wayback 20260411024618",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "And he goes and do that shit in one fucking take, bro.",
+              "artifactId": "37fbd76b64d51cad906e62b6c9b9d2c3ec17589e9230d5982d469eb12fcd7ba3",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3500,
+                "end": 3554
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "The Face RZA interview (archived 2026-04-11)",
+          "title": "RZA dissects Wu-Tang's early bangers - The Face",
+          "url": "https://theface.com/music/rza-interview-wu-tang-clan-final-tour-london"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Clan In Da Front (feat. RZA & GZA)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:2:fact-1",
+          "claim": "Wikipedia identifies GZA's \"Clan in da Front\" and \"Method Man\" as the only album songs that do not feature multiple rappers contributing verses.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+              "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)",
+              "sourceIdentity": "en.wikipedia.org|Enter the Wu-Tang (36 Chambers) album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "With the exception of \"Method Man\" and GZA's \"Clan in da Front\", every song features multiple rappers contributing verses of varying lengths.",
+              "artifactId": "5c07ad9e92f94b02b589511b33ca4ce20004b72c72974ebd383c89f82d5a5c1f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2478,
+                "end": 2619
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+          "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Can It Be All So Simple (Radio Edit)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:3:fact-1",
+          "claim": "Wikipedia states that RZA's production for \"Can It Be All So Simple\" samples Gladys Knight & the Pips' cover of \"The Way We Were.\"",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Can It Be All So Simple article",
+              "title": "Can It Be All So Simple - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Can_It_Be_All_So_Simple",
+              "sourceIdentity": "en.wikipedia.org|Can It Be All So Simple song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "It features production from RZA (credited as Prince Rakeem) that samples Gladys Knight & the Pips' cover of \"The Way We Were\".",
+              "artifactId": "56a54042f6e7a99e2d2d4e1fe15caf73117ee47617a71f1022b4ce86fc6e9ec6",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 626
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Can It Be All So Simple article",
+          "title": "Can It Be All So Simple - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Can_It_Be_All_So_Simple"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Method Man (feat. Method Man, Raekwon, GZA, RZA & Ghostface Killah)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:4:fact-1",
+          "claim": "Wikipedia states that Method Man wrote his rhymes after hearing Michael Jackson's cover of the Beatles' \"Come Together,\" on which he based half of the hook.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Method Man song article",
+              "title": "Method Man (song) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Method_Man_(song)",
+              "sourceIdentity": "en.wikipedia.org|Method Man song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Method Man wrote his rhymes after hearing Michael Jackson's cover of \"Come Together\" by the Beatles, which he based half of the hook on.",
+              "artifactId": "9b8c79e650d2d048629506250da98853511ca84462cc18b1930b22a8e696cea7",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 636
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Method Man song article",
+          "title": "Method Man (song) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Method_Man_(song)"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Da Mystery of Chessboxin' (feat. Method Man, U-God, Inspectah Deck, Raekwon, Ol' Dirty Bastard, Ghostface Killah & Masta Killa) [Radio Edit]",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:5:fact-1",
+          "claim": "Wikipedia states that Masta Killa wrote his first-ever rhyme for \"Da Mystery of Chessboxin'.\"",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Da Mystery of Chessboxin article",
+              "title": "Da Mystery of Chessboxin' - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Da_Mystery_of_Chessboxin%27",
+              "sourceIdentity": "en.wikipedia.org|Da Mystery of Chessboxin song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Masta Killa wrote his first rhyme ever on the song.",
+              "artifactId": "2b4faaa1cfea245c7773bf87eb37ff58326ca3c0fdcc3c12c60b94013830faa5",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 551
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Da Mystery of Chessboxin article",
+          "title": "Da Mystery of Chessboxin' - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Da_Mystery_of_Chessboxin%27"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Wu-Tang Clan Ain't Nuthing Ta F' Wit (feat. RZA, Inspectah Deck & Method Man)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:6:fact-1",
+          "claim": "Wikipedia states that Method Man received a co-production credit for \"Wu-Tang Clan Ain't Nuthing ta F' Wit.\"",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+              "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)",
+              "sourceIdentity": "en.wikipedia.org|Enter the Wu-Tang (36 Chambers) album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "Method Man is co-credited for \"Wu-Tang Clan Ain't Nuthing ta F' Wit\"",
+              "artifactId": "5c07ad9e92f94b02b589511b33ca4ce20004b72c72974ebd383c89f82d5a5c1f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 568
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+          "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "C.R.E.A.M. (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:7:fact-1",
+          "claim": "Wikipedia states that \"C.R.E.A.M.\" was originally titled \"Lifestyles of the Mega-Rich.\"",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia C.R.E.A.M. article",
+              "title": "C.R.E.A.M. - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/C.R.E.A.M.",
+              "sourceIdentity": "en.wikipedia.org|C.R.E.A.M. song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The song was originally titled \"Lifestyles of the Mega-Rich\".",
+              "artifactId": "0744c8a44a7d1a1b4048839970d2fd3a6962d8109e456d8b178f483cb31d1eda",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 561
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia C.R.E.A.M. article",
+          "title": "C.R.E.A.M. - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/C.R.E.A.M."
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Protect Ya Neck (feat. RZA, Method Man, Inspectah Deck, Raekwon, U-God, Ol' Dirty Bastard, Ghostface Killah & GZA)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:8:fact-1",
+          "claim": "Wikipedia states that \"Protect Ya Neck\" was first recorded over a different beat and with its verses in a different order before RZA changed the beat and rearranged the verses.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Protect Ya Neck article",
+              "title": "Protect Ya Neck - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Protect_Ya_Neck",
+              "sourceIdentity": "en.wikipedia.org|Protect Ya Neck song article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "The song was originally recorded over a different beat and the verses in a different order before producer RZA decided to rearrange them and change the beat.",
+              "artifactId": "bed184744bac8cbdebaf642bf03201f7d93735902cda1d45785eaa9bac19998d",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 657
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Protect Ya Neck article",
+          "title": "Protect Ya Neck - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Protect_Ya_Neck"
+        }
+      ]
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Tearz (feat. RZA & Ghostface Killah)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:9:fact-1",
+          "claim": "Wikipedia states that \"Tearz\" tells two stories: RZA's little brother being shot and Ghostface Killah recounting a man contracting HIV after unprotected sex.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+              "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)",
+              "sourceIdentity": "en.wikipedia.org|Enter the Wu-Tang (36 Chambers) album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Tearz\" tells two stories: RZA's little brother getting shot and Ghostface Killah recounting the story of a man who contracts HIV after having unprotected sex.",
+              "artifactId": "5c07ad9e92f94b02b589511b33ca4ce20004b72c72974ebd383c89f82d5a5c1f",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7300,
+                "end": 7459
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6",
+            "decisionId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained; no unsupported musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Enter the Wu-Tang (36 Chambers) article",
+          "title": "Enter the Wu-Tang (36 Chambers) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "generator": "codex-rank27-track-encyclopedia-author",
+    "model": "gpt-5.6-sol"
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-03T19:49:25+02:00",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review b418ce954f15ac0ef64b31a5cd26644791b517fbfecaac5a3abaa069179832b6."
+  },
+  "contentHash": "25ed339390ee3b87"
+}
