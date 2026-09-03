@@ -42,6 +42,10 @@
       "entries": 1
     },
     {
+      "file": "authoring/011-the-beatles-revolver-b4f3c550.json",
+      "entries": 1
+    },
+    {
       "file": "authoring/054-liz-phair-exile-in-guyville-2b33a458.json",
       "entries": 1
     },
@@ -50,10 +54,10 @@
       "entries": 1
     }
   ],
-  "totalEntries": 12,
-  "totalTracks": 154,
+  "totalEntries": 13,
+  "totalTracks": 168,
   "evidenceLevelCounts": {
-    "documented": 154,
+    "documented": 168,
     "contextual": 0,
     "limited": 0,
     "insufficient-evidence": 0,

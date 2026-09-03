@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "011-the-beatles-revolver-b4f3c550": {
+      "albumId": "011-the-beatles-revolver-b4f3c550",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all fourteen Revolver catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Taxman",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:1:fact-1",
+              "claim": "The Beatles Bible notes that when writing “Taxman,” George Harrison was grudgingly helped by John Lennon, and that it was Lennon’s suggestion to use the names of both prime minister Harold Wilson and opposition leader Edward Heath, the first living people to be directly named in a Beatles song.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Taxman – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/taxman",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "When writing ‘Taxman’, Harrison was grudgingly helped by John Lennon. It was Lennon’s suggestion to use the names of both prime minister Harold Wilson and opposition leader Edward Heath, the first living people to be directly named in a Beatles song.",
+                  "artifactId": "ab6c682699cd8bb251a4e0a6b7118d15f85a16fd872c3b13f06b0ceda7fb4c9e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 430,
+                    "end": 680
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Taxman – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/taxman"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "Eleanor Rigby",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:2:fact-1",
+              "claim": "The Beatles Bible states that on “Eleanor Rigby” no Beatles played on the record, and that instead a closely-miked string octet was recorded in 14 takes, after which Paul McCartney overdubbed his lead vocals.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Eleanor Rigby – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/eleanor-rigby/2",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "no Beatles played on the record. Instead a closely-miked string octet was recorded in 14 takes, after which Paul overdubbed his lead vocals.",
+                  "artifactId": "5c4f7be5528f98d5d00b5f7b8dd8256501c25a6ac5b58676252896bfba0c4785",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 640
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Eleanor Rigby – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/eleanor-rigby/2"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "I'm Only Sleeping",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:3:fact-1",
+              "claim": "The Beatles Bible records that The Beatles began recording “I’m Only Sleeping” on 27 April 1966, when 11 takes of the rhythm track were put to tape, and that John Lennon added his lead vocals two days later.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "I'm Only Sleeping – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/im-only-sleeping",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The Beatles began recording ‘I’m Only Sleeping’ on 27 April 1966, when 11 takes of the rhythm track were put to tape. John Lennon added his lead vocals two days later.",
+                  "artifactId": "ec06f3f9854af8c80c49f65de2dcc5630234f3fb0c49161c089742794171c11f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 667
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "I'm Only Sleeping – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/im-only-sleeping"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Love You To",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:4:fact-1",
+              "claim": "The Beatles Bible states that following the sitar motif on “Norwegian Wood (This Bird Has Flown),” “Love You To” was The Beatles’ first full attempt at recording a piece of music in the classical Indian style.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Love You To – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/love-you-to",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Following the sitar motif on ‘Norwegian Wood (This Bird Has Flown)’, ‘Love You To’ was The Beatles’ first full attempt at recording a piece of music in the classical Indian style.",
+                  "artifactId": "b253347c16aa73a3d1ee67dd4c7896bf4c844d575b4f470242cb198c58bcd6bd",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 679
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Love You To – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/love-you-to"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Here, There and Everywhere",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:5:fact-1",
+              "claim": "The Beatles Bible notes that “Here, There and Everywhere” combines its whole title lyrically, with each verse taking a word — “Here” discusses here, the next verse “there” discusses there, then it pulls it all together in the last verse with “everywhere.”",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Here, There and Everywhere – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/here-there-and-everywhere",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "lyrically the way it combines the whole title: each verse takes a word. ‘Here’ discusses here. Next verse, ‘there’ discusses there, then it pulls it all together in the last verse, with ‘everywhere’.",
+                  "artifactId": "9d611ef8292fb1e7b47e522664f637efc9f73900e7763484e30269fa819b107b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 699
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Here, There and Everywhere – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/here-there-and-everywhere"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "Yellow Submarine",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:6:fact-1",
+              "claim": "The Beatles Bible reports that Donovan supplied one couplet of “Yellow Submarine,” recalling that McCartney played him the song, said he was missing a line, and that Donovan returned with “Sky of blue and sea of green/In our yellow submarine.”",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Yellow Submarine – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/yellow-submarine",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "One couplet in the song was suggested by Donovan, whose single ‘Mellow Yellow’ was released in October 1966. McCartney visited Donovan’s apartment in London on 26 May, prior to the recording session for ‘Yellow Submarine’. He played one about a yellow submarine. He said he was missing a line and would I fill it in. I left the room and returned with this: ‘Sky of blue and sea of green/In our yellow submarine.’ It was nothing really, but he liked it and it stayed in. Donovan Many Years From Now, Barry Miles",
+                  "artifactId": "5b9d0163122895db5b631437786e57152d92bdb6821cb4d16f1333c67ea40009",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 277,
+                    "end": 787
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Yellow Submarine – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/yellow-submarine"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "She Said She Said",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:7:fact-1",
+              "claim": "The Beatles Bible states that “She Said She Said,” the final track recorded for Revolver, was inspired by an LSD-influenced conversation between John Lennon and actor Peter Fonda.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "She Said She Said – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/she-said-she-said",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The final track recorded for Revolver, ‘She Said She Said’ was inspired by an LSD-influenced conversation between John Lennon and actor Peter Fonda.",
+                  "artifactId": "dd01e7733368f2738d471b8360b5a4ee82c9adf774739bc74774c9790a7c4e45",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 648
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "She Said She Said – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/she-said-she-said"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "Good Day Sunshine",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:8:fact-1",
+              "claim": "The Beatles Bible records that George Martin added his piano solo to track two of “Good Day Sunshine,” which also contained handclaps by all four Beatles, and that Martin’s solo was recorded at half speed so it sounded faster and higher upon playback.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Good Day Sunshine – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/good-day-sunshine",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "George Martin added his piano solo to track two, which also contained handclaps by all four Beatles. Martin’s solo was recorded at half speed, so it sounded faster and higher upon playback.",
+                  "artifactId": "6ef171d787bbe7a6fdd281772332d542efb32e90a02c801b7b85b38e4f39e1f5",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 689
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Good Day Sunshine – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/good-day-sunshine"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "And Your Bird Can Sing",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:9:fact-1",
+              "claim": "The Beatles Bible notes that “And Your Bird Can Sing” is notable mainly for its cryptic lyrics and the twin guitar riffs — played by Paul McCartney and George Harrison — that drive the song.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "And Your Bird Can Sing – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/and-your-bird-can-sing",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘And Your Bird Can Sing’ is notable mainly for its cryptic lyrics and the twin guitar riffs – played by Paul McCartney and George Harrison – that drive the song.",
+                  "artifactId": "5321a9af14be7efc66fc5eaefe9534c71e91f281b24833d6e3bfbe0d9d9afceb",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 661
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "And Your Bird Can Sing – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/and-your-bird-can-sing"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "For No One",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:10:fact-1",
+              "claim": "The Beatles Bible states that on “For No One,” George Martin wrote down the understated melody that Paul McCartney sang to him, and that Alan Civil performed it.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "For No One – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/for-no-one",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "George Martin wrote down the understated melody that Paul sang to him, and Alan Civil performed it.",
+                  "artifactId": "c6db250b4238cc2ffc00f09d2889dd62eeb0672f403f13b38b76546e8efcd2c1",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 599
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "For No One – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/for-no-one"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Doctor Robert",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:11:fact-1",
+              "claim": "The Beatles Bible states that although many in London thought the titular doctor referred to art dealer Robert Fraser, “Doctor Robert” was actually written about Dr Robert Freymann, who ran a discreet clinic on Manhattan’s East 78th Street.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Doctor Robert – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/doctor-robert",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Although many in London thought the titular doctor referred to art dealer Robert Fraser, it was actually written about Dr Robert Freymann, who ran a discreet clinic on Manhattan’s East 78th Street.",
+                  "artifactId": "663e19dd104088b9aec345105bb977c39166626ff7c087fa95c4c81b3ece6b39",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 411,
+                    "end": 608
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Doctor Robert – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/doctor-robert"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "I Want to Tell You",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:12:fact-1",
+              "claim": "The Beatles Bible quotes George Harrison saying that the chord in “I Want to Tell You” is an E7th with an F on the top played on the piano, and that he was proud of it because he literally invented that chord.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "I Want to Tell You – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/i-want-to-tell-you",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "That’s an E7th with an F on the top, played on the piano. I’m really proud of that, because I literally invented that chord. The song was about the frustration we all feel about trying to communicate certain things with just words. I realized the chords I knew at the time just didn’t capture that feeling. So after I got the guitar riff, I experimented until I came up with this dissonant chord that really echoed that sense of frustration. John later borrowed it on Abbey Road. If you listen to ‘I Want You (She’s So Heavy)’ it’s right after John sings “it’s driving me mad!” To my knowledge, there’s only been one other song where somebody copped that chord – ‘Back On The Chain Gang’ by The Pretenders. George Harrison, 1992",
+                  "artifactId": "c07dfe11303056831e7be61b4cfa0349ed2e7752ad1a85f352e8a17342bc5b0b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 1228
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "I Want to Tell You – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/i-want-to-tell-you"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "Got to Get You Into My Life",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:13:fact-1",
+              "claim": "The Beatles Bible records that for “Got to Get You Into My Life,” The Beatles hired two members of Georgie Fame’s group The Blue Flames, whom John Lennon and Paul McCartney knew from the London club scene.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Got to Get You Into My Life – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/got-to-get-you-into-my-life",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The Beatles hired two members of Georgie Fame’s group The Blue Flames, whom John Lennon and Paul McCartney knew from the London club scene.",
+                  "artifactId": "914ad8fa9085b4e05e2c40f28efc72437475a87cc9f21b56a7390acd8da775ed",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 639
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Got to Get You Into My Life – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/got-to-get-you-into-my-life"
+            }
+          ]
+        },
+        {
+          "albumId": "011-the-beatles-revolver-b4f3c550",
+          "discNumber": 1,
+          "trackNumber": 14,
+          "trackTitle": "Tomorrow Never Knows",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "011-the-beatles-revolver-b4f3c550:1:14:fact-1",
+              "claim": "The Beatles Bible states that “Tomorrow Never Knows,” the monumental closing track on Revolver, was also the first song to be recorded for the album.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song page",
+                  "title": "Tomorrow Never Knows – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/tomorrow-never-knows",
+                  "sourceIdentity": "beatlesbible.com|Revolver song facts",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘Tomorrow Never Knows’, the monumental closing track on Revolver, was also the first song to be recorded for the album.",
+                  "artifactId": "850c9221ebf6100d0d770232bdccc494a6c144ca76219a8019497befe0a5ffc6",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 500,
+                    "end": 619
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa",
+                "decisionId": "011-the-beatles-revolver-b4f3c550:1:14:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One attributed recording/songwriting statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song page",
+              "title": "Tomorrow Never Knows – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/tomorrow-never-knows"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank11-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T00:00:00.000Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review a54b62bab7d03a24dccc3c537e6965ab046b0cf00fb975b488ba9e250edc60fa."
+      },
+      "contentHash": "8284849f6f9913f3"
+    }
+  }
+}
