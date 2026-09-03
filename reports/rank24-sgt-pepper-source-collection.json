@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+  "collectorRunId": "rank24-sgt-pepper-http-collector-20260903",
+  "collectedAt": "2026-09-03T17:34:57.436Z",
+  "results": [
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+      "finalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+      "artifactId": "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582",
+      "fetchedResponseSha256": "6edfc87f52f233b1e159582a8e60bd91c20476138aa2b08f19a5aac59632a4af",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1898,
+      "fetchedCharacters": 37682,
+      "claims": [
+        {
+          "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 998
+          },
+          "extract": "On 6 March they added the sounds of the imaginary audience and the noise of an orchestra tuning up"
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+      "finalUrl": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+      "artifactId": "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7",
+      "fetchedResponseSha256": "6e4dec750cb294b7062679f26bdaa9b03632b07dcdda2f3fbf50aba2c5363967",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1823,
+      "fetchedCharacters": 23977,
+      "claims": [
+        {
+          "trackTitle": "With a Little Help From My Friends",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 923
+          },
+          "extract": "was sung by Ringo Starr"
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+      "finalUrl": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+      "artifactId": "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9",
+      "fetchedResponseSha256": "e962ee42f9c1b5451e852318f04ae627ab0f55770961f8dc935fc056dc3a2f99",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1922,
+      "fetchedCharacters": 46587,
+      "claims": [
+        {
+          "trackTitle": "Lucy In the Sky with Diamonds",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 1022
+          },
+          "extract": "‘Lucy In The Sky With Diamonds’ in fact took its name from a drawing of a schoolfriend by the four-year-old Julian Lennon."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/getting-better",
+      "finalUrl": "https://www.beatlesbible.com/songs/getting-better",
+      "artifactId": "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3",
+      "fetchedResponseSha256": "086de2919452fffe8dc0755b532d69882fd4d6a25b92d35011d683ffc83a4931",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1874,
+      "fetchedCharacters": 32711,
+      "claims": [
+        {
+          "trackTitle": "Getting Better",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 974
+          },
+          "extract": "the idea for ‘Getting Better’ came from a favourite phrase of Jimmie Nicol"
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/fixing-a-hole",
+      "finalUrl": "https://www.beatlesbible.com/songs/fixing-a-hole",
+      "artifactId": "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe",
+      "fetchedResponseSha256": "05f2723069658d0898dc50c916e85e4c85239d0affcdae21f87bc11ae895a17b",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1876,
+      "fetchedCharacters": 52064,
+      "claims": [
+        {
+          "trackTitle": "Fixing a Hole",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 977
+          },
+          "extract": "The Beatles used Regent Sound Studio in London as Abbey Road was unavailable."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/shes-leaving-home",
+      "finalUrl": "https://www.beatlesbible.com/songs/shes-leaving-home",
+      "artifactId": "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f",
+      "fetchedResponseSha256": "1a87ee6f1c3c39bc2b18a077ae649ee144490ee885cb2038168a505e4a5894c7",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1923,
+      "fetchedCharacters": 41666,
+      "claims": [
+        {
+          "trackTitle": "She's Leaving Home",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 1023
+          },
+          "extract": "In February 1967, Paul McCartney read about Melanie Coe, a 17-year-old A-level schoolgirl from Stamford Hill, north London."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+      "finalUrl": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+      "artifactId": "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0",
+      "fetchedResponseSha256": "a76d527a5188c97beee806ffa6ff76cb21796060345fd6f88ac47a2685fb514a",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1859,
+      "fetchedCharacters": 32697,
+      "claims": [
+        {
+          "trackTitle": "Being For the Benefit of Mr. Kite!",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 959
+          },
+          "extract": "There he bought a framed Victorian circus poster from 1843."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/within-you-without-you",
+      "finalUrl": "https://www.beatlesbible.com/songs/within-you-without-you",
+      "artifactId": "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b",
+      "fetchedResponseSha256": "4565511f124783fe8d5b15fe95f18d0900a95cf8cbab7add42820a97c6dd0dae",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1877,
+      "fetchedCharacters": 11155,
+      "claims": [
+        {
+          "trackTitle": "Within You Without You",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 977
+          },
+          "extract": "‘Within You Without You’ was composed on a harmonium following a dinner party"
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+      "finalUrl": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+      "artifactId": "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018",
+      "fetchedResponseSha256": "447e4beb99d4479bd42f806569fd39a045645576c97ad113edc852f27e723bde",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1903,
+      "fetchedCharacters": 28019,
+      "claims": [
+        {
+          "trackTitle": "When I'm Sixty-Four",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 1004
+          },
+          "extract": "Paul McCartney had composed it on the family piano at 20 Forthlin Road, Liverpool “when I was about 15”."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/lovely-rita",
+      "finalUrl": "https://www.beatlesbible.com/songs/lovely-rita",
+      "artifactId": "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7",
+      "fetchedResponseSha256": "42a6428fbdfcab4be43c1ef3f7d596add83c151b9378a3a43dd6668de44bf54c",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1896,
+      "fetchedCharacters": 34149,
+      "claims": [
+        {
+          "trackTitle": "Lovely Rita",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 997
+          },
+          "extract": "affectionate tale of a female traffic warden, was originally written as an anti-authority satire."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+      "finalUrl": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+      "artifactId": "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6",
+      "fetchedResponseSha256": "25c737045a0c7a53a853a504f5c49f1b23aeab99d2839340b612e78dd3e62c93",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1936,
+      "fetchedCharacters": 26150,
+      "claims": [
+        {
+          "trackTitle": "Good Morning Good Morning",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 1036
+          },
+          "extract": "‘Good Morning Good Morning’ was inspired by a Kellogg’s commercial he heard while working with the television playing in the background."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+      "finalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+      "artifactId": "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be",
+      "fetchedResponseSha256": "713b93f8d96abe0c57e3671d38ce7a68e51449ce45db3849097809c07f5e00fa",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1893,
+      "fetchedCharacters": 18593,
+      "claims": [
+        {
+          "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 993
+          },
+          "extract": "‘Sgt Pepper (Reprise)’ was recorded on Saturday 1 April 1967 in Abbey Road’s vast studio one."
+        }
+      ]
+    },
+    {
+      "canonicalUrl": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+      "finalUrl": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+      "artifactId": "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e",
+      "fetchedResponseSha256": "0d2ece4daff2eeea6b4c4926ed4659543e8e99479f6834310559b1472e277152",
+      "contentType": "text/html; charset=UTF-8",
+      "retainedCharacters": 1904,
+      "fetchedCharacters": 53359,
+      "claims": [
+        {
+          "trackTitle": "A Day In the Life",
+          "section": {
+            "kind": "character-offsets",
+            "start": 900,
+            "end": 1005
+          },
+          "extract": "The middle section (“Woke up, fell out of bed”) was an unfinished song fragment written by Paul McCartney"
+        }
+      ]
+    }
+  ]
+}

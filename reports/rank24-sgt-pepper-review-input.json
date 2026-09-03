@@ -1,0 +1,942 @@
+{
+  "schemaVersion": 1,
+  "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+  "editionNumber": 1,
+  "candidateContentHash": "fbbee0eebc9589a4ef62b19ed3f97f675227592e5421ea50038dc533b5d2c31d",
+  "candidate": {
+    "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+    "editionNumber": 1,
+    "generationMetadata": {
+      "generatedAt": "2026-09-03T00:00:00.000Z",
+      "generator": "codex-rank24-track-encyclopedia-author",
+      "model": "gpt-5-codex"
+    },
+    "trackEntries": [
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 1,
+        "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:1:fact-1",
+            "claim": "The Beatles Bible states that on 6 March 1967 the Beatles added the title track's imaginary-audience sounds and orchestra-tuning noise.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Sgt Pepper's Lonely Hearts Club Band (song) – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+                "sourceIdentity": "beatlesbible.com|Sgt. Pepper's Lonely Hearts Club Band",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "On 6 March they added the sounds of the imaginary audience and the noise of an orchestra tuning up",
+                "artifactId": "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 998
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Sgt Pepper's Lonely Hearts Club Band (song) – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 2,
+        "trackTitle": "With a Little Help From My Friends",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:2:fact-1",
+            "claim": "The Beatles Bible states that “With A Little Help From My Friends” was sung by Ringo Starr.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "With A Little Help From My Friends – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+                "sourceIdentity": "beatlesbible.com|With A Little Help From My Friends",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "was sung by Ringo Starr",
+                "artifactId": "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 923
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "With A Little Help From My Friends – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 3,
+        "trackTitle": "Lucy In the Sky with Diamonds",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:3:fact-1",
+            "claim": "The Beatles Bible states that “Lucy In The Sky With Diamonds” took its name from a drawing by four-year-old Julian Lennon of a schoolfriend.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Lucy In The Sky With Diamonds – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+                "sourceIdentity": "beatlesbible.com|Lucy In The Sky With Diamonds",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "‘Lucy In The Sky With Diamonds’ in fact took its name from a drawing of a schoolfriend by the four-year-old Julian Lennon.",
+                "artifactId": "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 1022
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Lucy In The Sky With Diamonds – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 4,
+        "trackTitle": "Getting Better",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:4:fact-1",
+            "claim": "The Beatles Bible states that the idea for “Getting Better” came from a favourite phrase of Jimmie Nicol, the Beatles’ 1964 stand-in drummer.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Getting Better – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/getting-better",
+                "sourceIdentity": "beatlesbible.com|Getting Better",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "the idea for ‘Getting Better’ came from a favourite phrase of Jimmie Nicol",
+                "artifactId": "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 974
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Getting Better – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/getting-better"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 5,
+        "trackTitle": "Fixing a Hole",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:5:fact-1",
+            "claim": "The Beatles Bible states that the Beatles used Regent Sound Studio for “Fixing A Hole” because Abbey Road was unavailable.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Fixing A Hole – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/fixing-a-hole",
+                "sourceIdentity": "beatlesbible.com|Fixing A Hole",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The Beatles used Regent Sound Studio in London as Abbey Road was unavailable.",
+                "artifactId": "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 977
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Fixing A Hole – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/fixing-a-hole"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 6,
+        "trackTitle": "She's Leaving Home",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:6:fact-1",
+            "claim": "For “She’s Leaving Home”, The Beatles Bible states that Paul McCartney read about 17-year-old Melanie Coe in February 1967.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "She's Leaving Home – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/shes-leaving-home",
+                "sourceIdentity": "beatlesbible.com|She's Leaving Home",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "In February 1967, Paul McCartney read about Melanie Coe, a 17-year-old A-level schoolgirl from Stamford Hill, north London.",
+                "artifactId": "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 1023
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "She's Leaving Home – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/shes-leaving-home"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 7,
+        "trackTitle": "Being For the Benefit of Mr. Kite!",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:7:fact-1",
+            "claim": "The Beatles Bible states that John Lennon bought the framed 1843 Victorian circus poster used as inspiration for “Being For The Benefit Of Mr Kite!”",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Being For The Benefit Of Mr Kite! – facts, song background, recording info and more | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+                "sourceIdentity": "beatlesbible.com|Being For The Benefit Of Mr Kite!",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "There he bought a framed Victorian circus poster from 1843.",
+                "artifactId": "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 959
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Being For The Benefit Of Mr Kite! – facts, song background, recording info and more | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 8,
+        "trackTitle": "Within You Without You",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:8:fact-1",
+            "claim": "The Beatles Bible states that “Within You Without You” was composed on a harmonium following a dinner party.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Within You Without You – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/within-you-without-you",
+                "sourceIdentity": "beatlesbible.com|Within You Without You",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "‘Within You Without You’ was composed on a harmonium following a dinner party",
+                "artifactId": "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 977
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Within You Without You – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/within-you-without-you"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 9,
+        "trackTitle": "When I'm Sixty-Four",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:9:fact-1",
+            "claim": "The Beatles Bible states that Paul McCartney composed “When I’m Sixty-Four” on the family piano at 20 Forthlin Road when he was about 15.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "When I'm Sixty-Four – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+                "sourceIdentity": "beatlesbible.com|When I'm Sixty-Four",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "Paul McCartney had composed it on the family piano at 20 Forthlin Road, Liverpool “when I was about 15”.",
+                "artifactId": "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 1004
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "When I'm Sixty-Four – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/when-im-sixty-four"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 10,
+        "trackTitle": "Lovely Rita",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:10:fact-1",
+            "claim": "The Beatles Bible describes “Lovely Rita” as an affectionate tale of a female traffic warden that was originally written as an anti-authority satire.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Lovely Rita – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/lovely-rita",
+                "sourceIdentity": "beatlesbible.com|Lovely Rita",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "affectionate tale of a female traffic warden, was originally written as an anti-authority satire.",
+                "artifactId": "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 997
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Lovely Rita – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/lovely-rita"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 11,
+        "trackTitle": "Good Morning Good Morning",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:11:fact-1",
+            "claim": "The Beatles Bible states that “Good Morning Good Morning” was inspired by a Kellogg’s commercial John Lennon heard while writing with the television on.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Good Morning Good Morning – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+                "sourceIdentity": "beatlesbible.com|Good Morning Good Morning",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "‘Good Morning Good Morning’ was inspired by a Kellogg’s commercial he heard while working with the television playing in the background.",
+                "artifactId": "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 1036
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Good Morning Good Morning – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/good-morning-good-morning"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 12,
+        "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:12:fact-1",
+            "claim": "The Beatles Bible states that “Sgt Pepper (Reprise)” was recorded on 1 April 1967 in Abbey Road’s Studio One.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "Sgt Pepper's Lonely Hearts Club Band (Reprise) – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+                "sourceIdentity": "beatlesbible.com|Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "‘Sgt Pepper (Reprise)’ was recorded on Saturday 1 April 1967 in Abbey Road’s vast studio one.",
+                "artifactId": "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 993
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "Sgt Pepper's Lonely Hearts Club Band (Reprise) – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise"
+          }
+        ]
+      },
+      {
+        "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+        "discNumber": 1,
+        "trackNumber": 13,
+        "trackTitle": "A Day In the Life",
+        "evidenceLevel": "documented",
+        "verifiedFacts": [
+          {
+            "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:13:fact-1",
+            "claim": "The Beatles Bible states that the “Woke up, fell out of bed” middle section of “A Day In The Life” was an unfinished song fragment written by Paul McCartney.",
+            "sourceRefs": [
+              {
+                "label": "The Beatles Bible song article",
+                "title": "A Day In The Life – song facts, recording info and more! | The Beatles Bible",
+                "url": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+                "sourceIdentity": "beatlesbible.com|A Day In The Life",
+                "extractType": "verbatim",
+                "evidenceStatus": "retrieved",
+                "checkedAt": "2026-09-03",
+                "extract": "The middle section (“Woke up, fell out of bed”) was an unfinished song fragment written by Paul McCartney",
+                "artifactId": "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e",
+                "section": {
+                  "kind": "character-offsets",
+                  "start": 900,
+                  "end": 1005
+                }
+              }
+            ]
+          }
+        ],
+        "musicalCharacter": "",
+        "albumContext": "",
+        "listeningNotes": "",
+        "limitations": [
+          "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+        ],
+        "sourceRefs": [
+          {
+            "label": "The Beatles Bible song article",
+            "title": "A Day In The Life – song facts, recording info and more! | The Beatles Bible",
+            "url": "https://www.beatlesbible.com/songs/a-day-in-the-life"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceArtifacts": {
+    "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582": {
+      "artifactId": "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582",
+      "artifactSha256": "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "6edfc87f52f233b1e159582a8e60bd91c20476138aa2b08f19a5aac59632a4af",
+      "finalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "ce to lose our identities, to submerge ourselves in the persona of a fake group. We could make up all the culture around it and collect all our heroes in one place. Paul McCartney On the album it segued into ‘With A Little Help From My Friends’ , and was reprised ahead of the finale, ‘A Day In The Life’ . In the studio The song ‘Sgt Pepper’s Lonely Hearts Club Band’ was recorded over four days. On 1 February 1967 The Beatles taped nine takes of the rhythm track, though only the first and last of these were complete. They recorded drums, bass and two guitars – the latter played by Paul McCartney and George Harrison . The next day McCartney recorded his lead vocals, and he, Harrison and John Lennon taped their harmonies. The song was then left for over a month, until the French horns were overdubbed on 3 March . McCartney also recorded a lead guitar solo, leaving the song almost complete. On 6 March they added the sounds of the imaginary audience and the noise of an orchestra tuning up, a combination of crowd noise from a 1961 recording of the comedy show Beyond The Fringe and out-takes from the 10 February 1967 orchestral overdub session for ‘A Day In The Life’ . For the segue into ‘With A Little Help From My Friends’ , meanwhile, they inserted screams of Beatlemaniacs from the recordings of The Beatles live at the Hollywood Bowl. Discuss ‘Sgt Pepper’s Lonely Hearts Club Band’ on the Fab Forum » Previous album: Revolver Next song: ‘With A Little Help From My Friends’ Published: 16 March 2008 | Last updated: 30 July 2026 68 thoughts on “Sgt Pepper’s Lonely Hearts Club Band” Joseph Brush Saturday 3 October 2009 at 1.13am There is no mention of John singing by himself that small part that starts with “It’s wonderful to be here&#8230;. Reply MrBig Saturday 24 July 2010 at 12.36am That’s because John didn’t. The man who played John in Yellow Submarine did. Reply paulsbass",
+      "retrievedAt": "2026-09-03T17:34:51.479Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 6256,
+        "fetchedTextLength": 37682,
+        "kind": "character-offsets",
+        "start": 4358
+      }
+    },
+    "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7": {
+      "artifactId": "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7",
+      "artifactSha256": "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "6e4dec750cb294b7062679f26bdaa9b03632b07dcdda2f3fbf50aba2c5363967",
+      "finalUrl": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "iography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; With A Little Help From My Friends With A Little Help From My Friends Home The Beatles’ songs – complete A-Z list With A Little Help From My Friends Written by: Lennon-McCartney Recorded: 29 , 30 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Yellow Submarine Songtrack Personnel Ringo Starr : vocals, drums, tambourine John Lennon : backing vocals, cowbell Paul McCartney : backing vocals, piano, bass George Harrison : backing vocals, lead guitar George Martin : Hammond organ Written collaboratively by John Lennon and Paul McCartney during the final stages of the Sgt Pepper project, ‘With A Little Help From My Friends’ was sung by Ringo Starr . Poking a little fun at Ringo was actually a lot of fun. ‘What would you do if I sang out of tune?’ Actually, John and I wrote this song within a vocal range that would cause no problems for Ringo, who had a style of singing different to outs. We tailored it especially for him, and I think that’s one reason why it was such a great success for him on Sgt Pepper . The song was performed very much in the style of the Sgt Pepper album as a whole – the style of a live show in which the song is sung by a certain ‘Billy Shears’. For those old enough to remember, Billy Shears was the name of the person who supposedly replaced me in The Beatles when I’d ‘died’ after a road accident in 1966 . That was a crazy rumour that had been doing the rounds . Now Billy Shears showed up, large as life, in the guise of Ringo Starr! So, this song is Ringo’s intro as a character in this operetta. Paul McCartne",
+      "retrievedAt": "2026-09-03T17:34:51.734Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2555,
+        "fetchedTextLength": 23977,
+        "kind": "character-offsets",
+        "start": 732
+      }
+    },
+    "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9": {
+      "artifactId": "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9",
+      "artifactSha256": "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "e962ee42f9c1b5451e852318f04ae627ab0f55770961f8dc935fc056dc3a2f99",
+      "finalUrl": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "s Paul McCartney Biography Songs Albums Videos Photos George Harrison Biography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; Lucy In The Sky With Diamonds Lucy In The Sky With Diamonds Home The Beatles’ songs – complete A-Z list Lucy In The Sky With Diamonds Written by: Lennon-McCartney Recorded: 28 February ; 1 , 2 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Anthology 2 Yellow Submarine Songtrack Love Personnel John Lennon : vocals, lead guitar Paul McCartney : backing vocals, Lowrey organ, bass George Harrison : backing vocals, lead guitar, acoustic guitar, tambura Ringo Starr : drums, maracas Although the title was widely perceived to be a coded reference to LSD , ‘Lucy In The Sky With Diamonds’ in fact took its name from a drawing of a schoolfriend by the four-year-old Julian Lennon. I had no idea it spelt LSD. This is the truth : my son came home with a drawing and showed me this strange-looking woman flying around. I said, ‘What is it?’ and he said, ‘It’s Lucy in the sky with diamonds,’ and I thought, ‘That’s beautiful.’ I immediately wrote a song about it. John Lennon There can be little doubt, however, that the song was directly influenced by John Lennon’s continual experimentation with LSD, which hit a peak in 1967. However, in 1980 he claimed the main inspiration came from Alice’s Adventures in Wonderland . The images were from Alice In Wonderland . It was Alice in the boat. She is buying an egg and it turns into Humpty-Dumpty. The woman serving in the shop turns into a sheep, and the next minute they are rowing in a rowing boat somewhere and I was visualising that. There was also the image of the female who would someday come save me – a ‘girl with kaleidosco",
+      "retrievedAt": "2026-09-03T17:34:51.990Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2578,
+        "fetchedTextLength": 46587,
+        "kind": "character-offsets",
+        "start": 656
+      }
+    },
+    "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3": {
+      "artifactId": "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3",
+      "artifactSha256": "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/getting-better",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "086de2919452fffe8dc0755b532d69882fd4d6a25b92d35011d683ffc83a4931",
+      "finalUrl": "https://www.beatlesbible.com/songs/getting-better",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "gs Albums Videos Discography Photos Paul McCartney Biography Songs Albums Videos Photos George Harrison Biography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; Getting Better Getting Better Home The Beatles’ songs – complete A-Z list Getting Better Written by: Lennon-McCartney Recorded: 9 , 10 , 21 , 23 March 1967 Producer: George Martin Engineers: Malcolm Addey, Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Personnel Paul McCartney : vocals, rhythm guitar, bass guitar, piano John Lennon : backing vocals, handclaps George Harrison : backing vocals, lead guitar, tambura Ringo Starr : drums, congas George Martin : piano, pianette With lyrics co-written by John Lennon and Paul McCartney and music mostly by McCartney, the idea for ‘Getting Better’ came from a favourite phrase of Jimmie Nicol , The Beatles’ stand-in drummer for eight days of their 1964 world tour. According to Beatles biographer Hunter Davies, the phrase popped into McCartney’s head one day in 1967 while he was walking his sheepdog Martha in Hampstead. ‘Getting Better’ I wrote on my magic Binder, Edwards and Vaughan piano in my music room. It had a lovely tone, that piano, you’d just open the lid and there was such a magic tone, almost out of tune, and of course the way it was painted added to the fun of it all. It’s an optimistic song. I often try and get on to optimistic subjects in an effort to cheer myself up and also, realising that other people are going to hear this, to cheer them up too. And this was one of those. The ‘angry young man’ and all that was John and I filling in the verses about schoolteachers. We shared a lot of feelings against teachers who had punished you too much or who hadn’t unders",
+      "retrievedAt": "2026-09-03T17:34:52.239Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2481,
+        "fetchedTextLength": 32711,
+        "kind": "character-offsets",
+        "start": 607
+      }
+    },
+    "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe": {
+      "artifactId": "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe",
+      "artifactSha256": "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/fixing-a-hole",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "05f2723069658d0898dc50c916e85e4c85239d0affcdae21f87bc11ae895a17b",
+      "finalUrl": "https://www.beatlesbible.com/songs/fixing-a-hole",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "recall. I like the double meaning of ‘If I’m wrong I’m right where I belong’. Paul McCartney Many Years From Now , Barry Miles LSD also played a part in the song’s genesis. McCartney was the last Beatle to try the drug, in 1966. Around that time, when I closed my eyes, instead of there being blackness there was a little blue hole. It was as if something needed patching. I always had the feeling that if I could go up to it and look through, there would be an answer... The fact is that the most important influence here was not even the metaphysical idea of a hole, which I mentioned earlier, but this absolutely physical phenomenon – something that first appeared after I took acid. I still see it occasionally, and I know exactly what it is. I know exactly what size it is. Paul McCartney The Lyrics: 1956 To The Present In the studio The recording of ‘Fixing A Hole’ began on 9 February 1967 . The Beatles used Regent Sound Studio in London as Abbey Road was unavailable. It was the first time the group used another studio to record for EMI. According to McCartney, an unusual guest was brought to the session. A guy arrived at my front gate and I said, ‘Yes? Hello,’ because I always used to answer it to everyone. If they were boring I would say, ‘Sorry, no,’ and they generally went away. This guy said, ‘I’m Jesus Christ.’ I said, ‘Oop,’ slightly shocked. I said, ‘Well, you’d better come in then.’ I thought, Well, it probably isn’t. But if he is, I’m not going to be the one to turn him away. So I gave him a cup of tea and we just chatted and I asked, ‘Why do you think you are Jesus?’ There were a lot of casualties about then. We used to get a lot of people who were maybe insecure or going through emotional breakdowns or whatever. So I said, ‘I’ve got to go to a session but if you promise to be very quiet and just sit in a corner, you can come.’ So he did,",
+      "retrievedAt": "2026-09-03T17:34:52.495Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 4801,
+        "fetchedTextLength": 52064,
+        "kind": "character-offsets",
+        "start": 2925
+      }
+    },
+    "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f": {
+      "artifactId": "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f",
+      "artifactSha256": "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/shes-leaving-home",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "1a87ee6f1c3c39bc2b18a077ae649ee144490ee885cb2038168a505e4a5894c7",
+      "finalUrl": "https://www.beatlesbible.com/songs/shes-leaving-home",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "The Beatles’ songs – complete A-Z list &raquo; She’s Leaving Home She’s Leaving Home Home The Beatles’ songs – complete A-Z list She’s Leaving Home Pages: 1 2 Written by: Lennon-McCartney Recorded: 17 , 20 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Contents Toggle Personnel In the studio Personnel Paul McCartney : lead vocals, backing vocals John Lennon : vocals, backing vocals Erich Gruenberg, Derek Jacobs, Trevor Williams, José Luis Garcia: violin John Underwood, Stephen Shingles: viola Dennis Vigay, Alan Dalziel: cello Gordon Pearce: double bass Sheila Bromberg: harp Inspired by a story in the Daily Mail about a teenage runaway, ‘She’s Leaving Home’ was described by George Martin as “not, strictly speaking, a Beatles song at all,” and “pure McCartney, from start to finish”. In February 1967, Paul McCartney read about Melanie Coe, a 17-year-old A-level schoolgirl from Stamford Hill, north London. She went missing without her car, cheque book and spare clothes. Her father was quoted as saying, “I cannot imagine why she should run away. She has everything here.” This one is based somewhat on a newspaper report of a missing girl. The headline was something like ‘A-Level Girl Dumps Car and Vanishes’. So, I set out to imagine what might have happened, the sequence of events. The detail of leaving a note that she ‘hoped would say more’ is one of the strongest moments in the song... In addition to the newspaper report, I’m pretty sure another influence was The Wednesday Play . It was a weekly television play that often addressed ‘big’ social issues. It’s the kind of thing people would be discussing at the bus stop on Thursday morning. It was a very important part of the week. One of the most famous of these plays was Cathy Come Home , directed by Ken Loach. It’s a play about homelessne",
+      "retrievedAt": "2026-09-03T17:34:52.746Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2759,
+        "fetchedTextLength": 41666,
+        "kind": "character-offsets",
+        "start": 836
+      }
+    },
+    "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0": {
+      "artifactId": "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0",
+      "artifactSha256": "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "a76d527a5188c97beee806ffa6ff76cb21796060345fd6f88ac47a2685fb514a",
+      "finalUrl": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "f Mr Kite! Home The Beatles’ songs – complete A-Z list Being For The Benefit Of Mr Kite! Pages: 1 2 Written by: Lennon-McCartney Recorded: 17 , 20 February ; 28 , 29 , 31 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Anthology 2 Love Contents Toggle Personnel In the studio The poster text Personnel John Lennon : vocals, Lowrey organ Paul McCartney : vocals, acoustic guitar, bass guitar George Harrison : harmonica Ringo Starr : drums, harmonica, shaker bells George Martin : piano, harmonium, Hammond organ, tape loops Mal Evans : bass harmonica Neil Aspinall : harmonica Geoff Emerick : tape loops On 31 January 1967 , while The Beatles were in Sevenoaks, Kent, making a promotional film for ‘Strawberry Fields Forever’ , John Lennon wandered in to an antique shop close to their hotel. There he bought a framed Victorian circus poster from 1843. The poster announced Pablo Fanque’s Circus Royal, coming to Town Meadows in Rochdale, Lancashire. It grandly announced that the circus would be for the benefit of Mr Kite, and would feature “Mr J Henderson the celebrated somerset thrower” and Zanthus the horse. Lennon set the words to music, which became ‘Being For The Benefit Of Mr Kite!’, which closed the first half of Sgt Pepper’s Lonely Hearts Club Band . Mr Kite was William Kite, a performer and the son of circus owner James Kite. In 1810 he had founded Kite’s Pavilion Circus and later moved to Wells’ Circus. It is thought that he worked in Pablo Fanques’ fair between 1843 and 1845. Fanque was Britain’s first black circus owner. He was born William Darby in Norwich in 1796. Lennon hung the poster in his music room at his home in Weybridge, and began to use it as inspiration for a song. Some of the facts he changed: the circus in th",
+      "retrievedAt": "2026-09-03T17:34:52.991Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2825,
+        "fetchedTextLength": 32697,
+        "kind": "character-offsets",
+        "start": 966
+      }
+    },
+    "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b": {
+      "artifactId": "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b",
+      "artifactSha256": "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/within-you-without-you",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "4565511f124783fe8d5b15fe95f18d0900a95cf8cbab7add42820a97c6dd0dae",
+      "finalUrl": "https://www.beatlesbible.com/songs/within-you-without-you",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "Harrison Biography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; Within You Without You Within You Without You Home The Beatles’ songs – complete A-Z list Within You Without You Written by: Harrison Recorded: 15 , 22 March ; 3 , 4 April 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Anthology 2 Love Personnel George Harrison : vocals, sitar, acoustic guitar, tambura Anna Joshi, Amrit Gajjar: dilruba Buddhadev Kansara: tamboura Amiya Dasgupta: tabla Unknown musician: svarmandal Erich Gruenberg, Alan Loveday, Julien Gaillard, Paul Scherman, Ralph Elman, David Wolfsthal, Jack Rothstein, Jack Greene: violins Reginald Kilbey, Allen Ford, Peter Beavan: cellos Neil Aspinall : tambura ‘Within You Without You’ was composed on a harmonium following a dinner party at the London home of Klaus Voorman , the German artist and musician whom The Beatles first met in Hamburg. Written by George Harrison , it was the only non Lennon – McCartney song on the Sgt Pepper album. The song was Harrison’s second full-blown Indian recording, after Revolver ’s ‘Love You To’ . Although regarded by some as a dull interlude in the otherwise masterful Sgt Pepper , ‘Within You Without You’ encapsulated the exploration of spiritual themes that had become popular in 1967’s Summer of Love. Clear references to the counterculture (‘Are you one of them?’) and the LSD-related ego death (‘And to see you’re really only very small and life flows on within you and without you’) can be found amid the more other-worldly exploration of spiritual philosophy and religious teachings. The laughter at the end of the track was Harrison’s idea. While some listeners initially thought it was",
+      "retrievedAt": "2026-09-03T17:34:53.237Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2587,
+        "fetchedTextLength": 11155,
+        "kind": "character-offsets",
+        "start": 710
+      }
+    },
+    "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018": {
+      "artifactId": "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018",
+      "artifactSha256": "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "447e4beb99d4479bd42f806569fd39a045645576c97ad113edc852f27e723bde",
+      "finalUrl": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "y Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; When I’m Sixty-Four When I’m Sixty-Four Home The Beatles’ songs – complete A-Z list When I’m Sixty-Four Written by: Lennon-McCartney Recorded: 6 , 8 , 20 , 21 December 1966 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Yellow Submarine Songtrack Personnel Paul McCartney : vocals, piano, bass John Lennon : backing vocals, guitar George Harrison : backing vocals Ringo Starr : drums, chimes Robert Burns, Henry MacKenzie, Frank Reidy: clarinets The first of the Sgt Pepper songs to be recorded, ‘When I’m Sixty-Four’ was originally intended to be the b-side to ‘Strawberry Fields Forever’ . The song dates back to The Beatles’ earliest days. Paul McCartney had composed it on the family piano at 20 Forthlin Road, Liverpool “when I was about 15”. Back then I wasn’t necessarily looking to be a rock ‘n’ roller. When I wrote ‘When I’m Sixty-Four’ I thought I was writing a song for Sinatra. There were records other than rock ‘n’ roll that were important to me. Paul McCartney McCartney used to perform a variation of ‘When I’m Sixty-Four’ on piano in the Cavern Club era, when The Beatles’ equipment occasionally stopped working. ‘When I’m Sixty-Four’ was something Paul wrote in the Cavern days. We just stuck a few more words on it like ‘grandchildren on your knee’ and ‘Vera, Chuck and Dave’. It was just one of those ones that he’d had, that we’ve all got, really; half a song. And this was just one that was quite a hit with us. We used to do them when the amps broke down, just sing it on the piano. John Lennon Anthology The song was dusted down in 1966, the year McCartney’s father Jim turned 64. ‘When I’m Sixty-Four’ focuses on a young",
+      "retrievedAt": "2026-09-03T17:34:53.484Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2627,
+        "fetchedTextLength": 28019,
+        "kind": "character-offsets",
+        "start": 724
+      }
+    },
+    "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7": {
+      "artifactId": "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7",
+      "artifactSha256": "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/lovely-rita",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "42a6428fbdfcab4be43c1ef3f7d596add83c151b9378a3a43dd6668de44bf54c",
+      "finalUrl": "https://www.beatlesbible.com/songs/lovely-rita",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "People John Lennon Biography Songs Albums Videos Discography Photos Paul McCartney Biography Songs Albums Videos Photos George Harrison Biography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; Lovely Rita Lovely Rita Home The Beatles’ songs – complete A-Z list Lovely Rita Written by: Lennon-McCartney Recorded: 23 , 24 February ; 7 , 21 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Personnel Paul McCartney : vocals, piano, bass, comb and paper John Lennon : backing vocals, acoustic rhythm guitar, comb and paper George Harrison : backing vocals, acoustic rhythm guitar, comb and paper Ringo Starr : drums, comb and paper George Martin : piano ‘Lovely Rita’, Paul McCartney ’s affectionate tale of a female traffic warden, was originally written as an anti-authority satire. As McCartney later explained, “I was thinking it should be a hate song... but then I thought it would be better to love her.” Nobody liked parking attendants, or meter maids, as they were known in that benighted era. So, to write a song about being in love with a meter maid – someone nobody else liked – was amusing in itself. There was one particular meter maid in Portland Place on whom I based Rita. She was slightly military-looking. I know it’s a terrible thing to say, but those meter maids were never good-looking. You never heard anybody say, ‘God, that’s one stunning parking attendant.’ In any case, I caught a glimpse of Rita opposite the Chinese embassy in Portland Place. She was filling in a ticket in her little white book, The cap, the bag across her shoulder. It’s sheer observation, like painting en plein air . I’ve said it before and I’ll say it again: the secret to successful",
+      "retrievedAt": "2026-09-03T17:34:53.733Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2468,
+        "fetchedTextLength": 34149,
+        "kind": "character-offsets",
+        "start": 572
+      }
+    },
+    "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6": {
+      "artifactId": "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6",
+      "artifactSha256": "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "25c737045a0c7a53a853a504f5c49f1b23aeab99d2839340b612e78dd3e62c93",
+      "finalUrl": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "ography Songs Albums Videos Photos Ringo Starr Biography Songs Albums EPs Videos Photos Features Map Gallery Fab Forum The Beatles’ songs – complete A-Z list &raquo; Good Morning Good Morning Good Morning Good Morning Home The Beatles’ songs – complete A-Z list Good Morning Good Morning Written by: Lennon-McCartney Recorded: 8 , 16 February ; 13 , 28 , 29 March 1967 Producer: George Martin Engineer: Geoff Emerick Released: 26 May 1967 (UK), 2 June 1967 (US) Available on: Sgt Pepper’s Lonely Hearts Club Band Anthology 2 Personnel John Lennon : vocals, rhythm guitar Paul McCartney : backing vocals, lead guitar, bass guitar, drums George Harrison : backing vocals, lead guitar Ringo Starr : drums, tambourine Barrie Cameron, David Glyde, Alan Holmes: saxophone John Lee, unknown: trombone Tom (surname unknown): French horn Born of John Lennon ’s post-touring retreat into suburban daydreaming, ‘Good Morning Good Morning’ was inspired by a Kellogg’s commercial he heard while working with the television playing in the background. ‘Good Morning’ is mine. It’s a throwaway, a piece of garbage, I always thought. The ‘Good morning, good morning’ was from a Kellogg’s cereal commercial. I always had the TV on very low in the background when I Was writing and it came over and then I wrote the song. John Lennon All We Are Saying , David Sheff The Kellogg’s jingle went: Good morning, good morning The best to you each morning Sunshine breakfast, Kellogg’s Corn Flakes Crisp and full of sun... Sunshine breakfast, Kellogg’s Corn Flakes Best for everyone With time signatures varying almost from bar-to-bar, the unruly meter in ‘Good Morning Good Morning’ was a result of Lennon’s tendency to write words first before fitting the music around them. John was feeling trapped in suburbia and was going through some problems with Cynthia . It was about his boring life at the time – there’s a reference in the lyrics to ‘nothing to do’ a",
+      "retrievedAt": "2026-09-03T17:34:54.945Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 2660,
+        "fetchedTextLength": 26150,
+        "kind": "character-offsets",
+        "start": 724
+      }
+    },
+    "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be": {
+      "artifactId": "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be",
+      "artifactSha256": "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "713b93f8d96abe0c57e3671d38ce7a68e51449ce45db3849097809c07f5e00fa",
+      "finalUrl": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "tudio, and John came up to me and said, ‘Nobody likes a smart-arse, Neil’... That was when I knew that John liked it and that it would happen. Neil Aspinall ‘Sgt Pepper (Reprise)’ was the final music recorded for the album, apart from the strings overdub for ‘Within You Without You’ . Taped in a single day, it was the perfect rousing performance to introduce the grand finale, ‘A Day In The Life’ . The reprise was faster than the previously-recorded title track, and with different lyrics. Opening with McCartney’s 1-2-3-4 count-in and Lennon’s cheeky “bye”, it featured all four Beatles on vocals and was one of the more straightforward rock songs on the Sgt Pepper album. Take five of the song, with a guide vocal by McCartney, was released on Anthology 2 . A remix of the more familiar version, meanwhile, was used between ‘Hey Jude’ and ‘All You Need Is Love’ on the Love album. In the studio ‘Sgt Pepper (Reprise)’ was recorded on Saturday 1 April 1967 in Abbey Road’s vast studio one. Between 7pm and 6am The Beatles firstly recorded nine takes of the rhythm track, with McCartney singing a guide vocal. They then overdubbed vocals to take nine, along with extra instrumentation. Although Sgt Pepper ’s songs were recorded with Abbey Road’s four-track recording technology, the reprise was the only one not to have reduction mixes to free up extra tracks. It was a straightforward recording, but one of the most exciting in The Beatles’ catalogue. The segue into ‘A Day In The Life’ , a crossfade using three tape machines, was carried out on 6 April 1967 . Discuss ‘Sgt Pepper’s Lonely Hearts Club Band (Reprise)’ on the Fab Forum » Previous song: ‘Good Morning Good Morning’ Next song: ‘A Day In The Life’ Published: 16 March 2008 | Last updated: 30 July 2026 44 thoughts on “Sgt Pepper’s Lonely Hearts Club Band (Reprise)” richard calvert Tuesday 28 July 2009 at 7.09pm There are m",
+      "retrievedAt": "2026-09-03T17:34:56.271Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 3826,
+        "fetchedTextLength": 18593,
+        "kind": "character-offsets",
+        "start": 1933
+      }
+    },
+    "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e": {
+      "artifactId": "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e",
+      "artifactSha256": "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e",
+      "canonicalUrl": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+      "collectionMethod": "http-fetch",
+      "collector": {
+        "identity": "albumvault-http-collector",
+        "runId": "rank24-sgt-pepper-http-collector-20260903",
+        "version": "1.0.0"
+      },
+      "contentEncoding": "zstd",
+      "contentType": "text/html; charset=UTF-8",
+      "fetchedResponseSha256": "0d2ece4daff2eeea6b4c4926ed4659543e8e99479f6834310559b1472e277152",
+      "finalUrl": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+      "httpStatus": 200,
+      "normalizationVersion": "nfkc-whitespace-v1",
+      "retainedText": "s From Now , Paul McCartney suggested that the Browne story featured to a lesser extent. The verse about the politician blowing his mind out in a car we wrote together. It has been attributed to Tara Browne, the Guinness heir, which I don’t believe is the case, certainly as we were writing it, I was not attributing it to Tara in my head. In John’s head it might have been. In my head I was imagining a politician bombed out on drugs who’d stopped at some traffic lights and didn’t notice that the lights had changed. The ‘blew his mind’ was purely a drugs reference, nothing to do with a car crash. Paul McCartney Many Years From Now , Barry Miles Filmed in Spain and Germany in autumn 1966, How I Won The War was John Lennon’s only non-Beatles film role. The lyrics of ‘A Day In The Life’ also alluded to the novel on which the film was based, written by Patrick Ryan and first published in 1963. The middle section (“Woke up, fell out of bed”) was an unfinished song fragment written by Paul McCartney, its practical earthiness providing a perfect counterpoint to Lennon’s languorous daydreaming. It was another song altogether but it happened to fit. It was just me remembering what it was like to run up the road to catch a bus to school, having a smoke and going into class. It was a reflection of my schooldays. I would have a Woodbine, somebody would speak and I’d go into a dream. Paul McCartney The final verse was also taken from the Daily Mail ’s Far and Near column. “There are 4,000 holes in the road in Blackburn, Lancashire,” it read, “or one twenty-sixth of a hole per person, according to a council survey.” There was still one word missing in that verse when we came to record. I knew the line had to go ‘Now they know how many holes it takes to... something, the Albert Hall.’ It was a nonsense verse really, but for some reason I couldn’t think of the verb. What did the holes do to",
+      "retrievedAt": "2026-09-03T17:34:57.428Z",
+      "schemaVersion": 1,
+      "window": {
+        "completeSource": false,
+        "end": 6788,
+        "fetchedTextLength": 53359,
+        "kind": "character-offsets",
+        "start": 4884
+      }
+    }
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "version": "1.0.0-candidate",
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "albumCount": 1
+  },
+  "entries": {
+    "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673": {
+      "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+      "editionNumber": 1,
+      "published": false,
+      "changeNote": "Complete all thirteen Sgt. Pepper catalog tracks with track-specific evidence and independent semantic review.",
+      "trackEntries": [
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 1,
+          "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:1:fact-1",
+              "claim": "The Beatles Bible states that on 6 March 1967 the Beatles added the title track's imaginary-audience sounds and orchestra-tuning noise.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Sgt Pepper's Lonely Hearts Club Band (song) – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band",
+                  "sourceIdentity": "beatlesbible.com|Sgt. Pepper's Lonely Hearts Club Band",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "On 6 March they added the sounds of the imaginary audience and the noise of an orchestra tuning up",
+                  "artifactId": "a44c1ce463a9f12fc7b85dca66956058b2c3a4104dce132cad4c189452935582",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 998
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:1:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Sgt Pepper's Lonely Hearts Club Band (song) – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 2,
+          "trackTitle": "With a Little Help From My Friends",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:2:fact-1",
+              "claim": "The Beatles Bible states that “With A Little Help From My Friends” was sung by Ringo Starr.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "With A Little Help From My Friends – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends",
+                  "sourceIdentity": "beatlesbible.com|With A Little Help From My Friends",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "was sung by Ringo Starr",
+                  "artifactId": "844cb4c3f58e7bcc5298b06cc6931eb1eeb001bed6b16ba089e979e3159a1bf7",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 923
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:2:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "With A Little Help From My Friends – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/with-a-little-help-from-my-friends"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 3,
+          "trackTitle": "Lucy In the Sky with Diamonds",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:3:fact-1",
+              "claim": "The Beatles Bible states that “Lucy In The Sky With Diamonds” took its name from a drawing by four-year-old Julian Lennon of a schoolfriend.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Lucy In The Sky With Diamonds – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds",
+                  "sourceIdentity": "beatlesbible.com|Lucy In The Sky With Diamonds",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘Lucy In The Sky With Diamonds’ in fact took its name from a drawing of a schoolfriend by the four-year-old Julian Lennon.",
+                  "artifactId": "493b9c8eef844ffcc2cc4f84a714888318d4bff8f100b4f5b5692076aa1b62b9",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 1022
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:3:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Lucy In The Sky With Diamonds – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/lucy-in-the-sky-with-diamonds"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 4,
+          "trackTitle": "Getting Better",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:4:fact-1",
+              "claim": "The Beatles Bible states that the idea for “Getting Better” came from a favourite phrase of Jimmie Nicol, the Beatles’ 1964 stand-in drummer.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Getting Better – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/getting-better",
+                  "sourceIdentity": "beatlesbible.com|Getting Better",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "the idea for ‘Getting Better’ came from a favourite phrase of Jimmie Nicol",
+                  "artifactId": "d66b8d1e9fcba81574583666fbfeda7ef9ef77b02ec1e65f27e743fa00e1b0a3",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 974
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:4:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Getting Better – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/getting-better"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 5,
+          "trackTitle": "Fixing a Hole",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:5:fact-1",
+              "claim": "The Beatles Bible states that the Beatles used Regent Sound Studio for “Fixing A Hole” because Abbey Road was unavailable.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Fixing A Hole – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/fixing-a-hole",
+                  "sourceIdentity": "beatlesbible.com|Fixing A Hole",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The Beatles used Regent Sound Studio in London as Abbey Road was unavailable.",
+                  "artifactId": "62207fef1e9f47806a0e9fba5b76d0a657f6719bd8bca7d643f6134946776cbe",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 977
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:5:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Fixing A Hole – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/fixing-a-hole"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 6,
+          "trackTitle": "She's Leaving Home",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:6:fact-1",
+              "claim": "For “She’s Leaving Home”, The Beatles Bible states that Paul McCartney read about 17-year-old Melanie Coe in February 1967.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "She's Leaving Home – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/shes-leaving-home",
+                  "sourceIdentity": "beatlesbible.com|She's Leaving Home",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "In February 1967, Paul McCartney read about Melanie Coe, a 17-year-old A-level schoolgirl from Stamford Hill, north London.",
+                  "artifactId": "93e55209482d71b167aeeb0bf796c6b911d27f3b38bc74ae5d3b0eafbefc6d3f",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 1023
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:6:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "She's Leaving Home – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/shes-leaving-home"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 7,
+          "trackTitle": "Being For the Benefit of Mr. Kite!",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:7:fact-1",
+              "claim": "The Beatles Bible states that John Lennon bought the framed 1843 Victorian circus poster used as inspiration for “Being For The Benefit Of Mr Kite!”",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Being For The Benefit Of Mr Kite! – facts, song background, recording info and more | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite",
+                  "sourceIdentity": "beatlesbible.com|Being For The Benefit Of Mr Kite!",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "There he bought a framed Victorian circus poster from 1843.",
+                  "artifactId": "b5e21f10aa8db4c49624472de691d61bf27fef21dff624374aa65a6f9c8d40b0",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 959
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:7:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Being For The Benefit Of Mr Kite! – facts, song background, recording info and more | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/being-for-the-benefit-of-mr-kite"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 8,
+          "trackTitle": "Within You Without You",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:8:fact-1",
+              "claim": "The Beatles Bible states that “Within You Without You” was composed on a harmonium following a dinner party.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Within You Without You – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/within-you-without-you",
+                  "sourceIdentity": "beatlesbible.com|Within You Without You",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘Within You Without You’ was composed on a harmonium following a dinner party",
+                  "artifactId": "726cf7e735604c30f5db78a7a1fdb9ca308ead59c045d38a2808ad010a850b5b",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 977
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:8:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Within You Without You – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/within-you-without-you"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 9,
+          "trackTitle": "When I'm Sixty-Four",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:9:fact-1",
+              "claim": "The Beatles Bible states that Paul McCartney composed “When I’m Sixty-Four” on the family piano at 20 Forthlin Road when he was about 15.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "When I'm Sixty-Four – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/when-im-sixty-four",
+                  "sourceIdentity": "beatlesbible.com|When I'm Sixty-Four",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "Paul McCartney had composed it on the family piano at 20 Forthlin Road, Liverpool “when I was about 15”.",
+                  "artifactId": "d934e6c5ee6257415e3799e9490d378c8b8b90cedec29a7a1d7dca8e44e66018",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 1004
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:9:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "When I'm Sixty-Four – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/when-im-sixty-four"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 10,
+          "trackTitle": "Lovely Rita",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:10:fact-1",
+              "claim": "The Beatles Bible describes “Lovely Rita” as an affectionate tale of a female traffic warden that was originally written as an anti-authority satire.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Lovely Rita – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/lovely-rita",
+                  "sourceIdentity": "beatlesbible.com|Lovely Rita",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "affectionate tale of a female traffic warden, was originally written as an anti-authority satire.",
+                  "artifactId": "12d42dc39688c08733f4fe4761cad95d79e88fad5c464ca9acf8fa2a41c3d5e7",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 997
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:10:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Lovely Rita – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/lovely-rita"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 11,
+          "trackTitle": "Good Morning Good Morning",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:11:fact-1",
+              "claim": "The Beatles Bible states that “Good Morning Good Morning” was inspired by a Kellogg’s commercial John Lennon heard while writing with the television on.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Good Morning Good Morning – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/good-morning-good-morning",
+                  "sourceIdentity": "beatlesbible.com|Good Morning Good Morning",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘Good Morning Good Morning’ was inspired by a Kellogg’s commercial he heard while working with the television playing in the background.",
+                  "artifactId": "8e5dace1aa4613e7391dfe41643049be5c3a5eb9129cc6328b0d1cbda1bd36c6",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 1036
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:11:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Good Morning Good Morning – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/good-morning-good-morning"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 12,
+          "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:12:fact-1",
+              "claim": "The Beatles Bible states that “Sgt Pepper (Reprise)” was recorded on 1 April 1967 in Abbey Road’s Studio One.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "Sgt Pepper's Lonely Hearts Club Band (Reprise) – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise",
+                  "sourceIdentity": "beatlesbible.com|Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "‘Sgt Pepper (Reprise)’ was recorded on Saturday 1 April 1967 in Abbey Road’s vast studio one.",
+                  "artifactId": "d0ad9f9b0249a9a17b4e11e6e60097471bf1e6dec5a1f944bdb83b04012310be",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 993
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:12:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "Sgt Pepper's Lonely Hearts Club Band (Reprise) – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/sgt-peppers-lonely-hearts-club-band-reprise"
+            }
+          ]
+        },
+        {
+          "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+          "discNumber": 1,
+          "trackNumber": 13,
+          "trackTitle": "A Day In the Life",
+          "evidenceLevel": "documented",
+          "verifiedFacts": [
+            {
+              "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:13:fact-1",
+              "claim": "The Beatles Bible states that the “Woke up, fell out of bed” middle section of “A Day In The Life” was an unfinished song fragment written by Paul McCartney.",
+              "sourceRefs": [
+                {
+                  "label": "The Beatles Bible song article",
+                  "title": "A Day In The Life – song facts, recording info and more! | The Beatles Bible",
+                  "url": "https://www.beatlesbible.com/songs/a-day-in-the-life",
+                  "sourceIdentity": "beatlesbible.com|A Day In The Life",
+                  "extractType": "verbatim",
+                  "evidenceStatus": "retrieved",
+                  "checkedAt": "2026-09-03",
+                  "extract": "The middle section (“Woke up, fell out of bed”) was an unfinished song fragment written by Paul McCartney",
+                  "artifactId": "c54b2688d859d060414257ce7c1f186c48093f8f1e93a84de5b1c39f914c1f2e",
+                  "section": {
+                    "kind": "character-offsets",
+                    "start": 900,
+                    "end": 1005
+                  }
+                }
+              ],
+              "semanticReview": {
+                "recordId": "98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc",
+                "decisionId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:13:fact-1"
+              }
+            }
+          ],
+          "musicalCharacter": "",
+          "albumContext": "",
+          "listeningNotes": "",
+          "limitations": [
+            "One narrow source-bound statement retained; no musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+          ],
+          "sourceRefs": [
+            {
+              "label": "The Beatles Bible song article",
+              "title": "A Day In The Life – song facts, recording info and more! | The Beatles Bible",
+              "url": "https://www.beatlesbible.com/songs/a-day-in-the-life"
+            }
+          ]
+        }
+      ],
+      "generationMetadata": {
+        "generatedAt": "2026-09-03T00:00:00.000Z",
+        "generator": "codex-rank24-track-encyclopedia-author",
+        "model": "gpt-5-codex"
+      },
+      "reviewMetadata": {
+        "reviewedAt": "2026-09-03T17:44:12Z",
+        "reviewer": "codex-independent-evidence-reviewer",
+        "notes": "Imported immutable independent review 98764f5d29e7b15e188cdd2e7b39c2375984f84d1c9286958e4604f1e00c6fdc."
+      },
+      "contentHash": "3f64c8ef4f3d5edb"
+    }
+  }
+}
