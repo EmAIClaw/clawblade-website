@@ -1,0 +1,691 @@
+{
+  "albumId": "035-the-beatles-rubber-soul-e05eb313",
+  "editionNumber": 1,
+  "published": false,
+  "changeNote": "Complete all fourteen Rubber Soul catalog tracks with track-specific evidence and independent semantic review.",
+  "trackEntries": [
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Drive My Car",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:1:fact-1",
+          "claim": "Wikipedia states that George Harrison suggested arranging \"Drive My Car\" with a dual guitar–bass riff in the style of Otis Redding's contemporary recording of \"Respect\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Drive My Car\" [edit] [] \"Drive My Car\" The chorus of \"Drive My Car\" ------------------------------------------------------------------------ Problems playing this file? See media help. The album opens with a pair of lead guitar parts that are soon rendered off-metre by the arrival of McCartney's bass.^([84]) \"Drive My Car\" is a McCartney composition but with substantial contribution by Lennon to the lyrics.^([107][108]) Harrison, as the Beatles' most knowledgeable soul-music enthusiast, contributed heavily to the recording by suggesting they arrange the song with a dual guitar–bass riff in the style of Otis Redding's contemporary single \"Respect\".",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 500,
+                "end": 1156
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:1:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Norwegian Wood (This Bird Has Flown)",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:2:fact-1",
+          "claim": "Wikipedia states that John Lennon said he wrote \"Norwegian Wood\" about an extramarital affair and worded the narrative to conceal it from his wife, Cynthia.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Norwegian Wood (This Bird Has Flown)\" [edit] Lennon said he wrote \"Norwegian Wood\" about an extramarital affair and that he worded the narrative to hide the truth from his wife, Cynthia.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 1952,
+                "end": 2139
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:2:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "You Won't See Me",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:3:fact-1",
+          "claim": "Wikipedia states that Paul McCartney described the music of \"You Won't See Me\" as \"very Motown-flavored\", with a feel inspired by bassist James Jamerson.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"You Won't See Me\" [edit] Written by McCartney, \"You Won't See Me\" reflects the difficulties he was experiencing in his relationship with actress Jane Asher due to her refusal to put her acting career second to his needs.^([123][124]) Gould identifies the song as the third consecutive track in which the narrative conveys miscommunication.^([125]) McCartney described its music as \"very Motown-flavored\", with a \"feel\" inspired by Motown bassist James Jamerson.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 2985,
+                "end": 3447
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:3:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Nowhere Man",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:4:fact-1",
+          "claim": "Wikipedia states that Lennon recalled \"Nowhere Man\" coming to him fully formed one night at his home in Surrey.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Nowhere Man\" [edit] [] \"Nowhere Man\" Sample from \"Nowhere Man\" ------------------------------------------------------------------------ Problems playing this file? See media help. Lennon recalled that \"Nowhere Man\" came to him fully formed one night at his home in Surrey,",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 3732,
+                "end": 4005
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:4:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Think For Yourself",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:5:fact-1",
+          "claim": "Wikipedia characterizes the accusatory message of \"Think for Yourself\" as unprecedented in the Beatles' work.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Think for Yourself\" [edit] Harrison's lyrics to \"Think for Yourself\" suggest the influence of Dylan's September 1965 single \"Positively 4th Street\", as Harrison appears to rebuke a friend or lover.^([139]) The song's accusatory message was unprecedented in the Beatles' work;",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 5267,
+                "end": 5543
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:5:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "The Word",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:6:fact-1",
+          "claim": "Wikipedia states that the arrangement of \"The Word\" includes seven vocal parts and George Martin playing suspended chords on harmonium.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"The Word\" [edit] [\"The Word\" is] all about gettin' smart. It's the marijuana period ... it's the love-and-peace thing. The word is \"love,\" right? It seems like the underlying theme to the universe. Everything that was worthwhile got down to this one, love, love thing.^([143]) — John Lennon In his book 1965: The Year Modern Britain Was Born, Bray recognises \"The Word\" as marking the start of the Beatles' \"high psychedelic period\".^([144]) Lennon's exhortation that \"The word is love\" anticipates the ethos behind the counterculture's 1967 Summer of Love.^([145]) The lyrics focus on the concept of universal love as a path to spiritual enlightenment, with what Decker terms \"proselytizing zeal\" on the narrator's part.^([146]) Author Ian MacDonald recognises the \"distant influence\" of Wilson Pickett's \"In the Midnight Hour\" and James Brown's \"Papa's Got a Brand New Bag\" on the song's rhythm, and highlights Starr's drumming (for its \"feast of eccentric 'backwards fills'\") and McCartney's dextrous bass playing.^([123]) The arrangement also includes seven vocal parts and Martin playing suspended chords on harmonium.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 6181,
+                "end": 7305
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:6:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Michelle",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:7:fact-1",
+          "claim": "Wikipedia states that Lennon added a new middle eight to \"Michelle\", partly drawn from Nina Simone's recent cover of \"I Put a Spell on You\".",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Michelle\" [edit] \"Michelle\" was conceived by McCartney in the late 1950s. During a writing session for Rubber Soul, Lennon added a new middle eight, part of which was taken from Nina Simone's recent cover of \"I Put a Spell on You\".",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 7314,
+                "end": 7546
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:7:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "What Goes On",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:8:fact-1",
+          "claim": "Wikipedia states that Lennon and McCartney reworked \"What Goes On\" as a vocal feature for Ringo Starr.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"What Goes On\" [edit] The Beatles had attempted to record an early version of Lennon's \"What Goes On\" in 1963.^([151][152]) With little time to complete Rubber Soul, the song was reworked by Lennon and McCartney as a vocal spot for Starr,",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8311,
+                "end": 8549
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:8:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Girl",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:9:fact-1",
+          "claim": "Wikipedia states that \"Girl\" was the final track recorded for Rubber Soul.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Girl\" [edit] [] \"Girl\" Sample from \"Girl\" ------------------------------------------------------------------------ Problems playing this file? See media help. Lennon said he wrote \"Girl\" about an archetypal woman he had been searching for and would finally find in Yoko Ono,^([154][157]) the Japanese artist he met in November 1966.^([158]) In the lyrics, he also expresses his disdain for Christian moral values.^([154]) The song was the final track recorded for the album.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 8975,
+                "end": 9450
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:9:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "I'm Looking Through You",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:10:fact-1",
+          "claim": "Wikipedia states that the Beatles taped two versions of \"I'm Looking Through You\" before achieving the final version.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"I'm Looking Through You\" [edit] Like \"You Won't See Me\" and \"We Can Work It Out\", \"I'm Looking Through You\" focuses on McCartney's troubled relationship with Asher.^([167]) Gould describes it as the \"disillusioned sequel\" to McCartney's other 1965 songs centring on \"a face-to-face (if not necessarily eye-to-eye) encounter between two lovers\".^([151]) Decker likens the lyrics to a less philosophical version of \"Think for Yourself\" in which \"the narrator has grown, yet the woman has failed to keep up.\"^([168]) The composition contrasts acoustic-based verses with harsher, R&B-style instrumental sections,^([169]) suggesting a combination of the folk rock and soul styles.^([147]) The Beatles had taped two versions of the song before achieving the final version,",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 10496,
+                "end": 11263
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:10:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "In My Life",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:11:fact-1",
+          "claim": "Wikipedia states that George Martin overdubbed the Bach-inspired piano solo on \"In My Life\" in the Beatles' absence.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"In My Life\" [edit] [] \"In My Life\" Sample from \"In My Life\", including a portion of the piano solo ------------------------------------------------------------------------ Problems playing this file? See media help. Lennon credited a remark made by BBC journalist Kenneth Allsop, who had asked why his songs appeared to lack the wordplay and childhood focus evident in his 1964 book In His Own Write, as the catalyst for \"In My Life\".^([172]) Lennon considered the song to be his \"first real major piece of work\".^([69]) The lyrics evoke his youth in Liverpool and reflect his nostalgia for a time before the onset of international fame.^([154]) McCartney recalled writing the melody on his own and said that the song's musical inspiration came from Smokey Robinson and the Miracles;^([172][173]) according to Lennon, McCartney merely assisted in writing what he called \"the middle-eight melody\".^([174]) In Gould's description, \"In My Life\" \"owed a conscious debt\" to the Miracles' contemporary hit \"The Tracks of My Tears\" and thereby served as \"the most recent installment in the lively cultural exchange between Motown's Hitsville Studios and EMI's Abbey Road\".^([175][nb 10]) Martin's Bach-inspired piano solo was overdubbed in the Beatles' absence,",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 11470,
+                "end": 12725
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:11:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Wait",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:12:fact-1",
+          "claim": "Wikipedia states that the Beatles completed \"Wait\" on the final recording day, overdubbing tone-pedal lead guitar and percussion.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Wait\" [edit] \"Wait\" was a Lennon composition to which McCartney contributed a middle eight.^([162][180]) Gould includes the song among a category of Beatles \"'coming home' songs\",^([179]) while Riley pairs it with \"It Won't Be Long\" but adds that, relative to that 1963 song, in \"Wait\" \"the lovers' reunion has more anxiety than euphoria goading the beat.\"^([180]) The band completed the track on the final day of recording for the album, overdubbing tone-pedal lead guitar, percussion",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 13155,
+                "end": 13641
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:12:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "If I Needed Someone",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:13:fact-1",
+          "claim": "Wikipedia states that Harrison wrote \"If I Needed Someone\" as a love song to Pattie Boyd.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"If I Needed Someone\" [edit] Harrison wrote \"If I Needed Someone\" as a love song to Pattie Boyd, the English model to whom he became engaged in December 1965 and married the following month.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 14030,
+                "end": 14220
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:13:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    },
+    {
+      "albumId": "035-the-beatles-rubber-soul-e05eb313",
+      "discNumber": 1,
+      "trackNumber": 14,
+      "trackTitle": "Run For Your Life",
+      "evidenceLevel": "documented",
+      "verifiedFacts": [
+        {
+          "claimId": "035-the-beatles-rubber-soul-e05eb313:1:14:fact-1",
+          "claim": "Wikipedia states that \"Run for Your Life\" was the first track recorded for Rubber Soul and features Harrison playing a descending guitar riff and slide-guitar parts.",
+          "sourceRefs": [
+            {
+              "label": "Wikipedia Rubber Soul article",
+              "title": "Rubber Soul - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Rubber_Soul",
+              "sourceIdentity": "en.wikipedia.org|Rubber Soul album article",
+              "extractType": "verbatim",
+              "evidenceStatus": "retrieved",
+              "checkedAt": "2026-09-03",
+              "extract": "\"Run for Your Life\" [edit] Lennon wrote \"Run for Your Life\" based on \"Baby Let's Play House\",^([192]) which was one of Presley's early singles on the Sun record label.^([154]) Lennon retained a line from the Presley track – \"I'd rather see you dead, little girl, than to be with another man\".^([154][193]) The lyrical theme is jealousy,^([194]) betraying an overtly misogynistic quality that Decker finds at odds with the Beatles' approach to making the album.^([195][nb 11]) Performed in the country style,^([193]) it was the first track recorded for the album and features a descending guitar riff played by Harrison and slide guitar parts.",
+              "artifactId": "025e24e6d515c5b8cde73732b0a8c0298e8537c24d572d0b98073f86a0982522",
+              "section": {
+                "kind": "character-offsets",
+                "start": 15242,
+                "end": 15884
+              }
+            }
+          ],
+          "semanticReview": {
+            "recordId": "2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d",
+            "decisionId": "035-the-beatles-rubber-soul-e05eb313:1:14:fact-1"
+          }
+        }
+      ],
+      "musicalCharacter": "",
+      "albumContext": "",
+      "listeningNotes": "",
+      "limitations": [
+        "One attributed track-specific statement retained from the fetched album article; no independent musical analysis, lyric interpretation, or complete session reconstruction is claimed."
+      ],
+      "sourceRefs": [
+        {
+          "label": "Wikipedia Rubber Soul article",
+          "title": "Rubber Soul - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_Soul"
+        }
+      ]
+    }
+  ],
+  "generationMetadata": {
+    "generatedAt": "2026-09-03T00:00:00.000Z",
+    "generator": "hermes-rank35-track-encyclopedia-author",
+    "model": "gpt-5.6-sol"
+  },
+  "reviewMetadata": {
+    "reviewedAt": "2026-09-03T20:13:33+02:00",
+    "reviewer": "codex-independent-evidence-reviewer",
+    "notes": "Imported immutable independent review 2ec3378e10d9dc6d6e70cf56ef33778619676690e8c8159f91d1d4ee0cdbff5d."
+  },
+  "contentHash": "dfc32af7638ca11c"
+}
