@@ -2670,7 +2670,7 @@
         }
       },
       "context": "Exile on Main St. is the tenth studio album by the English rock band the Rolling Stones, released on 12 May 1972, by Rolling Stones Records. The 10th released in the UK and 12th in the US, it is viewed as a culmination of a string of the band's most critically successful albums, following Beggars Banquet (1968), Let It Bleed (1969) and Sticky Fingers (1971). Exile on Main St. is known for its wide stylistic range and the strong influence of Delta blues, gospel music, and country rock.",
-      "relevance": "AlbumVault ranks it #14. Genre not cataloged; 18 catalog tracks; listed year 1972. Artist source: The Rolling Stones. Album source: Exile on Main St.. Track-specific source summaries: 0.",
+      "relevance": "AlbumVault ranks it #14. Genre not cataloged; 28 catalog tracks; listed year 1972. Artist source: The Rolling Stones. Album source: Exile on Main St.. Track-specific source summaries: 0.",
       "listeningNotes": [
         "Start with the artist context from The Rolling Stones; listen for how this album fits or breaks from that wider story.",
         "Read the album summary from Exile on Main St., then identify one audible detail that connects to the sourced context.",
@@ -2796,7 +2796,67 @@
         },
         {
           "trackTitle": "Soul Survivor",
-          "guide": "Track 18 of 18, \"Soul Survivor\", is the album's closer and runs 3:49. In the album sequence it follows \"Shine A Light\" and closes the current track list. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "guide": "Track 18 of 28, \"Soul Survivor\", is the disc 1 closer and runs 3:49. In the album sequence it follows \"Shine A Light\" and closes the original album. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Pass the Wine (Sophia Loren)",
+          "guide": "Track 19 of 28, \"Pass the Wine (Sophia Loren)\", opens the 2010 deluxe edition bonus disc and runs 4:54. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Plundered My Soul",
+          "guide": "Track 20 of 28, \"Plundered My Soul\", is a bonus-disc outtake from the 2010 deluxe edition and runs 3:59. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "I’m Not Signifying",
+          "guide": "Track 21 of 28, \"I’m Not Signifying\", is a bonus-disc outtake from the 2010 deluxe edition and runs 3:56. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Following the River",
+          "guide": "Track 22 of 28, \"Following the River\", is a bonus-disc outtake from the 2010 deluxe edition and runs 4:52. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Dancing in the Light",
+          "guide": "Track 23 of 28, \"Dancing in the Light\", is a bonus-disc outtake from the 2010 deluxe edition and runs 4:22. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "So Divine (Aladdin Story)",
+          "guide": "Track 24 of 28, \"So Divine (Aladdin Story)\", is a bonus-disc outtake from the 2010 deluxe edition and runs 4:33. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Loving Cup (alternate take)",
+          "guide": "Track 25 of 28, \"Loving Cup (alternate take)\", is a bonus-disc alternate version from the 2010 deluxe edition and runs 5:26. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Soul Survivor (alternate take)",
+          "guide": "Track 26 of 28, \"Soul Survivor (alternate take)\", is a bonus-disc alternate version from the 2010 deluxe edition and runs 3:59. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Good Time Women",
+          "guide": "Track 27 of 28, \"Good Time Women\", is a bonus-disc outtake from the 2010 deluxe edition and runs 3:21. No confident track-specific external source was found, so this entry uses static track metadata only.",
+          "focus": "Track metadata and album sequence context only",
+          "source": null
+        },
+        {
+          "trackTitle": "Title 5",
+          "guide": "Track 28 of 28, \"Title 5\", closes the 2010 deluxe edition bonus disc and runs 1:47. No confident track-specific external source was found, so this entry uses static track metadata only.",
           "focus": "Track metadata and album sequence context only",
           "source": null
         }

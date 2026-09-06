@@ -225,6 +225,52 @@ try {
   failures.push(error.message);
 }
 
+const exileOnMainSt = albums.find((album) => album.id === '014-the-rolling-stones-exile-on-main-st-9d89aa7d');
+try {
+  assert.ok(exileOnMainSt, 'Exile on Main St. must exist in the catalog');
+  assert.equal(exileOnMainSt.appleCollectionId, 1440872228, 'Exile on Main St. must keep its Apple 2010 remaster collection for disc 1 previews');
+  assert.equal(exileOnMainSt.musicBrainzReleaseGroupId, '4838a3c9-fd2b-30a5-83eb-e32545b5d7fc', 'Exile on Main St. must keep its MusicBrainz release group');
+  assert.equal(exileOnMainSt.tracks.length, 28, 'Exile on Main St. must list both discs: 18 original + 10 bonus tracks (2010 deluxe)');
+  assert.deepEqual(
+    exileOnMainSt.tracks.filter((t) => t.discNumber === 1).map((t) => t.title),
+    [
+      'Rocks Off', 'Rip This Joint', 'Shake Your Hips', 'Casino Boogie',
+      'Tumbling Dice', 'Sweet Virginia', 'Torn And Frayed', 'Sweet Black Angel',
+      'Loving Cup', 'Happy', 'Turd On The Run', 'Ventilator Blues',
+      'I Just Want To See His Face', 'Let It Loose', 'All Down The Line',
+      'Stop Breaking Down', 'Shine A Light', 'Soul Survivor'
+    ],
+    'Exile on Main St. disc 1 must keep the original 18-track sequence'
+  );
+  assert.deepEqual(
+    exileOnMainSt.tracks.filter((t) => t.discNumber === 2).map((t) => t.title),
+    [
+      'Pass the Wine (Sophia Loren)',
+      'Plundered My Soul',
+      'I\u2019m Not Signifying',
+      'Following the River',
+      'Dancing in the Light',
+      'So Divine (Aladdin Story)',
+      'Loving Cup (alternate take)',
+      'Soul Survivor (alternate take)',
+      'Good Time Women',
+      'Title 5'
+    ],
+    'Exile on Main St. disc 2 must contain the 10 bonus tracks from the 2010 deluxe edition'
+  );
+  assert.ok(
+    exileOnMainSt.tracks.filter((t) => t.discNumber === 2).every((t) => t.previewUrl === null),
+    'Exile on Main St. disc 2 tracks must not borrow Apple previews from another release'
+  );
+  assert.equal(
+    entries[exileOnMainSt.id]?.relevance?.includes('28 catalog tracks'),
+    true,
+    'Exile on Main St. encyclopedia relevance must reflect the 28-track deluxe count'
+  );
+} catch (error) {
+  failures.push(error.message);
+}
+
 const verifiedProviderRepairs = [
   ['032-beyonce-lemonade-d3bb0f63', 'c1f22e07-7bdf-4a4f-8b50-7747c1091ef6', 12],
   ['037-dr-dre-the-chronic-08e42779', 'ad444843-7160-33d7-b0c9-fc99f2c14a99', 16],
