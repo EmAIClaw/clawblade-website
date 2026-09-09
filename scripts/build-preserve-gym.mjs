@@ -15,7 +15,9 @@ let exitCode = 0;
 let beforeGymHash = null;
 
 try {
-  const gymSource = existsSync(gymDist) ? gymDist : (existsSync(trackedGymDist) ? trackedGymDist : null);
+  // dist-gym is the Git-backed canonical bundle used for deploys. Always prefer it
+  // over dist/gym, which may be stale output left by an earlier local build.
+  const gymSource = existsSync(trackedGymDist) ? trackedGymDist : (existsSync(gymDist) ? gymDist : null);
   if (gymSource) {
     beforeGymHash = await hashDirectory(gymSource);
     await mkdir(stashRoot, { recursive: true });

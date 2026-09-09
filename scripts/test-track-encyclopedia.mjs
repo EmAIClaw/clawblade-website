@@ -2,6 +2,7 @@
 // Run with: node scripts/test-track-encyclopedia.mjs
 
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
 import { readFile, writeFile, mkdir, rm, cp, readdir, mkdtemp } from 'node:fs/promises';
 import path from 'node:path';
 import { tmpdir } from 'node:os';
@@ -1271,21 +1272,22 @@ await test('npm build script preserves tracked dist/gym assets through Vite clea
   assert.match(wrapper, /dist-gym/, 'fresh CI builds must seed dist/gym from tracked dist-gym');
 });
 
-await test('build wrapper restores dist/gym on simulated Vite failure and exits nonzero', async () => {
+await test('build wrapper always restores canonical dist-gym assets and exits nonzero on Vite failure', async () => {
   const gymDir = path.join(process.cwd(), 'dist/gym');
+  const canonicalGymDir = path.join(process.cwd(), 'dist-gym');
   const markerPath = path.join(gymDir, 'preserve-marker.txt');
   await mkdir(gymDir, { recursive: true });
-  await writeFile(markerPath, 'gym marker\n');
-  const before = await hashDirectory(gymDir);
+  await writeFile(markerPath, 'stale gym marker\n');
+  const canonicalHash = await hashDirectory(canonicalGymDir);
   const result = spawnSync(process.execPath, ['scripts/build-preserve-gym.mjs'], {
     cwd: process.cwd(),
     encoding: 'utf8',
     env: { ...process.env, ALBUMVAULT_BUILD_PRESERVE_GYM_FAIL_VITE: '23' },
   });
   assert.equal(result.status, 23, result.stderr || result.stdout);
-  assert.deepEqual(await hashDirectory(gymDir), before, 'gym directory must be restored byte-identically after Vite failure');
+  assert.deepEqual(await hashDirectory(gymDir), canonicalHash, 'dist/gym must be restored from canonical dist-gym, never stale build output');
+  assert.equal(existsSync(markerPath), false, 'stale dist/gym files must not survive the build');
   assert.deepEqual(await listTmpGymArtifacts(), [], 'wrapper must clean temporary gym stashes');
-  await rm(markerPath, { force: true });
 });
 
 await test('TypeScript runtime coexistence check compiles legacy and structured types together', async () => {
