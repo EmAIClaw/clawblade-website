@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { access } from 'node:fs/promises';
 import catalogData from '../src/data/catalog.generated.json' with { type: 'json' };
+import discoveryEnhancementsData from '../src/data/discovery.enhancements.json' with { type: 'json' };
 import encyclopediaData from '../src/data/encyclopedia.generated.json' with { type: 'json' };
 
 const albums = catalogData.albums ?? [];
@@ -336,6 +337,49 @@ for (const [albumId, trackTitle] of repairedGuideChecks) {
   }
 }
 
+const discoveryEntries = discoveryEnhancementsData.entries ?? {};
+if (discoveryEnhancementsData.metadata?.entryCount !== albums.length) {
+  failures.push(
+    `Discovery metadata reports ${discoveryEnhancementsData.metadata?.entryCount ?? 0} entries for ${albums.length} albums`
+  );
+}
+
+for (const album of albums) {
+  const discovery = discoveryEntries[album.id]?.discovery;
+  if (!discovery) {
+    failures.push(`#${album.rank} ${album.artist} — ${album.title}: missing discovery guide`);
+    continue;
+  }
+
+  for (const field of ['summary', 'whyItMatters', 'sound']) {
+    if (!discovery[field]?.trim()) {
+      failures.push(`${album.artist} — ${album.title}: discovery.${field} is empty`);
+    }
+  }
+
+  const trackTitles = new Set((album.tracks ?? []).map((track) => track.title));
+  for (const pick of discovery.startHere ?? []) {
+    if (!trackTitles.has(pick.trackTitle)) {
+      failures.push(`${album.artist} — ${album.title}: unknown discovery track ${pick.trackTitle}`);
+    }
+    if (!pick.note?.trim()) {
+      failures.push(`${album.artist} — ${album.title}: empty discovery note for ${pick.trackTitle}`);
+    }
+  }
+
+  for (const field of ['listenFor', 'ifYouLike', 'discoveryTags']) {
+    if (!Array.isArray(discovery[field]) || discovery[field].length < 3) {
+      failures.push(`${album.artist} — ${album.title}: discovery.${field} must have at least 3 items`);
+    }
+  }
+}
+
+for (const albumId of Object.keys(discoveryEntries)) {
+  if (!albums.some((album) => album.id === albumId)) {
+    failures.push(`Discovery guide references unknown album id: ${albumId}`);
+  }
+}
+
 if (failures.length) {
   console.error(`Data integrity failed for ${failures.length} album(s):`);
   for (const failure of failures.slice(0, 80)) console.error(`- ${failure}`);
@@ -343,4 +387,6 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`data integrity tests passed for ${albums.length} albums`);
+console.log(
+  `data integrity tests passed for ${albums.length} albums and ${Object.keys(discoveryEntries).length} discovery guides`
+);

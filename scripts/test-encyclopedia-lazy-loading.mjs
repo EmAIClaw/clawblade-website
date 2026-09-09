@@ -13,5 +13,15 @@ assert.match(
   /import\(\s*["']\.\/data\/encyclopedia\.generated\.json["']\s*\)/,
   'App must dynamically import the encyclopedia for album detail'
 );
+assert.doesNotMatch(
+  appSource,
+  /import\s+[^;]*from\s+["']\.\/data\/discovery\.enhancements\.json["'];/,
+  'App must not statically import discovery enhancements into the initial bundle'
+);
+assert.match(
+  appSource,
+  /import\(\s*["']\.\/data\/discovery\.enhancements\.json["']\s*\)/,
+  'App must dynamically import discovery enhancements for album detail'
+);
 
 console.log('encyclopedia lazy-loading regression test passed');

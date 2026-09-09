@@ -45,6 +45,7 @@
     "curate:batch": "node scripts/batch-enrich.mjs",
     "curate:apply": "node scripts/apply-curated.mjs",
     "curate:full": "npm run curate:batch && npm run curate:apply",
+    "discovery:update": "node scripts/update-discovery-enhancements.mjs",
     "prepare:data": "npm run prepare:catalog && npm run generate:encyclopedia"
   },
   "dependencies": {

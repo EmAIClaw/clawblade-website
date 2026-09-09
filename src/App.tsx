@@ -75,12 +75,27 @@ function loadEncyclopediaEntries() {
   if (encyclopediaEntriesCache) return Promise.resolve(encyclopediaEntriesCache);
   if (encyclopediaEntriesPromise) return encyclopediaEntriesPromise;
 
-  encyclopediaEntriesPromise = import("./data/encyclopedia.generated.json")
-    .then((module) => {
-      encyclopediaEntriesCache = module.default.entries as Record<
+  encyclopediaEntriesPromise = Promise.all([
+    import("./data/encyclopedia.generated.json"),
+    import("./data/discovery.enhancements.json")
+  ])
+    .then(([encyclopediaModule, discoveryModule]) => {
+      const baseEntries = encyclopediaModule.default.entries as Record<
         string,
         EncyclopediaEntry
       >;
+      const discoveryEntries = (discoveryModule.default as {
+        entries: Record<string, Pick<EncyclopediaEntry, "discovery">>;
+      }).entries;
+      encyclopediaEntriesCache = Object.fromEntries(
+        Object.entries(baseEntries).map(([albumId, entry]) => [
+          albumId,
+          {
+            ...entry,
+            discovery: discoveryEntries[albumId]?.discovery
+          }
+        ])
+      );
       return encyclopediaEntriesCache;
     })
     .catch((error) => {
@@ -2874,6 +2889,69 @@ function AlbumDetail({
           </>
         )}
       </section>
+
+      {encyclopediaStatus === "ready" && entry?.discovery && (
+        <section className="panel full discoveryPanel">
+          <div className="sectionHeader">
+            <div>
+              <p className="eyebrow">Discovery guide</p>
+              <h3>Start with what makes this CD worth hearing</h3>
+            </div>
+            <Headphones size={20} />
+          </div>
+          <p className="discoveryLead">{entry.discovery.summary}</p>
+          {entry.discovery.catalogNote && (
+            <p className="discoveryCatalogNote">{entry.discovery.catalogNote}</p>
+          )}
+          <div className="discoveryGrid">
+            <article>
+              <h4>Why it matters</h4>
+              <p>{entry.discovery.whyItMatters}</p>
+            </article>
+            <article>
+              <h4>What it sounds like</h4>
+              <p>{entry.discovery.sound}</p>
+            </article>
+          </div>
+          <div className="discoveryStartHere">
+            <h4>Start here</h4>
+            <div className="discoveryStartList">
+              {entry.discovery.startHere.map((pick, index) => (
+                <article key={`${pick.trackTitle}-${index}`}>
+                  <span>{index + 1}</span>
+                  <div>
+                    <strong>{pick.trackTitle}</strong>
+                    <p>{pick.note}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+          <div className="discoveryColumns">
+            <div>
+              <h4>Listen for</h4>
+              <ul>
+                {entry.discovery.listenFor.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h4>You might like this if</h4>
+              <ul>
+                {entry.discovery.ifYouLike.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="themeRow discoveryTags">
+            {entry.discovery.discoveryTags.map((tag) => (
+              <span key={tag}>{tag}</span>
+            ))}
+          </div>
+        </section>
+      )}
 
       <TrackEncyclopediaLoadPanel
         state={trackEncyclopediaState}

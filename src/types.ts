@@ -44,6 +44,22 @@ export type EncyclopediaEntry = {
   }>;
   themes: string[];
   sources?: EncyclopediaSource[];
+  discovery?: DiscoveryGuide;
+};
+
+export type DiscoveryGuide = {
+  artistContext?: string;
+  summary: string;
+  whyItMatters: string;
+  sound: string;
+  catalogNote?: string;
+  startHere: Array<{
+    trackTitle: string;
+    note: string;
+  }>;
+  listenFor: string[];
+  ifYouLike: string[];
+  discoveryTags: string[];
 };
 
 export type EncyclopediaSource = {
