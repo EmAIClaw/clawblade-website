@@ -212,4 +212,5 @@ export type TrackEncyclopediaData = {
 
 export type Sort = "rank" | "title" | "artist" | "year" | "genre" | "rating";
 export type ViewMode = "list" | "grid" | "shelf";
-export type View = "dashboard" | "collection" | "album" | "insights" | "log";
+export type View = "collection" | "listennext" | "history" | "album" | "settings";
+export type HistorySubView = "log" | "statistics";

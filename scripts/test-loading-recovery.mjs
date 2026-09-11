@@ -16,7 +16,7 @@ assert.match(
 );
 assert.match(
   appSource,
-  /className=\{`cloudStatus \$\{cloudStatus\}`\}[\s\S]{0,160}aria-live="polite"[\s\S]{0,120}aria-atomic="true"/,
+  /className="syncStatusCompact"[\s\S]{0,160}aria-live="polite"[\s\S]{0,120}aria-atomic="true"/,
   'cloud sync feedback should use one polite, atomic live region'
 );
 assert.doesNotMatch(

@@ -48,10 +48,12 @@ import type {
   ListeningSession,
   Sort,
   TrackEncyclopediaAlbumEntry,
+  TrackEncyclopediaEntry,
   TrackEncyclopediaSourceRef,
   VaultState,
   View,
-  ViewMode
+  ViewMode,
+  HistorySubView
 } from "./types";
 import { trackEncyclopediaAlbums } from "./data/track-encyclopedia/manifest.generated";
 import {
@@ -63,6 +65,10 @@ import { loadTrackEncyclopediaState } from "./track-encyclopedia/load-state.mjs"
 import type { TrackEncyclopediaLoadState } from "./track-encyclopedia/load-state.mjs";
 import { buildCollectionStory } from "./tasteIntelligence";
 import { normalizeVaultState, safeParseVaultState } from "./vaultState";
+import { filterDiscoveryForPresentation } from "./discoveryPresentation";
+import type { FilteredDiscoveryGuide } from "./discoveryPresentation";
+import { ownershipPatch, listenedPatch, makeStatusUndo, applyStatusUndo } from "./collectionStatus";
+import type { Ownership, StatusUndo } from "./collectionStatus";
 
 const albums = catalogData.albums as Album[];
 const catalogTotal = catalogData.metadata.recordCount;
@@ -285,6 +291,7 @@ function useVaultState() {
   const [lastFailedCloudOperation, setLastFailedCloudOperation] =
     useState<CloudOperation | null>(null);
   const cloudOperationRef = useRef<CloudOperation | null>(null);
+  const [statusUndo, setStatusUndo] = useState<StatusUndo | null>(null);
 
   useEffect(() => {
     persistVaultState(state);
@@ -327,6 +334,7 @@ function useVaultState() {
       });
       if (!response.ok) throw new Error(await response.text());
       const remote = normalizeVaultState(await response.json());
+      setStatusUndo(null);
       setState(remote);
       setCloudStatus("saved");
       setCloudMessage("Cloud vault loaded.");
@@ -384,6 +392,8 @@ function useVaultState() {
   }
 
   function updateAlbum(albumId: string, patch: Partial<AlbumState>) {
+    const undo = makeStatusUndo(albumId, state.albums[albumId] ?? {}, patch);
+    if (undo) setStatusUndo(undo);
     setState((current) => {
       const currentAlbumState = current.albums[albumId] ?? {};
       const nextAlbumState = {
@@ -410,6 +420,7 @@ function useVaultState() {
   }
 
   function addSession(session: ListeningSession) {
+    setStatusUndo(null);
     setState((current) => {
       const albumState = current.albums[session.albumId] ?? {};
       const next: VaultState = {
@@ -431,9 +442,27 @@ function useVaultState() {
     });
   }
 
+  function undoStatusChange() {
+    if (!statusUndo) return;
+    setState(current => {
+      const album = current.albums[statusUndo.albumId] ?? {};
+      const restored = applyStatusUndo(album, statusUndo);
+      if (restored === album) return current;
+      return { ...current, albums: { ...current.albums, [statusUndo.albumId]: restored }, updatedAt: todayIso() };
+    });
+    setStatusUndo(null);
+  }
+
+  function replaceState(next: VaultState) {
+    setStatusUndo(null);
+    setState(next);
+  }
+
   return {
     state,
-    setState,
+    setState: replaceState,
+    statusUndo,
+    undoStatusChange,
     passcode,
     setPasscode,
     cloudStatus,
@@ -446,6 +475,35 @@ function useVaultState() {
     updateAlbum,
     addSession
   };
+}
+
+function CollectionStatusControls({ album, albumState, updateAlbum }: {
+  album: Album;
+  albumState: AlbumState;
+  updateAlbum: (albumId: string, patch: Partial<AlbumState>) => void;
+}) {
+  const ownership: Ownership = albumState.owned ? "owned" : albumState.wantlist ? "want" : "none";
+  return (
+    <div className="statusControls">
+      <select
+        aria-label={`Collection status for ${album.title}`}
+        value={ownership}
+        onChange={event => updateAlbum(album.id, ownershipPatch(event.target.value as Ownership))}
+      >
+        <option value="none">Not owned</option>
+        <option value="want">Want</option>
+        <option value="owned">Owned</option>
+      </select>
+      <button
+        type="button"
+        className={albumState.listened ? "toggle on done" : "toggle"}
+        aria-pressed={Boolean(albumState.listened)}
+        onClick={() => updateAlbum(album.id, listenedPatch(albumState, todayIso()))}
+      >
+        <Check size={16} /> Listened
+      </button>
+    </div>
+  );
 }
 
 function Stat({
@@ -555,9 +613,13 @@ function App() {
     saveCloud,
     retryCloudOperation,
     updateAlbum,
-    addSession
+    addSession,
+    statusUndo,
+    undoStatusChange
   } = useVaultState();
-  const [view, setView] = useState<View>("dashboard");
+  const [view, setView] = useState<View>("collection");
+  const [historySubView, setHistorySubView] = useState<HistorySubView>("log");
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const [selectedAlbumId, setSelectedAlbumId] = useState(
     albums[0]?.id ?? ""
   );
@@ -1318,93 +1380,116 @@ function App() {
         </div>
         <nav>
           <button
-            className={view === "dashboard" ? "active" : ""}
-            onClick={() => setView("dashboard")}
-          >
-            <Gauge size={18} /> Dashboard
-          </button>
-          <button
             className={view === "collection" ? "active" : ""}
             onClick={() => setView("collection")}
           >
             <Library size={18} /> Collection
           </button>
           <button
-            className={view === "insights" ? "active" : ""}
-            onClick={() => setView("insights")}
+            className={view === "listennext" ? "active" : ""}
+            onClick={() => setView("listennext")}
           >
-            <BarChart3 size={18} /> Insights
+            <Headphones size={18} /> Listen next
           </button>
           <button
-            className={view === "log" ? "active" : ""}
-            onClick={() => setView("log")}
+            className={view === "history" ? "active" : ""}
+            onClick={() => setView("history")}
           >
-            <BookOpen size={18} /> Log
+            <BookOpen size={18} /> History
           </button>
         </nav>
-        <section className="syncPanel">
-          <div className="syncTitle">
-            <Lock size={16} />
-            <span>Private sync</span>
-          </div>
-          <input
-            type="password"
-            value={passcode}
-            placeholder="Netlify passcode"
-            onChange={(event) => setPasscode(event.target.value)}
-            aria-label="Netlify passcode"
-          />
-          <div className="buttonRow">
-            <button
-              type="button"
-              onClick={loadCloud}
-              disabled={cloudOperation !== null}
-              aria-busy={cloudOperation === "load"}
-            >
-              <Cloud size={16} /> Load
-            </button>
-            <button
-              type="button"
-              onClick={() => saveCloud()}
-              disabled={cloudOperation !== null}
-              aria-busy={cloudOperation === "save"}
-            >
-              <Upload size={16} /> Save
-            </button>
-          </div>
-          <p
-            className={`cloudStatus ${cloudStatus}`}
-            aria-live="polite"
-            aria-atomic="true"
-          >
-            {cloudMessage}
-          </p>
-          {cloudStatus === "error" && lastFailedCloudOperation && (
-            <button
-              type="button"
-              className="cloudRetry"
-              onClick={retryCloudOperation}
-              disabled={cloudOperation !== null}
-            >
-              <RotateCcw size={14} /> Retry cloud {lastFailedCloudOperation}
-            </button>
-          )}
-          <div className="spotifyStatus">
-            <span className={`spotifyDot ${spotifyToken.connected ? 'connected' : 'disconnected'}`} />
-            {spotifyToken.connected ? (
-              <>
-                <span>Spotify connected</span>
-                <button type="button" onClick={disconnectSpotify} style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
-                  Disconnect
+        <button
+          type="button"
+          className="settingsToggle"
+          onClick={() => setSettingsOpen((v) => !v)}
+          aria-expanded={settingsOpen}
+        >
+          <Lock size={16} /> Settings
+        </button>
+        {settingsOpen && (
+          <section className="settingsDialog" aria-label="Settings">
+            <div className="settingsSection">
+              <p className="settingsSectionLabel">Private sync</p>
+              <input
+                type="password"
+                value={passcode}
+                placeholder="Netlify passcode"
+                onChange={(event) => setPasscode(event.target.value)}
+                aria-label="Netlify passcode"
+              />
+              <div className="buttonRow">
+                <button
+                  type="button"
+                  onClick={loadCloud}
+                  disabled={cloudOperation !== null}
+                  aria-busy={cloudOperation === "load"}
+                >
+                  <Cloud size={16} /> Load
                 </button>
-              </>
-            ) : (
-              <button type="button" onClick={connectSpotify} className="spotifyBtn" style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
-                Connect Spotify
-              </button>
-            )}
-          </div>
-        </section>
+                <button
+                  type="button"
+                  onClick={() => saveCloud()}
+                  disabled={cloudOperation !== null}
+                  aria-busy={cloudOperation === "save"}
+                >
+                  <Upload size={16} /> Save
+                </button>
+              </div>
+              {cloudStatus === "error" && lastFailedCloudOperation && (
+                <button
+                  type="button"
+                  className="cloudRetry"
+                  onClick={retryCloudOperation}
+                  disabled={cloudOperation !== null}
+                >
+                  <RotateCcw size={14} /> Retry cloud {lastFailedCloudOperation}
+                </button>
+              )}
+            </div>
+            <div className="settingsSection">
+              <div className="spotifyStatus">
+                <span className={`spotifyDot ${spotifyToken.connected ? 'connected' : 'disconnected'}`} />
+                {spotifyToken.connected ? (
+                  <>
+                    <span>Spotify connected</span>
+                    <button type="button" onClick={disconnectSpotify} style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+                      Disconnect
+                    </button>
+                  </>
+                ) : (
+                  <button type="button" onClick={connectSpotify} className="spotifyBtn" style={{ marginLeft: 'auto', fontSize: '0.75rem', minHeight: '1.8rem', padding: '0 0.5rem' }}>
+                    Connect Spotify
+                  </button>
+                )}
+              </div>
+            </div>
+            <div className="settingsSection">
+              <p className="settingsSectionLabel">Data</p>
+              <div className="buttonRow">
+                <button type="button" onClick={exportState}>
+                  <Download size={16} /> Export
+                </button>
+                <button
+                  type="button"
+                  onClick={() => importInputRef.current?.click()}
+                >
+                  <Import size={16} /> Import
+                </button>
+              </div>
+              <input
+                ref={importInputRef}
+                className="hidden"
+                type="file"
+                accept="application/json"
+                onChange={importState}
+              />
+            </div>
+          </section>
+        )}
+        <div className="syncStatusCompact" aria-live="polite" aria-atomic="true">
+          <span className={`syncDot ${cloudStatus}`} />
+          <span className="syncStatusText">{cloudMessage}</span>
+        </div>
       </aside>
 
       <main>
@@ -1414,32 +1499,28 @@ function App() {
             <h1>
               {view === "album"
                 ? selectedAlbum.title
-                : "Greatest Albums Vault"}
+                : view === "listennext"
+                  ? "Listen next"
+                  : view === "history"
+                    ? historySubView === "statistics" ? "Statistics" : "Listening log"
+                    : "Greatest Albums Vault"}
             </h1>
           </div>
           <div className="actions">
             <button type="button" onClick={pickRandom} title="Pick a random unlistened album">
               <Shuffle size={16} /> Random
             </button>
-            <button type="button" onClick={exportState}>
-              <Download size={16} /> Export
-            </button>
-            <button
-              onClick={() => importInputRef.current?.click()}
-            >
-              <Import size={16} /> Import
-            </button>
-            <input
-              ref={importInputRef}
-              className="hidden"
-              type="file"
-              accept="application/json"
-              onChange={importState}
-            />
           </div>
         </header>
 
-        {view === "dashboard" && (
+        {statusUndo && (
+          <div className="statusUndoBanner" role="status">
+            <span>{albums.find(album => album.id === statusUndo.albumId)?.title ?? "Album"}: status updated</span>
+            <button type="button" onClick={undoStatusChange}>Undo</button>
+          </div>
+        )}
+
+        {view === "listennext" && (
           <Dashboard
             stats={stats}
             state={state}
@@ -1490,8 +1571,30 @@ function App() {
           />
         )}
 
-        {view === "insights" && <Insights state={state} openAlbum={openAlbum} />}
-        {view === "log" && <ListeningLog state={state} openAlbum={openAlbum} />}
+        {view === "history" && (
+          <>
+            <div className="historySubNav" role="tablist" aria-label="History subviews">
+              <button
+                role="tab"
+                aria-selected={historySubView === "log"}
+                className={`historySubTab${historySubView === "log" ? " active" : ""}`}
+                onClick={() => setHistorySubView("log")}
+              >
+                Listening log
+              </button>
+              <button
+                role="tab"
+                aria-selected={historySubView === "statistics"}
+                className={`historySubTab${historySubView === "statistics" ? " active" : ""}`}
+                onClick={() => setHistorySubView("statistics")}
+              >
+                Statistics
+              </button>
+            </div>
+            {historySubView === "log" && <ListeningLog state={state} openAlbum={openAlbum} />}
+            {historySubView === "statistics" && <Insights state={state} openAlbum={openAlbum} />}
+          </>
+        )}
       </main>
       <MiniPlayer
         nowPlaying={nowPlaying}
@@ -1719,7 +1822,7 @@ function Dashboard({
           <p className="eyebrow">Vault progress</p>
           <h2>{listenedPct}% listened</h2>
           <p>
-            {stats.listened} of {catalogTotal} albums completed. {stats.owned}{" "}
+            {stats.listened} of {catalogTotal} albums listened to. {stats.owned}{" "}
             CDs owned and {stats.wantlist} on the wantlist.
           </p>
           <button type="button" onClick={() => setView("collection")}>
@@ -2033,39 +2136,7 @@ function CollectionView({
                   ) : null}
                 </div>
                 <div className="rowToggles">
-                  <button
-                    className={albumState.owned ? "toggle on" : albumState.wantlist ? "toggle on want" : "toggle"}
-                    onClick={() => {
-                      if (albumState.owned) {
-                        updateAlbum(album.id, { owned: false, wantlist: true });
-                      } else if (albumState.wantlist) {
-                        updateAlbum(album.id, { owned: false, wantlist: false });
-                      } else {
-                        updateAlbum(album.id, { owned: true, wantlist: false });
-                      }
-                    }}
-                    title="Click to cycle: Mark owned → Owned → Want → Clear"
-                  >
-                    {albumState.owned ? <Disc3 size={16} /> : <Heart size={16} />}
-                    {albumState.owned ? "Owned" : albumState.wantlist ? "Want" : "Mark owned"}
-                  </button>
-                  <button
-                    className={
-                      albumState.listened
-                        ? "toggle on done"
-                        : "toggle"
-                    }
-                    onClick={() =>
-                      updateAlbum(album.id, {
-                        listened: !albumState.listened,
-                        lastListened: !albumState.listened
-                          ? todayIso()
-                          : albumState.lastListened
-                      })
-                    }
-                  >
-                    <Check size={16} /> Heard
-                  </button>
+                  <CollectionStatusControls album={album} albumState={albumState} updateAlbum={updateAlbum} />
                 </div>
               </article>
             );
@@ -2079,31 +2150,24 @@ function CollectionView({
               <article
                 key={album.id}
                 className="albumCard"
-                onClick={() => openAlbum(album.id)}
               >
-                <AlbumCover album={album} />
+                <button type="button" className="albumCardOpen" aria-label={`Open ${album.title}`} onClick={() => openAlbum(album.id)}>
+                  <AlbumCover album={album} />
+                </button>
                 <div className="cardInfo">
                   <strong>{album.title}</strong>
                   <small>
                     {album.artist} • {album.year}
                   </small>
                   <div className="cardBadges">
-                    {albumState.owned && (
-                      <span className="badge ownedBadge">
-                        <Disc3 size={11} /> Owned
-                      </span>
-                    )}
-                    {albumState.listened && (
-                      <span className="badge doneBadge">
-                        <Check size={11} /> Heard
-                      </span>
-                    )}
+
                     {albumState.rating ? (
                       <span className="badge ratedBadge">
                         <Star size={11} fill="currentColor" /> {albumState.rating}
                       </span>
                     ) : null}
                   </div>
+                  <CollectionStatusControls album={album} albumState={albumState} updateAlbum={updateAlbum} />
                 </div>
               </article>
             );
@@ -2116,8 +2180,8 @@ function CollectionView({
             const collectionStatus = albumState.owned
               ? "Owned"
               : albumState.wantlist
-                ? "Wanted"
-                : "Not in library";
+                ? "Want"
+                : "Not owned";
             const statusClass = albumState.owned
               ? "owned"
               : albumState.wantlist
@@ -2259,7 +2323,7 @@ function TrackEncyclopediaLoadPanel({
   state: TrackEncyclopediaLoadState;
   retry: () => void;
 }) {
-  if (state.status === "loaded") return <TrackEncyclopediaPanel entry={state.entry} />;
+  if (state.status === "loaded") return <TrustPanel entry={state.entry} />;
   return (
     <section className="panel full trackEncyclopediaPanel trackEncyclopediaLoadState" aria-live="polite">
       <p className="eyebrow">Track Encyclopedia — Pilot</p>
@@ -2276,126 +2340,139 @@ function TrackEncyclopediaLoadPanel({
   );
 }
 
-function TrackEncyclopediaPanel({ entry }: { entry: TrackEncyclopediaAlbumEntry }) {
+// Reusable structured per-track content component, extracted from the
+// former TrackEncyclopediaPanel renderer.  Used both in the Listen tab
+// expandable research sections and (potentially) elsewhere.
+function TrackResearchContent({ track }: { track: TrackEncyclopediaEntry }) {
   return (
-    <section className="panel full trackEncyclopediaPanel">
-      <div className="sectionHeader">
-        <div>
-          <p className="eyebrow">Track Encyclopedia — Pilot</p>
-          <h3>Structured track reference</h3>
-        </div>
-        <BookOpen size={20} />
+    <>
+      <div className="trackEncyclopediaHeader">
+        <span className={`evidenceBadge evidence-${track.evidenceLevel}`}>
+          {EVIDENCE_LABELS[track.evidenceLevel]}
+        </span>
       </div>
-      <TrustPanel entry={entry} />
-      <div className="trackEncyclopediaList">
-        {entry.trackEntries.map((track) => (
-          <article key={`${track.albumId}-${track.discNumber}-${track.trackNumber}-${track.trackTitle}`} className="trackEncyclopediaEntry">
-            <div className="trackEncyclopediaHeader">
-              <strong>{track.trackTitle}</strong>
-              <span className={`evidenceBadge evidence-${track.evidenceLevel}`}>
-                {EVIDENCE_LABELS[track.evidenceLevel]}
+      {track.verifiedFacts.length > 0 && (
+        <div className="trackSection">
+          <h6>Verified facts</h6>
+          {track.verifiedFacts.map((fact, i) => (
+            <div key={i} className="verifiedFact">
+              <p>{fact.claim}</p>
+              {fact.sourceRefs.map((ref, j) => (
+                <SourceRefView key={j} refData={ref} kind="claim" />
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+      {track.musicalCharacter && (
+        <div className="trackSection">
+          <h6>Musical character</h6>
+          <p>{track.musicalCharacter}</p>
+        </div>
+      )}
+      {track.albumContext && (
+        <div className="trackSection">
+          <h6>Album context</h6>
+          <p>{track.albumContext}</p>
+        </div>
+      )}
+      {track.historicalContext && (
+        <div className="trackSection">
+          <h6>Historical context</h6>
+          <p>{track.historicalContext}</p>
+        </div>
+      )}
+      {track.criticalReception && track.criticalReception.length > 0 && (
+        <div className="trackSection">
+          <h6>Critical reception</h6>
+          {track.criticalReception.map((crit, i) => (
+            <div key={i} className="criticalView">
+              <p><em>"{crit.view}"</em></p>
+              <span className="sourceNote">
+                {crit.publication && `— ${crit.publication}`}
+                {crit.critic && `${crit.publication ? ", " : ""}${crit.critic}`}
               </span>
             </div>
-            {track.verifiedFacts.length > 0 && (
-              <div className="trackSection">
-                <h6>Verified facts</h6>
-                {track.verifiedFacts.map((fact, i) => (
-                  <div key={i} className="verifiedFact">
-                    <p>{fact.claim}</p>
-                    {fact.sourceRefs.map((ref, j) => (
-                      <SourceRefView key={j} refData={ref} kind="claim" />
-                    ))}
-                  </div>
-                ))}
-              </div>
-            )}
-            {track.musicalCharacter && (
-              <div className="trackSection">
-                <h6>Musical character</h6>
-                <p>{track.musicalCharacter}</p>
-              </div>
-            )}
-            {track.albumContext && (
-              <div className="trackSection">
-                <h6>Album context</h6>
-                <p>{track.albumContext}</p>
-              </div>
-            )}
-            {track.historicalContext && (
-              <div className="trackSection">
-                <h6>Historical context</h6>
-                <p>{track.historicalContext}</p>
-              </div>
-            )}
-            {track.criticalReception && track.criticalReception.length > 0 && (
-              <div className="trackSection">
-                <h6>Critical reception</h6>
-                {track.criticalReception.map((crit, i) => (
-                  <div key={i} className="criticalView">
-                    <p><em>"{crit.view}"</em></p>
-                    <span className="sourceNote">
-                      {crit.publication && `— ${crit.publication}`}
-                      {crit.critic && `${crit.publication ? ", " : ""}${crit.critic}`}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            )}
-            {track.fanPerspective && track.fanPerspective.length > 0 && (
-              <div className="trackSection">
-                <h6>Fan perspective — {track.fanPerspective[0].label}</h6>
-                {track.fanPerspective.map((fan, i) => (
-                  <div key={i} className="fanView">
-                    <p>{fan.perspective}</p>
-                    {fan.grounding && <span className="sourceNote">Grounding: {fan.grounding}</span>}
-                    {fan.sourceRefs?.map((ref, j) => (
-                      <SourceRefView key={j} refData={ref} kind="claim" />
-                    ))}
-                  </div>
-                ))}
-              </div>
-            )}
-            {track.listeningNotes && (
-              <div className="trackSection">
-                <h6>Listening notes</h6>
-                <p>{track.listeningNotes}</p>
-              </div>
-            )}
-            {track.discoveryConnections && track.discoveryConnections.length > 0 && (
-              <div className="trackSection">
-                <h6>Discovery connections</h6>
-                {track.discoveryConnections.map((conn, i) => (
-                  <div key={i} className="discoveryLink">
-                    <p>Connects to <strong>{conn.relatedTrackTitle}</strong></p>
-                    <span className="sourceNote">{conn.rationale}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-            {track.limitations.length > 0 && (
-              <div className="trackSection limitations">
-                <h6>Limitations</h6>
-                <ul>
-                  {track.limitations.map((lim, i) => (
-                    <li key={i}>{lim}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {track.sourceRefs && track.sourceRefs.length > 0 && (
-              <div className="trackSection">
-                <h6>Sources</h6>
-                {track.sourceRefs.map((ref, i) => (
-                  <SourceRefView key={i} refData={ref} kind="reference" />
-                ))}
-              </div>
-            )}
-          </article>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      )}
+      {track.fanPerspective && track.fanPerspective.length > 0 && (
+        <div className="trackSection">
+          <h6>Fan perspective — {track.fanPerspective[0].label}</h6>
+          {track.fanPerspective.map((fan, i) => (
+            <div key={i} className="fanView">
+              <p>{fan.perspective}</p>
+              {fan.grounding && <span className="sourceNote">Grounding: {fan.grounding}</span>}
+              {fan.sourceRefs?.map((ref, j) => (
+                <SourceRefView key={j} refData={ref} kind="claim" />
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
+      {track.listeningNotes && (
+        <div className="trackSection">
+          <h6>Listening notes</h6>
+          <p>{track.listeningNotes}</p>
+        </div>
+      )}
+      {track.discoveryConnections && track.discoveryConnections.length > 0 && (
+        <div className="trackSection">
+          <h6>Discovery connections</h6>
+          {track.discoveryConnections.map((conn, i) => (
+            <div key={i} className="discoveryLink">
+              <p>Connects to <strong>{conn.relatedTrackTitle}</strong></p>
+              <span className="sourceNote">{conn.rationale}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      {track.limitations.length > 0 && (
+        <div className="trackSection limitations">
+          <h6>Limitations</h6>
+          <ul>
+            {track.limitations.map((lim, i) => (
+              <li key={i}>{lim}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {track.sourceRefs && track.sourceRefs.length > 0 && (
+        <div className="trackSection">
+          <h6>Sources</h6>
+          {track.sourceRefs.map((ref, i) => (
+            <SourceRefView key={i} refData={ref} kind="reference" />
+          ))}
+        </div>
+      )}
+    </>
   );
 }
+
+// Build a map from disc/track/title identity to encyclopedia entry,
+// using EXACT stable album/disc/track/title identity for matching.
+function buildTrackResearchMap(
+  entry: TrackEncyclopediaAlbumEntry | null | undefined
+): Map<string, TrackEncyclopediaEntry> {
+  if (!entry) return new Map();
+  const map = new Map<string, TrackEncyclopediaEntry>();
+  for (const track of entry.trackEntries) {
+    const key = `${track.albumId}:${track.discNumber}:${track.trackNumber}:${track.trackTitle}`;
+    map.set(key, track);
+  }
+  return map;
+}
+
+// Check if versioned research takes precedence over editorial fallback.
+// "documented" and "insufficient-evidence" are versioned states that
+// should take precedence; "unresearched" means no versioned data.
+function hasVersionedResearch(track: TrackEncyclopediaEntry): boolean {
+  return track.evidenceLevel === "documented" ||
+    track.evidenceLevel === "insufficient-evidence" ||
+    track.evidenceLevel === "contextual" ||
+    track.evidenceLevel === "limited";
+}
+
 
 function SourceRefView({
   refData,
@@ -2471,6 +2548,37 @@ function AlbumDetail({
   const [sessionStartedAt, setSessionStartedAt] = useState<string | null>(null);
   const [sessionNotes, setSessionNotes] = useState("");
   const [checkedTracks, setCheckedTracks] = useState<string[]>([]);
+  const [activeTab, setActiveTab] = useState<"listen" | "about" | "mycopy">("listen");
+  const tabIds = [
+    { id: "listen", label: "Listen" },
+    { id: "about", label: "About" },
+    { id: "mycopy", label: "My copy" }
+  ];
+
+  // Reset to Listen tab when album changes
+  useEffect(() => {
+    setActiveTab("listen");
+  }, [album.id]);
+
+  function handleTabKeyDown(event: React.KeyboardEvent, currentTabIndex: number) {
+    const tabCount = tabIds.length;
+    let nextIndex: number | null = null;
+    if (event.key === "ArrowRight") {
+      nextIndex = (currentTabIndex + 1) % tabCount;
+    } else if (event.key === "ArrowLeft") {
+      nextIndex = (currentTabIndex - 1 + tabCount) % tabCount;
+    } else if (event.key === "Home") {
+      nextIndex = 0;
+    } else if (event.key === "End") {
+      nextIndex = tabCount - 1;
+    }
+    if (nextIndex !== null) {
+      event.preventDefault();
+      const tabId = `album-tab-${tabIds[nextIndex].id}-${album.id}`;
+      document.getElementById(tabId)?.focus();
+      setActiveTab(tabIds[nextIndex].id as typeof activeTab);
+    }
+  }
 
   function startSession() {
     setSessionActive(true);
@@ -2478,6 +2586,7 @@ function AlbumDetail({
     setSessionStartedAt(todayIso());
     setSessionNotes("");
     setCheckedTracks([]);
+    setActiveTab("listen");
   }
 
   function toggleTrack(track: { discNumber: number; trackNumber: number; title: string }) {
@@ -2520,6 +2629,10 @@ function AlbumDetail({
       guide
     ])
   );
+  // Build map from disc/track/title identity to versioned encyclopedia entry
+  const trackResearchMap = buildTrackResearchMap(
+    trackEncyclopediaState.status === "loaded" ? trackEncyclopediaState.entry : null
+  );
   const nextUncheckedIndex = album.tracks.findIndex((track) => !checkedTracks.includes(trackKey(track)));
   const focusIndex = nextUncheckedIndex >= 0 ? nextUncheckedIndex : Math.max(album.tracks.length - 1, 0);
   const focusTrack = album.tracks[focusIndex];
@@ -2536,22 +2649,7 @@ function AlbumDetail({
   });
   const youtubeSearchUrl = youtubeAlbumSearchUrl(album);
   const visualReferences = albumVisualReferenceOptions(album, Boolean(albumState.owned));
-  const collectionStatusLabel = albumState.owned
-    ? "CD owned"
-    : albumState.wantlist
-      ? "Wanted"
-      : "Mark owned";
-  const cycleCollectionStatus = () => {
-    if (albumState.owned) {
-      updateAlbum(album.id, { owned: false, wantlist: true });
-      return;
-    }
-    if (albumState.wantlist) {
-      updateAlbum(album.id, { owned: false, wantlist: false });
-      return;
-    }
-    updateAlbum(album.id, { owned: true, wantlist: false });
-  };
+
 
   return (
     <>
@@ -2595,7 +2693,7 @@ function AlbumDetail({
                 className="primary"
                 onClick={() => toggleTrack(focusTrack)}
               >
-                <Check size={17} /> Mark heard
+                <Check size={17} /> Mark listened
               </button>
               <button
                 type="button"
@@ -2629,7 +2727,7 @@ function AlbumDetail({
         </section>
       )}
       <div className="albumDetail">
-      <section className="albumHero">
+      <section className="albumHeroCompact">
         <AlbumCover album={album} />
         <div>
           <p className="eyebrow">
@@ -2645,26 +2743,7 @@ function AlbumDetail({
             onChange={(rating) => updateAlbum(album.id, { rating })}
           />
           <div className="chipRow">
-            <button
-              className={albumState.owned || albumState.wantlist ? "chip active" : "chip"}
-              onClick={cycleCollectionStatus}
-              title="Click to cycle: Mark owned → CD owned → Wanted → Clear"
-            >
-              {albumState.owned ? <Disc3 size={16} /> : <Heart size={16} />}
-              {collectionStatusLabel}
-            </button>
-            <button
-              className={
-                albumState.listened ? "chip active" : "chip"
-              }
-              onClick={() =>
-                updateAlbum(album.id, {
-                  listened: !albumState.listened
-                })
-              }
-            >
-              <Check size={16} /> Listened
-            </button>
+            <CollectionStatusControls album={album} albumState={albumState} updateAlbum={updateAlbum} />
           </div>
           <div className="chipRow sessionChipRow">
             {albumState.listenCount ? (
@@ -2732,6 +2811,351 @@ function AlbumDetail({
         </div>
       </section>
 
+      <div className="albumDetailTabs" role="tablist" aria-label={`${album.title} tabs`}>
+        {tabIds.map((tab, tabIndex) => (
+          <button
+            key={tab.id}
+            id={`album-tab-${tab.id}-${album.id}`}
+            role="tab"
+            aria-selected={activeTab === tab.id}
+            aria-controls={`album-tabpanel-${tab.id}-${album.id}`}
+            tabIndex={activeTab === tab.id ? 0 : -1}
+            className={`albumDetailTab${activeTab === tab.id ? " active" : ""}`}
+            onClick={() => setActiveTab(tab.id as typeof activeTab)}
+            onKeyDown={(event) => handleTabKeyDown(event, tabIndex)}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Listen keeps the existing track guide and session controls. */}
+      <div
+        id={`album-tabpanel-listen-${album.id}`}
+        role="tabpanel"
+        aria-labelledby={`album-tab-listen-${album.id}`}
+        className="albumDetailTabPanel"
+        aria-hidden={activeTab !== "listen"}
+      >
+      {entry?.discovery?.summary && (
+        <p className="albumListenIntro">{entry.discovery.summary}</p>
+      )}
+      <section className="panel full">
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">{sessionActive ? "Active session" : "Track guide"}</p>
+            <h3>
+              {album.tracks.length
+                ? `${album.tracks.length} tracks`
+                : "Awaiting Apple track enrichment"
+              }
+            </h3>
+          </div>
+          {sessionActive ? <ListMusic size={20} /> : <ListMusic size={20} />}
+        </div>
+        {album.tracks.length ? (
+          <div className="trackList">
+            {album.tracks.map((track, idx) => {
+              const guide = guideByTitle.get(track.title);
+              const researchKey = `${album.id}:${track.discNumber}:${track.trackNumber}:${track.title}`;
+              const researchEntry = trackResearchMap.get(researchKey);
+              const isVersioned = researchEntry ? hasVersionedResearch(researchEntry) : false;
+              return (
+                <article
+                  key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
+                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(trackKey(track)) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
+                >
+                  {sessionActive && (
+                    <label className="trackCheck">
+                      <input
+                        type="checkbox"
+                        checked={checkedTracks.includes(trackKey(track))}
+                        onChange={() => toggleTrack(track)}
+                      />
+                    </label>
+                  )}
+                  <div className="trackControls">
+                    <span className="trackNumber">
+                      {track.trackNumber || <CircleDot size={12} />}
+                    </span>
+                    {(spotifyConnected || track.previewUrl) && (
+                      <AudioPreview
+                        trackTitle={track.title}
+                        isPlaying={!spotifyConnected && playingPreview === track.previewUrl}
+                        sourceLabel={spotifyConnected ? "Spotify or preview" : "preview"}
+                        onToggle={() =>
+                          handlePreviewToggle(
+                            track.previewUrl,
+                            album.artist,
+                            track.title,
+                            album.id,
+                            idx
+                          )
+                        }
+                      />
+                    )}
+                  </div>
+                  <div className="trackBody">
+                    <div className="trackTitleLine">
+                      <strong>{track.title}</strong>
+                      <small>{formatDuration(track.durationMs)}</small>
+                    </div>
+                    <p className="trackLead">
+                      {isVersioned && researchEntry
+                        ? researchEntry.verifiedFacts[0]?.claim || researchEntry.listeningNotes || researchEntry.limitations[0] || EVIDENCE_LABELS[researchEntry.evidenceLevel]
+                        : guide?.guide || "No track-specific note available."}
+                    </p>
+                    {!isVersioned && guide?.guide && (
+                      <span className="trackResearchEditorialLabel">Editorial listening note</span>
+                    )}
+                    {researchEntry && (
+                      <details className="trackResearchDetails">
+                        <summary>
+                          {isVersioned ? (
+                            <span className="trackResearchLabel">
+                              {EVIDENCE_LABELS[researchEntry.evidenceLevel]}
+                              {researchEntry.verifiedFacts.length > 0 && ` · ${researchEntry.verifiedFacts.length} documented fact${researchEntry.verifiedFacts.length > 1 ? "s" : ""}`}
+                            </span>
+                          ) : (
+                            <span className="trackResearchLabel trackResearchLabelUnresearched">
+                              No versioned research
+                            </span>
+                          )}
+                        </summary>
+                        <div className="trackResearchContent">
+                          {isVersioned ? (
+                            <TrackResearchContent track={researchEntry} />
+                          ) : (
+                            <p className="sourceNote">
+              Editorial guide above — not verified against versioned research sources.
+                            </p>
+                          )}
+                        </div>
+                      </details>
+                    )}
+                    {guide?.guide && (
+                      <details className="trackEditorialDetails">
+                        <summary>Editorial listening guide</summary>
+                        {guide.focus && <em>{guide.focus}</em>}
+                        <p>{guide.guide}</p>
+                        <p className="sourceNote">Editorial commentary, separate from versioned research.</p>
+                        {guide.source?.url && (
+                          <a className="sourceLink compact" href={guide.source.url} target="_blank" rel="noreferrer">
+                            Source: {guide.source.title}
+                          </a>
+                        )}
+                      </details>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        ) : (
+          <p>
+            Run `npm run prepare:catalog` with network access to
+            fetch Apple track listings and cover art.
+          </p>
+        )}
+        {sessionActive && (
+          <>
+            <label className="notesField">
+              Session reflection
+              <textarea
+                value={sessionNotes}
+                onChange={(event) => setSessionNotes(event.target.value)}
+                placeholder="What stood out during this listen? How does it hold up?"
+              />
+            </label>
+            <div className="sessionActions">
+              <button type="button" className="primary" onClick={finishSession}>
+                <Check size={17} /> Complete session
+              </button>
+              <button type="button" onClick={() => setListeningMode(true)}>
+                Focus mode
+              </button>
+              <button type="button" onClick={cancelSession}>
+                Cancel
+              </button>
+            </div>
+          </>
+        )}
+      </section>
+      </div>{/* end Listen tabpanel */}
+
+      {/* ── About tab: encyclopedia, discovery, structured track reference ── */}
+      <div
+        id={`album-tabpanel-about-${album.id}`}
+        role="tabpanel"
+        aria-labelledby={`album-tab-about-${album.id}`}
+        className="albumDetailTabPanel"
+        aria-hidden={activeTab !== "about"}
+      >
+      <section
+        className="panel full encyclopediaPanel"
+        aria-busy={encyclopediaStatus === "loading"}
+      >
+        <div className="sectionHeader">
+          <div>
+            <p className="eyebrow">Encyclopedia</p>
+            <h3>Artist and album reference</h3>
+          </div>
+          <Wand2 size={20} />
+        </div>
+        {encyclopediaStatus === "loading" ? (
+          <div className="encyclopediaLoadState" role="status" aria-live="polite">
+            <strong>Opening the album reference…</strong>
+            <p>Track guides and source notes will appear here.</p>
+          </div>
+        ) : encyclopediaStatus === "error" ? (
+          <div className="encyclopediaLoadState" role="status" aria-live="polite">
+            <strong>The album reference could not be opened.</strong>
+            <p>Your catalog, collection details, and playback remain available.</p>
+            <button type="button" onClick={retryEncyclopediaLoad}>
+              <RotateCcw size={15} /> Try again
+            </button>
+          </div>
+        ) : (
+          <>
+            <div className="referenceGrid">
+              <details>
+                <summary>Artist</summary>
+                <article>
+                  <p>
+                    {entry?.artistInfo?.summary ??
+                      "No confident artist source was matched for this entry."}
+                  </p>
+                  <SourceAttribution
+                    source={entry?.artistInfo?.source}
+                    fallbackLabel="Artist source not confidently matched yet."
+                  />
+                </article>
+              </details>
+              <details>
+                <summary>Album</summary>
+                <article>
+                  <p>
+                    {entry?.albumInfo?.summary ?? entry?.context}
+                  </p>
+                  <SourceAttribution
+                    source={entry?.albumInfo?.source}
+                    fallbackLabel="Album source not confidently matched yet."
+                  />
+                </article>
+              </details>
+            </div>
+            <p>{entry?.relevance}</p>
+            <div className="themeRow">
+              {entry?.themes.map((theme) => (
+                <span key={theme}>{theme}</span>
+              ))}
+            </div>
+          </>
+        )}
+      </section>
+
+      {encyclopediaStatus === "ready" && entry?.discovery && (() => {
+        const filteredDiscovery: FilteredDiscoveryGuide = filterDiscoveryForPresentation(entry.discovery);
+        return (
+        <section className="panel full discoveryPanel">
+          <div className="sectionHeader">
+            <div>
+              <p className="eyebrow">Discovery guide</p>
+              <h3>Start with what makes this CD worth hearing</h3>
+              {filteredDiscovery.isEditorial && (
+                <span className="discoveryEditorialLabel">Editorial, not verified</span>
+              )}
+            </div>
+            <Headphones size={20} />
+          </div>
+
+          {filteredDiscovery.catalogNote && (
+            <p className="discoveryCatalogNote">{filteredDiscovery.catalogNote}</p>
+          )}
+          {(filteredDiscovery.whyItMatters !== null || filteredDiscovery.sound !== null) && (
+            <div className="discoveryGrid">
+              {filteredDiscovery.whyItMatters !== null && (
+                <article>
+                  <h4>Why it matters</h4>
+                  <p>{filteredDiscovery.whyItMatters}</p>
+                </article>
+              )}
+              {filteredDiscovery.sound !== null && (
+                <article>
+                  <h4>What it sounds like</h4>
+                  <p>{filteredDiscovery.sound}</p>
+                </article>
+              )}
+            </div>
+          )}
+          <div className="discoveryStartHere">
+            <h4>Start here</h4>
+            <div className="discoveryStartList">
+              {filteredDiscovery.startHere.map((pick, index) => (
+                <article key={`${pick.trackTitle}-${index}`}>
+                  <span>{index + 1}</span>
+                  <div>
+                    <strong>{pick.trackTitle}</strong>
+                    <p>{pick.note}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+          {filteredDiscovery.listenFor !== null && filteredDiscovery.listenFor.length > 0 && (
+            <div className="discoveryColumns">
+              <div>
+                <h4>Listen for</h4>
+                <ul>
+                  {filteredDiscovery.listenFor.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h4>You might like this if</h4>
+                <ul>
+                  {filteredDiscovery.ifYouLike.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+          <div className="themeRow discoveryTags">
+            {filteredDiscovery.discoveryTags.map((tag) => (
+              <span key={tag}>{tag}</span>
+            ))}
+          </div>
+        </section>
+        );
+      })()}
+
+      <details className="albumResearchDetails">
+        <summary>Evidence and sources</summary>
+        {trackEncyclopediaState.status === "loaded" && trackEncyclopediaState.entry ? (
+          <TrustPanel entry={trackEncyclopediaState.entry} />
+        ) : trackEncyclopediaState.status === "loading" ? (
+          <p className="sourceNote">Loading track research…</p>
+        ) : trackEncyclopediaState.status === "missing" ? (
+          <p className="sourceNote">No versioned track encyclopedia edition is available for this album.</p>
+        ) : trackEncyclopediaState.status === "error" ? (
+          <>
+            <p className="sourceNote" role="alert">Track research data could not be verified or loaded.</p>
+            <button className="secondary" type="button" onClick={retryTrackEncyclopediaLoad}>Retry track encyclopedia</button>
+          </>
+        ) : null}
+      </details>
+      </div>{/* end About tabpanel */}
+
+      {/* ── My copy tab: collector fields with ownership gate ── */}
+      <div
+        id={`album-tabpanel-mycopy-${album.id}`}
+        role="tabpanel"
+        aria-labelledby={`album-tab-mycopy-${album.id}`}
+        className="albumDetailTabPanel"
+        aria-hidden={activeTab !== "mycopy"}
+      >
       {albumState.owned ? (
         <details className="collectorInspector">
           <summary>
@@ -2830,239 +3254,7 @@ function AlbumDetail({
           </div>
         </section>
       )}
-
-      <section
-        className="panel full encyclopediaPanel"
-        aria-busy={encyclopediaStatus === "loading"}
-      >
-        <div className="sectionHeader">
-          <div>
-            <p className="eyebrow">Encyclopedia</p>
-            <h3>Artist and album reference</h3>
-          </div>
-          <Wand2 size={20} />
-        </div>
-        {encyclopediaStatus === "loading" ? (
-          <div className="encyclopediaLoadState" role="status" aria-live="polite">
-            <strong>Opening the album reference…</strong>
-            <p>Track guides and source notes will appear here.</p>
-          </div>
-        ) : encyclopediaStatus === "error" ? (
-          <div className="encyclopediaLoadState" role="status" aria-live="polite">
-            <strong>The album reference could not be opened.</strong>
-            <p>Your catalog, collection details, and playback remain available.</p>
-            <button type="button" onClick={retryEncyclopediaLoad}>
-              <RotateCcw size={15} /> Try again
-            </button>
-          </div>
-        ) : (
-          <>
-            <div className="referenceGrid">
-              <article>
-                <h4>Artist</h4>
-                <p>
-                  {entry?.artistInfo?.summary ??
-                    "No confident artist source was matched for this entry."}
-                </p>
-                <SourceAttribution
-                  source={entry?.artistInfo?.source}
-                  fallbackLabel="Artist source not confidently matched yet."
-                />
-              </article>
-              <article>
-                <h4>Album</h4>
-                <p>
-                  {entry?.albumInfo?.summary ?? entry?.context}
-                </p>
-                <SourceAttribution
-                  source={entry?.albumInfo?.source}
-                  fallbackLabel="Album source not confidently matched yet."
-                />
-              </article>
-            </div>
-            <p>{entry?.relevance}</p>
-            <div className="themeRow">
-              {entry?.themes.map((theme) => (
-                <span key={theme}>{theme}</span>
-              ))}
-            </div>
-          </>
-        )}
-      </section>
-
-      {encyclopediaStatus === "ready" && entry?.discovery && (
-        <section className="panel full discoveryPanel">
-          <div className="sectionHeader">
-            <div>
-              <p className="eyebrow">Discovery guide</p>
-              <h3>Start with what makes this CD worth hearing</h3>
-            </div>
-            <Headphones size={20} />
-          </div>
-          <p className="discoveryLead">{entry.discovery.summary}</p>
-          {entry.discovery.catalogNote && (
-            <p className="discoveryCatalogNote">{entry.discovery.catalogNote}</p>
-          )}
-          <div className="discoveryGrid">
-            <article>
-              <h4>Why it matters</h4>
-              <p>{entry.discovery.whyItMatters}</p>
-            </article>
-            <article>
-              <h4>What it sounds like</h4>
-              <p>{entry.discovery.sound}</p>
-            </article>
-          </div>
-          <div className="discoveryStartHere">
-            <h4>Start here</h4>
-            <div className="discoveryStartList">
-              {entry.discovery.startHere.map((pick, index) => (
-                <article key={`${pick.trackTitle}-${index}`}>
-                  <span>{index + 1}</span>
-                  <div>
-                    <strong>{pick.trackTitle}</strong>
-                    <p>{pick.note}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-          <div className="discoveryColumns">
-            <div>
-              <h4>Listen for</h4>
-              <ul>
-                {entry.discovery.listenFor.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h4>You might like this if</h4>
-              <ul>
-                {entry.discovery.ifYouLike.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="themeRow discoveryTags">
-            {entry.discovery.discoveryTags.map((tag) => (
-              <span key={tag}>{tag}</span>
-            ))}
-          </div>
-        </section>
-      )}
-
-      <TrackEncyclopediaLoadPanel
-        state={trackEncyclopediaState}
-        retry={retryTrackEncyclopediaLoad}
-      />
-
-      <section className="panel full">
-        <div className="sectionHeader">
-          <div>
-            <p className="eyebrow">{sessionActive ? "Active session" : "Track guide"}</p>
-            <h3>
-              {album.tracks.length
-                ? `${album.tracks.length} tracks`
-                : "Awaiting Apple track enrichment"}
-            </h3>
-          </div>
-          {sessionActive ? <ListMusic size={20} /> : <ListMusic size={20} />}
-        </div>
-        {album.tracks.length ? (
-          <div className="trackList">
-            {album.tracks.map((track, idx) => {
-              const guide = guideByTitle.get(track.title);
-              return (
-                <article
-                  key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
-                  className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(trackKey(track)) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
-                >
-                  {sessionActive && (
-                    <label className="trackCheck">
-                      <input
-                        type="checkbox"
-                        checked={checkedTracks.includes(trackKey(track))}
-                        onChange={() => toggleTrack(track)}
-                      />
-                    </label>
-                  )}
-                  <div className="trackControls">
-                    <span className="trackNumber">
-                      {track.trackNumber || <CircleDot size={12} />}
-                    </span>
-                    {(spotifyConnected || track.previewUrl) && (
-                      <AudioPreview
-                        trackTitle={track.title}
-                        isPlaying={!spotifyConnected && playingPreview === track.previewUrl}
-                        sourceLabel={spotifyConnected ? "Spotify or preview" : "preview"}
-                        onToggle={() =>
-                          handlePreviewToggle(
-                            track.previewUrl,
-                            album.artist,
-                            track.title,
-                            album.id,
-                            idx
-                          )
-                        }
-                      />
-                    )}
-                  </div>
-                  <div className="trackBody">
-                    <div className="trackTitleLine">
-                      <strong>{track.title}</strong>
-                      <small>{formatDuration(track.durationMs)}</small>
-                    </div>
-                    {guide?.focus && <em>{guide.focus}</em>}
-                    <p>
-                      {guide?.guide ?? "Close listening reveals the nuances in this track's arrangement, dynamics, and placement within the album's arc."}
-                    </p>
-                    {guide?.source?.url && (
-                      <a
-                        className="sourceLink compact"
-                        href={guide.source.url}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Source: {guide.source.title}
-                      </a>
-                    )}
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        ) : (
-          <p>
-            Run `npm run prepare:catalog` with network access to
-            fetch Apple track listings and cover art.
-          </p>
-        )}
-        {sessionActive && (
-          <>
-            <label className="notesField">
-              Session reflection
-              <textarea
-                value={sessionNotes}
-                onChange={(event) => setSessionNotes(event.target.value)}
-                placeholder="What stood out during this listen? How does it hold up?"
-              />
-            </label>
-            <div className="sessionActions">
-              <button type="button" className="primary" onClick={finishSession}>
-                <Check size={17} /> Complete session
-              </button>
-              <button type="button" onClick={() => setListeningMode(true)}>
-                Focus mode
-              </button>
-              <button type="button" onClick={cancelSession}>
-                Cancel
-              </button>
-            </div>
-          </>
-        )}
-      </section>
+      </div>{/* end My copy tabpanel */}
       </div>
     </>
   );
@@ -3192,7 +3384,7 @@ function Insights({
           <p className="eyebrow">Insights</p>
           <h2>{owned} CDs owned</h2>
           <p>
-            {listened} albums completed, {state.sessions.length}{" "}
+            {listened} albums listened to, {state.sessions.length}{" "}
             listening sessions logged, and {catalogTotal - owned} catalog
             gaps remaining.
           </p>
@@ -3483,31 +3675,6 @@ function Insights({
           </div>
         </section>
       )}
-
-      <section className="panel">
-        <h3>All sessions</h3>
-        <ul className="compactList">
-          {state.sessions.length ? (
-            state.sessions.map((session) => {
-              const album = albums.find(
-                (item) => item.id === session.albumId
-              );
-              return (
-                <li key={session.id}>
-                  <span>{album?.title ?? "Unknown album"}</span>
-                  <strong>
-                    {new Date(
-                      session.completedAt ?? session.startedAt
-                    ).toLocaleDateString()}
-                  </strong>
-                </li>
-              );
-            })
-          ) : (
-            <p>No sessions recorded yet.</p>
-          )}
-        </ul>
-      </section>
     </div>
   );
 }

@@ -766,7 +766,7 @@ main {
   text-transform: uppercase;
 }
 
-.encyclopediaPanel {
+.encyclopediaPanel[aria-busy="true"] {
   min-height: 20rem;
 }
 
@@ -2963,4 +2963,552 @@ main {
   background: rgba(201, 168, 76, 0.08);
   padding: 0.1rem 0.3rem;
   border-radius: 0.2rem;
+}
+
+/* ── AlbumDetail tabs ── */
+
+.albumDetailTabs {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(199, 164, 91, 0.32);
+}
+
+.albumDetailTab {
+  appearance: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 0.65rem 1.2rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.albumDetailTab:hover {
+  color: var(--ivory);
+}
+
+.albumDetailTab.active {
+  color: var(--ivory);
+  border-bottom-color: var(--brass);
+}
+
+.albumDetailTab:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: -2px;
+}
+
+.albumDetailTabPanel {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.albumDetailTabPanel[aria-hidden="true"] {
+  display: none;
+}
+
+.albumListenIntro {
+  grid-column: 1 / -1;
+  max-width: 75ch;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.albumResearchDetails {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.albumResearchDetails > summary {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--brass);
+  font-weight: 700;
+}
+
+.albumResearchDetails[open] > summary {
+  margin-bottom: 0.75rem;
+}
+
+.albumResearchDetails > summary:focus-visible,
+.referenceGrid details > summary:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+/* Compact album header stays available across all three tabs. */
+
+.albumHeroCompact {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: minmax(8rem, 12rem) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid rgba(199, 164, 91, 0.28);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(36, 33, 29, 0.96), rgba(17, 28, 26, 0.92));
+  overflow: hidden;
+}
+
+.albumHeroCompact .cover {
+  max-width: 12rem;
+}
+
+.albumHeroCompact h2 {
+  margin-bottom: 0.35rem;
+  font-size: 1.25rem;
+}
+
+.albumHeroCompact .eyebrow {
+  margin-bottom: 0.2rem;
+  font-size: 0.72rem;
+}
+
+.albumHeroCompact .primary {
+  margin-top: 0.6rem;
+}
+
+.albumHeroCompact .chipRow {
+  margin-top: 0.35rem;
+}
+
+.albumHeroCompact .starRating {
+  margin-top: 0.25rem;
+}
+
+.albumHeroCompact .spotifyLookupSlot {
+  margin-top: 0.5rem;
+  min-width: 0;
+}
+
+.albumHeroCompact .chip.muted {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  padding-block: 0.4rem;
+}
+
+/* Collapsible details in About tab reference grid */
+.referenceGrid details {
+  min-height: 0;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #151310;
+}
+
+.referenceGrid details > summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--brass);
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.referenceGrid details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.referenceGrid details > summary::after {
+  content: " +";
+  color: var(--brass);
+}
+
+.referenceGrid details[open] > summary::after {
+  content: " \2212";
+}
+
+.referenceGrid details > article {
+  min-height: 0;
+}
+
+.referenceGrid details > article > p {
+  margin: 0 0 0.4rem;
+}
+
+/* Track research expandable sections in Listen tab track rows */
+.statusControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.statusControls select {
+  width: auto;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 2.5rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.albumCardOpen {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.albumCard .statusControls { margin-top: 0.5rem; }
+.albumCard .statusControls > * { flex: 1 1 7rem; }
+
+.statusUndoBanner {
+  position: fixed;
+  z-index: 24;
+  right: 1rem;
+  bottom: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: max-content;
+  max-width: min(30rem, calc(100vw - 2rem));
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--brass);
+  border-radius: 8px;
+  background: #211e19;
+  box-shadow: 0 4px 20px #0008;
+}
+
+.statusUndoBanner span { min-width: 0; overflow-wrap: anywhere; }
+.statusUndoBanner button { flex-shrink: 0; }
+
+.trackLead {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.trackEditorialDetails {
+  margin-top: 0.5rem;
+}
+
+.trackEditorialDetails > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.82rem;
+  padding-block: 0.4rem;
+}
+
+.trackEditorialDetails > summary:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+.trackResearchDetails {
+  margin-top: 0.4rem;
+  border: 1px solid rgba(199, 164, 91, 0.2);
+  border-radius: 6px;
+  background: rgba(17, 14, 10, 0.6);
+}
+
+.trackResearchDetails > summary {
+  cursor: pointer;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.78rem;
+  color: var(--brass);
+  font-weight: 600;
+  list-style: none;
+}
+
+.trackResearchDetails > summary::-webkit-details-marker {
+  display: none;
+}
+
+.trackResearchDetails > summary::after {
+  content: " ▾";
+  font-size: 0.7rem;
+}
+
+.trackResearchDetails[open] > summary::after {
+  content: " ▴";
+}
+
+.trackResearchDetails > summary:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+.trackResearchLabel {
+  display: inline;
+}
+
+.trackResearchLabelUnresearched {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.trackResearchContent {
+  padding: 0.4rem 0.6rem 0.6rem;
+}
+
+.trackResearchContent .trackEncyclopediaHeader {
+  margin-bottom: 0.3rem;
+}
+
+.trackResearchContent .trackSection {
+  margin-bottom: 0.4rem;
+}
+
+.trackResearchContent .trackSection h6 {
+  font-size: 0.8rem;
+  color: var(--brass);
+  margin: 0.2rem 0 0.15rem;
+}
+
+.trackResearchContent .trackSection p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0 0 0.2rem;
+}
+
+.trackResearchContent .verifiedFact p {
+  font-size: 0.85rem;
+}
+
+.trackResearchContent .sourceEvidence {
+  margin: 0.2rem 0;
+}
+
+.trackResearchContent .sourceEvidence a {
+  font-size: 0.8rem;
+}
+
+.trackResearchContent .sourceExtract {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.trackResearchContent .criticalView,
+.trackResearchContent .fanView,
+.trackResearchContent .discoveryLink {
+  margin: 0.2rem 0;
+  padding: 0.3rem 0;
+}
+
+.trackResearchContent .limitations ul {
+  padding-left: 1.2rem;
+}
+
+.trackResearchContent .limitations li {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.trackResearchEditorialLabel {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.discoveryEditorialLabel {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* Settings toggle and dialog */
+.settingsToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+
+.settingsToggle:hover {
+  color: var(--ivory);
+  background: rgba(199, 164, 91, 0.08);
+}
+
+.settingsToggle[aria-expanded="true"] {
+  color: var(--brass);
+}
+
+.settingsDialog {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(199, 164, 91, 0.2);
+  border-radius: 8px;
+  background: rgba(17, 14, 10, 0.5);
+  margin-bottom: 0.5rem;
+}
+
+.settingsSection {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(199, 164, 91, 0.12);
+}
+
+.settingsSection:last-child {
+  border-bottom: none;
+}
+
+.settingsSectionLabel {
+  font-size: 0.72rem;
+  color: var(--brass);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0.3rem;
+}
+
+.settingsDialog input[type="password"] {
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+
+.settingsDialog .buttonRow {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Compact sync status (always visible) */
+.syncStatusCompact {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.syncDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--muted);
+}
+
+.syncDot.saved { background: #2f9d8f; }
+.syncDot.loading { background: var(--brass); }
+.syncDot.error { background: #c4453d; }
+.syncDot.idle { background: var(--muted); }
+
+.syncStatusText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* History sub-navigation */
+.historySubNav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(199, 164, 91, 0.25);
+}
+
+.historySubTab {
+  appearance: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.historySubTab:hover {
+  color: var(--ivory);
+}
+
+.historySubTab.active {
+  color: var(--ivory);
+  border-bottom-color: var(--brass);
+}
+
+.historySubTab:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: -2px;
+}
+
+@media (max-width: 720px) {
+  .albumHeroCompact {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .albumHeroCompact .cover {
+    max-width: 8rem;
+    margin: 0 auto;
+  }
+
+  .albumDetailTab {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  .albumDetailTabPanel {
+    gap: 0.75rem;
+  }
+
+  .historySubTab {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .sidebar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+
+  .sidebar .brand { margin: 0; }
+  .sidebar .brand span { display: none; }
+  .sidebar nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.3rem;
+  }
+  .sidebar nav button {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.82rem;
+    min-width: 0;
+  }
+  .settingsToggle { grid-row: 1; grid-column: 2; width: auto; }
+  .settingsDialog { grid-column: 1 / -1; min-width: 0; }
+  .syncStatusCompact { grid-column: 1 / -1; padding: 0.1rem; }
+  .syncStatusText { white-space: normal; overflow-wrap: anywhere; }
 }
