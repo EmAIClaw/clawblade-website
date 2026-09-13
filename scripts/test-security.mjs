@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import ts from 'typescript';
 import { normalizeVaultState, safeParseVaultState } from '../src/vaultState.ts';
 import {
   allowedCorsOrigin,
@@ -141,3 +142,24 @@ assert.match(spotifyAuthFunctionSource, /isSameOriginRequest\(request\)/, 'Spoti
 assert.match(spotifyAuthFunctionSource, /allowTokenAction\(getClientIp\(request\)\)/, 'Spotify token exchange and refresh must be rate-limited');
 
 console.log('security tests passed');
+// Inspect the literal deployment config without executing handlers or accessing stores.
+for (const name of ['state', 'gym-state']) {
+  const source = readFileSync(new URL(`../netlify/functions/${name}.ts`, import.meta.url), 'utf8');
+  const parsed = ts.createSourceFile(`${name}.ts`, source, ts.ScriptTarget.Latest, true);
+  const statement = parsed.statements.find(node => ts.isVariableStatement(node)
+    && node.modifiers?.some(modifier => modifier.kind === ts.SyntaxKind.ExportKeyword)
+    && node.declarationList.declarations.some(declaration => declaration.name.getText(parsed) === 'config'));
+  assert.ok(statement, `${name} must export a deploy-time edge rate-limit config`);
+  const declaration = statement.declarationList.declarations.find(node => node.name.getText(parsed) === 'config');
+  const literal = declaration.initializer.getText(parsed);
+  const { config } = await import(`data:text/javascript,${encodeURIComponent(`export const config = ${literal}`)}`);
+  assert.deepEqual(config, {
+    rateLimit: {
+      action: 'rate_limit',
+      windowLimit: 60,
+      windowSize: 60,
+      aggregateBy: ['ip', 'domain']
+    }
+  }, `${name} must enforce the reviewed per-IP/domain rule without changing routes`);
+}
+console.log('private-state edge rate-limit configuration tests passed');

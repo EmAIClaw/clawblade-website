@@ -17,6 +17,17 @@ const baseHeaders = {
 };
 
 const maxBodyBytes = 1_000_000;
+// Edge-wide request protection; keep the stricter local failed-auth limiter below.
+// Counts all requests, including valid syncs. Netlify enforcement can lag by 10s.
+export const config = {
+  rateLimit: {
+    action: "rate_limit",
+    windowLimit: 60,
+    windowSize: 60,
+    aggregateBy: ["ip", "domain"]
+  }
+};
+
 const allowAuthAttempt = createRateLimiter({ maxAttempts: 10, windowMs: 60_000 });
 
 function headersFor(request: Request) {
