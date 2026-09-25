@@ -12,3 +12,4 @@ src/data/import-report.json
 src/data/enrichment-report.json
 src/data/cover-fallback-report.json
 .hermes/
+.worktrees/
