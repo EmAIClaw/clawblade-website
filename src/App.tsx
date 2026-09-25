@@ -33,6 +33,7 @@ import {
 } from "lucide-react";
 import {
   ChangeEvent,
+  Fragment,
   useEffect,
   useMemo,
   useRef,
@@ -69,6 +70,21 @@ import { filterDiscoveryForPresentation } from "./discoveryPresentation";
 import type { FilteredDiscoveryGuide } from "./discoveryPresentation";
 import { ownershipPatch, listenedPatch, makeStatusUndo, applyStatusUndo } from "./collectionStatus";
 import type { Ownership, StatusUndo } from "./collectionStatus";
+import {
+  resolveTrackGuidance,
+  buildAmbiguousTitleSet,
+  TRACK_GUIDANCE_DEFAULT_LISTENING_LEAD,
+  TRACK_GUIDANCE_EVIDENCE_LABELS,
+  TRACK_GUIDANCE_EDITORIAL_LABEL,
+} from "./trackGuidance";
+import type {
+  LegacyTrackGuide,
+  ResearchLoadStatus,
+} from "./trackGuidance";
+import {
+  loadListeningGuidance,
+  loadAlbumGuidance,
+} from "./listeningGuidance";
 
 const albums = catalogData.albums as Album[];
 const catalogTotal = catalogData.metadata.recordCount;
@@ -114,6 +130,63 @@ function loadEncyclopediaEntries() {
 
 function trackKey(track: { discNumber: number; trackNumber: number; title: string }) {
   return `${track.discNumber}:${track.trackNumber}:${track.title}`;
+}
+
+// ─── Stage 4: Durable draft session persistence (localStorage) ───────
+//
+// Drafts are keyed per-album so navigating away and returning resumes the
+// in-progress session. Cleared on session complete or cancel.
+
+const DRAFT_KEY_PREFIX = "albumvault:sessionDraft:";
+
+type DraftSession = {
+  startedAt: string;
+  notes: string;
+  checkedTracks: string[];
+};
+
+function draftKey(albumId: string) {
+  return `${DRAFT_KEY_PREFIX}${albumId}`;
+}
+
+function loadDraft(albumId: string): DraftSession | null {
+  try {
+    const raw = localStorage.getItem(draftKey(albumId));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as Partial<DraftSession>;
+    if (
+      typeof parsed.startedAt === "string" &&
+      typeof parsed.notes === "string" &&
+      Array.isArray(parsed.checkedTracks)
+    ) {
+      return {
+        startedAt: parsed.startedAt,
+        notes: parsed.notes,
+        checkedTracks: parsed.checkedTracks.filter(
+          (t): t is string => typeof t === "string"
+        ),
+      };
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+function saveDraft(albumId: string, draft: DraftSession) {
+  try {
+    localStorage.setItem(draftKey(albumId), JSON.stringify(draft));
+  } catch {
+    // localStorage may be unavailable (private mode, quota); fail silently.
+  }
+}
+
+function clearDraft(albumId: string) {
+  try {
+    localStorage.removeItem(draftKey(albumId));
+  } catch {
+    // ignore
+  }
 }
 
 type PlaybackState = {
@@ -434,7 +507,7 @@ function useVaultState() {
             lastListened: session.completedAt ?? todayIso()
           }
         },
-        sessions: [session, ...current.sessions].slice(0, 100),
+        sessions: [session, ...current.sessions].slice(0, 500),
         updatedAt: todayIso()
       };
       persistVaultState(next);
@@ -1568,6 +1641,7 @@ function App() {
             spotifyConfigured={spotifyResult.configured}
             spotifyLoading={spotifyResult.loading}
             spotifyConnected={spotifyToken.connected}
+            sessions={state.sessions.filter(s => s.albumId === selectedAlbum.id)}
           />
         )}
 
@@ -2516,6 +2590,7 @@ function AlbumDetail({
   spotifyConfigured,
   spotifyLoading,
   spotifyConnected,
+  sessions,
   trackEncyclopediaState,
   retryTrackEncyclopediaLoad
 }: {
@@ -2540,14 +2615,20 @@ function AlbumDetail({
   spotifyConfigured: boolean;
   spotifyLoading: boolean;
   spotifyConnected: boolean;
+  sessions: ListeningSession[];
   trackEncyclopediaState: TrackEncyclopediaLoadState;
   retryTrackEncyclopediaLoad: () => void;
 }) {
+  // ─── Stage 4: Durable draft session state ──────────────────────────
+  // Session state is initialized from a localStorage draft (if one exists
+  // for this album) so navigating away and returning resumes the draft.
   const [sessionActive, setSessionActive] = useState(false);
   const [listeningMode, setListeningMode] = useState(false);
   const [sessionStartedAt, setSessionStartedAt] = useState<string | null>(null);
   const [sessionNotes, setSessionNotes] = useState("");
   const [checkedTracks, setCheckedTracks] = useState<string[]>([]);
+  // Elapsed-time tick: forces re-render so the display updates without user interaction.
+  const [elapsedTick, setElapsedTick] = useState(0);
   const [activeTab, setActiveTab] = useState<"listen" | "about" | "mycopy">("listen");
   const tabIds = [
     { id: "listen", label: "Listen" },
@@ -2555,10 +2636,59 @@ function AlbumDetail({
     { id: "mycopy", label: "My copy" }
   ];
 
+  // Recover draft on mount or when album changes (before tab reset).
+  // Uses a ref to track the albumId we last recovered for, so we only
+  // restore once per album mount.
+  const recoveredAlbumRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (recoveredAlbumRef.current === album.id) return;
+    recoveredAlbumRef.current = album.id;
+    const draft = loadDraft(album.id);
+    if (draft) {
+      setSessionActive(true);
+      setSessionStartedAt(draft.startedAt);
+      setSessionNotes(draft.notes);
+      setCheckedTracks(draft.checkedTracks);
+    } else {
+      setSessionActive(false);
+      setSessionStartedAt(null);
+      setSessionNotes("");
+      setCheckedTracks([]);
+    }
+  }, [album.id]);
+
   // Reset to Listen tab when album changes
   useEffect(() => {
     setActiveTab("listen");
   }, [album.id]);
+
+  // Autosave draft to localStorage whenever session state changes.
+  useEffect(() => {
+    if (!sessionActive) return;
+    if (!sessionStartedAt) return;
+    saveDraft(album.id, {
+      startedAt: sessionStartedAt,
+      notes: sessionNotes,
+      checkedTracks,
+    });
+  }, [sessionActive, sessionStartedAt, sessionNotes, checkedTracks, album.id]);
+
+  // Guard against album change carrying session state: if album.id changes
+  // while a session is active, the autosave effect above already writes the
+  // draft to the *previous* album's key (because album.id is in its dep array
+  // and React fires effects for the old commit before re-running). This
+  // ensures the draft is preserved under its own albumId. The recovery effect
+  // then restores the new album's draft (or clears state). No explicit discard
+  // prompt is needed because drafts are silent and per-album.
+
+  // Elapsed-time timer: updates every 30s while a session is active.
+  useEffect(() => {
+    if (!sessionActive || !sessionStartedAt) return;
+    const interval = setInterval(() => {
+      setElapsedTick((t) => t + 1);
+    }, 30_000);
+    return () => clearInterval(interval);
+  }, [sessionActive, sessionStartedAt]);
 
   function handleTabKeyDown(event: React.KeyboardEvent, currentTabIndex: number) {
     const tabCount = tabIds.length;
@@ -2581,9 +2711,17 @@ function AlbumDetail({
   }
 
   function startSession() {
+    // If a draft already exists for this album (sessionActive already true
+    // from recovery), just re-enter listening mode without resetting.
+    if (sessionActive) {
+      setListeningMode(true);
+      setActiveTab("listen");
+      return;
+    }
+    const startedAt = todayIso();
     setSessionActive(true);
     setListeningMode(true);
-    setSessionStartedAt(todayIso());
+    setSessionStartedAt(startedAt);
     setSessionNotes("");
     setCheckedTracks([]);
     setActiveTab("listen");
@@ -2613,6 +2751,7 @@ function AlbumDetail({
     setSessionStartedAt(null);
     setSessionNotes("");
     setCheckedTracks([]);
+    clearDraft(album.id);
   }
 
   function cancelSession() {
@@ -2621,25 +2760,81 @@ function AlbumDetail({
     setSessionStartedAt(null);
     setSessionNotes("");
     setCheckedTracks([]);
+    clearDraft(album.id);
   }
 
+  // Mark the focus track as listened — idempotent: if already checked, do
+  // nothing (don't toggle off). This prevents "Mark listened" from un-checking
+  // the last track when all tracks are checked.
+  function markFocusListened(track: { discNumber: number; trackNumber: number; title: string }) {
+    const key = trackKey(track);
+    setCheckedTracks((current) => {
+      if (current.includes(key)) return current; // already checked — no-op
+      return [...current, key];
+    });
+  }
+
+  const legacyGuides: LegacyTrackGuide[] = (entry?.trackGuide ?? []) as LegacyTrackGuide[];
+  const ambiguousTitles = buildAmbiguousTitleSet(album.tracks, legacyGuides);
   const guideByTitle = new Map(
-    (entry?.trackGuide ?? []).map((guide) => [
-      guide.trackTitle,
-      guide
-    ])
+    legacyGuides.map((guide) => [guide.trackTitle, guide] as const)
   );
   // Build map from disc/track/title identity to versioned encyclopedia entry
   const trackResearchMap = buildTrackResearchMap(
     trackEncyclopediaState.status === "loaded" ? trackEncyclopediaState.entry : null
   );
+  // Pilot listening guidance: lookup per-track by exact catalog identity
+  const albumPilotGuidance = useMemo(
+    () => loadAlbumGuidance(album.id),
+    [album.id]
+  );
+  const pilotGuidanceByTrackKey = useMemo(() => {
+    const m = new Map<string, typeof albumPilotGuidance[number]>();
+    for (const e of albumPilotGuidance) {
+      m.set(`${e.discNumber}:${e.trackNumber}:${e.trackTitle}`, e);
+    }
+    return m;
+  }, [albumPilotGuidance]);
+  // Whether this album has multiple discs (for disc headings)
+  const hasMultipleDiscs = album.tracks.length > 0 &&
+    album.tracks.some(t => t.discNumber !== album.tracks[0].discNumber);
+  // Derive research load status for the selector (Focus + rows share this)
+  const researchLoadStatus: ResearchLoadStatus =
+    trackEncyclopediaState.status === "loaded" ? "loaded" : trackEncyclopediaState.status;
+  const researchErrorMessage =
+    trackEncyclopediaState.status === "error" ? trackEncyclopediaState.message : undefined;
   const nextUncheckedIndex = album.tracks.findIndex((track) => !checkedTracks.includes(trackKey(track)));
   const focusIndex = nextUncheckedIndex >= 0 ? nextUncheckedIndex : Math.max(album.tracks.length - 1, 0);
   const focusTrack = album.tracks[focusIndex];
+  const focusResearchKey = focusTrack
+    ? `${album.id}:${focusTrack.discNumber}:${focusTrack.trackNumber}:${focusTrack.title}`
+    : "";
+  const focusResearchEntry = focusTrack ? trackResearchMap.get(focusResearchKey) : undefined;
   const focusGuide = focusTrack ? guideByTitle.get(focusTrack.title) : undefined;
+  const focusGuidance = focusTrack
+    ? resolveTrackGuidance({
+        researchLoadStatus,
+        researchEntry: focusResearchEntry,
+        legacyGuide: focusGuide,
+        titleAmbiguous: ambiguousTitles.has(focusTrack.title),
+        researchErrorMessage,
+      })
+    : undefined;
+  const focusPilotGuidance = focusTrack
+    ? pilotGuidanceByTrackKey.get(`${focusTrack.discNumber}:${focusTrack.trackNumber}:${focusTrack.title}`)
+    : undefined;
+  // Reference elapsedTick so the timer drives re-renders for the elapsed display.
+  void elapsedTick;
   const sessionElapsed = sessionStartedAt
     ? Math.max(0, Math.round((Date.now() - new Date(sessionStartedAt).getTime()) / 60000))
     : 0;
+  // Most recent completed session for this album (for the "Last time" disclosure).
+  // Sessions are stored newest-first (addSession prepends), so the first
+  // completed one is the most recent.
+  const lastCompletedSession = useMemo(
+    () => sessions.find((s) => s.completedAt) ?? null,
+    [sessions]
+  );
   const visualMood = albumVisualMood({
     title: album.title,
     artist: album.artist,
@@ -2685,13 +2880,48 @@ function AlbumDetail({
               {visualMood.accentWords.map((word) => <small key={word}>{word}</small>)}
             </div>
             <h2>{focusTrack.trackNumber}. {focusTrack.title}</h2>
-            <p>{focusGuide?.guide ?? "Listen for the arrangement, dynamics, and placement of this track inside the album arc."}</p>
-            {focusGuide?.focus && <span className="pill">{focusGuide.focus}</span>}
+            {focusPilotGuidance ? (
+              <>
+                <p className="trackListenForLabel">Listen for</p>
+                <p className="trackListenForQuestion focusPilotQuestion">{focusPilotGuidance.question}</p>
+                {focusPilotGuidance.followUp && (
+                  <p className="trackPilotFollowUp">{focusPilotGuidance.followUp}</p>
+                )}
+                {focusPilotGuidance.vocabulary && (
+                  <p className="trackPilotVocabulary">
+                    <strong>{focusPilotGuidance.vocabulary.term}</strong> — {focusPilotGuidance.vocabulary.definition}
+                  </p>
+                )}
+              </>
+            ) : focusGuidance ? (
+              <>
+                <p>{focusGuidance.leadText}</p>
+                {focusGuidance.kind === "documented" && focusGuidance.legacyGuide?.focus && (
+                  <span className="pill">{focusGuidance.legacyGuide.focus}</span>
+                )}
+                {focusGuidance.kind === "editorial-unqualified" && focusGuidance.legacyGuide?.focus && (
+                  <span className="pill">{focusGuidance.legacyGuide.focus}</span>
+                )}
+                {(focusGuidance.kind === "loading" || focusGuidance.kind === "error" || focusGuidance.kind === "missing" || focusGuidance.kind === "editorial-ambiguous") && (
+                  <span className="trackResearchEditorialLabel">{focusGuidance.kind === "loading" ? "Loading track research…" : focusGuidance.kind === "error" ? "Track research unavailable" : focusGuidance.kind === "missing" ? "No versioned research" : "Editorial note omitted — ambiguous title"}</span>
+                )}
+                {(focusGuidance.kind === "documented" || focusGuidance.kind === "insufficient-evidence" || focusGuidance.kind === "contextual" || focusGuidance.kind === "limited") && (
+                  <span className="trackResearchLabel">{TRACK_GUIDANCE_EVIDENCE_LABELS[focusGuidance.entry.evidenceLevel]}</span>
+                )}
+                {focusGuidance.kind === "error" && (
+                  <div className="trackResearchError">
+                    <button className="secondary" type="button" onClick={retryTrackEncyclopediaLoad}>Retry track research</button>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p>{TRACK_GUIDANCE_DEFAULT_LISTENING_LEAD}</p>
+            )}
             <div className="listeningModeActions">
               <button
                 type="button"
                 className="primary"
-                onClick={() => toggleTrack(focusTrack)}
+                onClick={() => markFocusListened(focusTrack)}
               >
                 <Check size={17} /> Mark listened
               </button>
@@ -2840,6 +3070,17 @@ function AlbumDetail({
       {entry?.discovery?.summary && (
         <p className="albumListenIntro">{entry.discovery.summary}</p>
       )}
+      {lastCompletedSession && (
+        <details className="lastTimeDisclosure">
+          <summary>Last time you noticed…</summary>
+          <div className="lastTimeContent">
+            <p className="lastTimeNote">{lastCompletedSession.notes || "No notes were recorded for that session."}</p>
+            <small className="lastTimeDate">
+              {new Date(lastCompletedSession.completedAt ?? lastCompletedSession.startedAt).toLocaleDateString()}
+            </small>
+          </div>
+        </details>
+      )}
       <section className="panel full">
         <div className="sectionHeader">
           <div>
@@ -2853,16 +3094,48 @@ function AlbumDetail({
           </div>
           {sessionActive ? <ListMusic size={20} /> : <ListMusic size={20} />}
         </div>
+        {trackEncyclopediaState.status === "loading" && (
+          <p className="sourceNote" aria-live="polite">Loading track research…</p>
+        )}
+        {trackEncyclopediaState.status === "error" && (
+          <p className="sourceNote" role="alert">
+            Track research could not be loaded. <button className="secondary" type="button" onClick={retryTrackEncyclopediaLoad}>Retry</button>
+          </p>
+        )}
+        {trackEncyclopediaState.status === "missing" && (
+          <p className="sourceNote">No versioned track encyclopedia edition for this album.</p>
+        )}
         {album.tracks.length ? (
           <div className="trackList">
             {album.tracks.map((track, idx) => {
               const guide = guideByTitle.get(track.title);
               const researchKey = `${album.id}:${track.discNumber}:${track.trackNumber}:${track.title}`;
               const researchEntry = trackResearchMap.get(researchKey);
-              const isVersioned = researchEntry ? hasVersionedResearch(researchEntry) : false;
+              const guidance = resolveTrackGuidance({
+                researchLoadStatus,
+                researchEntry,
+                legacyGuide: guide,
+                titleAmbiguous: ambiguousTitles.has(track.title),
+                researchErrorMessage,
+              });
+              const pilotGuidance = pilotGuidanceByTrackKey.get(`${track.discNumber}:${track.trackNumber}:${track.title}`);
+              const isVersioned =
+                guidance.kind === "documented" ||
+                guidance.kind === "insufficient-evidence" ||
+                guidance.kind === "contextual" ||
+                guidance.kind === "limited" ||
+                guidance.kind === "unresearched";
+              const showEditorialDetails =
+                guidance.legacyGuide !== undefined && guidance.legacySuppressed === false;
+              const prevTrack = idx > 0 ? album.tracks[idx - 1] : null;
+              const showDiscHeading = hasMultipleDiscs &&
+                (!prevTrack || prevTrack.discNumber !== track.discNumber);
               return (
+                <Fragment key={`${track.discNumber}-${track.trackNumber}-${track.title}`}>
+                {showDiscHeading && (
+                  <h4 className="discHeading">Disc {track.discNumber}</h4>
+                )}
                 <article
-                  key={`${track.discNumber}-${track.trackNumber}-${track.title}`}
                   className={`trackRow${sessionActive ? " sessionActive" : ""}${checkedTracks.includes(trackKey(track)) ? " checked" : ""}${nowPlaying?.albumId === album.id && nowPlaying.trackIndex === idx ? " activeTrack" : ""}`}
                 >
                   {sessionActive && (
@@ -2871,6 +3144,7 @@ function AlbumDetail({
                         type="checkbox"
                         checked={checkedTracks.includes(trackKey(track))}
                         onChange={() => toggleTrack(track)}
+                        aria-label={`Mark listened: ${album.title} — disc ${track.discNumber}, track ${track.trackNumber}, ${track.title}`}
                       />
                     </label>
                   )}
@@ -2897,24 +3171,43 @@ function AlbumDetail({
                   </div>
                   <div className="trackBody">
                     <div className="trackTitleLine">
+                      {pilotGuidance?.isEntryPoint && (
+                        <span className="trackEntryPoint" aria-label="Entry point" title="Start here">●</span>
+                      )}
                       <strong>{track.title}</strong>
                       <small>{formatDuration(track.durationMs)}</small>
                     </div>
-                    <p className="trackLead">
-                      {isVersioned && researchEntry
-                        ? researchEntry.verifiedFacts[0]?.claim || researchEntry.listeningNotes || researchEntry.limitations[0] || EVIDENCE_LABELS[researchEntry.evidenceLevel]
-                        : guide?.guide || "No track-specific note available."}
-                    </p>
-                    {!isVersioned && guide?.guide && (
-                      <span className="trackResearchEditorialLabel">Editorial listening note</span>
+                    {pilotGuidance ? (
+                      <>
+                        <p className="trackListenForLabel">Listen for</p>
+                        <p className="trackListenForQuestion">{pilotGuidance.question}</p>
+                        <p className="trackLead trackLeadPilotSuppressed" aria-hidden="true">{guidance.leadText}</p>
+                      </>
+                    ) : (
+                      <p className="trackLead">{guidance.leadText}</p>
                     )}
-                    {researchEntry && (
+                    {guidance.kind === "loading" && (
+                      <span className="trackResearchEditorialLabel">Loading track research…</span>
+                    )}
+                    {guidance.kind === "error" && (
+                      <>
+                        <span className="trackResearchEditorialLabel" role="alert">Track research unavailable</span>
+                        <button className="secondary" type="button" onClick={retryTrackEncyclopediaLoad}>Retry</button>
+                      </>
+                    )}
+                    {guidance.kind === "editorial-unqualified" && (
+                      <span className="trackResearchEditorialLabel">{TRACK_GUIDANCE_EDITORIAL_LABEL}</span>
+                    )}
+                    {guidance.kind === "editorial-ambiguous" && (
+                      <span className="trackResearchEditorialLabel">Editorial note omitted — title not unique in this edition</span>
+                    )}
+                    {isVersioned && researchEntry && (
                       <details className="trackResearchDetails">
                         <summary>
-                          {isVersioned ? (
+                          {guidance.kind !== "unresearched" ? (
                             <span className="trackResearchLabel">
-                              {EVIDENCE_LABELS[researchEntry.evidenceLevel]}
-                              {researchEntry.verifiedFacts.length > 0 && ` · ${researchEntry.verifiedFacts.length} documented fact${researchEntry.verifiedFacts.length > 1 ? "s" : ""}`}
+              {EVIDENCE_LABELS[researchEntry.evidenceLevel]}
+              {researchEntry.verifiedFacts.length > 0 && ` · ${researchEntry.verifiedFacts.length} documented fact${researchEntry.verifiedFacts.length > 1 ? "s" : ""}`}
                             </span>
                           ) : (
                             <span className="trackResearchLabel trackResearchLabelUnresearched">
@@ -2923,7 +3216,15 @@ function AlbumDetail({
                           )}
                         </summary>
                         <div className="trackResearchContent">
-                          {isVersioned ? (
+                          {pilotGuidance?.followUp && (
+                            <p className="trackPilotFollowUp">{pilotGuidance.followUp}</p>
+                          )}
+                          {pilotGuidance?.vocabulary && (
+                            <p className="trackPilotVocabulary">
+                              <strong>{pilotGuidance.vocabulary.term}</strong> — {pilotGuidance.vocabulary.definition}
+                            </p>
+                          )}
+                          {guidance.kind !== "unresearched" ? (
                             <TrackResearchContent track={researchEntry} />
                           ) : (
                             <p className="sourceNote">
@@ -2933,21 +3234,30 @@ function AlbumDetail({
                         </div>
                       </details>
                     )}
-                    {guide?.guide && (
+                    {showEditorialDetails && guidance.legacyGuide && (
                       <details className="trackEditorialDetails">
                         <summary>Editorial listening guide</summary>
-                        {guide.focus && <em>{guide.focus}</em>}
-                        <p>{guide.guide}</p>
+                        {pilotGuidance?.followUp && (
+                          <p className="trackPilotFollowUp">{pilotGuidance.followUp}</p>
+                        )}
+                        {pilotGuidance?.vocabulary && (
+                          <p className="trackPilotVocabulary">
+                            <strong>{pilotGuidance.vocabulary.term}</strong> — {pilotGuidance.vocabulary.definition}
+                          </p>
+                        )}
+                        {guidance.legacyGuide.focus && <em>{guidance.legacyGuide.focus}</em>}
+                        <p>{guidance.legacyGuide.guide}</p>
                         <p className="sourceNote">Editorial commentary, separate from versioned research.</p>
-                        {guide.source?.url && (
-                          <a className="sourceLink compact" href={guide.source.url} target="_blank" rel="noreferrer">
-                            Source: {guide.source.title}
+                        {guidance.legacyGuide.source?.url && (
+                          <a className="sourceLink compact" href={guidance.legacyGuide.source.url} target="_blank" rel="noreferrer">
+                            Source: {guidance.legacyGuide.source.title}
                           </a>
                         )}
                       </details>
                     )}
                   </div>
                 </article>
+                </Fragment>
               );
             })}
           </div>

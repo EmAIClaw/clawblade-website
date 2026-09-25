@@ -1,0 +1,1585 @@
+{
+  "entries": [
+    {
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "What's Going On",
+      "editionNumber": 5,
+      "contentHash": "b35fcb8c1fb0a2a1",
+      "claimId": "001-marvin-gaye-what-s-going-on-fd00dde9:1:1:fact-1",
+      "question": "Try listening for how the vocal parts relate to each other — do they feel like one voice, a conversation, or something else?",
+      "followUp": "Does your impression of the vocal layering change as the track continues?",
+      "vocabulary": {
+        "term": "Layered vocals",
+        "definition": "When multiple vocal parts are recorded singing at the same time, they can blend into a single sound or stay distinct enough to hear separately."
+      },
+      "explorationLens": "Voice and layering attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Mercy Mercy Me (The Ecology)",
+      "editionNumber": 5,
+      "contentHash": "b35fcb8c1fb0a2a1",
+      "claimId": "001-marvin-gaye-what-s-going-on-fd00dde9:1:6:fact-1",
+      "question": "If you've already heard track 1, does this track feel like it belongs in the same album, or does it strike you differently?",
+      "followUp": "Does hearing this track change how you think about what the album as a whole is doing?",
+      "vocabulary": {
+        "term": "Single",
+        "definition": "A song released separately from an album to promote it, often before the full album comes out."
+      },
+      "explorationLens": "Contrast between tracks",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Inner City Blues (Make Me Wanna Holler)",
+      "editionNumber": 5,
+      "contentHash": "b35fcb8c1fb0a2a1",
+      "claimId": "001-marvin-gaye-what-s-going-on-fd00dde9:1:9:fact-1",
+      "question": "This is the last track on the album — if you started with track 1, what feels different between the opening and the closing, and what feels connected?",
+      "followUp": "Does ending the album here feel like a resolution, a question, or neither?",
+      "vocabulary": {
+        "term": "Closing track",
+        "definition": "The final song on an album. Albums don't have to end with a sense of finality; some close with unresolved energy, others with a quiet settle."
+      },
+      "explorationLens": "Opening-to-closing comparison",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Dreams",
+      "editionNumber": 3,
+      "contentHash": "414abb016229da97",
+      "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:2:fact-1",
+      "question": "Try listening for whether you notice anything that returns or repeats — it might be in the drums, the voice, or somewhere else entirely?",
+      "followUp": "If you noticed something repeating, does it stay the same throughout or does it shift?",
+      "vocabulary": {
+        "term": "Loop",
+        "definition": "A short section of recorded sound that repeats. A drum loop means a brief drum passage was captured and cycled to form a rhythmic foundation."
+      },
+      "explorationLens": "Returning rhythmic pattern",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "The Chain",
+      "editionNumber": 3,
+      "contentHash": "414abb016229da97",
+      "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:7:fact-1",
+      "question": "Try listening for whether the track feels like one continuous piece or whether you sense different parts being joined?",
+      "followUp": "If you sensed different parts, where did the transition feel most noticeable to you?",
+      "vocabulary": {
+        "term": "Section",
+        "definition": "A self-contained part of a song, like a verse, chorus, or bridge. Songs can move between sections smoothly or with noticeable breaks."
+      },
+      "explorationLens": "Section and connection attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Gold Dust Woman",
+      "editionNumber": 3,
+      "contentHash": "414abb016229da97",
+      "claimId": "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-1",
+      "question": "This is the closing track — try listening to the voice throughout and notice whether anything about the vocal delivery surprises you, especially later in the track?",
+      "followUp": "If you've also heard track 1, how does the album's closing compare to its opening for you?",
+      "vocabulary": {
+        "term": "Vocal delivery",
+        "definition": "How a singer uses their voice — volume, tone, roughness, breathiness, or unexpected sounds beyond conventional singing."
+      },
+      "explorationLens": "Voice and texture attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "031-miles-davis-kind-of-blue-2148074c",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "So What",
+      "editionNumber": 1,
+      "contentHash": "452d460272415142",
+      "claimId": "031-miles-davis-kind-of-blue-2148074c:1:1:fact-1",
+      "question": "Try listening for any point where the character of the music seems to shift — it might be subtle or obvious?",
+      "followUp": "If you noticed a shift, did it happen once or more than once, and did anything return after the change?",
+      "vocabulary": {
+        "term": "Mode",
+        "definition": "A pattern or organization of pitches, similar to a scale. A piece can move between modes; whether that shift is noticeable to you is what this question explores."
+      },
+      "explorationLens": "Shift and contrast attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "031-miles-davis-kind-of-blue-2148074c",
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "All Blues",
+      "editionNumber": 1,
+      "contentHash": "452d460272415142",
+      "claimId": "031-miles-davis-kind-of-blue-2148074c:1:4:fact-1",
+      "question": "If you've already heard track 1, do these two pieces feel similar in character or different?",
+      "followUp": "Try counting along with the pulse — does it feel natural or hard to track?",
+      "vocabulary": {
+        "term": "Twelve-bar blues",
+        "definition": "A common song structure in blues and jazz built on a repeating twelve-measure pattern. \"6/8 time\" means six eighth-note subdivisions per bar, commonly grouped into two main beats."
+      },
+      "explorationLens": "Form contrast between tracks",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "031-miles-davis-kind-of-blue-2148074c",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Flamenco Sketches",
+      "editionNumber": 1,
+      "contentHash": "452d460272415142",
+      "claimId": "031-miles-davis-kind-of-blue-2148074c:1:5:fact-1",
+      "question": "Try listening for moments where the music seems to change character — not where you expect it to, but where you actually notice it?",
+      "followUp": "This is the closing track — if you started with track 1, how does the album's ending compare to its beginning for you?",
+      "vocabulary": {
+        "term": "Scale",
+        "definition": "A set of notes arranged in order, like a ladder. Different scales have different gaps between notes, giving each its own character."
+      },
+      "explorationLens": "When-do-things-change attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Wouldn't It Be Nice",
+      "editionNumber": 2,
+      "contentHash": "087bfa79d706c8ae",
+      "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1",
+      "question": "Try listening for how the different sounds build up at the start — do you notice layers being added one by one, or does everything seem to arrive together?",
+      "followUp": "Does the feeling of the track change as more sounds join in?",
+      "vocabulary": {
+        "term": "Arrangement",
+        "definition": "How the different musical parts — voices, instruments, and sounds — are organized and combined in a recording."
+      },
+      "explorationLens": "Arrangement attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Sloop John B",
+      "editionNumber": 2,
+      "contentHash": "087bfa79d706c8ae",
+      "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1",
+      "question": "Try listening for something that comes back repeatedly throughout the track — does it stay the same each time or does it shift?",
+      "followUp": "If you noticed a repeating element, does it feel like an anchor or does it build tension?",
+      "vocabulary": {
+        "term": "Refrain",
+        "definition": "A part of a song that returns multiple times, often with the same words and melody. It can act as a familiar point of return."
+      },
+      "explorationLens": "Returning pattern attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Caroline, No",
+      "editionNumber": 2,
+      "contentHash": "087bfa79d706c8ae",
+      "claimId": "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1",
+      "question": "This is the closing track — if you started with the opening track, what feels different between the beginning and the end of the album, and what feels connected?",
+      "followUp": "Does the album's ending feel like a resolution or like something left open?",
+      "vocabulary": {
+        "term": "Closing track",
+        "definition": "The final song on an album. Some albums end with a sense of finality, others leave the listener with an open feeling."
+      },
+      "explorationLens": "Opening-to-closing comparison",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "All I Want",
+      "editionNumber": 2,
+      "contentHash": "26b222e5aef9db55",
+      "claimId": "003-joni-mitchell-blue-9c3a8b85:1:1:fact-1",
+      "question": "Try listening to the voice throughout — does the vocal delivery stay consistent or does it seem to push and pull in different directions?",
+      "followUp": "If the voice shifts, does it seem connected to the words being sung?",
+      "vocabulary": {
+        "term": "Vocal delivery",
+        "definition": "How a singer uses their voice — tone, breath, intensity, and the way words are shaped. It can shift within a single song."
+      },
+      "explorationLens": "Voice and delivery attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "California",
+      "editionNumber": 2,
+      "contentHash": "26b222e5aef9db55",
+      "claimId": "003-joni-mitchell-blue-9c3a8b85:1:6:fact-1",
+      "question": "Try tapping along with the pulse of the track — does the rhythm feel steady and regular, or does it seem to loosen and tighten?",
+      "followUp": "Does the rhythm feel like it's supporting the voice or pulling against it?",
+      "vocabulary": {
+        "term": "Pulse",
+        "definition": "The steady beat you might tap your foot to. Some songs keep it consistent, while others let it shift or breathe."
+      },
+      "explorationLens": "Rhythm and pulse attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "003-joni-mitchell-blue-9c3a8b85",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "The Last Time I Saw Richard",
+      "editionNumber": 2,
+      "contentHash": "26b222e5aef9db55",
+      "claimId": "003-joni-mitchell-blue-9c3a8b85:1:10:fact-1",
+      "question": "This is the closing track — try listening for how much space there is between the sounds, and whether that space feels like part of the music to you?",
+      "followUp": "Does the amount of space or silence in the track change as it goes on?",
+      "vocabulary": {
+        "term": "Space in music",
+        "definition": "The pauses, gaps, and quietness between sounds. Space can shape the mood of a track as much as the notes themselves."
+      },
+      "explorationLens": "Space and silence attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Love's In Need of Love Today",
+      "editionNumber": 3,
+      "contentHash": "bc1413dab6a4d0ab",
+      "claimId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:1:fact-1",
+      "question": "Try listening for whether the track gets louder, softer, or stays at the same level throughout — and where any changes happen?",
+      "followUp": "If the volume or intensity shifted, did it feel gradual or sudden to you?",
+      "vocabulary": {
+        "term": "Dynamics",
+        "definition": "The loudness and softness of music. A track can build from quiet to loud, drop back suddenly, or hold a steady level throughout."
+      },
+      "explorationLens": "Dynamics and build attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "I Wish",
+      "editionNumber": 3,
+      "contentHash": "bc1413dab6a4d0ab",
+      "claimId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:6:fact-1",
+      "question": "Try listening for the groove — does it feel steady and locked-in, or does it seem to push forward and pull back?",
+      "followUp": "Does the groove make you want to move, or does it feel more like something to sit with?",
+      "vocabulary": {
+        "term": "Groove",
+        "definition": "The feel of a repeating rhythm, especially in funk and soul. A groove can feel tight and precise, or loose and breathing."
+      },
+      "explorationLens": "Groove and feel attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Ordinary Pain",
+      "editionNumber": 3,
+      "contentHash": "bc1413dab6a4d0ab",
+      "claimId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:10:fact-1",
+      "question": "If you've already heard track 1 on this album, does this track feel like it belongs in the same world, or does it strike you differently?",
+      "followUp": "Does hearing this track change how you think about what the album as a whole is doing?",
+      "vocabulary": {
+        "term": "Album track",
+        "definition": "A song that is part of an album's sequence. Hearing tracks in order can reveal connections or contrasts that a single song alone doesn't show."
+      },
+      "explorationLens": "Contrast between tracks",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "005-the-beatles-abbey-road-1955f3c5",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Come Together",
+      "editionNumber": 3,
+      "contentHash": "772df43eaad90b18",
+      "claimId": "005-the-beatles-abbey-road-1955f3c5:1:1:fact-1",
+      "question": "Try listening for how many different sounds you can pick out at once — do they blend together or can you hear them separately?",
+      "followUp": "Does the texture stay the same throughout or does it thin out and thicken up?",
+      "vocabulary": {
+        "term": "Texture",
+        "definition": "How thick or thin the overall sound feels. A thick texture has many layers; a thin one leaves more space between sounds."
+      },
+      "explorationLens": "Texture and layering attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "005-the-beatles-abbey-road-1955f3c5",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "You Never Give Me Your Money",
+      "editionNumber": 3,
+      "contentHash": "772df43eaad90b18",
+      "claimId": "005-the-beatles-abbey-road-1955f3c5:1:9:fact-1",
+      "question": "Try listening for whether this track feels like one continuous piece or whether you sense different sections being joined together?",
+      "followUp": "If you noticed sections joining, where did the seams feel most noticeable to you?",
+      "vocabulary": {
+        "term": "Medley",
+        "definition": "A sequence of short musical sections or songs linked together, sometimes flowing smoothly and sometimes with noticeable transitions."
+      },
+      "explorationLens": "Section and connection attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "005-the-beatles-abbey-road-1955f3c5",
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "Her Majesty",
+      "editionNumber": 3,
+      "contentHash": "772df43eaad90b18",
+      "claimId": "005-the-beatles-abbey-road-1955f3c5:1:17:fact-1",
+      "question": "This track comes right after what was meant to be the album's finale — try listening for how it arrives, and whether the transition catches you off guard?",
+      "followUp": "Does this brief track feel like a proper ending, an afterthought, or something else to you?",
+      "vocabulary": {
+        "term": "Hidden track",
+        "definition": "A song that appears on an album without being listed on the packaging. It may appear after a pause or after the main album has seemingly ended."
+      },
+      "explorationLens": "Production detail attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "006-nirvana-nevermind-0af5df5e",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Smells Like Teen Spirit",
+      "editionNumber": 2,
+      "contentHash": "2a86565a358580f0",
+      "claimId": "006-nirvana-nevermind-0af5df5e:1:1:fact-1",
+      "question": "Try listening for moments where the track gets significantly louder or quieter — does it feel like a sudden shift or a gradual build?",
+      "followUp": "If you noticed volume changes, did they feel connected to anything else happening in the track?",
+      "vocabulary": {
+        "term": "Dynamic contrast",
+        "definition": "The difference between loud and quiet sections in a song. Some tracks move between extremes deliberately, creating a sense of tension and release."
+      },
+      "explorationLens": "Dynamic contrast attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "006-nirvana-nevermind-0af5df5e",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Territorial Pissings",
+      "editionNumber": 2,
+      "contentHash": "2a86565a358580f0",
+      "claimId": "006-nirvana-nevermind-0af5df5e:1:7:fact-1",
+      "question": "Try listening to the voice — does the vocal quality stay smooth throughout, or does it feel rough or strained at any point?",
+      "followUp": "If the voice changed, did that change affect how you experienced the track?",
+      "vocabulary": {
+        "term": "Vocal roughness",
+        "definition": "When a singer's voice sounds gritty, raw, or strained rather than smooth. Roughness can convey intensity without needing words to explain it."
+      },
+      "explorationLens": "Voice and roughness attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "006-nirvana-nevermind-0af5df5e",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Endless, Nameless",
+      "editionNumber": 2,
+      "contentHash": "2a86565a358580f0",
+      "claimId": "006-nirvana-nevermind-0af5df5e:1:13:fact-1",
+      "question": "Try listening for whether the track changes character as it goes — does it feel like the same piece throughout, or does it transform into something else?",
+      "followUp": "If you noticed a transformation, was it gradual or did it happen abruptly?",
+      "vocabulary": {
+        "term": "Outtake",
+        "definition": "A recording not originally intended for the main album release. Some appear as hidden tracks or bonus material after the listed songs end."
+      },
+      "explorationLens": "Shift and transformation attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Let's Go Crazy",
+      "editionNumber": 1,
+      "contentHash": "89547af20055ff8a",
+      "claimId": "008-prince-and-the-revolution-purple-rain-e947342e:1:1:fact-1",
+      "question": "Try listening to the opening — does the track start with music, with a voice, or with something else, and does that opening set a mood for you?",
+      "followUp": "Does the mood set by the opening carry through the whole track or does it shift?",
+      "vocabulary": {
+        "term": "Intro",
+        "definition": "The beginning of a track before the main song gets going. An intro can be musical, spoken, or atmospheric, and it sets the listener's expectations."
+      },
+      "explorationLens": "Opening and mood attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Darling Nikki",
+      "editionNumber": 1,
+      "contentHash": "89547af20055ff8a",
+      "claimId": "008-prince-and-the-revolution-purple-rain-e947342e:1:5:fact-1",
+      "question": "Try listening for whether the track sounds like it was recorded in a room with the band, or whether it feels more like something built up in layers in a studio?",
+      "followUp": "Does the track sound close and intimate, or distant and spacious to you?",
+      "vocabulary": {
+        "term": "Studio production",
+        "definition": "How a recording is crafted in a studio — building sounds layer by layer, adding effects, and shaping the overall sonic character."
+      },
+      "explorationLens": "Production and studio attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Purple Rain",
+      "editionNumber": 1,
+      "contentHash": "89547af20055ff8a",
+      "claimId": "008-prince-and-the-revolution-purple-rain-e947342e:1:9:fact-1",
+      "question": "Try listening for the overall shape of the track — does it follow a predictable pattern, or does it seem to move through different phases?",
+      "followUp": "If you noticed phases, does the track feel longer or shorter than you expected?",
+      "vocabulary": {
+        "term": "Song form",
+        "definition": "The overall structure of a song — how its sections are arranged. Some songs repeat a verse-chorus pattern; others unfold through distinct phases."
+      },
+      "explorationLens": "Form and structure attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Tangled Up In Blue",
+      "editionNumber": 1,
+      "contentHash": "e95a96b5264c6074",
+      "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:1:fact-1",
+      "question": "Try listening to how the voice relates to the words — does it feel like the singer is telling you a story, singing a melody, or both at once?",
+      "followUp": "Does the way the voice delivers the words make you pay more attention to the story or to the sound?",
+      "vocabulary": {
+        "term": "Narrative song",
+        "definition": "A song that tells a story across its verses. The voice may sound more like speech or more like singing, and that balance shapes how you hear it."
+      },
+      "explorationLens": "Voice and narrative attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Meet Me In the Morning",
+      "editionNumber": 1,
+      "contentHash": "e95a96b5264c6074",
+      "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:6:fact-1",
+      "question": "Try listening for what sounds are present and what might be absent — does the track feel full or spare?",
+      "followUp": "If the track feels spare, does that sparseness draw your attention to anything in particular?",
+      "vocabulary": {
+        "term": "Arrangement",
+        "definition": "The choice of which instruments and voices play, and how they are combined. A spare arrangement uses fewer elements, leaving more room between them."
+      },
+      "explorationLens": "Arrangement and sparseness attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Buckets of Rain",
+      "editionNumber": 1,
+      "contentHash": "e95a96b5264c6074",
+      "claimId": "009-bob-dylan-blood-on-the-tracks-c704391c:1:10:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like a quiet ending, an energetic one, or something else entirely?",
+      "followUp": "If you started with track 1, how does the album's closing compare to its opening for you?",
+      "vocabulary": {
+        "term": "Closing track",
+        "definition": "The final song on an album. Some closers wind down quietly; others leave energy unresolved. The choice shapes how the album lingers in your memory."
+      },
+      "explorationLens": "Opening-to-closing comparison",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Intro",
+      "editionNumber": 1,
+      "contentHash": "a5b704c0a30f7f11",
+      "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:1:fact-1",
+      "question": "Try listening to how the track opens — does it begin with music, with a voice, or with something that sounds like it's not music at all?",
+      "followUp": "Does the opening make you expect something different from what follows?",
+      "vocabulary": {
+        "term": "Concept intro",
+        "definition": "An opening that uses spoken word, sound effects, or other non-musical elements to set up the album's theme before the songs begin."
+      },
+      "explorationLens": "Opening and expectation attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "I Used to Love Him (feat. Mary J. Blige)",
+      "editionNumber": 1,
+      "contentHash": "a5b704c0a30f7f11",
+      "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:9:fact-1",
+      "question": "Try listening for whether the voices in this track seem to talk to each other, sing together, or exist independently — what do you notice?",
+      "followUp": "If you sensed a conversation between voices, does it change how you hear the track?",
+      "vocabulary": {
+        "term": "Call and response",
+        "definition": "When one vocal part sings or says something and another answers it. It can feel like a conversation between two voices or two groups."
+      },
+      "explorationLens": "Call and response attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Tell Him",
+      "editionNumber": 1,
+      "contentHash": "a5b704c0a30f7f11",
+      "claimId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:16:fact-1",
+      "question": "This is the closing track — try listening for whether the track fills all the available space with sound, or whether it leaves gaps and breathing room?",
+      "followUp": "Does the ending feel like a full stop, a fade, or something else to you?",
+      "vocabulary": {
+        "term": "Fade-out",
+        "definition": "When a track's volume gradually decreases until silence. Some endings cut abruptly instead. The choice affects how the track feels as it ends."
+      },
+      "explorationLens": "Space and ending attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "011-the-beatles-revolver-b4f3c550",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Taxman",
+      "editionNumber": 1,
+      "contentHash": "8284849f6f9913f3",
+      "claimId": "011-the-beatles-revolver-b4f3c550:1:1:fact-1",
+      "question": "Try listening for anything in the track that doesn't sound like a typical band playing together — can you pick out any sounds that seem processed or unusual?",
+      "followUp": "If you noticed unusual sounds, do they stand out or do they blend in with everything else?",
+      "vocabulary": {
+        "term": "Studio effect",
+        "definition": "Any sound that has been altered or created using recording techniques rather than being captured as-is. Effects can change how familiar instruments sound."
+      },
+      "explorationLens": "Production and studio attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "011-the-beatles-revolver-b4f3c550",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Good Day Sunshine",
+      "editionNumber": 1,
+      "contentHash": "8284849f6f9913f3",
+      "claimId": "011-the-beatles-revolver-b4f3c550:1:8:fact-1",
+      "question": "Try listening for how many separate elements you can hear at once — do the sounds feel close together or spread apart?",
+      "followUp": "Does the track feel busy and full, or light and open to you?",
+      "vocabulary": {
+        "term": "Layering",
+        "definition": "Recording multiple sounds on top of each other. The more layers, the denser the texture; fewer layers leave more space."
+      },
+      "explorationLens": "Texture and layering attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "011-the-beatles-revolver-b4f3c550",
+      "discNumber": 1,
+      "trackNumber": 14,
+      "trackTitle": "Tomorrow Never Knows",
+      "editionNumber": 1,
+      "contentHash": "8284849f6f9913f3",
+      "claimId": "011-the-beatles-revolver-b4f3c550:1:14:fact-1",
+      "question": "This is the closing track — try listening for whether the track feels like it stays in one place or whether it moves and shifts as it goes?",
+      "followUp": "If you started with track 1, how does the album's ending compare to its opening for you?",
+      "vocabulary": {
+        "term": "Drone",
+        "definition": "A sustained sound that holds steady underneath a track, providing a foundation while other elements change above it."
+      },
+      "explorationLens": "Shift and transformation attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "012-michael-jackson-thriller-a46ba2f6",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Wanna Be Startin' Somethin'",
+      "editionNumber": 1,
+      "contentHash": "8657b99ec8e06279",
+      "claimId": "012-michael-jackson-thriller-a46ba2f6:1:1:fact-1",
+      "question": "Try listening to the percussion — can you pick out more than one rhythmic element, and do they feel like they're playing together or against each other?",
+      "followUp": "Does the rhythm feel straightforward or layered and complex to you?",
+      "vocabulary": {
+        "term": "Percussion",
+        "definition": "Instruments that produce sound by being struck or shaken. In recorded music, percussion can include live drums, drum machines, and hand-played instruments combined together."
+      },
+      "explorationLens": "Rhythm and percussion attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "012-michael-jackson-thriller-a46ba2f6",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Beat It",
+      "editionNumber": 1,
+      "contentHash": "8657b99ec8e06279",
+      "claimId": "012-michael-jackson-thriller-a46ba2f6:1:5:fact-1",
+      "question": "Try listening to the very beginning of the track — does the opening sound feel familiar or unusual to you, and does it set up what follows?",
+      "followUp": "Does the opening element continue throughout the track or does it disappear?",
+      "vocabulary": {
+        "term": "Synthesizer intro",
+        "definition": "An opening created with an electronic keyboard or synthesizer rather than a live instrument. Some synth sounds are distinctive enough to recognize on their own."
+      },
+      "explorationLens": "Production and sound design attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "012-michael-jackson-thriller-a46ba2f6",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "The Lady in My Life",
+      "editionNumber": 1,
+      "contentHash": "8657b99ec8e06279",
+      "claimId": "012-michael-jackson-thriller-a46ba2f6:1:9:fact-1",
+      "question": "Try listening to the voice — does the singing feel carefully controlled and precise, or does it feel loose and spontaneous?",
+      "followUp": "Does the vocal style here feel different from what you might expect on this album?",
+      "vocabulary": {
+        "term": "Vocal control",
+        "definition": "How precisely a singer shapes volume, tone, and phrasing. Some performances feel meticulously crafted; others feel improvised and raw."
+      },
+      "explorationLens": "Voice and delivery attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Respect",
+      "editionNumber": 1,
+      "contentHash": "53c6ce1fe34e4bbb",
+      "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:1:fact-1",
+      "question": "Try listening for the voices behind the lead — can you hear more than one singer, and do the background voices feel like support or like a separate presence?",
+      "followUp": "If you noticed multiple voices, do they ever seem to answer or respond to the lead?",
+      "vocabulary": {
+        "term": "Backing vocals",
+        "definition": "Singers who support the lead vocalist rather than singing the main melody. They can blend in quietly or step forward as a distinct presence."
+      },
+      "explorationLens": "Voice and backing attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Baby, Baby, Baby",
+      "editionNumber": 1,
+      "contentHash": "53c6ce1fe34e4bbb",
+      "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:6:fact-1",
+      "question": "Try listening for which sounds seem to be leading the track — is it the voice, another instrument, or do they seem to share the lead?",
+      "followUp": "Does the lead shift from one element to another as the track goes on?",
+      "vocabulary": {
+        "term": "Lead instrument",
+        "definition": "The sound that carries the main musical line, whether it's a voice or an instrument. In some tracks, the lead can shift between different elements."
+      },
+      "explorationLens": "Arrangement and lead attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "A Change Is Gonna Come",
+      "editionNumber": 1,
+      "contentHash": "53c6ce1fe34e4bbb",
+      "claimId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:11:fact-1",
+      "question": "If you've already heard track 1 on this album, does this closing track feel like it belongs to the same album, or does it take you somewhere different?",
+      "followUp": "Does the ending feel like the longest track on the album, or does it pass differently for you?",
+      "vocabulary": {
+        "term": "Cover version",
+        "definition": "A new recording of a song originally performed by someone else. A cover can closely follow the original or transform it significantly."
+      },
+      "explorationLens": "Contrast between tracks",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Rocks Off",
+      "editionNumber": 1,
+      "contentHash": "1b0aa6d44c190623",
+      "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:1:fact-1",
+      "question": "Try listening for whether the track sounds polished and clean or rough and raw — and does that quality feel deliberate to you?",
+      "followUp": "Does the roughness or smoothness of the sound affect how the track lands for you?",
+      "vocabulary": {
+        "term": "Lo-fi production",
+        "definition": "A recording approach that embraces imperfection — rough textures, audible room sound, and unpolished elements — rather than aiming for studio-clean clarity."
+      },
+      "explorationLens": "Texture and roughness attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Happy",
+      "editionNumber": 1,
+      "contentHash": "1b0aa6d44c190623",
+      "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:10:fact-1",
+      "question": "Try listening to the voice — does it sound like the same person who sang the opening track, and does the vocal character feel different here?",
+      "followUp": "If the voice sounds different, does that change how you relate to the track?",
+      "vocabulary": {
+        "term": "Lead vocalist",
+        "definition": "The primary singer on a track. Some bands have one consistent lead vocalist; others let different members sing lead on different songs."
+      },
+      "explorationLens": "Voice and character attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+      "discNumber": 1,
+      "trackNumber": 18,
+      "trackTitle": "Soul Survivor",
+      "editionNumber": 1,
+      "contentHash": "1b0aa6d44c190623",
+      "claimId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:18:fact-1",
+      "question": "Try listening to the rhythm section — does it feel locked into a steady groove, or does it feel loose and volatile?",
+      "followUp": "Does the groove feel like it could fall apart at any moment, or does it hold steady throughout?",
+      "vocabulary": {
+        "term": "Rhythm section",
+        "definition": "The instruments that drive the beat and bass — typically drums and bass. The feel of the rhythm section shapes whether a track sounds tight or loose."
+      },
+      "explorationLens": "Rhythm and groove attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Countdown to Armageddon",
+      "editionNumber": 1,
+      "contentHash": "e98431a8e0ed3e4c",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1",
+      "question": "Try listening to the opening — does the track start with music, with a voice, or with something that sounds like it was recorded somewhere else entirely?",
+      "followUp": "Does the opening make you feel like you've been dropped into the middle of something already happening?",
+      "vocabulary": {
+        "term": "Field recording",
+        "definition": "Audio captured outside a studio — at a concert, in a public space, or in daily life. It can be woven into a track to create a sense of place or occasion."
+      },
+      "explorationLens": "Arrangement and source attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Show 'Em Whatcha Got",
+      "editionNumber": 1,
+      "contentHash": "e98431a8e0ed3e4c",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1",
+      "question": "Try listening for whether this track feels like a beginning or a continuation — does it introduce something new or carry forward energy from before?",
+      "followUp": "Does the track feel like it belongs where it is in the album's sequence?",
+      "vocabulary": {
+        "term": "Sequencing",
+        "definition": "The order in which tracks appear on an album. Changing the order can change how songs feel — a track that opens an album can feel different when placed in the middle."
+      },
+      "explorationLens": "Contrast and sequencing attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Party for Your Right to Fight",
+      "editionNumber": 1,
+      "contentHash": "e98431a8e0ed3e4c",
+      "claimId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1",
+      "question": "Try listening to the words — does the message feel straightforward, or does it seem to work on more than one level?",
+      "followUp": "If the track reminds you of another song, does hearing it change how you hear this one?",
+      "vocabulary": {
+        "term": "Reference",
+        "definition": "When a song deliberately echoes or responds to another existing song. The connection can be in the words, the music, or both."
+      },
+      "explorationLens": "Voice and message attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "016-the-clash-london-calling-7d75cf05",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "London Calling",
+      "editionNumber": 1,
+      "contentHash": "580f5f2a45b44176",
+      "claimId": "016-the-clash-london-calling-7d75cf05:1:1:fact-1",
+      "question": "Try listening for whether the energy of the track stays at one level or rises and falls — and where do you feel the peaks?",
+      "followUp": "Does the energy feel urgent and pressing, or steady and controlled to you?",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The sense of intensity or drive in a track. Energy can come from volume, speed, vocal delivery, or the way instruments push against each other."
+      },
+      "explorationLens": "Dynamics and energy attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "016-the-clash-london-calling-7d75cf05",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "The Guns of Brixton",
+      "editionNumber": 1,
+      "contentHash": "580f5f2a45b44176",
+      "claimId": "016-the-clash-london-calling-7d75cf05:1:10:fact-1",
+      "question": "Try listening to the voice — does the vocal delivery here feel different from the opening track, and if so, how?",
+      "followUp": "Does the change in voice make this track feel like a different perspective within the album?",
+      "vocabulary": {
+        "term": "Lead vocal change",
+        "definition": "When a different member of a band takes over singing duties. It can give an album a sense of multiple voices or perspectives."
+      },
+      "explorationLens": "Voice and delivery contrast",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "016-the-clash-london-calling-7d75cf05",
+      "discNumber": 1,
+      "trackNumber": 19,
+      "trackTitle": "Train In Vain",
+      "editionNumber": 1,
+      "contentHash": "580f5f2a45b44176",
+      "claimId": "016-the-clash-london-calling-7d75cf05:1:19:fact-1",
+      "question": "This is the final track — if you started with the opening track, what feels different between the beginning and the end of the album, and what feels connected?",
+      "followUp": "Does the album's closing feel like it resolves the energy from the opening, or does it go in a different direction?",
+      "vocabulary": {
+        "term": "Closing track",
+        "definition": "The final song on an album. Some closers circle back to the opening; others take the album somewhere entirely new."
+      },
+      "explorationLens": "Opening-to-closing comparison",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Dark Fantasy",
+      "editionNumber": 1,
+      "contentHash": "a7cc5cd4bd43bf7c",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1",
+      "question": "Try listening to the opening — does the track begin with music, with a spoken voice, or with something else, and how does that shape your expectations?",
+      "followUp": "Once the main track gets going, does the opening voice or sound return, or does it disappear entirely?",
+      "vocabulary": {
+        "term": "Narration",
+        "definition": "A spoken passage at the start of or within a track. Narration can set a scene, introduce a character, or frame what follows before any singing or music begins."
+      },
+      "explorationLens": "Opening and narration attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "So Appalled (feat. JAŸ-Z, Pusha T, Prynce Cy Hi, Swizz Beatz & RZA)",
+      "editionNumber": 1,
+      "contentHash": "a7cc5cd4bd43bf7c",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1",
+      "question": "Try listening for how many voices you can distinguish — does it feel like one person throughout, or do different voices take turns?",
+      "followUp": "If you noticed multiple voices, do they seem to agree with each other or push in different directions?",
+      "vocabulary": {
+        "term": "Posse cut",
+        "definition": "A hip-hop track featuring multiple rappers, each taking a turn. The variety of voices and styles is part of what makes these tracks distinctive."
+      },
+      "explorationLens": "Voice and ensemble attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Who Will Survive In America",
+      "editionNumber": 1,
+      "contentHash": "a7cc5cd4bd43bf7c",
+      "claimId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like a separate song or like a continuation of the album's last moments?",
+      "followUp": "Does the ending feel like a final statement, a reflection, or something else to you?",
+      "vocabulary": {
+        "term": "Coda",
+        "definition": "A concluding section that comes after the main body of a piece. In albums, a coda can serve as an epilogue or a final reflection on what came before."
+      },
+      "explorationLens": "Space and ending attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Like a Rolling Stone",
+      "editionNumber": 1,
+      "contentHash": "21571f1103a6484f",
+      "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:1:fact-1",
+      "question": "Try listening for how the different sounds combine — can you pick out individual elements, or do they merge into one texture?",
+      "followUp": "If you could separate the elements, which one drew your attention most?",
+      "vocabulary": {
+        "term": "Combination",
+        "definition": "How different musical elements — voices, instruments, rhythms — are brought together in a recording. The blend can feel unified or make each element distinct."
+      },
+      "explorationLens": "Texture and combination attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Ballad of a Thin Man",
+      "editionNumber": 1,
+      "contentHash": "21571f1103a6484f",
+      "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:5:fact-1",
+      "question": "Try listening for whether the track feels like everything is moving in the same direction, or whether some elements seem to pull against each other?",
+      "followUp": "If you sensed tension between elements, does it feel unsettling or engaging to you?",
+      "vocabulary": {
+        "term": "Contrast",
+        "definition": "When two musical elements feel different from each other — in tone, rhythm, or character — creating a sense of tension or interplay rather than blend."
+      },
+      "explorationLens": "Contrast and tension attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Desolation Row",
+      "editionNumber": 1,
+      "contentHash": "21571f1103a6484f",
+      "claimId": "018-bob-dylan-highway-61-revisited-bd0599b4:1:9:fact-1",
+      "question": "This is the closing track — try listening for whether its length feels like a journey, a test of patience, or something else to you?",
+      "followUp": "Does the track sustain the same mood throughout, or does it evolve as it goes?",
+      "vocabulary": {
+        "term": "Epic",
+        "definition": "A song that is unusually long, often unfolding across many sections. An epic can feel like a single sustained piece or a journey through distinct phases."
+      },
+      "explorationLens": "Form and length attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Wesley's Theory (feat. George Clinton & Thundercat)",
+      "editionNumber": 1,
+      "contentHash": "59db8b0ab53842be",
+      "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:1:fact-1",
+      "question": "Try listening to the voices — does the opening feel like one person speaking, several people, or a character performing a role?",
+      "followUp": "Does the vocal style shift between rapping, singing, or something else as the track goes on?",
+      "vocabulary": {
+        "term": "Character voice",
+        "definition": "When a performer adopts a specific persona or viewpoint in their delivery, rather than speaking in their own voice. A track can move between different characters."
+      },
+      "explorationLens": "Voice and character attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Momma",
+      "editionNumber": 1,
+      "contentHash": "59db8b0ab53842be",
+      "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1",
+      "question": "Try listening for whether the track feels like it was built from existing sounds or created from scratch — can you tell?",
+      "followUp": "Does the track feel layered and dense, or open and spare to you?",
+      "vocabulary": {
+        "term": "Sample",
+        "definition": "A snippet of an existing recording reused as a building block in a new track. Sampling can be obvious or subtle, and it shapes the texture of the new piece."
+      },
+      "explorationLens": "Arrangement and source attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Mortal Man",
+      "editionNumber": 1,
+      "contentHash": "59db8b0ab53842be",
+      "claimId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:16:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like a summary of the album, a standalone piece, or something in between?",
+      "followUp": "Does the track seem to look back at what came before, or does it look forward to something else?",
+      "vocabulary": {
+        "term": "Reflection",
+        "definition": "When a closing track looks back on the album's themes, sometimes directly referencing earlier songs or ideas. It can feel like a recap or a final question."
+      },
+      "explorationLens": "Form and reflection attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "020-radiohead-kid-a-ce842ff2",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Everything In Its Right Place",
+      "editionNumber": 1,
+      "contentHash": "7b4ca61faf5f76ba",
+      "claimId": "020-radiohead-kid-a-ce842ff2:1:1:fact-1",
+      "question": "Try listening for whether the voice sounds like a natural human singing or whether it seems to have been altered or processed — what do you notice?",
+      "followUp": "If the voice sounded processed, does that make the words harder or easier to focus on?",
+      "vocabulary": {
+        "term": "Vocal processing",
+        "definition": "Altering a recorded voice using studio techniques — changing pitch, adding effects, or fragmenting it. Processed vocals can sound distant, robotic, or dreamlike."
+      },
+      "explorationLens": "Production and transformation attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "020-radiohead-kid-a-ce842ff2",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Optimistic",
+      "editionNumber": 1,
+      "contentHash": "7b4ca61faf5f76ba",
+      "claimId": "020-radiohead-kid-a-ce842ff2:1:6:fact-1",
+      "question": "Try listening for whether the track feels warm and inviting or cold and distant — and what in the sound creates that impression for you?",
+      "followUp": "Does the feeling of the track shift as it goes on, or does it hold a consistent mood?",
+      "vocabulary": {
+        "term": "Mood",
+        "definition": "The emotional character of a track — whether it feels warm, cold, anxious, calm, or something else. Mood can come from tone, texture, or vocal style."
+      },
+      "explorationLens": "Texture and mood attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "020-radiohead-kid-a-ce842ff2",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Untitled",
+      "editionNumber": 1,
+      "contentHash": "7b4ca61faf5f76ba",
+      "claimId": "020-radiohead-kid-a-ce842ff2:1:11:fact-1",
+      "question": "Try listening for whether this track feels like a song, a sound, or something in between — and does it feel like it belongs at the end of the album?",
+      "followUp": "Does the track feel like a resolution, a question, or simply a sound that fades away?",
+      "vocabulary": {
+        "term": "Hidden track",
+        "definition": "A piece of music that appears on an album without being listed, often after a long silence following the last credited song. It can be a full song or just an ambient sound."
+      },
+      "explorationLens": "Space and hidden detail attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Thunder Road",
+      "editionNumber": 1,
+      "contentHash": "91b219c3dbaded3a",
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1",
+      "question": "Try listening to how the track opens — does it start fully or does it seem to build from a single element into something bigger?",
+      "followUp": "Once the track is fully underway, does the opening element still play a role or has it been replaced?",
+      "vocabulary": {
+        "term": "Build",
+        "definition": "When a track starts with few elements and gradually adds more, creating a sense of growing energy or momentum. The opening may feature a single instrument or voice."
+      },
+      "explorationLens": "Opening and build attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Born to Run",
+      "editionNumber": 1,
+      "contentHash": "91b219c3dbaded3a",
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1",
+      "question": "Try listening for how many different sounds you can hear working together — does the track feel like a small group or a large ensemble?",
+      "followUp": "Does the number of elements feel consistent throughout, or does it change between sections?",
+      "vocabulary": {
+        "term": "Ensemble",
+        "definition": "The group of musicians playing together on a recording. A small ensemble sounds intimate; a large one can sound expansive and powerful."
+      },
+      "explorationLens": "Arrangement and ensemble attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Jungleland",
+      "editionNumber": 1,
+      "contentHash": "91b219c3dbaded3a",
+      "claimId": "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1",
+      "question": "This is the closing track — try listening for whether it builds to a peak or winds down, and where the most intense moment falls for you?",
+      "followUp": "Does the ending feel like a climax or a quiet release, and how does that compare to the album's opening?",
+      "vocabulary": {
+        "term": "Climax",
+        "definition": "The moment of greatest intensity in a track or album. A climax can come at the end, in the middle, or somewhere unexpected, and it shapes how the piece feels as a whole."
+      },
+      "explorationLens": "Dynamics and climax attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Intro",
+      "editionNumber": 1,
+      "contentHash": "408374464e0ffb76",
+      "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:1:fact-1",
+      "question": "Try listening to the opening — does it feel like the start of a story, a musical introduction, or something that sets a scene before the music begins?",
+      "followUp": "Does the opening make you curious about what comes next, or does it feel self-contained?",
+      "vocabulary": {
+        "term": "Concept opening",
+        "definition": "An intro track that establishes a narrative or theme for the album before the songs begin. It can use spoken word, sound effects, or atmospheric elements."
+      },
+      "explorationLens": "Narrative and concept attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Juicy",
+      "editionNumber": 1,
+      "contentHash": "408374464e0ffb76",
+      "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:10:fact-1",
+      "question": "Try listening for a sound that repeats underneath the voice — does it feel like a steady foundation, and does it change at all throughout the track?",
+      "followUp": "If the repeating element stayed mostly the same, did the voice provide all the variation for you?",
+      "vocabulary": {
+        "term": "Loop",
+        "definition": "A short section of recorded sound that repeats throughout a track. In hip-hop, a loop often forms the foundation over which the vocals are layered."
+      },
+      "explorationLens": "Production and loop attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "022-the-notorious-b-i-g-ready-to-die-98945eb8",
+      "discNumber": 1,
+      "trackNumber": 19,
+      "trackTitle": "Just Playing (Dreams)",
+      "editionNumber": 1,
+      "contentHash": "408374464e0ffb76",
+      "claimId": "022-the-notorious-b-i-g-ready-to-die-98945eb8:1:19:fact-1",
+      "question": "Try listening to how the voice moves — does the flow feel steady and even, or does it speed up, slow down, and change character?",
+      "followUp": "Does the vocal flow feel connected to the repeating sounds underneath, or independent of them?",
+      "vocabulary": {
+        "term": "Flow",
+        "definition": "The rhythm and pace of a rapper's delivery. Flow can feel smooth and consistent or dynamic and unpredictable, shifting within a single verse."
+      },
+      "explorationLens": "Voice and flow attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Sunday Morning",
+      "editionNumber": 1,
+      "contentHash": "dd541a3ae55f1f0b",
+      "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:1:fact-1",
+      "question": "Try listening to the voice — does it feel gentle and intimate, distant, or something else, and does the vocal mood match or contrast with the sounds around it?",
+      "followUp": "Does the track feel like a calm beginning or something more unsettling beneath the surface?",
+      "vocabulary": {
+        "term": "Vocal atmosphere",
+        "definition": "The overall feeling a voice creates — intimate, distant, eerie, warm. The atmosphere of a vocal can align with or work against the surrounding music."
+      },
+      "explorationLens": "Voice and atmosphere attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "All Tomorrow's Parties",
+      "editionNumber": 1,
+      "contentHash": "dd541a3ae55f1f0b",
+      "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:6:fact-1",
+      "question": "Try listening for whether the track sounds like it was played live in a room or assembled and shaped in a studio — what gives you that impression?",
+      "followUp": "Does the sound feel clean and controlled, or raw and unpolished to you?",
+      "vocabulary": {
+        "term": "Production character",
+        "definition": "The overall sonic quality of a recording — whether it feels polished, raw, warm, cold, or something else. Production character shapes how close or distant the music feels."
+      },
+      "explorationLens": "Texture and character attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef",
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "European Son",
+      "editionNumber": 1,
+      "contentHash": "dd541a3ae55f1f0b",
+      "claimId": "023-the-velvet-underground-the-velvet-underground-and-nico-0913adef:1:11:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like a song, a performance, or an event, and does it feel like a typical album closer to you?",
+      "followUp": "Does the ending leave you with a sense of completion or of something unfinished?",
+      "vocabulary": {
+        "term": "Dedication",
+        "definition": "When a track is dedicated to a specific person, often noted in its title or lyrics. The dedication can shape how you interpret the track's intent."
+      },
+      "explorationLens": "Form and dedication attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Sgt. Pepper's Lonely Hearts Club Band",
+      "editionNumber": 1,
+      "contentHash": "3f64c8ef4f3d5edb",
+      "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:1:fact-1",
+      "question": "Try listening for sounds that don't seem to come from a band playing — can you hear anything that feels like it was added to create an atmosphere?",
+      "followUp": "Do those atmospheric sounds make the track feel like a performance in a specific place to you?",
+      "vocabulary": {
+        "term": "Audience sounds",
+        "definition": "Recordings of crowd noise, cheering, or ambient sound added to a track to create the illusion of a live performance or a specific setting."
+      },
+      "explorationLens": "Production and atmosphere attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Being For the Benefit of Mr. Kite!",
+      "editionNumber": 1,
+      "contentHash": "3f64c8ef4f3d5edb",
+      "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:7:fact-1",
+      "question": "Try listening for whether the track feels like it was assembled from different pieces or whether it flows as one continuous performance?",
+      "followUp": "If it feels assembled, can you sense where the pieces might join?",
+      "vocabulary": {
+        "term": "Collage",
+        "definition": "A recording built by combining different sounds or sections, sometimes from different sources. A collage can feel seamless or deliberately fragmented."
+      },
+      "explorationLens": "Arrangement and collage attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "A Day In the Life",
+      "editionNumber": 1,
+      "contentHash": "3f64c8ef4f3d5edb",
+      "claimId": "024-the-beatles-sgt-pepper-s-lonely-hearts-club-band-dad95673:1:13:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like one piece or whether different sections seem to come from different places?",
+      "followUp": "Does the ending feel like a conclusion to the album, or like it opens a door to somewhere new?",
+      "vocabulary": {
+        "term": "Song fragment",
+        "definition": "An incomplete piece of music that is combined with other material to form a complete track. Fragments can create a sense of contrast within a single song."
+      },
+      "explorationLens": "Form and connection attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "025-carole-king-tapestry-b29b056b",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "I Feel the Earth Move",
+      "editionNumber": 1,
+      "contentHash": "d33beea7c440089d",
+      "claimId": "025-carole-king-tapestry-b29b056b:1:1:fact-1",
+      "question": "Try listening for whether the voice and the keyboard feel like they're working closely together or whether one leads and the other follows?",
+      "followUp": "Does the relationship between voice and keyboard change as the track goes on?",
+      "vocabulary": {
+        "term": "Accompaniment",
+        "definition": "The musical part that supports a lead vocal or melody. In many songs, a keyboard or guitar accompanies the voice, sometimes closely matching it and sometimes providing contrast."
+      },
+      "explorationLens": "Voice and accompaniment attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "025-carole-king-tapestry-b29b056b",
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "So Far Away",
+      "editionNumber": 1,
+      "contentHash": "d33beea7c440089d",
+      "claimId": "025-carole-king-tapestry-b29b056b:1:2:fact-1",
+      "question": "Try listening to the rhythm — does it feel steady and regular, and can you notice any accents or places where the beat feels emphasized differently?",
+      "followUp": "Do the accents seem to match what the voice is doing, or do they create their own pattern?",
+      "vocabulary": {
+        "term": "Accent",
+        "definition": "Emphasizing a particular note or beat more strongly than those around it. Accents can draw attention to specific words or moments in a track."
+      },
+      "explorationLens": "Rhythm and accent attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "025-carole-king-tapestry-b29b056b",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "You've Got a Friend",
+      "editionNumber": 1,
+      "contentHash": "d33beea7c440089d",
+      "claimId": "025-carole-king-tapestry-b29b056b:1:7:fact-1",
+      "question": "Try listening for how many separate instruments you can hear — does the arrangement feel full or spare, and does it stay consistent throughout?",
+      "followUp": "If the track feels spare, does that simplicity draw your attention to the voice or to the instruments?",
+      "vocabulary": {
+        "term": "Session musicians",
+        "definition": "Professional musicians hired to play on recordings. Their individual contributions — a specific drum feel, a particular guitar tone — shape the overall sound."
+      },
+      "explorationLens": "Arrangement and ensemble attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "026-patti-smith-horses-2807d0f1",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Gloria",
+      "editionNumber": 1,
+      "contentHash": "01b63ff001da020d",
+      "claimId": "026-patti-smith-horses-2807d0f1:1:1:fact-1",
+      "question": "Try listening to the voice — does the delivery stay the same throughout, or does it shift between singing, speaking, and something in between?",
+      "followUp": "If the voice transformed, did the shift feel like a gradual change or a sudden break?",
+      "vocabulary": {
+        "term": "Spoken-word delivery",
+        "definition": "When a performer speaks or chants rather than singing conventionally. Some tracks move between spoken word and singing, blurring the line between the two."
+      },
+      "explorationLens": "Voice and transformation attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "026-patti-smith-horses-2807d0f1",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Kimberly",
+      "editionNumber": 1,
+      "contentHash": "01b63ff001da020d",
+      "claimId": "026-patti-smith-horses-2807d0f1:1:5:fact-1",
+      "question": "Try listening for whether the track has a steady groove underneath — and if so, does it feel smooth and polished or rough and urgent?",
+      "followUp": "Does the groove remind you of another style of music, or does it feel distinctive to this track?",
+      "vocabulary": {
+        "term": "Groove",
+        "definition": "The rhythmic feel of a track, especially the repeating pattern underneath the voice. A groove can evoke a particular genre or style of music."
+      },
+      "explorationLens": "Rhythm and groove attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "026-patti-smith-horses-2807d0f1",
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Elegie",
+      "editionNumber": 1,
+      "contentHash": "01b63ff001da020d",
+      "claimId": "026-patti-smith-horses-2807d0f1:1:8:fact-1",
+      "question": "This is the closing track — try listening for whether it feels like a song, a tribute, or a raw performance, and how that shapes the album's ending for you?",
+      "followUp": "Does the track feel like it was meant to sound finished, or does it embrace roughness as part of its character?",
+      "vocabulary": {
+        "term": "Elegy",
+        "definition": "A piece of music or poetry written as a memorial or tribute. An elegy can feel somber, reflective, or raw, depending on how it is performed."
+      },
+      "explorationLens": "Space and ending attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Shame On a Nuh (feat. Raekwon, Ol' Dirty Bastard & Method Man)",
+      "editionNumber": 1,
+      "contentHash": "25ed339390ee3b87",
+      "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:1:fact-1",
+      "question": "Try listening for how many different voices you can pick out — does each one sound distinct, and do they seem to take turns or overlap?",
+      "followUp": "If the voices felt distinct, did any particular one stand out to you, and why?",
+      "vocabulary": {
+        "term": "Ensemble vocal",
+        "definition": "When multiple performers contribute vocals to a single track. Each voice can have its own character, and the variety is part of the track's identity."
+      },
+      "explorationLens": "Voice and ensemble attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Da Mystery of Chessboxin' (feat. Method Man, U-God, Inspectah Deck, Raekwon, Ol' Dirty Bastard, Ghostface Killah & Masta Killa) [Radio Edit]",
+      "editionNumber": 1,
+      "contentHash": "25ed339390ee3b87",
+      "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:5:fact-1",
+      "question": "Try listening to the sound underneath the voices — does it feel rough and raw, or smooth and polished, and what gives you that impression?",
+      "followUp": "Does the roughness or smoothness of the backing affect how you hear the voices on top?",
+      "vocabulary": {
+        "term": "Production texture",
+        "definition": "The overall sonic quality of a recording's backing track. In hip-hop, this can range from clean and polished to gritty and unpolished."
+      },
+      "explorationLens": "Production and texture attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Tearz (feat. RZA & Ghostface Killah)",
+      "editionNumber": 1,
+      "contentHash": "25ed339390ee3b87",
+      "claimId": "027-wu-tang-clan-enter-the-wu-tang-36-chambers-bd9ce00b:1:9:fact-1",
+      "question": "Try listening to how the words are delivered — does the track feel like it's telling a story, making an argument, or doing both at once?",
+      "followUp": "If there are different stories in the track, do they feel connected or separate to you?",
+      "vocabulary": {
+        "term": "Narrative rap",
+        "definition": "A hip-hop track focused on storytelling, where the lyrics carry a specific narrative rather than just a rhythmic flow of words."
+      },
+      "explorationLens": "Narrative and story attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "028-d-angelo-voodoo-b6406009",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Playa Playa",
+      "editionNumber": 1,
+      "contentHash": "8fea22b5d1aab2a4",
+      "claimId": "028-d-angelo-voodoo-b6406009:1:1:fact-1",
+      "question": "Try listening for whether the groove feels tight and precise or loose and breathing — and does it stay consistent throughout?",
+      "followUp": "Does the groove feel like it's in the background or is it the main thing you notice?",
+      "vocabulary": {
+        "term": "Pocket",
+        "definition": "When a rhythm section locks into a groove that feels deeply settled and natural. Being 'in the pocket' means the groove feels effortless and alive rather than rigid."
+      },
+      "explorationLens": "Groove and feel attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "028-d-angelo-voodoo-b6406009",
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "One Mo'Gin",
+      "editionNumber": 1,
+      "contentHash": "8fea22b5d1aab2a4",
+      "claimId": "028-d-angelo-voodoo-b6406009:1:7:fact-1",
+      "question": "Try listening to the voice — does it feel close and intimate, or distant and guarded, and does that feeling shift during the track?",
+      "followUp": "If the voice felt intimate, did that make the words feel more direct or more personal to you?",
+      "vocabulary": {
+        "term": "Intimate vocal",
+        "definition": "A singing style that feels close and personal, as if the performer is speaking directly to you. Intimacy can come from volume, tone, or how the voice was recorded."
+      },
+      "explorationLens": "Voice and intimacy attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "028-d-angelo-voodoo-b6406009",
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Africa",
+      "editionNumber": 1,
+      "contentHash": "8fea22b5d1aab2a4",
+      "claimId": "028-d-angelo-voodoo-b6406009:1:13:fact-1",
+      "question": "This is the closing track — if you started with the opening track, what feels different between the beginning and the end of the album, and what feels connected?",
+      "followUp": "Does the ending feel like a resolution, a dedication, or something else to you?",
+      "vocabulary": {
+        "term": "Closing track",
+        "definition": "The final song on an album. Some closers feel like a culmination of everything before; others feel like a quiet, personal farewell."
+      },
+      "explorationLens": "Opening-to-closing comparison",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Back In the U.S.S.R.",
+      "editionNumber": 1,
+      "contentHash": "977823ba39b0e936",
+      "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:1:fact-1",
+      "question": "Try listening for any sounds that don't seem to come from instruments or voices — can you pick out anything that sounds like it was recorded from the world outside?",
+      "followUp": "Do those non-musical sounds appear throughout the track or only at specific moments?",
+      "vocabulary": {
+        "term": "Field recording",
+        "definition": "Audio captured from real-world environments — a jet engine, a crowd, nature — and incorporated into a recording. It can add texture and realism that instruments alone can't create."
+      },
+      "explorationLens": "Production and field recording attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Martha My Dear",
+      "editionNumber": 1,
+      "contentHash": "977823ba39b0e936",
+      "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:9:fact-1",
+      "question": "Try listening for whether this track feels like it belongs alongside the opening track or whether it sounds like a completely different kind of album?",
+      "followUp": "If it feels different, does that contrast feel intentional or surprising to you?",
+      "vocabulary": {
+        "term": "Album diversity",
+        "definition": "When an album contains tracks that sound very different from each other in style, mood, or instrumentation. Some albums aim for consistency; others embrace variety."
+      },
+      "explorationLens": "Arrangement and contrast attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "029-the-beatles-the-beatles-white-album-29eb84d8",
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "Julia",
+      "editionNumber": 1,
+      "contentHash": "977823ba39b0e936",
+      "claimId": "029-the-beatles-the-beatles-white-album-29eb84d8:1:17:fact-1",
+      "question": "Try listening for how many separate elements you can hear — does the track feel like a full performance or like a single person playing and singing alone?",
+      "followUp": "If it feels solitary, does that change how you hear the voice and the words?",
+      "vocabulary": {
+        "term": "Solo performance",
+        "definition": "A track performed by a single person without accompaniment. A solo performance can feel especially intimate because every sound comes from one source."
+      },
+      "explorationLens": "Space and solo attention",
+      "isEntryPoint": false
+    },
+    {
+      "albumId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f",
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Purple Haze",
+      "editionNumber": 1,
+      "contentHash": "3c37e6fdea505510",
+      "claimId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f:1:1:fact-1",
+      "question": "Try listening to how the track begins — does it start gently, suddenly, or somewhere in between, and how does that opening set up what follows?",
+      "followUp": "Does the energy of the opening carry through the whole track, or does it shift?",
+      "vocabulary": {
+        "term": "Opening gesture",
+        "definition": "The very first sound or phrase of a track. It can be a single note, a chord, a vocal line, or a noise — and it sets the listener's expectations for everything that follows."
+      },
+      "explorationLens": "Opening and energy attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f",
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Third Stone from the Sun",
+      "editionNumber": 1,
+      "contentHash": "3c37e6fdea505510",
+      "claimId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f:1:9:fact-1",
+      "question": "Try listening for whether the track feels like a song with a clear shape or more like a soundscape that unfolds without a fixed structure?",
+      "followUp": "Does the track feel grounded and familiar, or does it take you somewhere unfamiliar?",
+      "vocabulary": {
+        "term": "Soundscape",
+        "definition": "A track that prioritizes atmosphere and texture over conventional song structure. Soundscapes can feel immersive and cinematic rather than melodic."
+      },
+      "explorationLens": "Texture and atmosphere attention",
+      "isEntryPoint": true
+    },
+    {
+      "albumId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f",
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "Red House",
+      "editionNumber": 1,
+      "contentHash": "3c37e6fdea505510",
+      "claimId": "030-the-jimi-hendrix-experience-are-you-experienced-f4ea672f:1:17:fact-1",
+      "question": "Try listening for whether the track feels like a band playing together or whether it seems to feature one performer more prominently than the others?",
+      "followUp": "If one element stood out, did the rest feel like support or like equals?",
+      "vocabulary": {
+        "term": "Featured performance",
+        "definition": "When one instrument or voice is the clear focus of a track, with the other elements serving a supporting role. The balance between lead and support shapes the track's character."
+      },
+      "explorationLens": "Arrangement and role attention",
+      "isEntryPoint": false
+    }
+  ]
+}

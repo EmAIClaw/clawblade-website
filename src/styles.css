@@ -3194,6 +3194,69 @@ main {
   overflow: hidden;
 }
 
+/* ── Pilot listening guidance ──────────────────────────────────── */
+
+.trackListenForLabel {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 0.15rem;
+}
+
+.trackListenForQuestion {
+  margin: 0 0 0.4rem;
+  line-height: 1.45;
+}
+
+.trackLeadPilotSuppressed {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.trackEntryPoint {
+  color: var(--brass);
+  font-size: 0.6rem;
+  margin-right: 0.35rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.trackPilotFollowUp {
+  font-style: italic;
+  color: var(--muted);
+  margin: 0.5rem 0 0;
+  font-size: 0.88rem;
+}
+
+.trackPilotVocabulary {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.trackPilotVocabulary strong {
+  color: var(--text);
+}
+
+.discHeading {
+  grid-column: 1 / -1;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin: 0.8rem 0 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(199, 164, 91, 0.15);
+}
+
 .trackEditorialDetails {
   margin-top: 0.5rem;
 }
@@ -3511,4 +3574,55 @@ main {
   .settingsDialog { grid-column: 1 / -1; min-width: 0; }
   .syncStatusCompact { grid-column: 1 / -1; padding: 0.1rem; }
   .syncStatusText { white-space: normal; overflow-wrap: anywhere; }
+}
+
+/* ─── Stage 4: Last time disclosure + draft session ─────────────────── */
+
+.lastTimeDisclosure {
+  margin: 0 0 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  overflow: hidden;
+}
+
+.lastTimeDisclosure > summary {
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--muted);
+  list-style: none;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.lastTimeDisclosure > summary:hover {
+  background: #2b2823;
+}
+
+.lastTimeDisclosure > summary::before {
+  content: "\25B8\00a0";
+  display: inline;
+}
+
+.lastTimeDisclosure[open] > summary::before {
+  content: "\25BE\00a0";
+}
+
+.lastTimeContent {
+  padding: 0 0.9rem 0.7rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.lastTimeNote {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.lastTimeDate {
+  font-size: 0.75rem;
+  color: var(--muted);
 }

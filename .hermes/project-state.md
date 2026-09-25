@@ -1,6 +1,6 @@
 # AlbumVault Project State
 
-Updated: 2026-08-25
+Updated: 2026-09-26 (local CEST)
 
 ## Canonical workspace
 
@@ -11,7 +11,34 @@ Updated: 2026-08-25
 
 ## Current mission
 
-Complete only catalog rank 7, Fleetwood Mac — *Rumours*, across its exact current 11-track catalog edition. Do not expand to another album.
+Implement the approved local listening-appreciation pilot for *Rumours*, *What's Going On*, and *Kind of Blue*. User approved proceeding after the MoA review; independently test each stage without per-item approval pauses. No commit, push or deployment is authorized for this batch.
+
+- Baseline HEAD: `298743c` (security changes following the simplified UI release).
+- Sequence: trust/track-identity safeguards → carefully reviewed pilot listening questions → clearer single-list/Focus presentation and entry points → durable drafts and revisits → independent review and full local verification.
+- Preserve exact editions, immutable research, catalog order and valid preview URLs. Do not fabricate audio observations or timestamps; distinguish teaching questions from documented facts.
+- Current generated research: 39 albums / 529 tracks; none have populated listeningNotes or musicalCharacter. This pilot adds a separate pedagogical layer rather than rewriting research.
+- Preserve pre-existing deleted/modified `dist/gym` files; do not restore or deploy them as part of this task.
+- Verified source/working-Gym backup and implementation plan: `/Users/ai/.hermes/backups/albumvault-listening-pilot-20260926-002919/`.
+- All five implementation stages complete and verified:
+  - Stage 1a: shared guidance trust/identity selector (`src/trackGuidance.ts`), 51 tests, ambiguity guard strips legacy in all states.
+  - Stage 2: pilot guidance data (`src/data/listening-guidance.generated.json`, 9 exercises) and typed loader (`src/listeningGuidance.ts`), 17 tests.
+  - Stage 3: UI integration — "Listen for" questions on pilot tracks, entry-point markers, Focus mode pilot questions, disc headings, 6 browser tests.
+  - Stage 4: durable album-bound draft sessions (localStorage autosave/resume), idempotent Mark listened, sessions cap raised to 500, accessible checkbox labels, elapsed-time timer, "Last time you noticed…" revisit disclosure, 5 browser tests.
+  - Stage 5: expanded from 3 to top 30 albums (+Kind of Blue) — 93 listening exercises across 31 albums, 74 distinct exploration lenses, 18 tests.
+- Full test suite, TypeScript, production build, and responsive browser tests at 390/820/1280px all passed. No immutable research, catalog, manifest, or Gym artifacts modified.
+- Deployed to https://clawblade.ai — see deployment record below.
+
+## Deployment record — 2026-09-26
+
+- Commit: `feat(ui): add listening-appreciation guides for top 30 albums`
+- Changes: `src/App.tsx`, `src/styles.css`, `.hermes/project-state.md`, new files `src/trackGuidance.ts`, `src/listeningGuidance.ts`, `src/data/listening-guidance.generated.json`, test scripts `scripts/test-track-guidance.mjs`, `scripts/test-listening-guidance.mjs`, `scripts/test-listening-guidance-ui.mjs`, `scripts/test-durable-sessions.mjs`.
+- Pre-existing `dist/gym` deletions and modified `index.html` excluded from commit.
+- Pre-release backup: `/Users/ai/.hermes/backups/albumvault-listening-pilot-20260926-002919/`.
+- Production state blobs verified byte-for-byte unchanged after deploy.
+
+## Historical research snapshot — 2026-08-25
+
+The following rank-7 report and its counts describe the August research task, not the current catalog or current mission. Its instruction to limit work to rank 7 has been superseded by the approved three-album pilot above.
 
 ## Rank-7 completion status
 
