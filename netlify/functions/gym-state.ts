@@ -57,8 +57,11 @@ function authorized(request: Request) {
 function validBackupPayload(payload: unknown): payload is string {
   if (typeof payload !== 'string') return false;
   try {
-    const parsed = JSON.parse(payload) as { version?: unknown };
-    return parsed.version === 1;
+    const parsed = JSON.parse(payload) as Record<string, unknown> | null;
+    if (!parsed || Array.isArray(parsed) || parsed.version !== 1) return false;
+    const tables = ['workoutPlans', 'exerciseTemplates', 'workoutSessions', 'exerciseSessions', 'setEntries', 'personalRecords'];
+    return tables.every(table => Array.isArray(parsed[table]) &&
+      (parsed[table] as unknown[]).every(row => row !== null && typeof row === 'object' && !Array.isArray(row)));
   } catch {
     return false;
   }

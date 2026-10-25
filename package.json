@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "node scripts/build-preserve-gym.mjs",
     "deploy:gym": "bash scripts/deploy-gym-via-github.sh",
-    "test:security": "node scripts/test-security.mjs",
+    "test:security": "node scripts/test-security.mjs && node --test scripts/test-gym-backup-payload.cjs",
     "test:data": "node scripts/test-data-integrity.mjs",
     "test:listening": "node scripts/test-listening-enhancements.mjs",
     "test:tabs": "node scripts/test-album-detail-tabs.mjs",
