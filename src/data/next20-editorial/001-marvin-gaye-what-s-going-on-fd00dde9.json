@@ -1,0 +1,75 @@
+{
+  "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+  "editionNumber": 5,
+  "contentHash": "b35fcb8c1fb0a2a1",
+  "scope": "These notes use retained writing recollections and a Library of Congress-hosted essay. Critical interpretations remain attributed to that essay. Tracks supported only by credits, release data or thin title glosses remain editorial gaps; no independent audio analysis is claimed.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "What's Going On",
+      "description": "Renaldo Benson remembered Gaye reshaping both the words and the tune. In Performing Songwriter’s account, Benson credits him with adding lyrics and giving the melody extra character.",
+      "claimIds": [
+        "001-marvin-gaye-what-s-going-on-fd00dde9:1:1:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://performingsongwriter.com/marvin-gaye-whats-going-on": "Renaldo Benson’s recollection · Performing Songwriter"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "What's Happening Brother",
+      "description": "The homecoming behind this song is a specific one. An essay hosted by the Library of Congress connects it to Frankie Gaye’s stories of returning to America after serving in Vietnam.",
+      "claimIds": [
+        "001-marvin-gaye-what-s-going-on-fd00dde9:1:2:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf": "Guest essay hosted by the Library of Congress"
+      },
+      "question": "How does knowing about Frankie’s homecoming affect your understanding of the song?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Flyin' High (In the Friendly Sky)",
+      "description": "The title borrows an airline’s invitation: an essay hosted by the Library of Congress traces it to United Airlines’ slogan, “Fly the friendly skies.”",
+      "claimIds": [
+        "001-marvin-gaye-what-s-going-on-fd00dde9:1:3:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf": "Guest essay hosted by the Library of Congress"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "God Is Love",
+      "description": "An essay hosted by the Library of Congress reads “God Is Love” as a straightforward declaration of Gaye’s Christianity.",
+      "claimIds": [
+        "001-marvin-gaye-what-s-going-on-fd00dde9:1:5:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf": "Guest essay hosted by the Library of Congress"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Wholy Holy",
+      "description": "An essay hosted by the Library of Congress links this song back to the themes of “God Is Love” and draws attention to the wordplay in its title.",
+      "claimIds": [
+        "001-marvin-gaye-what-s-going-on-fd00dde9:1:8:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Whats-Going-On_Howard.pdf": "Guest essay hosted by the Library of Congress"
+      },
+      "question": "Listening to “God Is Love” and “Wholy Holy” together, what connection, if any, do you find between their words?"
+    }
+  ]
+}

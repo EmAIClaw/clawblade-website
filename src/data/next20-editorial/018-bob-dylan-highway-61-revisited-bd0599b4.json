@@ -1,0 +1,105 @@
+{
+  "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+  "editionNumber": 1,
+  "contentHash": "21571f1103a6484f",
+  "scope": "These concise notes paraphrase the retained track-specific sources named with each entry. Most are Wikipedia accounts, sometimes reporting another critic or an artist’s explanation; they are not new primary-source research or independent audio analysis. Optional questions invite your response. Thin or ambiguous evidence remains a gap rather than a completed description.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Like a Rolling Stone",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:1:fact-1"
+      ],
+      "description": "Wikipedia reports that the combination of electric guitar licks, organ chords and Dylan’s voice in “Like a Rolling Stone” has been described as revolutionary.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "Which part of that combination most shapes your response: guitar, organ or voice?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Tombstone Blues",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:2:fact-1"
+      ],
+      "description": "A two-chord blues supports a parade of historical characters. Wikipedia describes the song as fast-paced and driven by Michael Bloomfield’s lead guitar.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does the lead guitar affect your experience of the stream of characters?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "From a Buick 6",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:4:fact-1"
+      ],
+      "description": "AllMusic critic Bill Janovitz calls this a raucous, up-tempo blues played almost recklessly, in the account retained from Wikipedia.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "Does the performance strike you as reckless, controlled or somewhere between the two?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Ballad of a Thin Man",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:5:fact-1"
+      ],
+      "description": "Dylan’s piano drives “Ballad of a Thin Man,” according to Wikipedia, whose account sets it against Al Kooper’s organ riffs. The source describes those organ figures as spooky.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "What contrast do you hear between the piano and organ?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Highway 61 Revisited",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:7:fact-1"
+      ],
+      "description": "Wikipedia quotes the opening as an exchange between God and Abraham: a command to kill a son is met with Abraham’s disbelief.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does the conversational response change the tone of that opening exchange for you?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Just Like Tom Thumb's Blues",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:8:fact-1"
+      ],
+      "description": "“Just Like Tom Thumb’s Blues” has six verses and no chorus, according to Wikipedia. The documented form offers a way to follow the song without waiting for a separate recurring refrain.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "Without a chorus, what helps you recognize the passage from one verse to the next?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Desolation Row",
+      "claimIds": [
+        "018-bob-dylan-highway-61-revisited-bd0599b4:1:9:fact-1"
+      ],
+      "description": "Gill’s characterization, retained via Wikipedia, presents “Desolation Row” as an eleven-minute epic populated by iconic figures, grotesques and oddities. His comparison to a Fellini-like parade is a critical reading, not a documented statement of Dylan’s intent.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Highway_61_Revisited": "Wikipedia Highway 61 Revisited article"
+      },
+      "sourceContext": "Source-bound track note"
+    }
+  ]
+}

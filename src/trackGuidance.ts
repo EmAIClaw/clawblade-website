@@ -1,22 +1,11 @@
 // trackGuidance.ts — Shared guidance trust/identity selector for Listen and Focus.
 //
-// Stage 1a of the AlbumVault listening pilot.  This module provides a single
-// pure selector that both track rows (Listen tab) and Focus mode use to decide
-// what guidance content to show for a given track.  It discriminates among
-// research loading/error/missing/documented/insufficient-evidence/contextual/
-// limited/unresearched states and explicit editorial kinds, and guards legacy
-// title-only mapping against ambiguity.
-//
-// Design rules:
-//   - Versioned evidence (documented, insufficient-evidence, contextual,
-//     limited) always takes precedence over legacy editorial guides.
-//   - If the same title appears on multiple catalog tracks OR multiple legacy
-//     guides, the legacy editorial content is ambiguous and is omitted in ALL
-//     research states (loading/error/missing/loaded).  Exact versioned research
-//     identity does not legitimise an ambiguous legacy title-only association.
-//   - No fuzzy matches or borrowing across edition — exact title comparison only.
-//   - Loading/error/retry states are visible so Listen is not silent during
-//     async loads or failures.
+// Reader policy: only versioned research supplies track commentary. Legacy
+// prose is retained in the source data but never returned, even when it has a
+// source URL or a unique title. Neither establishes claim-level review.
+// Loading/error states remain explicit; missing research gets an honest gap.
+// Legacy input/types and exact-title helpers remain compatible with existing
+// callers, but editorial-unqualified/ambiguous are no longer emitted.
 
 import type {
   EvidenceLevel,
@@ -84,7 +73,7 @@ const DEFAULT_LISTENING_LEAD =
   "Listen for the arrangement, dynamics, and placement of this track inside the album arc.";
 const LOADING_LEAD = "Loading track research…";
 const ERROR_LEAD = "Track research could not be loaded.";
-const MISSING_LEAD = "No track-specific note available.";
+const MISSING_LEAD = "Track commentary not yet researched.";
 const AMBIGUOUS_LEAD =
   "Editorial note omitted: track title is not uniquely identifiable in this edition.";
 const EDITORIAL_LABEL = "Editorial listening note";
@@ -119,39 +108,21 @@ export function detectTitleAmbiguity(
 
 // ─── resolveTrackGuidance ────────────────────────────────────────
 
-/**
- * Single selector giving discriminated research loading/error/missing/
- * documented/insufficient-evidence/contextual/limited/unresearched and
- * explicit editorial kind.  Used by both Listen track rows and Focus mode.
- *
- * Precedence:
- *   1. loading / error / missing (async states)
- *   2. If versioned research entry exists → use its evidenceLevel as kind
- *   3. If no versioned entry and legacy guide exists:
- *      - If title ambiguous → editorial-ambiguous (legacy suppressed)
- *      - Else → editorial-unqualified
- *   4. If no versioned entry and no legacy guide → missing
- */
+/** Shared reader selector: async state → versioned entry → research gap. */
 export function resolveTrackGuidance(
   input: ResolveTrackGuidanceInput,
 ): TrackGuidance {
   const {
     researchLoadStatus,
     researchEntry,
-    legacyGuide,
-    titleAmbiguous,
     researchErrorMessage,
   } = input;
 
-  // ── Ambiguity guard ──
-  // titleAmbiguous invalidates legacy title-only matching in ALL research
-  // states.  The legacy guide is stripped and legacySuppressed is set true
-  // so consumers (showEditorialDetails = legacyGuide && !legacySuppressed)
-  // never surface an ambiguous title-only association.  Versioned evidence
-  // (when present) remains available and leads unchanged — exact research
-  // identity does not legitimise an ambiguous secondary legacy guide.
-  const effectiveLegacyGuide = titleAmbiguous ? undefined : legacyGuide;
-  const legacySuppressed = titleAmbiguous;
+  // Legacy guides have no claim-level review contract. A source URL or an
+  // unambiguous title does not make their prose safe to display. Keep source
+  // data intact, but exclude it from every reader-facing state.
+  const effectiveLegacyGuide = undefined;
+  const legacySuppressed = true;
 
   // ── Async states ──
   if (researchLoadStatus === "loading") {
@@ -178,26 +149,7 @@ export function resolveTrackGuidance(
     return resolveVersionedEntry(researchEntry, effectiveLegacyGuide, legacySuppressed);
   }
 
-  // ── No versioned entry (missing state, or loaded but no match for this track) ──
-  if (titleAmbiguous && legacyGuide) {
-    return {
-      kind: "editorial-ambiguous",
-      leadText: AMBIGUOUS_LEAD,
-      legacyGuide: undefined,
-      legacySuppressed: true,
-      editorialLabel: EDITORIAL_LABEL,
-    };
-  }
-
-  if (legacyGuide) {
-    return {
-      kind: "editorial-unqualified",
-      leadText: legacyGuide.guide,
-      legacyGuide,
-      legacySuppressed: false,
-      editorialLabel: EDITORIAL_LABEL,
-    };
-  }
+  // No reviewed track entry: show an honest gap instead of legacy prose.
 
   return {
     kind: "missing",
@@ -281,6 +233,7 @@ function resolveVersionedEntry(
 }
 
 function versionedLeadText(entry: TrackEncyclopediaEntry): string {
+  if (entry.evidenceLevel === "unresearched") return MISSING_LEAD;
   // Priority: first verified fact claim → listening notes → first limitation
   // → evidence label
   if (entry.verifiedFacts.length > 0 && entry.verifiedFacts[0].claim) {

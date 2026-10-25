@@ -80,6 +80,7 @@ try {
   await page.locator('.albumIdentity').first().click();
   await page.locator('.trackList').waitFor();
 
+  await page.locator('.trackEditorialScope').waitFor();
   const trackRows = page.locator('.trackRow');
   const rowCount = await trackRows.count();
   assert.equal(rowCount, rumours.tracks.length, 'track row count must match catalog');
@@ -106,7 +107,7 @@ try {
   });
 
   // ─── Test 2: Non-pilot tracks show existing lead ───────────────
-  await test('non-pilot tracks show existing trackLead, no Listen for label', async () => {
+  await test('tracks beyond the original pilot show a description and optional question', async () => {
     const nonPilotTitles = rumours.tracks
       .map(t => t.title)
       .filter(t => !PILOT_TRACK_TITLES.includes(t));
@@ -115,7 +116,7 @@ try {
       const lead = row.locator('.trackLead');
       assert.ok(await lead.count() > 0, `${title} should have existing .trackLead`);
       const listenForLabel = row.locator('.trackListenForLabel');
-      assert.equal(await listenForLabel.count(), 0, `${title} should NOT have a Listen for label`);
+      assert.equal(await listenForLabel.count(), 1, `${title} should have an optional question`);
     }
   });
 

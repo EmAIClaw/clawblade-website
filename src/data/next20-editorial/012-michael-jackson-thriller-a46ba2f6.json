@@ -1,0 +1,131 @@
+{
+  "albumId": "012-michael-jackson-thriller-a46ba2f6",
+  "editionNumber": 1,
+  "contentHash": "8657b99ec8e06279",
+  "scope": "These notes use Bruce Swedien’s recording recollections as reproduced by Thriller 40. They are attributed accounts, not independent session verification or audio analysis. Optional questions invite exploration rather than assert new facts.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Wanna Be Startin' Somethin'",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:1:fact-1"
+      ],
+      "description": "Bruce Swedien’s account, reproduced by Thriller 40, describes an opening built from live drums and drum machines together. He identifies a Univox machine but is tentative about the model, recalling that it was an SR55.",
+      "question": "At the opening, can you follow separate percussion patterns, or do they register as a single texture?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Baby Be Mine",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:2:fact-1"
+      ],
+      "description": "The drum platform was also a vocal platform. In the account reproduced by Thriller 40, Bruce Swedien identifies John Robinson as the drummer here and describes the unpainted, unvarnished, roughly eight-foot-square platform on which Jackson also recorded his vocals.",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "The Girl Is Mine",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:3:fact-1"
+      ],
+      "description": "This duet with Paul McCartney was the first track recorded for the album, Bruce Swedien recalls in the account reproduced by Thriller 40. He remembers McCartney arriving prepared and the session as an enjoyable collaboration.",
+      "question": "How does your attention move between the two singers during the duet?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Thriller",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:4:fact-1"
+      ],
+      "description": "The wolf howls were a performance by Jackson himself, according to Bruce Swedien’s account reproduced by Thriller 40.",
+      "question": "What makes the wolf howls feel like a vocal performance to you, if anything?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Beat It",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:5:fact-1"
+      ],
+      "description": "The opening synthesizer sound survived a disagreement about originality. Bruce Swedien, in the account reproduced by Thriller 40, calls it a stock Synclavier patch: the team wanted unique sounds, but Jackson liked this one and insisted on keeping it.",
+      "question": "What expectation does the opening synth sound set up before the rest of the track unfolds?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Billie Jean",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:6:fact-1"
+      ],
+      "description": "Bruce Swedien identifies Louis Johnson as the bassist in the account reproduced by Thriller 40. He recorded the part through a direct-input box with a UTC transformer and praises its warm low end.",
+      "question": "When you focus on the bass, which draws you in more: its pattern or the character of its sound?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Human Nature",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:7:fact-1"
+      ],
+      "description": "Steve Porcaro’s role extended beyond co-writing the song with John Bettis. Bruce Swedien’s account, reproduced by Thriller 40, credits Porcaro with playing and programming many of its synthesizers.",
+      "question": "Which synthesizer part, if you can distinguish one, seems most closely connected to the vocal?",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "P.Y.T. (Pretty Young Thing)",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:8:fact-1"
+      ],
+      "description": "Bruce Swedien recalls extensive use of the Minimoog here, programmed by Michael Boddicker. In the account reproduced by Thriller 40, he describes Boddicker as the synth programmer present throughout the project.",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "The Lady in My Life",
+      "claimIds": [
+        "012-michael-jackson-thriller-a46ba2f6:1:9:fact-1"
+      ],
+      "description": "Discussing this Rod Temperton song, Bruce Swedien emphasizes the composer’s preparation. In the account reproduced by Thriller 40, he remembers Temperton arriving with every musical detail either written down or worked out in his mind.",
+      "sourceLabels": {
+        "https://www.thriller40.com/articles/bruce-swedien-on-thriller-track-by-track": "Bruce Swedien’s account, reproduced by Thriller 40"
+      },
+      "sourceContext": "Recording recollection"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+  "editionNumber": 2,
+  "contentHash": "087bfa79d706c8ae",
+  "scope": "These notes draw on Brian Wilson’s 1996 interview with David Leaf for The Pet Sounds Sessions, archived by Album Liner Notes. They preserve his retrospective judgments and uncertainty rather than treating them as independent audio verification. One ambiguous metaphor remains an editorial gap.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Wouldn't It Be Nice",
+      "description": "Brian Wilson described a bright song built around wanting something that must wait. In his interview with David Leaf, he connected “Wouldn’t It Be Nice” to the frustrations of youth: desire, limits and anticipation.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "Does the song’s mood make that waiting feel hopeful, frustrating, or both to you?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "You Still Believe In Me",
+      "description": "Wilson recalled deliberately entering a sweeter, more feminine vocal world for this song. In his account, closing his eyes and singing that way allowed him to express more love; he contrasted it with a conventionally masculine voice.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "What do you notice in the vocal delivery when you listen with Wilson’s description of sweetness in mind?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "That's Not Me",
+      "description": "Wilson thought Mike Love’s powerful voice made this song his own. Yet he recalled that he and Tony Asher had not written it with a particular singer in mind: the eventual fit came after the freedom of writing without that assignment.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Don't Talk (Put Your Head On My Shoulder)",
+      "description": "Wilson connected “Don’t Talk” to the many ways of telling someone you love them. Looking back on his work with Tony Asher, he felt they had a particular grasp of that subject.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "What way of expressing affection does this song suggest to you beyond a direct declaration?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "I'm Waiting for the Day",
+      "description": "Wilson’s reservations were about his own voice, not the song’s outlook. He recalled disliking his vocal on this track while still considering the song appropriate and very positive.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "Do you share Wilson’s reservations about the vocal, or does it work differently for you?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Let's Go Away for Awhile",
+      "description": "Wilson heard Burt Bacharach’s influence in the chord changes of “Let’s Go Away for Awhile.” He described Bacharach’s music as having sent him in a direction he valued, and spoke with pride about the resulting tune.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "Where, if anywhere, do the changes in harmony seem to take the tune somewhere unexpected?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Sloop John B",
+      "description": "Al Jardine brought the song to Wilson through a record. Wilson recalled Jardine playing him the Kingston Trio’s version, which he had not heard before; he then learned the song and arranged it for the Beach Boys.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "God Only Knows",
+      "description": "Wilson described this song through an image of inward vision: closing your eyes and seeing a place or an event more clearly. He associated that vision with both himself and Tony Asher, without offering a literal explanation of the lyrics.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "I Know There's an Answer",
+      "description": "Wilson singled out the combination of organ and tack piano. To him, the instruments together became a different sound that no longer seemed simply like either one on its own.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "Can you distinguish the organ and tack piano, or do they register as a single unfamiliar texture?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Here Today",
+      "description": "“Here Today” remained a puzzle to Wilson. He recalled both liking and disliking it, and said he did not identify with it as closely as with “You Still Believe In Me” or “Caroline, No.”",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Pet Sounds",
+      "description": "The instrumental began as “Run James Run,” Wilson recalled, with a James Bond-style theme in mind. He said they considered taking it to the Bond producers but decided that would never happen, so it became part of the album instead.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      },
+      "question": "Knowing its intended film-theme role, what kind of scene, if any, does the instrumental suggest to you?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Caroline, No",
+      "description": "Wilson called “Caroline, No” probably his favourite cut on the album. He also recalled following his father’s advice to speed it up “a whole note.” That is his wording for the change; the retained account does not establish a precise playback-speed setting.",
+      "claimIds": [
+        "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://albumlinernotes.com/Interview_w_Brian_Wilson.html": "Brian Wilson interviewed by David Leaf · Album Liner Notes archive"
+      }
+    }
+  ]
+}

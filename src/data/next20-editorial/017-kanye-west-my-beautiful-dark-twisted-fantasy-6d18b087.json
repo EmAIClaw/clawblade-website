@@ -1,0 +1,156 @@
+{
+  "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+  "editionNumber": 1,
+  "contentHash": "a7cc5cd4bd43bf7c",
+  "scope": "These concise notes paraphrase the retained track-specific sources named with each entry. Most are Wikipedia accounts, sometimes reporting another critic or an artist’s explanation; they are not new primary-source research or independent audio analysis. Optional questions invite your response. Thin or ambiguous evidence remains a gap rather than a completed description.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Dark Fantasy",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1"
+      ],
+      "description": "Nicki Minaj opens the track with a narrated reworking of Roald Dahl’s Cinderella poem, according to Wikipedia.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "What expectations does the narrated opening create for the music that follows?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Power",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1"
+      ],
+      "description": "A King Crimson sample is part of the foundation here: Wikipedia identifies “21st Century Schizoid Man” as the source and describes the production around it as dark.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "All of the Lights (Interlude)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1"
+      ],
+      "description": "Wikipedia describes this interlude as a companion to “All of the Lights,” often played together with the song that follows it on the album.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/All_of_the_Lights": "Wikipedia All of the Lights article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "When you play the interlude and song together, does the boundary feel like a continuation or a fresh start?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "All of the Lights",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1"
+      ],
+      "description": "Rihanna sings the hook within a much larger vocal cast. Wikipedia reports that West enlisted eleven guest vocalists, among them Alicia Keys, John Legend, Tony Williams and Elly Jackson.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does the hook organize your attention amid the track’s different voices?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "So Appalled (feat. JAŸ-Z, Pusha T, Prynce Cy Hi, Swizz Beatz & RZA)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1"
+      ],
+      "description": "Piano and strings form the basis of “So Appalled,” according to Wikipedia’s description of this posse cut.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "As the voices change, how does your attention to the piano and strings change?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Devil In a New Dress (feat. Rick Ross)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1"
+      ],
+      "description": "Wikipedia traces the foundation of “Devil in a New Dress” to a sample of Smokey Robinson’s “Will You Love Me Tomorrow.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Runaway (feat. Pusha T)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1"
+      ],
+      "description": "Wikipedia singles out a descending piano motif in “Runaway,” describing its sequence in half and whole notes.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "What does the descending piano figure contribute to your sense of movement or stillness?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Hell of a Life",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1"
+      ],
+      "description": "Wikipedia identifies the Mojo Men’s “She’s My Baby” as a sample source for “Hell of a Life.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Blame Game (feat. John Legend)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1"
+      ],
+      "description": "Wikipedia describes “Blame Game” as low-key and built around a sample of Richard D. James’s piano composition “Avril 14th.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Lost In the World (feat. Bon Iver)",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1"
+      ],
+      "description": "Bon Iver’s “Woods” supplies prominent samples in “Lost in the World,” according to Wikipedia.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Who Will Survive In America",
+      "claimIds": [
+        "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1"
+      ],
+      "description": "Wikipedia identifies a sample of Gil Scott-Heron’s “Comment No. 1” in this album coda.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/My_Beautiful_Dark_Twisted_Fantasy": "Wikipedia My Beautiful Dark Twisted Fantasy article"
+      },
+      "sourceContext": "Source-bound track note"
+    }
+  ]
+}

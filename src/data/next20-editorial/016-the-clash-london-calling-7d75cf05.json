@@ -1,0 +1,330 @@
+{
+  "albumId": "016-the-clash-london-calling-7d75cf05",
+  "editionNumber": 1,
+  "contentHash": "580f5f2a45b44176",
+  "scope": "These notes use retained excerpts from Wikipedia, Elizabeth Nelson’s Ringer essay and Rolling Stone. Critical interpretations remain attributed; Wikipedia is a secondary summary, not direct primary-source consultation. Main-album and Vanilla Studios demo identities are kept separate. Short developmental links do not establish identical arrangements, and thin or absent evidence remains a gap.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "London Calling",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:1:fact-1"
+      ],
+      "description": "Wikipedia identifies the March 1979 Three Mile Island nuclear accident as one influence on the title track.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Brand New Cadillac",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:2:fact-1"
+      ],
+      "description": "A rehearsal habit became the starting point for the album sessions. Wikipedia says the Clash had used this song to warm up before it became the first track they recorded for London Calling.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Jimmy Jazz",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:3:fact-1"
+      ],
+      "description": "Wikipedia identifies Jimmy Jazz as an underworld criminal in the song’s narrative.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Hateful",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:4:fact-1"
+      ],
+      "description": "The Ringer’s Elizabeth Nelson hears a “Bo Diddley–meets-Bowie drug panic” in this track. Her phrase brings together a stylistic comparison and a reading of its subject; it does not document direct borrowing from either artist.",
+      "question": "Does Nelson’s description of panic fit your experience of the song, and what gives you that impression?",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Rudie Can't Fail",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:5:fact-1"
+      ],
+      "description": "Wikipedia reads the song as the story of a pleasure-loving young man criticised for failing to behave like a responsible adult. That account gives the conflict a generational and social frame without identifying the character as a particular real person.",
+      "question": "Whose point of view seems most persuasive to you: the young man’s or the people judging him?",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Spanish Bombs",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:6:fact-1"
+      ],
+      "description": "Wikipedia connects the song to the continuing effects of the Spanish Civil War.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "The Right Profile",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:7:fact-1"
+      ],
+      "description": "Elizabeth Nelson’s Ringer essay reads the song as Strummer’s wry, sad eulogy to Montgomery Clift. Her account offers a way of understanding its subject without treating the song as a straightforward biographical record.",
+      "question": "Do the words and performance suggest the same emotional attitude toward the subject, or different ones?",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Lost In the Supermarket",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:8:fact-1"
+      ],
+      "description": "Wikipedia says Strummer wrote the song after imagining Mick Jones’s childhood with his mother and grandmother in a basement. The important distinction is imagination: this is an account of the writing premise, not confirmation that every detail in the song happened to Jones.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Clampdown",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:9:fact-1"
+      ],
+      "description": "Wikipedia traces “Clampdown” to an instrumental called “Working and Waiting.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "The Guns of Brixton",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:10:fact-1"
+      ],
+      "description": "This marked two firsts for Paul Simonon, according to Wikipedia: his first composition recorded by the band for an album and his first lead vocal.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Wrong 'Em Boyo",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:11:fact-1"
+      ],
+      "description": "Wikipedia’s track listing credits Clive Alphonso, identifies the Rulers as the original performers and notes the inclusion of “Stagger Lee.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Death or Glory",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:12:fact-1"
+      ],
+      "description": "Wikipedia reads the song as Strummer looking back over his life while confronting adult responsibilities and complications. That is an interpretation of the song’s perspective, not a verified account of every event in the lyrics.",
+      "question": "Does the backward-looking perspective feel resigned, defiant, or something less settled to you?",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Koka Kola",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:13:fact-1"
+      ],
+      "description": "Elizabeth Nelson’s Ringer essay describes the song as comic revenge against the expanding reach of advertising, with a stylistic comparison to the early Who. Both the social reading and the comparison belong to the critic.",
+      "question": "Does the song’s humour make its treatment of advertising feel sharper or lighter to you?",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 14,
+      "trackTitle": "The Card Cheat",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:14:fact-1"
+      ],
+      "description": "Wikipedia reports that the band recorded each part twice in an effort to make the sound as large as possible. That documents a production intention without requiring the listener to identify every doubled part.",
+      "question": "Where, if anywhere, does the recording give you a sense of scale or density?",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 15,
+      "trackTitle": "Lover's Rock",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:15:fact-1"
+      ],
+      "description": "Wikipedia characterises “Lover’s Rock” as advocating safe sex and planning. This is the source’s thematic reading, not health advice.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Four Horsemen",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:16:fact-1"
+      ],
+      "description": "Elizabeth Nelson reads “Four Horsemen” in The Ringer as a reaffirmation of the four musicians themselves: Joe Strummer, Topper Headon, Paul Simonon and Mick Jones. That is her interpretation of the song’s collective identity.",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "I'm Not Down",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:17:fact-1"
+      ],
+      "description": "Elizabeth Nelson’s Ringer essay emphasises the tension between misery and possibility in this Jones-sung track. Her reading keeps adversity and the refusal to give in together, rather than presenting the song as uncomplicated optimism.",
+      "question": "Which feels stronger to you here: the weight of setbacks or the insistence on continuing?",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 18,
+      "trackTitle": "Revolution Rock",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:1:18:fact-1"
+      ],
+      "description": "Elizabeth Nelson’s Ringer essay identifies this as a cover of the Danny Ray and Jackie Edwards reggae song.",
+      "sourceLabels": {
+        "https://www.theringer.com/2019/12/17/music/the-clash-london-calling-40th-anniversary": "Elizabeth Nelson · The Ringer"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 3,
+      "trackTitle": "Paul's Tune (Vanilla Studios Demo Version)",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:3:fact-1"
+      ],
+      "description": "Wikipedia identifies “Paul’s Tune” as an instrumental that would later be recorded as “The Guns of Brixton.”",
+      "question": "What can you follow in this instrumental that takes your attention away from expectations of a vocal?",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 10,
+      "trackTitle": "The Police Walked in 4 Jazz (Vanilla Studios Demo Version)",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:10:fact-1"
+      ],
+      "description": "Wikipedia identifies this as an instrumental early version of “Jimmy Jazz.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 12,
+      "trackTitle": "Up-Toon (Instrumental) [Vanilla Studios Demo Version]",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:12:fact-1"
+      ],
+      "description": "Wikipedia links the instrumental “Up-Toon” to the song ultimately released as “The Right Profile.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 15,
+      "trackTitle": "The Man In Me (Vanilla Studios Demo Version)",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:15:fact-1"
+      ],
+      "description": "Wikipedia describes this recording as a reggae version of Bob Dylan’s “The Man in Me.”",
+      "question": "How does the reggae character shape the way you follow the song’s melody?",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 17,
+      "trackTitle": "Working and Waiting (Vanilla Studios Demo Version)",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:17:fact-1"
+      ],
+      "description": "Wikipedia identifies “Working and Waiting” as the instrumental from which “Clampdown” developed.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/London_Calling": "Wikipedia · London Calling (secondary summary)"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 20,
+      "trackTitle": "London Calling (Vanilla Studios Demo Version)",
+      "claimIds": [
+        "016-the-clash-london-calling-7d75cf05:2:20:fact-1"
+      ],
+      "description": "Rolling Stone’s report on the Vanilla Tapes identifies this early “London Calling” as having alternate lyrics.",
+      "question": "If you know the album version, which lyrical differences stand out in this early performance?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/the-clash-serve-vanilla-248698": "Rolling Stone · The Clash Serve Vanilla"
+      },
+      "sourceContext": "Secondary history and critical interpretation"
+    }
+  ]
+}

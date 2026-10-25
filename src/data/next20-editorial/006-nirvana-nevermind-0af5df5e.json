@@ -1,0 +1,172 @@
+{
+  "albumId": "006-nirvana-nevermind-0af5df5e",
+  "editionNumber": 2,
+  "contentHash": "2a86565a358580f0",
+  "scope": "These short session accounts use the retained MOJO interview and reporting reproduced by Live Nirvana. Recollections remain attributed; no independent listening analysis is claimed. Optional questions invite exploration, not verified audio findings. The earlier-title-only claim for Stay Away remains a research gap for this reading layer.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Smells Like Teen Spirit",
+      "description": "Producer Butch Vig remembers being stunned the first time he heard the song with Dave Grohl. In his MOJO interview, preserved by Live Nirvana, he places that encounter in a large room at very high volume.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:1:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "In Bloom",
+      "description": "The arrangement had already taken shape on the demo. In MOJO's session interview, Butch Vig says it remained the same for Nevermind, while the drums were a source of dissatisfaction.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:2:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Come As You Are",
+      "description": "A quickly recorded backing track concealed a layered bass construction. Butch Vig tells MOJO that the bass was triple-tracked: a regular part, an octave part and another run through a DBX sub-harmonic effect.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:3:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "Following the bass, do the layers register as separate parts or as a single blended sound?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Breed",
+      "description": "The opening guitar went straight into the mixing desk. Butch Vig identifies that direct connection as the source of the sound he calls scratchy in his MOJO interview, linking the opening's texture to a specific recording choice.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:4:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "How would you describe the attack of the opening guitar in your own words?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Lithium",
+      "description": "MOJO's session account describes a difficult recording built in stages: Dave Grohl recorded the drums to a click, then bass and guitars were added. The quieter guitar parts were recorded separately too. The performance heard together on the record was not all captured together in the room.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:5:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "Across the changes in guitar intensity, does your sense of the pulse change?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Polly",
+      "description": "Voice and acoustic guitar were captured together. Butch Vig recalls in MOJO that Cobain sang while playing, late at night at Smart Studios.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:6:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "When you follow the voice and acoustic guitar together, what do you notice about how their phrases meet?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Territorial Pissings",
+      "description": "The opening voice belongs to Krist Novoselic, singing part of the Youngbloods' “Get Together,” according to Butch Vig's MOJO interview. Vig also recalls the guitar being fed directly into the recording board.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:7:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "What expectation does the borrowed vocal opening create for what follows?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Drain You",
+      "description": "The abstract passage grew out of sounds Cobain made during vocal passes. Butch Vig tells MOJO that Cobain picked up objects including squeaky ducks, percussion and an aerosol; their sounds stayed in the mix for a seventeen-bar section. This was material gathered during recording rather than a conventional guitar solo.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:8:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "In the abstract passage, which sounds can you identify, and which remain ambiguous?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Lounge Act",
+      "description": "Butch Vig recalls five or six takes and a very quickly recorded vocal in MOJO's account. He also describes adding Bassman guitar parts when the guitar picks up.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:9:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "On A Plain",
+      "description": "The harmony vocals are Dave Grohl's, according to MOJO's session account. The same account places the song's writing just before the Sound City sessions.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:11:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "What do you notice when you follow the harmony voices instead of the lead?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Something In The Way",
+      "description": "The foundation came from Cobain singing and playing quietly on the control-room couch. Butch Vig recalls bringing microphones into that room after the band had struggled with the song. In his MOJO account, harmonies, bass and drums were added afterward: the quiet voice-and-guitar performance became the starting point for the rest.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:12:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      },
+      "question": "How do the added instruments relate to the quiet voice and guitar: do they frame them or draw your attention away?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Endless, Nameless",
+      "description": "Butch Vig connects this performance to the frustration of recording “Lithium.” In his MOJO interview, he recalls the band launching into “Endless, Nameless” after finally getting a take, and Cobain smashing his left-handed Mosrite during the performance.",
+      "claimIds": [
+        "006-nirvana-nevermind-0af5df5e:1:13:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.livenirvana.com/sessions/reading/mojo54.php": "MOJO interview transcript (Live Nirvana, with permission)"
+      }
+    }
+  ]
+}

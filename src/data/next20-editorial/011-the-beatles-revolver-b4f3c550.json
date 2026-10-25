@@ -1,0 +1,156 @@
+{
+  "albumId": "011-the-beatles-revolver-b4f3c550",
+  "editionNumber": 1,
+  "contentHash": "8284849f6f9913f3",
+  "scope": "These notes use the retained Beatles Bible accounts, a secondary source. Where it quotes participants or another publication, that chain is preserved. They are not primary-session verification or independent audio analysis. Three tracks with only date, personnel or sequence metadata remain gaps; questions are optional.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Taxman",
+      "description": "The political names were a songwriting contribution. The Beatles Bible credits John Lennon with suggesting Harold Wilson and Edward Heath while helping George Harrison write the song.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:1:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/taxman": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Eleanor Rigby",
+      "description": "The instrumental backing came from a string octet rather than the Beatles playing their instruments. The Beatles Bible describes close microphone placement, fourteen takes for the strings and McCartney overdubbing his lead vocal afterward. The voice and string ensemble were therefore recorded in separate stages.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:2:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/eleanor-rigby/2": "The Beatles Bible song page"
+      },
+      "question": "How does the string ensemble frame the vocal phrases for you?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Love You To",
+      "description": "The Beatles Bible places this song beyond the sitar motif of “Norwegian Wood,” describing it as the band's first full attempt at a piece in the classical Indian style.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:4:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/love-you-to": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Here, There and Everywhere",
+      "description": "The title supplies a sequence for the verses. The Beatles Bible's account describes a verse built around “here,” another around “there,” then a final verse bringing the idea together with “everywhere.” The words work as an organizing device as well as a title.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:5:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/here-there-and-everywhere": "The Beatles Bible song page"
+      },
+      "question": "How does the move from “here” to “there” to “everywhere” change your sense of the song's reach?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Yellow Submarine",
+      "description": "One couplet came from outside the band. The Beatles Bible reproduces Donovan's recollection, credited to Barry Miles's Many Years From Now, of McCartney asking him to fill a missing line. Donovan says he returned with the image of blue sky and green sea that stayed in the song.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:6:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/yellow-submarine": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "She Said She Said",
+      "description": "The Beatles Bible links the song's origin to an LSD-influenced conversation between John Lennon and Peter Fonda, and identifies it as the final track recorded for Revolver.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:7:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/she-said-she-said": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Good Day Sunshine",
+      "description": "The piano solo's playback sound involved tape speed. The Beatles Bible says George Martin recorded it at half speed, so it became faster and higher on playback.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:8:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/good-day-sunshine": "The Beatles Bible song page"
+      },
+      "question": "What qualities of the piano solo stand out when you know its speed and pitch were changed in playback?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "And Your Bird Can Sing",
+      "description": "The twin guitar riffs are the feature The Beatles Bible singles out, crediting them to Paul McCartney and George Harrison.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:9:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/and-your-bird-can-sing": "The Beatles Bible song page"
+      },
+      "question": "Do you follow the twin guitar lines separately, or hear them as one combined figure?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "For No One",
+      "description": "The melody passed between three people. The Beatles Bible says McCartney sang it to George Martin, who wrote it down, and Alan Civil performed it.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:10:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/for-no-one": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Doctor Robert",
+      "description": "The Beatles Bible identifies the song's doctor as Dr Robert Freymann, who ran a clinic on Manhattan's East 78th Street. It contrasts that identification with the belief of some in London that the title referred to art dealer Robert Fraser.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:11:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/doctor-robert": "The Beatles Bible song page"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "I Want to Tell You",
+      "description": "George Harrison described the piano chord as E7 with an F on top, according to the quotation retained by The Beatles Bible. His assertion that he invented it is a personal claim of discovery, not evidence that nobody had used that combination before.",
+      "claimIds": [
+        "011-the-beatles-revolver-b4f3c550:1:12:fact-1"
+      ],
+      "sourceContext": "Secondary songwriting and recording history",
+      "sourceLabels": {
+        "https://www.beatlesbible.com/songs/i-want-to-tell-you": "The Beatles Bible song page"
+      },
+      "question": "What effect does the piano chord have on your sense of tension or resolution?"
+    }
+  ]
+}

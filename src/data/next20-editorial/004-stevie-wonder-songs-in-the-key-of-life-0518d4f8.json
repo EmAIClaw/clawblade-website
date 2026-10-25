@@ -1,0 +1,240 @@
+{
+  "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+  "editionNumber": 3,
+  "contentHash": "bc1413dab6a4d0ab",
+  "scope": "These notes combine attributed interviews, secondary reporting and reviews. Okayplayer relays Wall Street Journal excerpts, Classic Motown relays Musician, and speculative subject identifications remain uncertain. Musical details are source reports, not independently verified listening observations.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Love's In Need of Love Today",
+      "description": "Wonder described love as something that needs to be fed to remain effective. In Wall Street Journal interview excerpts relayed by Okayplayer, he explained that love on its own is hollow: that was the concept behind the song.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:1:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://okayplayer.com/stevie-wonder-takes-us-behind-the-creation-of-loves-in-need-of-love-today/762483": "Stevie Wonder · Wall Street Journal excerpts via Okayplayer"
+      },
+      "question": "What does the idea of feeding love change about how you understand the song’s appeal?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Village Ghetto Land",
+      "description": "Gary Byrd thought he had finished the lyrics after three months of work. Rolling Stone recounts Wonder calling from the studio with news that he had added another verse, reopening a song Byrd had believed complete.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:3:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Contusion",
+      "description": "A studio recollection quoted by Rolling Stone puts the number of mixes at at least thirty. The repeated work even became a T-shirt slogan: “Let’s Mix ‘Contusion’ Again.”",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:4:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Sir Duke",
+      "description": "Wonder wanted his appreciation to reach beyond the name in the title. In a symposium remark reported by uDiscover Music, he said “Sir Duke” was about musicians who had done something for people and were too soon forgotten.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:5:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.udiscovermusic.com/stories/stevie-wonder-sir-duke-song": "Stevie Wonder symposium remarks · uDiscover Music"
+      },
+      "question": "Does hearing the song as an act of appreciation change what you attend to in its words?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "I Wish",
+      "description": "Wonder traced the song’s initial feeling to a Motown picnic in the summer of 1976. Classic Motown quotes his recollection to Musician magazine: after running and taking part in contests, he went straight to Crystal Recording Studio, where that day’s enjoyment became the “I Wish” vibe.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:6:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://classic.motown.com/story/stevie-wonder-wish": "Stevie Wonder · Musician recollection via Classic Motown"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Knocks Me Off My Feet",
+      "description": "MusicRadar draws attention to the “I don’t want to bore you with it” refrain and to what it calls a “musical tumble” when Wonder is knocked off his feet. The review also says that moment is marked in the album’s lyric sheet; the sheet itself was not independently consulted for this note.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:7:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life": "MusicRadar"
+      },
+      "question": "At the moment the words describe being knocked off his feet, do you hear the musical gesture the reviewer calls a tumble?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Pastime Paradise",
+      "description": "Rolling Stone connects the opening figure to the first eight notes of Bach’s Prelude No. 2 in C Minor and reports an intention to echo the Beatles’ “Eleanor Rigby.” It also identifies Hare Krishna chanting in the fade.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:8:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      },
+      "question": "How does the chanting near the fade change your experience of the opening figure?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 1,
+      "trackTitle": "Isn't She Lovely",
+      "description": "Rolling Stone distinguishes the children heard at the two ends of the recording. It says the birth sounds at the opening come from another infant, while Aisha is heard laughing and splashing in the bath with her father during the extended fade.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:1:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      },
+      "question": "What difference does the move from the opening infant sounds to the bath-time recording make to your sense of the song?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 2,
+      "trackTitle": "Joy Inside My Tears",
+      "description": "An essay hosted by the Library of Congress hears “Joy Inside My Tears” as joy persisting in the face of life’s troubles. That emotional reading is the essay’s, leaving room for a listener to experience the balance differently.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:2:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Songs-in-the-Key-of-Life.pdf": "Essay hosted by the Library of Congress"
+      },
+      "question": "Do joy and trouble seem to coexist here for you, or does one dominate?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 3,
+      "trackTitle": "Black Man",
+      "description": "Rolling Stone’s original review characterizes “Black Man” as a Bicentennial history lesson bringing together figures from America’s diverse population.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:3:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350": "Rolling Stone"
+      }
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 4,
+      "trackTitle": "Ngiculela-Es Una Historia-I Am Singing",
+      "description": "The title follows the languages of the performance. MusicRadar identifies three vocal sections in Zulu, Spanish and English, linking each to the song’s three-part name.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:4:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life": "MusicRadar"
+      },
+      "question": "As the language changes, does your attention move toward the words, the voice’s sound, or something else?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 5,
+      "trackTitle": "If It's Magic",
+      "description": "The song began at Wonder’s piano, according to MusicRadar, and was first recorded that way. He subsequently chose harpist Dorothy Ashby to take over.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:5:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life": "MusicRadar"
+      },
+      "question": "What does the harp’s way of sustaining and releasing notes bring to this song for you?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 6,
+      "trackTitle": "As",
+      "description": "Rolling Stone’s original review hears “As” as a sustained declaration of love, with the vow extending to a day when night and day exchange places. That is the review’s reading of the song’s devotion, rather than a claim about Wonder’s private life.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:6:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-album-reviews/songs-in-the-key-of-life-186350": "Rolling Stone"
+      },
+      "question": "How does the impossible horizon of that promise affect its force for you?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 8,
+      "trackTitle": "Saturn",
+      "description": "According to Rolling Stone, the destination was originally Saginaw, Wonder’s Michigan birthplace. A guitarist misheard the name as Saturn, and the song’s location moved into outer space.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:8:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      }
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 9,
+      "trackTitle": "Ebony Eyes",
+      "description": "Rolling Stone reports speculation that “Ebony Eyes” refers to Wonder’s childhood crush on Diana Ross. It supports the existence of the crush with a remark he made to Vanity Fair, but that remark does not confirm the song’s subject. The proposed connection remains uncertain.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:9:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-features/inside-stevie-wonders-epic-magnum-opus-songs-in-the-key-of-life-124478": "Rolling Stone"
+      }
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 10,
+      "trackTitle": "All Day Sucker",
+      "description": "MusicRadar singles out the Clavinets and the Marshall Time Modulator in its account of “All Day Sucker,” judging it among the album’s funkiest moments.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:10:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life": "MusicRadar"
+      },
+      "question": "What role do the keyboard textures play in your response to the groove?"
+    },
+    {
+      "discNumber": 2,
+      "trackNumber": 11,
+      "trackTitle": "Easy Goin' Evening (My Mama's Call)",
+      "description": "MusicRadar describes a closing instrumental built from heavily chorused or flanged Fender Rhodes, Nathan Watts’s bass and multi-tracked harmonica.",
+      "claimIds": [
+        "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:11:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.musicradar.com/news/stevie-wonder-songs-in-the-key-of-life": "MusicRadar"
+      },
+      "question": "Try following the harmonica and then the keyboard: how does each change your sense of the closing mood?"
+    }
+  ]
+}

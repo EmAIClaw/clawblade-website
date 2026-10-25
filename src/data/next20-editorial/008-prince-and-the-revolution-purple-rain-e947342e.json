@@ -1,0 +1,131 @@
+{
+  "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+  "editionNumber": 1,
+  "contentHash": "89547af20055ff8a",
+  "scope": "These notes use several retained interviews and retrospective accounts, credited separately for each track. Memories, editorial explanations and official discography statements are distinguished; they are not a complete master-recording history or independent audio analysis. Questions are optional.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Let's Go Crazy",
+      "description": "Prince wanted the song less frantic and decided to record it again, engineer Susan Rogers recalls in Mix. Her account describes a drum-machine foundation playing back while Prince and the band performed live with their instruments connected directly.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:1:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.mixonline.com/recording/lets-go-crazy-prince": "Mix classic-track production history with engineer Susan Rogers"
+      },
+      "question": "How do the live parts seem to sit against the drum-machine foundation?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Take Me with U",
+      "description": "Lisa Coleman recalls doubling Apollonia's vocals on this song in SPIN's Purple Rain oral history. Apollonia's response in that account is less certain: she does not remember the doubling, though she imagines Coleman is on the recording.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:2:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.spinmagazine.com/2016/04/prince-the-oral-history-of-purple-rain-brian-raftery": "SPIN oral history with Lisa Coleman and Apollonia Kotero"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "The Beautiful Ones",
+      "description": "Susan Rogers remembered the song as personally important to Prince. Rolling Stone quotes her 1989 account saying it was written for Susannah Melvoin and meant a great deal to him.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:3:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/beautiful-ones-the-moment-prince-became-a-movie-star-224124": "Rolling Stone account quoting engineer Susan Rogers"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Computer Blue",
+      "description": "Wendy Melvoin describes a passage in which she has to follow Prince's playing exactly. In her Guitar.com interview, she says the fingering remains awkward for her and the final triplet demands extra concentration.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:4:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://guitar.com/features/interviews/the-revolution-wendy-melvoin-lisa-coleman-recording-performing-with-prince": "Guitar.com interview with Wendy Melvoin and Lisa Coleman"
+      },
+      "question": "Can you find a passage where the guitar lines seem closely coordinated, and what helps you follow them?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Darling Nikki",
+      "description": "“Darling Nikki” connects two very different accounts. Susan Rogers tells Tape Op it was the first tape Prince asked her to rough-mix after she finished his home-studio installation. TIME traces Tipper Gore's concern about record disclaimers to hearing the song with her daughter, then describes the formation of the Parents Music Resource Center in 1985.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:5:fact-1",
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:5:fact-2"
+      ],
+      "sourceContext": "Recording recollection and cultural history",
+      "sourceLabels": {
+        "https://tapeop.com/interviews/117/susan-rogers": "Tape Op interview with engineer Susan Rogers",
+        "https://time.com/4303801/prince-dead-darling-nikki-parental-advisory": "TIME history of Darling Nikki and parental advisory labels"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "When Doves Cry",
+      "description": "A missing part is central to the recording's documented design. The Library of Congress describes Prince dropping the bass line to create the song's distinctive sound.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:6:fact-1"
+      ],
+      "sourceContext": "Library of Congress recording description",
+      "sourceLabels": {
+        "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/registry-by-induction-years/2011": "Library of Congress National Recording Registry description"
+      },
+      "question": "Without a bass line, what draws your attention to the rhythm?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "I Would Die 4 U",
+      "description": "Asked about the sequencer-like pattern, Susan Rogers identifies Matt Fink in her Tape Op interview. She says the track was cut live and that Fink programmed the part.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:7:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://tapeop.com/interviews/117/susan-rogers": "Tape Op interview with engineer Susan Rogers"
+      },
+      "question": "Does the sequencer-like pattern hold your attention as a repeating figure, or recede behind other parts?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Baby I'm a Star",
+      "description": "Prince's official discography places the band's first performance of this song at the First Avenue benefit, alongside “Purple Rain” and “I Would Die 4 U.”",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:8:fact-1"
+      ],
+      "sourceContext": "Official discography performance history",
+      "sourceLabels": {
+        "https://discography.prince.com/albums/purple-rain": "Prince official Purple Rain discography"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Purple Rain",
+      "description": "Lisa Coleman recalls working with Prince on the live recording in a Los Angeles studio. The Guardian's account adds that strings were overdubbed and the recording was edited from thirteen minutes to eight minutes and forty-one seconds.",
+      "claimIds": [
+        "008-prince-and-the-revolution-purple-rain-e947342e:1:9:fact-1"
+      ],
+      "sourceContext": "Attributed recording account",
+      "sourceLabels": {
+        "https://www.theguardian.com/music/2017/jul/24/how-we-made-princes-purple-rain-interview": "Guardian interview with Lisa Coleman"
+      }
+    }
+  ]
+}

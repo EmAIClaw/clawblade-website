@@ -128,6 +128,7 @@ export type TrackEncyclopediaSourceRef = {
 };
 
 export type VerifiedFact = {
+  claimId?: string;
   claim: string;
   sourceRefs: TrackEncyclopediaSourceRef[];
 };

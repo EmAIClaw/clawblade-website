@@ -1,0 +1,4897 @@
+[
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "What's Going On",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 1,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "What's Happening Brother",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 1,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Flyin' High (In the Friendly Sky)",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 1,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Save the Children",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:4:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only authorship and album membership retained; no song-specific account beyond credits.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 1,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "God Is Love",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 1,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Mercy Mercy Me (The Ecology)",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:6:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only second-single release status retained; seek composition or musical evidence.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 1,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Right On",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:7:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "An expression of positivity explains the title phrase only; too little to support a useful track description.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 1,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Wholy Holy",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 1,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "001-marvin-gaye-what-s-going-on-fd00dde9",
+    "editionNumber": 5,
+    "contentHash": "b35fcb8c1fb0a2a1",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Inner City Blues (Make Me Wanna Holler)",
+    "claimIds": [
+      "001-marvin-gaye-what-s-going-on-fd00dde9:1:9:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only third/final-single release status retained; no supported musical or thematic account.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 1,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Wouldn't It Be Nice",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "You Still Believe In Me",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "That's Not Me",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Don't Talk (Put Your Head On My Shoulder)",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "I'm Waiting for the Day",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Let's Go Away for Awhile",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Sloop John B",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "God Only Knows",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "I Know There's an Answer",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Here Today",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 2,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "I Just Wasn't Made for These Times",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:11:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Wilson explicitly distinguishes his behind-the-beat metaphor from playing behind the beat; meaning too ambiguous for a rhythmic guide or useful paraphrase.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 2,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Pet Sounds",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "002-the-beach-boys-pet-sounds-eabcc325",
+    "editionNumber": 2,
+    "contentHash": "087bfa79d706c8ae",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Caroline, No",
+    "claimIds": [
+      "002-the-beach-boys-pet-sounds-eabcc325:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 2,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "All I Want",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 3,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "My Old Man",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 3,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Little Green",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 3,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Carey",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 3,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Blue",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 3,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "California",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:6:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Russ Kunkel performance credit only; no supported description of his contribution.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 3,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "This Flight Tonight",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 3,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "River",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 3,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "A Case of You",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 3,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "003-joni-mitchell-blue-9c3a8b85",
+    "editionNumber": 2,
+    "contentHash": "26b222e5aef9db55",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "The Last Time I Saw Richard",
+    "claimIds": [
+      "003-joni-mitchell-blue-9c3a8b85:1:10:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Dark cafe days is a thin critical label; avoid recasting the dismissive review as a rich or approving portrait.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 3,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Love's In Need of Love Today",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Have a Talk With God",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:2:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Calvin Hardaway co-writing credit only; no evidence of the nature of his contribution.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 4,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Village Ghetto Land",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Contusion",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Sir Duke",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "I Wish",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Knocks Me Off My Feet",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Pastime Paradise",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Summer Soft",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:9:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "The bounded claim names neither interview speaker nor George fully and supplies no musical role; do not infer personnel or technique from URL alone.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 4,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Ordinary Pain",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:1:10:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Syreeta Wright backing-vocal credit only; no retained account of the vocal arrangement.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 4,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 1,
+    "trackTitle": "Isn't She Lovely",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 2,
+    "trackTitle": "Joy Inside My Tears",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 3,
+    "trackTitle": "Black Man",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 4,
+    "trackTitle": "Ngiculela-Es Una Historia-I Am Singing",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 5,
+    "trackTitle": "If It's Magic",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 6,
+    "trackTitle": "As",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 7,
+    "trackTitle": "Another Star",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:7:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Aching, tender passion is a brief subjective judgment with no supporting musical or narrative detail; suppress rather than pad.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 4,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 8,
+    "trackTitle": "Saturn",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 9,
+    "trackTitle": "Ebony Eyes",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 4,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 10,
+    "trackTitle": "All Day Sucker",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8",
+    "editionNumber": 3,
+    "contentHash": "bc1413dab6a4d0ab",
+    "discNumber": 2,
+    "trackNumber": 11,
+    "trackTitle": "Easy Goin' Evening (My Mama's Call)",
+    "claimIds": [
+      "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8:2:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 4,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Come Together",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 5,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Something",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 5,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Maxwell's Silver Hammer",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:3:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Writer, formal credit and singer only; no supported arrangement or composition story.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Oh! Darling",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:4:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Verified claim limited to authorship and track order; working title in excerpt is not in the retained claim.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Octopus's Garden",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 5,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "I Want You (She's So Heavy)",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:6:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Authorship and album membership only; no supported sound or lyric account.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Here Comes the Sun",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:7:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Authorship and album/year only; no composition story in retained evidence.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Because",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 5,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "You Never Give Me Your Money",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 5,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Sun King",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:10:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Authorship and second-medley position only; do not fabricate transition or sound detail.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Mean Mr. Mustard",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 5,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Polythene Pam",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:12:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Verified claim limited to authorship and album; extra quoted lyric is not an approved thematic claim.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "She Came In Through the Bathroom Window",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:13:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Authorship and fifth-medley position only; no useful distinct account beyond sequencing.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "Golden Slumbers",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:14:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Verified claim limited to closing progression and following track; recording-together and orchestration details occur in excerpt but not claim. Seek a reviewed claim before using them.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "No editorial entry: evidence gap remains visible through existing research fallback.",
+    "rank": 5,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "Carry That Weight",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:15:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 5,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "The End",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:16:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 5,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "005-the-beatles-abbey-road-1955f3c5",
+    "editionNumber": 3,
+    "contentHash": "772df43eaad90b18",
+    "discNumber": 1,
+    "trackNumber": 17,
+    "trackTitle": "Her Majesty",
+    "claimIds": [
+      "005-the-beatles-abbey-road-1955f3c5:1:17:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Distinct bounded account; attribution and source limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 5,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Smells Like Teen Spirit",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:1:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "In Bloom",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:2:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 6,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Come As You Are",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:3:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Breed",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:4:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Lithium",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:5:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Polly",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:6:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Territorial Pissings",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:7:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Drain You",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:8:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Lounge Act",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:9:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Stay Away",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:10:fact-1"
+    ],
+    "reason": "The reviewed claim establishes only the earlier title Pay To Play; do not expand it with the excerpt’s unreviewed controversy narrative.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 6,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "On A Plain",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:11:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Something In The Way",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:12:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "006-nirvana-nevermind-0af5df5e",
+    "editionNumber": 2,
+    "contentHash": "2a86565a358580f0",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Endless, Nameless",
+    "disposition": "authored",
+    "claimIds": [
+      "006-nirvana-nevermind-0af5df5e:1:13:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 6,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Let's Go Crazy",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:1:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Take Me with U",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:2:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 8,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "The Beautiful Ones",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:3:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Computer Blue",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:4:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Darling Nikki",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:5:fact-1",
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:5:fact-2"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "When Doves Cry",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:6:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 8,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "I Would Die 4 U",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:7:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Baby I'm a Star",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:8:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 8,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "008-prince-and-the-revolution-purple-rain-e947342e",
+    "editionNumber": 1,
+    "contentHash": "89547af20055ff8a",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Purple Rain",
+    "disposition": "authored",
+    "claimIds": [
+      "008-prince-and-the-revolution-purple-rain-e947342e:1:9:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 8,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Tangled Up In Blue",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:1:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Simple Twist of Fate",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:2:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "You're a Big Girl Now",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:3:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Idiot Wind",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:4:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "You're Gonna Make Me Lonesome When You Go",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:5:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Meet Me In the Morning",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:6:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Lily, Rosemary and the Jack of Hearts",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:7:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "If You See Her, Say Hello",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:8:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Shelter from the Storm",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:9:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "009-bob-dylan-blood-on-the-tracks-c704391c",
+    "editionNumber": 1,
+    "contentHash": "e95a96b5264c6074",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Buckets of Rain",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "009-bob-dylan-blood-on-the-tracks-c704391c:1:10:fact-1"
+    ],
+    "reason": "Sony/Legacy session listing establishes date, location and version identity only; retain the verified research but do not inflate it into musical prose.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 9,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Intro",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:1:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Lost Ones",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:2:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Ex-Factor",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:3:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "To Zion (feat. Carlos Santana)",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:4:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Doo Wop (That Thing)",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:5:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Superstar",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:6:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Final Hour",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:7:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "When It Hurts so Bad",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:8:fact-1"
+    ],
+    "reason": "The reviewed claim establishes only a title change from Loved Real Hard Once; no distinct musical account supported.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 10,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "I Used to Love Him (feat. Mary J. Blige)",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:9:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Forgive Them Father",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:10:fact-1"
+    ],
+    "reason": "Only the recording location is established; a location-based template would add no substantive reading guide.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 10,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Every Ghetto, Every City",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:11:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Nothing Even Matters (feat. D'Angelo)",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:12:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Everything Is Everything",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:13:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "The Miseducation of Lauryn Hill",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:14:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "Can't Take My Eyes Off of You (I Love You Baby)",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:15:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b",
+    "editionNumber": 1,
+    "contentHash": "a5b704c0a30f7f11",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "Tell Him",
+    "disposition": "authored",
+    "claimIds": [
+      "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b:1:16:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 10,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Taxman",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:1:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Eleanor Rigby",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:2:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "I'm Only Sleeping",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:3:fact-1"
+    ],
+    "reason": "Only rhythm-track take count and recording/vocal dates are established; deeper arrangement evidence is needed.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 11,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Love You To",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:4:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Here, There and Everywhere",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:5:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Yellow Submarine",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:6:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "She Said She Said",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:7:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Good Day Sunshine",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:8:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "And Your Bird Can Sing",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:9:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "For No One",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:10:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Doctor Robert",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:11:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "I Want to Tell You",
+    "disposition": "authored",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:12:fact-1"
+    ],
+    "reason": "Specific retained account paraphrased with attribution and scope limits.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "rank": 11,
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Got to Get You Into My Life",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:13:fact-1"
+    ],
+    "reason": "Only the hiring of two unnamed Blue Flames members is established; no track-specific musical roles in the retained claim.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 11,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "011-the-beatles-revolver-b4f3c550",
+    "editionNumber": 1,
+    "contentHash": "8284849f6f9913f3",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "Tomorrow Never Knows",
+    "disposition": "metadata-only",
+    "claimIds": [
+      "011-the-beatles-revolver-b4f3c550:1:14:fact-1"
+    ],
+    "reason": "Only the contrast between album closing position and first recording is established; richer song evidence is needed.",
+    "questionDisposition": "omitted",
+    "questionReason": "No useful question supported beyond metadata.",
+    "rank": 11,
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Wanna Be Startin' Somethin'",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Baby Be Mine",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "The Girl Is Mine",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Thriller",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Beat It",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Billie Jean",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Human Nature",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "P.Y.T. (Pretty Young Thing)",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "012-michael-jackson-thriller-a46ba2f6",
+    "rank": 12,
+    "editionNumber": 1,
+    "contentHash": "8657b99ec8e06279",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "The Lady in My Life",
+    "claimIds": [
+      "012-michael-jackson-thriller-a46ba2f6:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Respect",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Drown In My Own Tears",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "I Never Loved a Man (The Way I Love You)",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Soul Serenade",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Don't Let Me Lose This Dream",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Baby, Baby, Baby",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Dr. Feelgood (Love Is Serious Business)",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Good Times",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Do Right Woman, Do Right Man",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:9:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only songwriter credits are retained; no useful supported account of this performance or composition beyond metadata.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Save Me",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+    "rank": 13,
+    "editionNumber": 1,
+    "contentHash": "53c6ce1fe34e4bbb",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "A Change Is Gonna Come",
+    "claimIds": [
+      "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Rocks Off",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Rip This Joint",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Shake Your Hips",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Casino Boogie",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:4:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Retained excerpt offers a piano credit and lyric fragment, insufficient for a substantive musical or interpretive note.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Tumbling Dice",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Sweet Virginia",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Torn And Frayed",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Sweet Black Angel",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Loving Cup",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Happy",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Turd On The Run",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Ventilator Blues",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "I Just Want To See His Face",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "Let It Loose",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:14:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only an original studio location is retained; no performance-specific context.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "All Down The Line",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:15:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "Stop Breaking Down",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:16:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 17,
+    "trackTitle": "Shine A Light",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:17:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 1,
+    "trackNumber": 18,
+    "trackTitle": "Soul Survivor",
+    "claimIds": [
+      "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:18:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Bass credit and lyric quotation do not support a substantive description; avoid inferring a biographical narrative.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 1,
+    "trackTitle": "Pass the Wine (Sophia Loren)",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 2,
+    "trackTitle": "Plundered My Soul",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 3,
+    "trackTitle": "I’m Not Signifying",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 4,
+    "trackTitle": "Following the River",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 5,
+    "trackTitle": "Dancing in the Light",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 6,
+    "trackTitle": "So Divine (Aladdin Story)",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 7,
+    "trackTitle": "Loving Cup (alternate take)",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 8,
+    "trackTitle": "Soul Survivor (alternate take)",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 9,
+    "trackTitle": "Good Time Women",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+    "rank": 14,
+    "editionNumber": 1,
+    "contentHash": "1b0aa6d44c190623",
+    "discNumber": 2,
+    "trackNumber": 10,
+    "trackTitle": "Title 5",
+    "claimIds": [],
+    "disposition": "missing-research",
+    "reason": "No exact disc/track/title research entry; bonus recording must not inherit main-album evidence.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Countdown to Armageddon",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Bring the Noise",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Don't Believe the Hype",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Cold Lampin' with Flavor",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Terminator X to the Edge of Panic",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Mind Terrorist",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Louder Than a Bomb",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:7:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "A recollection of not performing the song live supplies little context for the recorded performance; no listening detail supported.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Caught, Can We Get a Witness?",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Show 'Em Whatcha Got",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "She Watch Channel Zero?!",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Night of the Living Baseheads",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Black Steel in the Hour of Chaos",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Security of the First World",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "Rebel Without a Pause",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:14:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "Prophets of Rage",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:15:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Writing-in-traffic anecdote alone offers no substantial account of the song; avoid turning place metadata into interpretation.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+    "rank": 15,
+    "editionNumber": 1,
+    "contentHash": "e98431a8e0ed3e4c",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "Party for Your Right to Fight",
+    "claimIds": [
+      "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "London Calling",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Brand New Cadillac",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Jimmy Jazz",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Hateful",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Rudie Can't Fail",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Spanish Bombs",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "The Right Profile",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Lost In the Supermarket",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Clampdown",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "The Guns of Brixton",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Wrong 'Em Boyo",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Death or Glory",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Koka Kola",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "The Card Cheat",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:14:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "Lover's Rock",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:15:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "Four Horsemen",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:16:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 17,
+    "trackTitle": "I'm Not Down",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:17:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 18,
+    "trackTitle": "Revolution Rock",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:18:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 1,
+    "trackNumber": 19,
+    "trackTitle": "Train In Vain",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:1:19:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Omission from the original sleeve listing is packaging trivia; no musical or developmental detail retained.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 1,
+    "trackTitle": "Hateful (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 2,
+    "trackTitle": "Rudi Can't Fail (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 3,
+    "trackTitle": "Paul's Tune (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 4,
+    "trackTitle": "I'm Not Down (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 5,
+    "trackTitle": "Four Horsemen (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 6,
+    "trackTitle": "Koka Kola, Advertising & Cocaine (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:6:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "An early-version listing with a closely related title provides no substantive demo-specific account; apply the same standard as Death or Glory demo.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 7,
+    "trackTitle": "Death or Glory (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:7:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Excerpt identifies an early version only; alternate lyrics are explicitly attached to London Calling, not Death or Glory.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 8,
+    "trackTitle": "Lover's Rock (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 9,
+    "trackTitle": "Lonesome Me (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:9:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Country-inflected alone is a generic style label; the draft padded it with limitations and a mechanically derived genre question.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 10,
+    "trackTitle": "The Police Walked in 4 Jazz (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 11,
+    "trackTitle": "Lost In the Supermarket (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 12,
+    "trackTitle": "Up-Toon (Instrumental) [Vanilla Studios Demo Version]",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 13,
+    "trackTitle": "Walking the Slidewalk (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:13:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Instrumental status and absence from the original album are listing metadata only.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 14,
+    "trackTitle": "Where You Gonna Go (Soweto) [Vanilla Studios Demo Version]",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:14:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Retained excerpt is only the artist/title phrase; it cannot alone establish the fuller cover-version history stated by the claim.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 15,
+    "trackTitle": "The Man In Me (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:15:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 16,
+    "trackTitle": "Remote Control (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:16:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Only absence from the original album is retained; no distinct performance detail.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 17,
+    "trackTitle": "Working and Waiting (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:17:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 18,
+    "trackTitle": "Heart and Mind (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:18:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Historically framed never-officially-released wording cannot describe current catalogue status; generic rocker label is too thin to expand.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 19,
+    "trackTitle": "Brand New Cadillac (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 20,
+    "trackTitle": "London Calling (Vanilla Studios Demo Version)",
+    "claimIds": [
+      "016-the-clash-london-calling-7d75cf05:2:20:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Manually written against this exact track’s claim and retained excerpt; attribution and limitations preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "016-the-clash-london-calling-7d75cf05",
+    "rank": 16,
+    "editionNumber": 1,
+    "contentHash": "580f5f2a45b44176",
+    "discNumber": 2,
+    "trackNumber": 21,
+    "trackTitle": "Revolution Rock (Vanilla Studios Demo Version)",
+    "claimIds": [],
+    "disposition": "insufficient-evidence",
+    "reason": "Exact demo entry has no verified facts; main-album evidence is not transferable.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Dark Fantasy",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Gorgeous (feat. Kid Cudi & Raekwon)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:2:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Uplifting blues-styled is too thin a critical label for a distinct useful description; the question merely repeats the adjective.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Power",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "All of the Lights (Interlude)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "All of the Lights",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:6:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Retained excerpt supplies only the broad label 'posse cut'; no distinct arrangement, performance or writing detail supports a useful new note.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "So Appalled (feat. JAŸ-Z, Pusha T, Prynce Cy Hi, Swizz Beatz & RZA)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Devil In a New Dress (feat. Rick Ross)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Runaway (feat. Pusha T)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Hell of a Life",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Blame Game (feat. John Legend)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:11:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Lost In the World (feat. Bon Iver)",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:12:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "Who Will Survive In America",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087",
+    "rank": 17,
+    "editionNumber": 1,
+    "contentHash": "a7cc5cd4bd43bf7c",
+    "discNumber": 2,
+    "trackNumber": 1,
+    "trackTitle": "See Me Now (feat. Beyoncé, Charlie Wilson & Big Sean) [Bonus Track]",
+    "claimIds": [
+      "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087:2:1:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Big Sean verse and bonus-release status do not supply a substantive account beyond the guest credit and bonus designation already in the exact catalogue title.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Like a Rolling Stone",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Tombstone Blues",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:3:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Adaptation of an unnamed old blues song is too unspecific to explain the composition; the draft expands a truncated comparison with a disclaimer.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "From a Buick 6",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Ballad of a Thin Man",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Queen Jane Approximately",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:6:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Polizzotti comparison, mediated by Wikipedia, says only 'in a similar vein' to Like a Rolling Stone; retained evidence gives no basis for explaining the resemblance.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Highway 61 Revisited",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Just Like Tom Thumb's Blues",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "018-bob-dylan-highway-61-revisited-bd0599b4",
+    "rank": 18,
+    "editionNumber": 1,
+    "contentHash": "21571f1103a6484f",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Desolation Row",
+    "claimIds": [
+      "018-bob-dylan-highway-61-revisited-bd0599b4:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Wesley's Theory (feat. George Clinton & Thundercat)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:1:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "The sole claim identifies Wesley Snipes but describes the conviction as tax evasion; retain the original research unchanged and seek legally precise corroboration before repeating that characterization.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "For Free? (Interlude)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "King Kunta",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:4:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "The retained claim confirms Bilal's feature, already named in the catalogue title; no track-specific role or musical detail beyond the credit.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "u",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Alright",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "For Sale? (Interlude)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Momma",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Hood Politics",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "How Much a Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:11:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Evidence confirms Ronald Isley and James Fauntleroy's participation, both already named in the catalogue title, without describing their roles.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 12,
+    "trackTitle": "Complexion (A Zulu Love) [feat. Rapsody]",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:12:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "A guest verse credit alone, with the guest already in the title, does not support a useful new description.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 13,
+    "trackTitle": "The Blacker the Berry",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:13:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 14,
+    "trackTitle": "You Ain't Gotta Lie (Momma Said)",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:14:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Backing-vocal credit alone is subject to the same standard as Ordinary Pain and California; no arrangement or vocal detail is supported.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 15,
+    "trackTitle": "i",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:15:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Retained evidence identifies Rahki as producer of the lead single 'I'; it does not establish the relationship of that single version to this exact album recording. No single-to-album borrowing.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+    "rank": 19,
+    "editionNumber": 1,
+    "contentHash": "59db8b0ab53842be",
+    "discNumber": 1,
+    "trackNumber": 16,
+    "trackTitle": "Mortal Man",
+    "claimIds": [
+      "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:16:fact-1"
+    ],
+    "disposition": "insufficient-evidence",
+    "reason": "Retained claim says the finale reflects on everything explored across the album, but supplies no specific thematic or musical detail; avoid turning this into generic closing-track prose.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Everything In Its Right Place",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:1:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Kid A",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "The National Anthem",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "How to Disappear Completely",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Treefingers",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:5:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "Optimistic",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "In Limbo",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:7:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Songfacts supplies only the original title 'Lost At Sea'; do not infer nautical sounds, lyrics or a thematic interpretation from a working title.",
+    "questionDisposition": "Not authored: evidence gap.",
+    "reviewDecision": "gap-confirmed"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Idioteque",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 9,
+    "trackTitle": "Morning Bell",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:9:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 10,
+    "trackTitle": "Motion Picture Soundtrack",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:10:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "020-radiohead-kid-a-ce842ff2",
+    "rank": 20,
+    "editionNumber": 1,
+    "contentHash": "7b4ca61faf5f76ba",
+    "discNumber": 1,
+    "trackNumber": 11,
+    "trackTitle": "Untitled",
+    "claimIds": [
+      "020-radiohead-kid-a-ce842ff2:1:11:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Hidden-track name, instrumental designation and sequence position alone are packaging/listing metadata; keep exact catalogue identity but no padded description.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 1,
+    "trackTitle": "Thunder Road",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:1:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Writing location and instrument alone support a record of origin, not a substantive account; apply the same conservative threshold as other location-only gaps.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 2,
+    "trackTitle": "Tenth Avenue Freeze-Out",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 3,
+    "trackTitle": "Night",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 4,
+    "trackTitle": "Backstreets",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 5,
+    "trackTitle": "Born to Run",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:5:fact-1"
+    ],
+    "disposition": "metadata-only",
+    "reason": "Waking with a title while travelling is a thin origin anecdote with no song-specific development; apply the same standard as Prophets of Rage.",
+    "questionDisposition": "not-applicable",
+    "questionReason": "Editorial entry suppressed at independent evidence gate.",
+    "reviewDecision": "suppressed"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 6,
+    "trackTitle": "She's the One",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "omitted",
+    "questionReason": "Context can stand without a speculative or mechanically generated listening question.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 7,
+    "trackTitle": "Meeting Across the River",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  },
+  {
+    "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+    "rank": 21,
+    "editionNumber": 1,
+    "contentHash": "91b219c3dbaded3a",
+    "discNumber": 1,
+    "trackNumber": 8,
+    "trackTitle": "Jungleland",
+    "claimIds": [
+      "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1"
+    ],
+    "disposition": "authored",
+    "reason": "Concise paraphrase checked against this exact track’s retained claim and excerpt; attribution preserved.",
+    "questionDisposition": "included",
+    "questionReason": "Grounded optional response to the particular source-backed detail; no mandatory observation.",
+    "reviewDecision": "approved-with-edits"
+  }
+]

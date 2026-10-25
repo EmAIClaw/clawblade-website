@@ -1,0 +1,199 @@
+{
+  "albumId": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0",
+  "editionNumber": 1,
+  "contentHash": "e98431a8e0ed3e4c",
+  "scope": "These notes draw on Chuck D’s interviews in AllHipHop and uDiscover Music, with the source identified for each track. They preserve his recollections and stated intentions without claiming independent corroboration or treating a song narrator as biography. Optional questions are editorial prompts.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Countdown to Armageddon",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:1:fact-1"
+      ],
+      "description": "The album opens with a piece of Public Enemy’s concert history. In his uDiscover Music interview, Chuck D identifies the opening audio as a London concert from the Def Jam Tour, which the group called the “London Invasion.”",
+      "question": "How does beginning with concert audio frame your expectations for the studio tracks that follow?",
+      "sourceLabels": {
+        "https://www.udiscovermusic.com/stories/chuck-d-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-interview": "Chuck D interview · uDiscover Music"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Bring the Noise",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:2:fact-1"
+      ],
+      "description": "Chuck D tells AllHipHop that the song was originally made for the Less Than Zero soundtrack. He remembers it as Public Enemy’s second B-side street hit, placing its early life outside this album’s eventual sequence.",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Don't Believe the Hype",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:3:fact-1"
+      ],
+      "description": "Chuck D’s AllHipHop recollection reverses a possible assumption about the writing order: this song came before “Bring the Noise,” for the Less Than Zero soundtrack. The group initially shelved it because they thought it was rather slow.",
+      "question": "Does the pace feel restrained to you, or does something other than speed create its energy?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Cold Lampin' with Flavor",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:4:fact-1"
+      ],
+      "description": "According to Chuck D’s AllHipHop interview, Flavor Flav had carried the idea around for a long time. He recalls roughly a year of writing and bringing it together.",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Terminator X to the Edge of Panic",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:5:fact-1"
+      ],
+      "description": "Chuck D tells AllHipHop that he and Terminator X used “Rebel Without a Pause” backwards, with Terminator contributing parts. The account connects the track’s construction to the DJ’s role; it does not identify exactly where each reversed fragment appears.",
+      "question": "Without trying to identify every sample, what moments draw your attention to the manipulation of recorded sound?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Mind Terrorist",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:6:fact-1"
+      ],
+      "description": "Chuck D describes this instrumental to AllHipHop as a way of breaking up the songs.",
+      "question": "What does this instrumental interruption do to the momentum between the surrounding tracks?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Caught, Can We Get a Witness?",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:8:fact-1"
+      ],
+      "description": "Chuck D tells AllHipHop that a couple of samples supplied the rhythm for a staged courtroom scene about sampling itself. He recalls the imagined legal trouble later becoming real, though the retained excerpt does not identify a particular case.",
+      "question": "How does the courtroom premise change the way you think about the track’s use of samples?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Show 'Em Whatcha Got",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:9:fact-1"
+      ],
+      "description": "This was originally the album’s opening track, Chuck D recalls in AllHipHop. At the last minute, Hank Shocklee switched the two sides, making it the introduction to side B instead.",
+      "question": "How would the album’s first impression change if this, rather than “Countdown to Armageddon,” opened it?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "She Watch Channel Zero?!",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:10:fact-1"
+      ],
+      "description": "Chuck D identifies a sample from Slayer’s “Angel of Death” in his AllHipHop account. He describes the track as Public Enemy’s second venture into rock elements, explaining the connection through Slayer’s distribution by Def Jam.",
+      "question": "What role does the sampled rock material play against the rap: accompaniment, confrontation, or something else?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Night of the Living Baseheads",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:11:fact-1"
+      ],
+      "description": "Chuck D explains the target directly in AllHipHop: the group was attacking drug dealers and the drug trade, hoping to make drugs unattractive to young people. This is the artist’s statement of intent, not a claim that the record achieved that effect.",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Black Steel in the Hour of Chaos",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:12:fact-1"
+      ],
+      "description": "Chuck D’s AllHipHop explanation frames the song around imprisonment for one’s beliefs and refusal of war. He speaks in the first person when explaining the situation; the excerpt does not establish that this is an autobiographical account of his own incarceration.",
+      "question": "How does the first-person perspective affect your response to the song’s argument about freedom?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "Security of the First World",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:13:fact-1"
+      ],
+      "description": "Chuck D describes this instrumental in AllHipHop as representing the strength and intelligence of the S1Ws.",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 14,
+      "trackTitle": "Rebel Without a Pause",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:14:fact-1"
+      ],
+      "description": "Chuck D calls this Public Enemy’s breakthrough single in AllHipHop. He credits Lady B in Philadelphia and Chuck Chillout in New York with breaking the record.",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Party for Your Right to Fight",
+      "claimIds": [
+        "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0:1:16:fact-1"
+      ],
+      "description": "Chuck D tells AllHipHop that the group wanted a reverse counterpart to the Beastie Boys’ “Fight for Your Right to Party.”",
+      "question": "What changes in emphasis do you hear when the familiar idea of a right to party becomes a right to fight?",
+      "sourceLabels": {
+        "https://allhiphop.com/reviews-music/class-of-88-public-enemys-it-takes-a-nation-of-millions-to-hold-us-back": "Chuck D interview · AllHipHop"
+      },
+      "sourceContext": "Artist interview"
+    }
+  ]
+}

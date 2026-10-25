@@ -1640,6 +1640,11 @@ main {
   box-shadow: 0 0 0 1px rgba(199, 164, 91, 0.18), 0 0 24px rgba(199, 164, 91, 0.08);
 }
 
+/* Keep page-end controls scrollable above the fixed player, including when paused. */
+.shell:has(.miniPlayer) > main {
+  padding-bottom: 10rem;
+}
+
 .miniPlayer {
   position: fixed;
   right: 1rem;
@@ -2322,6 +2327,10 @@ main {
   .previewBtn {
     width: 1.75rem;
     min-height: 1.75rem;
+  }
+
+  .shell:has(.miniPlayer) > main {
+    padding-bottom: 12rem;
   }
 
   .miniPlayer {

@@ -1,0 +1,90 @@
+{
+  "albumId": "021-bruce-springsteen-born-to-run-21f663bb",
+  "editionNumber": 1,
+  "contentHash": "91b219c3dbaded3a",
+  "scope": "These concise notes paraphrase the retained track-specific sources named with each entry. Most are Wikipedia accounts, sometimes reporting another critic or an artist’s explanation; they are not new primary-source research or independent audio analysis. Optional questions invite your response. Thin or ambiguous evidence remains a gap rather than a completed description.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Tenth Avenue Freeze-Out",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:2:fact-1"
+      ],
+      "description": "Wikipedia describes “Tenth Avenue Freeze-Out” as telling the story of the E Street Band’s formation.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Tenth_Avenue_Freeze-Out": "Wikipedia Tenth Avenue Freeze-Out article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Night",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:3:fact-1"
+      ],
+      "description": "Garry Tallent’s bass guitar is what propels “Night,” in Wikipedia’s description.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Night_(Bruce_Springsteen_song)": "Wikipedia Night (Bruce Springsteen song) article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "When you follow the bass, do you hear the forward motion described by the source?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Backstreets",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:4:fact-1"
+      ],
+      "description": "Roy Bittan plays both piano and organ in the opening instrumental passage, according to Wikipedia. Its account describes an introduction of about a minute, with only occasional traces of other instruments.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Backstreets_(song)": "Wikipedia Backstreets article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does your sense of space change when you focus on the piano and organ during the introduction?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "She's the One",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:6:fact-1"
+      ],
+      "description": "Wikipedia reports Springsteen’s claim that he initially wrote “She’s the One” because he wanted to hear Clarence Clemons play its saxophone solo. The same account says he changed his mind after writing the melody, without explaining the change further.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/She%27s_the_One_(Bruce_Springsteen_song)": "Wikipedia She's the One (Bruce Springsteen song) article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Meeting Across the River",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:7:fact-1"
+      ],
+      "description": "Wikipedia describes this dark character sketch through three instrumental roles: Randy Brecker’s soft, haunting trumpet, Roy Bittan’s piano backing and Richard Davis’s upright bass.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Meeting_Across_the_River": "Wikipedia Meeting Across the River article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How do trumpet, piano and upright bass divide your attention in this character sketch?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Jungleland",
+      "claimIds": [
+        "021-bruce-springsteen-born-to-run-21f663bb:1:8:fact-1"
+      ],
+      "description": "Suki Lahav’s violin opens “Jungleland” with Roy Bittan accompanying on piano, according to Wikipedia. The source specifies a twenty-three-note violin introduction.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/Jungleland": "Wikipedia Jungleland article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "What relationship do you hear between the violin and piano at the opening?"
+    }
+  ]
+}

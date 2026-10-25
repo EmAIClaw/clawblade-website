@@ -1,0 +1,210 @@
+{
+  "albumId": "014-the-rolling-stones-exile-on-main-st-9d89aa7d",
+  "editionNumber": 1,
+  "contentHash": "1b0aa6d44c190623",
+  "scope": "These notes use Rolling Stone’s Exile on Main St. track-by-track account, including its reported recollections and critical interpretations. They are not independently corroborated session research. Bonus recordings have no matching retained research and receive no borrowed notes. Thin credit-only evidence is left as a gap.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Rocks Off",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:1:fact-1"
+      ],
+      "description": "Rolling Stone recounts a stop-start night of guitar overdubbing: Keith Richards fell asleep, engineer Andy Johns stopped work, and Richards brought him back at five in the morning to add another part. Johns’s recollection presents Richards as knowing exactly what he wanted despite the interrupted session.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Rip This Joint",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:2:fact-1"
+      ],
+      "description": "Rolling Stone identifies Bill Plummer on upright bass and Bobby Keys on both tenor and baritone saxophones.",
+      "question": "Can you distinguish the bass from the lower saxophone sounds, and where is that easiest?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Shake Your Hips",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:3:fact-1"
+      ],
+      "description": "This is a Slim Harpo song, but the retained commentary focuses on Jagger’s delivery. Rolling Stone relays Melody Maker critic Richard Williams’s judgment that the voice was an “unnecessary affectation.”",
+      "question": "Does Jagger’s vocal manner draw you into the song or distract you from it?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Tumbling Dice",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:5:fact-1"
+      ],
+      "description": "Rolling Stone traces the song back to the Sticky Fingers sessions under the title “Good Time Woman.” Its account also describes an edit in the finished recording: after Charlie Watts struggled with a drum part following the breakdown, producer Jimmy Miller was edited in. This note applies to “Tumbling Dice,” not the catalogue’s separate bonus track “Good Time Women.”",
+      "question": "Around the breakdown, do you hear a change in the drumming, whether or not an edit is apparent?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Sweet Virginia",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:6:fact-1"
+      ],
+      "description": "Rolling Stone hears Gram Parsons’s influence in Jagger’s vocal. Its account places that connection in Parsons’s friendship with Richards, dating from their meeting in Los Angeles during rehearsals for the Stones’ 1969 U.S. tour.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Torn And Frayed",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:7:fact-1"
+      ],
+      "description": "Al Perkins’s pedal steel is the specific instrumental credit in Rolling Stone’s account. The article also hears Parsons’s influence and suggests the lyrics concern either Richards or Parsons, without settling on one subject.",
+      "question": "What role does the pedal steel seem to play alongside the vocal?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Sweet Black Angel",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:8:fact-1"
+      ],
+      "description": "Rolling Stone describes the song as Jagger’s tribute to Angela Davis. Its recording account places an original live performance at Stargroves, using the mobile studio with Jimmy Miller on percussion.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Loving Cup",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:9:fact-1"
+      ],
+      "description": "Rolling Stone traces this song to a recording at Olympic Studios in 1969 and a performance at the Stones’ free Hyde Park concert that July, where Mick Taylor made his debut with the band.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Happy",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:10:fact-1"
+      ],
+      "description": "Rolling Stone describes “Happy” taking shape during a sound check in the Nellcôte basement, with Bobby Keys on baritone saxophone and Jimmy Miller on drums. It attributes Richards’s inspiration to news of Anita Pallenberg’s pregnancy; that personal connection remains the article’s account.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Turd On The Run",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:11:fact-1"
+      ],
+      "description": "The bass part belongs to the later Los Angeles work in Rolling Stone’s account: Bill Plummer overdubbed it at Sunset Sound after the band left the south of France. The article also identifies Jagger on harmonica.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 12,
+      "trackTitle": "Ventilator Blues",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:12:fact-1"
+      ],
+      "description": "The title points to an inadequate fan in the Nellcôte basement. Rolling Stone quotes engineer Andy Johns recalling that the single fan in a corner window did not work well, and identifies this as the only Exile track co-written by Mick Taylor.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "I Just Want To See His Face",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:13:fact-1"
+      ],
+      "description": "Rolling Stone describes a layered personnel combination: an uncredited Dr. John on piano, Richards on organ, Plummer on string bass, Taylor on electric bass and Miller on percussion. Its account says Jagger made up the words as he recorded them.",
+      "question": "Can you follow a keyboard or bass part independently of the vocal, and does that change your impression of the performance?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 15,
+      "trackTitle": "All Down The Line",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:15:fact-1"
+      ],
+      "description": "Jagger wanted this as a single, but Andy Johns could not imagine it on the radio. Rolling Stone recounts Jagger sending Ian Stewart to a Los Angeles station with a tape, then listening with Johns, Richards and Watts from a limousine on Sunset Boulevard.",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "Stop Breaking Down",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:16:fact-1"
+      ],
+      "description": "Rolling Stone identifies this as a Robert Johnson cover, with Ian Stewart on boogie-woogie piano and Mick Taylor on slide guitar. Its account also traces an original recording to Olympic Studios.",
+      "question": "How do the piano and slide guitar divide your attention in this performance?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "Shine A Light",
+      "claimIds": [
+        "014-the-rolling-stones-exile-on-main-st-9d89aa7d:1:17:fact-1"
+      ],
+      "description": "Rolling Stone credits Billy Preston with organ and piano and Jimmy Miller with drums. The bass attribution is less settled than the retained claim alone suggests: the article names Mick Taylor but notes that Bill Wyman later claimed the part. That disagreement remains unresolved here.",
+      "question": "What differences do you notice between the roles of organ and piano?",
+      "sourceLabels": {
+        "https://www.rollingstone.com/music/music-news/exile-on-main-st-track-by-track-242956": "Rolling Stone · Exile on Main St. track-by-track"
+      },
+      "sourceContext": "Critical and historical account"
+    }
+  ]
+}

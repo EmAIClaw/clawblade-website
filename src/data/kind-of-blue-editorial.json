@@ -1,0 +1,48 @@
+{
+  "albumId": "031-miles-davis-kind-of-blue-2148074c",
+  "editionNumber": 1,
+  "contentHash": "452d460272415142",
+  "scope": "These short form guides use Wikipedia’s account of Bill Evans’s original liner notes, retained in the track research. They explain the documented structures without claiming independent audio verification. The listening questions are optional ways to explore them; you do not need to count bars to enjoy the music.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "So What",
+      "description": "The form moves away and returns. Bill Evans’s liner notes, as summarized by Wikipedia, describe sixteen measures in one mode, eight in a second, then eight back in the first. The change of mode is therefore part of a defined sequence, rather than an unrestricted move between the two.",
+      "claimIds": ["031-miles-davis-kind-of-blue-2148074c:1:1:fact-1"],
+      "question": "Without counting measures, can you hear a point where the music seems to move away and then return, and what helps you recognize it?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Freddie Freeloader",
+      "description": "Bill Evans’s liner notes, as summarized by Wikipedia, identify this as a standard twelve-bar blues. The twelve bars describe a cycle of the musical form, not the length of the whole performance.",
+      "claimIds": ["031-miles-davis-kind-of-blue-2148074c:1:2:fact-1"],
+      "question": "Can you find a recurring point that feels like a new beginning, even when the soloist’s phrases cross over it?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "Blue In Green",
+      "description": "A four-measure introduction leads into a ten-measure cycle, according to Bill Evans’s liner notes as summarized by Wikipedia. That distinction matters: the opening is a separate introduction, while the ten-measure form supplies the cycle that follows.",
+      "claimIds": ["031-miles-davis-kind-of-blue-2148074c:1:3:fact-1"],
+      "question": "After the opening, do you sense the music circling back to a familiar point, or do the phrases make those boundaries difficult to hear?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "All Blues",
+      "description": "Bill Evans’s liner notes, as summarized by Wikipedia, describe a twelve-bar blues in 6/8 time. Those numbers describe different things: twelve bars make up the form, while 6/8 specifies six eighth-note units within each bar.",
+      "claimIds": ["031-miles-davis-kind-of-blue-2148074c:1:4:fact-1"],
+      "question": "Try tapping two broad pulses, each divided into three smaller ones: does that help you find the rhythmic feel, or is another way of following it more natural?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Flamenco Sketches",
+      "description": "The soloist has room to decide when to move on. Bill Evans’s liner notes, as summarized by Wikipedia, describe a series of five scales, each used for as long as the soloist wishes before completing the sequence. The order provides a framework without fixing the time spent on each scale.",
+      "claimIds": ["031-miles-davis-kind-of-blue-2148074c:1:5:fact-1"],
+      "question": "What makes a passage feel ready to move on to you: the length of a phrase, a pause, a change in the surrounding sound, or something else?"
+    }
+  ]
+}

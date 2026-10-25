@@ -1,0 +1,74 @@
+{
+  "albumId": "007-fleetwood-mac-rumours-bc57e04c",
+  "editionNumber": 3,
+  "contentHash": "414abb016229da97",
+  "scope": "These recording stories draw on co-producer Ken Caillat’s MusicRadar interview, preserved in the track research. They reflect his account, not independent audio analysis. The listening questions are optional editorial prompts.",
+  "entries": [
+    {
+      "discNumber": 1, "trackNumber": 1, "trackTitle": "Second Hand News",
+      "description": "The bass part became a point of control in the studio. Co-producer Ken Caillat recalls that Lindsey Buckingham replaced John McVie’s flowing, melodic line with simple quarter notes while McVie was away. For Caillat, this marked the beginning of Buckingham taking charge of the band’s arrangements.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:1:fact-1"],
+      "question": "Following the bass beneath the vocal, does its repetition make the song feel more grounded, more urgent, or something else?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 2, "trackTitle": "Dreams",
+      "description": "The steady rhythm was a deliberate studio construction. Ken Caillat recalls building an eight-bar loop from Mick Fleetwood’s drumming to resolve problems with tempo and groove, producing what he called a hypnotic effect. Stevie Nicks had brought the song out of a spare piano room known as Sly Stone’s Pit.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:2:fact-1"],
+      "question": "As you follow the repeating drum pattern, what changes in your attention to Nicks’s vocal phrasing?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 3, "trackTitle": "Never Going Back Again",
+      "description": "The acoustic guitar’s string sound received unusually close attention. Ken Caillat had Lindsey Buckingham’s guitar restrung every twenty minutes so each picking part would retain its brightness. The song’s working title was “Brushes,” after a proposed brushed-snare part that was abandoned as the recording’s focus shifted to the guitar.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:3:fact-1"],
+      "question": "Try following the beginning and decay of the picked guitar notes: which part of that sound holds your attention?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 4, "trackTitle": "Don't Stop",
+      "description": "Christine McVie suggested sharing her song with Lindsey Buckingham as a duet. Ken Caillat remembers that decision opening up a recording that had worked less well with McVie singing alone. He also recalls the band repeatedly changing the backing vocals at the ending, making those parts difficult to predict even in the studio.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:4:fact-1"],
+      "question": "Near the ending, can you follow the backing voices separately from the lead, and how does that change what you notice?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 5, "trackTitle": "Go Your Own Way",
+      "description": "Ken Caillat remembers the song beginning with Buckingham striking his acoustic guitar hard and singing at full force. The finished guitar solos involved a different kind of work: Buckingham assembled them from seven or eight recorded tracks. Caillat describes the results as sounding seamlessly composed despite that pieced-together construction.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:5:fact-1"],
+      "question": "Knowing how the solos were assembled, do you hear each as one continuous thought or as a series of contrasting phrases?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 6, "trackTitle": "Songbird",
+      "description": "For this recording, Ken Caillat chose the setting of a concert recital. Christine McVie played a nine-foot Steinway onstage at Zellerbach Auditorium. Caillat recorded the piano across fifteen tracks, using two close microphones and placing the others at a distance: the room was part of the recording setup, alongside the instrument.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:6:fact-1"],
+      "question": "When a piano phrase ends, what sense of space, if any, do you hear around the fading notes?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 7, "trackTitle": "The Chain",
+      "description": "The first song the band worked on was still being rebuilt close to the album’s completion. Ken Caillat traces it to Christine McVie’s “Keep Me There.” He recalls Buckingham finally connecting its sections three weeks before the album wrapped, reworking the verses with a Dobro and asking Fleetwood for a straight quarter-note kick-drum beat.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:7:fact-1"],
+      "question": "Where do you hear the strongest change between sections, and what makes those sections feel connected or separate to you?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 8, "trackTitle": "You Make Loving Fun",
+      "description": "The keyboard sound emerged from a shared performance. Ken Caillat recalls replacing Christine McVie’s Yamaha electric piano with a Clavinet run through a wah-wah pedal. McVie could not play the part and operate the pedal together, so Mick Fleetwood worked the pedal by hand while she played the keyboard.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:8:fact-1"],
+      "question": "Can you follow changes in the keyboard’s tone separately from the notes and rhythm being played?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 9, "trackTitle": "I Don't Want to Know",
+      "description": "Its place on the album followed a difficult selection decision. According to Ken Caillat, “Silver Springs” was too long for the record, and “I Don’t Want to Know” took its place. The band recorded the track while Stevie Nicks was absent; she added her vocal parts later.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:9:fact-1"],
+      "question": "How do Nicks’s vocal parts seem to fit with the other voices: do they blend together or pull your attention in different directions?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 10, "trackTitle": "Oh Daddy",
+      "description": "Christine McVie’s organ and Lindsey Buckingham’s guitar are the instruments Ken Caillat singles out in his account. He also describes using a Rick Turner-built Stratoblaster boost device to give parts more edge. His memory of the guitar itself is less certain: he suggests a Stratocaster but allows that it may have been a Les Paul.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:10:fact-1"],
+      "question": "As you alternate your attention between organ and guitar, what differences in texture do you notice?"
+    },
+    {
+      "discNumber": 1, "trackNumber": 11, "trackTitle": "Gold Dust Woman",
+      "description": "Editing and sound effects both shaped the recording. Ken Caillat recalls cutting down Nicks’s extended version, sometimes over her objections to losing personally meaningful verses. For the ending, he describes her coyote-like howling and Mick Fleetwood smashing sheets of glass in a miked room to accentuate the vocal.",
+      "claimIds": ["007-fleetwood-mac-rumours-bc57e04c:1:11:fact-1", "007-fleetwood-mac-rumours-bc57e04c:1:11:fact-2"],
+      "question": "At the ending, where can you distinguish the voice from the surrounding sounds, and where does that distinction become harder?"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "albumId": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a",
+  "editionNumber": 1,
+  "contentHash": "59db8b0ab53842be",
+  "scope": "These concise notes paraphrase the retained track-specific sources named with each entry. Most are Wikipedia accounts, sometimes reporting another critic or an artist’s explanation; they are not new primary-source research or independent audio analysis. Optional questions invite your response. Thin or ambiguous evidence remains a gap rather than a completed description.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "For Free? (Interlude)",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:2:fact-1"
+      ],
+      "description": "Wikipedia describes Lamar’s delivery here as dense and close to spoken word, accompanied by jazz pianist Robert Glasper.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does the piano accompaniment relate to the pace of Lamar’s words?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "King Kunta",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:3:fact-1"
+      ],
+      "description": "Wikipedia frames “King Kunta” around the history of negative stereotypes faced by African-Americans.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:5:fact-1"
+      ],
+      "description": "Billboard’s reading, quoted by Wikipedia, connects the song’s walls to both escape and obstacles, linking sex with questions of existence.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "u",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:6:fact-1"
+      ],
+      "description": "According to Wikipedia’s account of Lamar’s explanation, “u” grew from his experience of depression and suicidal thoughts.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Alright",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:7:fact-1"
+      ],
+      "description": "Wikipedia describes a spoken-word opening followed by a passage combining jazz horns, skittering drums and Lamar’s rapping as he struggles with troubles and temptations.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "What changes in your attention when the spoken-word opening gives way to the passage described here?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "For Sale? (Interlude)",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:8:fact-1"
+      ],
+      "description": "The album uses Taz Arnold’s version of “For Sale?,” according to Wikipedia, rather than an ultimately discarded version produced by Flying Lotus.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "Momma",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:9:fact-1"
+      ],
+      "description": "The instrumental had a life before “Momma”: Wikipedia identifies it as Knxwledge’s previously released “So[Rt].”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Hood Politics",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:10:fact-1"
+      ],
+      "description": "Wikipedia identifies a sample of “All for Myself,” written and performed by Sufjan Stevens, in “Hood Politics.”",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 13,
+      "trackTitle": "The Blacker the Berry",
+      "claimIds": [
+        "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a:1:13:fact-1"
+      ],
+      "description": "Wikipedia describes a boom-bap beat and lyrics that celebrate Lamar’s African-American heritage while confronting hatred, racism and hypocrisy.",
+      "sourceLabels": {
+        "https://en.wikipedia.org/wiki/To_Pimp_a_Butterfly": "Wikipedia To Pimp a Butterfly article"
+      },
+      "sourceContext": "Source-bound track note",
+      "question": "How does the beat affect your response to the themes described in this account?"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "albumId": "005-the-beatles-abbey-road-1955f3c5",
+  "editionNumber": 3,
+  "contentHash": "772df43eaad90b18",
+  "scope": "These notes use the official Beatles song pages retained in the research. They distinguish studio chronology, release chronology and medley structure. Credits-only or sequencing-only claims without a useful distinct account remain gaps; no independent audio or session-tape analysis is claimed.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Come Together",
+      "description": "Lennon connected the song to a request from Timothy Leary for campaign music, but said what he eventually wrote would have been no use to Leary. The official Beatles page preserves that account and places the recording over six days at the end of July 1969.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:1:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/come-together-0": "The Beatles"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Something",
+      "description": "The official Beatles account places Harrison’s writing of “Something” in 1968, near the end of the White Album sessions, with recording following in summer 1969.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:2:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/something-0": "The Beatles"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Octopus's Garden",
+      "description": "The official Beatles page identifies this as Ringo Starr’s song, written under his real name, Richard Starkey, with help from George Harrison. It also describes it as the last Beatles song released with Starr singing lead.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:5:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/octopuss-garden": "The Beatles"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Because",
+      "description": "Three singers become nine vocal parts in the official Beatles account: Lennon, McCartney and Harrison sang the three-part harmony, then overdubbed it twice. The apparent ensemble is built from repeated performances by the same trio.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:8:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/because": "The Beatles"
+      },
+      "question": "Can you follow one harmony line through the layered voices, or do you hear them mainly as a single blended sound?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 9,
+      "trackTitle": "You Never Give Me Your Money",
+      "description": "The official Beatles page identifies McCartney’s song as the opening of Abbey Road’s side-two medley.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:9:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/you-never-give-me-your-money": "The Beatles"
+      },
+      "question": "When you continue into the next song, does the transition feel like a new beginning or part of a longer sequence?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "Mean Mr. Mustard",
+      "description": "“Mean Mr. Mustard” and “Sun King” were recorded as one continuous piece, according to the official Beatles page. Their separate track titles do not mean they were separate performances in the studio.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:11:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/mean-mr-mustard": "The Beatles"
+      },
+      "question": "Across the boundary from “Sun King,” what makes you hear continuity, a change of scene, or both?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 15,
+      "trackTitle": "Carry That Weight",
+      "description": "The official Beatles page singles out the vocals from all four members on “Carry That Weight,” part of the album’s extended closing medley.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:15:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/carry-weight": "The Beatles"
+      },
+      "question": "Do the four voices sound like separate personalities here, or a collective voice?"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 16,
+      "trackTitle": "The End",
+      "description": "The official Beatles account distinguishes this song’s two kinds of ending: it closes the side-two medley and was the last song recorded collectively by all four Beatles. Neither statement makes it the album’s final listed track.",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:16:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/end": "The Beatles"
+      }
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 17,
+      "trackTitle": "Her Majesty",
+      "description": "The official Beatles page describes “Her Majesty” as an unlisted surprise on the original sleeve, appearing fourteen seconds after “The End.”",
+      "claimIds": [
+        "005-the-beatles-abbey-road-1955f3c5:1:17:fact-1"
+      ],
+      "sourceContext": "Retained source account",
+      "sourceLabels": {
+        "https://www.thebeatles.com/her-majesty": "The Beatles"
+      }
+    }
+  ]
+}

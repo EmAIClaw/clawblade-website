@@ -12,7 +12,7 @@
     "test:listening": "node scripts/test-listening-enhancements.mjs",
     "test:tabs": "node scripts/test-album-detail-tabs.mjs",
     "test:simplification": "node scripts/test-unified-track-list.mjs && node scripts/test-discovery-template-filter.mjs && node scripts/test-discovery-presentation-unit.mjs && node scripts/test-discovery-catalog-presentation.mjs && node scripts/test-nav-simplification.mjs && node scripts/test-collection-status.mjs",
-    "pretest:all": "npm run test:simplification",
+    "pretest:all": "npm run test:simplification && npm run test:track-guidance && npm run test:track-editorial",
     "test:loading": "node scripts/test-loading-recovery.mjs",
     "test:taste": "node scripts/test-taste-intelligence.mjs",
     "test:encyclopedia": "node scripts/test-encyclopedia-lazy-loading.mjs",
@@ -49,7 +49,10 @@
     "curate:apply": "node scripts/apply-curated.mjs",
     "curate:full": "npm run curate:batch && npm run curate:apply",
     "discovery:update": "node scripts/update-discovery-enhancements.mjs",
-    "prepare:data": "npm run prepare:catalog && npm run generate:encyclopedia"
+    "prepare:data": "npm run prepare:catalog && npm run generate:encyclopedia",
+    "test:track-guidance": "node scripts/test-track-guidance.mjs",
+    "test:track-reader:ui": "node scripts/test-track-reader-ui.mjs",
+    "test:track-editorial": "node scripts/test-track-editorial.mjs && node scripts/test-next20-editorial.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^8.2.0",

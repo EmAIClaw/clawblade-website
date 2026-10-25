@@ -1,0 +1,146 @@
+{
+  "albumId": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf",
+  "editionNumber": 1,
+  "contentHash": "53c6ce1fe34e4bbb",
+  "scope": "These notes draw on Mark Leviton’s Best Classic Bands review. Its stylistic judgments and biographical interpretations remain attributed to the reviewer; disputed personnel are not resolved here. Some entries support only a brief historical fact. Optional questions are editorial prompts.",
+  "entries": [
+    {
+      "discNumber": 1,
+      "trackNumber": 1,
+      "trackTitle": "Respect",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:1:fact-1"
+      ],
+      "description": "Mark Leviton’s Best Classic Bands review singles out the backing voices of Carolyn and Erma Franklin with Cissy Houston. He compares their role to a Greek chorus commenting on the drama, while crediting Aretha Franklin, Jerry Wexler and Arif Mardin with reshaping Otis Redding’s arrangement.",
+      "question": "Do the backing voices seem to answer the lead, reinforce it, or take on another role?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 2,
+      "trackTitle": "Drown In My Own Tears",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:2:fact-1"
+      ],
+      "description": "Mark Leviton describes the opening as Franklin’s voice and piano with Tommy Cogbill’s bass, before the drums enter. His Best Classic Bands review is uncertain about the drummer, naming Hawkins but allowing that it may instead be Gene Chrisman.",
+      "question": "What changes in your sense of the song when the drums enter?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 3,
+      "trackTitle": "I Never Loved a Man (The Way I Love You)",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:3:fact-1"
+      ],
+      "description": "Two pianos were part of the live recording setup: Franklin on acoustic piano and Spooner Oldham on electric piano. Mark Leviton’s Best Classic Bands account says the musicians recorded together, performing a song written by Ronnie Shannon.",
+      "question": "Can you distinguish the two keyboard parts, and what helps you separate them?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 4,
+      "trackTitle": "Soul Serenade",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:4:fact-1"
+      ],
+      "description": "Franklin sings lyrics on a piece that had often circulated as an instrumental. Mark Leviton’s Best Classic Bands review traces that instrumental history to King Curtis’s 1964 hit and credits the composition to Curtis and Luther Dixon.",
+      "question": "How does the sung melody guide your attention through this version?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 5,
+      "trackTitle": "Don't Let Me Lose This Dream",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:5:fact-1"
+      ],
+      "description": "Mark Leviton hears this Franklin co-write as bossa nova and compares it to a Bacharach–David song for Dionne Warwick.",
+      "question": "What, if anything, in the rhythm or phrasing makes the critic’s bossa-nova comparison useful to you?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 6,
+      "trackTitle": "Baby, Baby, Baby",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:6:fact-1"
+      ],
+      "description": "Carolyn and Aretha Franklin wrote this song together. Mark Leviton’s Best Classic Bands review focuses on the keyboard pairing, describing Oldham’s organ as supporting Franklin’s stately piano.",
+      "question": "Does the organ seem to sit behind the piano, as the reviewer suggests, or does it draw your attention elsewhere?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 7,
+      "trackTitle": "Dr. Feelgood (Love Is Serious Business)",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:7:fact-1"
+      ],
+      "description": "Mark Leviton’s Best Classic Bands review treats this Ted White–Aretha Franklin co-write as an example of their chemistry as writers. His account interprets the song through their attraction to one another; it is a critical reading, not a firsthand statement of their intentions.",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 8,
+      "trackTitle": "Good Times",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:8:fact-1"
+      ],
+      "description": "This is one of two Sam Cooke songs on the album. Mark Leviton’s Best Classic Bands review notes that it was a hit for Cooke in 1964 and subsequently attracted many cover versions.",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 10,
+      "trackTitle": "Save Me",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:10:fact-1"
+      ],
+      "description": "Mark Leviton’s Best Classic Bands review links the song’s harmony to the same three chords used in Van Morrison’s “Gloria.” He also identifies it as a collaboration between Carolyn Franklin, Aretha Franklin and King Curtis.",
+      "question": "How much variety do you notice within the repeated chord framework?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    },
+    {
+      "discNumber": 1,
+      "trackNumber": 11,
+      "trackTitle": "A Change Is Gonna Come",
+      "claimIds": [
+        "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf:1:11:fact-1"
+      ],
+      "description": "Mark Leviton’s Best Classic Bands review connects Sam Cooke’s song to his experience of racism while touring the South and its place as a Civil Rights anthem. Franklin’s performance closes this album and is its longest track, giving that historical subject the final position.",
+      "question": "How does ending with this song affect your sense of the album as a whole?",
+      "sourceLabels": {
+        "https://bestclassicbands.com/aretha-franklin-i-never-loved-a-man-review-8-4-24": "Mark Leviton · Best Classic Bands"
+      },
+      "sourceContext": "Critical and historical account"
+    }
+  ]
+}

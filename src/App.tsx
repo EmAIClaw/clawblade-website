@@ -56,6 +56,7 @@ import type {
   ViewMode,
   HistorySubView
 } from "./types";
+import { resolveEditorialAlbum, resolveTrackEditorial } from "./trackEditorial";
 import { trackEncyclopediaAlbums } from "./data/track-encyclopedia/manifest.generated";
 import {
   albumVisualMood,
@@ -2820,6 +2821,9 @@ function AlbumDetail({
         researchErrorMessage,
       })
     : undefined;
+  const currentResearchAlbum = trackEncyclopediaState.status === "loaded" ? trackEncyclopediaState.entry : null;
+  const editorialAlbum = resolveEditorialAlbum(currentResearchAlbum);
+  const focusEditorial = resolveTrackEditorial(currentResearchAlbum, focusResearchEntry);
   const focusPilotGuidance = focusTrack
     ? pilotGuidanceByTrackKey.get(`${focusTrack.discNumber}:${focusTrack.trackNumber}:${focusTrack.title}`)
     : undefined;
@@ -2880,7 +2884,18 @@ function AlbumDetail({
               {visualMood.accentWords.map((word) => <small key={word}>{word}</small>)}
             </div>
             <h2>{focusTrack.trackNumber}. {focusTrack.title}</h2>
-            {focusPilotGuidance ? (
+            {focusEditorial ? (
+              <>
+                <p className="trackEditorialDescription">{focusEditorial.description}</p>
+                <p className="sourceNote trackEditorialSource">{focusEditorial.sourceContext}: {focusEditorial.sources.map(source => (
+                  <span key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>{" "}</span>
+                ))}</p>
+                {focusEditorial.question && <>
+                  <p className="trackListenForLabel">Listen for · optional question</p>
+                  <p className="trackListenForQuestion">{focusEditorial.question}</p>
+                </>}
+              </>
+            ) : focusPilotGuidance && !editorialAlbum ? (
               <>
                 <p className="trackListenForLabel">Listen for</p>
                 <p className="trackListenForQuestion focusPilotQuestion">{focusPilotGuidance.question}</p>
@@ -2917,6 +2932,8 @@ function AlbumDetail({
             ) : (
               <p>{TRACK_GUIDANCE_DEFAULT_LISTENING_LEAD}</p>
             )}
+            {editorialAlbum && <p className="sourceNote trackEditorialScope">{editorialAlbum.scope}</p>}
+            {editorialAlbum && !focusEditorial && <p className="sourceNote trackEditorialGap">No source-backed description yet. Available research is retained; this track remains an editorial evidence gap.</p>}
             <div className="listeningModeActions">
               <button
                 type="button"
@@ -3105,6 +3122,7 @@ function AlbumDetail({
         {trackEncyclopediaState.status === "missing" && (
           <p className="sourceNote">No versioned track encyclopedia edition for this album.</p>
         )}
+        {editorialAlbum && <p className="sourceNote trackEditorialScope">{editorialAlbum.scope}</p>}
         {album.tracks.length ? (
           <div className="trackList">
             {album.tracks.map((track, idx) => {
@@ -3118,6 +3136,7 @@ function AlbumDetail({
                 titleAmbiguous: ambiguousTitles.has(track.title),
                 researchErrorMessage,
               });
+              const editorial = resolveTrackEditorial(currentResearchAlbum, researchEntry);
               const pilotGuidance = pilotGuidanceByTrackKey.get(`${track.discNumber}:${track.trackNumber}:${track.title}`);
               const isVersioned =
                 guidance.kind === "documented" ||
@@ -3177,14 +3196,18 @@ function AlbumDetail({
                       <strong>{track.title}</strong>
                       <small>{formatDuration(track.durationMs)}</small>
                     </div>
-                    {pilotGuidance ? (
+                    <p className="trackLead">{editorial?.description ?? guidance.leadText}</p>
+                    {editorial && (
+                      <p className="sourceNote trackEditorialSource">{editorial.sourceContext}: {editorial.sources.map(source => (
+                        <span key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>{" "}</span>
+                      ))}</p>
+                    )}
+                    {editorialAlbum && !editorial && <p className="sourceNote trackEditorialGap">No source-backed description yet. Available research is retained; this track remains an editorial evidence gap.</p>}
+                    {(editorial ? editorial.question : !editorialAlbum && pilotGuidance?.question) && (
                       <>
-                        <p className="trackListenForLabel">Listen for</p>
-                        <p className="trackListenForQuestion">{pilotGuidance.question}</p>
-                        <p className="trackLead trackLeadPilotSuppressed" aria-hidden="true">{guidance.leadText}</p>
+                        <p className="trackListenForLabel">Listen for · optional question</p>
+                        <p className="trackListenForQuestion">{editorial ? editorial.question : pilotGuidance?.question}</p>
                       </>
-                    ) : (
-                      <p className="trackLead">{guidance.leadText}</p>
                     )}
                     {guidance.kind === "loading" && (
                       <span className="trackResearchEditorialLabel">Loading track research…</span>
@@ -3216,10 +3239,10 @@ function AlbumDetail({
                           )}
                         </summary>
                         <div className="trackResearchContent">
-                          {pilotGuidance?.followUp && (
+                          {(!editorialAlbum || editorialAlbum.retainPilotGuidance) && pilotGuidance?.followUp && (
                             <p className="trackPilotFollowUp">{pilotGuidance.followUp}</p>
                           )}
-                          {pilotGuidance?.vocabulary && (
+                          {(!editorialAlbum || editorialAlbum.retainPilotGuidance) && pilotGuidance?.vocabulary && (
                             <p className="trackPilotVocabulary">
                               <strong>{pilotGuidance.vocabulary.term}</strong> — {pilotGuidance.vocabulary.definition}
                             </p>

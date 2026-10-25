@@ -1,0 +1,130 @@
+[
+  {
+    "filename": "001-marvin-gaye-what-s-going-on-fd00dde9.json",
+    "sha256": "0fd6aa701522a689f8fb3726bf30be64bfdd3b6c4570adb78171242ab07af90c",
+    "entries": 5
+  },
+  {
+    "filename": "002-the-beach-boys-pet-sounds-eabcc325.json",
+    "sha256": "cbd6849a489fb6926c2429e14ce5d51da9ab2b05f11723eed1fe4db329d6f265",
+    "entries": 12
+  },
+  {
+    "filename": "003-joni-mitchell-blue-9c3a8b85.json",
+    "sha256": "088f8be2a5f520b537891e9082aae5255d84b6febbe3364148526ff0747e96d0",
+    "entries": 8
+  },
+  {
+    "filename": "004-stevie-wonder-songs-in-the-key-of-life-0518d4f8.json",
+    "sha256": "037fb27fad7f6689b2d179ae7b37f630a904ae12256666b3be1a8ce15d0eddc6",
+    "entries": 17
+  },
+  {
+    "filename": "005-the-beatles-abbey-road-1955f3c5.json",
+    "sha256": "724e730057b5ec1058b65bcafd3dcb387cb067e9a9043df188da442ed9351c3c",
+    "entries": 9
+  },
+  {
+    "filename": "006-nirvana-nevermind-0af5df5e.json",
+    "sha256": "e0ba8ed0fae7ee8dfaf718662d03e9be6cb90a5e9afbdd0c50de0318eeadc150",
+    "entries": 12
+  },
+  {
+    "filename": "008-prince-and-the-revolution-purple-rain-e947342e.json",
+    "sha256": "1780e89c1ec55bfa4bcb9f13754f07e4f542fe166915b1947879e3e1cafff8b2",
+    "entries": 9
+  },
+  {
+    "filename": "009-bob-dylan-blood-on-the-tracks-c704391c.json",
+    "sha256": "c80ce8c3ebd0192e2f74644bd8acbd99f9d170c4aeb4fc6c562f02ee32f6f265",
+    "entries": 0
+  },
+  {
+    "filename": "010-lauryn-hill-the-miseducation-of-lauryn-hill-57da212b.json",
+    "sha256": "8aa2b15d8d6eba2b709cdaad88c7ea273f0e33f9789614c9691201b21adb6efa",
+    "entries": 14
+  },
+  {
+    "filename": "011-the-beatles-revolver-b4f3c550.json",
+    "sha256": "65e9e2f0f23f7666771c7e41dcc5c552b39df4ef79133cfaabecff0d5749f6b9",
+    "entries": 11
+  },
+  {
+    "filename": "012-michael-jackson-thriller-a46ba2f6.json",
+    "sha256": "99c7918bd1d29a6a8627c20e62c71eef466ccc4170930a7a7772693359d5fa0a",
+    "entries": 9
+  },
+  {
+    "filename": "013-aretha-franklin-i-never-loved-a-man-the-way-i-love-you-e41a23cf.json",
+    "sha256": "715a31821bc391f2b2786add5a3e01be2b450bbc113893d5c5d0e15d259b89c7",
+    "entries": 10
+  },
+  {
+    "filename": "014-the-rolling-stones-exile-on-main-st-9d89aa7d.json",
+    "sha256": "73f245b5243b3dc52e9490aab9facfb2040821aa897f7a7af414414d08efacee",
+    "entries": 15
+  },
+  {
+    "filename": "015-public-enemy-it-takes-a-nation-of-millions-to-hold-us-back-749205b0.json",
+    "sha256": "838df5e25fc043d4afb20d418555eee6f74b552c3e4ff251bff2b8329d0e8dba",
+    "entries": 14
+  },
+  {
+    "filename": "016-the-clash-london-calling-7d75cf05.json",
+    "sha256": "07eb60f2035012829cf2ae0b2e6e4c42ebc4dbc53b7c143bd7960674df39c6c7",
+    "entries": 24
+  },
+  {
+    "filename": "017-kanye-west-my-beautiful-dark-twisted-fantasy-6d18b087.json",
+    "sha256": "15888c01afbce7f541799f99b220abd9ffd4d7b1e60401eeb0a0a8f995eb685f",
+    "entries": 11
+  },
+  {
+    "filename": "018-bob-dylan-highway-61-revisited-bd0599b4.json",
+    "sha256": "4d1ac40d10ce9e7703a789f4b27dddb4ae60e7dad3202eebaa7293a305863a6a",
+    "entries": 7
+  },
+  {
+    "filename": "019-kendrick-lamar-to-pimp-a-butterfly-0dd5449a.json",
+    "sha256": "cf8d2914bde54ac20dc140bacb8da337744f1282cea3aba381e9aff4e462768a",
+    "entries": 9
+  },
+  {
+    "filename": "020-radiohead-kid-a-ce842ff2.json",
+    "sha256": "e77b1e5df1d1f1f4e845a7ec9f31902997624fa44fe4433443fdfc081f8a1419",
+    "entries": 9
+  },
+  {
+    "filename": "021-bruce-springsteen-born-to-run-21f663bb.json",
+    "sha256": "584a3880fdf096cf062fc97fd37e40a6fceb2a3c76036e3429806d39d3360430",
+    "entries": 6
+  },
+  {
+    "filename": "coverage.json",
+    "sha256": "57cdb450f9d952103d0b2992e93314d1c264e4778672cee854cc5ae89f03dc0f"
+  },
+  {
+    "filename": "review-gate.md",
+    "sha256": "8e3bad7cc9016ef2ad122723701a38ac5c4bb16af3f253d7b3657e8b17363872"
+  },
+  {
+    "filename": "approved-copy.md",
+    "sha256": "35d840accfcfc5e391645678ea7ae52792b10c30999370397e2e1737dfc8e1ab"
+  },
+  {
+    "filename": "corrections.json",
+    "sha256": "30d6befa89d1d69d0092b700e134fbe09aa656a4adee7e8cd6e3a8af4c5e96a4"
+  },
+  {
+    "filename": "semantic-review.json",
+    "sha256": "38126c7e5fc8ec378c62b6335d9401a0a6611e44ca068721fd4d017099ef2173"
+  },
+  {
+    "filename": "evidence-audit.json",
+    "sha256": "8168b991c43671693961ed0c94ed10c149d0e184dfbc3f713ce994cb08b6079a"
+  },
+  {
+    "filename": "validation.json",
+    "sha256": "1af03b6259752a11ce23845045442ff8d8b7542b964abfb32e6258e131226f84"
+  }
+]
